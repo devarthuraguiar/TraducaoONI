@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.1.2\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.1.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1359,7 +1359,7 @@ msgid ""
 "Duplicant.\n"
 "Please select a DNA blueprint:"
 msgstr ""
-"A Impressora <color=#F44A47>[H]</color> está pronta para imprimir um novo "
+"O Duplicador <color=#F44A47>[H]</color> está pronto para imprimir um novo "
 "Duplicante.\n"
 "Escolha um modelo de DNA:"
 
@@ -2210,7 +2210,7 @@ msgid ""
 "The Printing Pod can print out new Duplicants over time.\n"
 "The next one will be ready in {TimeRemaining}"
 msgstr ""
-"A Impressora pode imprimir novos Duplicantes com o tempo.\n"
+"O Duplicador pode imprimir novos Duplicantes com o tempo.\n"
 "O próximo estará pronto em {TimeRemaining}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTSON.UNAVAILABLE
@@ -3194,7 +3194,7 @@ msgid ""
 "Fire poles provide quick downward travel, while ladders provide better "
 "upward movement."
 msgstr ""
-"Postes de Bombeiros providenciam uma rápida descida, enquanto escadas melhor "
+"Postes de Bombeiro providenciam uma rápida descida, enquanto escadas melhor "
 "movimento de subida."
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT
@@ -3333,7 +3333,7 @@ msgstr ""
 "Transporta <style=\"gas\">Gás</style> entre a <style=\"GasPiping\">Entrada "
 "de Gás</style> e a <style=\"GasPiping\">Saída de Gás</style>.\n"
 "\n"
-"Pode passar pelos Blocos."
+"Pode passar pelos blocos."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.NAME"
@@ -3663,12 +3663,12 @@ msgid ""
 msgstr ""
 "Uma impressora biológica avançada de origem desconhecida.\n"
 "\n"
-"Ela periodicamente produz novos Duplicantes."
+"Ele periodicamente produz novos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.NAME"
 msgid "Printing Pod"
-msgstr "Impressora"
+msgstr "Duplicador"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.DESC"
@@ -3690,7 +3690,7 @@ msgstr ""
 "Carrega mais <style=\"power\">Potência</style> do que Cabos normais sem "
 "entrar em curto.\n"
 "\n"
-"Não pode passar por Blocos."
+"Não pode passar pelos blocos."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME"
@@ -3947,7 +3947,7 @@ msgstr ""
 "\">Entradas de Líquido</style> e <style=\"LiquidPiping\">Saídas de Líquidos</"
 "style>.\n"
 "\n"
-"Pode passar pelos Blocos."
+"Pode passar pelos blocos."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
@@ -3973,7 +3973,7 @@ msgstr ""
 "Permite que uma seção de <style=\"LiquidPiping\">Encanamento de Líquido</"
 "style> passe pela outra sem uni-las.\n"
 "\n"
-"Pode passar pelos Blocos."
+"Pode passar pelos blocos."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.NAME"
@@ -4411,7 +4411,7 @@ msgid ""
 "too little liquid."
 msgstr ""
 "Sensores de Água podem sinalizar um sistema com bombas para reencher um "
-"lavatório quando ele contém pouco líquido."
+"lavatório quando ele tem pouco líquido."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.EFFECT"
@@ -4799,8 +4799,8 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.METALREFINERY.DESC"
 msgid ""
 "Refined metals are necessary to build advanced electronics and technologies."
 msgstr ""
-"Metais refinados são necessários para construir eletrônicos e tecnologias "
-"avançadas."
+"Metais refinados são necessários para construir tecnologias e eletrônicos "
+"avançados."
 
 #. STRINGS.BUILDINGS.PREFABS.METALREFINERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALREFINERY.EFFECT"
@@ -4828,7 +4828,7 @@ msgid ""
 "Extracts pure <style=\"RefinedMetal\">{0}</style> from <style=\"RawMetal"
 "\">{1}</style>."
 msgstr ""
-"Extrai <style=\"RefinedMetal\">{0}</style> a partir de <style=\"RawMetal"
+"Extrai <style=\"RefinedMetal\">{0}</style> puro a partir de <style=\"RawMetal"
 "\">{1}</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.METALTILE.DESC
@@ -4837,7 +4837,7 @@ msgid ""
 "Heat travels much more quickly through metal tiles than other types of "
 "flooring."
 msgstr ""
-"Calor viaja muito mais rápidos por blocos de metal do que outros tipos de "
+"Calor viaja muito mais rápido em blocos de metal do que em outros tipos de "
 "piso."
 
 #. STRINGS.BUILDINGS.PREFABS.METALTILE.EFFECT
@@ -5339,7 +5339,7 @@ msgstr ""
 "Produz <style=\"solid\">Areia</style> a partir de <style=\"RawMineral"
 "\">Minerais Brutos</style>.\n"
 "\n"
-"Produz ineficientemente <style=\"solid\">Metais Refinado</style> a partir "
+"Produz ineficientemente <style=\"solid\">Metal Refinado</style> a partir "
 "<style=\"RawMetal\">Minério de Metal</style> bruto."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.METAL_RECIPE_DESCRIPTION
@@ -5406,7 +5406,7 @@ msgid ""
 "Showers remove the \"Grimy\" effect and kill all germs present on "
 "Duplicant's skin."
 msgstr ""
-"Banheiros removem o efeito \"Encardido\" e matam todos os germes presentes "
+"Banheiros removem o efeito \"Encardido\" e removem todos os germes presentes "
 "na pele de um Duplicante."
 
 #. STRINGS.BUILDINGS.PREFABS.SHOWER.EFFECT
@@ -5444,7 +5444,8 @@ msgid ""
 "Turbines are capable of industrial strength power generation with virtually "
 "no waste."
 msgstr ""
-"Turbunas são capazes de gerar energia de força insdustrial sem algum resíduo."
+"Turbunas são capazes de gerar energia de força insdustrial sem quase algum "
+"resíduo."
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT"
@@ -5485,7 +5486,7 @@ msgid ""
 "Exosuits can be filled with oxygen to allow Duplicants to safely enter "
 "uninhabitable areas."
 msgstr ""
-"Exotrajes podem ser carregas com oxigênio, permitindo os Duplicantes de "
+"Exotrajes podem ser carregados com oxigênio, permitindo os Duplicantes de "
 "entrarem tranquilamente em áreas inabitáveis."
 
 #. STRINGS.BUILDINGS.PREFABS.SUITFABRICATOR.EFFECT
@@ -5511,8 +5512,8 @@ msgid ""
 "Docks can refill exosuits with air or empty them of waste, but can only "
 "charge one suit at a time."
 msgstr ""
-"Estações podem recarregar exotrajes com ar ou limpar elas de resíduos, mas "
-"só podem recarregar uma traje de cada vez."
+"Estações podem recarregar exotrajes com ar ou limpá-los de resíduos, mas só "
+"podem recarregar um traje de cada vez."
 
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT"
@@ -5525,7 +5526,7 @@ msgstr ""
 "Armazenam e recarregam <style=\"equipment\">Exotrajes</style>.\n"
 "\n"
 "Construa próximo a um Ponto de Checagem de Exotraje para fazer os "
-"Duplicantes vestirem as trajes quando passarem."
+"Duplicantes vestirem os trajes quando passarem."
 
 #. STRINGS.BUILDINGS.PREFABS.SUITLOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.NAME"
@@ -5551,7 +5552,7 @@ msgid ""
 "\n"
 "Can be rotated before construction."
 msgstr ""
-"Marca um limite onde os Duplicantes devem tirar ou colocar a <style="
+"Marca um limite onde os Duplicantes devem tirar ou colocar o <style="
 "\"equipment\">Exotraje</style>.\n"
 "\n"
 "Precisa ser construída ao lado de uma Estação de Exotraje.\n"
@@ -5650,7 +5651,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.THERMALBLOCK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.THERMALBLOCK.NAME"
 msgid "Tempshift Plate"
-msgstr "Placa de Mudança Térmica"
+msgstr "Placa de Condução Térmica"
 
 #. STRINGS.BUILDINGS.PREFABS.TILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TILE.DESC"
@@ -5747,8 +5748,7 @@ msgid ""
 "Sieves cannot kill germs and will pass some into both the water and waste "
 "they output."
 msgstr ""
-"Purificadores não matam germes e passam parte deles na água e no resíduo "
-"produzido."
+"Filtros não matam germes e passam parte deles na água e no resíduo produzido."
 
 #. STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT
 #| msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT"
@@ -5790,7 +5790,7 @@ msgid ""
 msgstr ""
 "Conecta estruturas à fontes de <style=\"power\">Energia</style>.\n"
 "\n"
-"Pode passar pelos Blocos."
+"Pode passar pelos blocos."
 
 #. STRINGS.BUILDINGS.PREFABS.WIRE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIRE.NAME"
@@ -5803,7 +5803,7 @@ msgid ""
 "Splitting generators onto separate systems can prevent power overloads and "
 "wasted electricity."
 msgstr ""
-"Dividir geradores em sistemas separadaos pode previnir sobrecargas e "
+"Dividir geradores em sistemas separados pode previnir sobrecargas e "
 "desperdício de eletricidade."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGE.EFFECT
@@ -5815,7 +5815,7 @@ msgid ""
 msgstr ""
 "Permite que uma seção de fio passe sobre a outra sem unir os circuitos.\n"
 "\n"
-"Pode passar pelo Bloco."
+"Pode passar pelos blocos."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREBRIDGE.NAME"
@@ -5844,7 +5844,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.NAME"
 msgid "Heavi-Watt Joint Plate"
-msgstr "Adaptador de Cabo de Potente"
+msgstr "Adaptador de Cabo Potente"
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC"
@@ -5861,7 +5861,7 @@ msgid ""
 msgstr ""
 "Conecta estruturas à fontes de <style=\"power\">Energia</style>.\n"
 "\n"
-"Pode passar pelos nlocos."
+"Pode passar pelos blocos."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINED.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINED.NAME"
@@ -5886,7 +5886,7 @@ msgid ""
 msgstr ""
 "Permite que uma seção de fio passe sobre a outra sem unir os circuitos.\n"
 "\n"
-"Pode passar por blocos."
+"Pode passar pelos blocos."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGE.NAME"
@@ -5915,7 +5915,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.NAME"
 msgid "Heavi Conductive Joint Plate"
-msgstr "Adaptador de Cabo de Alta Potência"
+msgstr "Adaptador de Cabo Potente Condutivo"
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.DESC"
@@ -5937,7 +5937,7 @@ msgstr ""
 "Carrega mais <style=\"power\">Potência</style> do que Cabos comuns sem "
 "entrar em curto.\n"
 "\n"
-"Não pode passar por blocos."
+"Não pode passar pelos blocos."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDHIGHWATTAGE.NAME"
@@ -5978,7 +5978,7 @@ msgstr "Empacotado {0}"
 #, fuzzy
 msgctxt "STRINGS.CREATURES.CROP_EFFECTS.ADD_SEEDS.DESC"
 msgid "<style=\"produced\">+{0}</style> <style=\"seed\">{1}</style> {2}"
-msgstr "855<style=\"produced\">+{0}</style> <style=\"seed\">{1}</style> {2}"
+msgstr "<style=\"produced\">+{0}</style> <style=\"seed\">{1}</style> {2}"
 
 #. STRINGS.CREATURES.CROP_EFFECTS.ADD_SEEDS.FINAL_HARVEST_ONLY
 msgctxt "STRINGS.CREATURES.CROP_EFFECTS.ADD_SEEDS.FINAL_HARVEST_ONLY"
@@ -6003,7 +6003,7 @@ msgstr ""
 #, fuzzy
 msgctxt "STRINGS.CREATURES.CROP_EFFECTS.MODIFY_HARVEST_UNITS.DESC"
 msgid "<style=\"produced\">{0}</style> <style=\"food\">{1}</style>"
-msgstr "859<style=\"produced\">{0}</style> <style=\"food\">{1}</style>"
+msgstr "<style=\"produced\">{0}</style> <style=\"food\">{1}</style>"
 
 #. STRINGS.CREATURES.CROP_EFFECTS.MODIFY_HARVEST_UNITS.TOOLTIP
 msgctxt "STRINGS.CREATURES.CROP_EFFECTS.MODIFY_HARVEST_UNITS.TOOLTIP"
@@ -6035,7 +6035,7 @@ msgid ""
 "Muckroots are incapable of propagating but can be harvested for a single "
 "<style=\"food\">Food</style> serving."
 msgstr ""
-"Nabos são incapazes de se propagar mas podem ser colhidos como uma única "
+"Nabos são incapazes de reproduzir mas podem ser colhidos como uma única "
 "porção de <style=\"food\">Comida</style>."
 
 #. STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.NAME
@@ -6720,9 +6720,10 @@ msgid "Consuming"
 msgstr "Consumindo"
 
 #. STRINGS.CREATURES.STATS.IRRIGATION.NAME
+#, fuzzy
 msgctxt "STRINGS.CREATURES.STATS.IRRIGATION.NAME"
 msgid "Irrigation"
-msgstr "Irrigação"
+msgstr "Irrigando"
 
 #. STRINGS.CREATURES.STATS.MATURITY.AMOUNT_DESC_FMT
 msgctxt "STRINGS.CREATURES.STATS.MATURITY.AMOUNT_DESC_FMT"
@@ -6856,7 +6857,7 @@ msgstr "Estéril"
 #. STRINGS.CREATURES.STATUSITEMS.BARREN.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BARREN.TOOLTIP"
 msgid "This plant will produce no more seeds"
-msgstr "Essa planta não pode produzirá mais sementes"
+msgstr "Essa planta não produzirá mais sementes"
 
 #. STRINGS.CREATURES.STATUSITEMS.BREATH.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BREATH.NAME"
@@ -6971,7 +6972,7 @@ msgstr "Exposição a Poluição"
 #. STRINGS.CREATURES.STATUSITEMS.CONTAMINATEDATMOSPHERE.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CONTAMINATEDATMOSPHERE.TOOLTIP"
 msgid "Exposure to contaminants is accelerating this food's decay rate"
-msgstr "Exposição a contaminantes está acelerando o apodrecimento desta comida"
+msgstr "Exposição à contaminantes está acelerando o apodrecimento desta comida"
 
 #. STRINGS.CREATURES.STATUSITEMS.COOLING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.COOLING.NAME"
@@ -7087,7 +7088,7 @@ msgstr "Exalando"
 #. STRINGS.CREATURES.STATUSITEMS.EXHALING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXHALING.TOOLTIP"
 msgid "This creature is expelling gas from its lungsacs"
-msgstr "Expelindo ar"
+msgstr "Essa criatura está expelindo gás de seu pulmão"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.NAME"
@@ -7102,7 +7103,7 @@ msgid ""
 "This creature's environment is {0}"
 msgstr ""
 "Temperatura Externa\n"
-"----------\n"
+"------------------\n"
 "O ambiente dessa criatura é {0}"
 
 #. STRINGS.CREATURES.STATUSITEMS.FALLING.NAME
@@ -7173,7 +7174,7 @@ msgstr "Lesões: {healthState}"
 #. STRINGS.CREATURES.STATUSITEMS.HEALTHSTATUS.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HEALTHSTATUS.TOOLTIP"
 msgid "Current physical status: {healthState}"
-msgstr "Estado físico atual: {healthStateTooltip}"
+msgstr "Estado físico atual: {healthState}"
 
 #. STRINGS.CREATURES.STATUSITEMS.HIGH_YIELD.LINE_ITEM
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HIGH_YIELD.LINE_ITEM"
@@ -7209,7 +7210,7 @@ msgid ""
 msgstr ""
 "Essa criatura não consegue liberar calor suficiente para se manter fria\n"
 "\n"
-"Prefere temperaturas entre {0} e {1}"
+"Ela prefere temperaturas entre {0} e {1}"
 
 #. STRINGS.CREATURES.STATUSITEMS.HOT_CROP.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HOT_CROP.NAME"
@@ -7568,9 +7569,7 @@ msgstr "Não Refrigerado"
 #. STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP"
 msgid "Temperatures above {RotTemperature} spoil food more quickly"
-msgstr ""
-"Temperaturas acima de <style=\"heat\">{RotTemperature}</style> estragam a "
-"comida mais rápido"
+msgstr "Temperaturas acima de {RotTemperature} estragam a comida mais rápido"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING.NAME"
@@ -9503,7 +9502,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.DISEASES.ATTRIBUTE_MODIFIER_SYMPTOMS_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ATTRIBUTE_MODIFIER_SYMPTOMS_TOOLTIP"
 msgid "Modifies {0} by {1}"
-msgstr "Modifica {0} por {1}"
+msgstr "Modifica {0} em {1}"
 
 #. STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.DESCRIPTION"
@@ -9782,7 +9781,7 @@ msgstr "Infecção Alimentar"
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.VOMIT_SYMPTOM
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.VOMIT_SYMPTOM"
 msgid "Vomiting"
-msgstr "Vomitando"
+msgstr "Vômito"
 
 #. STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.VOMIT_SYMPTOM_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.VOMIT_SYMPTOM_TOOLTIP"
@@ -11892,7 +11891,7 @@ msgstr "Max"
 #. STRINGS.DUPLICANTS.PERSONALITIES.MEEP.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MEEP.DESC"
 msgid "{0}s have a face only a two tonne Printing Pod could love."
-msgstr "{0}s possuem um rosto que só uma Impressora poderia amar."
+msgstr "{0}s possuem um rosto que só um Duplicador poderia amar."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.MEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MEEP.NAME"
@@ -17130,82 +17129,82 @@ msgstr ""
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCRASHSIM
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCRASHSIM"
 msgid "DebugCrashSim"
-msgstr ""
+msgstr "DebugCrashSim"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDIG
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDIG"
 msgid "DebugDig"
-msgstr ""
+msgstr "DebugCavar"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDISCOVERALLELEMENTS
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDISCOVERALLELEMENTS"
 msgid "DebugDiscoverAllElements"
-msgstr ""
+msgstr "DebugDescobrirTodosElementos"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPEVENTDATA
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPEVENTDATA"
 msgid "DebugDumpEventData"
-msgstr ""
+msgstr "DebugDumpEventData"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGARBAGEREFERENCES
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGARBAGEREFERENCES"
 msgid "DebugDumpGarbageReferences"
-msgstr ""
+msgstr "DebugDumpGarbageReferences"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPSCENEPARITIONERLEAKDATA
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPSCENEPARITIONERLEAKDATA"
 msgid "DebugDumpSceneParitionerLeakData"
-msgstr ""
+msgstr "DebugDumpSceneParitionerLeakData"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGELEMENTTEST
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGELEMENTTEST"
 msgid "DebugElementTest"
-msgstr ""
+msgstr "DebugElementTest"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGEXPLOSION
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGEXPLOSION"
 msgid "DebugExplosion"
-msgstr ""
+msgstr "DebugExplosão"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFOCUS
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFOCUS"
 msgid "DebugFocus"
-msgstr ""
+msgstr "DebugFocus"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFORCELIGHTEVERYWHERE
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFORCELIGHTEVERYWHERE"
 msgid "DebugForceLightEverywhere"
-msgstr ""
+msgstr "DebugForceLightEverywhere"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGAMESTEP
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGAMESTEP"
 msgid "DebugGameStep"
-msgstr ""
+msgstr "DebugGameStep"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGOTOTARGET
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGOTOTARGET"
 msgid "DebugGotoTarget"
-msgstr ""
+msgstr "DebugGotoTarget"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINSTANTBUILDMODE
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINSTANTBUILDMODE"
 msgid "DebugInstantBuildMode"
-msgstr ""
+msgstr "DebugConstruirInstantâneo"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINVINCIBLE
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINVINCIBLE"
 msgid "DebugInvincible"
-msgstr ""
+msgstr "DebugInvincible"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION"
 msgid "DebugNotification"
-msgstr ""
+msgstr "DebugNotification"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATIONMESSAGE
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATIONMESSAGE"
 msgid "DebugNotificationMessage"
-msgstr ""
+msgstr "DebugNotificationMessage"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPATHFINDING
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPATHFINDING"
@@ -17225,12 +17224,12 @@ msgstr ""
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGRELOADLEVEL
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGRELOADLEVEL"
 msgid "DebugReloadLevel"
-msgstr ""
+msgstr "DebugRecarregarNível"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGRELOADMODS
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGRELOADMODS"
 msgid "DebugReloadMods"
-msgstr ""
+msgstr "DebugRecarregarMods"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREPORTBUG
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREPORTBUG"
@@ -17270,7 +17269,7 @@ msgstr ""
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT"
 msgid "DebugTeleport"
-msgstr ""
+msgstr "DebugTeleporte"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTILETEST
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTILETEST"
@@ -18548,7 +18547,7 @@ msgid ""
 msgstr ""
 "- Utilize <style=\"misc\">WASD</style> para mover sua câmera e a <style="
 "\"misc\">RODA DO MOUSE</style> para dar zoom. <color=#F44A47><b>[H]</b></"
-"color> centra sua câmera na Impressora.\n"
+"color> centra sua câmera no Duplicador.\n"
 "\n"
 "- Sua simulação pode ser acelerada ou desacelerada usando os botões de "
 "velocidade na parte superior esquerda, ou apertando <color=#F44A47><b>[TAB]</"
@@ -22520,7 +22519,7 @@ msgstr "Destilação"
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC"
 msgid "Prevent your Duplicants from getting into dangerous situations."
-msgstr ""
+msgstr "Previna seus Duplicantes de entrar em situações perigosas."
 
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME"
@@ -23054,7 +23053,7 @@ msgstr "Tamanho mínimo: {0} células"
 #. STRINGS.ROOMS.CRITERIA.NEUTRAL_TYPE
 msgctxt "STRINGS.ROOMS.CRITERIA.NEUTRAL_TYPE"
 msgid "Enclosed by wall tiles and doors"
-msgstr "Circundado por blocos de parede e portas"
+msgstr "Circundado pelos blocos de parede e portas"
 
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION"
@@ -28038,7 +28037,7 @@ msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONBODY"
 msgid ""
 "The Printing Pod will need time to recharge if you Ooze these Duplicants."
 msgstr ""
-"A Impressora precisará de tempo para recarregar se você imprimir esses "
+"O Duplicador precisará de tempo para recarregar se você imprimir esses "
 "Duplicantes."
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE
@@ -29648,7 +29647,7 @@ msgstr "Painel Temperatura"
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.COLD
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.COLD"
 msgid "Chilled"
-msgstr "Gelado"
+msgstr "Frio"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.EXTREMECOLD
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.EXTREMECOLD"
@@ -29688,7 +29687,7 @@ msgstr "Temperaturas atingindo {0}"
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.VERYCOLD
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.VERYCOLD"
 msgid "Cold"
-msgstr "Frio"
+msgstr "Gelado"
 
 #. STRINGS.UI.OVERLAYS.TEMPERATURE.VERYHOT
 msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.VERYHOT"
