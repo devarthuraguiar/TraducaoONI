@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.0.3\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.1.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -122,8 +122,8 @@ msgstr "Essa estrutura requer o toque artístico de um Duplicante"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME"
-msgid "Awaiting Delivery"
-msgstr "Aguardando Entrega"
+msgid "Awaiting Bait"
+msgstr "Aguardando Isca"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.TOOLTIP"
@@ -149,8 +149,8 @@ msgstr "Aguardando Combustível: ({0})"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGFUEL.TOOLTIP"
-msgid "This building requires {1} of {0} in order to operate."
-msgstr "Essa estrutura requer {1} de {0} para operar."
+msgid "This building requires {1} of {0} to operate"
+msgstr "Essa estrutura requer {1} de {0} para operar"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGSEEDDELIVERY.NAME"
@@ -279,18 +279,42 @@ msgstr "Aguardando um Duplicante mudar o estado da porta"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_CLOSED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_CLOSED"
-msgid "Closed by Automation Circuit"
-msgstr "Fechado por Circuito Automatizado"
+msgid "Clearance: Not Permitted"
+msgstr "Remoção: Proibído"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_DISCONNECTED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_DISCONNECTED"
-msgid "No Automation Signal"
-msgstr "Sem Sinal Automatizado"
+msgid "No Automation"
+msgstr "Sem Automação"
 
 #. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_OPEN
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_OPEN"
-msgid "Opened by Automation Circuit"
-msgstr "Aberto por Circuito Automatizado"
+msgid "Clearance: Permitted"
+msgstr "Remoção: Permitido"
+
+#. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED
+msgctxt ""
+"STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_CLOSED"
+msgid "Automated Checkpoint is Active, allowing Duplicants to pass"
+msgstr ""
+"Ponto de Checagem Automatizado está ativo, permitindo os Duplicantes de "
+"passar"
+
+#. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_DISCONNECTED
+msgctxt ""
+"STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS."
+"LOGIC_CONTROLLED_DISCONNECTED"
+msgid "This Checkpoint has not been connected to an automation grid"
+msgstr ""
+"Esse Ponto de Checagem não está conectado à nenhum circuito de automação"
+
+#. STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN
+msgctxt ""
+"STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.TOOLTIPS.LOGIC_CONTROLLED_OPEN"
+msgid "Automated Checkpoint is on Standby, preventing Duplicants from passing"
+msgstr ""
+"Ponto de Checagem Automatizado está em Espera, previnindo Duplicantes de "
+"passar"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLINICOUTSIDEHOSPITAL.NAME"
@@ -640,13 +664,13 @@ msgstr "Essa estação de bombeamento não consegue acessar líquidos"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.NAME"
-msgid "Waiting For Coolant"
+msgid "Awaiting Coolant"
 msgstr "Esperando Refriador"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP"
-msgid "Production can't start until there's at least {1} of {0} in storage."
-msgstr "Produção não pode iniciar enquanto não existir {1} de {0} armazenado."
+msgid "{1} of {0} must be present in storage to begin production"
+msgstr "{1} de {0} precisa estar presente na armazenagem para iniciar produção"
 
 #. STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ENTOMBED.NAME"
@@ -998,12 +1022,12 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_DISABLED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_DISABLED"
-msgid "Disabled by Automation Circuit"
+msgid "Disabled by Automation Grid"
 msgstr "Desativado por Circuito Automatizado"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_ENABLED
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC.LOGIC_CONTROLLED_ENABLED"
-msgid "Enabled by Automation Circuit"
+msgid "Enabled by Automation Grid"
 msgstr "Ativado por Circuito Automatizado"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.NAME
@@ -1014,17 +1038,15 @@ msgstr "Loop de Realimentação"
 #. STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.TOOLTIP"
 msgid ""
-"Logic circuits cannot work with feedback loops in the circuit.\n"
+"Feedback loops prevent automation grids from functioning\n"
 "\n"
-"A feedback loop occurs when the Output value of a logic element can make its "
-"way back to the Input of that same logic element through any possible route."
+"Feedback loops occur when the Output of an automated building connects back "
+"to its own Input through the Automation grid"
 msgstr ""
-"Circuitos lógicos não conseguem trabalhar com loops de realimentação no "
-"circuito.\n"
+"Loops de Realimentação previne circuitos automatizados de funcionar\n"
 "\n"
-"Um loop de realimentação ocorre quando o valor de Saída de um elemento "
-"lógico consegue retornar para a Entrada do mesmo elemento lógico por "
-"qualquer rota possível."
+"Um loop de realimentação ocorre quando a saída de uma estrutura automatizada "
+"se conecta à sua própria entrada por meio do circuito Automatizado"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOOKINGGREAT.NAME"
@@ -1434,7 +1456,7 @@ msgstr "Nenhum Cabo Automatizado Conectado"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP"
-msgid "This building has not been connected to an automation circuit"
+msgid "This building has not been connected to an automation grid"
 msgstr "Essa estrutura não está conectada à nenhum circuito de automação"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.NAME
@@ -4206,14 +4228,14 @@ msgid ""
 "Becomes <style=\"logic\">Active</style> if the system connected to its Input "
 "is <style=\"logic\">Active</style>.\n"
 "\n"
-"Stays <style=\"logic\">Active</style> for a short time after its Input goes "
-"into <style=\"logic\">Standby</style>."
+"Stays <style=\"logic\">Active</style> for a short time after its Input "
+"enters <style=\"logic\">Standby</style>."
 msgstr ""
-"Fica <style=\"logic\">Ativo</style> se o sistema conectado à entrada está "
+"Fica <style=\"logic\">Ativo</style> se o sistema conectado à Entrada está "
 "<style=\"logic\">Ativo</style>.\n"
 "\n"
-"Fica <style=\"logic\">Ativo</style> por um curto tempo depois que sua "
-"Entrada ficou em <style=\"logic\">Espera</style>."
+"Fica <style=\"logic\">Ativo</style> por um certo tempo depois que sua "
+"Entrada fica em <style=\"logic\">Espera</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEBUFFER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEBUFFER.NAME"
@@ -4229,7 +4251,7 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.EFFECT"
 msgid ""
 "Enters <style=\"logic\">Standby</style> if the system connected to its Input "
-"is also in <style=\"logic\">Standby</style> mode.\n"
+"is also on <style=\"logic\">Standby</style>.\n"
 "\n"
 "Stays in <style=\"logic\">Standby</style> for a short time after its Input "
 "becomes <style=\"logic\">Active</style>."
@@ -4237,7 +4259,7 @@ msgstr ""
 "Entra em <style=\"logic\">Espera</style> se o sistema conectado à sua "
 "Entrada também está em <style=\"logic\">Espera</style>.\n"
 "\n"
-"Fica em <style=\"logic\">Espera</style> por um curto tempo depois que sua "
+"Fica em <style=\"logic\">Espera</style> por um certo tempo depois que sua "
 "Entrada ficou <style=\"logic\">Ativa</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.NAME
@@ -5722,29 +5744,36 @@ msgstr "Pia"
 #. STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.DESC"
 msgid ""
-"Distillers cannot kill germs and pass some disease contamination they "
-"receive into their waste output."
+"Sieves cannot kill germs and will pass some into both the water and waste "
+"they output."
 msgstr ""
-"Purificadores não matam germes e passam parte das doenças quando recebem "
-"resíduos."
+"Purificadores não matam germes e passam parte deles na água e no resíduo "
+"produzido."
 
 #. STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT"
+#| msgid ""
+#| "Uses <style=\"misc\">Sand</style> to filter <style=\"liquid\">Polluted "
+#| "Water</style>.\n"
+#| "\n"
+#| "Produces <style=\"RawMineral\">Polluted Dirt</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT"
 msgid ""
-"Uses <style=\"misc\">Sand</style> to filter <style=\"liquid\">Polluted "
-"Water</style>.\n"
+"Produces clean <style=\"liquid\">Water</style> from <style=\"liquid"
+"\">Polluted Water</style> using <style=\"misc\">Sand</style>.\n"
 "\n"
 "Produces <style=\"RawMineral\">Polluted Dirt</style>."
 msgstr ""
-"Usa <style=\"misc\">Areia</style> para purificar <style=\"liquid\">Água "
-"Poluída</style>.\n"
+"Produz <style=\"liquid\">Água</style> limpa a partir de <style=\"liquid"
+"\">Água Poluída</style> usando <style=\"misc\">Areia</style>.\n"
 "\n"
 "Produz <style=\"RawMineral\">Terra Poluída</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.NAME
+#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.NAME"
-msgid "Water Distiller"
-msgstr "Purificador de Água"
+msgid "Water Sieve"
+msgstr "Filtro de Água"
 
 #. STRINGS.BUILDINGS.PREFABS.WIRE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIRE.DESC"
@@ -5796,11 +5825,10 @@ msgstr "Ponte de Cabo Elétrico"
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.DESC"
 msgid ""
-"Joint plates can run Heavi-Watt wires through walls without leaking gas or "
-"liquid."
+"Joint plates can run Heavi wires through walls without leaking gas or liquid."
 msgstr ""
-"Adaptadores podem permitir a passagem de Cabos de Alta Potência pelas "
-"paredes sem permitir a passagem de gás ou líquido."
+"Adaptadores permitem que os Cabos Potentes passem pelas paredes sem vazar "
+"gás ou líquido."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.EFFECT"
@@ -5820,10 +5848,9 @@ msgstr "Adaptador de Cabo de Alta Potência"
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC"
-msgid ""
-"Electrical wire is used to connect generators, batteries, and buildings."
+msgid "Duplicants prefer the appearance of conductive wire to regular wire."
 msgstr ""
-"Cabos elétricos são usados para conectar geradores, baterias e estruturas."
+"Duplicantes preferem a aparência do cabo condutivo do que cabos normais."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINED.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINED.EFFECT"
@@ -5869,11 +5896,10 @@ msgstr "Ponte de Cabo Condutivo"
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.DESC"
 msgid ""
-"Joint plates can run Heavi-Watt wires through walls without leaking gas or "
-"liquid."
+"Joint plates can run Heavi wires through walls without leaking gas or liquid."
 msgstr ""
-"Adaptadores podem permitir a passagem de Cabos de Alta Potência pelas "
-"paredes sem permitir a passagem de gás ou líquido."
+"Adaptadores permitem que os Cabos Potentes passem pelas paredes sem vazar "
+"gás ou líquido."
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINEDBRIDGEHIGHWATTAGE.EFFECT"
@@ -7715,8 +7741,8 @@ msgstr "{0} Velocidade de Decoração"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.DESC"
-msgid "Determines a Duplicant's default movement speed."
-msgstr "Determina a velocidade de movimento de um Duplicante."
+msgid "Determines a Duplicant's default runspeed."
+msgstr "Determina a velocidade de movimento padrão de um Duplicante."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.NAME"
@@ -7730,7 +7756,7 @@ msgstr "Corredor"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.SPEEDMODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.SPEEDMODIFIER"
-msgid "{0} Movement Speed"
+msgid "{0} Runspeed"
 msgstr "{0} Velocidade de Movimento"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BASE_VALUE
@@ -10879,7 +10905,7 @@ msgstr "Bom Banheiro"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.TOOLTIP"
-msgid "This Duplicant used toilet in a nice bathroom"
+msgid "This Duplicant used a toilet in a nice bathroom"
 msgstr "Esse Duplicante usou o vaso em um bom banheiro"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.RECOVERINGBREATH.NAME
@@ -13163,8 +13189,8 @@ msgstr "Compactando {Item}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.TOOLTIP"
-msgid "This Duplicant is trying to produce an edible {Item}"
-msgstr "Esse Duplicante está tentando produzir um {item} comestível"
+msgid "This Duplicant is cooking a {Item}"
+msgstr "Esse Duplicante está cozinhando um {Item}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NERVOUSBREAKDOWN.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NERVOUSBREAKDOWN.NAME"
@@ -13778,7 +13804,7 @@ msgstr "Armazenando {Item}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STORING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STORING.TOOLTIP"
-msgid "This Duplicant is putting {Item} in {Target}"
+msgid "This Duplicant is putting {Item} away in {Target}"
 msgstr "Esse Duplicante está colocando {Item} no {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STRESS_SIGNAL_AGGRESIVE.NAME
@@ -22360,7 +22386,7 @@ msgstr "Painel de Exotraje"
 #. STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.DESC"
 msgid ""
-"Basic technologies for filting <style=\"liquid\">Liquid</style> and <style="
+"Basic technologies for filtering <style=\"liquid\">Liquid</style> and <style="
 "\"gas\">Gas</style>."
 msgstr ""
 "Tecnologias básicas para a filtrar <style=\"liquid\">Líquidos</style> e "
@@ -22492,7 +22518,7 @@ msgstr "Destilação"
 
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.DESC"
-msgid ""
+msgid "Prevent your Duplicants from getting into dangerous situations."
 msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME
@@ -22542,7 +22568,7 @@ msgstr "Ventilação"
 #. STRINGS.RESEARCH.TECHS.GENERICSENSORS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.GENERICSENSORS.DESC"
 msgid "Drive automation in brand new ways."
-msgstr "Leve a automação de maneiras completamente novas."
+msgstr "Leve a automação em formas completamente novas."
 
 #. STRINGS.RESEARCH.TECHS.GENERICSENSORS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.GENERICSENSORS.NAME"
@@ -22579,8 +22605,8 @@ msgstr "Combustíveis Fósseis"
 #. STRINGS.RESEARCH.TECHS.IMPROVEDGASPIPING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDGASPIPING.DESC"
 msgid ""
-"<style=\"gas\">Gas</style> infrastructure capable of within more intense "
-"conditions, such as <style=\"heat\">Heat</style> and pressure."
+"<style=\"gas\">Gas</style> infrastructure capable of withstanding more "
+"intense conditions, such as <style=\"heat\">Heat</style> and pressure."
 msgstr ""
 "Infraestrutura de <style=\"gas\">Gases</style> capaz de lidar com condições "
 "mais intensas, como <style=\"heat\">Calor</style> e pressão."
@@ -22593,7 +22619,7 @@ msgstr "Ventilação Melhorada"
 #. STRINGS.RESEARCH.TECHS.IMPROVEDLIQUIDPIPING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDLIQUIDPIPING.DESC"
 msgid ""
-"<style=\"liquid\">Liquid</style> infrastructure capable of within more "
+"<style=\"liquid\">Liquid</style> infrastructure capable of withstanding more "
 "intense conditions, such as <style=\"heat\">Heat</style> and pressure."
 msgstr ""
 "Infraestrutura de <style=\"liquid\">Líquidos</style> capaz de lidar com "
@@ -22811,8 +22837,8 @@ msgstr "Saneamento"
 
 #. STRINGS.RESEARCH.TECHS.SMELTING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.DESC"
-msgid "High temperatures allow more efficient metal fabrication"
-msgstr "Altas temperaturas permitem fabricação de metais mais eficientes"
+msgid "High temperatures allow more efficient metal fabrication."
+msgstr "Altas temperaturas permitem fabricação de metais mais eficientes."
 
 #. STRINGS.RESEARCH.TECHS.SMELTING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.NAME"
@@ -23904,10 +23930,10 @@ msgid ""
 "finishes processing an order\n"
 "\n"
 "The temperature of the coolant will be raised depending on how much energy "
-"was require to cool the product"
+"was required to cool the product"
 msgstr ""
-"Essa estrutura irá precisar de {1} de {0} por uso de resfriador, toda vez "
-"que ela terminar de processar uma ordem\n"
+"Essa estrutura irá precisar de {1} de {0} como resfriador, toda vez que ela "
+"terminar de processar uma ordem\n"
 "\n"
 "A temperatura do resfriador aumentará conforme a quantidade de energia que "
 "foi necessária para esfriar o produto"
@@ -27174,11 +27200,11 @@ msgstr "Chave de geração do mundo"
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
-"<b>Welcome to the Oil Upgrade!</b>\n"
+"<b>Welcome to the Automation Upgrade!</b>\n"
 "\n"
 "{0}"
 msgstr ""
-"<b>Bem vindo a Atualização do Petróleo!</b>\n"
+"<b>Bem vindo a Atualização da Automação!</b>\n"
 "\n"
 "{0}"
 
@@ -27192,29 +27218,45 @@ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
 "<b>Update Features:</b>\n"
 "\n"
-"• New Oil Biome and Oil Geysers\n"
-"• New resources including Crude Oil, Petroleum, Naphtha, Plastic and "
-"Diamond\n"
-"• New rechargeable Exosuits for Duplicants to wear\n"
-"• New Rooms system and accompanying overlay\n"
-"• Revamped research tree and dozens of new buildings to unlock\n"
-"• Bug fixes, performance improvements, new plants, creatures and more."
+"• New buildings for base automation including sensors, switches, logic "
+"gates, and Duplicant checkpoints\n"
+"• Automation inputs for existing buildings and new automatable system "
+"shutoffs\n"
+"• Two new ore processing buildings for Metal refinement\n"
+"• Revamped tech tree with new research tiers, buildings, and overlays\n"
+"• Bug fixes and performance improvements\n"
+"\n"
+"<b>Other Notable Changes:</b>\n"
+"\n"
+"• Automatic power switches have been replaced by Automation sensors and can "
+"no longer directly control power\n"
+"• Oil and oil products will now properly freeze at low temperatures\n"
+"\n"
+"Please view the full patch notes for further details!"
 msgstr ""
 "<b>Recursos da Atualização:</b>\n"
 "\n"
-"• Novo Bioma de óleo e Gêiseres de Óleo\n"
-"• Novos recursos incluindo Petróleo Bruto, Petróleo, Nafta, Plástico e "
-"Diamante\n"
-"• Novos Exotrajes recarregáveis para os Duplicantes vestirem\n"
-"• Novo sistema de Salas e painel de acompanhamento\n"
+"• Novas estruturas para automação da base incluindo sensores, alavancas, "
+"portões lógicos, e pontos de checagem de Duplicante\n"
+"• Entradas de automação para estruturas já existentes e novos "
+"interrompedores automatizados\n"
+"• Duas novas estruturas de processamento de minério para refinação de "
+"Metais\n"
 "• Árvore de Pesquisa renovada e várias novas estruturas para desbloquear\n"
-"• Correção de erros, melhoras na performance, novas plantas, criaturas e "
-"mais."
+"• Correção de erros e melhoras na performance\n"
+"\n"
+"<b>Outras mudanças notáveis:</b>\n"
+"\n"
+"• Alavancas elétricas automáticas foram substituídas pelos sensores "
+"Automatizados e não controlarão a energia elétrica diretamente\n"
+"• Petróleo e os seus derivados agora irão congelar em baixas temperaturas\n"
+"\n"
+"Por favor, veja as notas de atualização para mais detalhes!"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-msgid "OIL UPGRADE"
-msgstr "ATUALIZAÇÃO DO PETRÓLEO"
+msgid "AUTOMATION UPGRADE"
+msgstr "ATUALIZAÇÃO AUTOMAÇÃO"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT"
@@ -28993,7 +29035,7 @@ msgstr "Painel Automação"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.CIRCUIT_STATUS_HEADER
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.CIRCUIT_STATUS_HEADER"
-msgid "CIRCUIT STATUS"
+msgid "GRID STATUS"
 msgstr "ESTADO DO CIRCUITO"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.DISCONNECTED
@@ -29003,8 +29045,8 @@ msgstr "DESCONECTADO"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.INPUT"
-msgid "Input"
-msgstr "Entrada"
+msgid "Input Port"
+msgstr "Porta de Entrada"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.NAME
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.NAME"
@@ -29018,23 +29060,33 @@ msgstr "Ativo"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.OUTPUT"
-msgid "Output"
-msgstr "Saída"
+msgid "Output Port"
+msgstr "Porta de Saída"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.DISCONNECTED"
-msgid "This port is not connected to an automation circuit"
-msgstr "Esse portão não está conectado à nenhum circuito de automação"
+msgid "This port is not connected to an automation grid"
+msgstr "Essa porta não está conectada à nenhum circuito automatizado"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT"
-msgid "Reads from the connected automation circuit"
-msgstr "Lê do circuito de automação conectado"
+msgid "Receives a signal from an automation grid"
+msgstr "Recebe um sinal de um circuito automatizado"
+
+#. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ONE
+msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ONE"
+msgid "These ports are currently active"
+msgstr "Essas portas estão atualmente ativas"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT"
-msgid "Writes to the connected automation circuit "
-msgstr "Escreve no circuito de automação conectado "
+msgid "Sends a signal out to an automation grid"
+msgstr "Envia um sinal para o circuito automatizado"
+
+#. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO
+msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO"
+msgid "These ports are currently on standby"
+msgstr "Essas portas estão em Espera"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.ZERO"
@@ -30538,8 +30590,8 @@ msgstr "Mostra componentes de um encanamento de líquidos"
 
 #. STRINGS.UI.TOOLTIPS.LOGICOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.LOGICOVERLAYSTRING"
-msgid "Displays automation systems"
-msgstr "Mostra sistemas de automação"
+msgid "Displays automation grid components"
+msgstr "Mostra os componentes de um circuito automatizado"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CONSUMABLES
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CONSUMABLES"
@@ -30797,8 +30849,8 @@ msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.SUITOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.SUITOVERLAYSTRING"
-msgid "Displays suit locations"
-msgstr "Mostra os locais dos trajes"
+msgid "Displays Exosuits and related buildings"
+msgstr "Mostra os locais dos Exotrajes e estruturas relacionadas"
 
 #. STRINGS.UI.TOOLTIPS.TEMPERATUREOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.TEMPERATUREOVERLAYSTRING"
@@ -31292,6 +31344,18 @@ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.KG"
 msgid "- {0}: {1}\n"
 msgstr ""
 
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED"
+msgid "No recipes discovered"
+msgstr "Nenhuma receita descoberta"
+
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY"
+msgid "Look for new ingredients and materials in the world to unlock recipes."
+msgstr ""
+"Procure por novos ingredientes e materiais no mundo para desbloquear "
+"receitas."
+
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPESELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPESELECTED"
 msgid "No recipe selected"
@@ -31323,6 +31387,11 @@ msgstr "<b>Efeitos:</b>"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.SELECTRECIPE"
 msgid "Select a recipe to fabricate."
 msgstr "Escolha uma receita para fabricar."
+
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.SUBTITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.SUBTITLE"
+msgid "Recipes"
+msgstr "Receitas"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE"
@@ -31435,22 +31504,22 @@ msgstr "Vacilação Neural em andamento."
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TITLE"
-msgid "Automation Delay Time"
-msgstr "Tempo de atraso da Automação"
+msgid "Active Buffer Time"
+msgstr "Tempo de Buffer Ativo"
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP"
 msgid ""
-"After this Input goes on standby, the Output will active for the set amount "
-"of time."
+"This gate will continue to send an Active signal for {0} seconds after "
+"entering Standby"
 msgstr ""
-"Depois que essa Entrada entrar em espera, a saída continuará ativa por um "
-"certo período de tempo."
+"Esse portão irá continuar a enviar um sinal Ativo por {0} segundos até "
+"entrar em Espera"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS"
-msgid "{0} will attract {1}s"
-msgstr "{0} irá atrair {1}s"
+msgid "Attract {1}s"
+msgstr "Atrai {1}s"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.AWAITINGDELIVERY
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.AWAITINGDELIVERY"
@@ -33489,6 +33558,116 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME"
+#~ msgid "Awaiting Delivery"
+#~ msgstr "Aguardando Entrega"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_CLOSED"
+#~ msgid "Closed by Automation Circuit"
+#~ msgstr "Fechado por Circuito Automatizado"
+
+#~ msgctxt ""
+#~ "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_DISCONNECTED"
+#~ msgid "No Automation Signal"
+#~ msgstr "Sem Sinal Automatizado"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.CHECKPOINT.LOGIC_CONTROLLED_OPEN"
+#~ msgid "Opened by Automation Circuit"
+#~ msgstr "Aberto por Circuito Automatizado"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.ENOUGH_COOLANT.TOOLTIP"
+#~ msgid "Production can't start until there's at least {1} of {0} in storage."
+#~ msgstr ""
+#~ "Produção não pode iniciar enquanto não existir {1} de {0} armazenado."
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.TOOLTIP"
+#~ msgid ""
+#~ "Logic circuits cannot work with feedback loops in the circuit.\n"
+#~ "\n"
+#~ "A feedback loop occurs when the Output value of a logic element can make "
+#~ "its way back to the Input of that same logic element through any possible "
+#~ "route."
+#~ msgstr ""
+#~ "Circuitos lógicos não conseguem trabalhar com loops de realimentação no "
+#~ "circuito.\n"
+#~ "\n"
+#~ "Um loop de realimentação ocorre quando o valor de Saída de um elemento "
+#~ "lógico consegue retornar para a Entrada do mesmo elemento lógico por "
+#~ "qualquer rota possível."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.NAME"
+#~ msgid "Water Distiller"
+#~ msgstr "Purificador de Água"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC"
+#~ msgid ""
+#~ "Electrical wire is used to connect generators, batteries, and buildings."
+#~ msgstr ""
+#~ "Cabos elétricos são usados para conectar geradores, baterias e estruturas."
+
+#~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.SPEEDMODIFIER"
+#~ msgid "{0} Movement Speed"
+#~ msgstr "{0} Velocidade de Movimento"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.TOOLTIP"
+#~ msgid "This Duplicant is trying to produce an edible {Item}"
+#~ msgstr "Esse Duplicante está tentando produzir um {item} comestível"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
+#~ msgid ""
+#~ "<b>Update Features:</b>\n"
+#~ "\n"
+#~ "• New Oil Biome and Oil Geysers\n"
+#~ "• New resources including Crude Oil, Petroleum, Naphtha, Plastic and "
+#~ "Diamond\n"
+#~ "• New rechargeable Exosuits for Duplicants to wear\n"
+#~ "• New Rooms system and accompanying overlay\n"
+#~ "• Revamped research tree and dozens of new buildings to unlock\n"
+#~ "• Bug fixes, performance improvements, new plants, creatures and more."
+#~ msgstr ""
+#~ "<b>Recursos da Atualização:</b>\n"
+#~ "\n"
+#~ "• Novo Bioma de óleo e Gêiseres de Óleo\n"
+#~ "• Novos recursos incluindo Petróleo Bruto, Petróleo, Nafta, Plástico e "
+#~ "Diamante\n"
+#~ "• Novos Exotrajes recarregáveis para os Duplicantes vestirem\n"
+#~ "• Novo sistema de Salas e painel de acompanhamento\n"
+#~ "• Árvore de Pesquisa renovada e várias novas estruturas para desbloquear\n"
+#~ "• Correção de erros, melhoras na performance, novas plantas, criaturas e "
+#~ "mais."
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
+#~ msgid "OIL UPGRADE"
+#~ msgstr "ATUALIZAÇÃO DO PETRÓLEO"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.LOGIC.OUTPUT"
+#~ msgid "Output"
+#~ msgstr "Saída"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.INPUT"
+#~ msgid "Reads from the connected automation circuit"
+#~ msgstr "Lê do circuito de automação conectado"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.OUTPUT"
+#~ msgid "Writes to the connected automation circuit "
+#~ msgstr "Escreve no circuito de automação conectado "
+
+#~ msgctxt "STRINGS.UI.TOOLTIPS.LOGICOVERLAYSTRING"
+#~ msgid "Displays automation systems"
+#~ msgstr "Mostra sistemas de automação"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TITLE"
+#~ msgid "Automation Delay Time"
+#~ msgstr "Tempo de atraso da Automação"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP"
+#~ msgid ""
+#~ "After this Input goes on standby, the Output will active for the set "
+#~ "amount of time."
+#~ msgstr ""
+#~ "Depois que essa Entrada entrar em espera, a saída continuará ativa por um "
+#~ "certo período de tempo."
+
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.EFFECT"
 #~ msgid ""
 #~ "The crystal is extremely cold, and gets colder when Hydrogen touches it."
@@ -34504,10 +34683,6 @@ msgstr "Espalhando areia..."
 #~ msgid "You know it's just going to get dirty again."
 #~ msgstr "Você sabe que vai ficar sujo denovo."
 
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.NAME"
-#~ msgid "Water Purifier"
-#~ msgstr "Purificador de Água"
-
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.WIRE.DESC"
 #~ msgid "A sleek, easy way of delivering electricity where it needs to go."
 #~ msgstr ""
@@ -34761,10 +34936,6 @@ msgstr "Espalhando areia..."
 #~ msgstr ""
 #~ "Essa planta requer nutrientes adicionais para melhorar o crescimento:\n"
 #~ "{Required}"
-
-#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.NAME"
-#~ msgid "Awaiting Irrigation"
-#~ msgstr "Esperando Irrigação"
 
 #~ msgctxt "STRINGS.CREATURES.STATUSITEMS.NEEDSIRRIGATION.TOOLTIP"
 #~ msgid ""
