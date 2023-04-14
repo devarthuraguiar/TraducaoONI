@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.0.0\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.0.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1126,8 +1126,8 @@ msgid ""
 "Resources Low\n"
 "{ItemsRemaining}"
 msgstr ""
-"Recursos escassos\n"
-"{ItemsRemainng}"
+"Poucos Recursos\n"
+"{ItemsRemaining}"
 
 #. STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLEFORREFILL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MATERIALSUNAVAILABLEFORREFILL.TOOLTIP"
@@ -5982,7 +5982,7 @@ msgid ""
 "<style=\"food\">Food</style> serving."
 msgstr ""
 "Nabos são incapazes de se propagar mas podem ser colhidos como uma única "
-"porção de<style=\"food\">Comida</style>."
+"porção de <style=\"food\">Comida</style>."
 
 #. STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.NAME"
@@ -11599,7 +11599,7 @@ msgid ""
 "The \"cool loner\" vibes that radiate off a {0} never fail to make the "
 "colony swoon."
 msgstr ""
-"A aura \"reclusa e legal\" vinda de um {0} nunca falha em fazer a colônia "
+"A aura \"reclusa e legal\" vinda de uma {0} nunca falha em fazer a colônia "
 "desmaiar."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BANHI.NAME
@@ -11903,7 +11903,7 @@ msgid ""
 "{0}s always insult people by accident and exist in a perpetual state of deep "
 "regret."
 msgstr ""
-"{0}s sempre insultam pessoas por acidente e acabam vivendo em um estado de "
+"{0}s sempre insultam pessoas por acidente e acabam ficando em um estado de "
 "remorso profundo."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.OTTO.NAME
@@ -14196,7 +14196,7 @@ msgstr "Não-construtivo"
 #. STRINGS.DUPLICANTS.TRAITS.CANTCOOK.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTCOOK.DESC"
 msgid "This Duplicant has a deep-seated distrust of the culinary arts"
-msgstr "Esse Duplicante tem uma profunda desgosto pelas artes culinárias"
+msgstr "Esse Duplicante tem um profundo desgosto pelas artes culinárias"
 
 #. STRINGS.DUPLICANTS.TRAITS.CANTCOOK.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.CANTCOOK.NAME"
@@ -14821,7 +14821,7 @@ msgid ""
 "(C) Carbon is an abundant, versatile element heated into a <style=\"gas"
 "\">Gaseous</style> state."
 msgstr ""
-"(C) Carbono é um elemento abundante e versátil aquecido até o estado<style="
+"(C) Carbono é um elemento abundante e versátil aquecido até o estado <style="
 "\"gas\">Gasoso</style>."
 
 #. STRINGS.ELEMENTS.CARBONGAS.NAME
@@ -15490,8 +15490,8 @@ msgid ""
 "(He) Helium is an atomically lightweight chemical element cooled into a "
 "<style=\"liquid\">Liquid</style> state."
 msgstr ""
-"(He) Hélio é um elemento químico atomicamente leve esfriado até o "
-"estado<style=\"liquid\">Líquido</style>."
+"(He) Hélio é um elemento químico atomicamente leve esfriado até o estado "
+"<style=\"liquid\">Líquido</style>."
 
 #. STRINGS.ELEMENTS.LIQUIDHELIUM.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDHELIUM.NAME"
@@ -15840,7 +15840,7 @@ msgid ""
 "heated into a hazardous <style=\"liquid\">Liquid</style> state."
 msgstr ""
 "Aço é uma liga de <style=\"RawMetal\">Metal</style> de ferro e carbono, "
-"aquecida até o perigoso estado<style=\"liquid\">Líquido</style>."
+"aquecida até o perigoso estado <style=\"liquid\">Líquido</style>."
 
 #. STRINGS.ELEMENTS.MOLTENSTEEL.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.NAME"
@@ -15938,7 +15938,7 @@ msgstr ""
 "(Ir<sub>3</sub>O<sub>2</sub>) Oxilito é um composto químico que aos poucos "
 "libera <style=\"oxygen\">Oxigênio</style>.\n"
 "\n"
-"Excavar Oxilito aumenta a emissão de oxigênio, mas o minério se esgota mais "
+"Escavar Oxilito aumenta a emissão de oxigênio, mas o minério se esgota mais "
 "rapidamente."
 
 #. STRINGS.ELEMENTS.OXYROCK.NAME
@@ -22799,7 +22799,7 @@ msgstr "Altas temperaturas permitem fabricação de metais mais eficientes"
 #. STRINGS.RESEARCH.TECHS.SMELTING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.NAME"
 msgid "Smelting"
-msgstr "Derretendo"
+msgstr "Fundição"
 
 #. STRINGS.RESEARCH.TECHS.SUITS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SUITS.DESC"
@@ -23537,7 +23537,7 @@ msgstr ""
 #. STRINGS.UI.BUILDINGEFFECTS.ALLOWS_FERTILIZER
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ALLOWS_FERTILIZER"
 msgid "Plant <style=\"solid\">Fertilization</style>"
-msgstr "Precisa de<style=\"solid\">Fertilização</style>"
+msgstr "Precisa de <style=\"solid\">Fertilização</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ALLOWS_IRRIGATION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ALLOWS_IRRIGATION"
@@ -23550,10 +23550,9 @@ msgid "Duplicant assignment"
 msgstr "Duplicante atribuído"
 
 #. STRINGS.UI.BUILDINGEFFECTS.BATTERYEFFECT
-#, fuzzy
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.BATTERYEFFECT"
 msgid "<style=\"power\">Power</style> capacity: {0}"
-msgstr "3869Capacidade <style=\"power\">energética</style>: {0}"
+msgstr "Capacidade <style=\"power\">Energética</style>: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.CONSUMESANYELEMENT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CONSUMESANYELEMENT"
@@ -23831,7 +23830,7 @@ msgstr "<style=\"power\">Energia</style>: <style=\"consumed\">-{0}</style>"
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESPOWERGENERATOR
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESPOWERGENERATOR"
 msgid "<style=\"power\">Power</style> generator"
-msgstr "Gerador de<style=\"power\">Energia</style>"
+msgstr "Gerador de <style=\"power\">Energia</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESSEED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESSEED"
@@ -25194,7 +25193,7 @@ msgstr "Quantidade de germes está parada"
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NODISEASE
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NODISEASE"
 msgid "No surface germs"
-msgstr "nenhum germe superficial"
+msgstr "Sem germes superficiais"
 
 #. STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NODISEASE_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.DISEASE.DETAILS.NODISEASE_TOOLTIP"
@@ -26303,7 +26302,7 @@ msgstr "Veja o relatório no final do dia para o Ciclo {0}"
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NAME"
 msgid "<style=\"oxygen\">Oxygen</style> Generation:"
-msgstr "Geração de<style=\"oxygen\">Oxigênio</style>:"
+msgstr "Geração de <style=\"oxygen\">Oxigênio</style>:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.OXYGEN_CREATED.NEGATIVE_TOOLTIP"
@@ -27698,7 +27697,7 @@ msgstr "<style=\"gas\">Luz</style>"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_PRESSURE"
 msgid "<style=\"gas\">Air</style> Pressure: {0} minimum"
-msgstr "Pressão do<style=\"gas\">Ar</style>: {0} mínima"
+msgstr "Pressão do <style=\"gas\">Ar</style>: {0} mínima"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_RECEPTACLE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_RECEPTACLE"
@@ -28024,7 +28023,7 @@ msgstr "ESCOLHA TRÊS DUPLICANTES PARA COMEÇAR"
 #. STRINGS.UI.IMMIGRANTSCREEN.SHUFFLE
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.SHUFFLE"
 msgid "SHUFFLE"
-msgstr "ALEATORIZAR"
+msgstr "ALEATÓRIO"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.SHUFFLE_COLONY_NAME
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.SHUFFLE_COLONY_NAME"
@@ -28486,7 +28485,7 @@ msgstr "PAINEL GERMES"
 #. STRINGS.UI.OVERLAYS.DISEASE.NO_DISEASE
 msgctxt "STRINGS.UI.OVERLAYS.DISEASE.NO_DISEASE"
 msgid "Zero surface germs"
-msgstr "Sem germes superficiais"
+msgstr "Nenhum germe superficial"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.BUTTON"
