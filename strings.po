@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.1.6\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.2.0\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1543,6 +1543,20 @@ msgid ""
 msgstr ""
 "Estações devem ser colocadas ao lado de um Ponto de Checagem, oposto ao lado "
 "onde checa"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
+msgid "No Transit Tube Connected"
+msgstr "Nenhum Tubo de Tráfego Conectado"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.TOOLTIP"
+msgid ""
+"A straight Transit Tube must be connected to the top of the launch rail for "
+"this building to function."
+msgstr ""
+"Um Tubo de Tráfego reto deve ser conectado ao topo dessa estação de "
+"lançamento para que ela funcione."
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
@@ -3761,6 +3775,41 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROPONICFARM.NAME"
 msgid "Hydroponic Farm"
 msgstr "Horta Hidropônica"
 
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.AVERAGEQUALITYNAME"
+msgid "Mediocre Ice Sculpture"
+msgstr "Escultura de Gelo Medíocre"
+
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.DESC"
+msgid "Ice sculptures will melt over time if not kept sufficiently chilled."
+msgstr ""
+"Esculturas de gelo irão derreter com o tempo se não forem mantidas "
+"suficientemente frias."
+
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.EFFECT"
+msgid ""
+"Increases <style=\"decor\">Decor</style> and reduces <style=\"stress"
+"\">Stress</style>.\n"
+"\n"
+"Must be sculpted by a Duplicant."
+msgstr ""
+"Aumenta <style=\"decor\">Decor</style> e reduz o <style=\"stress\">Estresse</"
+"style> .\n"
+"\n"
+"Precisa ser esculpido por um Duplicante."
+
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.NAME"
+msgid "Ice Block"
+msgstr "Bloco de Gelo"
+
+#. STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.POORQUALITYNAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ICESCULPTURE.POORQUALITYNAME"
+msgid "\"Abstract\" Ice Sculpture"
+msgstr "Escultura de Gelo \"Abstrata\""
+
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDGASCONDUIT.DESC"
 msgid ""
@@ -5701,6 +5750,76 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.TILEPOI.NAME"
 msgid "Tile"
 msgstr "Bloco"
 
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.DESC"
+msgid ""
+"Duplicants will only exit a transit tube when a safe landing area is "
+"available beneath it."
+msgstr ""
+"Duplicantes irão sair por um tubo de tráfego somente se existir uma área de "
+"descida segura."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.EFFECT"
+msgid ""
+"Quickly transports Duplicants from a Transit Tube Access to the tube's end.\n"
+"\n"
+"Only transports Duplicants."
+msgstr ""
+"Transporta Duplicantes rapidamente de uma Estação de Lançamento ao final do "
+"tubo.\n"
+"\n"
+"Transporta somente Duplicantes."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBE.NAME"
+msgid "Transit Tube"
+msgstr "Tubo de Tráfego"
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.DESC"
+msgid ""
+"Access points are required for Duplicants to enter tubes, but are not "
+"required to exit them."
+msgstr ""
+"Estações de Lançamento são necessárias para os Duplicantes entrarem nos "
+"tubos, mas não são necessárias para a saída."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT"
+msgid "Allows Duplicants to enter the connected Transit Tube system."
+msgstr "Permite aos Duplicantes entrarem na Tubulação de Tráfego conectada."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME"
+msgid "Transit Tube Access"
+msgstr "Estação de Lançamento"
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.DESC"
+msgid ""
+"Tube crossings can run transit tubes through walls without leaking gas or "
+"liquid."
+msgstr ""
+"Adaptadores de Tubo permitem que os tubos de tráfego passem pelas paredes "
+"sem vazar gás ou líquido."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.EFFECT"
+msgid ""
+"Allows Transit Tubes to be run through wall and floor tiles.\n"
+"\n"
+"Functions as a regular tile."
+msgstr ""
+"Permitem que os Tubos de Tráfego passem pelos blocos de parede e piso.\n"
+"\n"
+"Funciona como um bloco comum."
+
+#. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME"
+msgid "Transit Tube Crossing"
+msgstr "Adaptador de Tubo de Tráfego"
+
 #. STRINGS.BUILDINGS.PREFABS.WASHBASIN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WASHBASIN.DESC"
 msgid ""
@@ -5761,12 +5880,6 @@ msgstr ""
 "Filtros não matam germes e passam parte deles na água e no resíduo produzido."
 
 #. STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT"
-#| msgid ""
-#| "Uses <style=\"misc\">Sand</style> to filter <style=\"liquid\">Polluted "
-#| "Water</style>.\n"
-#| "\n"
-#| "Produces <style=\"RawMineral\">Polluted Dirt</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT"
 msgid ""
 "Produces clean <style=\"liquid\">Water</style> from <style=\"liquid"
@@ -6733,7 +6846,7 @@ msgstr "Consumindo"
 #, fuzzy
 msgctxt "STRINGS.CREATURES.STATS.IRRIGATION.NAME"
 msgid "Irrigation"
-msgstr "Irrigando"
+msgstr "Irrigação"
 
 #. STRINGS.CREATURES.STATS.MATURITY.AMOUNT_DESC_FMT
 msgctxt "STRINGS.CREATURES.STATS.MATURITY.AMOUNT_DESC_FMT"
@@ -9287,6 +9400,16 @@ msgstr "Coletar"
 msgctxt "STRINGS.DUPLICANTS.CHORES.TRANSPORT.STATUS"
 msgid "Going to sweep"
 msgstr "Indo coletar"
+
+#. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.NAME"
+msgid "Enter Transit Tube"
+msgstr "Entrar no Tubo de Tráfego"
+
+#. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.STATUS"
+msgid "Entering Transit Tube"
+msgstr "Entrando no Tubo de Tráfego"
 
 #. STRINGS.DUPLICANTS.CHORES.UGLY_CRY.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.UGLY_CRY.NAME"
@@ -17133,6 +17256,11 @@ msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTILES"
 msgid "BuildCategoryTiles"
 msgstr "Categoria Construir Blocos"
 
+#. STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTRAVELTUBES
+msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.BUILDCATEGORYTRAVELTUBES"
+msgid "BuildCategoryTravelTubes"
+msgstr "Construir Categoria Tubos de Tráfego"
+
 #. STRINGS.INPUT_BINDINGS.BASEMENU.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
 msgid "BaseMenu"
@@ -18020,6 +18148,34 @@ msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC"
 msgid "A fried dish made with a fruiting <style=\"plant\">Dusk Cap</style>."
 msgstr "Uma refeição frita com <style=\"plant\">Cogumelo Negro</style>."
 
+#. STRINGS.ITEMS.FOOD.FRUITCAKE.DESC
+msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.DESC"
+msgid ""
+"A mashed up <style=\"food\">Bristle Berry</style> sludge with an "
+"exceptionally long shelf life.\n"
+"\n"
+"Its aggressive, overbearing sweetness can leave the tongue feeling "
+"temporarily numb."
+msgstr ""
+"Uma barra de <style=\"food\">Fruto da Seda</style> amassado com um prazo de "
+"validade excepcionalmente longo.\n"
+"\n"
+"Sua extrema e agressiva doçura pode deixar a língua temporariamente dormente."
+
+#. STRINGS.ITEMS.FOOD.FRUITCAKE.NAME
+msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.NAME"
+msgid "Berry Sludge"
+msgstr "Barrotone"
+
+#. STRINGS.ITEMS.FOOD.FRUITCAKE.RECIPEDESC
+msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.RECIPEDESC"
+msgid ""
+"A mashed up <style=\"food\">Bristle Berry</style> sludge with an "
+"exceptionally long shelf life."
+msgstr ""
+"Uma barra de <style=\"food\">Fruto da Seda</style> amassado com um prazo de "
+"validade excepcionalmente longo."
+
 #. STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.GRILLEDPRICKLEFRUIT.DESC"
 msgid ""
@@ -18139,14 +18295,13 @@ msgid "Rot Pile"
 msgstr "Pilha Podre"
 
 #. STRINGS.ITEMS.FOOD.SALSA.DESC
-#, fuzzy
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.DESC"
 msgid ""
 "A baked <style=\"food\">Bristle Berry</style> stuffed with delectable spices "
 "and vibrantly flavored."
 msgstr ""
 "Um <style=\"food\">Fruto da Seda</style> assado e recheado com diversos "
-"temperos e com um gosto vibrante."
+"temperos e com um gosto divino."
 
 #. STRINGS.ITEMS.FOOD.SALSA.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.NAME"
@@ -18154,7 +18309,6 @@ msgid "Stuffed Berry"
 msgstr "Fruto Recheado"
 
 #. STRINGS.ITEMS.FOOD.SALSA.RECIPEDESC
-#, fuzzy
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.RECIPEDESC"
 msgid ""
 "A baked <style=\"food\">Bristle Berry</style> stuffed with delectable spices "
@@ -22967,6 +23121,16 @@ msgctxt "STRINGS.RESEARCH.TECHS.TEMPERATUREMODULATION.NAME"
 msgid "Temperature Modulation"
 msgstr "Modulação Térmica"
 
+#. STRINGS.RESEARCH.TECHS.TRAVELTUBES.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.TRAVELTUBES.DESC"
+msgid "Get around your base quickly, safely, and in style!"
+msgstr "Se mova pela sua base de forma rápida, segura e estilosa!"
+
+#. STRINGS.RESEARCH.TECHS.TRAVELTUBES.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.TRAVELTUBES.NAME"
+msgid "Transit Tubes"
+msgstr "Tubos de Tráfego"
+
 #. STRINGS.RESEARCH.TECHS.VALVEMINIATURIZATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.VALVEMINIATURIZATION.DESC"
 msgid "Smaller, more efficient pumps for those low-throughput situations."
@@ -26605,6 +26769,21 @@ msgstr "Efeitos Sonoros"
 msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUDIO_BUS_UI"
 msgid "UI"
 msgstr "UI"
+
+#. STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUTOMATION_SOUNDS_ALWAYS
+msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUTOMATION_SOUNDS_ALWAYS"
+msgid "Play automation sounds outside of the overlay: "
+msgstr "Tocar sons da automação fora do painel:"
+
+#. STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUTOMATION_SOUNDS_ALWAYS_TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.AUTOMATION_SOUNDS_ALWAYS_TOOLTIP"
+msgid ""
+"If enabled, automation sound effects will play even when outside of the "
+"automation overlay"
+msgstr ""
+"Se ativado, efeitos sonoros da automação irão tocar mesmo fora do painel "
+"automação"
 
 #. STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.DONE_BUTTON
 msgctxt "STRINGS.UI.FRONTEND.AUDIO_OPTIONS_SCREEN.DONE_BUTTON"
@@ -30473,13 +30652,18 @@ msgstr "Mover"
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLACTION"
-msgid "CLICK TO MOVE {0}"
-msgstr "CLIQUE PARA MOVER {0}"
+msgid "CLICK TO MOVE"
+msgstr "CLIQUE PARA MOVER"
 
 #. STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.TOOLNAME"
-msgid "Move {0} Here"
-msgstr "Mover {0} aqui"
+msgid "Move Here"
+msgstr "Mover Aqui"
+
+#. STRINGS.UI.TOOLS.MOVETOLOCATION.UNREACHABLE
+msgctxt "STRINGS.UI.TOOLS.MOVETOLOCATION.UNREACHABLE"
+msgid "UNREACHABLE"
+msgstr "INALCANÇÁVEL"
 
 #. STRINGS.UI.TOOLS.PRIORITIESCATEGORY.NAME
 msgctxt "STRINGS.UI.TOOLS.PRIORITIESCATEGORY.NAME"
@@ -30675,6 +30859,16 @@ msgstr "Precisa ser construído em espaço não ocupado"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY"
 msgid "Press <color=#F44A47>[O]</color> to Rotate"
 msgstr "Pressione <color=#F44A47>[O]</color> para rotacionar"
+
+#. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS"
+msgid "No U-Turns!"
+msgstr "Sem Curvas em U!"
+
+#. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES"
+msgid "Can't Turn Here!"
+msgstr "Não Pode Virar Aqui!"
 
 #. STRINGS.UI.TOOLTIPS.INFOPANEL
 msgctxt "STRINGS.UI.TOOLTIPS.INFOPANEL"
@@ -32186,6 +32380,21 @@ msgid ""
 msgstr ""
 "Este sensor enviará o valor 1 quando passar do tempo de Ligar e um 0 depois "
 "que passar o tempo de Desligar."
+
+#. STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.DURATION
+msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.DURATION"
+msgid "Activation Duration"
+msgstr "Duração da Ativação"
+
+#. STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.ON
+msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.ON"
+msgid "Activation Time"
+msgstr "Tempo de Ativação"
+
+#. STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.TITLE"
+msgid "Time-of-Day Sensor"
+msgstr "Sensor de Tempo"
 
 #. STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.CURRENTSTATE
 msgctxt "STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.CURRENTSTATE"
@@ -33818,10 +34027,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.UI.TOOLTIPS.LOGICOVERLAYSTRING"
 #~ msgid "Displays automation systems"
 #~ msgstr "Mostra sistemas de automação"
-
-#~ msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TITLE"
-#~ msgid "Automation Delay Time"
-#~ msgstr "Tempo de atraso da Automação"
 
 #~ msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_DELAY_SIDE_SCREEN.TOOLTIP"
 #~ msgid ""
