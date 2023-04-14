@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.1.5\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.1.6\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -4531,7 +4531,7 @@ msgid ""
 "Sets an automatic <style=\"logic\">Active</style> and <style=\"logic"
 "\">Standby</style> schedule using a timer."
 msgstr ""
-"Define uma agenda de estado <style=\"logic\">Ativo</style> ou <style=\"logic"
+"Define uma rotina de estado <style=\"logic\">Ativo</style> ou <style=\"logic"
 "\">Espera</style> usando um temporizador."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME
@@ -15559,12 +15559,12 @@ msgstr ""
 #. STRINGS.ELEMENTS.KATAIRITE.DESC
 msgctxt "STRINGS.ELEMENTS.KATAIRITE.DESC"
 msgid "(Ab) Abyssalite is a resilient, crystalline element."
-msgstr "(Ab) Abissalita é um elemento cristalino e resiliente."
+msgstr "(Ab) Abissalito é um elemento cristalino e resiliente."
 
 #. STRINGS.ELEMENTS.KATAIRITE.NAME
 msgctxt "STRINGS.ELEMENTS.KATAIRITE.NAME"
 msgid "Abyssalite"
-msgstr "Abissalita"
+msgstr "Abissalito"
 
 #. STRINGS.ELEMENTS.LIQUIDCARBONDIOXIDE.DESC
 msgctxt "STRINGS.ELEMENTS.LIQUIDCARBONDIOXIDE.DESC"
@@ -16699,7 +16699,7 @@ msgid ""
 "It is a source of <style=\"RawMetal\">Tungsten</style> and is suitable for "
 "building <style=\"power\">Power</style> systems."
 msgstr ""
-"((Fe,Mn)WO<sub>4</sub>) Volframita é um elemento denso e <style=\"RawMetal"
+"((Fe,Mn)WO<sub>4</sub>) Volframito é um elemento denso e <style=\"RawMetal"
 "\">Metálico</style>  no estado <style=\"solid\">Sólido</style>.\n"
 "\n"
 "É a fonte de <style=\"RawMetal\">Tungstênio</style> e é indicada para a "
@@ -16708,7 +16708,7 @@ msgstr ""
 #. STRINGS.ELEMENTS.WOLFRAMITE.NAME
 msgctxt "STRINGS.ELEMENTS.WOLFRAMITE.NAME"
 msgid "Wolframite"
-msgstr "Volframita"
+msgstr "Volframito"
 
 #. STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.AQUA_SUIT.DESC"
@@ -17136,7 +17136,7 @@ msgstr "Categoria Construir Blocos"
 #. STRINGS.INPUT_BINDINGS.BASEMENU.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.BASEMENU.NAME"
 msgid "BaseMenu"
-msgstr "MenuBase"
+msgstr "Menu Base"
 
 #. STRINGS.INPUT_BINDINGS.BUILDING.BUILDINGUTILITY1
 msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.BUILDINGUTILITY1"
@@ -17169,11 +17169,13 @@ msgid "ToggleOpen"
 msgstr "Ativar Abertura"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCOLLECTGARBAGE
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCOLLECTGARBAGE"
 msgid "DebugCollectGarbage"
-msgstr ""
+msgstr "DebugCollectGarbage"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCRASHSIM
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGCRASHSIM"
 msgid "DebugCrashSim"
 msgstr "DebugCrashSim"
@@ -17189,21 +17191,25 @@ msgid "DebugDiscoverAllElements"
 msgstr "DebugDescobrirTodosElementos"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPEVENTDATA
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPEVENTDATA"
 msgid "DebugDumpEventData"
 msgstr "DebugDumpEventData"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGARBAGEREFERENCES
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGARBAGEREFERENCES"
 msgid "DebugDumpGarbageReferences"
 msgstr "DebugDumpGarbageReferences"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPSCENEPARITIONERLEAKDATA
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPSCENEPARITIONERLEAKDATA"
 msgid "DebugDumpSceneParitionerLeakData"
 msgstr "DebugDumpSceneParitionerLeakData"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGELEMENTTEST
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGELEMENTTEST"
 msgid "DebugElementTest"
 msgstr "DebugElementTest"
@@ -17214,21 +17220,25 @@ msgid "DebugExplosion"
 msgstr "DebugExplosão"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFOCUS
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFOCUS"
 msgid "DebugFocus"
 msgstr "DebugFocus"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFORCELIGHTEVERYWHERE
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGFORCELIGHTEVERYWHERE"
 msgid "DebugForceLightEverywhere"
 msgstr "DebugForceLightEverywhere"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGAMESTEP
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGAMESTEP"
 msgid "DebugGameStep"
 msgstr "DebugGameStep"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGOTOTARGET
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGGOTOTARGET"
 msgid "DebugGotoTarget"
 msgstr "DebugGotoTarget"
@@ -17239,34 +17249,40 @@ msgid "DebugInstantBuildMode"
 msgstr "DebugConstruirInstantâneo"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINVINCIBLE
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGINVINCIBLE"
 msgid "DebugInvincible"
 msgstr "DebugInvincible"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATION"
 msgid "DebugNotification"
 msgstr "DebugNotification"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATIONMESSAGE
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGNOTIFICATIONMESSAGE"
 msgid "DebugNotificationMessage"
 msgstr "DebugNotificationMessage"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPATHFINDING
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPATHFINDING"
 msgid "DebugPathFinding"
-msgstr ""
+msgstr "DebugPathFinding"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPLACE
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGPLACE"
 msgid "DebugPlace"
-msgstr ""
+msgstr "DebugPlace"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREFRESHNAVCELL
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREFRESHNAVCELL"
 msgid "DebugRefreshNavCell"
-msgstr ""
+msgstr "DebugRefreshNavCell"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGRELOADLEVEL
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGRELOADLEVEL"
@@ -17279,39 +17295,44 @@ msgid "DebugReloadMods"
 msgstr "DebugRecarregarMods"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREPORTBUG
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGREPORTBUG"
 msgid "DebugReportBug"
-msgstr ""
+msgstr "DebugReportBug"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGRIVERTEST
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGRIVERTEST"
 msgid "DebugRiverTest"
-msgstr ""
+msgstr "DebugRiverTest"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSELECTMATERIAL
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSELECTMATERIAL"
 msgid "DebugSelectMaterial"
-msgstr ""
+msgstr "DebugSelectMaterial"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSIMSTEP
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSIMSTEP"
 msgid "DebugSimStep"
-msgstr ""
+msgstr "DebugSimStep"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSLOWTESTMODE
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSLOWTESTMODE"
 msgid "DebugSlowTestMode"
-msgstr ""
+msgstr "DebugModoLento"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSPAWNMINION
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSPAWNMINION"
 msgid "DebugSpawnMinion"
-msgstr ""
+msgstr "DebugSpawnMinion"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSUPERSPEED
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGSUPERSPEED"
 msgid "DebugSuperSpeed"
-msgstr ""
+msgstr "DebugModoRápido"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTELEPORT"
@@ -17319,54 +17340,63 @@ msgid "DebugTeleport"
 msgstr "DebugTeleporte"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTILETEST
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTILETEST"
 msgid "DebugTileTest"
-msgstr ""
+msgstr "DebugTileTest"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLE
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLE"
 msgid "DebugToggle"
-msgstr ""
+msgstr "DebugToggle"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEMUSIC
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEMUSIC"
 msgid "DebugToggleMusic"
-msgstr ""
+msgstr "DebugToggleMusic"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLESELECTINEDITOR
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLESELECTINEDITOR"
 msgid "DebugToggleSelectInEditor"
-msgstr ""
+msgstr "DebugToggleSelectInEditor"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEUI
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEUI"
 msgid "DebugToggleUI"
-msgstr ""
+msgstr "DebugToggleUI"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGERERROR
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGERERROR"
 msgid "DebugTriggerError"
-msgstr ""
+msgstr "DebugTriggerError"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGEREXCEPTION
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTRIGGEREXCEPTION"
 msgid "DebugTriggerException"
-msgstr ""
+msgstr "DebugTriggerException"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGULTRATESTMODE
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGULTRATESTMODE"
 msgid "DebugUltraTestMode"
-msgstr ""
+msgstr "DebugUltraTestMode"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGVISUALTEST
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGVISUALTEST"
 msgid "DebugVisualTest"
-msgstr ""
+msgstr "DebugVisualTest"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.NAME"
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT1X
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.SREENSHOT1X"
@@ -17389,14 +17419,16 @@ msgid "SreenShot8x"
 msgstr "Captura de Tela 8x"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.TOGGLECHROMEPROFILER
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.TOGGLECHROMEPROFILER"
 msgid "ToggleChromeProfiler"
-msgstr ""
+msgstr "ToggleChromeProfiler"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.TOGGLEPROFILER
+#, fuzzy
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.TOGGLEPROFILER"
 msgid "ToggleProfiler"
-msgstr ""
+msgstr "ToggleProfiler"
 
 #. STRINGS.INPUT_BINDINGS.FOODAGRICULTUREMENU.BUILDCATEGORYCOOKING
 msgctxt "STRINGS.INPUT_BINDINGS.FOODAGRICULTUREMENU.BUILDCATEGORYCOOKING"
@@ -17416,7 +17448,7 @@ msgstr "Categoria Construir Pecuária"
 #. STRINGS.INPUT_BINDINGS.FOODAGRICULTUREMENU.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.FOODAGRICULTUREMENU.NAME"
 msgid "FoodAgricultureMenu"
-msgstr "MenuComidaAgricultura"
+msgstr "Menu Comida Agricultura"
 
 #. STRINGS.INPUT_BINDINGS.HEALTHHAPPINESSMENU.BUILDCATEGORYDECOR
 msgctxt "STRINGS.INPUT_BINDINGS.HEALTHHAPPINESSMENU.BUILDCATEGORYDECOR"
@@ -17471,7 +17503,7 @@ msgstr "Categoria Construir Utilidades"
 #. STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.INDUSTRIALMENU.NAME"
 msgid "IndustrialMenu"
-msgstr "MenuIndustrial"
+msgstr "Menu Industrial"
 
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYGENERATORS
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYGENERATORS"
@@ -17496,7 +17528,7 @@ msgstr "Categoria Construir Cabeamento Lógico"
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYPIPES
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYPIPES"
 msgid "BuildCategoryPipes"
-msgstr "ConstruirCategoriaCanos"
+msgstr "Construir Categoria Canos"
 
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYPLUMBINGSTRUCTURES
 msgctxt ""
@@ -17512,7 +17544,7 @@ msgstr "Categoria Construir Controle de Energia"
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYTUBES
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYTUBES"
 msgid "BuildCategoryTubes"
-msgstr "ConstruirCategoriaTubos"
+msgstr "Construir Categoria Tubos"
 
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYVENTILATIONSTRUCTURES
 msgctxt ""
@@ -17523,12 +17555,12 @@ msgstr "Categoria Construir Estruturas de Ventilação"
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYWIRES
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYWIRES"
 msgid "BuildCategoryWires"
-msgstr "ConstruirCategoriaCabos"
+msgstr "Construir Categoria Cabos"
 
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.NAME
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.NAME"
 msgid "InfrastructureMenu"
-msgstr "MenuInfraestrutura"
+msgstr "Menu Infraestrutura"
 
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGECODEX
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGECODEX"
@@ -17939,7 +17971,7 @@ msgstr "A carne cozida de uma criatura derrotada."
 msgctxt "STRINGS.ITEMS.FOOD.FIELDRATION.DESC"
 msgid "A nourishing nutrient paste, sandwiched between thin wafer layers."
 msgstr ""
-"Um barra nutritiva em forma de sanduíche com finas camadas de biscoito."
+"Uma barra nutritiva em forma de sanduíche com finas camadas de biscoito."
 
 #. STRINGS.ITEMS.FOOD.FIELDRATION.NAME
 msgctxt "STRINGS.ITEMS.FOOD.FIELDRATION.NAME"
@@ -17960,7 +17992,7 @@ msgstr ""
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.NAME
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.NAME"
 msgid "Mush Fry"
-msgstr "Barra Frita"
+msgstr "Lama Frita"
 
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHBAR.RECIPEDESC"
@@ -18030,7 +18062,7 @@ msgid ""
 msgstr ""
 "Uma barra de lama comestível.\n"
 "\n"
-"Barras de Lama mais preferíveis que morrer de fome, mas só um pouquinho."
+"Barras de Lama são mais preferíveis que morrer de fome, mas só um pouquinho."
 
 #. STRINGS.ITEMS.FOOD.MUSHBAR.NAME
 msgctxt "STRINGS.ITEMS.FOOD.MUSHBAR.NAME"
@@ -18046,7 +18078,7 @@ msgid ""
 msgstr ""
 "Uma barra de lama comestível.\n"
 "\n"
-"Barras de Lama mais preferíveis que morrer de fome, mas só um pouquinho."
+"Barras de Lama são mais preferíveis que morrer de fome, mas só um pouquinho."
 
 #. STRINGS.ITEMS.FOOD.MUSHROOM.DESC
 msgctxt "STRINGS.ITEMS.FOOD.MUSHROOM.DESC"
@@ -18096,24 +18128,25 @@ msgid ""
 "\n"
 "Rot piles break down into <style=\"solid\">Polluted Dirt</style> over time."
 msgstr ""
-"Um monte de algo que já foi comida.\n"
+"Um mistura de algo que já foi comida.\n"
 "\n"
-"Pilhas de Lixo transformam-se em <style=\"solid\">Terra Poluída</style> com "
-"o tempo."
+"Pilhas Podres transformam-se em <style=\"solid\">Terra Poluída</style> com o "
+"tempo."
 
 #. STRINGS.ITEMS.FOOD.ROTPILE.NAME
 msgctxt "STRINGS.ITEMS.FOOD.ROTPILE.NAME"
 msgid "Rot Pile"
-msgstr "Pilha de Lixo"
+msgstr "Pilha Podre"
 
 #. STRINGS.ITEMS.FOOD.SALSA.DESC
+#, fuzzy
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.DESC"
 msgid ""
 "A baked <style=\"food\">Bristle Berry</style> stuffed with delectable spices "
 "and vibrantly flavored."
 msgstr ""
 "Um <style=\"food\">Fruto da Seda</style> assado e recheado com diversos "
-"temperos com um gosto vibrante."
+"temperos e com um gosto vibrante."
 
 #. STRINGS.ITEMS.FOOD.SALSA.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.NAME"
@@ -18121,13 +18154,14 @@ msgid "Stuffed Berry"
 msgstr "Fruto Recheado"
 
 #. STRINGS.ITEMS.FOOD.SALSA.RECIPEDESC
+#, fuzzy
 msgctxt "STRINGS.ITEMS.FOOD.SALSA.RECIPEDESC"
 msgid ""
 "A baked <style=\"food\">Bristle Berry</style> stuffed with delectable spices "
 "and vibrantly flavored."
 msgstr ""
 "Um <style=\"food\">Fruto da Seda</style> assado e recheado com diversos "
-"temperos com um gosto divino."
+"temperos e com um gosto divino."
 
 #. STRINGS.ITEMS.FOOD.SPICEBREAD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SPICEBREAD.DESC"
@@ -18160,7 +18194,7 @@ msgid ""
 "\n"
 "The bitter outer rind hides a rich, peppery core that is useful in cooking."
 msgstr ""
-"O coco delicioso de uma <style=\"plant\">Pincha Pepperplant</style>\n"
+"O coco delicioso de uma <style=\"plant\">Pimenteira Coquinho</style>\n"
 "\n"
 "O exterior amargo guarda um rico interior apimentado que é útil para "
 "cozinhar."
@@ -18289,7 +18323,7 @@ msgstr "Placebo"
 #. STRINGS.ITEMS.PILLS.PLACEBO.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.PLACEBO.RECIPEDESC"
 msgid "All-purpose <style=\"medicine\">Medicine</style>."
-msgstr "<style=\"medicine\">Medicamento</style> pra tudo."
+msgstr "<style=\"medicine\">Remédio</style> pra tudo."
 
 #. STRINGS.ITEMS.PILLS.PUTRIDODOURMEDICINE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.PUTRIDODOURMEDICINE.DESC"
@@ -18433,11 +18467,12 @@ msgstr ""
 "\n"
 "SEGUNDA LEI\n"
 "Entropia em um sistema isolado que não está em equilíbrio tende a aumentar "
-"com o tempo, aproximando-se o valor máxiimo no equilíbrio.\n"
+"com o tempo, aproximando-se do valor máximo no equilíbrio.\n"
 "\n"
 "TERCEIRA LEI\n"
 "Entropia em um sistema aproxima-se do mínimo constante quando a temperatura "
 "se aproxima de zero.\n"
+"\n"
 "LEI ZERO\n"
 "Se dois sistemas termodinâmicos estão em equilíbrio térmico com um terceiro, "
 "logo eles estão em equilíbrio térmico um com o outro."
@@ -18551,7 +18586,7 @@ msgstr ""
 "Da mesma forma, fiquem avisados de que lava-louças da cafeteria é incapaz de "
 "lidar com \"pratos\" de petri apesar do nome.\n"
 "\n"
-"Nós agradecemos pelas sua consideração.\n"
+"Nós agradecemos a sua consideração.\n"
 "-O Instituto Gravitas"
 
 #. STRINGS.LORE.BUILDINGS.VendingMachine.HEADER
@@ -18628,11 +18663,11 @@ msgstr ""
 "Duplicantes irão gastar os pontos de imunidade para lutar contra diversos "
 "<style=\"disease\">Germes</style> que eles forem expostos. Se a imunidade "
 "chegar à 0%, eles serão incapazes de lutar contra os germes e contrairão a "
-"próximo doença que eles encontrarem.\n"
+"próxima doença que eles encontrarem.\n"
 "\n"
 "Portas com Permissões de Acesso podem ser construídas da <style=\"misc\">ABA "
 "BASE</style> do <style=\"misc\">MENU CONSTRUIR</style> para impedir "
-"Duplicantes de entrar em áreas pergiosas enquanto recuperam os pontos de "
+"Duplicantes de entrar em áreas perigosas enquanto recuperam os pontos de "
 "imunidade gastos."
 
 #. STRINGS.MISC.NOTIFICATIONS.BEING_INFECTED.NAME
@@ -18687,7 +18722,7 @@ msgstr "Circuito Sobrecarregado"
 #. STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.CIRCUIT_OVERLOADED.TOOLTIP"
 msgid "These wires melted due to excessive current demands on their circuits"
-msgstr "Os cabos derreteram devido a demanda excessiva de energia"
+msgstr "Estes cabos derreteram devido a demanda excessiva de energia"
 
 #. STRINGS.MISC.NOTIFICATIONS.COLONYLOST.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.COLONYLOST.NAME"
@@ -18745,7 +18780,7 @@ msgstr "Esses Duplicantes estão soterrados e precisam de ajuda:"
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_FELL.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FELL.NAME"
 msgid "Duplicants splattered"
-msgstr "Duplicante espalhados"
+msgstr "Duplicante esmagados"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_FELL.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FELL.TOOLTIP"
@@ -18849,8 +18884,8 @@ msgid ""
 "These Duplicants were unable to reach <style=\"oxygen\">Oxygen</style> and "
 "died:"
 msgstr ""
-"Este Duplicantes conseguiram alcançar <style=\"oxygen\">Oxigênio</style> e "
-"morreram:"
+"Este Duplicantes não conseguiram alcançar <style=\"oxygen\">Oxigênio</style> "
+"e morreram:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATION.NAME"
@@ -18932,7 +18967,7 @@ msgstr "Produtor ocioso"
 #. STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.TOOLTIP"
 msgid "These fabricators have no recipes queued:"
-msgstr "As seguintes estruturas não possuem receitas na fila de produção:"
+msgstr "Estes fabricadores não possuem receitas na fila de produção:"
 
 #. STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FETCHINGWATERMESSAGE.MESSAGEBODY"
@@ -18949,7 +18984,7 @@ msgstr ""
 "outro, Duplicantes precisam engarrafar eles para o transporte.\n"
 "\n"
 "Construa Bombas Manuais sobre piscinas de líquidos pela <style=\"misc\">ABA "
-"ENCANAMENTO</style> do <style=\"misc\">MENU CONSTRUÇÃO</style> para bombear "
+"ENCANAMENTO</style> do <style=\"misc\">MENU CONSTRUIR</style> para bombear "
 "esses líquidos em garragas. Duplicantes irão automaticamente entregar os "
 "líquidos engarrafados onde for preciso."
 
@@ -19006,7 +19041,7 @@ msgid ""
 "These <style=\"food\">Food</style> items have become stale and could rot if "
 "not stored:"
 msgstr ""
-"Essas <style=\"food\">Comidas</style> estão azedando e podem apodrecer se "
+"Esses <style=\"food\">Alimentos</style> estão azedando e podem apodrecer se "
 "não forem armazenados:"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDARRIVING.NAME
@@ -19032,7 +19067,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDGONE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDGONE.NAME"
 msgid "The colony is once again in open space"
-msgstr "A colônia novamente está em espaço aberto"
+msgstr "A colônia novamente está novamente em espaço aberto"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDGONE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDGONE.TOOLTIP"
@@ -19052,7 +19087,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDWARNING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDWARNING.NAME"
 msgid "A gas cloud approaches"
-msgstr "Uma nuvem de gáse se aproxima"
+msgstr "Uma nuvem de gás se aproxima"
 
 #. STRINGS.MISC.NOTIFICATIONS.GASCLOUDWARNING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GASCLOUDWARNING.TOOLTIP"
@@ -19082,7 +19117,7 @@ msgstr "Recuperando"
 #. STRINGS.MISC.NOTIFICATIONS.HEALING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALING.TOOLTIP"
 msgid "This Duplicant is recovering from an injury"
-msgstr "Este Duplicante está se recuperando de uma ferida"
+msgstr "Este Duplicante está se recuperando de um ferimento"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.NAME"
@@ -19139,7 +19174,7 @@ msgid ""
 "These Duplicants have increased their expectations:"
 msgstr ""
 "Duplicantes precisam de melhores serviços com o tempo.\n"
-"Esses Duplicantes necessidades mais elevadas agora:"
+"Esses Duplicantes aumentaram suas expectativas:"
 
 #. STRINGS.MISC.NOTIFICATIONS.INVALIDCONSTRUCTIONLOCATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INVALIDCONSTRUCTIONLOCATION.NAME"
@@ -19223,10 +19258,10 @@ msgstr ""
 "<style=\"disease\">Germes</style> são um perigo invisível que causam <style="
 "\"disease\">Doenças</style> nos seus Duplicantes. O <style=\"misc\">PAINEL "
 "GERMES</style> <color=#F44A47><b>[F9]</b></color> permitirá você visualizar "
-"todas as concentrações de germes pela sua colônia e as fontes que às geram.\n"
+"todas as concentrações de germes pela sua colônia e as fontes que as geram.\n"
 "\n"
 "Lavatórios podem ser construídos em áreas sujas a partir da <style=\"misc"
-"\">ABA SAÚDE</style> <color=#F44A47><b>[9]</b></color> para dizer as seus "
+"\">ABA SAÚDE</style> <color=#F44A47><b>[9]</b></color> para dizer aos seus "
 "Duplicantes onde se lavar. Se você manter sua base limpa e seus Duplicantes "
 "higiênicos, a imunidade da colônia vai cuidar do resto."
 
@@ -19268,9 +19303,9 @@ msgstr ""
 "style> pela sua base.\n"
 "\n"
 "Pequenos acidentes podem ser limpados com a <style=\"misc\">FERRAMENTA "
-"LIMPAR</style> <color=#F44A47><b>[M]</b></color>, enquanto que corpos "
-"maiores podem ser filtrados. Água Poluída também <style=\"stress\">Estressa</"
-"style> Duplicantes que entram em contato com ela, então é melhor removê-la "
+"SECAR</style> <color=#F44A47><b>[M]</b></color>, enquanto que corpos maiores "
+"podem ser filtrados. Água Poluída também <style=\"stress\">Estressa</style> "
+"Duplicantes que entram em contato com ela, então é melhor removê-la "
 "rapidamente para a segurança da sua colônia."
 
 #. STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.NAME
@@ -19349,7 +19384,7 @@ msgstr "Seus Duplicantes adorariam ter um lugar para dormir"
 #. STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.NAME"
 msgid "Colony requires toilets"
-msgstr "Colônia precisa de banheiro"
+msgstr "Colônia precisa de banheiros"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEEDTOILET.TOOLTIP"
@@ -19450,7 +19485,7 @@ msgstr "DICA: Prioridades"
 #. STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PRIORITIESMESSAGE.TOOLTIP"
 msgid "Understanding your Duplicants' priorities"
-msgstr "Entendendo as prioridades de Seus Duplicantes"
+msgstr "Entendendo as prioridades dos seus Duplicantes"
 
 #. STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME"
@@ -19510,7 +19545,7 @@ msgstr ""
 "durante os horários que você definir.\n"
 "\n"
 "Para usar bem o seu tempo, abra a <style=\"misc\">ABA ROTINA</style> "
-"<color=#F44A47><b>[U]</b></color> para ajustar a agenda de sua colônia e "
+"<color=#F44A47><b>[U]</b></color> para ajustar a rotina de sua colônia e "
 "como sus Duplicantes devem aproveitar cada dia."
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.NAME
@@ -19664,9 +19699,10 @@ msgid ""
 "to set which job tasks Duplicants may perform, or specialize skilled "
 "Duplicants for specific types of work."
 msgstr ""
-"Duplicantes realizam tarefas pendentes em ordem de prioridade, da maior para "
-"a menor. Por exemplo, Duplicantes sempre colhem <style=\"food\">Comida</"
-"style> antes de construírem, e sempre constroem antes de cavarem.\n"
+"Duplicantes realizam tarefas pendentes em ordem descrescente de prioridade, "
+"ou seja, da maior para a menor. Por exemplo, Duplicantes sempre colhem "
+"<style=\"food\">Comida</style> antes de construírem, e sempre constroem "
+"antes de cavarem.\n"
 "\n"
 "Abra a <style=\"misc\">ABA TAREFAS</style> <color=#F44A47><b>[J]</b></color> "
 "para definir o que cada Duplicante pode fazer, ou especializar Duplicantes "
@@ -19727,8 +19763,8 @@ msgstr ""
 "temperatura ambiente baixa e boa ventilação ajudam na redução da temperatura "
 "de suas estruturas.\n"
 "\n"
-"Estruturas que estiverem acima da Temperatura começarão a sofrer dano e, se "
-"nada for feito, vão fundir-se e deixar de funcionar até serem reparadas."
+"Estruturas que estiverem acima dessa Temperatura começarão a sofrer dano e, "
+"se nada for feito, vão fundir-se e deixar de funcionar até serem reparadas."
 
 #. STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.NAME"
@@ -19738,7 +19774,7 @@ msgstr "DICA: Temperatura das estruturas"
 #. STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.TUTORIAL_OVERHEATING.TOOLTIP"
 msgid "Learn how to prevent meltdowns"
-msgstr "Aprenda a evitar derretimento"
+msgstr "Aprenda a evitar derretimentos"
 
 #. STRINGS.MISC.NOTIFICATIONS.UNREACHABLEITEM.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.UNREACHABLEITEM.NAME"
@@ -19795,13 +19831,13 @@ msgid ""
 "screen to begin planning job tasks. Once you've placed a few tasks, your "
 "Duplicants will automatically get to work for you."
 msgstr ""
-"Duplicantes se auto controlam e não precisam ser comandados individualmente "
+"Duplicantes são auto motivados e não precisam ser comandados individualmente "
 "para realizarem suas tarefas.\n"
 "\n"
 "Você pode utilizar a <style=\"misc\">FERRAMENTA CAVAR</style> "
 "<color=#F44A47><b>[G]</b></color> e o <style=\"misc\">MENU CONSTRUÇÃO</"
-"style> na parte inferior esquerda da tela para dar início à sua colônia. "
-"Após dar algumas tarefas, seus Duplicantes vão logo começar a trabalhar."
+"style> na parte inferior esquerda da tela para iniciar tarefas. Após dar "
+"algumas tarefas, seus Duplicantes vão logo começar a trabalhar."
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME"
@@ -19879,7 +19915,7 @@ msgstr "Emitindo <style=\"gas\">{Element}</style>: {FlowRate}"
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.TOOLTIP"
 msgid "Producing {Element} at a rate of {FlowRate}"
-msgstr "Produzindo {ElementType} a {FlowRate}"
+msgstr "Produzindo {ElementType} a uma taxa de {FlowRate}"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.NAME"
@@ -19913,7 +19949,7 @@ msgstr "Limpando"
 #. STRINGS.MISC.STATUSITEMS.CLEANING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.CLEANING.TOOLTIP"
 msgid "This building is currently being cleaned"
-msgstr "Esta estrutura está sendo limpada no momento"
+msgstr "Esta estrutura está sendo limpa no momento"
 
 #. STRINGS.MISC.STATUSITEMS.EDIBLE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.EDIBLE.NAME"
@@ -20028,7 +20064,7 @@ msgstr "Leves"
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.TOOLTIP"
 msgid "This Duplicant has a few scrapes and bruises"
-msgstr "Este Duplicante possui alguns feridas"
+msgstr "Este Duplicante possui alguns ferimentos"
 
 #. STRINGS.MISC.STATUSITEMS.HIT.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.HIT.NAME"
@@ -20257,7 +20293,7 @@ msgstr "Bloqueado"
 #. STRINGS.MISC.STATUSITEMS.REGIONISBLOCKED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.REGIONISBLOCKED.TOOLTIP"
 msgid "Undug material is blocking off an essential tile"
-msgstr "Material não escavado está bloqueando uma célula importante"
+msgstr "Material não escavado está bloqueando uma célula essencial"
 
 #. STRINGS.MISC.STATUSITEMS.REGIONNEEDSCLOSURE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.REGIONNEEDSCLOSURE.NAME"
@@ -20440,7 +20476,7 @@ msgstr "Inflamável"
 #. STRINGS.MISC.TAGS.CLINIC
 msgctxt "STRINGS.MISC.TAGS.CLINIC"
 msgid "Clinic"
-msgstr "Clínica"
+msgstr "Clínico"
 
 #. STRINGS.MISC.TAGS.CLOTHES
 msgctxt "STRINGS.MISC.TAGS.CLOTHES"
@@ -20458,6 +20494,7 @@ msgid "Compostable"
 msgstr "Compostável"
 
 #. STRINGS.MISC.TAGS.COMPOSTMEAT
+#, fuzzy
 msgctxt "STRINGS.MISC.TAGS.COMPOSTMEAT"
 msgid "Compost Meat"
 msgstr "Compostar Carne"
@@ -29952,7 +29989,7 @@ msgstr "PAPÉIS"
 #. STRINGS.UI.SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULE"
 msgid "SCHEDULE"
-msgstr "AGENDA"
+msgstr "ROTINA"
 
 #. STRINGS.UI.SCHEDULEBLOCKTYPES.EAT.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.EAT.DESCRIPTION"
@@ -30062,12 +30099,12 @@ msgstr "Negado"
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE"
 msgid "SCHEDULE:"
-msgstr "AGENDA:"
+msgstr "ROTINA:"
 
 #. STRINGS.UI.SCHEDULESCREEN.SELECTBLOCKTYPETOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTBLOCKTYPETOOLTIP"
 msgid "Select a block type to adjust the colony's schedule"
-msgstr "Selecione um tipo de bloco para ajustar a agenda da colônia"
+msgstr "Selecione um tipo de bloco para ajustar a rotina da colônia"
 
 #. STRINGS.UI.SCHEDULESCREEN.SELECTHELP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTHELP"
@@ -30076,7 +30113,7 @@ msgid ""
 "Duplicant's schedule."
 msgstr ""
 "Selecione uma opção e então clique ou arraste na linha do tempo para ajustar "
-"a agenda do Duplicante."
+"a rotina do Duplicante."
 
 #. STRINGS.UI.SCHEDULESCREEN.TIMESLOT
 msgctxt "STRINGS.UI.SCHEDULESCREEN.TIMESLOT"
@@ -30736,7 +30773,7 @@ msgstr "Visualize a árvore tecnológica"
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE"
 msgid "Adjust colony timetable"
-msgstr "Ajuste a agenda da colônia"
+msgstr "Ajuste a rotina da colônia"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS"
