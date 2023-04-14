@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.1.4\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.1.5\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -14904,7 +14904,7 @@ msgid ""
 "with high tensile strength."
 msgstr ""
 "Fibra de Carbono é um <style=\"RefinedMineral\">Material Fabricado</style> "
-"com alta força de tração."
+"com alta força de tensão."
 
 #. STRINGS.ELEMENTS.CARBONFIBRE.NAME
 msgctxt "STRINGS.ELEMENTS.CARBONFIBRE.NAME"
@@ -15019,7 +15019,7 @@ msgid ""
 "(Cu) Copper is a conductive <style=\"RawMetal\">Metal</style> heated into a "
 "<style=\"gas\">Gas</style>."
 msgstr ""
-"(Cu) Cobre é um<style=\"RawMetal\">Metal</style> condutor aquecido ao ponto "
+"(Cu) Cobre é um <style=\"RawMetal\">Metal</style> condutor aquecido ao ponto "
 "de <style=\"gas\">Gás</style>."
 
 #. STRINGS.ELEMENTS.COPPERGAS.NAME
@@ -15170,7 +15170,7 @@ msgstr ""
 #. STRINGS.ELEMENTS.DIRTYICE.NAME
 msgctxt "STRINGS.ELEMENTS.DIRTYICE.NAME"
 msgid "Polluted Ice"
-msgstr "Gelo Contaminado"
+msgstr "Gelo Poluído"
 
 #. STRINGS.ELEMENTS.DIRTYWATER.DESC
 msgctxt "STRINGS.ELEMENTS.DIRTYWATER.DESC"
@@ -15392,7 +15392,7 @@ msgstr "Granito"
 #. STRINGS.ELEMENTS.HARDNESS.FIRM
 msgctxt "STRINGS.ELEMENTS.HARDNESS.FIRM"
 msgid "{0} (Firm)"
-msgstr "{0} (Firme)"
+msgstr "{0} (Duro)"
 
 #. STRINGS.ELEMENTS.HARDNESS.IMPENETRABLE
 msgctxt "STRINGS.ELEMENTS.HARDNESS.IMPENETRABLE"
@@ -15417,7 +15417,7 @@ msgstr "{0} (Macio)"
 #. STRINGS.ELEMENTS.HARDNESS.VERYFIRM
 msgctxt "STRINGS.ELEMENTS.HARDNESS.VERYFIRM"
 msgid "{0} (Very Firm)"
-msgstr "{0} (Muito Firme)"
+msgstr "{0} (Muito Duro)"
 
 #. STRINGS.ELEMENTS.HARDNESS.VERYSOFT
 msgctxt "STRINGS.ELEMENTS.HARDNESS.VERYSOFT"
@@ -15542,7 +15542,7 @@ msgid ""
 "\n"
 "It is suitable for building <style=\"power\">Power</style> systems."
 msgstr ""
-"(Fe) Minério de Ferro é um <style=\"RawMetal\">Metal</style> maleável.\n"
+"(Fe) Minério de Ferro é um <style=\"RawMetal\">Metal</style> macio.\n"
 "\n"
 "É indicado para construir circuitos de <style=\"power\">Energia</style>."
 
@@ -15696,9 +15696,10 @@ msgid "<style=\"decor\">Decor</style>: {0}"
 msgstr "<style=\"decor\">Decor</style>: {0}"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.EFFECTS_HEADER
+#, fuzzy
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.EFFECTS_HEADER"
 msgid "<b>Resource Effects:</b>"
-msgstr "<b>Efeitos de Recursos:</b>"
+msgstr "<b>Efeitos do Material:</b>"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.HIGH_SPECIFIC_HEAT_CAPACITY
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.HIGH_SPECIFIC_HEAT_CAPACITY"
@@ -15799,7 +15800,7 @@ msgstr ""
 "Entre dois objetos, a taxa de trocas de calor será determinada pelo objeto "
 "com menor Condutividade Térmica\n"
 "\n"
-"Condutividade Térmica: {1} W por grau K de Diferença (Oxigênio: 0.024 W)"
+"Condutividade Térmica: {1} W por grau K de diferença (Oxigênio: 0.024 W)"
 
 #. STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.OVERHEATTEMPERATURE
 msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.TOOLTIP.OVERHEATTEMPERATURE"
@@ -15965,8 +15966,8 @@ msgid ""
 "state."
 msgstr ""
 "(WSe<sub>2</sub>) Disseleneto de Tungstênio é um composto <style=\"RawMetal"
-"\">Metalálico</style> inorgânico, aquecido até atingir o estado <style="
-"\"liquid\">Líquido</style>."
+"\">Metálico</style> inorgânico, aquecido até atingir o estado <style=\"liquid"
+"\">Líquido</style>."
 
 #. STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTENDISELENIDE.NAME"
@@ -15979,8 +15980,8 @@ msgid ""
 "Naphtha a distilled hydrocarbon mixture produced from the burning of <style="
 "\"solid\">Plastics</style>."
 msgstr ""
-"Nafta é uma mistura de hidrocarbonetos destilados para a queima de <style="
-"\"solid\">Plásticos</style>."
+"Nafta é uma mistura de hidrocarbonetos destilados produzidos a partir da "
+"queima de<style=\"solid\">Plásticos</style>."
 
 #. STRINGS.ELEMENTS.NAPHTHA.NAME
 msgctxt "STRINGS.ELEMENTS.NAPHTHA.NAME"
@@ -16015,7 +16016,7 @@ msgstr ""
 "(O<sub>2</sub>) Oxigênio é um <style=\"gas\">Gás</style> atômicamente leve e "
 "respirável, necessário para sustentar a vida.\n"
 "\n"
-"Ele tende a fica acima de outros gases."
+"Ele tende a ficar acima de outros gases."
 
 #. STRINGS.ELEMENTS.OXYGEN.NAME
 msgctxt "STRINGS.ELEMENTS.OXYGEN.NAME"
@@ -16054,7 +16055,8 @@ msgstr ""
 "Petróleo é uma fonte de <style=\"power\">Energia</style> refinada do <style="
 "\"liquid\">Petróleo Bruto</style>.\n"
 "\n"
-"É também um ingrediente<style=\"solid\">Plástico</style>."
+"É também um ingrediente essencial na produção de <style=\"solid\">Plástico</"
+"style>."
 
 #. STRINGS.ELEMENTS.PETROLEUM.NAME
 msgctxt "STRINGS.ELEMENTS.PETROLEUM.NAME"
@@ -16106,7 +16108,8 @@ msgctxt "STRINGS.ELEMENTS.PHOSPHORUS.DESC"
 msgid ""
 "(P) Phosphorus is a chemical element in its <style=\"solid\">Solid</style> "
 "state."
-msgstr "(P) Um elemento químico no estado <style=\"solid\">Sólido</style>."
+msgstr ""
+"(P) Fósforo é um elemento químico no estado <style=\"solid\">Sólido</style>."
 
 #. STRINGS.ELEMENTS.PHOSPHORUS.NAME
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUS.NAME"
@@ -16118,7 +16121,8 @@ msgctxt "STRINGS.ELEMENTS.PHOSPHORUSGAS.DESC"
 msgid ""
 "(P) Phosphorus is a chemical element in a <style=\"gas\">Gaseous</style> "
 "state."
-msgstr "(P) Um elemento químico no estado <style=\"gas\">Gasoso</style>."
+msgstr ""
+"(P) Fósforo é um elemento químico no estado <style=\"gas\">Gasoso</style>."
 
 #. STRINGS.ELEMENTS.PHOSPHORUSGAS.NAME
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUSGAS.NAME"
@@ -16324,9 +16328,9 @@ msgid ""
 "\n"
 "It becomes <style=\"liquid\">Water</style> when melted."
 msgstr ""
-"(H<sub>2</sub>0) Neve são partículas cristalinas e soltas de gelo.\n"
+"(H<sub>2</sub>0) Neve é uma partícula cristalina de gelo.\n"
 "\n"
-"Neve se torna <style=\"liquid\">Água</style> quando derretida."
+"Torna-se <style=\"liquid\">Água</style> quando derretida."
 
 #. STRINGS.ELEMENTS.SNOW.NAME
 msgctxt "STRINGS.ELEMENTS.SNOW.NAME"
