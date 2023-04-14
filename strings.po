@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.2.2\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.2.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1580,7 +1580,7 @@ msgid ""
 "the tube's end."
 msgstr ""
 "Duplicantes só irão sair de um tubo se o mesmo estiver em até 2 células de "
-"distância da saída."
+"distância do chão."
 
 #. STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOWIRECONNECTED.NAME"
@@ -22783,7 +22783,7 @@ msgid ""
 "Crude fuel-powered generators for automatic <style=\"power\">Power</style> "
 "production."
 msgstr ""
-"Geradores à base de combustível bruto para produção automática de <style="
+"Geradores a base de combustível bruto para produção automática de <style="
 "\"power\">Energia</style>."
 
 #. STRINGS.RESEARCH.TECHS.COMBUSTION.NAME
@@ -22797,7 +22797,7 @@ msgid ""
 "Instruments to help you reduce <style=\"disease\">Germ</style> spread in "
 "your base."
 msgstr ""
-"Instrumentos que ajudam a reduzir a propagação de <style=\"disease\">Germes</"
+"Ferramentas que ajudam a reduzir a propagação de <style=\"disease\">Germes</"
 "style> na sua base."
 
 #. STRINGS.RESEARCH.TECHS.DIRECTEDAIRSTREAMS.NAME
@@ -22932,7 +22932,7 @@ msgstr "Encanamento Melhorado"
 #. STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.DESC"
 msgid "Make the air in your colony clean and breathable."
-msgstr "Faça o ar da sua colônia mais limpo e respirável."
+msgstr "Deixe o ar da sua colônia mais limpo e respirável."
 
 #. STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDOXYGEN.NAME"
@@ -22988,7 +22988,7 @@ msgid ""
 "\">Temperatures</style> with these technologies."
 msgstr ""
 "Manipule facilmente <style=\"liquid\">Líquidos</style> e <style=\"heat"
-"\">Temperaturas</style> com essas tecnologias."
+"\">Temperatura</style> com essas tecnologias."
 
 #. STRINGS.RESEARCH.TECHS.LIQUIDTEMPERATURE.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDTEMPERATURE.NAME"
@@ -23048,7 +23048,7 @@ msgid ""
 "style> that plague Duplicants."
 msgstr ""
 "Conhecimento médico básico para lutar contra as <style=\"disease\">Doenças</"
-"style> comuns que aflingem Duplicantes."
+"style> comuns que afligem Duplicantes."
 
 #. STRINGS.RESEARCH.TECHS.MEDICALRESEARCH.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.MEDICALRESEARCH.NAME"
@@ -23105,9 +23105,7 @@ msgstr "Gerenciamento de Pressão"
 #. STRINGS.RESEARCH.TECHS.PRETTYGOODCONDUCTORS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PRETTYGOODCONDUCTORS.DESC"
 msgid "Pure-core wires that can handle more current without overloading."
-msgstr ""
-"Cabeamento com metais puros que poderão conduzir mais corrente sem "
-"sobrecarregar."
+msgstr "Cabos de metal puro poderão conduzir mais corrente sem sobrecarregar."
 
 #. STRINGS.RESEARCH.TECHS.PRETTYGOODCONDUCTORS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.PRETTYGOODCONDUCTORS.NAME"
@@ -23237,7 +23235,7 @@ msgstr "Desbloqueia tecnologias melhores."
 #. STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.DESCRIPTION"
 msgid "Requires two or more Cots or Comfy Beds"
-msgstr "Requer dois ou mais Berços ou Caminhas"
+msgstr "Requer pelo menos dois Berços ou Caminhas"
 
 #. STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.NAME"
@@ -23267,7 +23265,7 @@ msgstr "Decor positivo"
 #. STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION"
 msgid "Requires one or more Med-Beds or Pharma Chambers"
-msgstr "Requer uma ou mais Macas ou Cabines Farmacêuticas"
+msgstr "Requer pelo menos uma Maca ou Cabine Farmacêutica"
 
 #. STRINGS.ROOMS.CRITERIA.CLINIC.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.NAME"
@@ -23288,7 +23286,7 @@ msgstr "Falta {0}"
 #. STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION"
 msgid "Requires one or more Ration Boxes or Refrigerators"
-msgstr "Requer uma ou mais Caixas de Ração ou Refrigeradores"
+msgstr "Requer pelo menos uma Caixa de Ração ou Refrigerador"
 
 #. STRINGS.ROOMS.CRITERIA.FOOD_BOX.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.FOOD_BOX.NAME"
@@ -23804,9 +23802,10 @@ msgstr ""
 "Serviços para manter seus Duplicantes felizes, confortáveis e eficientes."
 
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.NAME
+#, fuzzy
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.NAME"
 msgid "Ventilation"
-msgstr "Ventilação"
+msgstr "Ar"
 
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP"
@@ -30510,9 +30509,10 @@ msgid "Dig tool"
 msgstr "Ferramenta de cavar"
 
 #. STRINGS.UI.TOOLS.DISINFECT.NAME
+#, fuzzy
 msgctxt "STRINGS.UI.TOOLS.DISINFECT.NAME"
 msgid "Disinfect"
-msgstr "Desinfectar"
+msgstr "Desinfect."
 
 #. STRINGS.UI.TOOLS.DISINFECT.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.DISINFECT.TOOLACTION"
@@ -30572,7 +30572,7 @@ msgstr "Estruturas"
 #. STRINGS.UI.TOOLS.FILTERLAYERS.CLEANANDCLEAR
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.CLEANANDCLEAR"
 msgid "Sweep & Mop Orders"
-msgstr "Ordens de Varrer e Secar"
+msgstr "Ordens de Coletar e Secar"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.DIGPLACER
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.DIGPLACER"
@@ -30647,7 +30647,7 @@ msgstr "Ferramenta Colher"
 #. STRINGS.UI.TOOLS.MARKFORSTORAGE.NAME
 msgctxt "STRINGS.UI.TOOLS.MARKFORSTORAGE.NAME"
 msgid "Sweep"
-msgstr "Varrer"
+msgstr "Coletar"
 
 #. STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLACTION"
@@ -30657,7 +30657,7 @@ msgstr "ARRASTE PARA VARRER"
 #. STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.MARKFORSTORAGE.TOOLNAME"
 msgid "Sweep tool"
-msgstr "Ferramenta Varrer"
+msgstr "Ferramenta Coletar"
 
 #. STRINGS.UI.TOOLS.MOP.NAME
 msgctxt "STRINGS.UI.TOOLS.MOP.NAME"
@@ -30993,7 +30993,7 @@ msgid ""
 "Research buildings can be found in the Stations Tab <color=#F44A47>[0]</"
 "color> of the Build Menu"
 msgstr ""
-"Construa um Estação de Pesquisa para desbloquear\n"
+"Construa uma Estação de Pesquisa para desbloquear\n"
 "------------------\n"
 "Estruturas de pesquisa podem ser encontradas na aba Estações "
 "<color=#F44A47>[0]</color> do Menu de Construção"
@@ -32510,7 +32510,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN."
 "ONLYALLOWTRANSPORTITEMSBUTTON"
 msgid "Sweep Only"
-msgstr "Varrer Somente"
+msgstr "Coletar Somente"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ONLYALLOWTRANSPORTITEMSBUTTONTOOLTIP
 msgctxt ""
@@ -32519,7 +32519,7 @@ msgctxt ""
 msgid ""
 "Only store objects marked Sweep <color=#F44A47>[K]</color> in this container"
 msgstr ""
-"Somente armazenar objetos marcados para Varrer <color=#F44A47>[K]</color> "
+"Somente armazenar objetos marcados para Coleta <color=#F44A47>[K]</color> "
 "nessa armazenagem"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE
@@ -32798,12 +32798,12 @@ msgstr "Retirar resíduos desta privada"
 #. STRINGS.UI.USERMENUACTIONS.CLEAR.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLEAR.NAME"
 msgid "Sweep"
-msgstr "Varrer"
+msgstr "Coletar"
 
 #. STRINGS.UI.USERMENUACTIONS.CLEAR.NAME_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLEAR.NAME_OFF"
 msgid "Cancel Sweeping"
-msgstr "Cancelar ordem de Varrer"
+msgstr "Cancelar ordem de Coletar"
 
 #. STRINGS.UI.USERMENUACTIONS.CLEAR.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLEAR.TOOLTIP"
@@ -32813,7 +32813,7 @@ msgstr "Colocar este objeto na armazenagem mais próxima"
 #. STRINGS.UI.USERMENUACTIONS.CLEAR.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLEAR.TOOLTIP_OFF"
 msgid "Cancel this sweep order"
-msgstr "Cancelar esta ordem de varrer"
+msgstr "Cancelar esta ordem de coleta"
 
 #. STRINGS.UI.USERMENUACTIONS.COMPOST.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.COMPOST.NAME"
