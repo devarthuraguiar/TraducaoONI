@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.3.3\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.3.4\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -2219,6 +2219,16 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_ACTIVE.TOOLTIP"
 msgid "The turbine is running at {0} RPM"
 msgstr "A turbina está girando a{0} RPM"
 
+#. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.NAME"
+msgid "Input Blocked"
+msgstr "Entrada Bloqueada"
+
+#. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP"
+msgid "This turbine's input is blocked"
+msgstr "A entrada desta turbina está bloqueada"
+
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME"
 msgid "Output Blocked"
@@ -2242,6 +2252,18 @@ msgid ""
 msgstr ""
 "A turbina precisa de pelo menos {MASS} de {ELEMENT} abaixo dela do que acima "
 "para as coisas funcionarem."
+
+#. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME"
+msgid "Too Cold"
+msgstr "Muito Frio"
+
+#. STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.TOOLTIP"
+msgid "The {ELEMENT} used to power the turbine must be at least {TEMPERATURE}."
+msgstr ""
+"O {ELEMENT} usado para energizar a turbina deve estar em pelo menos "
+"{TEMPERATURE}."
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_SPINNING_UP.NAME"
@@ -2722,8 +2744,8 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT"
 msgid ""
-"Refines <style=\"misc\">Slime</style> into <style=\"misc\">Algae</style>."
-msgstr "Refina <style=\"misc\">Limo</style> em <style=\"misc\">Alga</style>."
+"Refines <style=\"solid\">Slime</style> into <style=\"solid\">Algae</style>."
+msgstr "Refina <style=\"solid\">Limo</style> em <style=\"solid\">Alga</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME"
@@ -2778,6 +2800,11 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.NAME"
 msgid "Apothecary"
 msgstr "Botica"
+
+#. STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS
+msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS"
+msgid "{Battery} charge loss"
+msgstr "{Battery} de perda de carga"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.DESC"
@@ -3403,16 +3430,26 @@ msgstr ""
 "Esta estação só afeta plantas que estão crescendo na mesma sala que ela."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
+#| msgid ""
+#| "Allows the assigned Farmer to increase the growth speed of crops.\n"
+#| "\n"
+#| "This building is a necessary component of the Greenhouse room."
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.EFFECT"
 msgid ""
-"Allows the assigned Farmer to increase the growth speed of crops.\n"
+"Produces <style=\"solid\">Micronutrient Fertilizer</style> to increase "
+"<style=\"plant\">Plant</style> growth rates.\n"
+"\n"
+"Must be assigned to a <style=\"job\">Farmer</style>.\n"
 "\n"
 "This building is a necessary component of the Greenhouse room."
 msgstr ""
-"Permite ao Agricultor designado aumentar a velocidade de crescimento das "
-"plantas.\n"
+"Produz <style=\"solid\">Fertilizante de Micronutrientes</style> para "
+"aumentar as taxas de crescimento da <style=\"plant\">Planta</style>.\n"
 "\n"
-"Esta estrutura é um componente necessário da sala Estufa."
+"Precisa ser atribuído a um <style=\"job\">Agricultor</style>.\n"
+"\n"
+"Essa estrutura é um componente necessário da sala Estufa."
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.NAME"
@@ -3693,10 +3730,10 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT"
 msgid ""
 "Automatically turns <style=\"gas\">Gas</style> flow on or off using <style="
-"\"misc\">Automation</style> technology."
+"\"logic\">Automation</style> technology."
 msgstr ""
 "Automaticamente desliga e liga o fluxo de <style=\"gas\">Gás</style> usando "
-"a tecnologia <style=\"misc\">Automação</style>."
+"a tecnologia <style=\"logic\">Automação</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME"
@@ -4389,10 +4426,10 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.EFFECT"
 msgid ""
 "Automatically turns <style=\"liquid\">Liquid</style> flow on or off using "
-"<style=\"misc\">Automation</style> technology."
+"<style=\"logic\">Automation</style> technology."
 msgstr ""
 "Automaticamente desliga e liga o fluxo de <style=\"liquid\">Líquido</style> "
-"usando a tecnologia <style=\"misc\">Automação</style>."
+"usando a tecnologia <style=\"logic\">Automação</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.NAME"
@@ -4747,12 +4784,12 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.EFFECT"
 msgid ""
 "Automatically turns <style=\"power\">Power</style> on or off using <style="
-"\"misc\">Automation</style> technology.\n"
+"\"logic\">Automation</style> technology.\n"
 "\n"
 "Does not affect circuitry preceding the switch."
 msgstr ""
 "Automaticamente desliga e liga a <style=\"power\">Energia</style> usando a "
-"tecnologia <style=\"misc\">Automação</style>.\n"
+"tecnologia <style=\"logic\">Automação</style>.\n"
 "\n"
 "Não afeta circuitos anteriores ao interrompedor."
 
@@ -5342,12 +5379,12 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MINERALDEOXIDIZER.EFFECT"
 msgid ""
-"Converts large amounts of <style=\"misc\">Algae</style> into <style=\"oxygen"
+"Converts large amounts of <style=\"solid\">Algae</style> into <style=\"oxygen"
 "\">Oxygen</style>.\n"
 "\n"
 "Becomes idle when the area reaches maximum pressure capacity."
 msgstr ""
-"Converte grandes quantidades de <style=\"misc\">Algas</style> em <style="
+"Converte grandes quantidades de <style=\"solid\">Algas</style> em <style="
 "\"oxygen\">Oxigênio</style>.\n"
 "\n"
 "Fica ocioso quando a sala entra em pressão atmosférica máxima."
@@ -5584,11 +5621,17 @@ msgstr "Somente um Duplicante pode ser designado para uma Estação por vez."
 #. STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT"
 msgid ""
-"Allows the assigned Electrical Engineer to optimize generators.\n"
+"Produces <style=\"solid\">Oil Cans</style> to increase the <style=\"power"
+"\">Power</style> output of generators.\n"
+"\n"
+"Must be assigned to a <style=\"job\">Electrical Engineer</style>.\n"
 "\n"
 "This building is a necessary component of the Power Plant room."
 msgstr ""
-"Permite ao Engenheiro Elétrico designado otimizar geradores.\n"
+"Produz <style=\"solid\">Latas de Óleo</style> para aumentar a saída de "
+"<style=\"power\">Energia</style> dos generadores.\n"
+"\n"
+"Precisa ser designado a um <style=\"job\">Engenheiro Elétrico</style>.\n"
 "\n"
 "Essa estrutura é um componente necessário da sala Estação de Energia."
 
@@ -5825,21 +5868,35 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ROLESTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.DESC"
-msgid "Job Station are necessary for assigning Duplicants to Jobs"
+msgid ""
+"Employment can permanently improve Duplicants' skills and teach them unique "
+"traits."
 msgstr ""
-"Estações de Trabalhos são necessárias para designar Duplicantes aos Trabalhos"
+"Empregos podem melhorar permanentemente os atributos dos Duplicantes e "
+"ensinar para eles traços únicos."
 
 #. STRINGS.BUILDINGS.PREFABS.ROLESTATION.EFFECT
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RESEARCHING.NAME"
-#| msgid "Researching <style=\"research\">{Tech}</style>"
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.EFFECT"
+#| msgid ""
+#| "Allows Duplicants to pass when <style=\"logic\">Active</style>.\n"
+#| "\n"
+#| "Prevents Duplicants from passing when on <style=\"logic\">Standby</style>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.EFFECT"
-msgid "Allows assignment to <style=\"research\">Jobs</style>"
-msgstr "Permite atribuir <style=\"research\">Trabalhos</style>"
+msgid ""
+"Allows Duplicants to be assigned to specialized <style=\"job\">Jobs</"
+"style>.\n"
+"\n"
+"Unlocks <style=\"job\">Hats</style>."
+msgstr ""
+"Permite os Duplicantes serem designados a <style=\"job\">Trabalhos</style> "
+"especializados .\n"
+"\n"
+"Desbloqueia <style=\"job\">Chapéus</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.ROLESTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.NAME"
-msgid "Job Station"
-msgstr "Estação de Trabalhos"
+msgid "Employment Desk"
+msgstr "Mesa de Empregos"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.AVERAGEQUALITYNAME"
@@ -5994,10 +6051,6 @@ msgstr ""
 "receptáculo para serem usados pelos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT"
-#| msgid ""
-#| "Uses <style=\"liquid\">Water</style> to filter <style=\"gas\">Carbon "
-#| "Dioxide</style> from the air."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.EFFECT"
 msgid ""
 "Unloads <style=\"solid\">Solid Materials</style> from a <style=\"misc"
@@ -6023,14 +6076,14 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDTRANSFERARM.EFFECT"
 msgid ""
-"Automates <style=\"misc\">Sweeping</style> and <style=\"misc\">Supplying</"
+"Automates <style=\"job\">Sweeping</style> and <style=\"job\">Supplying</"
 "style> errands by sucking up all nearby <style=\"solid\">Debris</style>.\n"
 "\n"
 "Materials are automatically delivered to any <style=\"misc\">Conveyor "
 "Loaders</style>, <style=\"misc\">Receptacles</style>, storage, or buildings "
 "within range."
 msgstr ""
-"Automatiza as tarefas de <style=\"misc\">Coleta</style> e <style=\"misc"
+"Automatiza as tarefas de <style=\"job\">Coleta</style> e <style=\"job"
 "\">Fornecimento</style> por sugar todo <style=\"solid\">Entulho</style> "
 "próximo.\n"
 "\n"
@@ -6068,10 +6121,16 @@ msgstr ""
 "resíduo."
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT"
+#| msgid ""
+#| "Generates exceptional electrical <style=\"power\">Power</style> when "
+#| "there is at least 3000 g more <style=\"gas\">Steam</style> below it than "
+#| "above it."
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.EFFECT"
 msgid ""
 "Generates exceptional electrical <style=\"power\">Power</style> when there "
-"is at least 3000 g more <style=\"gas\">Steam</style> below it than above it."
+"is at least 3000g more <style=\"gas\">Steam</style> below it than above it."
 msgstr ""
 "Geram uma quantidade excepcional de <style=\"power\">Energia</style> quando "
 "existe pelo menos 3000g de <style=\"gas\">Vapor</style> abaixo do que acima."
@@ -6477,12 +6536,12 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.EFFECT"
 msgid ""
 "Produces clean <style=\"liquid\">Water</style> from <style=\"liquid"
-"\">Polluted Water</style> using <style=\"misc\">Sand</style>.\n"
+"\">Polluted Water</style> using <style=\"solid\">Sand</style>.\n"
 "\n"
 "Produces <style=\"RawMineral\">Polluted Dirt</style>."
 msgstr ""
 "Produz <style=\"liquid\">Água</style> limpa a partir de <style=\"liquid"
-"\">Água Poluída</style> usando <style=\"misc\">Areia</style>.\n"
+"\">Água Poluída</style> usando <style=\"solid\">Areia</style>.\n"
 "\n"
 "Produz <style=\"RawMineral\">Terra Poluída</style>."
 
@@ -7000,10 +7059,10 @@ msgstr "Ovo Misterioso"
 msgctxt "STRINGS.CREATURES.SPECIES.OIL_FLOATER.DESC"
 msgid ""
 "Slicksters are slimy creatures that consume <style=\"gas\">Carbon Dioxide</"
-"style> and exude <style=\"misc\">Crude Oil</style>."
+"style> and exude <style=\"liquid\">Crude Oil</style>."
 msgstr ""
 "Bichos do Óleo são criaturas gosmentas que consomem <style=\"gas\">Dióxido "
-"de Carbon</style> e produzem <style=\"misc\">Petróleo Bruto</style>."
+"de Carbono</style> e produzem <style=\"liquid\">Petróleo Bruto</style>."
 
 #. STRINGS.CREATURES.SPECIES.OIL_FLOATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OIL_FLOATER.NAME"
@@ -8410,10 +8469,8 @@ msgstr "{0} Velocidade de Decoração"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.DESC"
-msgid "Determines a Duplicant's default runspeed and carrying capacity."
-msgstr ""
-"Determina a velocidade de movimento padrão e a capacidade de carga de um "
-"Duplicante."
+msgid "Determines a Duplicant's default runspeed."
+msgstr "Determina a velocidade de movimento de um Duplicante."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.NAME"
@@ -8453,7 +8510,7 @@ msgstr "{0} Chance de Sementes"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.DESC"
 msgid "Determines how quickly and efficiently a Duplicant raises plants."
 msgstr ""
-"Determina o quão rápido e eficiente um Duplicante é ao cultivar de plantas."
+"Determina o quão rápido e eficiente um Duplicante é ao cultivar plantas."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.HARVEST_SPEED_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.HARVEST_SPEED_MODIFIER"
@@ -8600,6 +8657,11 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORRADIUS.NAME"
 msgid "Decor Radius"
 msgstr "Raio de Decor"
 
+#. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.ATTACK_MODIFIER
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.ATTACK_MODIFIER"
+msgid "{0} Attack Damage"
+msgstr "{0} Dano de Ataque"
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.DESC"
 msgid "Determines a Duplicant's mining speed."
@@ -8645,8 +8707,8 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DOCTOREDLEVEL.NAME"
-msgid "<style=\"misc\">Care Received</style> Effect"
-msgstr "Efeito <style=\"misc\">Recebeu Cuidado</style>"
+msgid "<style=\"medicine\">Care Received</style> Effect"
+msgstr "Efeito <style=\"medicine\">Recebeu Cuidado</style>"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FATALTEMPERATURE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FATALTEMPERATURE.DESC"
@@ -8687,8 +8749,8 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME"
-msgid "<style=\"misc\">Health</style>"
-msgstr "<style=\"misc\">Saúde</style>"
+msgid "<style=\"Health\">Health</style>"
+msgstr "<style=\"Health\">Saúde</style>"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HYGIENE.DESC"
@@ -8907,8 +8969,12 @@ msgstr "{0} Capacidade de Carga"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.DESC"
-msgid "Determines a Duplicant's carrying capacity and combat ability."
-msgstr "Determina a capacidade de carga e habilidade de combate."
+msgid ""
+"Determines a Duplicant's carrying capacity, and how much elbow grease they "
+"can put into cleaning errands."
+msgstr ""
+"Determina a capacidade de carga de um Duplicante e o quanto de esforço eles "
+"conseguem dar ao fazer tarefas de limpeza."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.NAME"
@@ -9783,7 +9849,7 @@ msgstr "Não está funcionando"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_GETTING_MORE_STRESSED
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_GETTING_MORE_STRESSED"
-msgid "{Selected}'s stress is dcreasing"
+msgid "{Selected}'s stress is decreasing"
 msgstr "Estresse de {Selected} está diminuindo"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_IN_MY_ROOM
@@ -9817,8 +9883,6 @@ msgid "{Selected} is currently napping"
 msgstr "{Target} está tirando um cochilo"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_NOT_ANGRY
-#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.SELECTSEED_DESC"
-#| msgid "Select a seed to plant."
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_NOT_ANGRY"
 msgid "{Selected} is too angry"
 msgstr "{Selected} está com muita raiva"
@@ -10078,13 +10142,13 @@ msgstr "Vomitando (Estresse)"
 
 #. STRINGS.DUPLICANTS.CHORES.SWITCHROLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SWITCHROLE.NAME"
-msgid "Change Job"
-msgstr "Trocar Trabalho"
+msgid "Start Job"
+msgstr "Iniciar Trabalho"
 
 #. STRINGS.DUPLICANTS.CHORES.SWITCHROLE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.SWITCHROLE.STATUS"
-msgid "Changing to new job assignment"
-msgstr "Trocando para o novo trabalho"
+msgid "Starting job assignment"
+msgstr "Iniciando atribuição de trabalho"
 
 #. STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.TAKEMEDICINE.NAME"
@@ -11403,9 +11467,14 @@ msgstr "Toque do Agricultor"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FARMTINKER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FARMTINKER.TOOLTIP"
-msgid "A skilled Farmer has encouraged this plant to grow a little bit faster"
+msgid ""
+"A skilled Farmer has encouraged this plant to grow a little bit faster\n"
+"------------------\n"
+"Applying this effect consumed one dose of Micronutrient Fertilizer."
 msgstr ""
-"Um hábil agricultor encorajou esta planta a crescer um pouco mais rápido"
+"Um hábil agricultor encorajou esta planta a crescer um pouco mais rápido\n"
+"------------------\n"
+"Aplicar este efeito consumiu uma dose de Fertilizante de Micronutrientes."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.FRESH_AND_CLEAN.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FRESH_AND_CLEAN.CAUSE"
@@ -11553,7 +11622,7 @@ msgstr "Este Duplicante ama sua cama fofinha"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.NAME"
-msgid "Engineer's Jerryrig"
+msgid "Engie's Jerryrig"
 msgstr "Gambiarra do Engenheiro"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.TOOLTIP
@@ -11808,17 +11877,21 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.NAME"
-msgid "Power Technician's Tune-Up"
-msgstr "Atualização do Engenheiro Elétrico"
+msgid "Engie's Tune-Up"
+msgstr "Atualização do Engenheiro"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.TOOLTIP"
 msgid ""
-"A skilled Technician has given this generator an overhaul to improve its "
-"efficiency"
+"A skilled Electrical Engineer has improved this generator's power output "
+"efficiency\n"
+"------------------\n"
+"Applying this effect consumed one Oil Can."
 msgstr ""
-"Um hábil Eletricista fez uma vistoria nesse gerador para melhorar sua "
-"eficiência"
+"Um habilidoso Engenheiro Elétrico melhorou a eficiência energética de "
+"gerador\n"
+"------------------\n"
+"Aplicar esse efeito consumiu uma Lata de Óleo."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME"
@@ -11912,8 +11985,8 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.NAME"
-msgid "Relaxing Room"
-msgstr "Sala de Relaxamento"
+msgid "Recreation Room Visit"
+msgstr "Visita à Sala de Recreação"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.TOOLTIP"
@@ -12325,8 +12398,8 @@ msgstr "Este Duplicante está trabalhando sem parar"
 
 #. STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_MOD_NAME
 msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_MOD_NAME"
-msgid "Expertise Request"
-msgstr "Pedido do Especialista"
+msgid "Job Tier Request"
+msgstr "Pedido do Nível do Trabalho"
 
 #. STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_TOOLTIP"
@@ -12413,8 +12486,8 @@ msgstr "Qualidade da Comida"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_MOD_NAME
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_MOD_NAME"
-msgid "Expertise Request"
-msgstr "Pedido do Especialista"
+msgid "Job Tier Request"
+msgstr "Pedido do Nível do Trabalho"
 
 #. STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.NEEDS.FOOD_QUALITY.EXPECTATION_TOOLTIP"
@@ -13083,10 +13156,10 @@ msgstr "Fazendeiro"
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.APTITUDE_DESCRIPTION"
 msgid ""
-"This Duplicant enjoys performing <style=\"misc\">{0}</style> jobs and will "
+"This Duplicant enjoys performing <style=\"job\">{0}</style> jobs and will "
 "master them <style=\"misc\">{1}%</style> faster"
 msgstr ""
-"Esse Duplicante prefere fazer trabalhos de <style=\"misc\">{0}</style> e vai "
+"Esse Duplicante prefere fazer trabalhos de <style=\"job\">{0}</style> e vai "
 "dominá-los <style=\"misc\">{1}%</style> mais rápido"
 
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION
@@ -13117,8 +13190,8 @@ msgstr "Artistas fazem obras melhores"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME"
-msgid "Junior Artist"
-msgstr "Artista Júnior"
+msgid "Art Student"
+msgstr "Estudante de Arte"
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_BUILDER.DESCRIPTION"
@@ -13232,7 +13305,7 @@ msgstr "Este Duplicante não foi designado à um trabalho"
 
 #. STRINGS.DUPLICANTS.ROLES.NO_ROLE.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.NAME"
-msgid "Jobless"
+msgid "Unemployed"
 msgstr "Desempregado"
 
 #. STRINGS.DUPLICANTS.ROLES.OIL_TECHNICIAN.DESCRIPTION
@@ -14390,8 +14463,15 @@ msgstr "Sem Trabalho"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.TOOLTIP"
-msgid "This Duplicant does not have a job assigned"
-msgstr "Este Duplicante não foi designado a nenhum trabalho"
+msgid ""
+"This Duplicant does not have a Job Assignment\n"
+"------------------\n"
+"Enter the Jobs Panel <color=#F44A47>[L]</color> to view available Jobs"
+msgstr ""
+"Esse Duplicante não possui um Trabalho Designado\n"
+"------------------\n"
+"Entre no Painel Trabalhos<color=#F44A47>[L]</color> para visualizar "
+"Trabalhos disponíveis"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOTOILETS.NAME"
@@ -14667,10 +14747,16 @@ msgid "{Role}: {Progress} Mastery"
 msgstr "{Role}: Maestria {Progress}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP"
+#| msgid ""
+#| "This Duplicant is working as a(n) {Role}\n"
+#| "\n"
+#| "They have {Progress} mastery of this job"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROLE.TOOLTIP"
 msgid ""
-"This Duplicant is working as a(n) {Role}\n"
-"\n"
+"This Duplicant is working as a {Role}\n"
+"------------------\n"
 "They have {Progress} mastery of this job"
 msgstr ""
 "Esse Duplicante está trabalhando como um {Role}\n"
@@ -15060,9 +15146,6 @@ msgid "This Duplicant cannot breathe!"
 msgstr "Este Duplicante não consegue respirar!"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.TINKERING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.NAME"
-#| msgid "Tinkering"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.TINKERING.NAME"
 msgid "Tinkering"
 msgstr "Manuseio"
@@ -17270,12 +17353,12 @@ msgid ""
 "(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Plastic is a thermoplastic "
 "polymer.\n"
 "\n"
-"It is useful as a raw <style=\"misc\">Plastic</style> feedstock."
+"It is useful as a raw <style=\"solid\">Plastic</style> feedstock."
 msgstr ""
 "(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Plástico é um polímero "
 "termoplástico.\n"
 "\n"
-"É útil como matéria prima bruta de <style=\"misc\">Plásticos</style>."
+"É útil como matéria prima bruta de <style=\"solid\">Plásticos</style>."
 
 #. STRINGS.ELEMENTS.POLYPROPYLENE.NAME
 msgctxt "STRINGS.ELEMENTS.POLYPROPYLENE.NAME"
@@ -19210,15 +19293,27 @@ msgid "Reed Fiber"
 msgstr "Fibra de Caniço"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC
-#, fuzzy
+#| msgctxt "STRINGS.ELEMENTS.FERTILIZER.DESC"
+#| msgid ""
+#| "Fertilizer is a processed mixture of biological nutrients.\n"
+#| "\n"
+#| "It aids in the growth of certain <style=\"plant\">Plants</style>."
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC"
-msgid "Special plant grow fast stuff"
-msgstr "Máquina especial que germina mais rápido"
+msgid ""
+"Specialized <style=\"solid\">Fertilizer</style> mixed by a professional "
+"farmer.\n"
+"\n"
+"Increases the growth rate of one <style=\"plant\">Plant</style>."
+msgstr ""
+"<style=\"solid\">Fertilizante</style> especial misturado por um agricultor "
+"profissional.\n"
+"\n"
+"Acelera o crescimento de uma <style=\"plant\">Planta</style>."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME"
-msgid "Plant Food"
-msgstr "Planta Comida"
+msgid "Micronutrient Fertilizer"
+msgstr "Fertilizante de Micronutrientes"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FUEL_BRICK.DESC"
@@ -19240,24 +19335,32 @@ msgstr "Tijolo Combustível"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.DESC"
-msgid "Parts usable by expert machinists to fine tune industrial processes"
+msgid ""
+"Specialized <style=\"misc\">Parts</style> crafted by a professional "
+"engineer.\n"
+"\n"
+"Jerryrigs machine buildings to increase their efficiency."
 msgstr ""
-"Peças usáveis por maquinistas especializados para melhorar processos "
-"industriais"
+"<style=\"misc\">Peças</style> especiais fabricadas por um engenheiro "
+"profissional.\n"
+"\n"
+"Permite a gambiarra em maquinas para melhorar sua eficiência."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.NAME"
-msgid "Machine Parts"
-msgstr "Peças de Máquinas"
+msgid "Custom Parts"
+msgstr "Peças Customizadas"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_NAME"
-msgid "Tune-Up: {0} {1}"
-msgstr "Atualização: {0} {1}"
+msgid "Engie's Jerryrig: {0} {1}"
+msgstr "Gambiarra do Engenheiro: {0} [1}"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_TOOLTIP"
-msgid "Can be used to tune up a machine, increasing its {0} by {1}."
+msgid ""
+"Can be used to Jerryrig upgrades to a machine building, increasing its {0} "
+"by {1}."
 msgstr "Podem ser usadas para melhorar uma máquina, aumentando seu {0} em {1}."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_NAME
@@ -19269,36 +19372,41 @@ msgstr "Trabalho: Engenheiro Mecatrônico"
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_TOOLTIP
 msgctxt ""
 "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_REQUIREMENT_TOOLTIP"
-msgid "Can only be used by the Mechatronics Engineer to apply a tune-up."
+msgid "Can only be used by the Mechatronics Engineer to apply a Jerryrig."
 msgstr ""
-"Só pode ser usado pelo Engenheiro Mecatrônico para aplicar uma atualização."
+"Só pode ser usado pelo Engenheiro Mecatrônico para aplicar uma gambiarra."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC"
 msgid ""
-"These parts have been expertly custom fabricated to replace failing and worn "
-"parts in existing generators."
+"Specialized <style=\"misc\">Oil</style> synthesized by a professional "
+"engineer.\n"
+"\n"
+"Tunes up generators to increase their <style=\"power\">Power</style> output."
 msgstr ""
-"Essas peças customizadas foram fabricadas para substituir peças defeituosas "
-"e quebradas em geradores existentes."
+"<style=\"misc\">Óleo</style> especial sintetizado por um engenheiro "
+"profissional.\n"
+"\n"
+"Atualiza geradores para melhorar sua eficiência de geração de<style=\"power"
+"\">Energia</style>."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME"
-msgid "Specialized Generator Parts"
-msgstr "Peças Customizadas de Gerador"
+msgid "Oil Can"
+msgstr "Lata de Óleo"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_NAME
 msgctxt ""
 "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_NAME"
-msgid "Tune-Up: {0} {1}"
-msgstr "Atualização: {0} {1}"
+msgid "Engie's Tune-Up: {0} {1}"
+msgstr "Atualização do Engenheiro: {0} {1}"
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_TOOLTIP
 msgctxt ""
 "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_EFFECT_TOOLTIP"
-msgid "Can be used to tune up a machine, increasing its {0} by {1}."
+msgid "Can be used to Tune Up a generator, increasing its {0} by {1}."
 msgstr ""
-"Podem ser usadas para atualizar uma máquina, aumentando sua {0} por {1}."
+"Podem ser usadas para Atualizar um gerador, aumentando seu {0} por {1}."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.TINKER_REQUIREMENT_NAME
 msgctxt ""
@@ -19310,18 +19418,18 @@ msgstr "Trabalho: Engenheiro Elétrico"
 msgctxt ""
 "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS."
 "TINKER_REQUIREMENT_TOOLTIP"
-msgid "Can only be used by the Electrical Engineer to apply a tune-up."
+msgid "Can only be used by the Electrical Engineer to apply a Tune Up."
 msgstr ""
-"Só pode ser usado pelo Engenheiro Elétrico para aplicar uma atualização."
+"Só pode ser usado pelo Engenheiro Elétrico para aplicar uma Atualização."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.DESC"
 msgid ""
 "These components can be assembled into an Animal Trap and used to catch "
-"creatures."
+"<style=\"creature\">Creatures</style>."
 msgstr ""
 "Esses componentes podem ser transformados em uma Armadilha para Animais e "
-"usada para capturar criaturas."
+"ser usada para capturar <style=\"creature\">Criaturas</style>."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.NAME
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.TRAP_PARTS.NAME"
@@ -20483,10 +20591,10 @@ msgstr "{0} desenvolveu um traço"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.TOOLTIP"
 msgid ""
 "{0} has developed the trait(s):\n"
-"\t• {1}"
+"    • {1}"
 msgstr ""
-"{0} desenvolveu os seguintes traços:\n"
-"\t• {1}"
+"{0} desenvolveu o(s) seguinte(s) traço(s):\n"
+"    • {1}"
 
 #. STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NO_MEDICAL_COTS.NAME"
@@ -20568,12 +20676,12 @@ msgid ""
 "Eureka! <style=\"research\">{0} Technology</style> has been unlocked.\n"
 "\n"
 "New buildings have become available:\n"
-"\t• <style=\"misc\">{1}</style>"
+"  • <style=\"misc\">{1}</style>"
 msgstr ""
 "Eureca! <style=\"research\">Tecnologia {0}</style> foi desbloqueada.\n"
 "\n"
 "Novas estruturas que ficaram disponíveis:\n"
-"\t• <style=\"misc\">{1}</style>"
+"  • <style=\"misc\">{1}</style>"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
@@ -23746,7 +23854,7 @@ msgstr ""
 #. STRINGS.RESEARCH.TECHS.FINEDINING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.FINEDINING.NAME"
 msgid "Meal Preparation"
-msgstr "Preparação de Refeições"
+msgstr "Preparo de Refeições"
 
 #. STRINGS.RESEARCH.TECHS.GASPIPING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.GASPIPING.DESC"
@@ -24828,8 +24936,8 @@ msgstr "Logística"
 
 #. STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP"
-msgid "Move solids objects around."
-msgstr "Mova objetos sólidos livremente."
+msgid "Effortlessly transport ore and solid materials around your base."
+msgstr "Transporte sem esforço minérios e itens sólidos pela sua base."
 
 #. STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME"
@@ -25514,8 +25622,8 @@ msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS"
-msgid "These buildings will be improved by a tune-up"
-msgstr "Essas estruturas serão melhoradas com uma atualização"
+msgid "These buildings will be improved by a Tune Up"
+msgstr "Essas estruturas serão melhoradas com uma Atualização"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.IMPROVED_BUILDINGS_ITEM"
@@ -25594,10 +25702,10 @@ msgstr "Plantas crescem mais devagar quando armazenadas dentro de caixas"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM"
 msgid ""
-"This building gains additional function or bonus effects if it is situated "
-"in a {0}"
+"This building gains additional effects or functionality when built inside a "
+"{0}"
 msgstr ""
-"Esta estrutura ganha função adicional ou efeitos bônus se estiver situada em "
+"Esta estrutura ganha efeitos ou funcionalidade adicionais quando estiver em "
 "uma {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM
@@ -25715,8 +25823,14 @@ msgstr "Precisa estar conectado a um gerador de energia para funcionar"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESROOM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESROOM"
-msgid "Must be in a dedicated room, which will become a {0}"
-msgstr "Precisa estar em uma sala dedicada, que se tornará {0}"
+msgid ""
+"Must be built within a Dedicated Room\n"
+"------------------\n"
+"Room will become a {0} after construction"
+msgstr ""
+"Precisa ser construído dentro de uma Sala Dedicada\n"
+"------------------\n"
+"Sala se tornará {0} após a construção"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESSEED
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESSEED"
@@ -26279,10 +26393,15 @@ msgid "Demo time remaining"
 msgstr "Tempo de demo restante"
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_DISEASED
+#| msgctxt ""
+#| "STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.CONTENTS_WITH_DISEASE"
+#| msgid ""
+#| "\n"
+#| "  {0}"
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_DISEASED"
 msgid ""
 "\n"
-"\t• {0}"
+" • {0}"
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_MASS
@@ -26291,10 +26410,15 @@ msgid "{0}: {1}"
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_ROTTABLE
+#| msgctxt ""
+#| "STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.CONTENTS_WITH_DISEASE"
+#| msgid ""
+#| "\n"
+#| "  {0}"
 msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_ROTTABLE"
 msgid ""
 "\n"
-"\t• {0}"
+" • {0}"
 msgstr ""
 
 #. STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE
@@ -27085,10 +27209,16 @@ msgctxt "STRINGS.UI.DETAILTABS.STATS.GROUPNAME_EXPECTATIONS"
 msgid "EXPECTATIONS"
 msgstr "EXPECTATIVAS"
 
+#. STRINGS.UI.DETAILTABS.STATS.GROUPNAME_PERKS
+#, fuzzy
+msgctxt "STRINGS.UI.DETAILTABS.STATS.GROUPNAME_PERKS"
+msgid "JOB TRAINING"
+msgstr "TREINAMENTO DO TRABALHO"
+
 #. STRINGS.UI.DETAILTABS.STATS.GROUPNAME_RESUME
 msgctxt "STRINGS.UI.DETAILTABS.STATS.GROUPNAME_RESUME"
-msgid "CURRENT JOB"
-msgstr "TRABALHO ATUAL"
+msgid "EMPLOYMENT HISTORY"
+msgstr "HISTÓRICO DE EMPREGOS"
 
 #. STRINGS.UI.DETAILTABS.STATS.GROUPNAME_STRESS
 msgctxt "STRINGS.UI.DETAILTABS.STATS.GROUPNAME_STRESS"
@@ -27105,6 +27235,11 @@ msgctxt "STRINGS.UI.DETAILTABS.STATS.NAME"
 msgid "Stats"
 msgstr "Estatísticas"
 
+#. STRINGS.UI.DETAILTABS.STATS.RESUME.CURRENT_ROLE
+msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.CURRENT_ROLE"
+msgid "<b>Current Job:</b> {0}\n"
+msgstr "<b>Trabalho Atual:</b> {0}\n"
+
 #. STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES
 msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES"
 msgid "<b>Mastered Jobs:</b>"
@@ -27113,20 +27248,20 @@ msgstr "<b>Trabalhos Dominados:</b>"
 #. STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES_TOOLTIP"
 msgid ""
-"The following jobs have been completely mastered.\n"
-"\n"
-"Duplicants retain both the perks and the expecations of any job they've "
-"mastered."
+"All traits and expectations that a Duplicant learns on a job become "
+"permanent once that job is mastered.\n"
+"------------------\n"
+"Switching jobs will not remove these traits."
 msgstr ""
-"Os seguintes trabalhos foram completamente dominados.\n"
-"\n"
-"Duplicantes mantem tanto os bônus quanto as expectativas de qualquer "
-"trabalho que eles dominarem."
+"Todos os traços e expectativas que um Duplicante aprende em um trabalho "
+"tornam-se permanentes quando esse trabalho é dominado.\n"
+"------------------\n"
+"Trocar de emprego não removerá esses traços."
 
 #. STRINGS.UI.DETAILTABS.STATS.RESUME.NO_MASTERED_ROLES
 msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.NO_MASTERED_ROLES"
-msgid "No jobs mastered yet"
-msgstr "Nenhum trabalhos dominado ainda"
+msgid "None"
+msgstr "Nenhum"
 
 #. STRINGS.UI.DETAILTABS.STATS.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.STATS.TOOLTIP"
@@ -27173,7 +27308,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Arthur Aguiar :P (1.3.3)"
+"- Traduzido por Arthur Aguiar :P (1.3.4)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -29740,8 +29875,8 @@ msgstr "Painel Transportador"
 
 #. STRINGS.UI.OVERLAYS.CONVEYOR.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.INPUT"
-msgid "Input Point"
-msgstr "Ponto de Entrada"
+msgid "Receptacle"
+msgstr "Receptáculo"
 
 #. STRINGS.UI.OVERLAYS.CONVEYOR.NAME
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.NAME"
@@ -29750,26 +29885,28 @@ msgstr "PAINEL TRANSPORTADOR"
 
 #. STRINGS.UI.OVERLAYS.CONVEYOR.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.OUTPUT"
-msgid "Output Point"
-msgstr "Ponto de Saída"
+msgid "Loader"
+msgstr "Carregador"
 
 #. STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.INPUT
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.INPUT"
 msgid ""
-"<b>Input Point</b>\n"
-"Brings solids into a building from a conveyor rail."
+"<b>Receptacle</b>\n"
+"Receives material from a Conveyor Rail and stores it for Duplicant use"
 msgstr ""
-"<b>Ponto de Entrada</b>\n"
-"Põe sólidos de um trilho de transporte em uma estrutura."
+"<b>Receptáculo</b>\n"
+"Recebe material de um Trilho Transportador e o armazena para uso dos "
+"Duplicantes"
 
 #. STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.OUTPUT
 msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.OUTPUT"
 msgid ""
-"<b>Output Point</b>\n"
-"Outputs solids from a building onto a conveyor rail."
+"<b>Loader</b>\n"
+"Loads material onto a Conveyor Rail for transport to Receptacles"
 msgstr ""
-"<b>Ponto de Entrada</b>\n"
-"Põe sólidos de uma estrutura para um sistema de transporte."
+"<b>Carregador</b>\n"
+"Coloca materiais em um Trilho Transportador para transporte até os "
+"Receptáculos"
 
 #. STRINGS.UI.OVERLAYS.CROP.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.CROP.BUTTON"
@@ -29876,8 +30013,8 @@ msgstr "Valor Positivo:"
 
 #. STRINGS.UI.OVERLAYS.DECOR.HIGHDECOR
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.HIGHDECOR"
-msgid "High Decor"
-msgstr "Alto Decor"
+msgid "Positive Decor"
+msgstr "Decor Positivo"
 
 #. STRINGS.UI.OVERLAYS.DECOR.HOVERTITLE
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.HOVERTITLE"
@@ -29891,8 +30028,8 @@ msgstr "Iluminação"
 
 #. STRINGS.UI.OVERLAYS.DECOR.LOWDECOR
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.LOWDECOR"
-msgid "Low Decor"
-msgstr "Baixo Decor"
+msgid "Negative Decor"
+msgstr "Decor Negativo:"
 
 #. STRINGS.UI.OVERLAYS.DECOR.NAME
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.NAME"
@@ -29902,24 +30039,24 @@ msgstr "PAINEL DECOR"
 #. STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.HIGHDECOR
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.HIGHDECOR"
 msgid ""
-"<b>High Decor</b>\n"
+"<b>Positive Decor</b>\n"
 "Area with sufficient decor values\n"
 "* Lighting and aesthetically pleasing buildings increase decor"
 msgstr ""
-"<b>Alto Decor</b>\n"
+"<b>Decor Positivo</b>\n"
 "Área com valores de decor suficientes\n"
 "* Iluminação e estruturas com estética agradável aumentam decor"
 
 #. STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.LOWDECOR
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOOLTIPS.LOWDECOR"
 msgid ""
-"<b>Low Decor</b>\n"
+"<b>Negative Decor</b>\n"
 "Area with insufficient decor values\n"
 "* Resources on the floor are considered \"debris\" and will decrease decor"
 msgstr ""
-"<b>Baixo Decor</b>\n"
+"<b>Decor Negativo</b>\n"
 "Área com valores insuficientes de decor\n"
-"* Recursos no chão são considerados \"entulho\" e irão diminuir o decor"
+"* Recursos no chão serão considerados \"entulho\" e irão diminuir o decor"
 
 #. STRINGS.UI.OVERLAYS.DECOR.TOTAL
 msgctxt "STRINGS.UI.OVERLAYS.DECOR.TOTAL"
@@ -30183,13 +30320,14 @@ msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.TOOLTIPS.LEGEND8"
 msgid ""
 "<b>Underpowered</b>\n"
 "These circuits consume more power than they can produce\n"
-"\n"
-"Buildings may be frequently shut off when on underpowered circuits"
+"------------------\n"
+"Buildings may be frequently shut off when connected to underpowered circuits"
 msgstr ""
-"<b>Sobcarga</b>\n"
-"Esses circuito consomem mais energia do que é produzida\n"
+"<b>Subcarga</b>\n"
+"Esses circuitos consomem mais energia do que eles produzem\n"
 "\n"
-"Estruturas podem frequentemente desligar em circuitos com sobcarga"
+"Estruturas podem frequentemente desligar quando conectados a circuitos em "
+"subcarga"
 
 #. STRINGS.UI.OVERLAYS.GASPLUMBING.BUTTON
 msgctxt "STRINGS.UI.OVERLAYS.GASPLUMBING.BUTTON"
@@ -31234,62 +31372,33 @@ msgstr ""
 #. STRINGS.UI.PRIORITYSCREEN.BASIC
 msgctxt "STRINGS.UI.PRIORITYSCREEN.BASIC"
 msgid ""
-"<b>Priority {0}</b>\n"
-"1: Least urgent\n"
-"5: Most urgent\n"
+"Set the priority level for the selected building or errand\n"
 "------------------\n"
-"Priority numbers increase or decrease the importance of errands against "
-"other errands of the same type.\n"
-"Duplicants will still rank overall errand types based on preferences "
-"instilled by their Job assignment."
+"1: Least Urgent\n"
+"9: Most Urgent"
 msgstr ""
-"<b>Priority {0}</b>\n"
-"1: Menos urgente\n"
-"5: Mais urgente\n"
+"Defina nível de prioridade para a estrutura ou tarefa selecionada\n"
 "------------------\n"
-"Números de prioridade aumentam ou diminuem de acordo com a importância das "
-"outras tarefas do mesmo tipo.\n"
-"Duplicantes ainda irão classificar tipos de tarefas baseadas nas "
-"preferências da sua atribuição de trabalho."
+"Prioridade 1: Mais Baixo\n"
+"Prioridade 9: Mais Alto"
 
 #. STRINGS.UI.PRIORITYSCREEN.EMERGENCY
+#| msgid ""
 msgctxt "STRINGS.UI.PRIORITYSCREEN.EMERGENCY"
 msgid ""
-"<b>Critical Priority</b>\n"
-"This priority overrides all other tasks, including Duplicants' basic "
-"survival needs."
 msgstr ""
-"<b>Prioridade Crítica</b>\n"
-"Esta prioridade sobrepõe todas as outras tarefas, incluindo as necessidades "
-"básicas dos Duplicantes."
 
 #. STRINGS.UI.PRIORITYSCREEN.HIGH
+#| msgid ""
 msgctxt "STRINGS.UI.PRIORITYSCREEN.HIGH"
 msgid ""
-"<b>Fixed Priority {0}</b>\n"
-"1: Least urgent\n"
-"5: Most urgent\n"
-"------------------\n"
-"Fixed Priority errands will be carried out in order, regardless of "
-"Duplicants' assigned Job preferences."
 msgstr ""
-"<b>Prioridade Fixa {0}</b>\n"
-"Nível 1: Menos urgente\n"
-"Nível 5: Mais urgente\n"
-"------------------\n"
-"Tarefas de Prioridade Fixa serão feitas em ordem, independente das "
-"preferências de trabalho dos Duplicantes ."
 
 #. STRINGS.UI.PRIORITYSCREEN.HIGH_TOGGLE
+#| msgid ""
 msgctxt "STRINGS.UI.PRIORITYSCREEN.HIGH_TOGGLE"
 msgid ""
-"<b>Toggle Fixed Priority</b>\n"
-"Fixed Priority sets a universal priority on an errand for all Duplicants "
-"colonywide, regardless of their job preferences."
 msgstr ""
-"<b>Alternar Prioridade Fixa</b>\n"
-"Prioridade Fixa define uma prioridade universal em uma tarefa para todos os "
-"Duplicantes da colônia, independente das preferências do trabalho."
 
 #. STRINGS.UI.PRODUCTINFO_APPLICABLERESOURCES
 msgctxt "STRINGS.UI.PRODUCTINFO_APPLICABLERESOURCES"
@@ -31386,6 +31495,11 @@ msgctxt "STRINGS.UI.ROLES"
 msgid "JOB ASSIGNMENTS"
 msgstr "ATRIBUIÇÕES DE TRABALHO"
 
+#. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.ALREADY_IS_JOBLESS
+msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.ALREADY_IS_JOBLESS"
+msgid "{0} <b>is already</b> unemployed"
+msgstr "{0} <b>está</b> desempregado"
+
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.ALREADY_IS_ROLE
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.ALREADY_IS_ROLE"
 msgid "{0} <b>is already</b> assigned to the job {1}"
@@ -31400,8 +31514,8 @@ msgstr "Interesses"
 msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.CHOREGROUP_ENABLED."
 "DESCRIPTION"
-msgid "Must be able to perform <b>{0}</b> jobs"
-msgstr "Necessita ser capaz de realizar trabalhos de <b>{0}</b>"
+msgid "Capable of performing <b>{0}</b> jobs"
+msgstr "Capaz de realizar trabalhos de <b>{0}</b>"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.CHOREGROUP_ENABLED.NAME
 msgctxt ""
@@ -31541,7 +31655,7 @@ msgstr "Qualificações"
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.UNEMPLOYED.DESCRIPTION
 msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.UNEMPLOYED.DESCRIPTION"
-msgid "Duplicant must not already have a job assigned"
+msgid "Duplicant must not already have a job assignment"
 msgstr "Duplicante não pode estar designado a um trabalho"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.UNEMPLOYED.NAME
@@ -31569,8 +31683,11 @@ msgstr ""
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION"
-msgid "Duplicants in this job have higher than normal decor standards"
-msgstr "Duplicantes nesse trabalho tendem a ter padrões de decor mais altos"
+msgid ""
+"Duplicants employed in this Tier desire a decent increase in colony decor"
+msgstr ""
+"Duplicantes empregados nesse Nível desejam um aumento decente no decor da "
+"colônia"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.NAME"
@@ -31579,8 +31696,10 @@ msgstr "Decor Alto"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.DESCRIPTION"
-msgid "Duplicants in this job have fairly reasonable decor standards"
-msgstr "Duplicantes nesse trabalho tem padrões de decor normais"
+msgid ""
+"Duplicants employed in this Tier desire reasonably improved colony decor"
+msgstr ""
+"Duplicantes empregados nesse Nível desejam decor razoavelmente melhorado"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MEDIUM.NAME"
@@ -31589,8 +31708,9 @@ msgstr "Decor Médio"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.DESCRIPTION"
-msgid "Duplicants in this job have low decor standards"
-msgstr "Duplicantes nesse trabalho tem baixos padrões de decor"
+msgid "Duplicants employed in this Tier desire slightly improved colony decor"
+msgstr ""
+"Duplicantes empregados nesse Nível desejam um decor da colônia melhorado"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.NAME"
@@ -31600,11 +31720,11 @@ msgstr "Decor Baixo"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.DESCRIPTION"
 msgid ""
-"Duplicants in this job have much higher decor standards than could "
-"realistically be provided"
+"Duplicants employed in this Tier desire unrealistically luxurious "
+"improvements to decor"
 msgstr ""
-"Duplicantes nesse trabalho possuem padrões de decor muito mais altos do que "
-"pode ser realmente suprido"
+"Duplicantes empregados nesse Nível desejam melhorias extremamente luxuosas "
+"ao decor"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.NAME"
@@ -31613,8 +31733,9 @@ msgstr "Decor Decadente"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.DESCRIPTION"
-msgid "Duplicants in this job have quite high decor standards"
-msgstr "Duplicantes nesse trabalho possuem padrões de decor bem altos"
+msgid "Duplicants employed in this Tier desire majorly improved colony decor"
+msgstr ""
+"Duplicantes empregados nesse Nível desejam um decor da colônia bem melhorado"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.NAME"
@@ -31624,8 +31745,10 @@ msgstr "Decor Excelente"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.DESCRIPTION
 msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.DESCRIPTION"
-msgid "Duplicants in this job expect only the best cuisine"
-msgstr "Duplicantes nesse trabalho esperam a mais alta cozinha"
+msgid "Duplicants employed in this Tier expect only the best cuisine"
+msgstr ""
+"Duplicantes empregados nesse Nível esperam alimentos somente da mais alta "
+"cozinha"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.NAME"
@@ -31634,8 +31757,8 @@ msgstr "Comida Divina"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.DESCRIPTION"
-msgid "Duplicants in this job desire better than average food"
-msgstr "Duplicantes nesse trabalho desejam comida acima da média"
+msgid "Duplicants employed in this Tier desire better than average food"
+msgstr "Duplicantes empregados nesse Nível desejam comida acima da média"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.HIGH.NAME"
@@ -31644,12 +31767,10 @@ msgstr "Comida Ótima"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.DESCRIPTION"
-msgid ""
-"Duplicants in this job would like to be provided with decent food for their "
-"efforts"
+msgid "Duplicants employed in this Tier desire decent food for their efforts"
 msgstr ""
-"Duplicantes nesse trabalho gostariam de ser recompensados pelo seu trabalho "
-"com comida pelo menos decente"
+"Duplicantes empregados nesse Nível desejam comida que os recompensem pelos "
+"seus esforços"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MEDIUM.NAME"
@@ -31659,10 +31780,11 @@ msgstr "Comida Boa"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.DESCRIPTION"
 msgid ""
-"Duplicants in this job would like their food to meet basic living standards"
+"Duplicants employed in this Tier desire food that meets basic living "
+"standards"
 msgstr ""
-"Duplicantes nesse trabalho gostariam que sua alimentação atendam os padrões "
-"básicos da vida"
+"Duplicantes empregados nesse Nível desejam que sua alimentação atendam os "
+"padrões básicos da vida"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.MINOR.NAME"
@@ -31672,8 +31794,9 @@ msgstr "Comida Regular"
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.DESCRIPTION
 msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.DESCRIPTION"
-msgid "Duplicants in this job have a refined taste for food"
-msgstr "Duplicantes nesse trabalho possuem um gosto refinado por comida"
+msgid "Duplicants employed in this Tier have a refined taste for food"
+msgstr ""
+"Duplicantes empregados nesse Nível possuem um gosto refinado por comida"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.VERY_HIGH.NAME"
@@ -31700,6 +31823,11 @@ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.TITLE"
 msgid "Special Provisions Request"
 msgstr "Pedido de Provisões Especiais"
 
+#. STRINGS.UI.ROLES_SCREEN.HIGHEST_EXPECTATIONS_TIER
+msgctxt "STRINGS.UI.ROLES_SCREEN.HIGHEST_EXPECTATIONS_TIER"
+msgid "<b>Highest Expectations</b>"
+msgstr "<b>Expectativas Mais Altas</b>"
+
 #. STRINGS.UI.ROLES_SCREEN.MANAGEMENT_BUTTON
 msgctxt "STRINGS.UI.ROLES_SCREEN.MANAGEMENT_BUTTON"
 msgid "JOBS"
@@ -31707,58 +31835,93 @@ msgstr "TRABALHOS"
 
 #. STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING
 msgctxt "STRINGS.UI.ROLES_SCREEN.NO_JOB_STATION_WARNING"
-msgid "Build a Job Station to access Job assignments"
-msgstr "Construa uma Estação de Trabalhos para acessar atribuições de Trabalho"
+msgid "Build an Employment Desk to unlock Job Assignments"
+msgstr ""
+"Construa uma Estação de Trabalhos para desbloquear Atribuições de Trabalho"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION"
-msgid "Can use Super Computers"
-msgstr "Pode usar Super Computadores"
-
-#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION
-msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION"
-msgid "Can sculpt and paint art"
-msgstr "Pode esculpir e pintar"
+msgid "Trait: <style=\"research\">Super Computer</style> Researching"
+msgstr "Traço: Pesquisar usando <style=\"research\">Super Computador</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION
+#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.ALLOWS_FERTILIZER"
+#| msgid "Plant <style=\"solid\">Fertilization</style>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION"
-msgid "Can mine Abyssalite"
-msgstr "Podem minerar Abissalito"
+msgid "Trait: <style=\"solid\">Abyssalite</style> Mining"
+msgstr "Traço: Minerar <style=\"solid\">Abissalito</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_VERY_FIRM.DESCRIPTION
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME"
+#| msgid "<style=\"misc\">Health</style>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_VERY_FIRM.DESCRIPTION"
-msgid "Can mine very firm materials"
-msgstr "Pode minerar materiais muito firmes"
+msgid "Trait: <style=\"misc\">Very Firm Material</style> Mining"
+msgstr "Traço: Minerar <style=\"misc\">Materiais Muito Firmes</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ELECTRIC_GRILL.DESCRIPTION
+#| msgctxt "STRINGS.SETITEMS.VENDINGMACHINE.DESC"
+#| msgid "A pristine <style=\"food\">Nutrient Bar</style> dispenser."
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ELECTRIC_GRILL.DESCRIPTION"
-msgid "Can use Electric Grills"
-msgstr "Pode usar Churrasqueiras Elétricas"
+msgid "Trait: <style=\"food\">Electric Grill</style> Cooking"
+msgstr "Traço: Cozinhar usando <style=\"food\">Churrasqueira Elétrica</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_FARM_TINKER.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_FARM_TINKER.DESCRIPTION"
-msgid "Can tend crops to increase their growth rate"
-msgstr "Pode cuidar de plantas para aumentar sua velocidade de crescimento"
+msgid ""
+"Trait: <style=\"plant\">Crop</style> Tending\n"
+"    • Trait: <style=\"misc\">Micronutrient Fertilizer</style> Crafting"
+msgstr ""
+"Traço: Cuidado de <style=\"plant\">Plantas</style>\n"
+"    • Traço: Confecção de <style=\"misc\">Fertilizante de Micronutrientes</"
+"style>"
+
+#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PAINT.DESCRIPTION
+#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.DECOR"
+#| msgid "<style=\"decor\">Decor</style>: {0}"
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PAINT.DESCRIPTION"
+msgid "Trait: <style=\"decor\">Canvas</style> Painting"
+msgstr "Traço: Pintar em <style=\"decor\">Telas</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT"
+#| msgid ""
+#| "Refines <style=\"misc\">Slime</style> into <style=\"misc\">Algae</style>."
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION"
-msgid "Can tune up generators to increase power output"
-msgstr "Pode atualizar geradores e aumentar produção de energia"
+msgid ""
+"Trait: <style=\"misc\">Generator</style> Tuning\n"
+"    • Trait: <style=\"misc\">Oil Can</style> Crafting"
+msgstr ""
+"Traço: Atualizar <style=\"misc\">Gerador</style>\n"
+"    • Traço: Fabricar <style=\"misc\">Lata de Óleo</style>"
+
+#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_SCULPT.DESCRIPTION
+#| msgctxt "STRINGS.ELEMENTS.MATERIAL_MODIFIERS.DECOR"
+#| msgid "<style=\"decor\">Decor</style>: {0}"
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_SCULPT.DESCRIPTION"
+msgid "Trait: <style=\"decor\">Block</style> Sculpting"
+msgstr "Traço: Esculpir <style=\"decor\">Blocos</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION
+#| msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.RECIPEDESC"
+#| msgid "Improves <style=\"disease\">Immune System</style> strength."
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION"
-msgid "Can build conveyor rail systems"
-msgstr "Pode construir trilhos de sistemas de transporte"
+msgid "Trait: <style=\"misc\">Conveyor Rail System</style> Construction"
+msgstr ""
+"Traço: Construir <style=\"misc\">Sistemas de Trilho Transportador</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVETOSUITNOTREQUIRED.NAME"
+#| msgid "Exiting <style=\"equipment\">Exosuit</style> area"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION"
-msgid "No runspeed decrease from Exosuit use"
-msgstr "Nenhuma penalidade no movimento por usar Exotraje"
+msgid "Trait: <style=\"equipment\">Exosuit</style> Sprinting"
+msgstr ""
+"Traço: Sem perda de velocidade em <style=\"equipment\">Exotraje</style>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.INCREASE_BOTANIST.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INCREASE_BOTANIST.DESCRIPTION"
-msgid "Additional seed harvest chance"
-msgstr "Chance adicional de colher sementes"
+msgid "+{0} to Farming"
+msgstr "+{0} para Agricultura"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.INCREASED_ART.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INCREASED_ART.DESCRIPTION"
@@ -31812,13 +31975,14 @@ msgstr "+{0} para Força"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.MANAGED_COLONY.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.MANAGED_COLONY.DESCRIPTION"
-msgid "Reduces stress for non-managerial Duplicants"
-msgstr "Reduz estresse para Duplicantes não gerenciais"
+msgid "Colony Stress Alleviater"
+msgstr "Aliviador de Estresse da Colônia"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.MANAGERIAL_DUTIES.DESCRIPTION
+#, fuzzy
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.MANAGERIAL_DUTIES.DESCRIPTION"
-msgid "Gain stress from workplace mental fatigue"
-msgstr "Ganha estresse por fadiga mental em local de trabalho"
+msgid "Workload stress"
+msgstr "Estresse no Trabalho"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.NO_PERKS
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.NO_PERKS"
@@ -31908,18 +32072,18 @@ msgstr "Nenhuma vaga disponível"
 
 #. STRINGS.UI.ROLES_SCREEN.SLOTS.PICK_DUPLICANT
 msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.PICK_DUPLICANT"
-msgid "Duplicant..."
-msgstr "Duplicante..."
+msgid "None"
+msgstr "Nenhum"
 
 #. STRINGS.UI.ROLES_SCREEN.SLOTS.PICK_JOB
 msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.PICK_JOB"
-msgid "Job..."
-msgstr "Trabalho..."
+msgid "No Job"
+msgstr "Sem Trabalho"
 
 #. STRINGS.UI.ROLES_SCREEN.SLOTS.UNASSIGNED
 msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.UNASSIGNED"
-msgid "Unassigned"
-msgstr "Não atribuído"
+msgid "Vacant Posiition"
+msgstr "Posição Disponível"
 
 #. STRINGS.UI.ROLES_SCREEN.SLOTS.UNASSIGNED_TOOLTIP
 msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.UNASSIGNED_TOOLTIP"
@@ -31965,6 +32129,16 @@ msgstr "Nível 2"
 msgctxt "STRINGS.UI.ROLES_SCREEN.TIER_NAMES.ZERO"
 msgid "Tier 0"
 msgstr "Nível 0"
+
+#. STRINGS.UI.ROLES_SCREEN.WIDGET.NO_MASTERS_TOOLTIP
+msgctxt "STRINGS.UI.ROLES_SCREEN.WIDGET.NO_MASTERS_TOOLTIP"
+msgid "<b>No Duplicants have mastered this job</b>"
+msgstr "<b>Nenhum Duplicante dominou esse trabalho</b>"
+
+#. STRINGS.UI.ROLES_SCREEN.WIDGET.NUMBER_OF_MASTERS_TOOLTIP
+msgctxt "STRINGS.UI.ROLES_SCREEN.WIDGET.NUMBER_OF_MASTERS_TOOLTIP"
+msgid "<b>Duplicants who have mastered this job:</b>{0}"
+msgstr "<b>Duplicantes que dominaram esse trabalho:</b>{0}"
 
 #. STRINGS.UI.SCHEDULE
 msgctxt "STRINGS.UI.SCHEDULE"
@@ -32296,7 +32470,7 @@ msgstr "Atacar"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BACKWALL
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BACKWALL"
-msgid "Backwall Buildings"
+msgid "Background Buildings"
 msgstr "Estruturas de fundo"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BUILDINGS
@@ -32338,6 +32512,11 @@ msgstr "Canos de Líquido"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.LOGIC"
 msgid "Automation"
 msgstr "Automação"
+
+#. STRINGS.UI.TOOLS.FILTERLAYERS.SOLIDCONDUITS
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.SOLIDCONDUITS"
+msgid "Conveyor Rails"
+msgstr "Trilhos Transportadores"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.TILES
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.TILES"
@@ -32616,7 +32795,7 @@ msgstr "Portas de líquido estão obstruídas"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_NOT_IN_TILES"
-msgid "Cannot be built inside a tile"
+msgid "Cannot be built inside tile"
 msgstr "Não pode ser construído dentro de um bloco"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_OCCUPIED
@@ -32631,7 +32810,7 @@ msgstr "Obstruído por cabo"
 
 #. STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_REQUIRES_ROOM"
-msgid "Must be in a room."
+msgid "Must be in a room"
 msgstr "Precisa estar em um quarto."
 
 #. STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY
@@ -32641,13 +32820,13 @@ msgstr "Pressione <color=#F44A47>[O]</color> para rotacionar"
 
 #. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS"
-msgid "No U-Turns!"
-msgstr "Sem Curvas em U!"
+msgid "Can't U-Turn"
+msgstr "Não Pode Fazer Curva Em U"
 
 #. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_STRAIGHT_BRIDGES"
-msgid "Can't Turn Here!"
-msgstr "Não Pode Virar Aqui!"
+msgid "Can't Turn Here"
+msgstr "Não Pode Virar Aqui"
 
 #. STRINGS.UI.TOOLTIPS.INFOPANEL
 msgctxt "STRINGS.UI.TOOLTIPS.INFOPANEL"
@@ -32677,13 +32856,17 @@ msgstr "{0} não pode fazer esta tarefa."
 #. STRINGS.UI.TOOLTIPS.JOBSSCREEN_PRIORITY
 msgctxt "STRINGS.UI.TOOLTIPS.JOBSSCREEN_PRIORITY"
 msgid ""
-"High priority errands are performed before low priority errands. A Duplicant "
-"will always continue work on their current errand until it is complete, even "
-"if a higher priority errand becomes available."
+"High priority errands are always performed before low priority errands.\n"
+"\n"
+"However, a busy Duplicant will contine to work on their current errand until "
+"it's complete, even if a higher priority errand becomes available."
 msgstr ""
-"Tarefas de alta prioridade são feitas antes das tarefas de baixa prioridade. "
-"Um Duplicante sempre vai continuar fazendo sua tarefa atual até ficar "
-"completa, mesmo se uma tarefa de alta prioridade ficar disponível."
+"Tarefas de alta prioridade são feitas antes das tarefas de baixa "
+"prioridade. \n"
+"\n"
+"No entanto, um Duplicante ocupado sempre vai continuar fazendo sua tarefa "
+"atual até ficar completa, mesmo se uma tarefa de alta prioridade ficar "
+"disponível."
 
 #. STRINGS.UI.TOOLTIPS.JOBSSCREEN_RELEVANT_ATTRIBUTES
 msgctxt "STRINGS.UI.TOOLTIPS.JOBSSCREEN_RELEVANT_ATTRIBUTES"
@@ -32741,15 +32924,15 @@ msgstr ""
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_ROLES_STATION
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_ROLES_STATION"
 msgid ""
-"Build a Job Station to unlock\n"
+"Build an Employment Desk to unlock\n"
 "------------------\n"
-"The Job Station can be found in the Stations Tab <color=#F44A47>[0]</color> "
-"of the Build Menu"
+"The Employment Desk can be found in the Stations Tab <color=#F44A47>[0]</"
+"color> of the Build Menu"
 msgstr ""
-"Construa uma Estação de Trabalhos para desbloquear\n"
+"Construa uma Mesa de Empregos para desbloquear\n"
 "------------------\n"
-"A Estação de Trabalhos pode ser encontrada na aba Estações "
-"<color=#F44A47>[0]</color> do Menu de Construção"
+"Uma Mesa de Empregos pode ser encontrada na aba Estações <color=#F44A47>[0]</"
+"color> do Menu Contruir"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESEARCH
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESEARCH"
@@ -33247,19 +33430,21 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.ALLOWMANUALBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.ALLOWMANUALBUTTON"
-msgid "Allow Manual Operation"
-msgstr "Permitir Operação Manual"
+msgid "Allow Manual Use"
+msgstr "Permitir Uso Manual"
 
 #. STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.ALLOWMANUALBUTTONTOOLTIP
+#, fuzzy
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.ALLOWMANUALBUTTONTOOLTIP"
-msgid "Allow duplicants to manually interact with this building."
-msgstr "Permitir que duplicantes interajam manualmente com essa estrutura."
+msgid "Allow Duplicants to manually manage these storage materials"
+msgstr ""
+"Permitir os Duplicantes gerenciarem manualmente esse materiais armazenados."
 
 #. STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.TITLE"
-msgid "Automatable"
-msgstr "Automatizável"
+msgid "Automatable Storage"
+msgstr "Armazenagem Automatizável"
 
 #. STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL"
@@ -33268,8 +33453,8 @@ msgstr "Máximo:"
 
 #. STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.TITLE"
-msgid "Capacity"
-msgstr "Capacidade"
+msgid "Automated Storage Capacity"
+msgstr "Capacidade de Armazenagem Automatizada"
 
 #. STRINGS.UI.UISIDESCREENS.CAPACITY_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_SIDE_SCREEN.TOOLTIP"
@@ -33904,17 +34089,14 @@ msgid "Select Research"
 msgstr "Escolha pesquisa"
 
 #. STRINGS.UI.UISIDESCREENS.ROLESTATION.OPENROLESBUTTON
-#, fuzzy
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.MANAGEMENT_BUTTON"
-#| msgid "JOBS"
 msgctxt "STRINGS.UI.UISIDESCREENS.ROLESTATION.OPENROLESBUTTON"
 msgid "JOBS"
 msgstr "TRABALHOS"
 
 #. STRINGS.UI.UISIDESCREENS.ROLESTATION.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.ROLESTATION.TITLE"
-msgid "Job Station"
-msgstr "Estação de Trabalhos"
+msgid "Job Assignments"
+msgstr "Atribuições de Trabalho"
 
 #. STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.AWAITINGBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.SEALEDDOORSIDESCREEN.AWAITINGBUTTON"
@@ -35138,6 +35320,16 @@ msgctxt "STRINGS.UI.VITALSSCREEN.CONDITIONS_GROWING.WILD.TOOLTIP"
 msgid "This plant will take {0} to grow in the wild"
 msgstr "Esta planta leva {0} para crescer na natureza"
 
+#. STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS
+msgctxt "STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS"
+msgid "Decor Expectation"
+msgstr "Expectativa de Decor"
+
+#. STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP
+msgctxt "STRINGS.UI.VITALSSCREEN.DECOR_EXPECTATIONS_TOOLTIP"
+msgid "This Duplicant desires decor that is {0} or higher"
+msgstr "Este Duplicante deseja decor {0} ou mais alto"
+
 #. STRINGS.UI.VITALSSCREEN.EATEN_TODAY
 msgctxt "STRINGS.UI.VITALSSCREEN.EATEN_TODAY"
 msgid "Eaten Today"
@@ -35153,6 +35345,21 @@ msgstr ""
 "Comido Hoje\n"
 "------------------\n"
 "Consumido {0} de comida nesse ciclo"
+
+#. STRINGS.UI.VITALSSCREEN.EXPECTATIONS
+msgctxt "STRINGS.UI.VITALSSCREEN.EXPECTATIONS"
+msgid "Expectations"
+msgstr "Expectativas"
+
+#. STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS
+msgctxt "STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS"
+msgid "Food Expectation"
+msgstr "Expectativa de Comida"
+
+#. STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP
+msgctxt "STRINGS.UI.VITALSSCREEN.FOOD_EXPECTATIONS_TOOLTIP"
+msgid "This Duplicant desires food that is {0} quality or better"
+msgstr "Este Duplicante deseja comida de qualidade {0} ou melhor"
 
 #. STRINGS.UI.VITALSSCREEN.HEALTH
 msgctxt "STRINGS.UI.VITALSSCREEN.HEALTH"
@@ -35762,9 +35969,318 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC"
-#~ msgid "Conveyor rails carry solid items around your base."
-#~ msgstr "Trilhos Transportadores carregam itens sólidos pela sua base."
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.POWERCONTROLSTATION.EFFECT"
+#~ msgid ""
+#~ "Allows the assigned Electrical Engineer to optimize generators.\n"
+#~ "\n"
+#~ "This building is a necessary component of the Power Plant room."
+#~ msgstr ""
+#~ "Permite ao Engenheiro Elétrico designado otimizar geradores.\n"
+#~ "\n"
+#~ "Essa estrutura é um componente necessário da sala Estação de Energia."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.DESC"
+#~ msgid "Job Station are necessary for assigning Duplicants to Jobs"
+#~ msgstr ""
+#~ "Estações de Trabalhos são necessárias para designar Duplicantes aos "
+#~ "Trabalhos"
+
+#~| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RESEARCHING.NAME"
+#~| msgid "Researching <style=\"research\">{Tech}</style>"
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.EFFECT"
+#~ msgid "Allows assignment to <style=\"research\">Jobs</style>"
+#~ msgstr "Permite atribuir <style=\"research\">Trabalhos</style>"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ROLESTATION.NAME"
+#~ msgid "Job Station"
+#~ msgstr "Estação de Trabalhos"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ATHLETICS.DESC"
+#~ msgid "Determines a Duplicant's default runspeed and carrying capacity."
+#~ msgstr ""
+#~ "Determina a velocidade de movimento padrão e a capacidade de carga de um "
+#~ "Duplicante."
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.SWITCHROLE.NAME"
+#~ msgid "Change Job"
+#~ msgstr "Trocar Trabalho"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.SWITCHROLE.STATUS"
+#~ msgid "Changing to new job assignment"
+#~ msgstr "Trocando para o novo trabalho"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.NAME"
+#~ msgid "Power Technician's Tune-Up"
+#~ msgstr "Atualização do Engenheiro Elétrico"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POWERTINKER.TOOLTIP"
+#~ msgid ""
+#~ "A skilled Technician has given this generator an overhaul to improve its "
+#~ "efficiency"
+#~ msgstr ""
+#~ "Um hábil Eletricista fez uma vistoria nesse gerador para melhorar sua "
+#~ "eficiência"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.NAME"
+#~ msgid "Relaxing Room"
+#~ msgstr "Sala de Relaxamento"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_ARTIST.NAME"
+#~ msgid "Junior Artist"
+#~ msgstr "Artista Júnior"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.NAME"
+#~ msgid "Jobless"
+#~ msgstr "Desempregado"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NOROLE.TOOLTIP"
+#~ msgid "This Duplicant does not have a job assigned"
+#~ msgstr "Este Duplicante não foi designado a nenhum trabalho"
+
+#, fuzzy
+#~ msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.DESC"
+#~ msgid "Special plant grow fast stuff"
+#~ msgstr "Máquina especial que germina mais rápido"
+
+#~ msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.FARM_STATION_TOOLS.NAME"
+#~ msgid "Plant Food"
+#~ msgstr "Planta Comida"
+
+#~ msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.DESC"
+#~ msgid "Parts usable by expert machinists to fine tune industrial processes"
+#~ msgstr ""
+#~ "Peças usáveis por maquinistas especializados para melhorar processos "
+#~ "industriais"
+
+#~ msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.NAME"
+#~ msgid "Machine Parts"
+#~ msgstr "Peças de Máquinas"
+
+#~ msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.MACHINE_PARTS.TINKER_EFFECT_NAME"
+#~ msgid "Tune-Up: {0} {1}"
+#~ msgstr "Atualização: {0} {1}"
+
+#~ msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.DESC"
+#~ msgid ""
+#~ "These parts have been expertly custom fabricated to replace failing and "
+#~ "worn parts in existing generators."
+#~ msgstr ""
+#~ "Essas peças customizadas foram fabricadas para substituir peças "
+#~ "defeituosas e quebradas em geradores existentes."
+
+#~ msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.POWER_STATION_TOOLS.NAME"
+#~ msgid "Specialized Generator Parts"
+#~ msgstr "Peças Customizadas de Gerador"
+
+#~ msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP"
+#~ msgid "Move solids objects around."
+#~ msgstr "Mova objetos sólidos livremente."
+
+#~ msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESROOM"
+#~ msgid "Must be in a dedicated room, which will become a {0}"
+#~ msgstr "Precisa estar em uma sala dedicada, que se tornará {0}"
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.STATS.GROUPNAME_RESUME"
+#~ msgid "CURRENT JOB"
+#~ msgstr "TRABALHO ATUAL"
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.MASTERED_ROLES_TOOLTIP"
+#~ msgid ""
+#~ "The following jobs have been completely mastered.\n"
+#~ "\n"
+#~ "Duplicants retain both the perks and the expecations of any job they've "
+#~ "mastered."
+#~ msgstr ""
+#~ "Os seguintes trabalhos foram completamente dominados.\n"
+#~ "\n"
+#~ "Duplicantes mantem tanto os bônus quanto as expectativas de qualquer "
+#~ "trabalho que eles dominarem."
+
+#~ msgctxt "STRINGS.UI.DETAILTABS.STATS.RESUME.NO_MASTERED_ROLES"
+#~ msgid "No jobs mastered yet"
+#~ msgstr "Nenhum trabalhos dominado ainda"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.INPUT"
+#~ msgid "Input Point"
+#~ msgstr "Ponto de Entrada"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.OUTPUT"
+#~ msgid "Output Point"
+#~ msgstr "Ponto de Saída"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.INPUT"
+#~ msgid ""
+#~ "<b>Input Point</b>\n"
+#~ "Brings solids into a building from a conveyor rail."
+#~ msgstr ""
+#~ "<b>Ponto de Entrada</b>\n"
+#~ "Põe sólidos de um trilho de transporte em uma estrutura."
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.CONVEYOR.TOOLTIPS.OUTPUT"
+#~ msgid ""
+#~ "<b>Output Point</b>\n"
+#~ "Outputs solids from a building onto a conveyor rail."
+#~ msgstr ""
+#~ "<b>Ponto de Entrada</b>\n"
+#~ "Põe sólidos de uma estrutura para um sistema de transporte."
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.DECOR.HIGHDECOR"
+#~ msgid "High Decor"
+#~ msgstr "Alto Decor"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.DECOR.LOWDECOR"
+#~ msgid "Low Decor"
+#~ msgstr "Baixo Decor"
+
+#~ msgctxt "STRINGS.UI.PRIORITYSCREEN.BASIC"
+#~ msgid ""
+#~ "<b>Priority {0}</b>\n"
+#~ "1: Least urgent\n"
+#~ "5: Most urgent\n"
+#~ "------------------\n"
+#~ "Priority numbers increase or decrease the importance of errands against "
+#~ "other errands of the same type.\n"
+#~ "Duplicants will still rank overall errand types based on preferences "
+#~ "instilled by their Job assignment."
+#~ msgstr ""
+#~ "<b>Prioridade {0}</b>\n"
+#~ "1: Menos urgente\n"
+#~ "5: Mais urgente\n"
+#~ "------------------\n"
+#~ "Números de prioridade aumentam ou diminuem de acordo com a importância "
+#~ "das outras tarefas do mesmo tipo.\n"
+#~ "Duplicantes ainda irão classificar tipos de tarefas baseadas nas "
+#~ "preferências da sua atribuição de trabalho."
+
+#~ msgctxt "STRINGS.UI.PRIORITYSCREEN.EMERGENCY"
+#~ msgid ""
+#~ "<b>Critical Priority</b>\n"
+#~ "This priority overrides all other tasks, including Duplicants' basic "
+#~ "survival needs."
+#~ msgstr ""
+#~ "<b>Prioridade Crítica</b>\n"
+#~ "Esta prioridade sobrepõe todas as outras tarefas, incluindo as "
+#~ "necessidades básicas dos Duplicantes."
+
+#~ msgctxt "STRINGS.UI.PRIORITYSCREEN.HIGH"
+#~ msgid ""
+#~ "<b>Fixed Priority {0}</b>\n"
+#~ "1: Least urgent\n"
+#~ "5: Most urgent\n"
+#~ "------------------\n"
+#~ "Fixed Priority errands will be carried out in order, regardless of "
+#~ "Duplicants' assigned Job preferences."
+#~ msgstr ""
+#~ "<b>Prioridade Fixa {0}</b>\n"
+#~ "Nível 1: Menos urgente\n"
+#~ "Nível 5: Mais urgente\n"
+#~ "------------------\n"
+#~ "Tarefas de Prioridade Fixa serão feitas em ordem, independente das "
+#~ "preferências de trabalho dos Duplicantes ."
+
+#~ msgctxt "STRINGS.UI.PRIORITYSCREEN.HIGH_TOGGLE"
+#~ msgid ""
+#~ "<b>Toggle Fixed Priority</b>\n"
+#~ "Fixed Priority sets a universal priority on an errand for all Duplicants "
+#~ "colonywide, regardless of their job preferences."
+#~ msgstr ""
+#~ "<b>Alternar Prioridade Fixa</b>\n"
+#~ "Prioridade Fixa define uma prioridade universal em uma tarefa para todos "
+#~ "os Duplicantes da colônia, independente das preferências do trabalho."
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION"
+#~ msgid "Duplicants in this job have higher than normal decor standards"
+#~ msgstr "Duplicantes nesse trabalho tendem a ter padrões de decor mais altos"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.MINOR.DESCRIPTION"
+#~ msgid "Duplicants in this job have low decor standards"
+#~ msgstr "Duplicantes nesse trabalho tem baixos padrões de decor"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.UNREASONABLE.DESCRIPTION"
+#~ msgid ""
+#~ "Duplicants in this job have much higher decor standards than could "
+#~ "realistically be provided"
+#~ msgstr ""
+#~ "Duplicantes nesse trabalho possuem padrões de decor muito mais altos do "
+#~ "que pode ser realmente suprido"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.VERY_HIGH.DESCRIPTION"
+#~ msgid "Duplicants in this job have quite high decor standards"
+#~ msgstr "Duplicantes nesse trabalho possuem padrões de decor bem altos"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION"
+#~ msgid "Can use Super Computers"
+#~ msgstr "Pode usar Super Computadores"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ART.DESCRIPTION"
+#~ msgid "Can sculpt and paint art"
+#~ msgstr "Pode esculpir e pintar"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION"
+#~ msgid "Can mine Abyssalite"
+#~ msgstr "Podem minerar Abissalito"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_VERY_FIRM.DESCRIPTION"
+#~ msgid "Can mine very firm materials"
+#~ msgstr "Pode minerar materiais muito firmes"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ELECTRIC_GRILL.DESCRIPTION"
+#~ msgid "Can use Electric Grills"
+#~ msgstr "Pode usar Churrasqueiras Elétricas"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_FARM_TINKER.DESCRIPTION"
+#~ msgid "Can tend crops to increase their growth rate"
+#~ msgstr "Pode cuidar de plantas para aumentar sua velocidade de crescimento"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_POWER_TINKER.DESCRIPTION"
+#~ msgid "Can tune up generators to increase power output"
+#~ msgstr "Pode atualizar geradores e aumentar produção de energia"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION"
+#~ msgid "Can build conveyor rail systems"
+#~ msgstr "Pode construir trilhos de sistemas de transporte"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.EXOSUIT_EXPERTISE.DESCRIPTION"
+#~ msgid "No runspeed decrease from Exosuit use"
+#~ msgstr "Nenhuma penalidade no movimento por usar Exotraje"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INCREASE_BOTANIST.DESCRIPTION"
+#~ msgid "Additional seed harvest chance"
+#~ msgstr "Chance adicional de colher sementes"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.MANAGED_COLONY.DESCRIPTION"
+#~ msgid "Reduces stress for non-managerial Duplicants"
+#~ msgstr "Reduz estresse para Duplicantes não gerenciais"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.MANAGERIAL_DUTIES.DESCRIPTION"
+#~ msgid "Gain stress from workplace mental fatigue"
+#~ msgstr "Ganha estresse por fadiga mental em local de trabalho"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.PICK_DUPLICANT"
+#~ msgid "Duplicant..."
+#~ msgstr "Duplicante..."
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.PICK_JOB"
+#~ msgid "Job..."
+#~ msgstr "Trabalho..."
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.UNASSIGNED"
+#~ msgid "Unassigned"
+#~ msgstr "Não atribuído"
+
+#~ msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS"
+#~ msgid "No U-Turns!"
+#~ msgstr "Sem Curvas em U!"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.TITLE"
+#~ msgid "Capacity"
+#~ msgstr "Capacidade"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.ROLESTATION.TITLE"
+#~ msgid "Job Station"
+#~ msgstr "Estação de Trabalhos"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.EFFECT"
 #~ msgid ""
@@ -37136,18 +37652,6 @@ msgstr "Espalhando areia..."
 #~ "Priority 9: Highest"
 #~ msgstr ""
 #~ "Defina nível de prioridade para a ferramenta selecionada\n"
-#~ "------------------\n"
-#~ "Prioridade 1: Mais Baixo\n"
-#~ "Prioridade 9: Mais Alto"
-
-#~ msgctxt "STRINGS.UI.PRIORITYSCREEN.USERMENUPRIORITYTOOLTIP.BASIC"
-#~ msgid ""
-#~ "Set priority level for the currently selected object\n"
-#~ "------------------\n"
-#~ "Priority 1: Lowest\n"
-#~ "Priority 9: Highest"
-#~ msgstr ""
-#~ "Defina nível de prioridade pra o objeto selecionado\n"
 #~ "------------------\n"
 #~ "Prioridade 1: Mais Baixo\n"
 #~ "Prioridade 9: Mais Alto"
@@ -38675,10 +39179,6 @@ msgstr "Espalhando areia..."
 #~ "Esta planta parou de crescer pois uma de suas necessidades básicas não "
 #~ "foram atendidas"
 
-#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZER.NAME"
-#~ msgid "Wrong Fertilizer"
-#~ msgstr "Fertilizante Incorreto"
-
 #~ msgctxt "STRINGS.CREATURES.STATUSITEMS.WRONGFERTILIZER.TOOLTIP"
 #~ msgid ""
 #~ "This plant is being fed the wrong nutrients. It requires:\n"
@@ -39223,10 +39723,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.UI.BUILDCATEGORIES.PLUMBING.TOOLTIP"
 #~ msgid "Move gases and liquid around with the greatest of ease."
 #~ msgstr "Mova gases e líquidos com a maior facilidade"
-
-#~ msgctxt "STRINGS.UI.DETAILTABS.STATS.GROUPNAME_ATTRIBUTES_EXPECTATIONS"
-#~ msgid "<b>Expectations</b>"
-#~ msgstr "<b>Expectativas</b>"
 
 #~ msgctxt "STRINGS.UI.FRONTEND.WORLD_GEN_OPTIONS_SCREEN.CHOOSE_RANDOM_BUTTON"
 #~ msgid "Use any seed"
