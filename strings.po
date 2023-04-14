@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.1.1\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.1.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -2969,7 +2969,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.DININGTABLE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.NAME"
 msgid "Mess Table"
-msgstr "Mesa Bagunçada"
+msgstr "Mesa de Jantar"
 
 #. STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIRECTIONALWORLDPUMPLIQUID.DESC"
@@ -3250,8 +3250,8 @@ msgid ""
 "Cannot be triggered by <style=\"gas\">Gas</style> or <style=\"liquid"
 "\">Liquids</style>."
 msgstr ""
-"Fica <style=\"logic\">Ativo</style>quando um objeto ou Duplicante é colocado "
-"sobre ele.\n"
+"Fica <style=\"logic\">Ativo</style> quando um objeto ou Duplicante é "
+"colocado sobre ele.\n"
 "\n"
 "Não pode ser ativado por <style=\"gas\">Gases</style> ou <style=\"liquid"
 "\">Líquidos</style>."
@@ -3952,7 +3952,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUIT.NAME"
 msgid "Liquid Pipe"
-msgstr "Tubo de Líquidos"
+msgstr "Cano de Líquidos"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.DESC"
@@ -3978,15 +3978,15 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITBRIDGE.NAME"
 msgid "Liquid Bridge"
-msgstr "Ponte de Encanamento"
+msgstr "Ponte de Canos"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.DESC"
 msgid ""
 "A Duplicant can work a hydrofan to temporarily cool small areas as needed."
 msgstr ""
-"Um Duplicante pode fazer funcionar um hidroventilador para temporariamente "
-"esfriar pequenas áreas conforme necessário."
+"Um Duplicante pode operar um hidroventilador para esfriar pequenas áreas "
+"conforme necessário."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCOOLEDFAN.EFFECT"
@@ -4102,7 +4102,7 @@ msgid ""
 "Piping a pump's intake to another building's output will send liquid to that "
 "building."
 msgstr ""
-"Conectando a sáida de líquidos de uma bomba com a entrada de outra estrutura "
+"Conectando a saída de líquidos de uma bomba com a entrada de outra estrutura "
 "irá mandar líquidos para aquela estrutura."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDPUMP.EFFECT
@@ -4185,7 +4185,7 @@ msgid ""
 "\">Liquid Pipes</style>."
 msgstr ""
 "Liberam <style=\"liquid\">Líquidos</style> de volta para a colônia usando "
-"<style=\"LiquidPiping\"> de Líquidos</style>."
+"<style=\"LiquidPiping\">Cano de Líquido</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDVENT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVENT.NAME"
@@ -5820,7 +5820,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREBRIDGE.NAME"
 msgid "Wire Bridge"
-msgstr "Ponte de Cabo Elétrico"
+msgstr "Ponte de Cabo"
 
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.DESC"
@@ -5844,7 +5844,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREBRIDGEHIGHWATTAGE.NAME"
 msgid "Heavi-Watt Joint Plate"
-msgstr "Adaptador de Cabo de Alta Potência"
+msgstr "Adaptador de Cabo de Potente"
 
 #. STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WIREREFINED.DESC"
@@ -18790,7 +18790,7 @@ msgstr "Duplicantes sufocaram"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDAIRTOOHOT.TOOLTIP"
 msgid "These Duplicants have asphyxiated in <style=\"heat\">Hot</style> air:"
 msgstr ""
-"Esses Duplicantes morreram asfixiados com ar <style=\"heat\">Quente</style>:"
+"Esses Duplicantes morreram asfixiados com ar <style=\"heat\"> Quente</style>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_SUFFOCATEDTANKEMPTY.NAME"
@@ -19417,6 +19417,7 @@ msgid "The colony is prioritizing work over their individual well-being"
 msgstr "A colônia está dando prioridade ao trabalho ao invés de seu bem-estar"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.MESSAGEBODY
+#, fuzzy
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.MESSAGEBODY"
 msgid ""
 "Eureka! <style=\"research\">{0} Technology</style> has been unlocked.\n"
@@ -19427,7 +19428,7 @@ msgstr ""
 "Eureca! <style=\"research\">Tecnologia {0}</style>\" foi desbloqueada.\n"
 "\n"
 "Novas estruturas que ficaram disponíveis:\n"
-"\t• <style=\"misc\">{1}</style>"
+"• <style=\"misc\">{1}</style>"
 
 #. STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.RESEARCHCOMPLETE.NAME"
@@ -19646,7 +19647,7 @@ msgid ""
 "b></color> will allow you to view all areas where Duplicants cannot regulate "
 "their temperature and will become uncomfortable."
 msgstr ""
-"Ambientes extremamente <style=\"heat\">Quentes</style> ou <style=\"heat"
+"Ambientes extremamente <style=\"heat\"> Quentes</style> ou <style=\"heat"
 "\">Frios</style> afetarão a temperatura interna dos seus Duplicantes e "
 "causarão <style=\"stress\">Estresse</style>.\n"
 "\n"
@@ -19971,7 +19972,7 @@ msgstr "Esse Duplicante está em perfeitas condições"
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.NAME"
 msgid "Minor"
-msgstr "Pequeno"
+msgstr "Leves"
 
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.TOOLTIP"
@@ -23023,7 +23024,7 @@ msgstr "Tamanha máximo: {0} células"
 #. STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.DESCRIPTION"
 msgid "Requires two or more Mess Tables"
-msgstr "Requer duas ou mais Mesas do Refeitório"
+msgstr "Requer duas ou mais Mesas de Jantar"
 
 #. STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_MULTIPLE.NAME"
@@ -23033,7 +23034,7 @@ msgstr "Mesas"
 #. STRINGS.ROOMS.CRITERIA.MESS_STATION_SINGLE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_SINGLE.DESCRIPTION"
 msgid "Requires a single Mess Table"
-msgstr "Requer uma Mesa do Refeitório"
+msgstr "Requer uma Mesa de Jantar"
 
 #. STRINGS.ROOMS.CRITERIA.MESS_STATION_SINGLE.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.MESS_STATION_SINGLE.NAME"
@@ -23222,7 +23223,7 @@ msgid ""
 "Eating at a Mess Table will relieve additional stress for Duplicants if it "
 "is located within a Mess Hall."
 msgstr ""
-"Comendo em uma Mesa do Refeitório aliviará estresse adicional para os "
+"Comendo em uma Mesa de Jantar aliviará estresse adicional para os "
 "Duplicantes se ela estiver dentro de um Refeitório."
 
 #. STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT
@@ -23536,7 +23537,7 @@ msgstr "Tudo que precisa para manter sua colônia respirando."
 #. STRINGS.UI.BUILDCATEGORIES.PLUMBING.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.PLUMBING.NAME"
 msgid "Plumbing"
-msgstr "Encanamento"
+msgstr "Canos"
 
 #. STRINGS.UI.BUILDCATEGORIES.PLUMBING.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.PLUMBING.TOOLTIP"
@@ -23556,7 +23557,7 @@ msgstr "Precisa energizar sua colônia? Aqui está como se faz!"
 #. STRINGS.UI.BUILDCATEGORIES.REFINING.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.REFINING.NAME"
 msgid "Refinement"
-msgstr "Refinamento"
+msgstr "Refinar"
 
 #. STRINGS.UI.BUILDCATEGORIES.REFINING.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.REFINING.TOOLTIP"
@@ -23614,7 +23615,8 @@ msgid ""
 "<style=\"decor\">Decor</style>: <style=\"{0}\">{1}</style> (Radius: {2} "
 "tiles)"
 msgstr ""
-"<style=\"decor\">Decor</style>: <style=\"{0}\">{1}</style> (Raio: {2} tiles)"
+"<style=\"decor\">Decor</style>: <style=\"{0}\">{1}</style> (Raio: {2} "
+"células)"
 
 #. STRINGS.UI.BUILDINGEFFECTS.DISEASECONSUMEDPERUSE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.DISEASECONSUMEDPERUSE"
@@ -23833,12 +23835,12 @@ msgstr "Supre com <style={0}>{1}</style>"
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASINPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASINPUT"
 msgid "<style=\"GasPiping\">Gas Intake Pipe</style>"
-msgstr "<style=\"GasPiping\"> de Entrada</style>"
+msgstr "<style=\"GasPiping\">Tubo de Entrada</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUT"
 msgid "<style=\"GasPiping\">Gas Output Pipe</style>"
-msgstr "<style=\"GasPiping\"> de Saída</style>"
+msgstr "<style=\"GasPiping\">Tubo de Saída</style>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUTS"
@@ -24189,7 +24191,7 @@ msgid ""
 "coolant, its temperature would be raised by {2} along with warming the "
 "building."
 msgstr ""
-"Esfriando os materiais de sáida produzirá {0} de calor. Se {1} foi usado "
+"Esfriando os materiais de saída produzirá {0} de calor. Se {1} foi usado "
 "como resfriador, sua temperatura será aumentada para {2} junto com o "
 "aquecimento da estrutura."
 
@@ -25834,7 +25836,7 @@ msgstr "NOTAS DE ATUALIZAÇÃO"
 #. STRINGS.UI.DEVELOPMENTBUILDS.FULL_PATCH_NOTES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.FULL_PATCH_NOTES"
 msgid "Full Patch Notes"
-msgstr "Notas de Atualização Completas"
+msgstr "Notas Completas"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.PREVIOUS_VERSION
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.PREVIOUS_VERSION"
@@ -30200,7 +30202,7 @@ msgstr "Atacar"
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BACKWALL
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BACKWALL"
 msgid "Backwall Buildings"
-msgstr "Estruturas de parede de fundo"
+msgstr "Estruturas de fundo"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BUILDINGS
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BUILDINGS"
