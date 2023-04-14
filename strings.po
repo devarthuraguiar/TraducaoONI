@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.2.0\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.2.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1544,6 +1544,16 @@ msgstr ""
 "Estações devem ser colocadas ao lado de um Ponto de Checagem, oposto ao lado "
 "onde checa"
 
+#. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME"
+msgid "Not Enough Power"
+msgstr "Energia Insuficiente"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.TOOLTIP"
+msgid "Building will be useable once it has more stored charge"
+msgstr "Estrutura ficará utilizável somente quando armazenar mais carga"
+
 #. STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTUBECONNECTED.NAME"
 msgid "No Transit Tube Connected"
@@ -1846,6 +1856,20 @@ msgstr "Armazenando: {Stored} / {Capacity} kg"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.TOOLTIP"
 msgid "This container is storing {Stored} kg of material"
 msgstr "Este recipiente está armazenando {Stored} kg de material"
+
+#. STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.NAME"
+msgid "Stored Charge: {0}/{1}"
+msgstr "Carga Armazenada: {0}/{1}"
+
+#. STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.STOREDCHARGE.TOOLTIP"
+msgid ""
+"This building has stored {0} out of a maximum {1}. It will consume {2} per "
+"use."
+msgstr ""
+"Esta estrutura armazenou {0} de uma máximo de {1}. Ela irá consumir {2} por "
+"uso."
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.CHARGING.NAME"
@@ -5786,9 +5810,18 @@ msgstr ""
 "tubos, mas não são necessárias para a saída."
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT"
+#| msgid "Allows Duplicants to enter the connected Transit Tube system."
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.EFFECT"
-msgid "Allows Duplicants to enter the connected Transit Tube system."
-msgstr "Permite aos Duplicantes entrarem na Tubulação de Tráfego conectada."
+msgid ""
+"Allows Duplicants to enter the connected Transit Tube system.\n"
+"\n"
+"Stops drawing <style=\"power\">Power</style> once fully charged."
+msgstr ""
+"Permite aos Duplicantes entrarem na Tubulação de Tráfego conectada.\n"
+"\n"
+"Interrompe o consumo de <style=\"power\">Energia</style> quando totalmente "
+"carregada."
 
 #. STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEENTRANCE.NAME"
@@ -19825,12 +19858,12 @@ msgstr ""
 "<style=\"equipment\">Exotrajes</style> protegem seus Duplicantes de perigos "
 "do ambiente como <style=\"heat\">Calor</style> extremo, <style=\"disease"
 "\">Germes</style> aéreos, e <style=\"gas\">Gases</style> irrespiráveis. Para "
-"utilizar esses trajes, você precisará armazená-los em uma Estação de Exo-"
-"Trajes e colocá-la ao lado de um Ponto de Checagem de Trajes.\n"
+"utilizar esses trajes, você precisará armazená-los em uma Estação de "
+"Exotrajes e colocá-la ao lado de um Ponto de Checagem de Trajes.\n"
 "\n"
-"Duplicantes vão equipar um exo-traje quando passarem por um Ponto de "
-"Checagem na direção que ele aponta e remover o traje quando passar pela "
-"direção oposta."
+"Duplicantes vão equipar um exotraje quando passarem por um Ponto de Checagem "
+"na direção que ele aponta e remover o traje quando passar pela direção "
+"oposta."
 
 #. STRINGS.MISC.NOTIFICATIONS.SUITS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SUITS.NAME"
@@ -20069,7 +20102,7 @@ msgstr "Emitindo <style=\"gas\">{Element}</style>: {FlowRate}"
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEEMITTING.TOOLTIP"
 msgid "Producing {Element} at a rate of {FlowRate}"
-msgstr "Produzindo {ElementType} a uma taxa de {FlowRate}"
+msgstr "Produzindo {Element} a uma taxa de {FlowRate}"
 
 #. STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.BLEACHSTONEINACTIVE.NAME"
@@ -20167,8 +20200,7 @@ msgstr "Severo"
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.CRITICAL.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.CRITICAL.TOOLTIP"
 msgid "This Duplicant is in serious need of medical attention"
-msgstr ""
-"Esses Duplicantes estão gravemente feridos e necessitam de atenção médica"
+msgstr "Este Duplicante necessita urgentemente de atenção médica"
 
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.DEAD.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.DEAD.NAME"
@@ -20188,7 +20220,7 @@ msgstr "Paralizando"
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.INCAPACITATED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.INCAPACITATED.TOOLTIP"
 msgid "This Duplicant will die if they do not receive medical attention"
-msgstr "Esses Duplicantes irão morrer se não receberem de atenção médica"
+msgstr "Esses Duplicantes irão morrer se não receberem atenção médica"
 
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.INJURED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.INJURED.NAME"
@@ -20213,7 +20245,7 @@ msgstr "Este Duplicante está em perfeitas condições"
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.NAME"
 msgid "Minor"
-msgstr "Leves"
+msgstr "Leve"
 
 #. STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.SCUFFED.TOOLTIP"
@@ -20264,12 +20296,12 @@ msgstr "Não marcado para colheita"
 #. STRINGS.MISC.STATUSITEMS.NOTMARKEDFORHARVEST.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.NOTMARKEDFORHARVEST.TOOLTIP"
 msgid "Use the harvest tool to mark this plant for harvest."
-msgstr "Use a ferramenta de colher para marcar esta planta para colheita."
+msgstr "Use a ferramenta colher para marcar esta planta para colheita."
 
 #. STRINGS.MISC.STATUSITEMS.OPERATING.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.OPERATING.NAME"
 msgid "In Use"
-msgstr "Em uso"
+msgstr "Em Uso"
 
 #. STRINGS.MISC.STATUSITEMS.OPERATING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.OPERATING.TOOLTIP"
@@ -20398,7 +20430,7 @@ msgstr "Aguardando um Duplicante para a colheita"
 #. STRINGS.MISC.STATUSITEMS.PENDINGUPROOT.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGUPROOT.NAME"
 msgid "Uproot Task Assigned"
-msgstr "Tarefa de Desenraizar Designada"
+msgstr "Tarefa Desenraizar Designada"
 
 #. STRINGS.MISC.STATUSITEMS.PENDINGUPROOT.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.PENDINGUPROOT.TOOLTIP"
@@ -20580,7 +20612,7 @@ msgstr "Liga"
 #. STRINGS.MISC.TAGS.ANTISEPTIC
 msgctxt "STRINGS.MISC.TAGS.ANTISEPTIC"
 msgid "Antiseptic"
-msgstr "Antiséptico"
+msgstr "Antisséptico"
 
 #. STRINGS.MISC.TAGS.ANYWATER
 msgctxt "STRINGS.MISC.TAGS.ANYWATER"
@@ -21359,6 +21391,7 @@ msgid "Abyss"
 msgstr "Abismo"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.ACROPOLIS
+#, fuzzy
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.ACROPOLIS"
 msgid "Acropolis"
 msgstr "Acrópole"
@@ -21414,6 +21447,7 @@ msgid "Citadel"
 msgstr "Forte"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.COLONY
+#, fuzzy
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.COLONY"
 msgid "Colony"
 msgstr "Colônia"
@@ -21464,11 +21498,13 @@ msgid "Dump"
 msgstr "Lixão"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.DWELLING
+#, fuzzy
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.DWELLING"
 msgid "Dwelling"
 msgstr "Moradia"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.DYSTOPIA
+#, fuzzy
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.DYSTOPIA"
 msgid "Dystopia"
 msgstr "Distopia"
@@ -21479,6 +21515,7 @@ msgid "Facility"
 msgstr "Projeto"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.FACTORY
+#, fuzzy
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.FACTORY"
 msgid "Factory"
 msgstr "Fábrica"
@@ -21491,7 +21528,7 @@ msgstr "Forte"
 #. STRINGS.NAMEGEN.COLONY.NOUN.FRIENDS
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.FRIENDS"
 msgid "Friends"
-msgstr "Amigos"
+msgstr "Amigo"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.GALAXY
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.GALAXY"
@@ -21594,9 +21631,10 @@ msgid "Shelter"
 msgstr "Abrigo"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.SPACE_HUT
+#, fuzzy
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACE_HUT"
 msgid "Space Hut"
-msgstr "Cabana do Espaço"
+msgstr "Cabana Espacial"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.SPACECAMP
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACECAMP"
@@ -21624,6 +21662,7 @@ msgid "Spacerock"
 msgstr "Meteoro"
 
 #. STRINGS.NAMEGEN.COLONY.NOUN.SPACESTATION
+#, fuzzy
 msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACESTATION"
 msgid "Spacestation"
 msgstr "Estação Espacial"
@@ -22543,7 +22582,7 @@ msgstr "Morreu fazendo o que amava."
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.TO_DIG_TO_MUSH_NO_MORE
 msgctxt "STRINGS.NAMEGEN.GRAVE.EPITAPHS.TO_DIG_TO_MUSH_NO_MORE"
 msgid "To dig, to mush, no more."
-msgstr "Chega de cavar, de comer lama."
+msgstr "Chega de cavar e de comer lama."
 
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.WHERE_ONE_ADVENTURE_ENDS_ANOTHER_BEGINS
 msgctxt ""
@@ -22559,7 +22598,7 @@ msgstr "Exotraje"
 #. STRINGS.REGIONS.MISSINGREQUIREMENTS.BLOCKED
 msgctxt "STRINGS.REGIONS.MISSINGREQUIREMENTS.BLOCKED"
 msgid "Cells must be cleared of solid materials and tiles"
-msgstr "Remova materiais sólidos e blocos das células"
+msgstr "Células precisam ser limpas de materiais sólidos e de blocos"
 
 #. STRINGS.REGIONS.MISSINGREQUIREMENTS.BUILDINGTAG
 msgctxt "STRINGS.REGIONS.MISSINGREQUIREMENTS.BUILDINGTAG"
@@ -22637,8 +22676,8 @@ msgid ""
 "Basic technologies for filtering <style=\"liquid\">Liquid</style> and <style="
 "\"gas\">Gas</style>."
 msgstr ""
-"Tecnologias básicas para a filtrar <style=\"liquid\">Líquidos</style> e "
-"<style=\"gas\">Gases</style>."
+"Tecnologias básicas para filtrar <style=\"liquid\">Líquidos</style> e <style="
+"\"gas\">Gases</style>."
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.NAME"
@@ -22698,8 +22737,8 @@ msgid ""
 "Majorly improve <style=\"decor\">Decor</style> by allowing Duplicants "
 "artistic and emotional expression."
 msgstr ""
-"Melhora bastante o <style=\"decor\">Decor</style> por permitir os "
-"Duplicantes se expressar de forma artística e emocional."
+"Melhora bastante o <style=\"decor\">Decor</style> por permitir aos "
+"Duplicantes a expressão artística e emocional."
 
 #. STRINGS.RESEARCH.TECHS.ARTISTRY.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ARTISTRY.NAME"
@@ -25035,7 +25074,7 @@ msgstr ""
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ADD_FOW_MASK
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ADD_FOW_MASK"
 msgid "Prevent FoW Reveal"
-msgstr ""
+msgstr "Previnir Revelar FoW"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.BUILDINGS
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.BUILDINGS"
@@ -25045,124 +25084,124 @@ msgstr "Estruturas:"
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.CELLS
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.CELLS"
 msgid "Cells:"
-msgstr ""
+msgstr "Células:"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE"
 msgid "Disease"
-msgstr ""
+msgstr "Doença"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE_COUNT
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.DISEASE_COUNT"
 msgid "Disease Count"
-msgstr ""
+msgstr "Contagem da Doença"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ELEMENT
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ELEMENT"
 msgid "Element"
-msgstr ""
+msgstr "Elemento"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.FILL
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.FILL"
 msgid "Fill"
-msgstr ""
+msgstr "Encher"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.MASS_KG
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.MASS_KG"
 msgid "Mass (kg)"
-msgstr ""
+msgstr "Massa (kg)"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.PAINT
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.PAINT"
 msgid "Paint"
-msgstr ""
+msgstr "Pintar"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.REMOVE_FOW_MASK
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.REMOVE_FOW_MASK"
 msgid "Allow FoW Reveal"
-msgstr ""
+msgstr "Permitir Revelar FoW"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TEMPERATURE_KELVIN
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TEMPERATURE_KELVIN"
 msgid "Temperature (K)"
-msgstr ""
+msgstr "Temperatura (K)"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TITLE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.TITLE"
 msgid "CELL PAINTER"
-msgstr ""
+msgstr "PINTOR DE CÉLULA"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.CLEAR_BUTTON
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.CLEAR_BUTTON"
 msgid "Clear Floor"
-msgstr ""
+msgstr "Limpar Chão"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.CLEAR_SELECTION_BUTTON
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.CLEAR_SELECTION_BUTTON"
 msgid "Clear Selection"
-msgstr ""
+msgstr "Limpar Seleção"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.DECONSTRUCT_BUTTON
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.DECONSTRUCT_BUTTON"
 msgid "Deconstruct"
-msgstr ""
+msgstr "Desconstruir"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.DEFAULT_SAVE_NAME
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.DEFAULT_SAVE_NAME"
 msgid "TemplateSaveName"
-msgstr ""
+msgstr "NomedoModelo"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.DESTROY_BUTTON
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.DESTROY_BUTTON"
 msgid "Destroy"
-msgstr ""
+msgstr "Destruir"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.MORE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.MORE"
 msgid "More"
-msgstr ""
+msgstr "Mais"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SAVE_TITLE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SAVE_TITLE"
 msgid "Save Selection"
-msgstr ""
+msgstr "Seleção de Save"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.AVERAGE_MASS
 msgctxt ""
 "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.AVERAGE_MASS"
 msgid "Average cell mass: {0}"
-msgstr ""
+msgstr "Média da massa da célula: {0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.AVERAGE_TEMPERATURE
 msgctxt ""
 "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL."
 "AVERAGE_TEMPERATURE"
 msgid "Average temperature: {0}"
-msgstr ""
+msgstr "Média da temperatura: {0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.JOULES_PER_KILOGRAM
 msgctxt ""
 "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL."
 "JOULES_PER_KILOGRAM"
 msgid "Joules per kilogram: {0}"
-msgstr ""
+msgstr "Joules por quilograma: {0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_JOULES
 msgctxt ""
 "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_JOULES"
 msgid "Total joules: {0}"
-msgstr ""
+msgstr "Joules Totais: {0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_MASS
 msgctxt ""
 "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_MASS"
 msgid "Total mass: {0}"
-msgstr ""
+msgstr "Massa total: {0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.TITLE
 msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.TITLE"
 msgid "Base and World Tools"
-msgstr ""
+msgstr "Ferramentas de Base e Mundo"
 
 #. STRINGS.UI.DELIVERED
 msgctxt "STRINGS.UI.DELIVERED"
@@ -27498,11 +27537,11 @@ msgstr "Chave de geração do mundo"
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
-"<b>Welcome to the Automation Upgrade!</b>\n"
+"<b>Welcome to the Tubular Upgrade!</b>\n"
 "\n"
 "{0}"
 msgstr ""
-"<b>Bem vindo a Atualização da Automação!</b>\n"
+"<b>Bem vindo para a Atualização Tubular!</b>\n"
 "\n"
 "{0}"
 
@@ -27516,45 +27555,33 @@ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
 "<b>Update Features:</b>\n"
 "\n"
-"• New buildings for base automation including sensors, switches, logic "
-"gates, and Duplicant checkpoints\n"
-"• Automation inputs for existing buildings and new automatable system "
-"shutoffs\n"
-"• Two new ore processing buildings for Metal refinement\n"
-"• Revamped tech tree with new research tiers, buildings, and overlays\n"
-"• Bug fixes and performance improvements\n"
-"\n"
-"<b>Other Notable Changes:</b>\n"
-"\n"
-"• Automatic power switches have been replaced by Automation sensors and can "
-"no longer directly control power\n"
-"• Oil and oil products will now properly freeze at low temperatures\n"
+"• New Transit Tube networks allow rapid Duplicant transport to and from the "
+"furthest reaches of your base\n"
+"• Ice Sculptures can now be built in cold areas for a special decor boost\n"
+"• Berry Sludge, a new recipe made from Bristle Berries, can now be found at "
+"the Microbe Musher\n"
+"• Extensive performance improvements, affecting late game bases, stored "
+"items, Duplicant navigation, memory usage, and more\n"
 "\n"
 "Please view the full patch notes for further details!"
 msgstr ""
 "<b>Recursos da Atualização:</b>\n"
 "\n"
-"• Novas estruturas para automação da base incluindo sensores, alavancas, "
-"portões lógicos, e pontos de checagem de Duplicante\n"
-"• Entradas de automação para estruturas já existentes e novos "
-"interrompedores automatizados\n"
-"• Duas novas estruturas de processamento de minério para refinação de "
-"Metais\n"
-"• Árvore de Pesquisa renovada e várias novas estruturas para desbloquear\n"
-"• Correção de erros e melhoras na performance\n"
-"\n"
-"<b>Outras mudanças notáveis:</b>\n"
-"\n"
-"• Alavancas elétricas automáticas foram substituídas pelos sensores "
-"Automatizados e não controlarão a energia elétrica diretamente\n"
-"• Petróleo e os seus derivados agora irão congelar em baixas temperaturas\n"
+"• Nova rede de Tubos de Tráfego permitem o rápido transporte de Duplicantes "
+"para os locais mais distantes da sua base\n"
+"• Esculturas de Gelo podem agora ser construídas em áreas frias para uma "
+"melhora especial na decor\n"
+"• Barrotone, uma nova receita feita com Frutos da Seda, podem ser "
+"encontradas no Compactador de Micróbios\n"
+"• Melhoras extensivas na performance, afetando colônias antigas, itens "
+"armazendos, navegação dos Duplicantes, uso de memória e mais\n"
 "\n"
 "Por favor, veja as notas de atualização para mais detalhes!"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-msgid "AUTOMATION UPGRADE"
-msgstr "ATUALIZAÇÃO AUTOMAÇÃO"
+msgid "TUBULAR UPGRADE"
+msgstr "ATUALIZAÇÃO TUBULAR"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT"
@@ -33930,6 +33957,50 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
+#~ msgid ""
+#~ "<b>Update Features:</b>\n"
+#~ "\n"
+#~ "• New buildings for base automation including sensors, switches, logic "
+#~ "gates, and Duplicant checkpoints\n"
+#~ "• Automation inputs for existing buildings and new automatable system "
+#~ "shutoffs\n"
+#~ "• Two new ore processing buildings for Metal refinement\n"
+#~ "• Revamped tech tree with new research tiers, buildings, and overlays\n"
+#~ "• Bug fixes and performance improvements\n"
+#~ "\n"
+#~ "<b>Other Notable Changes:</b>\n"
+#~ "\n"
+#~ "• Automatic power switches have been replaced by Automation sensors and "
+#~ "can no longer directly control power\n"
+#~ "• Oil and oil products will now properly freeze at low temperatures\n"
+#~ "\n"
+#~ "Please view the full patch notes for further details!"
+#~ msgstr ""
+#~ "<b>Recursos da Atualização:</b>\n"
+#~ "\n"
+#~ "• Novas estruturas para automação da base incluindo sensores, alavancas, "
+#~ "portões lógicos, e pontos de checagem de Duplicante\n"
+#~ "• Entradas de automação para estruturas já existentes e novos "
+#~ "interrompedores automatizados\n"
+#~ "• Duas novas estruturas de processamento de minério para refinação de "
+#~ "Metais\n"
+#~ "• Árvore de Pesquisa renovada e várias novas estruturas para desbloquear\n"
+#~ "• Correção de erros e melhoras na performance\n"
+#~ "\n"
+#~ "<b>Outras mudanças notáveis:</b>\n"
+#~ "\n"
+#~ "• Alavancas elétricas automáticas foram substituídas pelos sensores "
+#~ "Automatizados e não controlarão a energia elétrica diretamente\n"
+#~ "• Petróleo e os seus derivados agora irão congelar em baixas "
+#~ "temperaturas\n"
+#~ "\n"
+#~ "Por favor, veja as notas de atualização para mais detalhes!"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
+#~ msgid "AUTOMATION UPGRADE"
+#~ msgstr "ATUALIZAÇÃO AUTOMAÇÃO"
+
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME"
 #~ msgid "Awaiting Delivery"
 #~ msgstr "Aguardando Entrega"
@@ -34007,10 +34078,6 @@ msgstr "Espalhando areia..."
 #~ "• Árvore de Pesquisa renovada e várias novas estruturas para desbloquear\n"
 #~ "• Correção de erros, melhoras na performance, novas plantas, criaturas e "
 #~ "mais."
-
-#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-#~ msgid "OIL UPGRADE"
-#~ msgstr "ATUALIZAÇÃO DO PETRÓLEO"
 
 #~ msgctxt "STRINGS.UI.OVERLAYS.LOGIC.OUTPUT"
 #~ msgid "Output"
