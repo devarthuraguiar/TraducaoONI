@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.0.2\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.0.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -119,6 +119,16 @@ msgstr "Obra Incompleta"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGARTING.TOOLTIP"
 msgid "This building requires a Duplicant's artistic touch"
 msgstr "Essa estrutura requer o toque artístico de um Duplicante"
+
+#. STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.NAME"
+msgid "Awaiting Delivery"
+msgstr "Aguardando Entrega"
+
+#. STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGBAITDELIVERY.TOOLTIP"
+msgid "Awaiting delivery of selected bait"
+msgstr "Aguardando entrega da isca selecionada"
 
 #. STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.AWAITINGCOMPOSTFLIP.NAME"
@@ -1287,7 +1297,7 @@ msgstr "Sem Região"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSREGION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSREGION.TOOLTIP"
 msgid "This building must be inside a {0} region"
-msgstr "Esta estrutura precisa estar dentro de uma {0} região"
+msgstr "Esta estrutura precisa estar dentro da região {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSVALIDREGION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSVALIDREGION.NAME"
@@ -1297,12 +1307,12 @@ msgstr "Requer Região Válida"
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSVALIDREGION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSVALIDREGION.TOOLTIP"
 msgid "This building region has not yet met its requirements"
-msgstr "Esta região de construção ainda não atingiu seus requerimentos"
+msgstr "A região desta estrutura ainda não atingiu seus requisitos"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.NAME"
 msgid "Cannot Mine"
-msgstr "Não é possível Minerar"
+msgstr "Impossível Minerar"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.TOOLTIP"
@@ -1345,7 +1355,7 @@ msgstr "Pesquisa Inaplicável"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_NAME"
 msgid "<style=\"research\">Research Center</style> idle"
-msgstr "<style=\"research\">Centro de Pesquisa</style> idle"
+msgstr "<style=\"research\">Centro de Pesquisa</style> ocioso"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.NOTIFICATION_TOOLTIP
 msgctxt ""
@@ -1356,7 +1366,7 @@ msgid ""
 "Type</style> for the selected <style=\"research\">Research Task</style>:"
 msgstr ""
 "Essas estruturas não podem produzir o <style=\"research\">Tipo de Pesquisa</"
-"style> para a <style=\"research\">Pesquisa</style> selecionada:"
+"style> correto para a <style=\"research\">Pesquisa</style> selecionada:"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLERESEARCHSELECTED.TOOLTIP"
@@ -1400,23 +1410,22 @@ msgstr "Não existe peixes comestíveis abaixo dessa estrutura"
 #. STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.NAME"
 msgid "Pump Not In Gas"
-msgstr "Bomba não imersa em gás"
+msgstr "Bomba Não Imersa em Gás"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOGASELEMENTTOPUMP.TOOLTIP"
 msgid "This pump must be submerged in gas to work"
-msgstr ""
-"Essa bomba precisa estar imersa em <style=\"gas\">Gás</style> para funcionar"
+msgstr "Essa bomba precisa estar imersa em Gás para funcionar"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.NAME"
 msgid "Pump Not In Liquid"
-msgstr "Bomba não imersa em líquido"
+msgstr "Bomba Não Imersa em Líquido"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLIQUIDELEMENTTOPUMP.TOOLTIP"
 msgid "This pump must be submerged in liquid to work"
-msgstr "Essa planta precisa estar submersa em líquido para crescer"
+msgstr "Essa bomba precisa estar submersa em líquido para funcionar"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.NAME"
@@ -1427,6 +1436,16 @@ msgstr "Nenhum Cabo Automatizado Conectado"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLOGICWIRECONNECTED.TOOLTIP"
 msgid "This building has not been connected to an automation circuit"
 msgstr "Essa estrutura não está conectada à nenhum circuito de automação"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.NAME"
+msgid "No Bait Selected"
+msgstr "Nenhuma Isca Selecionada"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOLUREELEMENTSELECTED.TOOLTIP"
+msgid "Select a resource to use as bait"
+msgstr "Selecione um recurso para usar como isca"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.NAME"
@@ -1479,7 +1498,7 @@ msgstr "Nada de extraordinário aqui"
 #. STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.NAME"
 msgid "Storage Not Assigned"
-msgstr "Armazenamento não especificado"
+msgstr "Armazenamento Não Especificado"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSTORAGEFILTERSET.TOOLTIP"
@@ -1605,17 +1624,17 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.NAME"
 msgid "Toggle Switch Task Assigned"
-msgstr "Mudança do Estado da Alavanca Designada"
+msgstr "Tarefa Alternar Alavanca Designada"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGSWITCHTOGGLE.TOOLTIP"
 msgid "Waiting for a Duplicant to toggle switch"
-msgstr "Esperando um Duplicante virar a alavanca"
+msgstr "Esperando um Duplicante alternar a alavanca"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.NAME"
 msgid "Uproot Task Assigned"
-msgstr "Tarefa de Desenraizar Designada"
+msgstr "Tarefa Desenraizar Designada"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGUPROOT.TOOLTIP"
@@ -1630,7 +1649,7 @@ msgstr "Tarefa Designada"
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGWORK.TOOLTIP"
 msgid "Waiting for a Duplicant to operate this building"
-msgstr "Esperando um Duplicante  trabalhar nesta estrutura"
+msgstr "Esperando um Duplicante operar esta estrutura"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPE.NAME"
@@ -1662,7 +1681,7 @@ msgstr "Vazio"
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME"
 msgid "Function Suspended"
-msgstr "Função Suspensa"
+msgstr "Função Suspendida"
 
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.TOOLTIP"
@@ -1718,7 +1737,7 @@ msgstr "Armazenando: {Stored}"
 #. STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.TOOLTIP"
 msgid "This box contains {Stored} of food"
-msgstr "Esta caixa contém {Stored} de <style=\"food\">Comida</style>"
+msgstr "Esta caixa contém {Stored} de Comida"
 
 #. STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME"
@@ -1738,7 +1757,7 @@ msgstr "Requer Mineiro"
 #. STRINGS.BUILDING.STATUSITEMS.REQUIRESMINER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESMINER.TOOLTIP"
 msgid "Only Duplicants assigned to one of the Miner roles can dig this tile"
-msgstr "Somente Duplicantes designados como Mineiro pode cavar esse bloco"
+msgstr "Somente Duplicantes designados como Mineiro podem cavar esse bloco"
 
 #. STRINGS.BUILDING.STATUSITEMS.REQUIRESRESEARCHER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REQUIRESRESEARCHER.NAME"
@@ -1768,14 +1787,12 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RESEARCHING.NAME"
 msgid "Current <style=\"research\">Research</style>: {Tech}"
-msgstr "<style=\"research\">Pesquisa</style> {Tech} Atual:"
+msgstr "<style=\"research\">Pesquisa</style> Atual: {Tech}"
 
 #. STRINGS.BUILDING.STATUSITEMS.RESEARCHING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RESEARCHING.TOOLTIP"
 msgid "Research produced at this station will be invested in {Tech}"
-msgstr ""
-"<style=\"research\">Pesquisa</style> produzida nessa estação será investida "
-"em {Tech}"
+msgstr "Pesquisa produzida nessa estação será investida em {Tech}"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME"
@@ -1805,7 +1822,7 @@ msgstr "Estado atual: Carga Completa"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.FULLY_CHARGED.TOOLTIP"
 msgid "This Exosuit is fully charged and ready for use"
-msgstr "Exotraje está recarregado e pronta para o uso"
+msgstr "Exotraje está recarregado e pronto para o uso"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.NAME"
@@ -1815,7 +1832,7 @@ msgstr "Estado atual: Precisa de Configuração"
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NEED_CONFIGURATION.TOOLTIP"
 msgid "Set this Dock to store an Exosuit or remain on Standby"
-msgstr "Defina esta estação para armazenar um Exotraje ou permanecer em Espera"
+msgstr "Configure esta Estação para armazenar um Exotraje ou deixar em Espera"
 
 #. STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.NO_OXYGEN.NAME"
@@ -1925,7 +1942,7 @@ msgstr ""
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.NAME"
 msgid "Active"
-msgstr "Ativo"
+msgstr "Ativa"
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSACTIVE.TOOLTIP"
@@ -1935,7 +1952,7 @@ msgstr "Essa alavanca foi ativada"
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.NAME"
 msgid "Inactive"
-msgstr "Inativo"
+msgstr "Inativa"
 
 #. STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SWITCHSTATUSINACTIVE.TOOLTIP"
@@ -1993,12 +2010,12 @@ msgstr "Muito Frio"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TOO_COLD.TOOLTIP"
 msgid ""
 "Either this building or its surrounding environment is too cold to operate"
-msgstr "Essa estrutura ou seu ambiente estão frios demais para operar"
+msgstr "Essa estrutura ou o seu ambiente estão frios demais para operar"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.NAME"
 msgid "Output Blocked"
-msgstr "Saída bloqueada"
+msgstr "Saída Bloqueada"
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP"
@@ -2053,12 +2070,12 @@ msgstr "Construção Pendente"
 #. STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERCONSTRUCTIONNOWORKER.TOOLTIP"
 msgid "Waiting for a Duplicant to build"
-msgstr "Esperando por um Duplicante Construir"
+msgstr "Esperando um Duplicante construir"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNDERPRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERPRESSURE.NAME"
 msgid "Low Air Pressure"
-msgstr "Pressão atmosférica baixa"
+msgstr "Pressão Atmosférica Baixa"
 
 #. STRINGS.BUILDING.STATUSITEMS.UNDERPRESSURE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNDERPRESSURE.TOOLTIP"
@@ -2077,7 +2094,7 @@ msgstr "Fora de Serviço"
 #. STRINGS.BUILDING.STATUSITEMS.UNUSABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.UNUSABLE.TOOLTIP"
 msgid "This amenity requires maintenance"
-msgstr "Esta estrutura requer manuntenção"
+msgstr "Este serviço requer manuntenção"
 
 #. STRINGS.BUILDING.STATUSITEMS.VALVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.VALVE.NAME"
@@ -2092,7 +2109,7 @@ msgstr "Esta válvula está permitindo a passagem do volume de {MaxFlow}"
 #. STRINGS.BUILDING.STATUSITEMS.VALVEREQUEST.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.VALVEREQUEST.NAME"
 msgid "Requested Flow Rate: {QueuedMaxFlow}"
-msgstr "Taxa de Fluxo na Fila: {QueuedMaxFlow}"
+msgstr "Taxa de Fluxo Requerido: {QueuedMaxFlow}"
 
 #. STRINGS.BUILDING.STATUSITEMS.VALVEREQUEST.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.VALVEREQUEST.TOOLTIP"
@@ -2115,7 +2132,7 @@ msgid ""
 "Awaiting Material Delivery\n"
 "{ItemsRemaining}"
 msgstr ""
-"Agurdadando Entrega de Materiais\n"
+"Aguardando Entrega de Materiais\n"
 "{ItemsRemaining}"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORMATERIALS.TOOLTIP
@@ -2158,8 +2175,7 @@ msgstr "Potência: {Wattage}"
 #. STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTAGE.TOOLTIP"
 msgid "This building is generating {Wattage} of power"
-msgstr ""
-"Esta estrutura está gerando {Wattage} de <style=\"power\">Energia</style>"
+msgstr "Esta estrutura está gerando {Wattage} de Energia"
 
 #. STRINGS.BUILDING.STATUSITEMS.WATTSON.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WATTSON.NAME"
@@ -2337,7 +2353,7 @@ msgstr "um Duplicante agressivo. Que rude!"
 #. STRINGS.BUILDINGS.DAMAGESOURCES.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.NOTIFICATION_TOOLTIP"
 msgid "A {0} sustained damage from {1}"
-msgstr "{0} recebeu dano de {1}"
+msgstr "Um {0} recebeu dano de {1}"
 
 #. STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.NAME
 msgctxt "STRINGS.BUILDINGS.DISINFECTABLE.DISABLE_DISINFECT.NAME"
@@ -2400,7 +2416,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.EFFECT"
 msgid ""
 "Attracts airborne creatures of a single type when set with the correct bait."
 msgstr ""
-"Atrai criaturas aéres de um único tipo quando armada com a isca correta."
+"Atrai criaturas aéreas de um único tipo quando armada com a isca correta."
 
 #. STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.AIRBORNECREATURELURE.NAME"
@@ -2816,7 +2832,7 @@ msgid ""
 "Breaks <style=\"solid\">Polluted Dirt</style> down into <style=\"solid"
 "\">Fertilizer</style>."
 msgstr ""
-"Usa <style=\"liquid\">Água Poluída</style> para produzir <style=\"solid"
+"Quebra <style=\"solid\">Terra Poluída</style> em <style=\"solid"
 "\">Fertilizante</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.NAME
@@ -2949,7 +2965,7 @@ msgid ""
 "\n"
 "Can be used as floor tile and rotated before construction."
 msgstr ""
-"Direcionalmente movem altos volumes de líquido por um canal.\n"
+"Movem direcionalmente altos volumes de líquido por um canal.\n"
 "\n"
 "Pode ser usado como bloco e rodado antes da construção."
 
@@ -3039,7 +3055,7 @@ msgstr ""
 "Fecham salas sem bloquear o fluxo de <style=\"gas\">Gás</style> ou <style="
 "\"liquid\">Líquido</style>.\n"
 "\n"
-"Defina Restrições de Acesso a Duplicantes para restringir o acesso.\n"
+"Defina Restrições de Acesso à Duplicantes para restringir o acesso.\n"
 "\n"
 "Criaturas selvagens não podem passar por portas."
 
@@ -3061,12 +3077,12 @@ msgstr "Porta Pneumática"
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_NOT_REQUIRED"
 msgid "<style=\"equipment\">Exosuit</style> not required {0}"
-msgstr "<style=\"equipment\">Exotraje</style> não requerida {0}"
+msgstr "<style=\"equipment\">Exotraje</style> não requerido {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.PRESSURE_SUIT_REQUIRED"
 msgid "<style=\"equipment\">Exosuit</style> required {0}"
-msgstr "<style=\"equipment\">Exotraje</style> requerida {0}"
+msgstr "<style=\"equipment\">Exotraje</style> requerido {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.RIGHT"
@@ -3156,8 +3172,8 @@ msgid ""
 "Fire poles provide quick downward travel, while ladders provide better "
 "upward movement."
 msgstr ""
-"Postes de Bombeiros providenciam uma descida, enquanto escadas providenciam "
-"melhor movimento de subida."
+"Postes de Bombeiros providenciam uma rápida descida, enquanto escadas melhor "
+"movimento de subida."
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT"
@@ -3180,8 +3196,7 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.DESC"
 msgid ""
 "The emitting radius of a building's light can be viewed in the Light Overlay."
 msgstr ""
-"A área de luz emitida por uma estrutura pode ser visualizada no Painel de "
-"Luz."
+"A área de luz emitida por uma estrutura pode ser visualizada no Painel Luz."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOORLAMP.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.EFFECT"
@@ -3319,15 +3334,15 @@ msgid ""
 "\n"
 "Can be run through tiles."
 msgstr ""
-"Faz uma seção de <style=\"GasPiping\"> de Gás</style> passar pela outra sem "
-"uni-las.\n"
+"Faz uma seção de <style=\"GasPiping\">Tubo de Gás</style> passar pela outra "
+"sem uni-las.\n"
 "\n"
 "Não pode passar pelo Bloco."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.NAME"
 msgid "Gas Bridge"
-msgstr "Ponte de  de Gás"
+msgstr "Ponte de Gás"
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.DESC"
@@ -3345,7 +3360,7 @@ msgid ""
 "dedicated <style=\"GasPiping\">Pipe</style>."
 msgstr ""
 "Separa um <style=\"gas\">Gás</style> do ar, e manda ele para uma <style="
-"\"GasPiping\"></style> separada."
+"\"GasPiping\">Tubulação</style> separada."
 
 #. STRINGS.BUILDINGS.PREFABS.GASFILTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.NAME"
@@ -3408,8 +3423,8 @@ msgid ""
 "Building with airflow permeable tiles promotes better gas circulation within "
 "a colony."
 msgstr ""
-"Construindo com blocos permeáveis ao ar promovem uma melhor circulação de "
-"gás na colônia."
+"Construir com blocos permeáveis ao ar promove uma melhor circulação de gás "
+"na colônia."
 
 #. STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASPERMEABLEMEMBRANE.EFFECT"
@@ -3419,7 +3434,7 @@ msgid ""
 "Blocks <style=\"liquid\">Liquid</style> flow without obstructing <style=\"gas"
 "\">Gas</style>."
 msgstr ""
-"Pode ser usado com bloco de parede e de chão para construir salas.\n"
+"Pode ser usado como bloco de parede e de chão para construir salas.\n"
 "\n"
 "Bloqueia o fluxo de <style=\"liquid\">Líquidos</style> sem obstruir o fluxo "
 "de <style=\"gas\">Ar</style>."
@@ -3446,8 +3461,8 @@ msgid ""
 "\n"
 "Must be immersed in gas."
 msgstr ""
-"Bombeia <style=\"gas\">Gases</style> pra dentro de <style=\"GasPiping"
-"\">Tubulações de Ar</style>.\n"
+"Bombeia <style=\"gas\">Gás</style> pra dentro de <style=\"GasPiping\">Tubos "
+"de Gás</style>.\n"
 "\n"
 "Deve estar imerso em gás."
 
@@ -3470,8 +3485,8 @@ msgid ""
 "Controls the <style=\"gas\">Gas</style> volume permitted through <style="
 "\"GasPiping\">Pipes</style>."
 msgstr ""
-"Controla o volume de <style=\"gas\">Gás</style> que passa pela <style="
-"\"GasPiping\"> de Gás</style>."
+"Controla o volume de <style=\"gas\">Gás</style> que passa pelo <style="
+"\"GasPiping\">Tubo de Gás</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME"
@@ -3490,7 +3505,8 @@ msgid ""
 "Releases <style=\"gas\">Gas</style> from <style=\"GasPiping\">Gas Pipes</"
 "style>."
 msgstr ""
-"Libera <style=\"gas\">Gás</style> da <style=\"GasPiping\"> de Gás</style>."
+"Libera <style=\"gas\">Gás</style> dos <style=\"GasPiping\">Tubos de Gás</"
+"style>."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENT.NAME"
@@ -3503,7 +3519,7 @@ msgid ""
 "High pressure Vents can exhaust gas into more highly pressurized "
 "environments."
 msgstr ""
-"Saídas de ar de Alta pressão podem liberar mais gás em ambiente altamente "
+"Saídas de Ar de Alta pressão podem liberar mais gás em ambientes altamente "
 "pressurizados."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.EFFECT
@@ -3512,8 +3528,8 @@ msgid ""
 "Releases <style=\"gas\">Gas</style> from <style=\"GasPiping\">Gas Pipes</"
 "style> into high pressure locations."
 msgstr ""
-"Libera <style=\"gas\">Gás</style> da <style=\"GasPiping\"> de Gás</style> em "
-"ambientes com alta pressão."
+"Libera <style=\"gas\">Gás</style> dos <style=\"GasPiping\">Tubos de Gás</"
+"style> em ambientes com alta pressão."
 
 #. STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASVENTHIGHPRESSURE.NAME"
@@ -3622,7 +3638,10 @@ msgid ""
 "An exceptionally advanced bioprinter of unknown origin.\n"
 "\n"
 "It periodically produces new Duplicants."
-msgstr "Uma impressora biológica que periodicamente produz novos Duplicantes."
+msgstr ""
+"Uma impressora biológica avançada de origem desconhecida.\n"
+"\n"
+"Ela periodicamente produz novos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.NAME"
@@ -3635,8 +3654,8 @@ msgid ""
 "Higher wattage wire is used to avoid power overloads, particularly for "
 "strong generators."
 msgstr ""
-"Cabos de Alta Potência são utilizado para evitar sobrecargas, principalmente "
-"com geradores potentes."
+"Cabeamento de alta potência é utilizado para evitar sobrecargas, "
+"principalmente com geradores potentes."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.EFFECT"
@@ -3646,7 +3665,7 @@ msgid ""
 "\n"
 "Cannot be run through tiles."
 msgstr ""
-"Carrega mais <style=\"power\">Potência</style> do que Cabos Elétricos sem "
+"Carrega mais <style=\"power\">Potência</style> do que Cabos normais sem "
 "entrar em curto.\n"
 "\n"
 "Não pode passar por Blocos."
@@ -3743,8 +3762,8 @@ msgid ""
 "Pipe insulation prevents liquid contents from significantly changing "
 "temperature in transit."
 msgstr ""
-"Isolamento adibático no encanamento previne que os líquidos em trânsito "
-"sofram mudança de temperatura."
+"Encanamento Adibático previne que os líquidos em trânsito sofram mudança de "
+"temperatura."
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.EFFECT"
@@ -3762,7 +3781,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.NAME"
 msgid "Insulated Liquid Pipe"
-msgstr "Encanamento Adiabático"
+msgstr "Cano Adiabático"
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDWIRE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATEDWIRE.DESC"
@@ -3878,8 +3897,8 @@ msgid ""
 "Cools the <style=\"liquid\">Liquid</style> piped through it, but outputs "
 "<style=\"heat\">Heat</style> in its immediate vicinity."
 msgstr ""
-"Esfria o <style=\"liquid\">Líquido</style> encanado por ele, mas produz "
-"<style=\"heat\">Calor</style> na região instalada."
+"Esfria o <style=\"liquid\">Líquido</style> encanado, mas produz <style=\"heat"
+"\">Calor</style> na região instalada."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDITIONER.NAME"
@@ -4662,14 +4681,22 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.EFFECT"
 msgid ""
-"The crystal is extremely cold, and gets colder when Hydrogen touches it."
+"A self-sustaining machine powered by what appears to be refined <style="
+"\"solid\">Neutronium</style>.\n"
+"\n"
+"Absorbs and neutralizes <style=\"heat\">Heat</style> energy when submersed "
+"in <style=\"gas\">Hydrogen</style>."
 msgstr ""
-"Esse cristal é extremamente frio, e fica mais frio quando Hidrogênio o toca."
+"Uma máquina auto-sustentável carregada com o que parece ser <style=\"solid"
+"\">Neutrônio</style> refinado.\n"
+"\n"
+"Absorve e neutraliza energia <style=\"heat\">Térmica</style> quando submersa "
+"em <style=\"gas\">Hidrogênio</style>."
 
 #. STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME"
-msgid "Hydrogen Crystal Thermal Displacement Device"
-msgstr "Dispositivo de Deslocamento Térmico por Cristais de Hidrogênio"
+msgid "Anti Entropy Thermo-Nullifier"
+msgstr "Nulificador Térmico Anti Entrópico"
 
 #. STRINGS.BUILDINGS.PREFABS.MEDICALBED.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MEDICALBED.DESC"
@@ -31420,6 +31447,11 @@ msgstr ""
 "Depois que essa Entrada entrar em espera, a saída continuará ativa por um "
 "certo período de tempo."
 
+#. STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS
+msgctxt "STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS"
+msgid "{0} will attract {1}s"
+msgstr "{0} irá atrair {1}s"
+
 #. STRINGS.UI.UISIDESCREENS.LURE.AWAITINGDELIVERY
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.AWAITINGDELIVERY"
 msgid "AWAITING DELIVERY: {0}"
@@ -33456,6 +33488,17 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.EFFECT"
+#~ msgid ""
+#~ "The crystal is extremely cold, and gets colder when Hydrogen touches it."
+#~ msgstr ""
+#~ "Esse cristal é extremamente frio, e fica mais frio quando Hidrogênio o "
+#~ "toca."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.MASSIVEHEATSINK.NAME"
+#~ msgid "Hydrogen Crystal Thermal Displacement Device"
+#~ msgstr "Dispositivo de Deslocamento Térmico por Cristais de Hidrogênio"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSUITMARKER.TOOLTIP"
 #~ msgid "Building needs to be adjacent to an Exosuit Checkpoint"
