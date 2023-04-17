@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.6.6\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.6.7\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -3746,14 +3746,13 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
-msgid "A key element to building rooms on the surface of the asteroid."
-msgstr ""
-"Um elemento chave para a construção de salas na superfície do asteroide."
+msgid "Back wall included."
+msgstr "Parede de fundo inclusa."
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME"
-msgid "<link=\"EXTERIORWALL\">Wall</link>"
-msgstr "<link=\"EXTERIORWALL\">Parede</link>"
+msgid "<link=\"EXTERIORWALL\">Wallpaper</link>"
+msgstr "<link=\"EXTERIORWALL\">Papel de Parede</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC"
@@ -6451,6 +6450,24 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.POIDOORINTERNAL.NAME"
 msgid "<link=\"POIDOORINTERNAL\">Security Door</link>"
 msgstr "<link=\"POIDOORINTERNAL\">Porta de Segurança</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.EFFECT"
+msgid "A fancy door to a big facility."
+msgstr "Uma porta maneira para uma grande instalação."
+
+#. STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.NAME"
+#| msgid "<link=\"DOOR\">Pneumatic Door</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.NAME"
+msgid "<link=\"FACILITYDOOR\">Facility Door</link>"
+msgstr "<link=\"FACILITYDOOR\">Porta da Instalação</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.POLYMERIZER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.POLYMERIZER.DESC"
 msgid "Plastic can be used to craft unique buildings and goods."
@@ -8069,6 +8086,11 @@ msgstr "Receita"
 msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS"
 msgid "Role Perks"
 msgstr "Traços do Trabalho"
+
+#. STRINGS.CODEX.HEADERS.SECTION_UNLOCKABLES
+msgctxt "STRINGS.CODEX.HEADERS.SECTION_UNLOCKABLES"
+msgid "Unlockable Data"
+msgstr "Dados Desbloqueáveis"
 
 #. STRINGS.CODEX.HEADERS.SUBENTRIES
 msgctxt "STRINGS.CODEX.HEADERS.SUBENTRIES"
@@ -10156,9 +10178,11 @@ msgstr ""
 "link> adulto."
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME
+#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME"
+#| msgid "<link=\"GULPFISH\">Gulp Fish Fry</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME"
-msgid "<link=\"GULPFISH\">Gulp Fish Fry</link>"
-msgstr "<link=\"GULPFISH\">Pacuzinho das Neves</link>"
+msgid "<link=\"PACUCLEANER\">Gulp Fish Fry</link>"
+msgstr "<link=\"PACUCLEANER\">Pacuzinho das Neves</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.DESC"
@@ -10175,8 +10199,8 @@ msgstr "<link=\"FLUTEGG\">Ovo de Pacu das Neves</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.NAME"
-msgid "<link=\"GULPFISH\">Gulp Fish</link>"
-msgstr "<link=\"GULPFISH\">Pacu das Neves</link>"
+msgid "<link=\"PACUCLEANER\">Gulp Fish</link>"
+msgstr "<link=\"PACUCLEANER\">Pacu das Neves</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC"
@@ -11003,13 +11027,13 @@ msgstr "Esta criatura está hostil e está se preparando para dar o bote!"
 
 #. STRINGS.CREATURES.STATUSITEMS.BAGGED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BAGGED.NAME"
-msgid "Bagged"
-msgstr "Empacotado"
+msgid "Trussed"
+msgstr "Amarrado"
 
 #. STRINGS.CREATURES.STATUSITEMS.BAGGED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BAGGED.TOOLTIP"
-msgid "In a bag, ready for delivery"
-msgstr "Em um saco, pronto para entrega"
+msgid "Tied up, ready for delivery"
+msgstr "Amarrado, pronto para entrega"
 
 #. STRINGS.CREATURES.STATUSITEMS.BARREN.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.BARREN.NAME"
@@ -26895,10 +26919,6 @@ msgid "Toxic"
 msgstr "Tóxico"
 
 #. STRINGS.MISC.TAGS.TRANSPARENT
-#| msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.NAME"
-#| msgid ""
-#| "Ore\n"
-#| "Transport"
 msgctxt "STRINGS.MISC.TAGS.TRANSPARENT"
 msgid "Transparent"
 msgstr "Transparente"
@@ -30082,6 +30102,17 @@ msgctxt "STRINGS.SETITEMS.RECEPTION_DESK.NAME"
 msgid "Reception Desk"
 msgstr "Mesa da Recepção"
 
+#. STRINGS.SETITEMS.SATELLITE.DESC
+msgctxt "STRINGS.SETITEMS.SATELLITE.DESC"
+msgid "Wreck of a satellite"
+msgstr "Destroços de um satélite"
+
+#. STRINGS.SETITEMS.SATELLITE.NAME
+#, fuzzy
+msgctxt "STRINGS.SETITEMS.SATELLITE.NAME"
+msgid "Crashed Satellite"
+msgstr "Satélite Quebrado"
+
 #. STRINGS.SETITEMS.SKELETON.DESC
 msgctxt "STRINGS.SETITEMS.SKELETON.DESC"
 msgid ""
@@ -33002,7 +33033,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.6.6)"
+"- Traduzido por Chastomber :P (1.6.7)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -40616,6 +40647,11 @@ msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELDPERHARVEST"
 msgid "{0} {1} per harvest"
 msgstr "{0} {1} por colheita"
 
+#. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO
+msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
+msgid "{0} to {1}"
+msgstr "{0} à {1}"
+
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING
 msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING"
 msgid "Currently Researching"
@@ -42550,6 +42586,19 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
+#~ msgid "A key element to building rooms on the surface of the asteroid."
+#~ msgstr ""
+#~ "Um elemento chave para a construção de salas na superfície do asteroide."
+
+#~ msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.NAME"
+#~ msgid "<link=\"GULPFISH\">Gulp Fish</link>"
+#~ msgstr "<link=\"GULPFISH\">Pacu das Neves</link>"
+
+#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.BAGGED.NAME"
+#~ msgid "Bagged"
+#~ msgstr "Empacotado"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TINKERING.TOOLTIP"
 #~ msgid ""
