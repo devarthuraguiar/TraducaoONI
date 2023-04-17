@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.7.5\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.7.6\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -2793,13 +2793,23 @@ msgstr "<link=\"APOTHECARY\">Botica</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.DESC"
-msgid "Duplicants can come here to play the hottest new video games."
-msgstr "Duplicantes vem aqui para jogar os mais novos e irados jogos."
+msgid ""
+"Komet Kablam-O!\n"
+"For up to two players."
+msgstr ""
+"Kometa Kabuuuum!\n"
+"Para até dois jogadores."
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT"
-msgid "Temp Crisis III GOTY Edition"
-msgstr "Crisis III Edição GOTY (Temp)"
+msgid ""
+"Allows Duplicants to play video games on their breaks.\n"
+"\n"
+"Increases Duplicant Morale."
+msgstr ""
+"Permite os Duplicantes jogarem videogames durante os seus intervalos.\n"
+"\n"
+"Aumenta a Moral do Duplicante."
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME"
@@ -2955,8 +2965,8 @@ msgstr "<link=\"BUNKERDOOR\">Escotilha Reforçada</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC"
-msgid "Extremely resilient to pressure and impact."
-msgstr "Possui resistência muito alta ao impacto e à pressão."
+msgid "Bunker tiles can be used to build strong shelters in otherwise dangerous environments."
+msgstr "Blocos reforçados podem ser usados para construir abrigos fortes em ambientes perigosos."
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.EFFECT"
@@ -3797,13 +3807,13 @@ msgstr "<link=\"LOGICELEMENTSENSORGAS\">Sensor de Elemento de Tubos</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.DESC"
-msgid ""
-msgstr ""
+msgid "Overflow valves can be used to prioritize which buildings should receive precious resources first."
+msgstr "Válvulas de Sobrefluxo podem ser usadas para priorizar quais estruturas devem receber recursos preciosos primeiro."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.EFFECT"
-msgid "Has a secondary output which is only used when the primary output is blocked."
-msgstr "Possui uma saída secundária que só é utilizada quando a saída primária está bloqueada."
+msgid "Fills a secondary<link=\"ELEMENTSGAS\">Gas</link> output only when its primary output is blocked."
+msgstr "Enche uma saída de <link=\"ELEMENTSGAS\">Gás</link> secundária somente quando a saída primária estiver bloqueada."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITOVERFLOW.NAME"
@@ -4506,13 +4516,13 @@ msgstr "<link=\"LOGICELEMENTSENSORLIQUID\">Sensor de Elemento de Canos</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.DESC"
-msgid ""
-msgstr ""
+msgid "Overflow valves can be used to prioritize which buildings should receive precious resources first."
+msgstr "Válvulas de Sobrefluxo podem ser usadas para priorizar quais estruturas devem receber recursos preciosos primeiro."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT"
-msgid "Has a secondary output which is only used when the primary output is blocked."
-msgstr "Possui uma saída secundária que só é utilizada quando a saída primária está bloqueada."
+msgid "Fills a secondary<link=\"ELEMENTSLIQUID\">Liquid</link> output only when its primary output is blocked."
+msgstr "Enche uma saída de <link=\"ELEMENTSLIQUID\">Líquido</link> secundária somente quando a saída primária estiver bloqueada."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.NAME"
@@ -5542,8 +5552,8 @@ msgstr "<link=\"PETROLEUMGENERATOR\">Gerador à Petróleo</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.DESC"
-msgid "Duplicants can come here to jam to some sweet tunes."
-msgstr "Duplicantes vem aqui para escutar umas músicas maneiras."
+msgid "Dancing helps Duplicants get their feelings out."
+msgstr "Dançar ajuda os Duplicantes a expressarem seus sentimentos."
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT"
@@ -5558,8 +5568,8 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME"
-msgid "<link=\"PHONOBOX\">Phonobox</link>"
-msgstr "<link=\"PHONOBOX\">Fonógrafo</link>"
+msgid "<link=\"PHONOBOX\">Jukebot</link>"
+msgstr "<link=\"PHONOBOX\">DJbô</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.DESC"
@@ -5710,7 +5720,7 @@ msgstr "Protege circuitos de sobrecarregarem por aumentar ou diminuir o fluxo de
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME"
 msgid "<link=\"POWERTRANSFORMER\">Small Power Transformer</link>"
-msgstr "<link=\"POWERTRANSFORMER\">Pequeno Transformador de Energia</link>"
+msgstr "<link=\"POWERTRANSFORMER\">Mini Transformador de Energia</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.DESC"
@@ -13411,22 +13421,22 @@ msgstr "Este Duplicante está tentando afogar suas emoções com comida devido a
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME"
-msgid "Off Duty: Use Toilet"
+msgid "Downtime: Use Toilet"
 msgstr "Intervalo: Usar Privada"
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS"
-msgid "Off Duty: Going to use toilet"
+msgid "Downtime: Going to use toilet"
 msgstr "Intervalo: Indo usar privada"
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP"
 msgid ""
-"This Duplicant is off duty and is using their personal time to go to the toilet\n"
+"This Duplicant has scheduled Downtime and is using their break to go to the toilet\n"
 "\n"
 "Duplicants have to use the toilet at least once per day"
 msgstr ""
-"Este Duplicante está no intervalo e está usando seu tempo pessoal para ir ao banheiro\n"
+"Este Duplicante está no Intervalo e está usando seu tempo pessoal para ir ao banheiro\n"
 "\n"
 "Duplicantes precisam usar o banheiro pelo menos uma vez por dia"
 
@@ -15839,8 +15849,8 @@ msgstr "Este Duplicante sortudo tem o seu próprio quarto"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.NAME"
-msgid "Slept in a cot"
-msgstr "Dormiu em um berço"
+msgid "Sleeping in a cot"
+msgstr "Dormindo em um berço"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BEDSTAMINA.TOOLTIP"
@@ -16126,15 +16136,21 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINGCALORIES.NAME"
 msgid "Eating"
 msgstr "Comendo"
 
-#. STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.NAME"
-msgid "Mess Hall"
-msgstr "Refeitório"
+#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.NAME"
+msgid "Standard Meal"
+msgstr "Refeição Normal"
 
-#. STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EATINMESSHALL.TOOLTIP"
-msgid "This Duplicant ate their last meal in a nice mess hall"
-msgstr "Este Duplicante comeu sua última refeição em um bom refeitório"
+#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE0.TOOLTIP"
+msgid ""
+"The food this Duplicant last ate was Average\n"
+"\n"
+"They thought it was sort of okay"
+msgstr ""
+"A última comida que este Duplicante comeu estava Regular\n"
+"\n"
+"Ele(a) achou que estava bem ok"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME"
@@ -16199,22 +16215,6 @@ msgstr ""
 "A última comida que este Duplicante comeu estava Divina\n"
 "\n"
 "Ele(a) achou que estava super deliciosa!"
-
-#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.NAME"
-msgid "Standard Meal"
-msgstr "Refeição Normal"
-
-#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.TOOLTIP"
-msgid ""
-"The food this Duplicant last ate was Average\n"
-"\n"
-"They thought it was sort of okay"
-msgstr ""
-"A última comida que este Duplicante comeu estava Regular\n"
-"\n"
-"Ele(a) achou que estava bem ok"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME"
@@ -16458,8 +16458,8 @@ msgstr "O ar está um pouco rarefeito nessa área"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.NAME"
-msgid "Slept in a comfy bed"
-msgstr "Dormiu em uma cama confortável"
+msgid "Sleeping in a comfy bed"
+msgstr "Dormindo em uma cama confortável"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.LUXURYBEDSTAMINA.TOOLTIP"
@@ -16733,26 +16733,6 @@ msgstr ""
 "------------------\n"
 "Aplicar este efeito consome um Microchip."
 
-#. STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.NAME"
-msgid "Nice Bathroom"
-msgstr "Bom Banheiro"
-
-#. STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBATHROOM.TOOLTIP"
-msgid "This Duplicant used a toilet in a nice bathroom"
-msgstr "Este Duplicante aliviou-se em um bom banheiro"
-
-#. STRINGS.DUPLICANTS.MODIFIERS.PROPERBEDROOM.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBEDROOM.NAME"
-msgid "Slept In Bedroom"
-msgstr "Dormiu em um Quarto"
-
-#. STRINGS.DUPLICANTS.MODIFIERS.PROPERBEDROOM.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PROPERBEDROOM.TOOLTIP"
-msgid "This Duplicant slept in a suitable room"
-msgstr "Este Duplicante dormiu na sala adequada"
-
 #. STRINGS.DUPLICANTS.MODIFIERS.RECOVERINGBREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.RECOVERINGBREATH.NAME"
 msgid "Recovering breath"
@@ -16827,6 +16807,66 @@ msgstr "Relaxando"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOM_RELAXATION_EFFECT.TOOLTIP"
 msgid "This Duplicant is taking some relaxing leisure time in the Rec Room"
 msgstr "Este Duplicante está usando um pouco de tempo para relaxar na Sala de Recr."
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.NAME"
+msgid "Slept In Barracks"
+msgstr "Dormiu em um Dormitório"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBARRACKS.TOOLTIP"
+msgid "This Duplicant slept in a suitable room"
+msgstr "Este Duplicante dormiu na sala adequada"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.NAME"
+msgid "Plumbed Bathroom"
+msgstr "Banheiro Encanado"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP"
+msgid "This Duplicant used a toilet in a bathroom with proper plumbing"
+msgstr "Este Duplicante fez suas necessidades em um banheiro encanado adequadamente"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME"
+msgid "Slept In Bedroom"
+msgstr "Dormiu em um Quarto"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.TOOLTIP"
+msgid "This Duplicant slept in a nice room"
+msgstr "Este Duplicante dormiu em uma boa sala"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.NAME"
+msgid "Great Hall"
+msgstr "Grande Refeitório"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMGREATHALL.TOOLTIP"
+msgid "This Duplicant ate their last meal in a nice great hall"
+msgstr "Este Duplicante comeu sua última refeição em um bom grande refeitório"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.NAME"
+msgid "Nice Bathroom"
+msgstr "Bom Banheiro"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMLATRINE.TOOLTIP"
+msgid "This Duplicant used a toilet in a nice bathroom"
+msgstr "Este Duplicante aliviou-se em um bom banheiro"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.NAME"
+msgid "Mess Hall"
+msgstr "Refeitório"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMMESSHALL.TOOLTIP"
+msgid "This Duplicant ate their last meal in a nice mess hall"
+msgstr "Este Duplicante comeu sua última refeição em um bom refeitório"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.NAME"
@@ -17058,12 +17098,12 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
-msgid "Off Duty"
+msgid "Downtime"
 msgstr "Intervalo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP"
-msgid "This Duplicant had a bit of time off from work to attend to personal matters"
+msgid "This Duplicant has a bit of time off from work to attend to personal matters"
 msgstr "Este Duplicante teve um pouco de tempo livre para resolver assuntos pessoais"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME
@@ -18326,6 +18366,37 @@ msgstr ""
 "Duplicantes ficam estressados em áreas que a decoração não atinge suas expectativas\n"
 "Abra o Painel Decor <color=#F44A47>[F8]</color> para ver os valores atuais de decor"
 
+#. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_TODAY
+msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_TODAY"
+msgid ""
+"\n"
+"Today's Average Decor: {0}"
+msgstr ""
+"\n"
+"Média de Decor de Hoje: {0}"
+
+#. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_YESTERDAY
+msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_AVERAGE_YESTERDAY"
+msgid ""
+"\n"
+"Yesterday's Average Decor: {0}"
+msgstr ""
+"\n"
+"Média de Decor de ontem: {0}"
+
+#. STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_CURRENT
+#| msgctxt "STRINGS.UI.DETAILTABS.NEEDS.CURRENT_NEED_LEVEL"
+#| msgid "Current Level: {0}"
+msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP_CURRENT"
+msgid ""
+"\n"
+"\n"
+"Current environment's decor: {0}"
+msgstr ""
+"\n"
+"\n"
+"Decor do ambiente atual: {0}"
+
 #. STRINGS.DUPLICANTS.STATS.DISEASERECOVERYTIME.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.DISEASERECOVERYTIME.NAME"
 msgid "Disease Recovery"
@@ -19409,7 +19480,7 @@ msgstr "Baixa Moral"
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP"
 msgid "This Duplicant is getting stressed by their responsibilities, but improved amenities would cheer them up"
-msgstr "Este Duplicante está ficando estressado devido as suas responsabilidades, mas serviços podem animá-lo(a)"
+msgstr "Este Duplicante está ficando estressado devido as suas responsabilidades, mas serviços podem animá-lo"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME"
@@ -29208,6 +29279,16 @@ msgctxt "STRINGS.RESEARCH.TYPES.BETA.RECIPEDESC"
 msgid "Unlocks improved technologies."
 msgstr "Desbloqueia tecnologias melhores."
 
+#. STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION"
+msgid "Requires one or more Sinks, Hand Sanitizers, or Showers"
+msgstr "Requer uma ou mais Pias, Sanitizadores de Mãos ou Chuveiros"
+
+#. STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.NAME"
+msgid "Plumbed wash station"
+msgstr "Estação de lavagem encanada"
+
 #. STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.BED_MULTIPLE.DESCRIPTION"
 msgid "Requires two or more Cots or Comfy Beds"
@@ -29237,6 +29318,16 @@ msgstr "Requer pelo menos uma estrutura com decor positivo"
 msgctxt "STRINGS.ROOMS.CRITERIA.BUILDING_DECOR_POSITIVE.NAME"
 msgid "Positive decor"
 msgstr "Decor positivo"
+
+#. STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.DESCRIPTION"
+msgid "The ceiling must be at least {0} tiles above the floor"
+msgstr "O teto precisa estar pelo menos {0} blocos acima do chão"
+
+#. STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.NAME"
+msgid "Minimum ceiling height: {0} tiles"
+msgstr "Altura do teto mínima: {0} blocos"
 
 #. STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION"
@@ -29298,6 +29389,16 @@ msgctxt "STRINGS.ROOMS.CRITERIA.FARM_STATION.NAME"
 msgid "Farm Station"
 msgstr "Estação de Agricultura"
 
+#. STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.DESCRIPTION"
+msgid "Requires one or more Lavatories"
+msgstr "Requer um ou mais Vasos Sanitários"
+
+#. STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.NAME"
+msgid "Flush Toilet"
+msgstr "Privada Encanada"
+
 #. STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.FOOD_BOX.DESCRIPTION"
 msgid "Requires one or more Ration Boxes or Refrigerators"
@@ -29322,6 +29423,16 @@ msgstr "Requer uma ou mais fontes de luz"
 msgctxt "STRINGS.ROOMS.CRITERIA.LIGHT.NAME"
 msgid "Light source"
 msgstr "Fonte de luz"
+
+#. STRINGS.ROOMS.CRITERIA.LUXURY_BED_SINGLE.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.LUXURY_BED_SINGLE.DESCRIPTION"
+msgid "Requires Comfy Bed"
+msgstr "Requer uma Cama Confortável"
+
+#. STRINGS.ROOMS.CRITERIA.LUXURY_BED_SINGLE.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.LUXURY_BED_SINGLE.NAME"
+msgid "Single luxury bed"
+msgstr "Uma cama luxuosa"
 
 #. STRINGS.ROOMS.CRITERIA.MACHINE_SHOP.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.MACHINE_SHOP.DESCRIPTION"
@@ -29396,7 +29507,7 @@ msgstr "Não pode conter nenhuma estrutura rotulada como Maquinário Industrial"
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.NAME"
 msgid "No industrial machinery"
-msgstr "Sem maquinário industrial"
+msgstr "Nenhum maquinário industrial"
 
 #. STRINGS.ROOMS.CRITERIA.NO_TYPE_CONFLICTS
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_TYPE_CONFLICTS"
@@ -29430,8 +29541,8 @@ msgstr "Estação de Beleza Pet"
 
 #. STRINGS.ROOMS.CRITERIA.REC_BUILDING.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.REC_BUILDING.DESCRIPTION"
-msgid "Requires one or more Massage Tables"
-msgstr "Requer uma ou mais Mesas de Massagem"
+msgid "Requires one or more Recreational Building"
+msgstr "Requer uma ou mais Estruturas de Recreação"
 
 #. STRINGS.ROOMS.CRITERIA.REC_BUILDING.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.REC_BUILDING.NAME"
@@ -29514,8 +29625,8 @@ msgstr "Tamanho do quarto: {0} Blocos"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.EFFECT"
-msgid "- Stamina recovery bonus"
-msgstr "- Bônus de Recuperação de Energia"
+msgid "- Morale bonus"
+msgstr "- Bônus de moral"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.NAME
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.NAME"
@@ -29524,8 +29635,25 @@ msgstr "Dormitório"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP"
-msgid "Sleeping in a bed will restore additional stamina for Duplicants if it is located within Barracks."
-msgstr "Dormir em uma cama restaurará energia adicional para os Duplicantes se ela estiver dentro do Dormitório."
+msgid "Sleeping in a bed will improve Morale for Duplicants if it is located within Barracks."
+msgstr "Dormir em uma cama aumentará a Moral dos Duplicantes se ela estiver dentro de um Dormitório."
+
+#. STRINGS.ROOMS.TYPES.BEDROOM.EFFECT
+msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.EFFECT"
+msgid "- Morale bonus"
+msgstr "- Bônus de moral"
+
+#. STRINGS.ROOMS.TYPES.BEDROOM.NAME
+msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.NAME"
+msgid "Bedroom"
+msgstr "Quarto"
+
+#. STRINGS.ROOMS.TYPES.BEDROOM.TOOLTIP
+#| msgctxt "STRINGS.UI.TOOLTIPS.HEATFLOWOVERLAYSTRING"
+#| msgid "Displays areas with comfortable temperatures for Duplicants"
+msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.TOOLTIP"
+msgid "Sleeping in a comfortable Bedroom will improve Morale for Duplicants"
+msgstr "Dormir em uma Quarto confortável aumentará a Moral dos Duplicantes."
 
 #. STRINGS.ROOMS.TYPES.CONFLICTED
 msgctxt "STRINGS.ROOMS.TYPES.CONFLICTED"
@@ -29562,6 +29690,23 @@ msgctxt "STRINGS.ROOMS.TYPES.FARM.TOOLTIP"
 msgid "Crops grown within a Greenhouse can be tended by Farmers to increase their growth speed."
 msgstr "Plantas que crescem dentro de uma Estufa podem ser cuidadas por Agricultores para aumentar sua velocidade de crescimento."
 
+#. STRINGS.ROOMS.TYPES.GREATHALL.EFFECT
+#| msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT"
+#| msgid "- Stress relief bonus"
+msgctxt "STRINGS.ROOMS.TYPES.GREATHALL.EFFECT"
+msgid "- Morale bonus"
+msgstr "- Bônus de moral"
+
+#. STRINGS.ROOMS.TYPES.GREATHALL.NAME
+msgctxt "STRINGS.ROOMS.TYPES.GREATHALL.NAME"
+msgid "Great Hall"
+msgstr "Grande Refeitório"
+
+#. STRINGS.ROOMS.TYPES.GREATHALL.TOOLTIP
+msgctxt "STRINGS.ROOMS.TYPES.GREATHALL.TOOLTIP"
+msgid "Eating and relaxing in a Great Hall will significantly improve Duplicants' Morale."
+msgstr "Comer e relaxar em um Grande Refeitório aumentará significativamente a Moral dos Duplicantes."
+
 #. STRINGS.ROOMS.TYPES.HOSPITAL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.HOSPITAL.EFFECT"
 msgid "- Quarantine sick Duplicants"
@@ -29578,9 +29723,11 @@ msgid "Sick Duplicants assigned to medical beds located within a Med Bay are les
 msgstr "Duplicantes doentes designados a camas hospitalares dentro de uma Ala Médica irão espalhar menos Doenças."
 
 #. STRINGS.ROOMS.TYPES.LATRINE.EFFECT
+#| msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT"
+#| msgid "- Stress relief bonus"
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.EFFECT"
-msgid "- Quality of Life bonus"
-msgstr "- Bônus de Qualidade de Vida"
+msgid "- Morale bonus"
+msgstr "- Bônus de moral"
 
 #. STRINGS.ROOMS.TYPES.LATRINE.NAME
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.NAME"
@@ -29589,8 +29736,8 @@ msgstr "Latrina"
 
 #. STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP"
-msgid "Using a toilet will relieve additional stress for Duplicants if it is located in a Latrine."
-msgstr "Usar uma privada aliviará estresse adicional para os Duplicantes se ela estiver em uma Latrina."
+msgid "Using a toilet in an enclosed room will improve Duplicants' Morale."
+msgstr "Usar uma privada em uma sala fechada aumentará a Moral dos Duplicantes."
 
 #. STRINGS.ROOMS.TYPES.MACHINE_SHOP.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MACHINE_SHOP.EFFECT"
@@ -29623,9 +29770,11 @@ msgid "Massage tables relieve more stress when in a proper room."
 msgstr "Mesas de massagem aliviam mais estresse quando na sala adequada."
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.EFFECT
+#| msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
+#| msgid "- Stress relief bonus"
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
-msgid "- Quality of Life bonus"
-msgstr "- Bônus de Qualidade de Vida"
+msgid "- Morale bonus"
+msgstr "- Bônus de moral"
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.NAME
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.NAME"
@@ -29634,8 +29783,8 @@ msgstr "Refeitório"
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.TOOLTIP"
-msgid "Eating at a Mess Table will relieve additional stress for Duplicants if it is located within a Mess Hall."
-msgstr "Comer numa Mesa de Jantar aliviará estresse adicional para os Duplicantes se ela estiver dentro de um Refeitório."
+msgid "Eating at a Mess Table will improve Morale for Duplicants if it is located within a Mess Hall."
+msgstr "Comer numa Mesa de Jantar aumentará a Moral dos Duplicantes se ela estiver em um Refeitório."
 
 #. STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT"
@@ -29651,6 +29800,25 @@ msgstr "Quarto Diverso"
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.TOOLTIP"
 msgid "This area qualifies as a room but has no dedicated use."
 msgstr "Esta área é reconhecida como quarto mas não tem um uso dedicado."
+
+#. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.EFFECT
+#| msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT"
+#| msgid "- Stress relief bonus"
+msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.EFFECT"
+msgid "- Morale bonus"
+msgstr "- Bônus de moral"
+
+#. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.NAME
+#| msgctxt "STRINGS.ITEMS.FOOD.MUSHROOM.NAME"
+#| msgid "Mushroom"
+msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.NAME"
+msgid "Washroom"
+msgstr "Banheiro"
+
+#. STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.TOOLTIP
+msgctxt "STRINGS.ROOMS.TYPES.PLUMBEDBATHROOM.TOOLTIP"
+msgid "Using a fully plumbed Washroom will improve Duplicants' Morale."
+msgstr "Usar um Banheiro completamente encanado aumentará a Moral dos Duplicantes."
 
 #. STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.POWER_PLANT.EFFECT"
@@ -29698,11 +29866,11 @@ msgid "Duplicants recover even more stamina while sleeping in a Private Bedroom 
 msgstr "Duplicantes recuperarão ainda mais energia se dormirem em um Quarto Privado do que em um Dormitório."
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
-#| msgid "Quality of Life"
+#| msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT"
+#| msgid "- Stress relief bonus"
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT"
-msgid "- Quality of Life improvement"
-msgstr "- Aumento na Qualidade de Vida"
+msgid "- Morale bonus"
+msgstr "- Bônus de moral"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.NAME"
@@ -29711,8 +29879,8 @@ msgstr "Sala de Recreação"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
-msgid "Leisure time will relieve additional stress for Duplicants visiting a Recreation Room."
-msgstr "Tempo de lazer aliviará estresse adicional dos Duplicantes ao visitar uma Sala de Recreação."
+msgid "Leisure time will further improve Morale for Duplicants visiting a Recreation Room."
+msgstr "Tempo de lazer aumentará a Moral dos Duplicantes que estiverem visitando uma Sala de Recreação."
 
 #. STRINGS.UI.ACTIONS
 msgctxt "STRINGS.UI.ACTIONS"
@@ -32437,7 +32605,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.7.5)"
+"- Traduzido por Chastomber :P (1.7.6)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33796,7 +33964,7 @@ msgid ""
 "\n"
 "• New Duplicant interactions and reactions\n"
 "• Colony Schedule management\n"
-"• Recreational time and new leisure buildings\n"
+"• Downtime and new leisure buildings\n"
 "• New lore, animations, and sounds\n"
 "\n"
 "Please view the full patch notes for further details!"
@@ -33805,7 +33973,7 @@ msgstr ""
 "\n"
 "• Novas interações e reações dos Duplicantes\n"
 "• Gerenciamento da Agenda da Colônia\n"
-"• Hora de recreação e novas estruturas recreativas\n"
+"• Intervalo e novas estruturas recreativas\n"
 "• Mais história, animações e sons\n"
 "\n"
 "Por favor veja as notas de atualização completas para mais detalhes!"
@@ -37430,8 +37598,6 @@ msgid "Tier 1"
 msgstr "Nível 1"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.NAME"
 msgid "Morale expectation"
 msgstr "Expectativa de moral"
@@ -37442,8 +37608,6 @@ msgid "Tier 2"
 msgstr "Nível 2"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.NAME"
 msgid "Morale expectation"
 msgstr "Expectativa de moral"
@@ -37454,8 +37618,6 @@ msgid "Tier 3"
 msgstr "Nível 3"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.NAME"
 msgid "Morale expectation"
 msgstr "Expectativa de moral"
@@ -37466,8 +37628,6 @@ msgid "Tier 4"
 msgstr "Nível 4"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.NAME"
 msgid "Morale expectation"
 msgstr "Expectativa de moral"
@@ -37478,8 +37638,6 @@ msgid "Tier 5"
 msgstr "Nível 5"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.NAME"
 msgid "Morale expectation"
 msgstr "Expectativa de moral"
@@ -37490,8 +37648,6 @@ msgid "Tier 6"
 msgstr "Nível 6"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.NAME"
 msgid "Morale expectation"
 msgstr "Expectativa de moral"
@@ -37502,8 +37658,6 @@ msgid "Tier 7"
 msgstr "Nível 7"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME"
 msgid "Morale expectation"
 msgstr "Expectativa de moral"
@@ -37514,8 +37668,6 @@ msgid "Tier 8"
 msgstr "Nível 5"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.NAME"
 msgid "Morale expectation"
 msgstr "Expectativa de moral"
@@ -38172,21 +38324,21 @@ msgstr "Banho"
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
 msgid ""
-"When my Duplicants are off duty they may do as they please.\n"
+"During downtime my Duplicants they may do as they please.\n"
 "\n"
 "This may include personal matters like bathroom visits or snacking, or they may choose to engage in leisure activities like socializing with friends.\n"
 "\n"
-"Off Duty time increases Duplicant Morale."
+"Downtime increases Duplicant Morale."
 msgstr ""
 "Quando meus Duplicantes estão no intervalo eles podem fazer o que eles quiserem.\n"
 "\n"
 "Isto inclui assuntos pessoais como visitas ao banheiro ou lanches, ou então eles podem participar de atividades de lazer como socializar com amigos.\n"
 "\n"
-"Tempo de Intervalo aumenta a Moral dos Duplicantes."
+"O Intervalo aumenta a Moral dos Duplicantes."
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME"
-msgid "Off Duty"
+msgid "Downtime"
 msgstr "Intervalo"
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION
@@ -38194,7 +38346,7 @@ msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
 msgid ""
 "My Duplicants use bedtime blocks to rest up after a hard day's work.\n"
 "\n"
-"Scheduling too few bedtime blocks may prevent my Duplicants from regaining enough Stamina to make it through the next day."
+"Scheduling too few bedtime blocks may prevent my Duplicants from regaining enough Stamina to make it through the following day."
 msgstr ""
 "Meus Duplicantes usam blocos de soneca para descansar após uma longo dia de trabalho.\n"
 "\n"
@@ -38208,18 +38360,18 @@ msgstr "Soneca"
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION"
 msgid ""
-"When on duty my Duplicants must work and perform the tasks I have set out for them.\n"
+"During Work shifts my Duplicants must perform the work tasks I have placed for them throughout the colony.\n"
 "\n"
 "It's important when scheduling to maintain a good work-life balance for my Duplicants to maintain their health and prevent Morale loss."
 msgstr ""
-"Enquanto estiverem em trabalho meus Duplicantes devem trabalhar e realizar as tarefas que eu coloquei para eles.\n"
+"Enquanto estiverem em Trabalho meus Duplicantes devem trabalhar e realizar as tarefas que eu coloquei para eles.\n"
 "\n"
 "É importante lembrar enquanto agendar de manter um equilíbrio entre trabalho e vida para manter eles saudáveis e prevenir perda de Moral."
 
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME"
-msgid "On Duty"
-msgstr "Em Trabalho"
+msgid "Work"
+msgstr "Trabalho"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP"
@@ -42395,6 +42547,64 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.DESC"
+#~ msgid "Duplicants can come here to play the hottest new video games."
+#~ msgstr "Duplicantes vem aqui para jogar os mais novos e irados jogos."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT"
+#~ msgid "Temp Crisis III GOTY Edition"
+#~ msgstr "Crisis III Edição GOTY (Temp)"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC"
+#~ msgid "Extremely resilient to pressure and impact."
+#~ msgstr "Possui resistência muito alta ao impacto e à pressão."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITOVERFLOW.EFFECT"
+#~ msgid "Has a secondary output which is only used when the primary output is blocked."
+#~ msgstr "Possui uma saída secundária que só é utilizada quando a saída primária está bloqueada."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.DESC"
+#~ msgid "Duplicants can come here to jam to some sweet tunes."
+#~ msgstr "Duplicantes vem aqui para escutar umas músicas maneiras."
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
+#~ msgid "Off Duty"
+#~ msgstr "Intervalo"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.REC_BUILDING.DESCRIPTION"
+#~ msgid "Requires one or more Massage Tables"
+#~ msgstr "Requer uma ou mais Mesas de Massagem"
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.EFFECT"
+#~ msgid "- Stamina recovery bonus"
+#~ msgstr "- Bônus de Recuperação de Energia"
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.LATRINE.EFFECT"
+#~ msgid "- Quality of Life bonus"
+#~ msgstr "- Bônus de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP"
+#~ msgid "Using a toilet will relieve additional stress for Duplicants if it is located in a Latrine."
+#~ msgstr "Usar uma privada aliviará estresse adicional para os Duplicantes se ela estiver em uma Latrina."
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
+#~ msgid "- Quality of Life bonus"
+#~ msgstr "- Bônus de Qualidade de Vida"
+
+#~| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
+#~| msgid "Quality of Life"
+#~ msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT"
+#~ msgid "- Quality of Life improvement"
+#~ msgstr "- Aumento na Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME"
+#~ msgid "Off Duty"
+#~ msgstr "Intervalo"
+
+#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME"
+#~ msgid "On Duty"
+#~ msgstr "Em Trabalho"
+
 #~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC"
 #~ msgid "Quality of Life Expectation"
 #~ msgstr "Expectativa de Qualidade de Vida"
@@ -42438,14 +42648,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.NAME"
 #~ msgid "Poor Quality of Life"
 #~ msgstr "Pobre Qualidade de Vida"
-
-#~ msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
-#~ msgid "- Stress relief bonus"
-#~ msgstr "- Bônus de alívio de estresse"
-
-#~ msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT"
-#~ msgid "- Stress relief bonus"
-#~ msgstr "- Bônus de alívio de estresse"
 
 #~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER0.NAME"
 #~ msgid "Quality Of Life expectation"
@@ -45807,10 +46009,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Mush Bar"
 #~ msgstr "Barra de Lama"
 
-#~ msgctxt "STRINGS.ITEMS.FOOD.MUSHROOM.NAME"
-#~ msgid "Mushroom"
-#~ msgstr "Cogumelo"
-
 #~ msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.NAME"
 #~ msgid "Pickled Meal"
 #~ msgstr "Rango em conserva"
@@ -47739,10 +47937,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.MISC.STATUSITEMS.REGIONNEEDSCLOSURE.TOOLTIP"
 #~ msgid "Use tiles to build walls around this region"
 #~ msgstr "Use blocos para construir paredes ao redor desta região"
-
-#~ msgctxt "STRINGS.MISC.STATUSITEMS.REGIONNEEDSDOOR.TOOLTIP"
-#~ msgid "This region must have at least one door"
-#~ msgstr "Esta região precisa de pelo menos uma porta"
 
 #~ msgctxt "STRINGS.MISC.STATUSITEMS.REGIONNEEDSFURNITURE.TOOLTIP"
 #~ msgid ""
