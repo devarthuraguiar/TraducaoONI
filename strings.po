@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.7.2\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.7.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -538,19 +538,19 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
-msgid "Dish Quality: {Quality}"
-msgstr "Qualidade da Antena: {Quality}"
+msgid "Scan Quality: {Quality}"
+msgstr "Qualidade do Detector: {Quality}"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.TOOLTIP"
 msgid ""
-"This detector dish is currently scanning at {Quality} effectiveness.\n"
+"This scanner dish is currently scanning at {Quality} effectiveness\n"
 "\n"
-"Low quality may be due to:\n"
+"Decreased scan quality may be due to:\n"
 "    • Interference from nearby heavy machinery\n"
-"    • Rock or tiles obstructing a wide view of the sky"
+"    • Rock or tile obstructing the dish's view of the sky"
 msgstr ""
-"A antena deste detector está scaneando à {Quality} de efetividade.\n"
+"A antena deste detector está escaneando à {Quality} de efetividade.\n"
 "\n"
 "Baixa qualidade pode ocorrer por:\n"
 "    • Interferência por maquinário pesado próximo\n"
@@ -563,7 +563,7 @@ msgstr "Escaneando"
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORSCANNING.TOOLTIP"
-msgid "This detector is currently peering into the sky to find objects of interest"
+msgid "This scanner is currently scouring space for anything of interest"
 msgstr "Este detector está examinando o céu em busca de objetos de interesse"
 
 #. STRINGS.BUILDING.STATUSITEMS.DIGREQUIRESROLEPERK.NAME
@@ -1002,8 +1002,14 @@ msgstr "Meteoros a Caminho"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.TOOLTIP"
-msgid "High speed objects are approaching!"
-msgstr "Objetos de alta velocidade se aproximando!"
+msgid ""
+"Warning!\n"
+"\n"
+"High velocity objects on approach!"
+msgstr ""
+"Perigo!\n"
+"\n"
+"Objetos de alta velocidade se aproximando!"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCUBATORPROGRESS.NAME"
@@ -1426,15 +1432,15 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.NAME"
-msgid "Detector Network Quality: {TotalQuality}"
+msgid "Scan Network Quality: {TotalQuality}"
 msgstr "Qualidade da Rede de Detectores: {TotalQuality}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NETWORKQUALITY.TOOLTIP"
 msgid ""
-"Your detector network is scanning at {TotalQuality} effectiveness, and will detect meteor showers {WorstTime} to {BestTime} before they strike.\n"
+"Your scanner network is scanning at {TotalQuality} effectiveness, and will detect meteor showers {WorstTime} to {BestTime} before they strike\n"
 "\n"
-"Add more detectors and ensure they are each scanning effectively for best results."
+"Build multiple detectors and ensure they're each scanning effectively for the best results"
 msgstr ""
 "Sua rede de detectores está escaneando à {TotalQuality} de efetividade, e detectará chuva de meteoros entre {WorstTime} e {BestTime} antes deles colidirem.\n"
 "\n"
@@ -1857,13 +1863,13 @@ msgstr "Vazio"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.NAME"
-msgid "Pipe May Melt"
-msgstr "Cano Pode Derreter"
+msgid "High Melt Risk"
+msgstr "Alto Risco de Derreter"
 
 #. STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.TOOLTIP"
-msgid "Pipe May Melt"
-msgstr "Cano Pode Derreter"
+msgid "This pipe is in danger of melting at the current temperature"
+msgstr "Este cano está no risco de derreter devido à temperatura atual"
 
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME"
@@ -1992,8 +1998,14 @@ msgstr "Visibilidade Insuficiente"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACENOTVISIBLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACENOTVISIBLE.TOOLTIP"
-msgid "This detector must be able to see the sky in order to detect anything."
-msgstr "Este detector precisa ver o céu para poder detectar alguma coisa."
+msgid ""
+"An obscured view of the sky is preventing this scanner from collecting data\n"
+"\n"
+"Make sure the area about the dish is clear"
+msgstr ""
+"A visão bloqueada do céu está impedindo este detector de coletar dados\n"
+"\n"
+"Certifique-se que a área ao redor da antena está limpa"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME"
@@ -3092,18 +3104,18 @@ msgstr "<link=\"CO2SCRUBBER\">Removedor de Carbono</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC"
-msgid "Scans the sky to predict incoming meteor showers."
-msgstr "Escaneia o céu para prever chuvas de meteoros a caminho."
+msgid "Networks of many scanners will detect meteors more efficiently than one scanner alone."
+msgstr "Redes com diversos detectores irão detectar meteoros mais eficientemente do que um detector sozinho."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
-msgid "Produces a logic signal before a meteor shower begins."
-msgstr "Produz um sinal lógico antes da chuva de meteoros começar."
+msgid "Sends an <link=\"LOGIC\">Active Signal</link> to its logic circuit when it detects incoming meteorite showers."
+msgstr "Envia um <link=\"LOGIC\">Sinal Ativo</link> para o circuito lógico quando detecta chuvas de meteoritos próximos."
 
 #. STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.NAME"
-msgid "<link=\"COMETDETECTOR\">Meteor Scanner</link>"
-msgstr "<link=\"COMETDETECTOR\">Detector de Meteoros</link>"
+msgid "<link=\"COMETDETECTOR\">Space Scanner</link>"
+msgstr "<link=\"COMETDETECTOR\">Detector Espacial</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.DESC"
@@ -3372,13 +3384,19 @@ msgstr "na direita"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC"
-msgid "It's little-endian."
-msgstr "Tem que quebrar pelo lado menor."
+msgid "Raw eggs are an ingredient in some high quality food recipes."
+msgstr "Ovos crus são ingredientes em receitas de alta qualidade."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT"
-msgid "Cracks open a critter egg for use as a cooking ingredient."
-msgstr "Quebra um ovo de criatura para usar como um ingrediente de cozinha."
+msgid ""
+"Converts viable critter eggs into cooking ingredients.\n"
+"\n"
+"Cracked Eggs cannot hatch."
+msgstr ""
+"Converte ovos viáveis de criaturas em ingrediente de cozinha.\n"
+"\n"
+"Ovos Quebrados não podem chocar."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.NAME"
@@ -4345,8 +4363,8 @@ msgstr "Converte <link=\"CLAY\">Argila</link> em <link=\"CERAMIC\">Cerâmica</li
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.EFFECT"
-msgid "Converts <link=\"CLAY\">Clay</link> to <link=\"CERAMIC\">Ceramic</link>"
-msgstr "Converte <link=\"CLAY\">Argila</link> em <link=\"CERAMIC\">Cerâmica</link>"
+msgid "Converts <link=\"CLAY\">Clay</link> to <link=\"CERAMIC\">Ceramic</link>."
+msgstr "Converte <link=\"CLAY\">Argila</link> em <link=\"CERAMIC\">Cerâmica</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.NAME"
@@ -5471,12 +5489,9 @@ msgid "<link=\"ORESCRUBBER\">Ore Scrubber</link>"
 msgstr "<link=\"ORESCRUBBER\">Purificador de Minérios</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC"
-#| msgid "They colony that eats together, excretes together."
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC"
 msgid "The colony that eats together, excretes together."
-msgstr "A colônia que come junto, caga junto."
+msgstr "A colônia que come junto, excreta junto."
 
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT"
@@ -5526,8 +5541,14 @@ msgstr "Duplicantes vem aqui para escutar umas músicas maneiras."
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT"
-msgid "A phonobox music player."
-msgstr "Um fonógrafo tocador de músicas."
+msgid ""
+"Plays music for Duplicants to dance to on their breaks.\n"
+"\n"
+"Increases Duplicant Quality of Life."
+msgstr ""
+"Toca músicas para os Duplicantes dançarem durante os intervalos.\n"
+"\n"
+"Aumenta a Qualidade de Vida de um Duplicante."
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME"
@@ -6290,7 +6311,10 @@ msgstr "Painéis solares convertem Luz solar de alta intensidade em energia util
 
 #. STRINGS.BUILDINGS.PREFABS.SOLARPANEL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANEL.EFFECT"
-msgid "Converts Sunlight into electrical <link=\"POWER\">Power</link>./n/nMust be exposed to space."
+msgid ""
+"Converts Sunlight into electrical <link=\"POWER\">Power</link>.\n"
+"\n"
+"Must be exposed to space."
 msgstr ""
 "Converte Luz Solar em <link=\"POWER\">Energia</link> elétrica.\n"
 "\n"
@@ -6414,21 +6438,6 @@ msgstr "Irradia uma moderada quantidade de <link=\"HEAT\">Calor</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.NAME"
 msgid "<link=\"SPACEHEATER\">Space Heater</link>"
 msgstr "<link=\"SPACEHEATER\">Aquecedor</link>"
-
-#. STRINGS.BUILDINGS.PREFABS.SPACEWALL.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.DESC"
-msgid "Keeps the space out and the atmosphere in"
-msgstr "Mantém o espaço fora e a atmosfera dentro"
-
-#. STRINGS.BUILDINGS.PREFABS.SPACEWALL.EFFECT
-msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.EFFECT"
-msgid "..."
-msgstr "..."
-
-#. STRINGS.BUILDINGS.PREFABS.SPACEWALL.NAME
-msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.NAME"
-msgid "<link=\"SPACEWALL\">Space Wall</link>"
-msgstr "<link=\"SPACEWALL\">Parede Espacial</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC"
@@ -12961,6 +12970,16 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
 msgid "Quality of Life"
 msgstr "Qualidade de Vida"
 
+#. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC"
+msgid "Quality of Life Expectation"
+msgstr "Expectativa de Qualidade de Vida"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME"
+msgid "Quality of Life Expectation"
+msgstr "Expectativa de Qualidade de Vida"
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC"
 msgid "Determines how quickly and efficiently a Duplicant raises critters."
@@ -12970,6 +12989,18 @@ msgstr "Determina o quão rápido e eficiente um Duplicante é ao cuidar de cria
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.NAME"
 msgid "Ranching"
 msgstr "Pecuária"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.DESC"
+msgid "Recreation Expectation"
+msgstr "Expectativa de Recreação"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
+#| msgid "Decor Expectation"
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.NAME"
+msgid "Recreation Expectation"
+msgstr "Expectativa de Recreação"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ROOMTEMPERATUREPREFERENCE.DESC"
@@ -13953,6 +13984,21 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.MOP.TOOLTIP"
 msgid "Mopping removes liquids from the floor and bottles them for transport"
 msgstr "Secar remove líquidos do chão e os engarrafa para o transporte"
 
+#. STRINGS.DUPLICANTS.CHORES.MOURN.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.MOURN.NAME"
+msgid "Mourn"
+msgstr "Luto"
+
+#. STRINGS.DUPLICANTS.CHORES.MOURN.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.MOURN.STATUS"
+msgid "Mourning"
+msgstr "Em Luto"
+
+#. STRINGS.DUPLICANTS.CHORES.MOURN.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.CHORES.MOURN.TOOLTIP"
+msgid "Mourning the loss of a friend"
+msgstr "Sofrendo pela perda de um amigo"
+
 #. STRINGS.DUPLICANTS.CHORES.MOVETO.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETO.NAME"
 msgid "Move to"
@@ -14064,7 +14110,6 @@ msgid "Not currently overpressure"
 msgstr "Não está em sobrepressão no momento"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_FULL
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_FULL"
 msgid "Bladder isn't full"
 msgstr "Bexiga não está cheia"
@@ -14309,6 +14354,11 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_VALID"
 msgid "Invalid"
 msgstr "Inválido"
 
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NO_DEAD_BODIES
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NO_DEAD_BODIES"
+msgid "Unburied Duplicant"
+msgstr "Duplicante não enterrado"
+
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_CHORE_CREATOR"
 msgid "DebugNotChoreCreator"
@@ -14318,6 +14368,11 @@ msgstr ""
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.NOT_IN_TUBE"
 msgid "{Selected} is busy in transit"
 msgstr "{Selected} está ocupado no tráfego"
+
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.VALID_MOURNING_SITE
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.VALID_MOURNING_SITE"
+msgid "Nowhere to mourn"
+msgstr "Sem lugar para ficar de luto"
 
 #. STRINGS.DUPLICANTS.CHORES.RANCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RANCH.NAME"
@@ -15868,13 +15923,19 @@ msgstr "Este Duplicante sentiu vontade de chorar e está demonstrando isso"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME"
-msgid "Danced"
-msgstr "Dançou"
+msgid "Recently Danced"
+msgstr "Dançou Recentemente"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP"
 msgid ""
+"This Duplicant had a chance to cut loose!\n"
+"\n"
+"Leisure activities increase Duplicants' quality of life"
 msgstr ""
+"Este Duplicante foi possuído pelo ritmo rangatanga!\n"
+"\n"
+"Atividades de lazer aumentam a qualidade de vida de um Duplicante"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME"
@@ -15893,73 +15954,79 @@ msgstr "Morto"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR0.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.NAME"
-msgid "Recent decor has been neutral"
-msgstr "Decor recente esteve neutro"
+msgid "Poor Decor"
+msgstr "Decor Pobre"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP
+#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.TOOLTIP"
+#| msgid "This Duplicant has contracted a Disease"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant thinks the colony is decorated in poor taste"
+msgstr "Este Duplicante acha que a colônia está mal decorada"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME"
-msgid "Recent decor has been okay"
-msgstr "Decor recente esteve ok"
+msgid "Mediocre Decor"
+msgstr "Decor Medíocre"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP
+#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINED.TOOLTIP"
+#| msgid "This Duplicant has been isolated from the colony"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant has no strong opinions about the look of the colony"
+msgstr "Este Duplicante não tem opiniões fortes sobre a aparência da colônia"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME"
-msgid "Recent decor has been pleasant"
-msgstr "Decor recente esteve agradável"
+msgid "Above Average Decor"
+msgstr "Decor Acima da Média"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant appreciates that the colony's been spruced up"
+msgstr "Este Duplicante aprecia que a colônia foi enfeitada"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME"
-msgid "Recent decor has been nice"
-msgstr "Decor recente esteve bom"
+msgid "Nice Decor"
+msgstr "Bom Decor"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant thinks it looks pretty good in here!"
+msgstr "Este Duplicante acha que está tudo bem aqui!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME"
-msgid "Recent decor has been very attractive"
-msgstr "Decor recente esteve muito atraente"
+msgid "Charming Decor"
+msgstr "Decor Charmoso"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant thinks the colony's decor is downright charming!"
+msgstr "Este Duplicante acha que o decor da colônia está muito encantador!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME"
-msgid "Recent decor has been beautiful"
-msgstr "Decor recente esteve bonito"
+msgid "Gorgeous Decor"
+msgstr "Decor Maravilhoso"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FUSSY.TOOLTIP"
+#| msgid "This Duplicant is hard to please"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant loves what I've done with the place!"
+msgstr "Este Duplicante ama tudo que foi feito com este lugar!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.NAME"
-msgid "Recent decor has been downright ugly"
-msgstr "Decor recente esteve bem feio"
+msgid "Ugly Decor"
+msgstr "Decor Horroroso"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant finds the lack of decor in here downright depressing"
+msgstr "Este Duplicante acha a falta de Decor nesta área muito deprimente"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DIARRHEA.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DIARRHEA.CAUSE"
@@ -16026,73 +16093,131 @@ msgstr "Este Duplicante comeu sua última refeição em um bom refeitório"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME"
-msgid "Ate Good food for my last meal"
-msgstr "Comeu comida Boa na última refeição"
+msgid "Good Meal"
+msgstr "Refeição Boa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.TOOLTIP"
 msgid ""
+"The food this Duplicant last ate was Good\n"
+"\n"
+"They thought it was pretty good!"
 msgstr ""
+"A última comida que este Duplicante comeu estava Boa\n"
+"\n"
+"Ele(a) achou que estava muito boa!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.NAME"
-msgid "Ate Great food for my last meal"
-msgstr "Comeu comida Ótima na última refeição"
+msgid "Great Meal"
+msgstr "Refeição Ótima"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.TOOLTIP"
 msgid ""
+"The food this Duplicant last ate was Great\n"
+"\n"
+"They thought it was pretty good!"
 msgstr ""
+"A última comida que este Duplicante comeu estava Ótima\n"
+"\n"
+"Ele(a) achou que estava muito boa!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.NAME"
-msgid "Ate Amazing food for my last meal"
-msgstr "Comeu comida Maravilhosa na última refeição"
+msgid "Superb Meal"
+msgstr "Refeição Excelente"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP"
 msgid ""
+"The food this Duplicant last ate was Good\n"
+"\n"
+"They thought it was really good!"
 msgstr ""
+"A última comida que este Duplicante comeu estava Boa\n"
+"\n"
+"Ele(a) achou que estava muito deliciosa!"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.NAME"
+msgid "Ambrosial Meal"
+msgstr "Refeição Divina"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.TOOLTIP"
+msgid ""
+"The food this Duplicant last ate was Good\n"
+"\n"
+"They thought it was super tasty!"
+msgstr ""
+"A última comida que este Duplicante comeu estava Boa\n"
+"\n"
+"Ele(a) achou que estava super deliciosa!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.NAME"
-msgid "Ate Average food for my last meal"
-msgstr "Comeu comida Regular na última refeição"
+msgid "Standard Meal"
+msgstr "Refeição Normal"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.TOOLTIP"
 msgid ""
+"The food this Duplicant last ate was Average\n"
+"\n"
+"They thought it was sort of okay"
 msgstr ""
+"A última comida que este Duplicante comeu estava Regular\n"
+"\n"
+"Ele(a) achou que estava bem ok"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME"
-msgid "Ate Poor food for my last meal"
-msgstr "Comeu comida Ruim na última refeição"
+msgid "Poor Meal"
+msgstr "Refeição Ruim"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.TOOLTIP"
 msgid ""
+"The food this Duplicant last ate was Poor\n"
+"\n"
+"They hope their next meal will be a little better"
 msgstr ""
+"A última comida que este Duplicante comeu estava Ruim\n"
+"\n"
+"Ele(a) espera que a próxima refeição seja um pouco melhor"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.NAME"
-msgid "Ate Terrible food for my last meal"
-msgstr "Comeu comida Terrível na última refeição"
+msgid "Terrible Meal"
+msgstr "Refeição Terrível"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.TOOLTIP"
 msgid ""
+"The food this Duplicant last ate was Terrible\n"
+"\n"
+"They hope their next meal will be better"
 msgstr ""
+"A última comida que este Duplicante comeu estava Terrível\n"
+"\n"
+"Ele(a) espera que a próxima refeição seja melhor"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.NAME"
-msgid "Ate Awful food for my last meal"
-msgstr "Comeu comida Nojenta na última refeição"
+msgid "Grisly Meal"
+msgstr "Refeição Nojenta"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.TOOLTIP"
 msgid ""
+"The food this Duplicant last ate was Grisly\n"
+"\n"
+"They hope their next meal will be better"
 msgstr ""
+"A última comida que este Duplicante comeu estava Nojenta\n"
+"\n"
+"Ele(a) espera que a próxima refeição seja melhor"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.NAME"
@@ -18708,8 +18833,8 @@ msgstr "Refeição Decadente"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GOOD_FOOD_QUALITY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GOOD_FOOD_QUALITY.TOOLTIP"
-msgid "This Duplicant's last meal exceeded their expectations"
-msgstr "A última refeição deste Duplicante excedeu suas expectativas"
+msgid "The last meal this Duplicant ate exceeded their expectations!"
+msgstr "A última refeição deste Duplicante excedeu suas expectativas!"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.HARVESTDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HARVESTDELIVERSTATUS.NAME"
@@ -19150,7 +19275,7 @@ msgstr "Refeição Ruim"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POOR_FOOD_QUALITY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POOR_FOOD_QUALITY.TOOLTIP"
-msgid "This Duplicant's last meal didn't meet their expectations"
+msgid "The last meal this Duplicant ate didn't quite meet their expectations"
 msgstr "A última refeição desta Duplicante não atingiu suas expectativas"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORDECOR.NAME
@@ -19165,8 +19290,8 @@ msgstr "Este Duplicante acha a falta de Decor nesta área deprimente"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.NAME"
-msgid "Lacking Quality of Life"
-msgstr "Faltando Qualidade de Vida"
+msgid "Poor Quality of Life"
+msgstr "Pobre Qualidade de Vida"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP"
@@ -29157,8 +29282,8 @@ msgstr "Tamanho mínimo: {0} blocos"
 
 #. STRINGS.ROOMS.CRITERIA.NEUTRAL_TYPE
 msgctxt "STRINGS.ROOMS.CRITERIA.NEUTRAL_TYPE"
-msgid "Enclosed by wall tiles and doors"
-msgstr "Circundado por blocos de parede e portas"
+msgid "Enclosed by wall tiles"
+msgstr "Circundado por blocos de parede"
 
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION"
@@ -32192,7 +32317,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.7.2)"
+"- Traduzido por Chastomber :P (1.7.3)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -42062,6 +42187,114 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.NAME"
+#~ msgid "Pipe May Melt"
+#~ msgstr "Cano Pode Derreter"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.TOOLTIP"
+#~ msgid "Pipe May Melt"
+#~ msgstr "Cano Pode Derreter"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACENOTVISIBLE.TOOLTIP"
+#~ msgid "This detector must be able to see the sky in order to detect anything."
+#~ msgstr "Este detector precisa ver o céu para poder detectar alguma coisa."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.DESC"
+#~ msgid "Scans the sky to predict incoming meteor showers."
+#~ msgstr "Escaneia o céu para prever chuvas de meteoros a caminho."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.COMETDETECTOR.EFFECT"
+#~ msgid "Produces a logic signal before a meteor shower begins."
+#~ msgstr "Produz um sinal lógico antes da chuva de meteoros começar."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC"
+#~ msgid "It's little-endian."
+#~ msgstr "Tem que quebrar pelo lado menor."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT"
+#~ msgid "Cracks open a critter egg for use as a cooking ingredient."
+#~ msgstr "Quebra um ovo de criatura para usar como um ingrediente de cozinha."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT"
+#~ msgid "A phonobox music player."
+#~ msgstr "Um fonógrafo tocador de músicas."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.DESC"
+#~ msgid "Keeps the space out and the atmosphere in"
+#~ msgstr "Mantém o espaço fora e a atmosfera dentro"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.EFFECT"
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.NAME"
+#~ msgid "<link=\"SPACEWALL\">Space Wall</link>"
+#~ msgstr "<link=\"SPACEWALL\">Parede Espacial</link>"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME"
+#~ msgid "Danced"
+#~ msgstr "Dançou"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.NAME"
+#~ msgid "Recent decor has been neutral"
+#~ msgstr "Decor recente esteve neutro"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME"
+#~ msgid "Recent decor has been okay"
+#~ msgstr "Decor recente esteve ok"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME"
+#~ msgid "Recent decor has been pleasant"
+#~ msgstr "Decor recente esteve agradável"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME"
+#~ msgid "Recent decor has been nice"
+#~ msgstr "Decor recente esteve bom"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME"
+#~ msgid "Recent decor has been very attractive"
+#~ msgstr "Decor recente esteve muito atraente"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME"
+#~ msgid "Recent decor has been beautiful"
+#~ msgstr "Decor recente esteve bonito"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.NAME"
+#~ msgid "Recent decor has been downright ugly"
+#~ msgstr "Decor recente esteve bem feio"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME"
+#~ msgid "Ate Good food for my last meal"
+#~ msgstr "Comeu comida Boa na última refeição"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.NAME"
+#~ msgid "Ate Great food for my last meal"
+#~ msgstr "Comeu comida Ótima na última refeição"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.NAME"
+#~ msgid "Ate Amazing food for my last meal"
+#~ msgstr "Comeu comida Maravilhosa na última refeição"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.NAME"
+#~ msgid "Ate Average food for my last meal"
+#~ msgstr "Comeu comida Regular na última refeição"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME"
+#~ msgid "Ate Poor food for my last meal"
+#~ msgstr "Comeu comida Ruim na última refeição"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.NAME"
+#~ msgid "Ate Terrible food for my last meal"
+#~ msgstr "Comeu comida Terrível na última refeição"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.NAME"
+#~ msgid "Ate Awful food for my last meal"
+#~ msgstr "Comeu comida Nojenta na última refeição"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.NAME"
+#~ msgid "Lacking Quality of Life"
+#~ msgstr "Faltando Qualidade de Vida"
+
 #~ msgctxt "STRINGS.CODEX.BRINGYOURKIDTOWORK.TITLE"
 #~ msgid "Reminder to All Personnel"
 #~ msgstr "Lembrete para Todos os Funcionários"
@@ -46948,10 +47181,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.DESC"
 #~ msgid "Manually enable, disable or adjust building switches and filters."
 #~ msgstr "Manualmente ativar, desativar ou ajustar alavancas e filtros de estruturas."
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTOR.NAME"
-#~ msgid "Aid Duplicant"
-#~ msgstr "Cuidar de Duplicante"
 
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRIORITIZECHORE.NAME"
 #~ msgid "Prioritize chore"
