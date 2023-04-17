@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.6.1\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.6.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -3665,8 +3665,8 @@ msgstr "na direita"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC"
-msgid "Or you can eat them raw... if you really want to."
-msgstr "Ou você pode comer eles crus... se você realmente quiser."
+msgid "It's little-endian."
+msgstr "Tem que quebrar pelo lado menor."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.EFFECT"
@@ -3738,6 +3738,26 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.NAME"
 msgid "<link=\"ELECTROLYZER\">Electrolyzer</link>"
 msgstr "<link=\"ELECTROLYZER\">Célula Eletrolítica</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
+msgid "You'd be surprised how much research went into making this wall."
+msgstr ""
+"Você ficaria surpreso pela quantidade de pesquisas que foram feitas para "
+"fazer esta parede."
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
+msgid "A key element to building rooms on the surface of the asteroid."
+msgstr ""
+"Um elemento chave para a construção de salas na superfície do asteroide."
+
+#. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME
+#| msgctxt "STRINGS.ELEMENTS.WATER.NAME"
+#| msgid "<link=\"WATER\">Water</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME"
+msgid "<link=\"EXTERIORWALL\">Wall</link>"
+msgstr "<link=\"EXTERIORWALL\">Parede</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC"
@@ -4817,23 +4837,6 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONTILE.NAME"
 msgid "<link=\"INSULATIONTILE\">Insulated Tile</link>"
 msgstr "<link=\"INSULATIONTILE\">Bloco Adiabático</link>"
-
-#. STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.DESC"
-msgid "You'd be surprised how much research went into making warm wallpaper."
-msgstr ""
-"Você ficaria surpreso pela quantidade de pesquisas que foram feitas para "
-"fazer este papel de parede quentinho."
-
-#. STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.EFFECT
-msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.EFFECT"
-msgid "Reduces <link=\"HEAT\">Heat</link> loss through colony walls."
-msgstr "Reduz a perda de <link=\"HEAT\">Calor</link> pelas paredes da colônia."
-
-#. STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.NAME
-msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.NAME"
-msgid "<link=\"INSULATIONWALL\">Insulation</link>"
-msgstr "<link=\"INSULATIONWALL\">Isolamento</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.DESC"
@@ -26513,6 +26516,20 @@ msgctxt "STRINGS.MISC.STATUSITEMS.REGIONISBLOCKED.TOOLTIP"
 msgid "Undug material is blocking off an essential tile"
 msgstr "Material não escavado está bloqueando uma célula essencial"
 
+#. STRINGS.MISC.STATUSITEMS.SPACE.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.SPACE.NAME"
+msgid "Exposed to Space"
+msgstr "Exposto ao Espaço"
+
+#. STRINGS.MISC.STATUSITEMS.SPACE.TOOLTIP
+msgctxt "STRINGS.MISC.STATUSITEMS.SPACE.TOOLTIP"
+msgid ""
+"This region is exposed to the vacuum of space and will result in the loss of "
+"gas and liquid resources."
+msgstr ""
+"Esta região está exposta ao vácuo do espaço e resultará na perda de recursos "
+"gasosos e líquidos."
+
 #. STRINGS.MISC.STATUSITEMS.SPOUTDORMANT.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTDORMANT.NAME"
 msgid "Dormant"
@@ -30206,7 +30223,6 @@ msgid "<link=\"BUILDCATEGORYAUTOMATION\">Automation</link>"
 msgstr "<link=\"BUILDCATEGORYAUTOMATION\">Automação</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.AUTOMATION.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.UI.BUILDCATEGORIES.AUTOMATION.TOOLTIP"
 msgid "Automate my base with logic circuits and sensors."
 msgstr "Automatize minha base com sensores e circuitos lógicos."
@@ -33007,7 +33023,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.6.1)"
+"- Traduzido por Chastomber :P (1.6.2)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -42544,6 +42560,19 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC"
+#~ msgid "Or you can eat them raw... if you really want to."
+#~ msgstr "Ou você pode comer eles crus... se você realmente quiser."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.EFFECT"
+#~ msgid "Reduces <link=\"HEAT\">Heat</link> loss through colony walls."
+#~ msgstr ""
+#~ "Reduz a perda de <link=\"HEAT\">Calor</link> pelas paredes da colônia."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONWALL.NAME"
+#~ msgid "<link=\"INSULATIONWALL\">Insulation</link>"
+#~ msgstr "<link=\"INSULATIONWALL\">Isolamento</link>"
 
 #~ msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING_ROUGH.NAME"
 #~ msgid "Rough"
