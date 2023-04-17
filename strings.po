@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.8.1\n"
+"Project-Id-Version: Português foi Incluído! 1.8.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -2759,10 +2759,6 @@ msgid "Super computers unlock higher technology tiers than research stations alo
 msgstr "Super computadores desbloqueiam níveis tecnológicos mais altos do que estações de pesquisa sozinhas."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
-#| msgctxt "STRINGS.RESEARCH.TYPES.BETA.DESC"
-#| msgid ""
-#| "<link=\"RESEARCH\">Advanced Research</link> is required to unlock improved technologies.\n"
-#| "It can be conducted at a <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies.\n"
@@ -2933,8 +2929,6 @@ msgstr ""
 "Duplicantes precisam possui o traço <link=\"ASTRONAUTTRAINEE\">Astronauta-em-Treinamento</link> para receber treinamento."
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME"
-#| msgid "<link=\"ASTRONAUTTRAININGCENTER\">Astronaut Training Center</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME"
 msgid "<link=\"ASTRONAUTTRAININGCENTER\">Space Cadet Centrifuge</link>"
 msgstr "<link=\"ASTRONAUTTRAININGCENTER\">Centrífuga de Cadetes Espaciais</link>"
@@ -3287,19 +3281,27 @@ msgid "<link=\"COMETDETECTOR\">Space Scanner</link>"
 msgstr "<link=\"COMETDETECTOR\">Detector Espacial</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.DESC
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
+#| msgid "Duplicants must complete astronaut training in order to pilot space rockets."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.DESC"
-msgid ""
-msgstr ""
+msgid "At least one astronaut must be assigned to the command module to pilot a rocket."
+msgstr "Pelo menos um astronauta precisa ser designado ao módulo de comando para pilotar o foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.EFFECT"
 msgid ""
+"Contains passenger seating for Duplicant <link=\"ASTRONAUT\">Astronauts</link>.\n"
+"\n"
+"A Command Capsule must be the last module installed at the top of a rocket."
 msgstr ""
+"Contém assentos de passageiros para Duplicantes <link=\"ASTRONAUT\">Astronautas</link>.\n"
+"\n"
+"Uma Cápsula de Comando precisa ser o último módulo instalado no topo de um foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.NAME"
-msgid "<link=\"COMMANDMODULE\">Command Module</link>"
-msgstr "<link=\"COMMANDMODULE\">Módulo de Comando</link>"
+msgid "<link=\"COMMANDMODULE\">Command Capsule</link>"
+msgstr "<link=\"COMMANDMODULE\">Cápsula de Comando</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.DESC"
@@ -3641,17 +3643,22 @@ msgstr "<link=\"ELECTROLYZER\">Célula Eletrolítica</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC"
-msgid "A little boost of energy."
-msgstr "Nada como um café pra dar energia."
+msgid "A shot of espresso helps Duplicants relax after a long day."
+msgstr "Uma dose de café ajuda os Duplicantes relaxarem depois de um longo dia."
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT"
+#| msgid ""
+#| "Plays music for Duplicants to dance to on their breaks.\n"
+#| "\n"
+#| "Increases Duplicant Morale."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT"
 msgid ""
-"Provides a delicious and stimulating refreshment.\n"
+"Provides refreshment for Duplicants on their breaks.\n"
 "\n"
 "Increases Duplicant Morale."
 msgstr ""
-"Provê um delicioso e estimulante café.\n"
+"Provê bebidas aos Duplicantes durante seus intervalos.\n"
 "\n"
 "Aumenta a Moral dos Duplicantes."
 
@@ -3920,13 +3927,13 @@ msgstr "<link=\"FLUSHTOILET\">Vaso Sanitário</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.DESC"
-msgid "A bridgelike overhead structure with a platform supporting equipment."
-msgstr "Uma estrutura suspensa em forma de ponte com um equipamento de suporte de plataforma."
+msgid "A gantry can be built over rocket pieces where tiles and ladders cannot."
+msgstr "Um pórtico pode ser construído por cima de peças de foguete onde blocos e escadas não podem."
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT"
-msgid "Allows Duplicants access to hard to reach places on launch vehicles."
-msgstr "Permite os Duplicantes acessarem locais de difícil acesso em veículos de lançamento."
+msgid "Provides scaffolding across rocket modules to allow Duplicant access."
+msgstr "Provê acesso por andaimes aos módulos de foguete permitindo acesso aos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.NAME"
@@ -3944,16 +3951,14 @@ msgid "Automatically stores piped <link=\"ELEMENTSGAS\">Gases</link> into canist
 msgstr "Armazena automaticamente <link=\"ELEMENTSGAS\">Gases</link> encanado em botijões para transporte manual."
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME"
-#| msgid "<link=\"GASBOTTLER\">Gas Bottler</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME"
 msgid "<link=\"GASBOTTLER\">Canister Filler</link>"
 msgstr "<link=\"GASBOTTLER\">Enchedor de Botijões</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC"
-msgid "Duplicants will fill cargo tanks with whatever resources they find during their space missions."
-msgstr "Duplicantes irão encher os tanques de carga com qualquer recurso que eles encontrarem durante as missões."
+msgid "Duplicants will fill cargo canisters with whatever resources they find during their space missions."
+msgstr "Duplicantes irão encher os botijões de carga com qualquer recurso que eles encontrarem durante as missões."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.EFFECT"
@@ -3968,8 +3973,8 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.NAME"
-msgid "<link=\"GASCARGOBAY\">Gas Cargo Tank</link>"
-msgstr "<link=\"GASCARGOBAY\">Tanque de Carga de Gás</link>"
+msgid "<link=\"GASCARGOBAY\">Gas Cargo Canister</link>"
+msgstr "<link=\"GASCARGOBAY\">Botijão de Carga de Gás</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUIT.DESC"
@@ -4656,21 +4661,6 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.NAME"
 msgid "<link=\"KEROSENEENGINE\">Petroleum Rocket Engine</link>"
 msgstr "<link=\"KEROSENEENGINE\">Motor de Foguete à Petróleo</link>"
 
-#. STRINGS.BUILDINGS.PREFABS.KEROSENEROCKET.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEROCKET.DESC"
-msgid ""
-msgstr ""
-
-#. STRINGS.BUILDINGS.PREFABS.KEROSENEROCKET.EFFECT
-msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEROCKET.EFFECT"
-msgid "A Kerosene powered rocket"
-msgstr "Foguete à Querosene"
-
-#. STRINGS.BUILDINGS.PREFABS.KEROSENEROCKET.NAME
-msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEROCKET.NAME"
-msgid "<link=\"KEROSENEROCKET\">Kerosene Rocket</link>"
-msgstr "<link=\"KEROSENEROCKET\">Foguete à Querosene</link>"
-
 #. STRINGS.BUILDINGS.PREFABS.KILN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.DESC"
 msgid "Kilns can also be used to refine coal into pure carbon."
@@ -4715,21 +4705,6 @@ msgstr "Aumenta a velocidade de escalada dos Duplicantes."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LADDERFAST.NAME"
 msgid "<link=\"LADDERFAST\">Plastic Ladder</link>"
 msgstr "<link=\"LADDERFAST\">Escada de Plástico</link>"
-
-#. STRINGS.BUILDINGS.PREFABS.LAUNCHPLATFORM.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPLATFORM.DESC"
-msgid ""
-msgstr ""
-
-#. STRINGS.BUILDINGS.PREFABS.LAUNCHPLATFORM.EFFECT
-msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPLATFORM.EFFECT"
-msgid "Core element of the rocket launch pad"
-msgstr "Elemento principal de uma plataforma de lançamento de foguetes"
-
-#. STRINGS.BUILDINGS.PREFABS.LAUNCHPLATFORM.NAME
-msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPLATFORM.NAME"
-msgid "<link=\"LAUNCHPLATFORM\">Launch Platform</link>"
-msgstr "<link=\"LAUNCHPLATFORM\">Plataforma de Lançamento</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.DESC"
@@ -6750,21 +6725,6 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLARPANEL.NAME"
 msgid "<link=\"SOLARPANEL\">Solar Panel</link>"
 msgstr "<link=\"SOLARPANEL\">Painel Solar</link>"
 
-#. STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.DESC"
-msgid ""
-msgstr ""
-
-#. STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.EFFECT
-msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.EFFECT"
-msgid "A solid fuel rocket booster"
-msgstr "Um propulsor de foguetes à combustível sólido"
-
-#. STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.NAME
-msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.NAME"
-msgid "<link=\"SOLIDBOOSTER\">Solid Booster</link>"
-msgstr "<link=\"SOLIDBOOSTER\">Propulsor Sólido</link>"
-
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUIT.DESC"
 msgid "Rails automatically move materials where they'll be needed most, saving Duplicants the walk."
@@ -6899,21 +6859,6 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPECIALCARGOBAY.NAME"
 msgid "<link=\"SPECIALCARGOBAY\">Biological Cargo Bay</link>"
 msgstr "<link=\"SPECIALCARGOBAY\">Ala de Carga Biológica</link>"
-
-#. STRINGS.BUILDINGS.PREFABS.STEAMENGINE.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.DESC"
-msgid ""
-msgstr ""
-
-#. STRINGS.BUILDINGS.PREFABS.STEAMENGINE.EFFECT
-msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.EFFECT"
-msgid ""
-msgstr ""
-
-#. STRINGS.BUILDINGS.PREFABS.STEAMENGINE.NAME
-msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.NAME"
-msgid "<link=\"STEAMENGINE\">Steam Engine</link>"
-msgstr "<link=\"STEAMENGINE\">Motor à Vapor</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC"
@@ -7093,6 +7038,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME"
 msgid "<link=\"TELESCOPE\">Research Telescope</link>"
 msgstr "<link=\"TELESCOPE\">Telescópio de Pesquisa</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.TELESCOPE.REQUIREMENT_TOOLTIP
+msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.REQUIREMENT_TOOLTIP"
+msgid "A steady supply of {0} is necessary for the Duplicants to breathe."
+msgstr "É necessário um suprimento constante de {0} para os Duplicantes respirarem."
+
 #. STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.DESC"
 msgid "Automated switches can be used to manage circuits in areas where Duplicants cannot enter."
@@ -7233,21 +7183,6 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.TRAVELTUBEWALLBRIDGE.NAME"
 msgid "<link=\"TRAVELTUBEWALLBRIDGE\">Transit Tube Crossing</link>"
 msgstr "<link=\"TRAVELTUBEWALLBRIDGE\">Adaptador de Tubo de Tráfego</link>"
-
-#. STRINGS.BUILDINGS.PREFABS.UMBILICALTOWER.DESC
-msgctxt "STRINGS.BUILDINGS.PREFABS.UMBILICALTOWER.DESC"
-msgid ""
-msgstr ""
-
-#. STRINGS.BUILDINGS.PREFABS.UMBILICALTOWER.EFFECT
-msgctxt "STRINGS.BUILDINGS.PREFABS.UMBILICALTOWER.EFFECT"
-msgid "Core element of the rocket launch pad"
-msgstr "Elemento principal de uma plataforma de lançamento de foguetes"
-
-#. STRINGS.BUILDINGS.PREFABS.UMBILICALTOWER.NAME
-msgctxt "STRINGS.BUILDINGS.PREFABS.UMBILICALTOWER.NAME"
-msgid "<link=\"UMBILICALTOWER\">Umbilical Tower</link>"
-msgstr "<link=\"UMBILICALTOWER\">Torre Umbilical</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.VENDINGMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.VENDINGMACHINE.DESC"
@@ -14772,20 +14707,23 @@ msgid "This Duplicant is going to work on their art"
 msgstr "Este Duplicante está indo trabalhar na sua arte"
 
 #. STRINGS.DUPLICANTS.CHORES.ASTRONAUT.NAME
+#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACEPRISON"
+#| msgid "Spaceprison"
 msgctxt "STRINGS.DUPLICANTS.CHORES.ASTRONAUT.NAME"
-msgid "Astronaut"
-msgstr "Astronauta"
+msgid "Space Mission"
+msgstr "Missão Espacial"
 
 #. STRINGS.DUPLICANTS.CHORES.ASTRONAUT.STATUS
+#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACEPRISON"
+#| msgid "Spaceprison"
 msgctxt "STRINGS.DUPLICANTS.CHORES.ASTRONAUT.STATUS"
-msgid "Astronauting"
-msgstr "Astronautando"
+msgid "On Space Mission"
+msgstr "Indo em Missão Espacial"
 
 #. STRINGS.DUPLICANTS.CHORES.ASTRONAUT.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.ASTRONAUT.TOOLTIP"
-msgid "This Duplicant is getting real spaced out"
-msgstr "Este Duplicante está realmente no mundo da lua"
+msgid "This Duplicant is exploring the vast universe"
+msgstr "Este Duplicante está explorando o vasto universo"
 
 #. STRINGS.DUPLICANTS.CHORES.ATTACK.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.ATTACK.NAME"
@@ -30808,13 +30746,13 @@ msgstr "Decor positivo"
 
 #. STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.DESCRIPTION"
-msgid "The ceiling must be at least {0} tiles above the floor"
-msgstr "O teto precisa estar pelo menos {0} blocos acima do chão"
+msgid "Must have a ceiling height of at least {0} tiles"
+msgstr "Precisa de uma altura de teto de pelo menos {0} blocos"
 
 #. STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.NAME"
-msgid "Minimum ceiling height: {0} tiles"
-msgstr "Altura do teto mínima: {0} blocos"
+msgid "Minimum height: {0} tiles"
+msgstr "Altura mínima: {0} blocos"
 
 #. STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.CLINIC.DESCRIPTION"
@@ -30863,13 +30801,13 @@ msgstr "Requer uma ou mais Pinturas, Esculturas ou Vasos"
 
 #. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM.NAME"
-msgid "Decoration item"
-msgstr "Item de decoração"
+msgid "Decor item"
+msgstr "Item de Decor"
 
 #. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.DESCRIPTION"
-msgid "Requires a decorative object with a Decor of at least {0}."
-msgstr "Requer um objeto decorativo com Decor de pelo menos {0}."
+msgid "Requires a decorative item with a minimum Decor value of {0}"
+msgstr "Requer um objeto decorativo com Decor mínimo de {0}"
 
 #. STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.DECORATIVE_ITEM_N.NAME"
@@ -30998,12 +30936,12 @@ msgstr "Circundado por blocos de parede"
 
 #. STRINGS.ROOMS.CRITERIA.NO_COTS.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.DESCRIPTION"
-msgid "Cannot contain basic Cots"
-msgstr "Não pode conter Berços"
+msgid "Requires an upgraded bed"
+msgstr "Requer uma cama melhorada"
 
 #. STRINGS.ROOMS.CRITERIA.NO_COTS.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.NAME"
-msgid "No basic Cots"
+msgid "No Cots"
 msgstr "Sem Berços"
 
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION
@@ -31156,9 +31094,11 @@ msgid "Barracks"
 msgstr "Dormitório"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP
+#| msgctxt "STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP"
+#| msgid "Using a toilet in an enclosed room will improve Duplicants' Morale."
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP"
-msgid "Sleeping in a bed will improve Morale for Duplicants if it is located within Barracks."
-msgstr "Dormir em uma cama aumentará a Moral dos Duplicantes se ela estiver dentro de um Dormitório."
+msgid "Sleeping in Barracks will improve Duplicants' Morale."
+msgstr "Dormir no Dormitório aumentará a Moral dos Duplicantes."
 
 #. STRINGS.ROOMS.TYPES.BEDROOM.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.EFFECT"
@@ -31171,9 +31111,11 @@ msgid "Bedroom"
 msgstr "Quarto"
 
 #. STRINGS.ROOMS.TYPES.BEDROOM.TOOLTIP
+#| msgctxt "STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP"
+#| msgid "Using a toilet in an enclosed room will improve Duplicants' Morale."
 msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.TOOLTIP"
-msgid "Sleeping in a comfortable Bedroom will improve Morale for Duplicants"
-msgstr "Dormir em uma Quarto confortável aumentará a Moral dos Duplicantes"
+msgid "Sleeping in a private Bedroom will improve Duplicants' Morale."
+msgstr "Dormir em um Quarto aumentará a Moral dos Duplicantes."
 
 #. STRINGS.ROOMS.TYPES.CONFLICTED
 msgctxt "STRINGS.ROOMS.TYPES.CONFLICTED"
@@ -31192,7 +31134,7 @@ msgstr "Estábulo"
 
 #. STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.CREATUREPEN.TOOLTIP"
-msgid "Stabled critters will be more productive and less hostile."
+msgid "Stabled critters will become more productive and less hostile."
 msgstr "Criatura no curral serão mais produtivas e menos hostis."
 
 #. STRINGS.ROOMS.TYPES.FARM.EFFECT
@@ -31222,8 +31164,8 @@ msgstr "Restaurante"
 
 #. STRINGS.ROOMS.TYPES.GREATHALL.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.GREATHALL.TOOLTIP"
-msgid "Eating and relaxing in a Great Hall will significantly improve Duplicants' Morale."
-msgstr "Comer e relaxar em um Restaurante aumentará significativamente a Moral dos Duplicantes."
+msgid "Eating in a Great Hall will significantly improve Duplicants' Morale."
+msgstr "Comer em um Restaurante aumentará significativamente a Moral dos Duplicantes."
 
 #. STRINGS.ROOMS.TYPES.HOSPITAL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.HOSPITAL.EFFECT"
@@ -31267,8 +31209,8 @@ msgstr "Oficina Mecânica"
 
 #. STRINGS.ROOMS.TYPES.MACHINE_SHOP.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.MACHINE_SHOP.TOOLTIP"
-msgid "Engineers working in a Machine Shop can maintain buildings and increase the speed with which they produce items."
-msgstr "Engenheiros que trabalham em uma Oficina Mecânica podem cuidar de estruturas e aumentar a velocidade ao qual elas produzem itens."
+msgid "Engineers working in a Machine Shop can maintain buildings and increase their production speed."
+msgstr "Engenheiros que trabalham em uma Oficina Mecânica podem manter estruturas e aumentar sua velocidade de produção."
 
 #. STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT"
@@ -31282,8 +31224,8 @@ msgstr "Clínica de Massagem"
 
 #. STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.TOOLTIP"
-msgid "Massage tables relieve more stress when in a proper room."
-msgstr "Mesas de massagem aliviam mais estresse quando na sala adequada."
+msgid "Receiving massages at a Massage Clinic will significantly improve Stress reduction."
+msgstr "Receber massagens na Clínica de Massagem melhorará significativamente a redução de Estresse."
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
@@ -31297,8 +31239,8 @@ msgstr "Refeitório"
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.TOOLTIP"
-msgid "Eating at a Mess Table will improve Morale for Duplicants if it is located within a Mess Hall."
-msgstr "Comer numa Mesa de Jantar aumentará a Moral dos Duplicantes se ela estiver em um Refeitório."
+msgid "Eating at a Mess Table in a Mess Hall will improve Duplicants' Morale."
+msgstr "Comer em uma mesa de Jantar em um Refeitório aumentará a Moral dos Duplicantes."
 
 #. STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.NEUTRAL.EFFECT"
@@ -31342,7 +31284,7 @@ msgstr "Estação de Energia"
 
 #. STRINGS.ROOMS.TYPES.POWER_PLANT.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.POWER_PLANT.TOOLTIP"
-msgid "Electrical Engineers can tune-up generators built within a Power Plant, improving their power production."
+msgid "Electrical Engineers can tune-up generators built within a Power Plant and improve their power production."
 msgstr "Engenheiros Elétricos podem atualizar geradores construídos dentro de uma Estação de Energia, melhorando sua produção de energia."
 
 #. STRINGS.ROOMS.TYPES.PRIVATE_BATHROOM.EFFECT
@@ -31387,7 +31329,7 @@ msgstr "Sala de Recreação"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.TOOLTIP"
-msgid "Downtime will further improve Morale for Duplicants visiting a Recreation Room."
+msgid "Downtime shifts will further improve Morale for Duplicants visiting a Recreation Room."
 msgstr "Intervalo aumentará a Moral dos Duplicantes que estiverem visitando uma Sala de Recreação."
 
 #. STRINGS.UI.ACTIONS
@@ -34108,7 +34050,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.8.1)"
+"- Traduzido por Chastomber :P (1.8.2)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -39631,8 +39573,6 @@ msgid "This job comes with no training"
 msgstr "Este trabalho não precisa de treinamento"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.TELESCOPE_RESEARCH.DESCRIPTION
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME"
-#| msgid "<link=\"TELESCOPE\">Telescope</link>"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.TELESCOPE_RESEARCH.DESCRIPTION"
 msgid "Trait: <link=\"TELESCOPE\">Research Telescope</link> Researching"
 msgstr "Traço: Pesquisar com <link=\"TELESCOPE\">Telescópio de Pesquisa</link>"
@@ -40129,11 +40069,11 @@ msgstr "Trabalho"
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION"
 msgid ""
-"During bathtime blocks my Duplicants will take care of their hygienic needs, such as going to the bathroom, using the shower or washing their hands.\n"
+"During Bathtime shifts my Duplicants will take care of their hygienic needs, such as going to the bathroom, using the shower or washing their hands.\n"
 "\n"
 "Once they're all caught up on personal hygene, Duplicants will head back to work."
 msgstr ""
-"Durante os blocos de banho, meus Duplicantes irão cuidar de suas necessidades higiênicas, como ir ao banheiro, tomar banho ou lavar as mãos.\n"
+"Durante os turnos de banho, meus Duplicantes irão cuidar de suas necessidades higiênicas, como ir ao banheiro, tomar banho ou lavar as mãos.\n"
 "\n"
 "Uma vez que eles terminarem com a higiene pessoal, os Duplicantes voltarão ao trabalho."
 
@@ -40144,23 +40084,23 @@ msgstr "Banho"
 
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.NOTIFICATION_TOOLTIP"
-msgid "During bathtime blocks my Duplicants will take care of their hygienic needs, such as going to the bathroom, using the shower or washing their hands."
-msgstr "Durante os blocos de banho, meus Duplicantes irão cuidar de suas necessidades higiênicas, como ir ao banheiro, tomar banho ou lavar as mãos."
+msgid "During Bathtime shifts my Duplicants will take care of their hygienic needs, such as going to the bathroom, using the shower or washing their hands."
+msgstr "Durante os turnos de banho, meus Duplicantes irão cuidar de suas necessidades higiênicas, como ir ao banheiro, tomar banho ou lavar as mãos."
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
 msgid ""
-"During downtime my Duplicants they may do as they please.\n"
+"During Downtime my Duplicants they may do as they please.\n"
 "\n"
 "This may include personal matters like bathroom visits or snacking, or they may choose to engage in leisure activities like socializing with friends.\n"
 "\n"
 "Downtime increases Duplicant Morale."
 msgstr ""
-"Quando meus Duplicantes estão no intervalo eles podem fazer o que eles quiserem.\n"
+"Durante o Intervalo meus Duplicantes podem fazer o que eles quiserem.\n"
 "\n"
 "Isto inclui assuntos pessoais como visitas ao banheiro ou lanches, ou então eles podem participar de atividades de lazer como socializar com amigos.\n"
 "\n"
-"O Intervalo aumenta a Moral dos Duplicantes."
+"Intervalo aumenta a Moral dos Duplicantes."
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME"
@@ -40169,19 +40109,19 @@ msgstr "Intervalo"
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NOTIFICATION_TOOLTIP"
-msgid "During downtime my Duplicants they may do as they please."
-msgstr "Durante o intervalo meus Duplicantes podem fazer o que quiserem."
+msgid "During Downtime shifts my Duplicants they may do as they please."
+msgstr "Durante turnos de Intervalo meus Duplicantes podem fazer o que quiserem."
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
 msgid ""
-"My Duplicants use bedtime blocks to rest up after a hard day's work.\n"
+"My Duplicants use Bedtime shifts to rest up after a hard day's work.\n"
 "\n"
-"Scheduling too few bedtime blocks may prevent my Duplicants from regaining enough Stamina to make it through the following day."
+"Scheduling too few bedtime shifts may prevent my Duplicants from regaining enough Stamina to make it through the following day."
 msgstr ""
-"Meus Duplicantes usam blocos de soneca para descansar após uma longo dia de trabalho.\n"
+"Meus Duplicantes usam turnos de Soneca para descansar após uma longo dia de trabalho.\n"
 "\n"
-"Agendar poucos blocos de soneca pode prevenir meus Duplicantes de recuperar Energia suficiente para durar até o próximo dia."
+"Agendar poucos turnos de soneca pode prevenir meus Duplicantes de recuperar Energia suficiente para durar até o próximo dia."
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME"
@@ -40190,8 +40130,8 @@ msgstr "Soneca"
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.NOTIFICATION_TOOLTIP"
-msgid "My Duplicants use bedtime blocks to rest up after a hard day's work."
-msgstr "Meus Duplicantes usam os blocos de soneca para descansar depois de um longo dia de trabalho."
+msgid "My Duplicants use Bedtime shifts to rest up after a hard day's work."
+msgstr "Meus Duplicantes usam os turnos de soneca para descansar depois de um longo dia de trabalho."
 
 #. STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT"
@@ -40219,7 +40159,7 @@ msgstr "Trabalho"
 
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NOTIFICATION_TOOLTIP"
-msgid "During Work shifts my Duplicants must perform the work tasks I have placed for them throughout the colony."
+msgid "During Work shifts my Duplicants must perform the work tasks I've placed for them throughout the colony."
 msgstr "Durante turnos de Trabalho meus Duplicantes devem realizar as tarefas de trabalho que eu coloquei para eles."
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON
@@ -40454,6 +40394,45 @@ msgctxt "STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT"
 msgid "This rocket needs a {0} to gather {1}"
 msgstr "Este foguete precisa de {0} para coletar {1}"
 
+#. STRINGS.UI.STARMAP.CONTAINER_REQUIRED
+msgctxt "STRINGS.UI.STARMAP.CONTAINER_REQUIRED"
+msgid "{0} required"
+msgstr "{0} necessário"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
+msgid "Destination not selected"
+msgstr "Destino não selecionado"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
+msgid "Destination selected"
+msgstr "Destino selecionado"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE
+#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BEDUNREACHABLE.NAME"
+#| msgid "Bed beyond reach"
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE"
+msgid "Destination beyond reach"
+msgstr "Destino além do alcance"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.NOTSELECTED"
+msgid "Select a destination from the starmap"
+msgstr "Selecione um destino do mapa estelar"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE
+#| msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.NODESTINATION"
+#| msgid "No destination selected"
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE"
+msgid "Viable destination selected, ready for launch"
+msgstr "Destino viável selecionado, pronto para decolagem"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.UNREACHABLE
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.UNREACHABLE"
+msgid "The selected destination is beyond rocket reach"
+msgstr "O destino selecionado está além do alcance do foguete"
+
 #. STRINGS.UI.STARMAP.DESTINATIONTITLE
 #, fuzzy
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONTITLE"
@@ -40463,12 +40442,44 @@ msgstr "Estado do Destino"
 #. STRINGS.UI.STARMAP.DISTANCE
 msgctxt "STRINGS.UI.STARMAP.DISTANCE"
 msgid "{0} km"
-msgstr ""
+msgstr "{0} km"
 
 #. STRINGS.UI.STARMAP.DISTANCE_OVERLAY
 msgctxt "STRINGS.UI.STARMAP.DISTANCE_OVERLAY"
 msgid "TOO FAR FOR THIS ROCKET"
 msgstr "LONGE DEMAIS PARA ESTE FOGUETE"
+
+#. STRINGS.UI.STARMAP.EMPTYTANK.NAME
+msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.NAME"
+msgid "Fuel tank not full"
+msgstr "Tanque de combustível não abastecido"
+
+#. STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP
+msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP"
+msgid "Fuel tank must be filled before launch"
+msgstr "Tanque de combustível precisa ser abastecido "
+
+#. STRINGS.UI.STARMAP.FULLTANK.NAME
+msgctxt "STRINGS.UI.STARMAP.FULLTANK.NAME"
+msgid "Fuel tank full"
+msgstr "Tanque de combustível abastecido"
+
+#. STRINGS.UI.STARMAP.FULLTANK.TOOLTIP
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HUNGRY.TOOLTIP"
+#| msgid "This Duplicant is ready for lunch"
+msgctxt "STRINGS.UI.STARMAP.FULLTANK.TOOLTIP"
+msgid "Tank is full, ready to launch"
+msgstr "Tanque está cheio, pronto para decolagem"
+
+#. STRINGS.UI.STARMAP.HASFOOD.NAME
+msgctxt "STRINGS.UI.STARMAP.HASFOOD.NAME"
+msgid "Food Loaded"
+msgstr "Comida Carregada"
+
+#. STRINGS.UI.STARMAP.HASFOOD.TOOLTIP
+msgctxt "STRINGS.UI.STARMAP.HASFOOD.TOOLTIP"
+msgid "Sufficient food stores have been loaded, ready for launch"
+msgstr "Reservas suficientes de comida foram carregadas, pronto para decolagem"
 
 #. STRINGS.UI.STARMAP.LAUNCH_MISSION
 msgctxt "STRINGS.UI.STARMAP.LAUNCH_MISSION"
@@ -40489,6 +40500,28 @@ msgstr "Astronauta"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT"
 msgid "Astronaut ready for liftoff"
 msgstr "Astronauta pronto para a decolagem"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED"
+msgid "Installed"
+msgstr "Instalado"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED_TOOLTIP
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HUNGRY.TOOLTIP"
+#| msgid "This Duplicant is ready for lunch"
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED_TOOLTIP"
+msgid "{0} installed, ready for launch"
+msgstr "{0} instalado, pronto para decolagem"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED"
+msgid "Required"
+msgstr "Requerido"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP"
+msgid "A {0} must be installed before launch"
+msgstr "{0} precisa ser instalado antes da decolagem"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.FUEL
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.FUEL"
@@ -40553,7 +40586,7 @@ msgstr "MAPA ESTELAR"
 #. STRINGS.UI.STARMAP.MODULE_MASS
 msgctxt "STRINGS.UI.STARMAP.MODULE_MASS"
 msgid "+ {0} t"
-msgstr ""
+msgstr "+ {0} t"
 
 #. STRINGS.UI.STARMAP.MODULE_STORAGE
 msgctxt "STRINGS.UI.STARMAP.MODULE_STORAGE"
@@ -40581,6 +40614,16 @@ msgstr ""
 msgctxt "STRINGS.UI.STARMAP.NO_ROCKETS_TITLE"
 msgid "NO ROCKETS"
 msgstr "NENHUM FOGUETE"
+
+#. STRINGS.UI.STARMAP.NOFOOD.NAME
+msgctxt "STRINGS.UI.STARMAP.NOFOOD.NAME"
+msgid "Insufficient Food"
+msgstr "Comida Insuficiente"
+
+#. STRINGS.UI.STARMAP.NOFOOD.TOOLTIP
+msgctxt "STRINGS.UI.STARMAP.NOFOOD.TOOLTIP"
+msgid "Rocket cannot launch without adequate food stores for passengers"
+msgstr "O foguete não pode decolar sem armazenagens adequadas para a comida dos passageiros"
 
 #. STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION
 msgctxt "STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION"
@@ -40650,6 +40693,28 @@ msgstr "Total"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.WEIGHTPENALTY"
 msgid "Weight Penalty"
 msgstr "Penalidade por Peso"
+
+#. STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS
+#| msgctxt "STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.CURRENTSTATE"
+#| msgid "Current State:"
+msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS"
+msgid "Current Rocket Mass: "
+msgstr "Massa Atual do Foguete: "
+
+#. STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASSPENALTY
+msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASSPENALTY"
+msgid "Current Weight Penalty: "
+msgstr "Penalidade por Peso Atual: "
+
+#. STRINGS.UI.STARMAP.ROCKETWEIGHT.MASS
+msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.MASS"
+msgid "Mass: "
+msgstr "Massa: "
+
+#. STRINGS.UI.STARMAP.ROCKETWEIGHT.MASSPENALTY
+msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.MASSPENALTY"
+msgid "Mass Penalty: "
+msgstr "Penalidade por Peso: "
 
 #. STRINGS.UI.STARMAP.STATUS
 msgctxt "STRINGS.UI.STARMAP.STATUS"
@@ -44856,6 +44921,101 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC"
+#~ msgid "A little boost of energy."
+#~ msgstr "Nada como um café pra dar energia."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT"
+#~ msgid ""
+#~ "Provides a delicious and stimulating refreshment.\n"
+#~ "\n"
+#~ "Increases Duplicant Morale."
+#~ msgstr ""
+#~ "Provê um delicioso e estimulante café.\n"
+#~ "\n"
+#~ "Aumenta a Moral dos Duplicantes."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.DESC"
+#~ msgid "A bridgelike overhead structure with a platform supporting equipment."
+#~ msgstr "Uma estrutura suspensa em forma de ponte com um equipamento de suporte de plataforma."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.EFFECT"
+#~ msgid "Allows Duplicants access to hard to reach places on launch vehicles."
+#~ msgstr "Permite os Duplicantes acessarem locais de difícil acesso em veículos de lançamento."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEROCKET.EFFECT"
+#~ msgid "A Kerosene powered rocket"
+#~ msgstr "Foguete à Querosene"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEROCKET.NAME"
+#~ msgid "<link=\"KEROSENEROCKET\">Kerosene Rocket</link>"
+#~ msgstr "<link=\"KEROSENEROCKET\">Foguete à Querosene</link>"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPLATFORM.EFFECT"
+#~ msgid "Core element of the rocket launch pad"
+#~ msgstr "Elemento principal de uma plataforma de lançamento de foguetes"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPLATFORM.NAME"
+#~ msgid "<link=\"LAUNCHPLATFORM\">Launch Platform</link>"
+#~ msgstr "<link=\"LAUNCHPLATFORM\">Plataforma de Lançamento</link>"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.EFFECT"
+#~ msgid "A solid fuel rocket booster"
+#~ msgstr "Um propulsor de foguetes à combustível sólido"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDBOOSTER.NAME"
+#~ msgid "<link=\"SOLIDBOOSTER\">Solid Booster</link>"
+#~ msgstr "<link=\"SOLIDBOOSTER\">Propulsor Sólido</link>"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMENGINE.NAME"
+#~ msgid "<link=\"STEAMENGINE\">Steam Engine</link>"
+#~ msgstr "<link=\"STEAMENGINE\">Motor à Vapor</link>"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.UMBILICALTOWER.EFFECT"
+#~ msgid "Core element of the rocket launch pad"
+#~ msgstr "Elemento principal de uma plataforma de lançamento de foguetes"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.UMBILICALTOWER.NAME"
+#~ msgid "<link=\"UMBILICALTOWER\">Umbilical Tower</link>"
+#~ msgstr "<link=\"UMBILICALTOWER\">Torre Umbilical</link>"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.ASTRONAUT.NAME"
+#~ msgid "Astronaut"
+#~ msgstr "Astronauta"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.ASTRONAUT.STATUS"
+#~ msgid "Astronauting"
+#~ msgstr "Astronautando"
+
+#, fuzzy
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.ASTRONAUT.TOOLTIP"
+#~ msgid "This Duplicant is getting real spaced out"
+#~ msgstr "Este Duplicante está realmente no mundo da lua"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.CEILING_HEIGHT.DESCRIPTION"
+#~ msgid "The ceiling must be at least {0} tiles above the floor"
+#~ msgstr "O teto precisa estar pelo menos {0} blocos acima do chão"
+
+#~ msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.DESCRIPTION"
+#~ msgid "Cannot contain basic Cots"
+#~ msgstr "Não pode conter Berços"
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP"
+#~ msgid "Sleeping in a bed will improve Morale for Duplicants if it is located within Barracks."
+#~ msgstr "Dormir em uma cama aumentará a Moral dos Duplicantes se ela estiver dentro de um Dormitório."
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.TOOLTIP"
+#~ msgid "Sleeping in a comfortable Bedroom will improve Morale for Duplicants"
+#~ msgstr "Dormir em uma Quarto confortável aumentará a Moral dos Duplicantes"
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.TOOLTIP"
+#~ msgid "Massage tables relieve more stress when in a proper room."
+#~ msgstr "Mesas de massagem aliviam mais estresse quando na sala adequada."
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.TOOLTIP"
+#~ msgid "Eating at a Mess Table will improve Morale for Duplicants if it is located within a Mess Hall."
+#~ msgstr "Comer numa Mesa de Jantar aumentará a Moral dos Duplicantes se ela estiver em um Refeitório."
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
 #~ msgid "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies."
@@ -52412,10 +52572,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.INTERRUPTEDSLEEP.NAME"
 #~ msgid "Interrupted Sleep"
 #~ msgstr "Sono Interrompido"
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BEDUNREACHABLE.NAME"
-#~ msgid "Bed beyond reach"
-#~ msgstr "Cama além do alcance"
 
 #~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BEDUNREACHABLE.NOTIFICATION_NAME"
 #~ msgid "Bed beyond reach"
