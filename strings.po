@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.6.2\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.6.4\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -3164,7 +3164,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.NAME"
 msgid "<link=\"BUNKERDOOR\">Bunker Door</link>"
-msgstr "<link=\"BUNKERDOOR\">Porta Reforçada</link>"
+msgstr "<link=\"BUNKERDOOR\">Escotilha Reforçada</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERTILE.DESC"
@@ -3753,8 +3753,6 @@ msgstr ""
 "Um elemento chave para a construção de salas na superfície do asteroide."
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME
-#| msgctxt "STRINGS.ELEMENTS.WATER.NAME"
-#| msgid "<link=\"WATER\">Water</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME"
 msgid "<link=\"EXTERIORWALL\">Wall</link>"
 msgstr "<link=\"EXTERIORWALL\">Parede</link>"
@@ -8678,7 +8676,7 @@ msgstr "Esta criatura comeu recentemente sua comida favorita."
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.NAME
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.NAME"
 msgid "Well Groomed"
-msgstr "Bem Escovado"
+msgstr "Bem Escovada"
 
 #. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.TOOLTIP
 msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.TOOLTIP"
@@ -9113,7 +9111,7 @@ msgstr ""
 #. STRINGS.CREATURES.MODIFIERS.RANCHED.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.RANCHED.NAME"
 msgid "Groomed"
-msgstr "Escovado"
+msgstr "Escovada"
 
 #. STRINGS.CREATURES.MODIFIERS.RANCHED.TOOLTIP
 msgctxt "STRINGS.CREATURES.MODIFIERS.RANCHED.TOOLTIP"
@@ -11581,7 +11579,7 @@ msgstr ""
 #. STRINGS.CREATURES.STATUSITEMS.GETTING_RANCHED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GETTING_RANCHED.NAME"
 msgid "Being Groomed"
-msgstr "Sendo Escovado"
+msgstr "Sendo Escovada"
 
 #. STRINGS.CREATURES.STATUSITEMS.GETTING_RANCHED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GETTING_RANCHED.TOOLTIP"
@@ -11852,6 +11850,18 @@ msgid ""
 msgstr ""
 "Condições confortáveis permitiram a planta produzir uma colheita melhor\n"
 "{Effects}"
+
+#. STRINGS.CREATURES.STATUSITEMS.OLD.NAME
+msgctxt "STRINGS.CREATURES.STATUSITEMS.OLD.NAME"
+msgid "Old"
+msgstr "Velha"
+
+#. STRINGS.CREATURES.STATUSITEMS.OLD.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.OLD.TOOLTIP"
+msgid "This critter is getting old and only has {TimeUntilDeath} left to live."
+msgstr ""
+"Esta criatura está envelhecendo e possui apenas {TimeUntilDeath} restante "
+"para viver."
 
 #. STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.NAME"
@@ -26741,6 +26751,11 @@ msgctxt "STRINGS.MISC.TAGS.COAL"
 msgid "Coal"
 msgstr "Carvão"
 
+#. STRINGS.MISC.TAGS.COMPOST_FORMAT
+msgctxt "STRINGS.MISC.TAGS.COMPOST_FORMAT"
+msgid "{Item}"
+msgstr ""
+
 #. STRINGS.MISC.TAGS.COMPOSTABLE
 msgctxt "STRINGS.MISC.TAGS.COMPOSTABLE"
 msgid "Compostable"
@@ -26891,9 +26906,12 @@ msgid "Manufactured Material"
 msgstr "Material Manufaturado"
 
 #. STRINGS.MISC.TAGS.MARKEDFORCOMPOST
+#, fuzzy
+#| msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.NAME"
+#| msgid "Marked For Compost"
 msgctxt "STRINGS.MISC.TAGS.MARKEDFORCOMPOST"
-msgid "Compost Edibles"
-msgstr "Compostável"
+msgid "Marked For Compost"
+msgstr "Marcado para Compostagem"
 
 #. STRINGS.MISC.TAGS.MASSAGE_TABLE
 msgctxt "STRINGS.MISC.TAGS.MASSAGE_TABLE"
@@ -27054,6 +27072,11 @@ msgstr "Instável"
 msgctxt "STRINGS.MISC.TAGS.WIRING"
 msgid "Wire Build-Delivery"
 msgstr "Entrega/Construção p/Cabos"
+
+#. STRINGS.MISC.TUTORIAL.DONT_SHOW_AGAIN
+msgctxt "STRINGS.MISC.TUTORIAL.DONT_SHOW_AGAIN"
+msgid "Don't Show Again"
+msgstr "Não Mostrar Novamente"
 
 #. STRINGS.NAMEGEN.COLONY.ADJECTIVE.ACIDIC
 msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.ACIDIC"
@@ -33023,7 +33046,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.6.2)"
+"- Traduzido por Chastomber :P (1.6.4)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -35752,8 +35775,8 @@ msgstr "<link=\"LOGIC\">Entradas Auto</link>: {0}"
 
 #. STRINGS.UI.LOGIC_PORTS.OUTPUT_PORTS
 msgctxt "STRINGS.UI.LOGIC_PORTS.OUTPUT_PORTS"
-msgid "<link=\"LOGIC\">Auto Inputs</link>: {0}"
-msgstr "<link=\"LOGIC\">Entradas Auto</link>: {0}"
+msgid "<link=\"LOGIC\">Auto Outputs</link>: {0}"
+msgstr "<link=\"LOGIC\">Saídas Auto</link>: {0}"
 
 #. STRINGS.UI.MESSAGES
 msgctxt "STRINGS.UI.MESSAGES"
@@ -40775,6 +40798,11 @@ msgstr ""
 "Duplicantes irão imediatamente entregar e ancorar o traje não equipado mais "
 "próximo"
 
+#. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIGURATION_REQUIRED
+msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.CONFIGURATION_REQUIRED"
+msgid "Configuration Required:"
+msgstr "Configuração Necessária:"
+
 #. STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.SUIT_SIDE_SCREEN.TITLE"
 msgid "Dock Inventory"
@@ -42560,6 +42588,10 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.MISC.TAGS.MARKEDFORCOMPOST"
+#~ msgid "Compost Edibles"
+#~ msgstr "Compostável"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.DESC"
 #~ msgid "Or you can eat them raw... if you really want to."
@@ -48441,11 +48473,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER.SUIT_REQUESTED.TOOLTIP"
 #~ msgid "Awaiting Exosuit Delivery"
 #~ msgstr "Aguardando Entrega de Exotraje"
-
-#~ msgctxt ""
-#~ "STRINGS.BUILDING.STATUSITEMS.SUIT_LOCKER_NEEDS_CONFIGURATION.TOOLTIP"
-#~ msgid "Configuration required"
-#~ msgstr "Configuração necessária"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SUITMARKERTRAVERSALANYTIME.TOOLTIP"
 #~ msgid ""
