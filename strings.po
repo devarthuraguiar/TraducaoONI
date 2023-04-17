@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.7.4\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.7.5\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -5550,11 +5550,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT"
 msgid ""
 "Plays music for Duplicants to dance to on their breaks.\n"
 "\n"
-"Increases Duplicant Quality of Life."
+"Increases Duplicant Morale."
 msgstr ""
 "Toca músicas para os Duplicantes dançarem durante os intervalos.\n"
 "\n"
-"Aumenta a Qualidade de Vida de um Duplicante."
+"Aumenta a Moral do Duplicante."
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME"
@@ -6801,11 +6801,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.EFFECT"
 msgid ""
 "Provides a gathering place for Duplicants during Leisure Time.\n"
 "\n"
-"Improves Duplicant Quality of Life."
+"Improves Duplicant Morale."
 msgstr ""
 "Provê um local de reuniões para os Duplicantes durante a Hora do Lazer.\n"
 "\n"
-"Aumenta a Qualidade de Vida de um Duplicante."
+"Aumenta a Moral do Duplicante."
 
 #. STRINGS.BUILDINGS.PREFABS.WATERCOOLER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.NAME"
@@ -12979,18 +12979,18 @@ msgstr "O quão bem as expectativas e aspirações deste Duplicante estão sendo
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
-msgid "Quality of Life"
-msgstr "Qualidade de Vida"
+msgid "Morale"
+msgstr "Moral"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC"
-msgid "Quality of Life Expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale Expectation"
+msgstr "Expectativa de Moral"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME"
-msgid "Quality of Life Expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale Expectation"
+msgstr "Expectativa de Moral"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC"
@@ -13411,18 +13411,24 @@ msgstr "Este Duplicante está tentando afogar suas emoções com comida devido a
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME"
-msgid "Relieve Self On Break"
-msgstr "Alivia-se no Intervalo"
+msgid "Off Duty: Use Toilet"
+msgstr "Intervalo: Usar Privada"
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS"
-msgid "Relieving self"
-msgstr "Aliviando-se"
+msgid "Off Duty: Going to use toilet"
+msgstr "Intervalo: Indo usar privada"
 
 #. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP"
-msgid "This Duplicant didn't find a toilet in time. Oops"
-msgstr "Este Duplicante não conseguiu achar um banheiro a tempo. Ops"
+msgid ""
+"This Duplicant is off duty and is using their personal time to go to the toilet\n"
+"\n"
+"Duplicants have to use the toilet at least once per day"
+msgstr ""
+"Este Duplicante está no intervalo e está usando seu tempo pessoal para ir ao banheiro\n"
+"\n"
+"Duplicantes precisam usar o banheiro pelo menos uma vez por dia"
 
 #. STRINGS.DUPLICANTS.CHORES.BUILD.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILD.NAME"
@@ -13889,6 +13895,21 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.FLIPCOMPOST.TOOLTIP"
 msgid "Composts need to be flipped in order for their contents to compost"
 msgstr "Compostáveis devem ser cobertos para seu conteúdo compostar"
 
+#. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.NAME"
+msgid "Sleeping on Floor"
+msgstr "Dormindo no Chão"
+
+#. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.STATUS"
+msgid "Sleeping on Floor"
+msgstr "Dormindo no Chão"
+
+#. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.TOOLTIP"
+msgid "Zzzzzz..."
+msgstr "Zzzzzz..."
+
 #. STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME"
 msgid "Generate Power"
@@ -14171,8 +14192,8 @@ msgstr "Traje está carregado no momento"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL"
-msgid "EdibleIsNotNull"
-msgstr "ComestívelNãoéNulo"
+msgid "Consumable Permission not allowed"
+msgstr "Consumo de Consumível Não Permitido"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EXCLUSIVELY_AVAILABLE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EXCLUSIVELY_AVAILABLE"
@@ -14183,6 +14204,11 @@ msgstr "Estrutura Já Está Ocupada"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_MINGLE_CELL"
 msgid "Nowhere to Mingle"
 msgstr "Sem lugar para Socializar"
+
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_PLACE_TO_STAND
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_PLACE_TO_STAND"
+msgid "Nowhere to stand"
+msgstr "Sem lugar para ficar em pé"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_ROLE_PERK
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_ROLE_PERK"
@@ -14634,6 +14660,21 @@ msgstr "Estravassando"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSACTINGOUT.TOOLTIP"
 msgid "This Duplicant is having a stress-induced tantrum"
 msgstr "Este Duplicante está tendo um chilique por estar muito estressado"
+
+#. STRINGS.DUPLICANTS.CHORES.STRESSHEAL.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.NAME"
+msgid "De-Stress"
+msgstr "Relaxar"
+
+#. STRINGS.DUPLICANTS.CHORES.STRESSHEAL.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.STATUS"
+msgid "De-Stressing"
+msgstr "Relaxando"
+
+#. STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP"
+msgid "This Duplicant really needs to unwind"
+msgstr "Este Duplicante realmente precisa se acalmar"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSIDLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSIDLE.NAME"
@@ -15941,11 +15982,11 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP"
 msgid ""
 "This Duplicant had a chance to cut loose!\n"
 "\n"
-"Leisure activities increase Duplicants' quality of life"
+"Leisure activities increase Duplicants' Morale"
 msgstr ""
-"Este Duplicante foi possuído pelo ritmo rangatanga!\n"
+"Este Duplicante foi possuído pelo ritmo ragatanga!\n"
 "\n"
-"Atividades de lazer aumentam a qualidade de vida de um Duplicante"
+"Atividades de lazer aumentam a Moral do Duplicante"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME"
@@ -16135,13 +16176,13 @@ msgstr "Refeição Excelente"
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP"
 msgid ""
-"The food this Duplicant last ate was Good\n"
+"The food this Duplicant last ate was Superb\n"
 "\n"
 "They thought it was really good!"
 msgstr ""
-"A última comida que este Duplicante comeu estava Boa\n"
+"A última comida que este Duplicante comeu estava Ótima\n"
 "\n"
-"Ele(a) achou que estava muito deliciosa!"
+"Ele(a) achou que estava muito boa!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.NAME"
@@ -16151,11 +16192,11 @@ msgstr "Refeição Divina"
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.TOOLTIP"
 msgid ""
-"The food this Duplicant last ate was Good\n"
+"The food this Duplicant last ate was Ambrosial\n"
 "\n"
 "They thought it was super tasty!"
 msgstr ""
-"A última comida que este Duplicante comeu estava Boa\n"
+"A última comida que este Duplicante comeu estava Divina\n"
 "\n"
 "Ele(a) achou que estava super deliciosa!"
 
@@ -16249,6 +16290,16 @@ msgstr ""
 "------------------\n"
 "Aplicar este efeito consumiu uma dose de Fertilizante de Micronutrientes."
 
+#. STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.NAME"
+msgid "Sleeping On Floor"
+msgstr "Dormindo No Chão"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FLOORSLEEP.TOOLTIP"
+msgid "This Duplicant is uncomfortably recovering stamina"
+msgstr "Este Duplicante está recuperando a energia desconfortávelmente"
+
 #. STRINGS.DUPLICANTS.MODIFIERS.FRESH_AND_CLEAN.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FRESH_AND_CLEAN.CAUSE"
 msgid "Obtained by taking a comfortably heated shower"
@@ -16284,6 +16335,16 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FUSSY.TOOLTIP"
 msgid "This Duplicant is hard to please"
 msgstr "Este Duplicante é difícil de agradar"
 
+#. STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.NAME"
+msgid "Chatted with Friends"
+msgstr "Falou com Amigos"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODCONVERSATION.TOOLTIP"
+msgid "This Duplicant had a pleasant interaction with a buddy"
+msgstr "Este Duplicante teve uma interação agradável com seu parceiro"
+
 #. STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.CAUSE"
 msgid "Obtained by eating a hearty home cooked meal"
@@ -16303,6 +16364,22 @@ msgstr "Comida Mágica"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.TOOLTIP"
 msgid "This Duplicant had a yummy home cooked meal and is totally stuffed"
 msgstr "Este Duplicante comeu uma refeição tão gostosa e agora está bem cheio"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.GREETING.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GREETING.NAME"
+msgid "Met a Friend"
+msgstr "Fez um Amigo"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.GREETING.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GREETING.TOOLTIP"
+msgid ""
+"This Duplicant saw a friend in the halls and had the chance to say \"hi\"\n"
+"\n"
+"It wasn't even awkward or anything!"
+msgstr ""
+"Este Duplicante viu um amigo pelos corredores e teve a oportunidade de dar um \"oi\"\n"
+"\n"
+"Não foi nem estranho ou desconfortável!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.HOLDINGBREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HOLDINGBREATH.NAME"
@@ -16570,6 +16647,16 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NOOXYGEN.TOOLTIP"
 msgid "There is no breathable air in this area"
 msgstr "Não existe gás respirável nessa área"
 
+#. STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.NAME"
+msgid "Passed Out On Floor"
+msgstr "Desmaiou No Chão"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.TOOLTIP"
+msgid "This Duplicant's stamina dwindled to nothing"
+msgstr "A energia deste Duplicante despencou para o nada"
+
 #. STRINGS.DUPLICANTS.MODIFIERS.PEACEFULSLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PEACEFULSLEEP.NAME"
 msgid "Well Rested"
@@ -16828,8 +16915,8 @@ msgstr "Este Duplicante foi recentemente submerso em líquido"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.NAME"
-msgid "Talked with Friends"
-msgstr "Falou com Amigos"
+msgid "Socialized"
+msgstr "Socializou"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.TOOLTIP"
@@ -16971,13 +17058,13 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
-msgid "Took a Break"
-msgstr "Teve um Intervalo"
+msgid "Off Duty"
+msgstr "Intervalo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "This Duplicant had a bit of time off from work to attend to personal matters"
+msgstr "Este Duplicante teve um pouco de tempo livre para resolver assuntos pessoais"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOXICENVIRONMENT.NAME"
@@ -17144,6 +17231,22 @@ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WETFEET.TOOLTIP"
 msgid "This Duplicant recently stepped in liquid"
 msgstr "Este Duplicante recentemente pisou em líquido"
 
+#. STRINGS.DUPLICANTS.MODIFIERS.WORKENCOURAGED.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WORKENCOURAGED.NAME"
+msgid "Appreciated"
+msgstr "Apreciado"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.WORKENCOURAGED.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WORKENCOURAGED.TOOLTIP"
+msgid ""
+"Someone saw how hard this Duplicant was working and gave them a compliment\n"
+"\n"
+"This Duplicant feels great about themselves"
+msgstr ""
+"Alguém viu o quão duro este Duplicante estava trabalhando e deu a ele um elogio\n"
+"\n"
+"Este Duplicante sente-se ótimo consigo mesmo"
+
 #. STRINGS.DUPLICANTS.MODIFIERS.WORKING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WORKING.NAME"
 msgid "Working"
@@ -17302,8 +17405,8 @@ msgstr "Expectativa de Barulho"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.BAD_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.BAD_MODIFIER"
-msgid "Lacking Quality of Life"
-msgstr "Faltando Qualidade de Vida"
+msgid "Low Morale"
+msgstr "Baixa Moral"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_MOD_NAME
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_MOD_NAME"
@@ -17312,18 +17415,18 @@ msgstr "Pedido do Nível de Trabalho"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.EXPECTATION_TOOLTIP"
-msgid "Duplicants love digging in the dirt as much as anyone, but sometimes they need a little more in their lives to inspire them to greater things. Failing to meet a Duplicant's Quality Of Life aspirations will cause <link=\"STRESS\">Stressed</link>."
-msgstr "Duplicantes amam cavar terra assim como qualquer um, mas as vezes eles necessitam de um pouco mais na vida para inspirá-los a fazer grandes coisas. Falhar em atingir as aspirações de Qualidade De Vida de um Duplicante causará <link=\"STRESS\">Estresse</link>."
+msgid "Duplicants love digging in the dirt as much as anyone, but sometimes they need a little more in their lives to inspire them to greater things. Failing to keep a Duplicant's Morale up will cause <link=\"STRESS\">Stressed</link>."
+msgstr "Duplicantes amam cavar terra assim como qualquer um, mas as vezes eles necessitam de um pouco mais na vida para inspirá-los a fazer grandes coisas. Falhar em manter a Moral dos Duplicantes em alta causará <link=\"STRESS\">Estresse</link>."
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.GOOD_MODIFIER
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.GOOD_MODIFIER"
-msgid "Abundant Quality of Life"
-msgstr "Qualidade de Vida Abundante"
+msgid "High Morale"
+msgstr "Moral Alta"
 
 #. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NAME
 msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NAME"
-msgid "Quality Of Life Expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale Expectation"
+msgstr "Expectativa de Moral"
 
 #. STRINGS.DUPLICANTS.OPINIONS.DARKNESS
 msgctxt "STRINGS.DUPLICANTS.OPINIONS.DARKNESS"
@@ -18276,15 +18379,21 @@ msgstr ""
 "------------------\n"
 "Duplicantes contraem doenças quando seu sistema imune chega a zero"
 
-#. STRINGS.DUPLICANTS.STATS.MORALE.NAME
-msgctxt "STRINGS.DUPLICANTS.STATS.MORALE.NAME"
+#. STRINGS.DUPLICANTS.STATS.QUALITYOFLIFE.NAME
+msgctxt "STRINGS.DUPLICANTS.STATS.QUALITYOFLIFE.NAME"
 msgid "<DO NOT TRANSLATE>"
 msgstr ""
 
-#. STRINGS.DUPLICANTS.STATS.MORALE.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.STATS.MORALE.TOOLTIP"
+#. STRINGS.DUPLICANTS.STATS.QUALITYOFLIFE.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATS.QUALITYOFLIFE.TOOLTIP"
 msgid ""
+"Morale\n"
+"------------------\n"
+"Duplicants' effectiveness improves in higher Morale ratings and decreases in low ratings"
 msgstr ""
+"Moral\n"
+"------------------\n"
+"Efetividade de um Duplicante aumenta em níveis maiores de Moral e diminui em baixos níveis"
 
 #. STRINGS.DUPLICANTS.STATS.SKIN_DURABILITY.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.SKIN_DURABILITY.NAME"
@@ -19294,8 +19403,8 @@ msgstr "Este Duplicante acha a falta de Decor nesta área deprimente"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.NAME"
-msgid "Poor Quality of Life"
-msgstr "Pobre Qualidade de Vida"
+msgid "Low Morale"
+msgstr "Baixa Moral"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP"
@@ -29470,8 +29579,8 @@ msgstr "Duplicantes doentes designados a camas hospitalares dentro de uma Ala M�
 
 #. STRINGS.ROOMS.TYPES.LATRINE.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.EFFECT"
-msgid "- Stress relief bonus"
-msgstr "- Bônus de alívio de estresse"
+msgid "- Quality of Life bonus"
+msgstr "- Bônus de Qualidade de Vida"
 
 #. STRINGS.ROOMS.TYPES.LATRINE.NAME
 msgctxt "STRINGS.ROOMS.TYPES.LATRINE.NAME"
@@ -29498,10 +29607,25 @@ msgctxt "STRINGS.ROOMS.TYPES.MACHINE_SHOP.TOOLTIP"
 msgid "Engineers working in a Machine Shop can maintain buildings and increase the speed with which they produce items."
 msgstr "Engenheiros que trabalham em uma Oficina Mecânica podem cuidar de estruturas e aumentar a velocidade ao qual elas produzem itens."
 
-#. STRINGS.ROOMS.TYPES.MESSHALL.EFFECT
-msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
+#. STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT
+msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.EFFECT"
 msgid "- Stress relief bonus"
 msgstr "- Bônus de alívio de estresse"
+
+#. STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.NAME
+msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.NAME"
+msgid "Massage Clinic"
+msgstr "Clínica de Massagem"
+
+#. STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.TOOLTIP
+msgctxt "STRINGS.ROOMS.TYPES.MASSAGE_CLINIC.TOOLTIP"
+msgid "Massage tables relieve more stress when in a proper room."
+msgstr "Mesas de massagem aliviam mais estresse quando na sala adequada."
+
+#. STRINGS.ROOMS.TYPES.MESSHALL.EFFECT
+msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
+msgid "- Quality of Life bonus"
+msgstr "- Bônus de Qualidade de Vida"
 
 #. STRINGS.ROOMS.TYPES.MESSHALL.NAME
 msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.NAME"
@@ -29574,9 +29698,11 @@ msgid "Duplicants recover even more stamina while sleeping in a Private Bedroom 
 msgstr "Duplicantes recuperarão ainda mais energia se dormirem em um Quarto Privado do que em um Dormitório."
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.NAME"
+#| msgid "Quality of Life"
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT"
-msgid "- Stress relief bonus"
-msgstr "- Bônus de alívio de estresse"
+msgid "- Quality of Life improvement"
+msgstr "- Aumento na Qualidade de Vida"
 
 #. STRINGS.ROOMS.TYPES.REC_ROOM.NAME
 msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.NAME"
@@ -32311,7 +32437,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.7.4)"
+"- Traduzido por Chastomber :P (1.7.5)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33793,14 +33919,19 @@ msgid ""
 "\n"
 "This is usually caused by outdated audio drivers.\n"
 "\n"
-"Please visit your audio device manufacturer's website to download the latest drivers and please ensure that your audio device's sample rate is set to at most 192khz."
+"Please visit your audio device manufacturer's website to download the latest drivers."
 msgstr ""
 "Um problema ocorreu ao inicializar seu dispositivo de áudio.\n"
 "Desculpe por isso!\n"
 "\n"
 "Isso geralmente ocorreu devido a drivers de áudio desatualizados.\n"
 "\n"
-"Por favor, visite o site do fabricante da sua placa de áudio para baixar os drivers mais atualizados e certifique-se de que taxa de bits de áudio (audio device sample rate) esteja definido para no máximo 192khz."
+"Por favor, visite o site do fabricante da sua placa de áudio para baixar os drivers mais atualizados."
+
+#. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.AUDIO_DRIVERS_MORE_INFO
+msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.AUDIO_DRIVERS_MORE_INFO"
+msgid "More Info"
+msgstr "Mais Info."
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.DUPLICATE_KEY_BINDINGS
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.DUPLICATE_KEY_BINDINGS"
@@ -37290,8 +37421,8 @@ msgstr "Nível 0"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER0.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER0.NAME"
-msgid "Quality Of Life expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale expectation"
+msgstr "Expectativa de moral"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.DESCRIPTION"
@@ -37299,9 +37430,11 @@ msgid "Tier 1"
 msgstr "Nível 1"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
+#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.NAME"
-msgid "Quality Of Life expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale expectation"
+msgstr "Expectativa de moral"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.DESCRIPTION"
@@ -37309,9 +37442,11 @@ msgid "Tier 2"
 msgstr "Nível 2"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
+#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.NAME"
-msgid "Quality Of Life expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale expectation"
+msgstr "Expectativa de moral"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.DESCRIPTION"
@@ -37319,9 +37454,11 @@ msgid "Tier 3"
 msgstr "Nível 3"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
+#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.NAME"
-msgid "Quality Of Life expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale expectation"
+msgstr "Expectativa de moral"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.DESCRIPTION"
@@ -37329,9 +37466,11 @@ msgid "Tier 4"
 msgstr "Nível 4"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
+#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.NAME"
-msgid "Quality Of Life expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale expectation"
+msgstr "Expectativa de moral"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.DESCRIPTION"
@@ -37339,9 +37478,11 @@ msgid "Tier 5"
 msgstr "Nível 5"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
+#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.NAME"
-msgid "Quality Of Life expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale expectation"
+msgstr "Expectativa de moral"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.DESCRIPTION"
@@ -37349,9 +37490,11 @@ msgid "Tier 6"
 msgstr "Nível 6"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
+#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.NAME"
-msgid "Quality Of Life expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale expectation"
+msgstr "Expectativa de moral"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.DESCRIPTION"
@@ -37359,9 +37502,11 @@ msgid "Tier 7"
 msgstr "Nível 7"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
+#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME"
-msgid "Quality Of Life expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale expectation"
+msgstr "Expectativa de moral"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.DESCRIPTION"
@@ -37369,9 +37514,11 @@ msgid "Tier 8"
 msgstr "Nível 5"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
+#| msgid "Decor Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.NAME"
-msgid "Quality Of Life expectation"
-msgstr "Expectativa de Qualidade de Vida"
+msgid "Morale expectation"
+msgstr "Expectativa de moral"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.TITLE
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.TITLE"
@@ -38014,8 +38161,8 @@ msgstr "Trabalho"
 
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION"
-msgid "Hygiene Time"
-msgstr "Hora da Higiene"
+msgid "During bathtime blocks my Duplicants will take care of their hygienic needs, such as going to the bathroom, using the shower or washing their hands."
+msgstr "Durante os blocos de banho, meus Duplicantes irão cuidar de suas necessidades higiênicas, como ir ao banheiro, tomar banho ou lavar as mãos."
 
 #. STRINGS.UI.SCHEDULEGROUPS.HYGENE.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.NAME"
@@ -38024,35 +38171,55 @@ msgstr "Banho"
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
-msgid "Recreation Time"
-msgstr "Hora da Recreação"
+msgid ""
+"When my Duplicants are off duty they may do as they please.\n"
+"\n"
+"This may include personal matters like bathroom visits or snacking, or they may choose to engage in leisure activities like socializing with friends.\n"
+"\n"
+"Off Duty time increases Duplicant Morale."
+msgstr ""
+"Quando meus Duplicantes estão no intervalo eles podem fazer o que eles quiserem.\n"
+"\n"
+"Isto inclui assuntos pessoais como visitas ao banheiro ou lanches, ou então eles podem participar de atividades de lazer como socializar com amigos.\n"
+"\n"
+"Tempo de Intervalo aumenta a Moral dos Duplicantes."
 
 #. STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME"
-msgid "Leisure"
-msgstr "Lazer"
+msgid "Off Duty"
+msgstr "Intervalo"
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
-msgid "Sleep Time"
-msgstr "Hora de Dormir"
+msgid ""
+"My Duplicants use bedtime blocks to rest up after a hard day's work.\n"
+"\n"
+"Scheduling too few bedtime blocks may prevent my Duplicants from regaining enough Stamina to make it through the next day."
+msgstr ""
+"Meus Duplicantes usam blocos de soneca para descansar após uma longo dia de trabalho.\n"
+"\n"
+"Agendar poucos blocos de soneca pode prevenir meus Duplicantes de recuperar Energia suficiente para durar até o próximo dia."
 
 #. STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_EVENING"
-#| msgid "Break time!"
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME"
 msgid "Bedtime"
-msgstr "Dormir"
+msgstr "Soneca"
 
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION"
-msgid "Work Time"
-msgstr "Hora do Trabalho"
+msgid ""
+"When on duty my Duplicants must work and perform the tasks I have set out for them.\n"
+"\n"
+"It's important when scheduling to maintain a good work-life balance for my Duplicants to maintain their health and prevent Morale loss."
+msgstr ""
+"Enquanto estiverem em trabalho meus Duplicantes devem trabalhar e realizar as tarefas que eu coloquei para eles.\n"
+"\n"
+"É importante lembrar enquanto agendar de manter um equilíbrio entre trabalho e vida para manter eles saudáveis e prevenir perda de Moral."
 
 #. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME"
-msgid "Work Shift"
-msgstr "Trabalho"
+msgid "On Duty"
+msgstr "Em Trabalho"
 
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP"
@@ -41629,19 +41796,19 @@ msgstr "Nível de Líquido"
 
 #. STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS"
-msgid "Quality Of Life"
-msgstr "Qualidade de Vida"
+msgid "Morale"
+msgstr "Moral"
 
 #. STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS_TOOLTIP
 msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS_TOOLTIP"
 msgid ""
-"This Duplicant needs a Quality of Life rated at {0}.\n"
+"This Duplicant needs a Morale rating of {0}.\n"
 "\n"
-"Current Quality of Life:"
+"Current Morale:"
 msgstr ""
-"Este Duplicante necessita de Qualidade de Vida avaliada como {0}.\n"
+"Este Duplicante necessita de Moral avaliada em {0}.\n"
 "\n"
-"Qualidade de Vida Atual:"
+"Moral Atual:"
 
 #. STRINGS.UI.VITALSSCREEN.STRESS
 msgctxt "STRINGS.UI.VITALSSCREEN.STRESS"
@@ -42227,6 +42394,122 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.DESC"
+#~ msgid "Quality of Life Expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME"
+#~ msgid "Quality of Life Expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME"
+#~ msgid "Relieve Self On Break"
+#~ msgstr "Alivia-se no Intervalo"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS"
+#~ msgid "Relieving self"
+#~ msgstr "Aliviando-se"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP"
+#~ msgid "This Duplicant didn't find a toilet in time. Oops"
+#~ msgstr "Este Duplicante não conseguiu achar um banheiro a tempo. Ops"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL"
+#~ msgid "EdibleIsNotNull"
+#~ msgstr "ComestívelNãoéNulo"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
+#~ msgid "Took a Break"
+#~ msgstr "Teve um Intervalo"
+
+#~ msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.BAD_MODIFIER"
+#~ msgid "Lacking Quality of Life"
+#~ msgstr "Faltando Qualidade de Vida"
+
+#~ msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.GOOD_MODIFIER"
+#~ msgid "Abundant Quality of Life"
+#~ msgstr "Qualidade de Vida Abundante"
+
+#~ msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NAME"
+#~ msgid "Quality Of Life Expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.NAME"
+#~ msgid "Poor Quality of Life"
+#~ msgstr "Pobre Qualidade de Vida"
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.MESSHALL.EFFECT"
+#~ msgid "- Stress relief bonus"
+#~ msgstr "- Bônus de alívio de estresse"
+
+#~ msgctxt "STRINGS.ROOMS.TYPES.REC_ROOM.EFFECT"
+#~ msgid "- Stress relief bonus"
+#~ msgstr "- Bônus de alívio de estresse"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER0.NAME"
+#~ msgid "Quality Of Life expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.NAME"
+#~ msgid "Quality Of Life expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.NAME"
+#~ msgid "Quality Of Life expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.NAME"
+#~ msgid "Quality Of Life expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.NAME"
+#~ msgid "Quality Of Life expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.NAME"
+#~ msgid "Quality Of Life expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.NAME"
+#~ msgid "Quality Of Life expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME"
+#~ msgid "Quality Of Life expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.NAME"
+#~ msgid "Quality Of Life expectation"
+#~ msgstr "Expectativa de Qualidade de Vida"
+
+#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION"
+#~ msgid "Hygiene Time"
+#~ msgstr "Hora da Higiene"
+
+#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
+#~ msgid "Recreation Time"
+#~ msgstr "Hora da Recreação"
+
+#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME"
+#~ msgid "Leisure"
+#~ msgstr "Lazer"
+
+#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
+#~ msgid "Sleep Time"
+#~ msgstr "Hora de Dormir"
+
+#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION"
+#~ msgid "Work Time"
+#~ msgstr "Hora do Trabalho"
+
+#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME"
+#~ msgid "Work Shift"
+#~ msgstr "Trabalho"
+
+#~ msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS"
+#~ msgid "Quality Of Life"
+#~ msgstr "Qualidade de Vida"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
 #~ msgid "You'd be surprised how much research went into making this wall."
@@ -43460,10 +43743,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.WILDNESSDELTA.DESC"
 #~ msgid "Wild creatures burn less calories."
 #~ msgstr "Criaturas selvagens gastam menos calorias."
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STARVING.TOOLTIP"
-#~ msgid "This Duplicant needs food!"
-#~ msgstr "Este Duplicante precisa de comida!"
 
 #~ msgctxt "STRINGS.MISC.STATUSITEMS.PRIORITIZED.NAME"
 #~ msgid "High Urgency"
@@ -45740,10 +46019,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Utilities"
 #~ msgstr "Utilitários"
 
-#~ msgctxt "STRINGS.UI.DETAILTABS.POSSESSIONS.EQUIPMENT_TOOLTIP"
-#~ msgid "This Duplicant has been equipped with a {0}"
-#~ msgstr "Este Duplicante foi equipado com {0}"
-
 #~ msgctxt "STRINGS.UI.DETAILTABS.POSSESSIONS.GROUPNAME_EQUIPMENT"
 #~ msgid "HELD ITEMS"
 #~ msgstr "ITENS EM MÃOS"
@@ -46506,10 +46781,6 @@ msgstr "Espalhando areia..."
 #~ msgid "High Decor"
 #~ msgstr "Alto Decor"
 
-#~ msgctxt "STRINGS.UI.OVERLAYS.DECOR.LOWDECOR"
-#~ msgid "Low Decor"
-#~ msgstr "Baixo Decor"
-
 #~ msgctxt "STRINGS.UI.PRIORITYSCREEN.BASIC"
 #~ msgid ""
 #~ "<b>Priority {0}</b>\n"
@@ -46733,10 +47004,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_AWAKE"
 #~ msgid "Is Not Awake"
 #~ msgstr "Não Está Acordado"
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_CONSUMPTION_PERMITTED"
-#~ msgid "Consumption Not Allowed"
-#~ msgstr "Consumo Não Permitido"
 
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_FETCH_TARGET_AVAILABLE"
 #~ msgid "Deliverable Not Available"
