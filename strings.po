@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.7\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.7.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -2724,7 +2724,7 @@ msgstr "Destiladores de alga convertem limo causador de doenças em alga para pr
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.EFFECT"
-msgid "Refines <link=\"SLIMEMOLD\">Slime</link>into <link=\"ALGAE\">Algae</link>."
+msgid "Refines <link=\"SLIMEMOLD\">Slime</link> into <link=\"ALGAE\">Algae</link>."
 msgstr "Refina <link=\"SLIMEMOLD\">Limo</link> em <link=\"ALGAE\">Alga</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ALGAEDISTILLERY.NAME
@@ -2790,8 +2790,6 @@ msgid "Temp Crisis III GOTY Edition"
 msgstr "Crisis III Edição GOTY (Temp)"
 
 #. STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME
-#| msgctxt "STRINGS.ELEMENTS.SANDCEMENT.NAME"
-#| msgid "<link=\"SANDCEMENT\">Sand Cement</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME"
 msgid "<link=\"ARCADEMACHINE\">Arcade Cabinet</link>"
 msgstr "<link=\"ARCADEMACHINE\">Fliperama</link>"
@@ -3455,7 +3453,6 @@ msgid "<link=\"EXTERIORWALL\">Wallpaper</link>"
 msgstr "<link=\"EXTERIORWALL\">Papel de Parede</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC"
 msgid ""
 msgstr ""
@@ -5519,6 +5516,23 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME"
 msgid "<link=\"PETROLEUMGENERATOR\">Petroleum Generator</link>"
 msgstr "<link=\"PETROLEUMGENERATOR\">Gerador à Petróleo</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.PHONOBOX.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.DESC"
+msgid "Duplicants can come here to jam to some sweet tunes."
+msgstr "Duplicantes vem aqui para escutar umas músicas maneiras."
+
+#. STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT"
+msgid "A phonobox music player."
+msgstr "Um fonógrafo tocador de músicas."
+
+#. STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.RATIONBOX.NAME"
+#| msgid "<link=\"RATIONBOX\">Ration Box</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME"
+msgid "<link=\"PHONOBOX\">Phonobox</link>"
+msgstr "<link=\"PHONOBOX\">Fonógrafo</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.DESC"
 msgid "Domestically grown seeds mature more quickly than wild plants."
@@ -6975,7 +6989,7 @@ msgid ""
 "\n"
 "If you're committed to this then I can't stop you, but I won't be able to continue working at this facility.</indent>"
 msgstr ""
-"<indent=5%>Eu estou lhe dizendo que isso está me dando um mal pressentimento.\n"
+"<indent=5%>Eu estou lhe dizendo que isto está me dando um mal pressentimento.\n"
 "\n"
 "Se você estiver dedicada à isso então eu não posso te parar, mas eu não vou ter como continuar trabalhando neste instituto.</indent>"
 
@@ -6988,7 +7002,7 @@ msgid ""
 msgstr ""
 "<alpha=#AA><indent=10%><size=10><smallcaps>De: <b>[EDITADO]</b>\n"
 "Para: <b>[EDITADO]</b></smallcaps></size>\n"
-"Jodi, você assinou a implantação do chip craniano, esse é realmente onde é o seu limite? Seria uma medida de segurança inestimável.</indent></color>"
+"Jodi, você assinou a implantação do chip craniano, e é aqui que você quer ditar o seu limite? Seria uma medida de segurança inestimável.</indent></color>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER4"
@@ -7011,7 +7025,7 @@ msgid ""
 msgstr ""
 "<alpha=#AA><indent=20%><size=10><smallcaps>De: <b>[EDITADO]</b>\n"
 "Para: <b>[EDITADO]</b></smallcaps></size>\n"
-"Doutor,\n"
+"Doutora,\n"
 "O mais novo projeto da Engenharia foi concebido sobre a minha supervisão. Por favor, dê a eles qualquer material que for necessário para continuar com a pesquisa.</indent></color>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER6
@@ -7076,7 +7090,7 @@ msgid ""
 "\n"
 "</indent>"
 msgstr ""
-"<indent=5%>Doutor,\n"
+"<indent=5%>Doutora,\n"
 "\n"
 "Se existir espaço disponível depois do conhecimento científico e de sobrevivência serem enviados, eu verei o que eu posso fazer.\n"
 "\n"
@@ -7125,11 +7139,6 @@ msgid "Atmosphere"
 msgstr "Atmosfera"
 
 #. STRINGS.CODEX.ATOMICONRECRUITMENT.BODY.CONTAINER1
-#| msgctxt "STRINGS.CODEX.MYPENS.BODY.CONTAINER1"
-#| msgid ""
-#| "<size=10><smallcaps><b>Subject: MY PENS</b>\n"
-#| "To: <b>ALL</b>\n"
-#| "From: <b>[REDACTED]</b></color></smallcaps></size>"
 msgctxt "STRINGS.CODEX.ATOMICONRECRUITMENT.BODY.CONTAINER1"
 msgid ""
 "<size=10><smallcaps><b>Subject: Results from Atomicon</b>\n"
@@ -7657,6 +7666,97 @@ msgstr "Facilidade de escavar"
 msgctxt "STRINGS.CODEX.ELEMENTHARDNESS.TITLE"
 msgid "<link=\"HARDNESS\">Hardness</link>"
 msgstr "<link=\"HARDNESS\">Dureza</link>"
+
+#. STRINGS.CODEX.EMPLOYEEPROCESSING.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.EMPLOYEEPROCESSING.BODY.CONTAINER1"
+msgid ""
+"[LOG BEGINS]\n"
+"\n"
+"Technician: Thank-you for the fingerprints, doctor. We just need a quick voice sample, then you can be on your way.\n"
+"\n"
+"Dr. McClintock: Wow Jackie, your security's no joke.\n"
+"\n"
+"Director: Please address me as \"Director\" while on Facility grounds.\n"
+"\n"
+"Dr. McClintock: ...Right.\n"
+"\n"
+"(clicking)\n"
+"\n"
+"Technician: This should only take a moment. Speak clearly and the system will derive a vocal signature for you.\n"
+"\n"
+"Technician: When you're ready.\n"
+"\n"
+"(throat clearing)\n"
+"\n"
+"Dr. McClintock: Security code B195, Dr. Jodi McClintock. Gravitas Facility Bioengineering Department.\n"
+"\n"
+"(pause)\n"
+"\n"
+"Technician: Great.\n"
+"\n"
+"Dr. McClintock: What was that light just now?\n"
+"\n"
+"Director: A basic security scan. No need for concern.\n"
+"\n"
+"(machine printing)\n"
+"\n"
+"Technician: Here's your ID. You should have access to all doors in the facility now, Dr. McClintock.\n"
+"\n"
+"Dr. McClintock: Thank-you.\n"
+"\n"
+"Director: Come along, doctor.\n"
+"\n"
+"[LOG ENDS]"
+msgstr ""
+"[INÍCIO DO REGISTRO]\n"
+"\n"
+"Técnico: Obrigado pelas digitais, doutora. Nós também precisamos de uma pequena amostra de voz, e então você poderá seguir.\n"
+"\n"
+"Dra. McClintock: Uau Jaque, sua segurança não brinca em serviço.\n"
+"\n"
+"Diretora: Por favor me chame de \"Diretora\" enquanto estivermos no Instituto.\n"
+"\n"
+"Dra. McClintock: ...Certo.\n"
+"\n"
+"(clicando)\n"
+"\n"
+"Técnico: Isto só vai levar um momento. Fale claramente e o sistema criará uma assinatura vocal para você.\n"
+"\n"
+"Técnico: Ao seu comando.\n"
+"\n"
+"(limpando a garganta)\n"
+"\n"
+"Dra. McClintock: Código de Segurança B195, Dra. Jodi McClintock. Departamento de Bioengenharia do Instituto Gravitas.\n"
+"\n"
+"(pausa)\n"
+"\n"
+"Técnico: Ótimo.\n"
+"\n"
+"Dra. McClintock: Pra que foi essa luz agora?\n"
+"\n"
+"Diretora: Um escaneamento básico de segurança. Nada demais.\n"
+"\n"
+"(máquina imprimindo)\n"
+"\n"
+"Técnico: Aqui está sua identificação. Você deve ter acesso a todas as portas do instituto, Dr. McClintock.\n"
+"\n"
+"Dra. McClintock: Obrigado.\n"
+"\n"
+"Diretora: Siga me, doutora.\n"
+"\n"
+"[FIM DO REGISTRO]"
+
+#. STRINGS.CODEX.EMPLOYEEPROCESSING.SUBTITLE
+msgctxt "STRINGS.CODEX.EMPLOYEEPROCESSING.SUBTITLE"
+msgid "ENCRYPTION LEVEL: ONE"
+msgstr "NÍVEL DE ENCRIPTAÇÃO: UM"
+
+#. STRINGS.CODEX.EMPLOYEEPROCESSING.TITLE
+#| msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON"
+#| msgid "Complete Neural Process"
+msgctxt "STRINGS.CODEX.EMPLOYEEPROCESSING.TITLE"
+msgid "Employee Processing"
+msgstr "Cadastramento de Funcionário"
 
 #. STRINGS.CODEX.EVACUATION.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.EVACUATION.BODY.CONTAINER1"
@@ -8312,6 +8412,54 @@ msgctxt "STRINGS.CODEX.NEGA.TITLE"
 msgid "Abyss Bug"
 msgstr "Vagalume Abissal"
 
+#. STRINGS.CODEX.NEWEMPLOYEE.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.NEWEMPLOYEE.BODY.CONTAINER1"
+msgid ""
+"<size=10><smallcaps><b>Subject: Welcome to our New Employee</b>\n"
+"To: <b>[REDACTED]</b>\n"
+"From: <b>[REDACTED]</b></color></smallcaps></size>"
+msgstr ""
+"<size=10><smallcaps><b>Assunto: Boas-vindas ao nosso Novo Funcionário</b>\n"
+"Para: <b>[EDITADO]</b>\n"
+"De: <b>[EDITADO]</b></color></smallcaps></size>"
+
+#. STRINGS.CODEX.NEWEMPLOYEE.BODY.CONTAINER2
+msgctxt "STRINGS.CODEX.NEWEMPLOYEE.BODY.CONTAINER2"
+msgid ""
+"<indent=5%>Attention Gravitas Facility personnel;\n"
+"\n"
+"Please welcome our newest staff member, Jodi McClintock, PhD.\n"
+"\n"
+"Dr. McClintock will be leading our upcoming genetics project and has been installed in our bioengineering department.\n"
+"\n"
+"Be sure to offer her our warmest welcome.</indent>\n"
+"\n"
+"[REDACTED]\n"
+"Director\n"
+"The Gravitas Facility"
+msgstr ""
+"<indent=5%>Atenção Empregados do Instituto Gravitas;\n"
+"\n"
+"Por favor, deem as boas vindas à nossa mais nova funcionária, Jodi McClintock, PhD.\n"
+"\n"
+"Dra. McClintock estará liderando nossos novos projetos de genética e ela estará no nosso departamento de bioengenharia.\n"
+"\n"
+"Por favor, certifique-se de dar a ela a nossa calorosa boas-vindas.</indent>\n"
+"\n"
+"[EDITADO]\n"
+"Diretora\n"
+"O Instituto Gravitas"
+
+#. STRINGS.CODEX.NEWEMPLOYEE.SUBTITLE
+msgctxt "STRINGS.CODEX.NEWEMPLOYEE.SUBTITLE"
+msgid "ENCRYPTION LEVEL: NONE"
+msgstr "NÍVEL DE ENCRIPTAÇÃO: NENHUM"
+
+#. STRINGS.CODEX.NEWEMPLOYEE.TITLE
+msgctxt "STRINGS.CODEX.NEWEMPLOYEE.TITLE"
+msgid "Welcome, New Employee"
+msgstr "Bem vindo, Nova Funcionária"
+
 #. STRINGS.CODEX.NEWSECURITY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.NEWSECURITY.BODY.CONTAINER1"
 msgid ""
@@ -8554,6 +8702,41 @@ msgctxt "STRINGS.CODEX.PLACID.TITLE"
 msgid "Azure Bug"
 msgstr "Vagalume Azul"
 
+#. STRINGS.CODEX.POLITEREQUEST.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.POLITEREQUEST.BODY.CONTAINER1"
+msgid ""
+"<smallcaps><b>Polite Request</b>\n"
+"From: <b>Admin</b> <alpha=#AA><admin@gravitas.nova></color>\n"
+"To: <b>All</b></smallcaps>\n"
+"------------------\n"
+"\n"
+"<indent=5%>To whoever is entering [REDACTED]'s office to move his science fair trophies one inch to the left, please desist as he finds it quite unnerving.\n"
+"\n"
+"-Admin\n"
+"The Gravitas Facility</indent>"
+msgstr ""
+"<smallcaps><b>Pedido Educado</b>\n"
+"De: <b>Admin</b> <alpha=#AA><admin@gravitas.nova></color>\n"
+"Para: <b>Todos</b></smallcaps>\n"
+"------------------\n"
+"\n"
+"<indent=5%>Para quem estiver entrando no escritório do [EDITADO] para mover os troféus de feira de ciências um polegar para esquerda, por favor desista porque ele acha isso um pouco irritante.\n"
+"\n"
+"-Administração\n"
+"O Instituto Gravitas</indent>"
+
+#. STRINGS.CODEX.POLITEREQUEST.SUBTITLE
+msgctxt "STRINGS.CODEX.POLITEREQUEST.SUBTITLE"
+msgid "ENCRYPTION LEVEL: NONE"
+msgstr "NÍVEL DE ENCRIPTAÇÃO: NENHUM"
+
+#. STRINGS.CODEX.POLITEREQUEST.TITLE
+#| msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_MOD_NAME"
+#| msgid "Job Tier Request"
+msgctxt "STRINGS.CODEX.POLITEREQUEST.TITLE"
+msgid "Polite Request"
+msgstr "Pedido Educado"
+
 #. STRINGS.CODEX.POWER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.POWER.BODY.CONTAINER1"
 msgid "Description of power, energy, watts, generators, consumers, etc."
@@ -8568,6 +8751,52 @@ msgstr "Energia elétrica"
 msgctxt "STRINGS.CODEX.POWER.TITLE"
 msgid "Power"
 msgstr "Energia"
+
+#. STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER1"
+msgid ""
+"<size=10><smallcaps><b>Subject: Preliminary Calculations</b>\n"
+"To: <b>[REDACTED]</b>\n"
+"From: <b>[REDACTED]</b></color></smallcaps></size>"
+msgstr ""
+"<size=10><smallcaps><b>Assunto: Cálculos Preliminares</b>\n"
+"Para: <b>[EDITADO]</b>\n"
+"De: <b>[EDITADO]</b></color></smallcaps></size>"
+
+#. STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2
+msgctxt "STRINGS.CODEX.PRELIMINARYCALCULATIONS.BODY.CONTAINER2"
+msgid ""
+"<indent=5%>Director,\n"
+"\n"
+"Even with dramatic optimization we can't fit the massive volume of resources needed for a colony seed onboard, even when calculating for a small interplanetary travel duration.\n"
+"\n"
+"Some serious changes are gonna have to be made for this to work.</indent>\n"
+"\n"
+"XOXO,\n"
+"[REDACTED]\n"
+"Information and Statistics Department\n"
+"The Gravitas Facility"
+msgstr ""
+"<indent=5%>Diretora,\n"
+"\n"
+"Mesmo otimizando drasticamente, nós não conseguimos alcançar o volume de recursos necessários para sustentar uma colônia, mesmo que para uma pequena viagem interplanetária. \n"
+"\n"
+"Nós teremos que fazer mudanças sérias para que isso funcione.</indent>\n"
+"\n"
+"Abraços e Beijos\n"
+"[EDITADO]\n"
+"Departamento de Informação e Estatística\n"
+"O Instituto Gravitas"
+
+#. STRINGS.CODEX.PRELIMINARYCALCULATIONS.SUBTITLE
+msgctxt "STRINGS.CODEX.PRELIMINARYCALCULATIONS.SUBTITLE"
+msgid "ENCRYPTION LEVEL: NONE"
+msgstr "NÍVEL DE ENCRIPTAÇÃO: NENHUM"
+
+#. STRINGS.CODEX.PRELIMINARYCALCULATIONS.TITLE
+msgctxt "STRINGS.CODEX.PRELIMINARYCALCULATIONS.TITLE"
+msgid "Preliminary Calculations"
+msgstr "Cálculos Preliminares"
 
 #. STRINGS.CODEX.PRINCE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PRINCE.BODY.CONTAINER1"
@@ -8629,7 +8858,6 @@ msgid "Printing Pod Promo"
 msgstr "Anúncio da Duplicadora"
 
 #. STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER1
-#| msgid ""
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER1"
 msgid ""
 msgstr ""
@@ -8650,7 +8878,6 @@ msgid "Mining Gun Promo"
 msgstr "Anúncio da Arma Mineradora"
 
 #. STRINGS.CODEX.PROPFACILITYDISPLAY3.BODY.CONTAINER1
-#| msgid ""
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY3.BODY.CONTAINER1"
 msgid ""
 msgstr ""
@@ -15597,13 +15824,11 @@ msgid "This Duplicant recently had a crying fit and it shows"
 msgstr "Este Duplicante sentiu vontade de chorar e está demonstrando isso"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.NAME"
 msgid "Danced"
 msgstr "Dançou"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCED.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15629,7 +15854,6 @@ msgid "Recent decor has been neutral"
 msgstr "Decor recente esteve neutro"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15640,7 +15864,6 @@ msgid "Recent decor has been okay"
 msgstr "Decor recente esteve ok"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15651,7 +15874,6 @@ msgid "Recent decor has been pleasant"
 msgstr "Decor recente esteve agradável"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15662,7 +15884,6 @@ msgid "Recent decor has been nice"
 msgstr "Decor recente esteve bom"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15673,7 +15894,6 @@ msgid "Recent decor has been very attractive"
 msgstr "Decor recente esteve muito atraente"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15684,7 +15904,6 @@ msgid "Recent decor has been beautiful"
 msgstr "Decor recente esteve bonito"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15695,7 +15914,6 @@ msgid "Recent decor has been downright ugly"
 msgstr "Decor recente esteve bem feio"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15769,7 +15987,6 @@ msgid "Ate Good food for my last meal"
 msgstr "Comeu comida Boa na última refeição"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15780,7 +15997,6 @@ msgid "Ate Great food for my last meal"
 msgstr "Comeu comida Ótima na última refeição"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15791,7 +16007,6 @@ msgid "Ate Amazing food for my last meal"
 msgstr "Comeu comida Maravilhosa na última refeição"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15802,7 +16017,6 @@ msgid "Ate Average food for my last meal"
 msgstr "Comeu comida Regular na última refeição"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS0.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15813,7 +16027,6 @@ msgid "Ate Poor food for my last meal"
 msgstr "Comeu comida Ruim na última refeição"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15824,7 +16037,6 @@ msgid "Ate Terrible food for my last meal"
 msgstr "Comeu comida Terrível na última refeição"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.TOOLTIP"
 msgid ""
 msgstr ""
@@ -15835,7 +16047,6 @@ msgid "Ate Awful food for my last meal"
 msgstr "Comeu comida Nojenta na última refeição"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.TOOLTIP"
 msgid ""
 msgstr ""
@@ -16218,7 +16429,6 @@ msgid "Played Video Games"
 msgstr "Jogou alguns Jogos"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PLAYEDARCADE.TOOLTIP"
 msgid ""
 msgstr ""
@@ -16450,7 +16660,6 @@ msgid "Talked with Friends"
 msgstr "Falou com Amigos"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOCIALIZED.TOOLTIP"
 msgid ""
 msgstr ""
@@ -16594,7 +16803,6 @@ msgid "Took a Break"
 msgstr "Teve um Intervalo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.TOOLTIP"
 msgid ""
 msgstr ""
@@ -19595,6 +19803,14 @@ msgstr "Este Duplicante está lavando as mãos"
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.ANGRY.TOOLTIP"
 msgid "Angry"
 msgstr "Com raiva"
+
+#. STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
+#| msgid "Took a Break"
+msgctxt "STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP"
+msgid "Bio Break"
+msgstr "Vazou"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.CHATTY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.CHATTY.TOOLTIP"
@@ -30457,8 +30673,6 @@ msgid "<link=\"JOURNALS\">Journals</link>"
 msgstr "<link=\"JOURNALS\">Diários</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.NOTICES
-#| msgctxt "STRINGS.ELEMENTS.ICE.NAME"
-#| msgid "<link=\"ICE\">Ice</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.NOTICES"
 msgid "<link=\"NOTICES\">Notices</link>"
 msgstr "<link=\"NOTICES\">Avisos</link>"
@@ -30469,8 +30683,6 @@ msgid "<link=\"PLANTS\">Plants</link>"
 msgstr "<link=\"PLANTS\">Plantas</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.RESEARCHNOTES
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.NAME"
-#| msgid "<link=\"RESEARCHCENTER\">Research Station</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.RESEARCHNOTES"
 msgid "<link=\"RESEARCHNOTES\">Research Notes</link>"
 msgstr "<link=\"RESEARCHNOTES\">Notas de Pesquisa</link>"
@@ -31932,7 +32144,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.7)"
+"- Traduzido por Chastomber :P (1.7.1)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33414,14 +33626,14 @@ msgid ""
 "\n"
 "This is usually caused by outdated audio drivers.\n"
 "\n"
-"Please visit your audio device manufacturer's website to download the latest drivers."
+"Please visit your audio device manufacturer's website to download the latest drivers and please ensure that your audio device's sample rate is set to at most 192khz."
 msgstr ""
 "Um problema ocorreu ao inicializar seu dispositivo de áudio.\n"
 "Desculpe por isso!\n"
 "\n"
 "Isso geralmente ocorreu devido a drivers de áudio desatualizados.\n"
 "\n"
-"Por favor, visite o site do fabricante da sua placa de áudio e baixe os drivers mais atualizados."
+"Por favor, visite o site do fabricante da sua placa de áudio para baixar os drivers mais atualizados e certifique-se de que taxa de bits de áudio (audio device sample rate) esteja definido para no máximo 192khz."
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.DUPLICATE_KEY_BINDINGS
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.DUPLICATE_KEY_BINDINGS"
@@ -34476,7 +34688,6 @@ msgstr ""
 "de Canos"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34511,7 +34722,6 @@ msgid "Cooking"
 msgstr "Culinária"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.COOKING.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.COOKING.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34537,14 +34747,11 @@ msgid "Doors"
 msgstr "Portas"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.DOORS.NAME
-#| msgctxt "STRINGS.REGIONS.MISSINGREQUIREMENTS.DOOR"
-#| msgid "A Door"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DOORS.NAME"
 msgid "Doors"
 msgstr "Portas"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.DOORS.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DOORS.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34575,7 +34782,6 @@ msgid "Farming"
 msgstr "Agricultura"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FARMING.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FARMING.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34611,21 +34817,16 @@ msgid "Generators"
 msgstr "Geradores"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
-#| msgid "DEV Generator"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.NAME"
 msgid "Generators"
 msgstr "Geradores"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.TOOLTIP"
 msgid ""
 msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.HEALTHANDHAPPINESS.NAME
-#| msgctxt "STRINGS.UI.BUILDCATEGORIES.AUTOMATION.NAME"
-#| msgid "<link=\"BUILDCATEGORYAUTOMATION\">Automation</link>"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.HEALTHANDHAPPINESS.NAME"
 msgid "<link=\"BUILDCATEGORYHEALTHANDHAPPINESS\">Accommodation</link>"
 msgstr "<link=\"BUILDCATEGORYHEALTHANDHAPPINESS\">Acomodações</link>"
@@ -34651,8 +34852,6 @@ msgid "Keep your Duplicants clean."
 msgstr "Mantenha seus Duplicantes limpos."
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIAL.NAME
-#| msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME"
-#| msgid "<link=\"BUILDCATEGORYUTILITIES\">Utilities</link>"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIAL.NAME"
 msgid "<link=\"BUILDCATEGORYINDUSTRIAL\">Industrials</link>"
 msgstr "<link=\"BUILDCATEGORYINDUSTRIAL\">Industriáveis</link>"
@@ -34683,7 +34882,6 @@ msgid "Ladders"
 msgstr "Escadas"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34703,7 +34901,6 @@ msgstr ""
 "Lógicos"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICGATES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICGATES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34723,7 +34920,6 @@ msgstr ""
 "Lógicas"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICSWITCHES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICSWITCHES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34734,8 +34930,6 @@ msgid "Logic Wiring"
 msgstr "Cabeamento Lógico"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICWIRING.NAME
-#| msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYLOGICWIRING"
-#| msgid "BuildCategoryLogicWiring"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICWIRING.NAME"
 msgid ""
 "Logic\n"
@@ -34745,14 +34939,11 @@ msgstr ""
 "Lógico"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGICWIRING.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGICWIRING.TOOLTIP"
 msgid ""
 msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGISTICS.NAME
-#| msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME"
-#| msgid "<link=\"BUILDCATEGORYUTILITIES\">Utilities</link>"
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGISTICS.NAME"
 msgid "<link=\"BUILDCATEGORYLOGISTICS\">Logistics</link>"
 msgstr "<link=\"BUILDCATEGORYLOGISTICS\">Logística</link>"
@@ -34803,7 +34994,6 @@ msgid "Pipes"
 msgstr "Canos"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.PIPES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PIPES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34838,7 +35028,6 @@ msgstr ""
 "de Energia"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34854,7 +35043,6 @@ msgid "Ranching"
 msgstr "Pecuária"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.RANCHING.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RANCHING.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34900,7 +35088,6 @@ msgid "Research"
 msgstr "Pesquisar"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34916,7 +35103,6 @@ msgid "Storage"
 msgstr "Armazéns"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34932,7 +35118,6 @@ msgid "Tiles"
 msgstr "Blocos"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.TILES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TILES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34952,7 +35137,6 @@ msgstr ""
 "de Tráfego"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.TRAVELTUBES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -34972,7 +35156,6 @@ msgstr ""
 "de Temperatura"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.UTILITIES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -35003,7 +35186,6 @@ msgid "Wires"
 msgstr "Cabos"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.WIRES.TOOLTIP
-#| msgid ""
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WIRES.TOOLTIP"
 msgid ""
 msgstr ""
@@ -36950,8 +37132,6 @@ msgid "Tier 1"
 msgstr "Nível 1"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-#| msgid "Food Quality Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER1.NAME"
 msgid "Quality Of Life expectation"
 msgstr "Expectativa de Qualidade de Vida"
@@ -36962,8 +37142,6 @@ msgid "Tier 2"
 msgstr "Nível 2"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-#| msgid "Food Quality Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER2.NAME"
 msgid "Quality Of Life expectation"
 msgstr "Expectativa de Qualidade de Vida"
@@ -36974,8 +37152,6 @@ msgid "Tier 3"
 msgstr "Nível 3"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-#| msgid "Food Quality Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER3.NAME"
 msgid "Quality Of Life expectation"
 msgstr "Expectativa de Qualidade de Vida"
@@ -36986,8 +37162,6 @@ msgid "Tier 4"
 msgstr "Nível 4"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-#| msgid "Food Quality Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER4.NAME"
 msgid "Quality Of Life expectation"
 msgstr "Expectativa de Qualidade de Vida"
@@ -36998,8 +37172,6 @@ msgid "Tier 5"
 msgstr "Nível 5"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-#| msgid "Food Quality Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER5.NAME"
 msgid "Quality Of Life expectation"
 msgstr "Expectativa de Qualidade de Vida"
@@ -37010,8 +37182,6 @@ msgid "Tier 6"
 msgstr "Nível 6"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-#| msgid "Food Quality Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER6.NAME"
 msgid "Quality Of Life expectation"
 msgstr "Expectativa de Qualidade de Vida"
@@ -37022,8 +37192,6 @@ msgid "Tier 7"
 msgstr "Nível 7"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-#| msgid "Food Quality Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER7.NAME"
 msgid "Quality Of Life expectation"
 msgstr "Expectativa de Qualidade de Vida"
@@ -37034,8 +37202,6 @@ msgid "Tier 8"
 msgstr "Nível 5"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.NAME"
-#| msgid "Food Quality Expectation"
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER8.NAME"
 msgid "Quality Of Life expectation"
 msgstr "Expectativa de Qualidade de Vida"
@@ -40946,6 +41112,39 @@ msgid ""
 "New Codex Entry discovered."
 msgstr ""
 "Eu pesquiso no histórico da caixa de entrada e encontro uma única entrada. Eu movo a estranha mensagem para o meu banco de dados.\n"
+"\n"
+"Nova Entrada do Códice descoberta."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH1
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH1"
+msgid ""
+"I scour the internal systems and find something of interest.\n"
+"\n"
+"New Codex Entry discovered."
+msgstr ""
+"Eu vasculhei os sistemas internos e achei algo interessante.\n"
+"\n"
+"Nova Entrada do Códice descoberta."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH2
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH2"
+msgid ""
+"I see if I can salvage anything from the electronics. I add what I find to the codex.\n"
+"\n"
+"New Codex Entry discovered."
+msgstr ""
+"Eu vejo se eu consigo salvar alguma coisa dos circuitos. Eu adiciono o que eu encontrei ao códice.\n"
+"\n"
+"Nova Entrada do Códice descoberta."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH3
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_TECHNOLOGY_SUCCESS.SEARCH3"
+msgid ""
+"I look for anything of interest within the abandoned machinery and add what I find to my database.\n"
+"\n"
+"New Codex Entry discovered."
+msgstr ""
+"E procuro por algo de interesse em meio ao maquinário abandonado e eu copio os dados encontrados para o meu banco de dados.\n"
 "\n"
 "Nova Entrada do Códice descoberta."
 
