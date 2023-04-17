@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.8.3\n"
+"Project-Id-Version: Português foi Incluído! 1.8.4\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -12408,16 +12408,6 @@ msgctxt "STRINGS.CREATURES.SPECIES.SWAMPLILY.NAME"
 msgid "<link=\"SWAMPLILY\">Balm Lily</link>"
 msgstr "<link=\"SWAMPLILY\">Lírio Milagroso</link>"
 
-#. STRINGS.CREATURES.SPECIES.SWEETBREATHER.DESC
-msgctxt "STRINGS.CREATURES.SPECIES.SWEETBREATHER.DESC"
-msgid ""
-msgstr ""
-
-#. STRINGS.CREATURES.SPECIES.SWEETBREATHER.NAME
-msgctxt "STRINGS.CREATURES.SPECIES.SWEETBREATHER.NAME"
-msgid "<link=\"SWEETBREATHER\">Sweetbreather</link>"
-msgstr ""
-
 #. STRINGS.CREATURES.STATS.AGE.NAME
 msgctxt "STRINGS.CREATURES.STATS.AGE.NAME"
 msgid "Age"
@@ -22337,6 +22327,20 @@ msgctxt "STRINGS.ELEMENTS.ALGAE.NAME"
 msgid "<link=\"ALGAE\">Algae</link>"
 msgstr "<link=\"ALGAE\">Alga</link>"
 
+#. STRINGS.ELEMENTS.BITUMEN.DESC
+#| msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDCOMBUSTION.DESC"
+#| msgid "Burn dirty fuels for exceptional <link=\"POWER\">Power</link> production."
+msgctxt "STRINGS.ELEMENTS.BITUMEN.DESC"
+msgid "Bitumen is a sticky viscous residue from <link=\"PETROLEUM\">Petroleum</link> production"
+msgstr "Betume é um resíduo grudento e viscoso da produção de <link=\"PETROLEUM\">Petróleo</link>"
+
+#. STRINGS.ELEMENTS.BITUMEN.NAME
+#| msgctxt "STRINGS.ELEMENTS.LIME.NAME"
+#| msgid "<link=\"LIME\">Lime</link>"
+msgctxt "STRINGS.ELEMENTS.BITUMEN.NAME"
+msgid "<link=\"BITUMEN\">Bitumen</link>"
+msgstr "<link=\"BITUMEN\">Betume</link>"
+
 #. STRINGS.ELEMENTS.BLEACHSTONE.DESC
 msgctxt "STRINGS.ELEMENTS.BLEACHSTONE.DESC"
 msgid ""
@@ -23096,6 +23100,18 @@ msgctxt "STRINGS.ELEMENTS.LIQUIDPROPANE.NAME"
 msgid "<link=\"LIQUIDPROPANE\">Propane</link>"
 msgstr "<link=\"LIQUIDPROPANE\">Propano</link>"
 
+#. STRINGS.ELEMENTS.LIQUIDSULFUR.DESC
+msgctxt "STRINGS.ELEMENTS.LIQUIDSULFUR.DESC"
+msgid "(S) Sulfur is a common chemical element usually produced as a byproduct of <link=\"METHANE\">Natural Gas</link> production."
+msgstr "(S) Enxofre é um elemento químico comum geralmente produzido como um subproduto na produção de <link=\"METHANE\">Gás Natural</link>."
+
+#. STRINGS.ELEMENTS.LIQUIDSULFUR.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.NAME"
+#| msgid "<link=\"LIQUIDFILTER\">Liquid Filter</link>"
+msgctxt "STRINGS.ELEMENTS.LIQUIDSULFUR.NAME"
+msgid "<link=\"LIQUIDSULFUR\">Liquid Sulfur</link>"
+msgstr "<link=\"LIQUIDSULFUR\">Enxofre Líquido</link>"
+
 #. STRINGS.ELEMENTS.MAFICROCK.DESC
 msgctxt "STRINGS.ELEMENTS.MAFICROCK.DESC"
 msgid ""
@@ -23828,6 +23844,30 @@ msgstr "Aço é um <link=\"RAWMETAL\">Metal</link> <link=\"ELEMENTSGAS\">Gasoso<
 msgctxt "STRINGS.ELEMENTS.STEELGAS.NAME"
 msgid "<link=\"STEELGAS\">Steel</link>"
 msgstr "<link=\"STEELGAS\">Aço</link>"
+
+#. STRINGS.ELEMENTS.SULFUR.DESC
+msgctxt "STRINGS.ELEMENTS.SULFUR.DESC"
+msgid "(S) Sulfur is a common chemical element usually produced as a byproduct of <link=\"METHANE\">Natural Gas</link> production."
+msgstr "(S) Enxofre é um elemento químico comum geralmente produzido como um subproduto na produção de <link=\"METHANE\">Gás Natural</link>."
+
+#. STRINGS.ELEMENTS.SULFUR.NAME
+#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SUNBURN.NAME"
+#| msgid "<link=\"SUNBURN\">Sunburn</link>"
+msgctxt "STRINGS.ELEMENTS.SULFUR.NAME"
+msgid "<link=\"SULFUR\">Sulfur</link>"
+msgstr "<link=\"SULFUR\">Enxofre</link>"
+
+#. STRINGS.ELEMENTS.SULFURGAS.DESC
+msgctxt "STRINGS.ELEMENTS.SULFURGAS.DESC"
+msgid "(S) Sulfur is a common chemical element usually produced as a byproduct of <link=\"METHANE\">Natural Gas</link> production."
+msgstr "(S) Enxofre é um elemento químico comum geralmente produzido como um subproduto na produção de <link=\"METHANE\">Gás Natural</link>."
+
+#. STRINGS.ELEMENTS.SULFURGAS.NAME
+#| msgctxt "STRINGS.ELEMENTS.SOURGAS.NAME"
+#| msgid "<link=\"SOURGAS\">Sour Gas</link>"
+msgctxt "STRINGS.ELEMENTS.SULFURGAS.NAME"
+msgid "<link=\"SULFURGAS\">Sulfur Gas</link>"
+msgstr "<link=\"SULFURGAS\">Gás Enxofre</link>"
 
 #. STRINGS.ELEMENTS.THERMALPROPERTIES
 msgctxt "STRINGS.ELEMENTS.THERMALPROPERTIES"
@@ -34051,7 +34091,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.8.3)"
+"- Traduzido por Chastomber :P (1.8.4)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -40423,7 +40463,7 @@ msgstr "LENTO"
 #, fuzzy
 msgctxt "STRINGS.UI.STARMAP.CAN_CARRY_ELEMENT"
 msgid "{0} resources can be gathered using this rocket's {1}"
-msgstr "Você pode coletar {0} com esse foguete de {1}"
+msgstr "Recursos {0} podem ser coletados usando a {1} deste foguete"
 
 #. STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT
 msgctxt "STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT"
@@ -40431,12 +40471,9 @@ msgid "This rocket needs a {0} to gather {1}"
 msgstr "Este foguete precisa de {0} para coletar {1}"
 
 #. STRINGS.UI.STARMAP.CONTAINER_REQUIRED
-#, fuzzy
-#| msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP"
-#| msgid "A {0} must be installed before launch"
 msgctxt "STRINGS.UI.STARMAP.CONTAINER_REQUIRED"
 msgid "A {0} must be installed to collect this resource"
-msgstr "{0} precisa ser instalado antes da decolagem"
+msgstr "{0} precisa ser instalado para coletar este recurso"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
@@ -40484,6 +40521,18 @@ msgctxt "STRINGS.UI.STARMAP.DISTANCE_OVERLAY"
 msgid "TOO FAR FOR THIS ROCKET"
 msgstr "LONGE DEMAIS PARA ESTE FOGUETE"
 
+#. STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME
+#| msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.NAME"
+#| msgid "Fuel tank not full"
+msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME"
+msgid "Oxidizer tank not full"
+msgstr "Tanque do oxidizador não carregado"
+
+#. STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.TOOLTIP
+msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.TOOLTIP"
+msgid "Oxidizer tank must be filled before launch"
+msgstr "Tanque do oxidizador precisa ser abastecido antes da decolagem"
+
 #. STRINGS.UI.STARMAP.EMPTYTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.NAME"
 msgid "Fuel tank not full"
@@ -40493,6 +40542,16 @@ msgstr "Tanque de combustível não abastecido"
 msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.TOOLTIP"
 msgid "Fuel tank must be filled before launch"
 msgstr "Tanque de combustível precisa ser abastecido "
+
+#. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME
+msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.NAME"
+msgid "Oxidizer tank full"
+msgstr "Tanque do oxidizador abastecido"
+
+#. STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP
+msgctxt "STRINGS.UI.STARMAP.FULLOXIDIZERTANK.TOOLTIP"
+msgid "Tank is full, ready to launch"
+msgstr "Tanque está cheio, pronto para decolagem"
 
 #. STRINGS.UI.STARMAP.FULLTANK.NAME
 msgctxt "STRINGS.UI.STARMAP.FULLTANK.NAME"
@@ -40514,10 +40573,26 @@ msgctxt "STRINGS.UI.STARMAP.HASFOOD.TOOLTIP"
 msgid "Sufficient food stores have been loaded, ready for launch"
 msgstr "Reservas suficientes de comida foram carregadas, pronto para decolagem"
 
+#. STRINGS.UI.STARMAP.HASSUIT.NAME
+msgctxt "STRINGS.UI.STARMAP.HASSUIT.NAME"
+msgid "Has Atmo Suit"
+msgstr "Tem um Atmotraje"
+
+#. STRINGS.UI.STARMAP.HASSUIT.TOOLTIP
+msgctxt "STRINGS.UI.STARMAP.HASSUIT.TOOLTIP"
+msgid "An Atmo Suit has been loaded"
+msgstr "Um Atmotraje foi carregado"
+
 #. STRINGS.UI.STARMAP.LAUNCH_MISSION
 msgctxt "STRINGS.UI.STARMAP.LAUNCH_MISSION"
 msgid "LAUNCH MISSION"
 msgstr "INICIAR MISSÃO"
+
+#. STRINGS.UI.STARMAP.LAUNCH_ROCKET
+#, fuzzy
+msgctxt "STRINGS.UI.STARMAP.LAUNCH_ROCKET"
+msgid "Launch Rocket"
+msgstr "Iniciar Decolagem"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT"
@@ -40619,6 +40694,31 @@ msgctxt "STRINGS.UI.STARMAP.MANAGEMENT_BUTTON"
 msgid "STARMAP"
 msgstr "MAPA ESTELAR"
 
+#. STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED
+#, fuzzy
+msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED"
+msgid "Grounded"
+msgstr "Ancorado"
+
+#. STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING
+#, fuzzy
+msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING"
+msgid "Grounded"
+msgstr "Ancorado"
+
+#. STRINGS.UI.STARMAP.MISSION_STATUS.UNDERWAY
+#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNDERWATER.NAME"
+#| msgid "Underwater"
+msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.UNDERWAY"
+msgid "Underway"
+msgstr "Debaixo d'água"
+
+#. STRINGS.UI.STARMAP.MISSION_STATUS.WAITING_TO_LAND
+msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.WAITING_TO_LAND"
+msgid "Waiting To Land"
+msgstr "Aguardando o Pouso"
+
 #. STRINGS.UI.STARMAP.MODULE_MASS
 msgctxt "STRINGS.UI.STARMAP.MODULE_MASS"
 msgid "+ {0} t"
@@ -40660,6 +40760,16 @@ msgstr "Comida Insuficiente"
 msgctxt "STRINGS.UI.STARMAP.NOFOOD.TOOLTIP"
 msgid "Rocket cannot launch without adequate food stores for passengers"
 msgstr "O foguete não pode decolar sem armazenagens adequadas para a comida dos passageiros"
+
+#. STRINGS.UI.STARMAP.NOSUIT.NAME
+msgctxt "STRINGS.UI.STARMAP.NOSUIT.NAME"
+msgid "Missing Atmo Suit"
+msgstr "Falta Atmotraje"
+
+#. STRINGS.UI.STARMAP.NOSUIT.TOOLTIP
+msgctxt "STRINGS.UI.STARMAP.NOSUIT.TOOLTIP"
+msgid "Rocket cannot launch without an Atmo Suit loaded"
+msgstr "O foguete não pode decolar sem um Atmotraje carregado"
 
 #. STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION
 msgctxt "STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION"
@@ -46946,10 +47056,6 @@ msgstr "Espalhando areia..."
 #~ msgid "This critter is a baby."
 #~ msgstr "Esta criatura é um bebê."
 
-#~ msgctxt "STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.NAME"
-#~ msgid "Waiting For Babies"
-#~ msgstr "Aguardando Bebês"
-
 #~ msgctxt "STRINGS.CREATURES.MODIFIERS.FUTURE_OVERCROWDED.TOOLTIP"
 #~ msgid "This critter is anticipating a big family and has slowed reproduction"
 #~ msgstr "Esta criatura está esperando uma grande família e agora possui reprodução desacelerada"
@@ -48641,10 +48747,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION"
 #~ msgid "Takes care of all the little things that need doing around the colony."
 #~ msgstr "Cuida de todas as pequenas coisas que precisam ser feitas na colônia."
-
-#~ msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.NAME"
-#~ msgid "Groundskeeper"
-#~ msgstr "Zelador"
 
 #~ msgctxt "STRINGS.DUPLICANTS.ROLES.HAULER.DESCRIPTION"
 #~ msgid "Gofers move quicker, allowing them to deliver more resources"
