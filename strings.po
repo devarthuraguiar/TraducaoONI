@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.6.12\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.6.13\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.0.9\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Flags-xgettext: --add-comments\n"
 "X-Poedit-Basepath: .\n"
@@ -337,7 +337,6 @@ msgstr ""
 "Duplicantes doentes"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.NAME
-#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDROLEPERK.NAME"
 msgid "Colony Lacks {Roles}s"
 msgstr "Colônia Precisa de {Roles}"
@@ -1911,7 +1910,6 @@ msgid "Repair Errand Assigned"
 msgstr "Tarefa de Reparo Designada"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGREPAIR.TOOLTIP"
 msgid ""
 "Waiting for a Duplicant to repair\n"
@@ -2780,7 +2778,6 @@ msgid "an angry Duplicant. Rude!"
 msgstr "de um Duplicante agressivo. Que rude!"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.NOTIFICATION_TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.NOTIFICATION_TOOLTIP"
 msgid "A {0} sustained damage from {1}"
 msgstr "Um(a) {0} recebeu dano {1}"
@@ -3682,10 +3679,9 @@ msgid "Turns {0} into {1}."
 msgstr "Transforma {0} em {1}."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RESULT_DESCRIPTION
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGCRACKER.RESULT_DESCRIPTION"
 msgid "Cracked {0}"
-msgstr "Quebra {0}"
+msgstr "Quebrou {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.DESC"
@@ -4525,7 +4521,6 @@ msgstr ""
 "\">Aquecido</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.GLASSFORGE.NAME
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.PREFABS.GLASSFORGE.NAME"
 msgid "<link=\"GLASSFORGE\">Glass Forge</link>"
 msgstr "<link=\"GLASSFORGE\">Forja de Vidro</link>"
@@ -12337,7 +12332,7 @@ msgstr "Determina a velocidade de mineração do Duplicante."
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.NAME"
 msgid "Digging"
-msgstr "Escavar"
+msgstr "Escavação"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.SPEEDMODIFIER
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DIGGING.SPEEDMODIFIER"
@@ -12539,10 +12534,9 @@ msgstr ""
 "link> e ganha habilidades."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.NAME
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.NAME"
 msgid "Learning"
-msgstr "Aprender"
+msgstr "Aprendizado"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.RESEARCHSPEED
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.RESEARCHSPEED"
@@ -13197,7 +13191,6 @@ msgid "Going to compost"
 msgstr "Indo compostar"
 
 #. STRINGS.DUPLICANTS.CHORES.COMPOSTWORKABLE.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.COMPOSTWORKABLE.TOOLTIP"
 msgid "This Duplicant is dropping off organic material at the compost"
 msgstr "Este Duplicante está largando material orgânico na composteira"
@@ -14660,7 +14653,6 @@ msgid "Suffocation"
 msgstr "Sufocamento"
 
 #. STRINGS.DUPLICANTS.DESC_TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.DESC_TOOLTIP"
 msgid "About {0}s"
 msgstr "Em {0}s"
@@ -30772,16 +30764,14 @@ msgid "{0}: {1} per <link=\"RESEARCH\">Research</link> point"
 msgstr "{0}: {1} por ponto de <link=\"RESEARCH\">Pesquisa</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH
-#, fuzzy
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH"
 msgid "Shearable {Item}: {Amount} per {Time}"
-msgstr "{Item} tosquiável: {Amount} por {Time}"
+msgstr "{Item} tosquiável: {Amount} a cada {Time}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO
-#, fuzzy
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO"
 msgid "Shearable {Item}: {Amount} per {Time} ({Atmosphere})"
-msgstr "{Item} tosquiável: {Amount} por {Time} ({Atmosphere})"
+msgstr "{Item} tosquiável: {Amount} a cada {Time} ({Atmosphere})"
 
 #. STRINGS.UI.BUILDINGEFFECTS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.STORAGECAPACITY"
@@ -31526,7 +31516,6 @@ msgid "Calories: {0}"
 msgstr "Calorias: {0}"
 
 #. STRINGS.UI.CODEX.FOOD.NON_PERISHABLE
-#, fuzzy
 msgctxt "STRINGS.UI.CODEX.FOOD.NON_PERISHABLE"
 msgid "Spoil time: Never"
 msgstr "Apodrecimento: Nunca"
@@ -31537,7 +31526,6 @@ msgid "Quality: {0}"
 msgstr "Qualidade: {0}"
 
 #. STRINGS.UI.CODEX.FOOD.SPOILPROPERTIES
-#, fuzzy
 msgctxt "STRINGS.UI.CODEX.FOOD.SPOILPROPERTIES"
 msgid ""
 "Preserve temperature: {0}\n"
@@ -33046,7 +33034,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.6.12)"
+"- Traduzido por Chastomber :P (1.6.13)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33665,10 +33653,9 @@ msgstr ""
 "{0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME
-#, fuzzy
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME"
 msgid "Time Breakdown:"
-msgstr "Tempo gasto:"
+msgstr "Tempo Gasto:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP"
@@ -34570,7 +34557,7 @@ msgstr "Ativar modo caixa de areia"
 msgctxt ""
 "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.CONFIRM_SAVE_BACKUP"
 msgid "Enable sandbox mode, but save a backup first"
-msgstr "Ativar modo caixa de areia, mas salve um backup primeiro"
+msgstr "Ativar modo caixa de areia, mas salvar um backup primeiro"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.TOGGLE_SANDBOX_SCREEN.UNLOCK_SANDBOX_WARNING
 msgctxt ""
@@ -34718,7 +34705,7 @@ msgstr "Novo Save"
 #. STRINGS.UI.FRONTEND.SAVESCREEN.OVERWRITEMESSAGE
 msgctxt "STRINGS.UI.FRONTEND.SAVESCREEN.OVERWRITEMESSAGE"
 msgid "Are you sure you want to overwrite {0}?"
-msgstr "Tem certeza que deseja sobrescrever {0}?"
+msgstr "Tem certeza que deseja substituir {0}?"
 
 #. STRINGS.UI.FRONTEND.SAVESCREEN.REPORT_BUG
 msgctxt "STRINGS.UI.FRONTEND.SAVESCREEN.REPORT_BUG"
@@ -34746,12 +34733,12 @@ msgid ""
 "Please visit your audio device manufacturer's website to download the latest "
 "drivers."
 msgstr ""
-"Um problema ocorreu ao inicializar seu dispositivo de audio.\n"
+"Um problema ocorreu ao inicializar seu dispositivo de áudio.\n"
 "Desculpe por isso!\n"
 "\n"
 "Isso geralmente ocorreu devido a drivers de áudio desatualizados.\n"
 "\n"
-"Por favor, visite o site do fabricante da sua placa de audio e baixe os "
+"Por favor, visite o site do fabricante da sua placa de áudio e baixe os "
 "drivers mais atualizados."
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.DUPLICATE_KEY_BINDINGS
@@ -35383,12 +35370,12 @@ msgstr "Gera novas sementes na colheita final do seu ciclo de vida"
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_FRUIT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_FRUIT"
 msgid "Consuming this plant's fruit will yield new seeds"
-msgstr "Consumir o fruto desta planta vai gerar novas sementes"
+msgstr "Consumir o fruto desta planta gerará novas sementes"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_PRODUCTION_HARVEST"
 msgid "Harvesting this plant will yield new seeds"
-msgstr "Colher esta planta irá gerar novas sementes"
+msgstr "Colher esta planta gerará novas sementes"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_CEILING
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.SEED_REQUIREMENT_CEILING"
@@ -35470,7 +35457,7 @@ msgid ""
 "ooze."
 msgstr ""
 "A Duplicadora precisará de tempo para recarregar se eu retornar estes "
-"Duplicantes pra gosma."
+"Duplicantes para a gosma."
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CONFIRMATIONTITLE"
@@ -35575,7 +35562,7 @@ msgstr "Despriorize <b>Todas as Tarefas</b> para <b>Novos Duplicantes</b>"
 #. STRINGS.UI.JOBSSCREEN.DISABLED_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.DISABLED_TOOLTIP"
 msgid "{Name} may not perform {Job} Errands"
-msgstr "{Name} realizar Tarefas de {Job}"
+msgstr "{Name} não pode realizar Tarefas de {Job}"
 
 #. STRINGS.UI.JOBSSCREEN.HEADER_CHANGE_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.HEADER_CHANGE_TOOLTIP"
@@ -35616,12 +35603,12 @@ msgstr "{Key} Aumentar prioridade"
 #. STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_MINION_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_MINION_TOOLTIP"
 msgid "Prioritize <b>All Errands</b> for <b>{Name}</b>"
-msgstr "Priorize <b>Todas as Tarefas</b> para <b>{Name}</b>"
+msgstr "Priorizar <b>Todas as Tarefas</b> para <b>{Name}</b>"
 
 #. STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_NEW_MINION_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_NEW_MINION_TOOLTIP"
 msgid "Prioritize <b>All Errands</b> for <b>New Duplicants</b>"
-msgstr "Priorize <b>Todas as Tarefas</b> para <b>Novos Duplicantes</b>"
+msgstr "Priorizar <b>Todas as Tarefas</b> para <b>Novos Duplicantes</b>"
 
 #. STRINGS.UI.JOBSSCREEN.ITEM_AUTO_ASSIGNED_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.ITEM_AUTO_ASSIGNED_TOOLTIP"
@@ -35698,7 +35685,7 @@ msgid ""
 "\n"
 "Advanced: Priorities will be adjusted high-to-low for normal base operation."
 msgstr ""
-"Reseta todas as prioridades aos valores padrão deste modo.\n"
+"Reseta todas as prioridades aos valores padrão para esse modo.\n"
 "\n"
 "Padrão: Todas as prioridades serão definidas como neutras.\n"
 "\n"
@@ -35708,7 +35695,7 @@ msgstr ""
 #. STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.SORT_TOOLTIP"
 msgid "Sort by {Job} Errand priorities"
-msgstr "Organize por prioridade das tarefas de {Job}"
+msgstr "Organizar por prioridade das tarefas de {Job}"
 
 #. STRINGS.UI.JOBSSCREEN.TITLE
 msgctxt "STRINGS.UI.JOBSSCREEN.TITLE"
@@ -37600,7 +37587,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_DIGGING_BASIC."
 "DESCRIPTION"
 msgid "Must have at least {0} digging skill"
-msgstr "Precisa de pelo menos {0} do atributo escavar"
+msgstr "Precisa de pelo menos {0} do atributo escavação"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_DIGGING_BASIC.NAME
 msgctxt ""
@@ -37614,7 +37601,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_LEARNING_BASIC."
 "DESCRIPTION"
 msgid "Must have at least {0} learning skill"
-msgstr "Precisa de pelo menos {0} do atributo aprender"
+msgstr "Precisa de pelo menos {0} do atributo aprendizado"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_LEARNING_BASIC.NAME
 msgctxt ""
@@ -37628,7 +37615,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS."
 "HAS_ATTRIBUTE_LEARNING_MEDIUM.DESCRIPTION"
 msgid "Must have at least {0} learning skill"
-msgstr "Precisa de pelo menos {0} do atributo aprender"
+msgstr "Precisa de pelo menos {0} do atributo aprendizado"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_ATTRIBUTE_LEARNING_MEDIUM.NAME
 msgctxt ""
@@ -37816,8 +37803,7 @@ msgctxt ""
 "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.DESCRIPTION"
 msgid "Duplicants employed in this Tier expect only the best cuisine"
 msgstr ""
-"Duplicantes empregados neste Nível esperam alimentos somente da mais alta "
-"cozinha"
+"Duplicantes empregados neste Nível esperam alimentos da mais alta cozinha"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.NAME
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.FOOD_QUALITY.EXCEPTIONAL.NAME"
@@ -37943,7 +37929,7 @@ msgstr "Traço: Encanamento"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_ELECTRIC_GRILL.DESCRIPTION"
 msgid "Trait: <link=\"COOKINGSTATION\">Electric Grill</link> Cooking"
 msgstr ""
-"Traço: Cozinha na <link=\"COOKINGSTATION\">Churrasqueira Elétrica</link>"
+"Traço: Cozinhar na <link=\"COOKINGSTATION\">Churrasqueira Elétrica</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_FARM_TINKER.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_FARM_TINKER.DESCRIPTION"
@@ -38343,7 +38329,7 @@ msgstr "Limpar Entulho"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP"
 msgid "Delete loose items cluttering the floor"
-msgstr "Delete itens soltos sujando o chão"
+msgstr "Remover itens soltos sujando o chão"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME"
@@ -39020,7 +39006,7 @@ msgstr "ARRASTE PARA DEFINIR SUB-PRIORIDADE"
 #. STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.PRIORITIZE.TOOLNAME"
 msgid "Sub-Priority tool"
-msgstr "Ferramenta Sub-Priorizar"
+msgstr "Ferramenta Sub-Prioridade"
 
 #. STRINGS.UI.TOOLS.SANDBOX.BRUSH.NAME
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.BRUSH.NAME"
@@ -39358,7 +39344,7 @@ msgstr "Mostra os componentes de um circuito automatizado"
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CODEX
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CODEX"
 msgid "Browse database entries"
-msgstr "Gerenciar entradas do banco de dados"
+msgstr "Navegue no banco de dados"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CONSUMABLES
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CONSUMABLES"
@@ -39404,7 +39390,7 @@ msgstr ""
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESEARCH
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESEARCH"
 msgid "View the Research Tree"
-msgstr "Visualize a árvore tecnológica"
+msgstr "Visualize a Árvore Tecnológica"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_ROLES
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_ROLES"
@@ -39669,7 +39655,7 @@ msgstr "Esta planta não está afogando"
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_FERTILIZER
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_FERTILIZER"
 msgid "{mass} of fertilizer is currently available"
-msgstr "{mass} de fertilizante está disponível"
+msgstr "{mass} de fertilizante atualmente disponível"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ILLUMINATION_DARK"
@@ -39902,7 +39888,7 @@ msgstr "Designar {0}"
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.UNASSIGN_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.UNASSIGN_TOOLTIP"
 msgid "Assigned to {0}"
-msgstr "Designado à: {0}"
+msgstr "Designado à {0}"
 
 #. STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.UNASSIGNED
 msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.UNASSIGNED"
@@ -40241,7 +40227,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN."
 "QUEUED_MISSING_INGREDIENTS_TOOLTIP"
 msgid "Missing {0} of {1}\n"
-msgstr "Falta {0} de {1}\n"
+msgstr "Faltando {0} de {1}\n"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPEPRODUCT
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPEPRODUCT"
@@ -40370,7 +40356,7 @@ msgstr "Algo parece diferente."
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.CONSUMED"
 msgid "There are no charges left in this Vacillator."
-msgstr "Não existem cargas livres nesse Vacilador."
+msgstr "Não existem cargas livres neste Vacilador."
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.TITLE"
@@ -40664,7 +40650,7 @@ msgstr "{0} {1} por colheita"
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO
 msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
 msgid "{0} to {1}"
-msgstr "{0} à {1}"
+msgstr "De {0} para {1}"
 
 #. STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING
 msgctxt "STRINGS.UI.UISIDESCREENS.RESEARCHSIDESCREEN.CURRENTLYRESEARCHING"
@@ -40724,7 +40710,7 @@ msgstr "CANCELAR ANÁLISE"
 #. STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.PENDING_STATUS
 msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.PENDING_STATUS"
 msgid "A researcher is in the process of studying this formation."
-msgstr "Um pesquisador está no processo de estudar esta formação."
+msgstr "Um pesquisador está no processo de estudo desta formação."
 
 #. STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.SEND_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.SEND_BUTTON"
@@ -41117,7 +41103,7 @@ msgid ""
 "Only store objects marked Sweep <color=#F44A47>[K]</color> in this container"
 msgstr ""
 "Somente armazenar objetos marcados para Coleta <color=#F44A47>[K]</color> "
-"nessa armazenagem"
+"nesta armazenagem"
 
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.TITLE"
@@ -41367,7 +41353,7 @@ msgstr "Laçar"
 #. STRINGS.UI.USERMENUACTIONS.CAPTURE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CAPTURE.TOOLTIP"
 msgid "Capture this critter alive"
-msgstr "Capturar esta criatura viva"
+msgstr "Capturar esta criatura"
 
 #. STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.CANCEL_REQUEST
 msgctxt "STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.CANCEL_REQUEST"
@@ -41397,7 +41383,7 @@ msgstr "Pedir Vestimenta"
 #. STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.REQUEST_OUTFIT_TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CHANGE_ROOM.REQUEST_OUTFIT_TOOLTIP"
 msgid "Request outfit to be delivered to this change room"
-msgstr "Pedir para a roupa ser entregue nesse vestiário"
+msgstr "Pedir para a roupa ser entregue neste vestiário"
 
 #. STRINGS.UI.USERMENUACTIONS.CLEANTOILET.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CLEANTOILET.NAME"
@@ -41817,8 +41803,8 @@ msgid ""
 "Suited Duplicants may pass only if there is room in an Exosuit Dock to store "
 "their suit"
 msgstr ""
-"Duplicantes Trajados poderão passar somente se tiver espaço para uma Estação "
-"de Exotraje para armazenarem o traje"
+"Duplicantes Trajados poderão passar somente se tiver espaço em uma Estação "
+"de Exotraje para armazenar o traje"
 
 #. STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.TAGFILTER.NAME"
@@ -41973,7 +41959,7 @@ msgid ""
 msgstr ""
 "Comido Hoje\n"
 "------------------\n"
-"Consumido {0} de comida nesse ciclo"
+"{0} de comida consumidos neste ciclo"
 
 #. STRINGS.UI.VITALSSCREEN.EXPECTATIONS
 msgctxt "STRINGS.UI.VITALSSCREEN.EXPECTATIONS"
@@ -42509,12 +42495,12 @@ msgstr "Oxigênio demais. Removendo..."
 #. STRINGS.UI.WORLDGEN.SETTLESIM4
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM4"
 msgid "Ideal oxygen levels achieved..."
-msgstr "Níveis ideias de oxigênio atingidos..."
+msgstr "Níveis ideais de oxigênio atingidos..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM5
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM5"
 msgid "Ideal oxygen levels achieved..."
-msgstr "Níveis ideias de oxigênio atingidos..."
+msgstr "Níveis ideais de oxigênio atingidos..."
 
 #. STRINGS.UI.WORLDGEN.SETTLESIM6
 msgctxt "STRINGS.UI.WORLDGEN.SETTLESIM6"
