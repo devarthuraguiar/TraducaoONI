@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.11.2\n"
+"Project-Id-Version: Português foi Incluído! 1.11.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur <arthur.aguiar151@gmail.com>\n"
@@ -21226,8 +21226,8 @@ msgstr "Este Duplicante não consegue alcançar nenhuma das tarefas pendentes"
 
 #. STRINGS.DUPLICANTS.CHORES.IS_DEAD_TASK
 msgctxt "STRINGS.DUPLICANTS.CHORES.IS_DEAD_TASK"
-msgid "Uhh... \"Sleeping\""
-msgstr "Ahnn... \"Dormindo\""
+msgid "Dead"
+msgstr "Morto"
 
 #. STRINGS.DUPLICANTS.CHORES.LIQUIDCOOLEDFAN.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.LIQUIDCOOLEDFAN.NAME"
@@ -21607,8 +21607,8 @@ msgstr "Está sendo desconstruído"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MARKED_FOR_DISABLE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MARKED_FOR_DISABLE"
-msgid "Being disabled"
-msgstr "Está sendo desativado"
+msgid "Building Disabled"
+msgstr "Estrutura Desativada"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MORE_SATISFYING
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MORE_SATISFYING"
@@ -33907,6 +33907,19 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTDIED.TOOLTIP"
 msgid "These Duplicants have died:"
 msgstr "Estes Duplicantes morreram:"
 
+#. STRINGS.MISC.NOTIFICATIONS.EMERGENCY_CHORES.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.EMERGENCY_CHORES.NAME"
+msgid "Emergency Errands"
+msgstr "Tarefas Emergenciais"
+
+#. STRINGS.MISC.NOTIFICATIONS.EMERGENCY_CHORES.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.EMERGENCY_CHORES.TOOLTIP"
+msgid ""
+"The colony is in Red Alert mode because Emergency Priority has been set."
+msgstr ""
+"A colônia está no modo de Alerta Vermelho pois foi definida Prioridade "
+"Emergencial."
+
 #. STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.FABRICATOREMPTY.NAME"
 msgid "Fabricator idle"
@@ -39850,8 +39863,8 @@ msgstr "<link=\"BUILDCATEGORYAUTOMATION\">Automação</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.AUTOMATION.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.AUTOMATION.TOOLTIP"
-msgid "Automate my base with logic circuits and sensors."
-msgstr "Automatiza minha base com sensores e circuitos lógicos."
+msgid "Automate my base with logic circuits and sensors. {Hotkey}"
+msgstr "Automatiza minha base com sensores e circuitos lógicos. {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.BASE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.BASE.NAME"
@@ -39860,8 +39873,10 @@ msgstr "<link=\"BUILDCATEGORYBASE\">Base</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.BASE.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.BASE.TOOLTIP"
-msgid "Maintain the colony's infrastructure with these homebase basics."
-msgstr "Mantém a colônia funcionando com estas infraestruturas básicas."
+msgid ""
+"Maintain the colony's infrastructure with these homebase basics. {Hotkey}"
+msgstr ""
+"Mantém a colônia funcionando com estas infraestruturas básicas. {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.NAME"
@@ -39870,9 +39885,10 @@ msgstr "<link=\"BUILDCATEGORYCONVEYANCE\">Logística</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP"
-msgid "Effortlessly transport ore and solid materials around my base."
+msgid "Effortlessly transport ore and solid materials around my base. {Hotkey}"
 msgstr ""
-"Transporta minérios e materiais sólidos pela minha base com nenhum esforço."
+"Transporta minérios e materiais sólidos pela minha base com nenhum esforço. "
+"{Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME"
@@ -39881,8 +39897,8 @@ msgstr "<link=\"BUILDCATEGORYEQUIPMENT\">Estações</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.TOOLTIP"
-msgid "Unlock new technologies through the power of science!"
-msgstr "Desbloqueia novas tecnologias com o poder da ciência!"
+msgid "Unlock new technologies through the power of science! {Hotkey}"
+msgstr "Desbloqueia novas tecnologias com o poder da ciência! {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.FOOD.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FOOD.NAME"
@@ -39891,8 +39907,8 @@ msgstr "<link=\"BUILDCATEGORYFOOD\">Comida</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.FOOD.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FOOD.TOOLTIP"
-msgid "Keep my Duplicants' spirits high and their bellies full."
-msgstr "Mantém meus Duplicantes felizes e de barriga cheia."
+msgid "Keep my Duplicants' spirits high and their bellies full. {Hotkey}"
+msgstr "Mantém meus Duplicantes felizes e de barriga cheia. {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.FURNITURE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FURNITURE.NAME"
@@ -39901,9 +39917,10 @@ msgstr "<link=\"BUILDCATEGORYFURNITURE\">Móveis</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.FURNITURE.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FURNITURE.TOOLTIP"
-msgid "Amenities to keep my Duplicants happy, comfy and efficient."
+msgid "Amenities to keep my Duplicants happy, comfy and efficient. {Hotkey}"
 msgstr ""
-"Serviços para manter meus Duplicantes felizes, confortáveis e eficientes."
+"Serviços para manter meus Duplicantes felizes, confortáveis e eficientes. "
+"{Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.NAME"
@@ -39912,8 +39929,8 @@ msgstr "<link=\"BUILDCATEGORYHVAC\">Tubos</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP"
-msgid "Control the flow of gas in the base."
-msgstr "Controla o fluxo de gás na minha base."
+msgid "Control the flow of gas in the base. {Hotkey}"
+msgstr "Controla o fluxo de gás na minha base. {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.MEDICAL.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MEDICAL.NAME"
@@ -39922,8 +39939,8 @@ msgstr "<link=\"BUILDCATEGORYMEDICAL\">Saúde</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.MEDICAL.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MEDICAL.TOOLTIP"
-msgid "A cure for everything but the common cold."
-msgstr "A cura para tudo menos para um resfriado."
+msgid "A cure for everything but the common cold. {Hotkey}"
+msgstr "A cura para tudo menos para um resfriado. {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.MISC.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MISC.NAME"
@@ -39932,8 +39949,9 @@ msgstr "<link=\"BUILDCATEGORYMISC\">Decor</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.MISC.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MISC.TOOLTIP"
-msgid "Spruce up my colony with some lovely interior decorating."
-msgstr "Enfeita minha colônia com um pouco de decoração de interiores."
+msgid "Spruce up my colony with some lovely interior decorating. {Hotkey}"
+msgstr ""
+"Enfeita minha colônia com um pouco de decoração de interiores. {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.OXYGEN.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.OXYGEN.NAME"
@@ -39942,8 +39960,8 @@ msgstr "<link=\"BUILDCATEGORYOXYGEN\">Oxigênio</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.OXYGEN.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.OXYGEN.TOOLTIP"
-msgid "Everything I need to keep the colony breathing."
-msgstr "Tudo que eu preciso para manter a colônia respirando."
+msgid "Everything I need to keep the colony breathing. {Hotkey}"
+msgstr "Tudo que eu preciso para manter a colônia respirando. {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.PLUMBING.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.PLUMBING.NAME"
@@ -39952,8 +39970,8 @@ msgstr "<link=\"BUILDCATEGORYPLUMBING\">Canos</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.PLUMBING.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.PLUMBING.TOOLTIP"
-msgid "Get the colony's water running and its sewage flowing."
-msgstr "Faz a água da colônia correr e o seu esgoto fluir."
+msgid "Get the colony's water running and its sewage flowing. {Hotkey}"
+msgstr "Faz a água da colônia correr e o seu esgoto fluir. {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.POWER.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.POWER.NAME"
@@ -39962,8 +39980,8 @@ msgstr "<link=\"BUILDCATEGORYPOWER\">Energia</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.POWER.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.POWER.TOOLTIP"
-msgid "Need to power the colony? Here's how to do it!"
-msgstr "Preciso energizar a colônia? Aqui está como se faz!"
+msgid "Need to power the colony? Here's how to do it! {Hotkey}"
+msgstr "Preciso energizar a colônia? Aqui está como se faz! {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.REFINING.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.REFINING.NAME"
@@ -39972,8 +39990,8 @@ msgstr "<link=\"BUILDCATEGORYREFINING\">Refinar</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.REFINING.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.REFINING.TOOLTIP"
-msgid "Use the resources I want, filter the ones I don't."
-msgstr "Usa os recursos que eu quero, filtra os que eu não quero."
+msgid "Use the resources I want, filter the ones I don't. {Hotkey}"
+msgstr "Usa os recursos que eu quero, filtra os que eu não quero. {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.ROCKETRY.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.ROCKETRY.NAME"
@@ -39982,8 +40000,8 @@ msgstr "<link=\"BUILDCATEGORYROCKETRY\">Foguetes</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.ROCKETRY.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.ROCKETRY.TOOLTIP"
-msgid "Rocketry"
-msgstr "Foguetes"
+msgid "Rocketry {Hotkey}"
+msgstr "Foguetes {Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.NAME"
@@ -39992,8 +40010,8 @@ msgstr "<link=\"BUILDCATEGORYUTILITIES\">Utilitários</link>"
 
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.TOOLTIP"
-msgid "Heat up and cool down."
-msgstr "Aquece e esfria."
+msgid "Heat up and cool down. {Hotkey}"
+msgstr "Aquece e esfria. {Hotkey}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ADDED_EFFECT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ADDED_EFFECT"
@@ -41436,8 +41454,8 @@ msgstr "Copiar"
 
 #. STRINGS.UI.COPY_BUILDING_TOOLTIP
 msgctxt "STRINGS.UI.COPY_BUILDING_TOOLTIP"
-msgid "Create new build orders for the selected building."
-msgstr "Crie novas ordens de construção para a estrutura selecionada."
+msgid "Create new build orders for the selected building. {Hotkey}"
+msgstr "Crie novas ordens de construção para a estrutura selecionada. {Hotkey}"
 
 #. STRINGS.UI.CRAFT
 msgctxt "STRINGS.UI.CRAFT"
@@ -42750,7 +42768,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.11.2)"
+"- Traduzido por Chastomber :P (1.11.3)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -43037,6 +43055,12 @@ msgctxt "STRINGS.UI.ENDOFDAYREPORT.ADDED"
 msgid "Added"
 msgstr "Adicionado"
 
+#. STRINGS.UI.ENDOFDAYREPORT.BASE_DETAILS_HEADER
+#, fuzzy
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.BASE_DETAILS_HEADER"
+msgid "Base Details:"
+msgstr "Detalhes da Base:"
+
 #. STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.CALORIES_CREATED.NAME"
 msgid "Calorie Generation:"
@@ -43185,6 +43209,12 @@ msgstr "Estado da Doença:"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DISEASE_STATUS.TOOLTIP"
 msgid "My Duplicants are covered in {0}"
 msgstr "Meus Duplicantes estão cobertos em {0}"
+
+#. STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER
+#, fuzzy
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER"
+msgid "Duplicant Details:"
+msgstr "Detalhes de Duplicante:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME"
@@ -43413,6 +43443,11 @@ msgid "My colony's total <link=\"STRESS\">Stress</link> has increased by {0}"
 msgstr ""
 "O <link=\"STRESS\">Estresse</link> total da minha colônia foi aumentado em "
 "{0}"
+
+#. STRINGS.UI.ENDOFDAYREPORT.TIME_DETAILS_HEADER
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_DETAILS_HEADER"
+msgid "Time Details:"
+msgstr "Detalhes sobre Tempo:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME"
@@ -44717,11 +44752,11 @@ msgstr "Chave de Geração do Mundo"
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
-"<b>Welcome to the Quality of Life Upgrade Mk I!!</b>\n"
+"<b>Welcome to the Quality of Life Upgrade Mk II!!</b>\n"
 "\n"
 "{0}"
 msgstr ""
-"<b>Bem-vindo a Atualização Qualidade de Vida Marco I!!</b>\n"
+"<b>Bem-vindo a Atualização Qualidade de Vida Marco II!!</b>\n"
 "\n"
 "{0}"
 
@@ -44735,8 +44770,9 @@ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
 "<b>Update Features:</b>\n"
 "\n"
-"• New Decor items and updated Artist job roles for more decor possibilities\n"
-"• Redesigned recipe queue controls for improved item fabrication automation\n"
+"• New UI tools for displaying and managing Duplicant priorities\n"
+"• New artifacts can be retrieved from Space expeditions\n"
+"• Printing Pod can now print objects other than Duplicants\n"
 "• Many, many bug fixes, optimizations, polish passes, updated animations and "
 "more!\n"
 "\n"
@@ -44744,10 +44780,10 @@ msgid ""
 msgstr ""
 "<b>Recursos da Atualização:</b>\n"
 "\n"
-"• Novos items de Decor e posições de trabalho de Artista para mais "
-"possibilidades de decor\n"
-"• Controles de ordem de receitas melhorados para melhorar a automação da "
-"fabricação de itens\n"
+"• Novas ferramentas de interface para mostrar e gerenciar prioridades dos "
+"Duplicantes\n"
+"• Novos artefatos podem ser recuperados por meio de expedições espaciais\n"
+"• A Duplicadora pode agora imprimir mais objetos do que Duplicantes\n"
 "• Muitas, muitas correções de erros, otimizações, animações atualizadas e "
 "mais!\n"
 "\n"
@@ -44755,8 +44791,8 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-msgid "QUALITY OF LIFE UPGRADE MK I"
-msgstr "ATUALIZAÃO QUALIDADE DE VIDA MARCO I"
+msgid "QUALITY OF LIFE UPGRADE MK II"
+msgstr "ATUALIZAÃO QUALIDADE DE VIDA MARCO II"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT"
@@ -45848,8 +45884,8 @@ msgstr "Prioridade"
 
 #. STRINGS.UI.JOBSSCREEN.DECREASE_PRIORITY_TUTORIAL
 msgctxt "STRINGS.UI.JOBSSCREEN.DECREASE_PRIORITY_TUTORIAL"
-msgid "{Key} Decrease priority"
-msgstr "{Key} Reduzir prioridade"
+msgid "{Hotkey} Decrease priority"
+msgstr "{Hotkey} Reduzir prioridade"
 
 #. STRINGS.UI.JOBSSCREEN.DECREASE_ROW_PRIORITY_MINION_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.DECREASE_ROW_PRIORITY_MINION_TOOLTIP"
@@ -45908,8 +45944,8 @@ msgstr ""
 
 #. STRINGS.UI.JOBSSCREEN.INCREASE_PRIORITY_TUTORIAL
 msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_PRIORITY_TUTORIAL"
-msgid "{Key} Increase priority"
-msgstr "{Key} Aumentar prioridade"
+msgid "{Hotkey} Increase priority"
+msgstr "{Hotkey} Aumentar prioridade"
 
 #. STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_MINION_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.INCREASE_ROW_PRIORITY_MINION_TOOLTIP"
@@ -46179,8 +46215,10 @@ msgstr "<link=\"BUILDCATEGORYBASE\">Base</link>"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.BASE.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.BASE.TOOLTIP"
-msgid "Maintain your colony's infrastructure with these homebase basics."
-msgstr "Mantenha sua colônia funcionando com estas infraestruturas básicas."
+msgid ""
+"Maintain your colony's infrastructure with these homebase basics. {Hotkey}"
+msgstr ""
+"Mantenha sua colônia funcionando com estas infraestruturas básicas. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONDUITSENSORS.BUILDMENUTITLE"
@@ -46215,8 +46253,8 @@ msgstr ""
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.CONVEYANCE.TOOLTIP"
-msgid "Move solids objects around."
-msgstr "Mova objetos sólidos livremente."
+msgid "Move solids objects around. {Hotkey}"
+msgstr "Mova objetos sólidos livremente. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.COOKING.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.COOKING.BUILDMENUTITLE"
@@ -46245,8 +46283,9 @@ msgstr "Decor"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.DECOR.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DECOR.TOOLTIP"
-msgid "Spruce up your colony with some lovely interior decorating."
-msgstr "Enfeite minha colônia com um pouco de decoração de interiores."
+msgid "Spruce up your colony with some lovely interior decorating. {Hotkey}"
+msgstr ""
+"Enfeite minha colônia com um pouco de decoração de interiores. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.DOORS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.DOORS.BUILDMENUTITLE"
@@ -46275,8 +46314,8 @@ msgstr "Estações"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.EQUIPMENT.TOOLTIP"
-msgid "Unlock new technologies through the power of science!"
-msgstr "Desbloqueie novas tecnologias com o poder da ciência!"
+msgid "Unlock new technologies through the power of science! {Hotkey}"
+msgstr "Desbloqueie novas tecnologias com o poder da ciência! {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FARMING.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FARMING.BUILDMENUTITLE"
@@ -46300,8 +46339,8 @@ msgstr "<link=\"BUILDCATEGORYFOODANDAGRICULTURE\">Comida</link>"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FOODANDAGRICULTURE.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FOODANDAGRICULTURE.TOOLTIP"
-msgid "Keep your Duplicants' spirits high and their bellies full."
-msgstr "Mantenha seus Duplicantes felizes e de barriga cheia."
+msgid "Keep your Duplicants' spirits high and their bellies full. {Hotkey}"
+msgstr "Mantenha seus Duplicantes felizes e de barriga cheia. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.BUILDMENUTITLE"
@@ -46315,9 +46354,10 @@ msgstr "Móveis"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.FURNITURE.TOOLTIP"
-msgid "Amenities to keep your Duplicants happy, comfy and efficient."
+msgid "Amenities to keep your Duplicants happy, comfy and efficient. {Hotkey}"
 msgstr ""
-"Serviços para manter seus Duplicantes felizes, confortáveis e eficientes."
+"Serviços para manter seus Duplicantes felizes, confortáveis e eficientes. "
+"{Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.GENERATORS.BUILDMENUTITLE"
@@ -46341,9 +46381,11 @@ msgstr "<link=\"BUILDCATEGORYHEALTHANDHAPPINESS\">Acomodações</link>"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.HEALTHANDHAPPINESS.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.HEALTHANDHAPPINESS.TOOLTIP"
-msgid "Everything a Duplicant needs to stay happy, healthy, and fulfilled."
+msgid ""
+"Everything a Duplicant needs to stay happy, healthy, and fulfilled. {Hotkey}"
 msgstr ""
-"Tudo que um Duplicante precisa para ficar feliz, saudável e satisfeito."
+"Tudo que um Duplicante precisa para ficar feliz, saudável e satisfeito. "
+"{Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.HYGIENE.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.HYGIENE.BUILDMENUTITLE"
@@ -46368,10 +46410,11 @@ msgstr "<link=\"BUILDCATEGORYINDUSTRIAL\">Industriáveis</link>"
 #. STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIAL.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INDUSTRIAL.TOOLTIP"
 msgid ""
-"Machinery for oxygen production, heat management, and material refinement."
+"Machinery for oxygen production, heat management, and material refinement. "
+"{Hotkey}"
 msgstr ""
 "Maquinário para produção de oxigênio, gerenciamento de calor e refinamento "
-"de materiais."
+"de materiais. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.NAME
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.NAME"
@@ -46380,8 +46423,8 @@ msgstr "<link=\"BUILDCATEGORYINFRASTRUCTURE\">Utilitários</link>"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.INFRASTRUCTURE.TOOLTIP"
-msgid "Power, plumbing, and ventilation can all be found here."
-msgstr "Energia, encanamento e ventilação podem ser encontrados aqui."
+msgid "Power, plumbing, and ventilation can all be found here. {Hotkey}"
+msgstr "Energia, encanamento e ventilação podem ser encontrados aqui. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LADDERS.BUILDMENUTITLE"
@@ -46462,8 +46505,9 @@ msgstr "<link=\"BUILDCATEGORYLOGISTICS\">Logística</link>"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.LOGISTICS.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.LOGISTICS.TOOLTIP"
-msgid "Devices for base automation and material transport."
-msgstr "Dispositivos para automação da base e transporte de materiais."
+msgid "Devices for base automation and material transport. {Hotkey}"
+msgstr ""
+"Dispositivos para automação da base e transporte de materiais. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.BUILDMENUTITLE"
@@ -46477,8 +46521,8 @@ msgstr "Médico"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.MEDICAL.TOOLTIP"
-msgid "A cure for everything but the common cold."
-msgstr "A cura para tudo menos para um resfriado."
+msgid "A cure for everything but the common cold. {Hotkey}"
+msgstr "A cura para tudo menos para um resfriado. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.OXYGEN.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.OXYGEN.BUILDMENUTITLE"
@@ -46492,8 +46536,8 @@ msgstr "Oxigênio"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.OXYGEN.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.OXYGEN.TOOLTIP"
-msgid "Everything you need to keep your colony breathing."
-msgstr "Tudo que você precisa para manter a colônia respirando."
+msgid "Everything you need to keep your colony breathing. {Hotkey}"
+msgstr "Tudo que você precisa para manter a colônia respirando. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.PIPES.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PIPES.BUILDMENUTITLE"
@@ -46522,8 +46566,8 @@ msgstr "Encanamento"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.PLUMBINGSTRUCTURES.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.PLUMBINGSTRUCTURES.TOOLTIP"
-msgid "Get your water running and the sewage flowing."
-msgstr "Faça a água da colônia correr e o esgoto fluir."
+msgid "Get your water running and the sewage flowing. {Hotkey}"
+msgstr "Faça a água da colônia correr e o esgoto fluir. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.POWERCONTROL.BUILDMENUTITLE"
@@ -46586,8 +46630,8 @@ msgstr "Refinar"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.REFINING.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.REFINING.TOOLTIP"
-msgid "Use the resources you want, filter the ones you don't."
-msgstr "Use os recursos que você quer, filtre os que você não quer."
+msgid "Use the resources you want, filter the ones you don't. {Hotkey}"
+msgstr "Use os recursos que você quer, filtre os que você não quer. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.RESEARCH.BUILDMENUTITLE"
@@ -46616,8 +46660,8 @@ msgstr "Foguetes"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.ROCKETRY.TOOLTIP"
-msgid ""
-msgstr ""
+msgid "Rocketry {Hotkey}"
+msgstr "Foguetes {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.STORAGE.BUILDMENUTITLE"
@@ -46699,8 +46743,8 @@ msgstr "Tubos"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.TOOLTIP
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.VENTILATIONSTRUCTURES.TOOLTIP"
-msgid "Control the flow of gas in your base."
-msgstr "Controla o fluxo de gás na sua base."
+msgid "Control the flow of gas in your base. {Hotkey}"
+msgstr "Controla o fluxo de gás na sua base. {Hotkey}"
 
 #. STRINGS.UI.NEWBUILDCATEGORIES.WIRES.BUILDMENUTITLE
 msgctxt "STRINGS.UI.NEWBUILDCATEGORIES.WIRES.BUILDMENUTITLE"
@@ -49313,15 +49357,16 @@ msgstr "<b>Duplicantes que dominaram este trabalho:</b>{0}"
 #. STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_LOCKED
 msgctxt "STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_LOCKED"
 msgid ""
-"Sandbox mode must be unlocked in the options menu before it can be used."
+"Sandbox mode must be unlocked in the options menu before it can be used. "
+"{Hotkey}"
 msgstr ""
 "Modo caixa de areia precisa ser desbloqueado no menu de opções antes de ser "
-"usado."
+"usado. {Hotkey}"
 
 #. STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_UNLOCKED
 msgctxt "STRINGS.UI.SANDBOX_TOGGLE.TOOLTIP_UNLOCKED"
-msgid "Toggle Sandbox mode"
-msgstr "Alternar Modo Caixa de Areia"
+msgid "Toggle Sandbox mode {Hotkey}"
+msgstr "Alternar Modo Caixa de Areia {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.CLEARFLOOR.DELETED
 msgctxt "STRINGS.UI.SANDBOXTOOLS.CLEARFLOOR.DELETED"
@@ -49410,8 +49455,8 @@ msgstr "Pincel"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP"
-msgid "Paint elements into the world simulation"
-msgstr "Pinte elementos na simulação do mundo"
+msgid "Paint elements into the world simulation {Hotkey}"
+msgstr "Pinte elementos na simulação do mundo {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME"
@@ -49440,8 +49485,8 @@ msgstr "Limpar Entulho"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.CLEAR_FLOOR.TOOLTIP"
-msgid "Delete loose items cluttering the floor"
-msgstr "Remover itens soltos sujando o chão"
+msgid "Delete loose items cluttering the floor {Hotkey}"
+msgstr "Remover itens soltos sujando o chão {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.NAME"
@@ -49450,8 +49495,8 @@ msgstr "Destruir"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.TOOLTIP"
-msgid "Delete everything in the selected cell(s)"
-msgstr "Destrua tudo da(s) célula(s) selecionada(s)"
+msgid "Delete everything in the selected cell(s) {Hotkey}"
+msgstr "Destrua tudo da(s) célula(s) selecionada(s) {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME"
@@ -49470,8 +49515,8 @@ msgstr "Encher"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP"
-msgid "Fill a section of the simulation with the chosen element"
-msgstr "Encha uma seção da simulação com o elemento escolhido"
+msgid "Fill a section of the simulation with the chosen element {Hotkey}"
+msgstr "Encha uma seção da simulação com o elemento escolhido {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.NAME"
@@ -49480,8 +49525,8 @@ msgstr "Revelar"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.TOOLTIP"
-msgid "Dispel the Fog of War shrouding the map"
-msgstr "Disperse a Névoa da Guerra ao redor do mapa"
+msgid "Dispel the Fog of War shrouding the map {Hotkey}"
+msgstr "Disperse a Névoa da Guerra ao redor do mapa {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.NAME"
@@ -49490,8 +49535,8 @@ msgstr "Arma de Calor"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP"
-msgid "Inject thermal energy into the simulation"
-msgstr "Injete energia térmica na simulação"
+msgid "Inject thermal energy into the simulation {Hotkey}"
+msgstr "Injete energia térmica na simulação {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME"
@@ -49522,9 +49567,10 @@ msgstr "Copiar"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SAMPLE.TOOLTIP"
-msgid "Copy the settings from a cell to use with brush tools"
+msgid "Copy the settings from a cell to use with brush tools {Hotkey}"
 msgstr ""
-"Copie as configurações de um bloco para utilizá-lo com outras ferramentas"
+"Copie as configurações de um bloco para utilizá-lo com outras ferramentas "
+"{Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWN_ENTITY.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWN_ENTITY.NAME"
@@ -49538,8 +49584,8 @@ msgstr "Invocador"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.TOOLTIP"
-msgid "Spawn critters, food, equipment, and other entities"
-msgstr "Invoque comida, criaturas, equipamentos e outras entidades"
+msgid "Spawn critters, food, equipment, and other entities {Hotkey}"
+msgstr "Invoque comida, criaturas, equipamentos e outras entidades {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.NAME"
@@ -49548,8 +49594,8 @@ msgstr "Espalhar"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPRINKLE.TOOLTIP"
-msgid "Paint elements into the simulation using noise"
-msgstr "Pinte elementos na simulação usando ruído"
+msgid "Paint elements into the simulation using noise {Hotkey}"
+msgstr "Pinte elementos na simulação usando ruído {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME"
@@ -50959,8 +51005,8 @@ msgstr "Ferramenta Esvaziar Cano"
 
 #. STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP
 msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP"
-msgid "Extract pipe contents"
-msgstr "Extrai conteúdos de canos e tubos"
+msgid "Extract pipe contents {Hotkey}"
+msgstr "Extrai conteúdos de canos e tubos {Hotkey}"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ALL
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ALL"
@@ -51183,7 +51229,6 @@ msgid "Heat Gun"
 msgstr "Arma de Calor"
 
 #. STRINGS.UI.TOOLS.SANDBOX.MARQUEE.NAME
-#, fuzzy
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.MARQUEE.NAME"
 msgid "Marquee"
 msgstr "Marquise"
@@ -51234,8 +51279,8 @@ msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.ATTACKBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.ATTACKBUTTON"
-msgid "Attack poor, wild critters"
-msgstr "Arraste para atacar pobres criaturas selvagens"
+msgid "Attack poor, wild critters {Hotkey}"
+msgstr "Arraste para atacar pobres criaturas selvagens {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.BASE_VALUE
 msgctxt "STRINGS.UI.TOOLTIPS.BASE_VALUE"
@@ -51244,28 +51289,30 @@ msgstr "Valor Base"
 
 #. STRINGS.UI.TOOLTIPS.CANCELBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.CANCELBUTTON"
-msgid "Cancel errands"
-msgstr "Cancelar tarefas"
+msgid "Cancel errands {Hotkey}"
+msgstr "Cancelar tarefas {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CANCELDECONSTRUCTIONBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.CANCELDECONSTRUCTIONBUTTON"
-msgid "Cancel queued orders or deconstruct existing buildings"
-msgstr "Cancelar ordens enfileiradas ou desconstrução de estruturas existentes"
+msgid "Cancel queued orders or deconstruct existing buildings {Hotkey}"
+msgstr ""
+"Cancelar ordens enfileiradas ou desconstrução de estruturas existentes "
+"{Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CAPTUREBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.CAPTUREBUTTON"
-msgid "Capture critters"
-msgstr "Capturar criaturas"
+msgid "Capture critters {Hotkey}"
+msgstr "Capturar criaturas {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CLEANUPMAINBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.CLEANUPMAINBUTTON"
-msgid "Mop and sweep messy floors"
-msgstr "Secar e coletar pisos molhados e bagunçados"
+msgid "Mop and sweep messy floors {Hotkey}"
+msgstr "Secar e coletar pisos molhados e bagunçados {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CLEARBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.CLEARBUTTON"
-msgid "Move debris into storage"
-msgstr "Mover entulho para a armazenagem"
+msgid "Move debris into storage {Hotkey}"
+msgstr "Mover entulho para a armazenagem {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CLOSETOOLTIP
 msgctxt "STRINGS.UI.TOOLTIPS.CLOSETOOLTIP"
@@ -51274,38 +51321,38 @@ msgstr "Fechar"
 
 #. STRINGS.UI.TOOLTIPS.CONVEYOR_OVERLAY_STRING
 msgctxt "STRINGS.UI.TOOLTIPS.CONVEYOR_OVERLAY_STRING"
-msgid "Displays conveyor transport components"
-msgstr "Mostra os componentes de um circuito de transportador"
+msgid "Displays conveyor transport components {Hotkey}"
+msgstr "Mostra os componentes de um circuito de transportador {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.CROPS_OVERLAY_STRING
 msgctxt "STRINGS.UI.TOOLTIPS.CROPS_OVERLAY_STRING"
-msgid "Displays plant growth progress"
-msgstr "Mostra o progresso de crescimento da planta"
+msgid "Displays plant growth progress {Hotkey}"
+msgstr "Mostra o progresso de crescimento da planta {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DECONSTRUCTBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.DECONSTRUCTBUTTON"
-msgid "Demolish buildings"
-msgstr "Demolir estruturas"
+msgid "Demolish buildings {Hotkey}"
+msgstr "Demolir estruturas {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DECOROVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.DECOROVERLAYSTRING"
-msgid "Displays areas with Morale-boosting decor values"
-msgstr "Mostra áreas com valores de decor melhoradores de Moral"
+msgid "Displays areas with Morale-boosting decor values {Hotkey}"
+msgstr "Mostra áreas com valores de decor melhoradores de Moral {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DIGBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.DIGBUTTON"
-msgid "Set dig errands"
-msgstr "Definir tarefas de cavar"
+msgid "Set dig errands {Hotkey}"
+msgstr "Definir tarefas de cavar {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.DISEASEOVERLAYSTRING"
-msgid "Displays areas of disease risk"
-msgstr "Mostra áreas com risco de doenças"
+msgid "Displays areas of disease risk {Hotkey}"
+msgstr "Mostra áreas com risco de doenças {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DISINFECTBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.DISINFECTBUTTON"
-msgid "Disinfect buildings"
-msgstr "Desinfetar estruturas"
+msgid "Disinfect buildings {Hotkey}"
+msgstr "Desinfetar estruturas {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.DISMISSMESSAGE
 msgctxt "STRINGS.UI.TOOLTIPS.DISMISSMESSAGE"
@@ -51334,18 +51381,18 @@ msgstr "<link=\"POWER\">Energia</link> Requerida"
 
 #. STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.GASVENTOVERLAYSTRING"
-msgid "Displays gas pipe system components"
-msgstr "Mostra os componentes de uma tubulação de gás"
+msgid "Displays gas pipe system components {Hotkey}"
+msgstr "Mostra os componentes de uma tubulação de gás {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.HARVESTBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.HARVESTBUTTON"
-msgid "Harvest plants"
-msgstr "Colher plantas"
+msgid "Harvest plants {Hotkey}"
+msgstr "Colher plantas {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.HEATFLOWOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.HEATFLOWOVERLAYSTRING"
-msgid "Displays comfortable temperatures for Duplicants"
-msgstr "Mostra áreas com temperaturas confortáveis para Duplicantes"
+msgid "Displays comfortable temperatures for Duplicants {Hotkey}"
+msgstr "Mostra áreas com temperaturas confortáveis para Duplicantes {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_ATTACHPOINT
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_ATTACHPOINT"
@@ -51514,38 +51561,46 @@ msgstr "Mostra a energia térmica em cada célula"
 
 #. STRINGS.UI.TOOLTIPS.LIGHTSOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.LIGHTSOVERLAYSTRING"
-msgid "Displays the visibility radius of light sources"
-msgstr "Mostra o raio de visibilidade de fontes de luz"
+msgid "Displays the visibility radius of light sources {Hotkey}"
+msgstr "Mostra o raio de visibilidade de fontes de luz {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.LIQUIDVENTOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.LIQUIDVENTOVERLAYSTRING"
-msgid "Displays liquid pipe system components"
-msgstr "Mostra componentes de um encanamento de líquidos"
+msgid "Displays liquid pipe system components {Hotkey}"
+msgstr "Mostra componentes de um encanamento de líquidos {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.LOGICOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.LOGICOVERLAYSTRING"
-msgid "Displays automation grid components"
-msgstr "Mostra os componentes de um circuito automatizado"
+msgid "Displays automation grid components {Hotkey}"
+msgstr "Mostra os componentes de um circuito automatizado {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CODEX
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CODEX"
-msgid "Browse entries in my Database"
-msgstr "Navegar pela minha base de dados"
+msgid "Browse entries in my Database {Hotkey}"
+msgstr "Navegar pela minha base de dados {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CONSUMABLES
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CONSUMABLES"
-msgid "Manage colony diets"
-msgstr "Gerenciar dieta da colônia"
+msgid "Manage colony diets {Hotkey}"
+msgstr "Gerenciar dieta da colônia {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_DAILYREPORT
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_DAILYREPORT"
-msgid "View each cycle's Colony Report"
-msgstr "Visualizar cada Relatório diário da Colônia"
+msgid "View each cycle's Colony Report {Hotkey}"
+msgstr "Visualizar cada Relatório diário da Colônia {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_JOBS
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_JOBS"
-msgid "Manage my Duplicants' Errand Type Priorities"
-msgstr "Gerencie as prioridades dos Duplicantes por Tipo de Tarefa"
+msgid ""
+"Manage my Duplicants' Errand Type Priorities {Hotkey}\n"
+"------------------\n"
+"Duplicants' priorities are calculated <i>before</i> specific errand priority "
+"set using the Priority tool."
+msgstr ""
+"Gerenciar as Prioridades por Tipo de Tarefa dos meus Duplicantes {Hotkey}\n"
+"------------------\n"
+"Prioridades dos Duplicantes são calculadas <i>antes</i> das prioridades por "
+"tarefa específica definidas usando a ferramenta Prioridade."
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_RESEARCH
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_REQUIRES_RESEARCH"
@@ -51588,28 +51643,28 @@ msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESEARCH
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESEARCH"
-msgid "View the Research Tree"
-msgstr "Visualize a Árvore Tecnológica"
+msgid "View the Research Tree {Hotkey} {Hotkey}"
+msgstr "Visualize a Árvore Tecnológica {Hotkey} {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_ROLES
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_ROLES"
-msgid "Manage Duplicants' job assignments"
-msgstr "Gerenciar as atribuições de trabalho dos Duplicantes"
+msgid "Manage Duplicants' job assignments {Hotkey} {Hotkey}"
+msgstr "Gerenciar as atribuições de trabalho dos Duplicantes {Hotkey} {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE"
-msgid "Adjust the colony's time usage"
-msgstr "Ajustar o uso do tempo da colônia"
+msgid "Adjust the colony's time usage {Hotkey}"
+msgstr "Ajustar o uso do tempo da colônia {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP"
-msgid "Manage astronaut rocket missions"
-msgstr "Gerencie missões dos astronautas"
+msgid "Manage astronaut rocket missions {Hotkey} {Hotkey}"
+msgstr "Gerencie missões dos astronautas {Hotkey} {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS"
-msgid "View my Duplicants' vitals"
-msgstr "Visualizar os sinais vitais dos meus Duplicantes"
+msgid "View my Duplicants' vitals {Hotkey}"
+msgstr "Visualizar os sinais vitais dos meus Duplicantes {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MATIERIAL_MOD
 msgctxt "STRINGS.UI.TOOLTIPS.MATIERIAL_MOD"
@@ -51646,8 +51701,8 @@ msgstr "População: {0}"
 
 #. STRINGS.UI.TOOLTIPS.MOPBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.MOPBUTTON"
-msgid "Mop liquid spills"
-msgstr "Seque líquidos derramados"
+msgid "Mop liquid spills {Hotkey}"
+msgstr "Seque líquidos derramados {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.NEXTMESSAGESTOOLTIP
 msgctxt "STRINGS.UI.TOOLTIPS.NEXTMESSAGESTOOLTIP"
@@ -51661,8 +51716,8 @@ msgstr "Nenhuma registro disponível na base de dados"
 
 #. STRINGS.UI.TOOLTIPS.NOISE_POLLUTION_OVERLAY_STRING
 msgctxt "STRINGS.UI.TOOLTIPS.NOISE_POLLUTION_OVERLAY_STRING"
-msgid "Displays ambient noise levels"
-msgstr "Mostra níveis de barulho do ambiente"
+msgid "Displays ambient noise levels {Hotkey}"
+msgstr "Mostra níveis de barulho do ambiente {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.NOMATERIAL
 msgctxt "STRINGS.UI.TOOLTIPS.NOMATERIAL"
@@ -51676,13 +51731,13 @@ msgstr "Ver registro completo na base de dados"
 
 #. STRINGS.UI.TOOLTIPS.OXYGENOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.OXYGENOVERLAYSTRING"
-msgid "Displays ambient oxygen density"
-msgstr "Mostra a densidade do oxigênio no ambiente"
+msgid "Displays ambient oxygen density {Hotkey}"
+msgstr "Mostra a densidade do oxigênio no ambiente {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.PAUSE
 msgctxt "STRINGS.UI.TOOLTIPS.PAUSE"
-msgid "Pause"
-msgstr "Pausa"
+msgid "Pause {Hotkey}"
+msgstr "Pausar {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.PAUSEBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.PAUSEBUTTON"
@@ -51696,18 +51751,26 @@ msgstr "Iniciar"
 
 #. STRINGS.UI.TOOLTIPS.POWEROVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.POWEROVERLAYSTRING"
-msgid "Displays power grid components"
-msgstr "Mostra os componentes de um circuito elétrico"
+msgid "Displays power grid components {Hotkey}"
+msgstr "Mostra os componentes de um circuito elétrico {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.PRIORITIESOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIESOVERLAYSTRING"
-msgid "Displays work priority values"
-msgstr "Mostra os valores de prioridade das tarefas"
+msgid "Displays work priority values {Hotkey}"
+msgstr "Mostra os valores de prioridade das tarefas {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.PRIORITIZEBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIZEBUTTON"
-msgid "Set Specific Errand Priority"
-msgstr "Definir Prioridade de Tarefa Específica"
+msgid ""
+"Set Specific Errand Priority {Hotkey}\n"
+"------------------\n"
+"Specific priority set from this tool are calculated <i>after</i> the "
+"Duplicants' priorities set on the Priorities Screen"
+msgstr ""
+"Definir Prioridade por Tarefa Específica {Hotkey}\n"
+"------------------\n"
+"Prioridades específicas definidas por essa ferramenta são calculadas "
+"<i>depois</i> das prioridades definidas na Tela de Prioridades"
 
 #. STRINGS.UI.TOOLTIPS.PRIORITIZEMAINBUTTON
 msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIZEMAINBUTTON"
@@ -51762,8 +51825,8 @@ msgstr "Alternar Alertar Vermelho"
 
 #. STRINGS.UI.TOOLTIPS.ROOMSOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.ROOMSOVERLAYSTRING"
-msgid "Displays special purpose rooms and bonuses"
-msgstr "Mostra salas especiais e seus bônus"
+msgid "Displays special purpose rooms and bonuses {Hotkey}"
+msgstr "Mostra salas especiais e seus bônus {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.SELECTAMATERIAL
 msgctxt "STRINGS.UI.TOOLTIPS.SELECTAMATERIAL"
@@ -51777,18 +51840,18 @@ msgstr "Clique para organizar"
 
 #. STRINGS.UI.TOOLTIPS.SPEEDBUTTON_FAST
 msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_FAST"
-msgid "Fast speed {0}"
-msgstr "Velocidade rápida {0}"
+msgid "Fast speed {Hotkey}"
+msgstr "Velocidade rápida {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.SPEEDBUTTON_MEDIUM
 msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_MEDIUM"
-msgid "Medium speed {0}"
-msgstr "Velocidade média {0}"
+msgid "Medium speed {Hotkey}"
+msgstr "Velocidade média {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.SPEEDBUTTON_SLOW
 msgctxt "STRINGS.UI.TOOLTIPS.SPEEDBUTTON_SLOW"
-msgid "Slow speed {0}"
-msgstr "Velocidade lenta {0}"
+msgid "Slow speed {Hotkey}"
+msgstr "Velocidade lenta {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.STATSPANEL
 msgctxt "STRINGS.UI.TOOLTIPS.STATSPANEL"
@@ -51825,18 +51888,18 @@ msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.SUITOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.SUITOVERLAYSTRING"
-msgid "Displays Exosuits and related buildings"
-msgstr "Mostra os locais dos Exotrajes e estruturas relacionadas"
+msgid "Displays Exosuits and related buildings {Hotkey}"
+msgstr "Mostra os locais dos Exotrajes e estruturas relacionadas {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.TEMPERATUREOVERLAYSTRING
 msgctxt "STRINGS.UI.TOOLTIPS.TEMPERATUREOVERLAYSTRING"
-msgid "Displays ambient temperature"
-msgstr "Mostra a temperatura ambiente"
+msgid "Displays ambient temperature {Hotkey}"
+msgstr "Mostra a temperatura ambiente {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.UNPAUSE
 msgctxt "STRINGS.UI.TOOLTIPS.UNPAUSE"
-msgid "Unpause"
-msgstr "Retomar"
+msgid "Unpause {Hotkey}"
+msgstr "Retomar {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ATMOSPHERE
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_ATMOSPHERE"
@@ -52838,8 +52901,6 @@ msgid " or "
 msgstr " ou "
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET
-#| msgctxt "STRINGS.MISC.STATUSITEMS.USING.NAME"
-#| msgid "Using {Target}"
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET"
 msgid "{Target}"
 msgstr ""
@@ -52961,6 +53022,8 @@ msgctxt ""
 msgid ""
 "{Name} could become idle if all other errands are cancelled or completed."
 msgstr ""
+"{Name} pode ficar ocioso se todas as outras tarefas forem canceladas ou "
+"concluídas."
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NA
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NA"
@@ -54122,10 +54185,10 @@ msgstr "Copiar Configurações"
 msgctxt "STRINGS.UI.USERMENUACTIONS.COPY_BUILDING_SETTINGS.TOOLTIP"
 msgid ""
 "Apply the settings and priorities of this building to other buildings of the "
-"same type"
+"same type {Hotkey}"
 msgstr ""
 "Aplicar as configurações e prioridades desta estrutura para outras "
-"estruturas do mesmo tipo"
+"estruturas do mesmo tipo {Hotkey}"
 
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME"
@@ -54235,18 +54298,18 @@ msgstr "Ativar Estrutura"
 #. STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP"
 msgid ""
-"Halt the use of this building\n"
+"Halt the use of this building {Hotkey}\n"
 "------------------\n"
 "Disabled buildings consume no energy or resources"
 msgstr ""
-"Suspender o uso desta estrutura\n"
+"Suspender o uso desta estrutura {Hotkey}\n"
 "------------------\n"
 "Estruturas desativadas consomem nenhuma energia ou recursos"
 
 #. STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.ENABLEBUILDING.TOOLTIP_OFF"
-msgid "Resume the use of this building"
-msgstr "Reativar o uso desta estrutura"
+msgid "Resume the use of this building {Hotkey}"
+msgstr "Reativar o uso desta estrutura {Hotkey}"
 
 #. STRINGS.UI.USERMENUACTIONS.FOLLOWCAM.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.FOLLOWCAM.NAME"
@@ -55647,6 +55710,26 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.IS_DEAD_TASK"
+#~ msgid "Uhh... \"Sleeping\""
+#~ msgstr "Ahnn... \"Dormindo\""
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_MARKED_FOR_DISABLE"
+#~ msgid "Being disabled"
+#~ msgstr "Está sendo desativado"
+
+#~ msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_JOBS"
+#~ msgid "Manage my Duplicants' Errand Type Priorities"
+#~ msgstr "Gerencie as prioridades dos Duplicantes por Tipo de Tarefa"
+
+#~ msgctxt "STRINGS.UI.TOOLTIPS.PAUSE"
+#~ msgid "Pause"
+#~ msgstr "Pausa"
+
+#~ msgctxt "STRINGS.UI.TOOLTIPS.PRIORITIZEBUTTON"
+#~ msgid "Set Specific Errand Priority"
+#~ msgstr "Definir Prioridade de Tarefa Específica"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NAME"
 #~ msgid "New Duplicants Available"
