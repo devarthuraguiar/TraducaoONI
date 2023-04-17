@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.1.1\n"
+"Project-Id-Version: Português foi Incluído! 2.1.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1000,7 +1000,7 @@ msgstr "Aguardando Por Materiais"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FABRICATOREMPTY.TOOLTIP"
-msgid "Fabrication will begin once materials have been deliverd"
+msgid "Fabrication will begin once materials have been delivered"
 msgstr "Fabricação começará assim que os materiais forem entregues"
 
 #. STRINGS.BUILDING.STATUSITEMS.FABRICATORIDLE.NAME
@@ -2837,14 +2837,14 @@ msgstr "Espaçonave pronta para o pouso"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION"
-msgid "Ready to land"
-msgstr "Pronta para o pouso"
+msgid "Space mission complete"
+msgstr "Missão espacial concluída"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION_TOOLTIP
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION_TOOLTIP"
-msgid "A spacecraft is ready to land"
-msgstr "Uma espaçonave está pronta para o pouso"
+msgid "Spacecrafts have completed their missions"
+msgstr "Espaçonaves concluíram suas missões"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.TOOLTIP"
@@ -29470,6 +29470,16 @@ msgstr ""
 "Atividades de lazer aumentam a <style=\"KKeyword\">Moral</style> dos "
 "Duplicantes"
 
+#. STRINGS.DUPLICANTS.MODIFIERS.DANCING.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCING.NAME"
+msgid "Dancing"
+msgstr "Dançando"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.DANCING.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DANCING.TOOLTIP"
+msgid "This Duplicant is showing off their best moves."
+msgstr "Este Duplicante está mostrando seus melhores passos."
+
 #. STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DARKNESS.NAME"
 msgid "Darkness"
@@ -38977,6 +38987,11 @@ msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLE"
 msgid "Debug Toggle"
 msgstr "Debug Alternar"
 
+#. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEFASTWORKERS
+msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEFASTWORKERS"
+msgid "Debug Toggle Fast Workers"
+msgstr "Debug Alternar Trabalhadores Rápidos"
+
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEMUSIC
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGTOGGLEMUSIC"
 msgid "Debug Toggle Music"
@@ -41759,7 +41774,25 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY"
 msgid ""
+"The temperature of an environment can have positive or negative effects on "
+"the wellbeing of my Duplicants, and the plants and critters in my colony. "
+"Selecting <b><color=#F44A4A>[F3]</b></color> will open the Temperature "
+"Overlay where I can check for hot and cold spots.\n"
+"\n"
+"I can use a Utility like an Ice-E Fan or a Space Heater to make an area "
+"colder or hotter. However, I will have limited success changing the "
+"temperature of a room unless I build the area with insulating tiles to "
+"prevent cold or warm air from escaping."
 msgstr ""
+"A temperatura de um ambiente pode causar efeitos positivos ou negativos na "
+"saúde dos meus Duplicantes, plantas e criaturas na minha colônia. Selecionar "
+"<b><color=#F44A4A>[F3]</b></color> abrirá o Painel Temperatura onde eu posso "
+"checar os pontos quentes e frios.\n"
+"\n"
+"Eu posso utilizar um Utilitário como um Geloventilador ou um Aquecedor para "
+"deixar uma área mais fria ou quente. No entanto, eu só conseguirei alterar a "
+"temperatura de uma sala se eu construir a área com blocos adiabáticos que "
+"impeçam que o ar quente ou frio escapem."
 
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME"
@@ -51389,7 +51422,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (2.1.1): {0}"
+msgstr "VERSÃO (2.1.2): {0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -52514,6 +52547,48 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CAREPACKAGES.TOOLTIP"
 msgid "Affects what resources can be printed from the Printing Pod"
 msgstr "Afeta quais recursos podem ser impressos pela Duplicadora"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.DISABLED.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS."
+"DISABLED.NAME"
+msgid "Disabled"
+msgstr "Desativado"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.DISABLED.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS."
+"DISABLED.TOOLTIP"
+msgid "Unchecked: Fast Workers Mode is turned off (Default)"
+msgstr "Desmarcado: Modo Trabalhadores Rápidos está desativado (Padrão)"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.ENABLED.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS."
+"ENABLED.NAME"
+msgid "Enabled"
+msgstr "Ativado"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS.ENABLED.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.LEVELS."
+"ENABLED.TOOLTIP"
+msgid "Checked: Fast Workers Mode is turned on"
+msgstr "Marcado: Modo Trabalhadores Rápidos está ativado"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.NAME"
+msgid "Fast Workers Mode"
+msgstr "Modo Trabalhadores Rápidos"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.FASTWORKERSMODE.TOOLTIP"
+msgid "Dupes will finish most work immediately and require little sleep"
+msgstr ""
+"Duplicantes irão terminar a maior parte dos trabalhos imediatamente e "
+"dormirão pouco"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.COMPROMISED.ATTRIBUTE_MODIFIER_NAME
 msgctxt ""
@@ -53932,8 +54007,8 @@ msgstr "OFICINA STEAM"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "RECREATION PACK!"
-msgstr "PACOTE DE RECREAÇÃO!"
+msgid "NEW SOUNDTRACK!"
+msgstr "NOVA TRILHA SONORA!"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -64938,8 +65013,6 @@ msgid "MB"
 msgstr "MB"
 
 #. STRINGS.UI.UNITSUFFIXES.LIGHT.LUX
-#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.LOU"
-#| msgid "Lou"
 msgctxt "STRINGS.UI.UNITSUFFIXES.LIGHT.LUX"
 msgid "Lux"
 msgstr "Lux"
@@ -67434,6 +67507,19 @@ msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
 
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION"
+#~ msgid "Ready to land"
+#~ msgstr "Pronta para o pouso"
+
+#~ msgctxt ""
+#~ "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION_TOOLTIP"
+#~ msgid "A spacecraft is ready to land"
+#~ msgstr "Uma espaçonave está pronta para o pouso"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "RECREATION PACK!"
+#~ msgstr "PACOTE DE RECREAÇÃO!"
+
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW"
 #~ msgid "{attrib}: {amount} (Low Lux)"
 #~ msgstr "{attrib}: {amount} (Lux Baixo)"
@@ -67444,10 +67530,6 @@ msgstr "Volcanea"
 #~ msgstr ""
 #~ "Bloco carpete continua decorando mesmo quando outro bloco é colocado "
 #~ "sobre ele."
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DANCING.NAME"
-#~ msgid "Dancing!"
-#~ msgstr "Dançando!"
 
 #~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DANCING.TOOLTIP"
 #~ msgid "This Duplicant is getting down with their bad self"
