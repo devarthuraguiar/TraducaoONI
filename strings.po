@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.7.7\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.7.8\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1027,22 +1027,6 @@ msgstr ""
 "------------------\n"
 "Ele chocará quando a Incubação chegar em 100%"
 
-#. STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.NAME
-msgctxt "STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.NAME"
-msgid "Insufficient Resources"
-msgstr "Recursos Insuficientes"
-
-#. STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.TOOLTIP
-msgctxt "STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.TOOLTIP"
-msgid ""
-"The mass of material that was delivered to this building was too low\n"
-"\n"
-"Deliver more material to run this building"
-msgstr ""
-"A quantidade de material entregue a esta estrutura foi muito baixa\n"
-"\n"
-"Entregue mais materiais para ativá-la"
-
 #. STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INVALIDBUILDINGLOCATION.NAME"
 msgid "Invalid Building Location"
@@ -1318,10 +1302,21 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDEGG.TOOLTIP"
 msgid "Collect eggs from critters to incubate"
 msgstr "Colete ovos de criaturas para incubação"
 
+#. STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.LINE_ITEM
+#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
+#| msgid "On {0}"
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.LINE_ITEM"
+msgid "• {0}"
+msgstr ""
+
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.NAME"
-msgid "No Gas Intake"
-msgstr "Sem Entrada de Gás"
+msgid ""
+"No Gas Intake\n"
+"{GasRequired}"
+msgstr ""
+"Sem Entrada de Gás\n"
+"{GasRequired}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.TOOLTIP"
@@ -1338,10 +1333,21 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASOUT.TOOLTIP"
 msgid "This building has nowhere to send gas"
 msgstr "Esta estrutura não tem por onde enviar gás"
 
+#. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM
+#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
+#| msgid "On {0}"
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM"
+msgid "• {0}"
+msgstr ""
+
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.NAME"
-msgid "No Liquid Intake"
-msgstr "Sem Entrada de Líquido"
+msgid ""
+"No Liquid Intake\n"
+"{LiquidRequired}"
+msgstr ""
+"Sem Entrada de Líquido\n"
+"{GasRequired}"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.TOOLTIP"
@@ -1387,6 +1393,33 @@ msgstr "Requer Recursos"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCE.TOOLTIP"
 msgid "This building is missing required materials"
 msgstr "Esta estrutura está sem os materiais necessários"
+
+#. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM
+#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
+#| msgid "On {0}"
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM"
+msgid "• {0}"
+msgstr ""
+
+#. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.NAME"
+msgid ""
+"Insufficient Resources\n"
+"{ResourcesRequired}"
+msgstr ""
+"Recursos Insuficientes\n"
+"{ResourcesRequired}"
+
+#. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.TOOLTIP"
+msgid ""
+"The mass of material that was delivered to this building was too low\n"
+"\n"
+"Deliver more material to run this building"
+msgstr ""
+"A quantidade de material entregue a esta estrutura foi muito baixa\n"
+"\n"
+"Entregue mais materiais para ativá-la"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDSEED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDSEED.NAME"
@@ -7061,71 +7094,79 @@ msgstr "Reparar automaticamente esta estrutura quando danificada"
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER1"
 msgid ""
 "<size=10><smallcaps><b>Re: Objectionable Request</b>\n"
-"From: <b>[REDACTED]</b>\n"
-"To: <b>[REDACTED]</b></smallcaps></size>"
+"From: <b>Dr. McClintock</b><alpha=#AA> <jmcclintock@gravitas.nova></color>\n"
+"To: <b>Director Stern</b><alpha=#AA> <jstern@gravitas.nova></color></smallcaps></size>"
 msgstr ""
 "<size=10><smallcaps><b>Re: Pedido Questionável</b>\n"
-"De: <b>[EDITADO]</b>\n"
-"Para: <b>[EDITADO]</b></smallcaps></size>"
+"De: <b>Dra. McClintock</b>\n"
+"Para: <b>Diretora Stern</b></smallcaps></size>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>I'm telling you it gives me a bad feeling in my gut.\n"
 "\n"
-"If you're committed to this then I can't stop you, but I won't be able to continue working at this facility.</indent>"
+"If you're committed to this then I can't stop you, but I won't be able to continue working at this facility.\n"
+"\n"
+"Dr. McClintock\n"
+"Bioengineering Department\n"
+"The Gravitas Facility</indent>"
 msgstr ""
 "<indent=5%>Eu estou lhe dizendo que isto está me dando um mal pressentimento.\n"
 "\n"
-"Se você estiver dedicada à isso então eu não posso te parar, mas eu não vou ter como continuar trabalhando neste instituto.</indent>"
+"Se você estiver dedicada à isso então eu não posso te parar, mas eu não vou ter como continuar trabalhando neste instituto.\n"
+"\n"
+"Dra. McClintock\n"
+"Departamento de Bioengenharia\n"
+"O Instituto Gravitas</indent>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER3"
 msgid ""
-"<alpha=#AA><indent=10%><size=10><smallcaps>From: <b>[REDACTED]</b>\n"
-"To: <b>[REDACTED]</b></smallcaps></size>\n"
+"<alpha=#AA><indent=10%><size=10><smallcaps>From: <b>Director Stern</b>\n"
+"To: <b>Dr. McClintock</b></smallcaps></size>\n"
 "Jodi, you signed off on the cranial chip implantation, is this really where you draw the line? It would be an invaluable safety measure.</indent></color>"
 msgstr ""
-"<alpha=#AA><indent=10%><size=10><smallcaps>De: <b>[EDITADO]</b>\n"
-"Para: <b>[EDITADO]</b></smallcaps></size>\n"
+"<alpha=#AA><indent=10%><size=10><smallcaps>De: <b>Diretora Stern</b>\n"
+"Para: <b>Dra. McClintock</b></smallcaps></size>\n"
 "Jodi, você assinou a implantação do chip craniano, e é aqui que você quer ditar o seu limite? Seria uma medida de segurança inestimável.</indent></color>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER4"
 msgid ""
-"<alpha=#AA><indent=15%><size=10><smallcaps>From: <b>[REDACTED]</b>\n"
-"To: <b>[REDACTED]</b></smallcaps></size>\n"
+"<alpha=#AA><indent=15%><size=10><smallcaps>From: <b>Dr. McClintock</b>\n"
+"To: <b>Director Stern</b></smallcaps></size>\n"
 "You can't be serious, Jacquelyn?</indent></color>"
 msgstr ""
-"<alpha=#AA><indent=15%><size=10><smallcaps>De: <b>[EDITADO]</b>\n"
-"Para: <b>[EDITADO]</b></smallcaps></size>\n"
+"<alpha=#AA><indent=15%><size=10><smallcaps>De: <b>Dra. McClintock</b>\n"
+"Para: <b>Diretora Stern</b></smallcaps></size>\n"
 "Você não deve tá falando sério, Jaqueline?</indent></color>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER5
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER5"
 msgid ""
-"<alpha=#AA><indent=20%><size=10><smallcaps>From: <b>[REDACTED]</b>\n"
-"To: <b>[REDACTED]</b></smallcaps></size>\n"
+"<alpha=#AA><indent=20%><size=10><smallcaps>From: <b>Director Stern</b>\n"
+"To: <b>Dr. McClintock</b></smallcaps></size>\n"
 "Doctor,\n"
 "Engineering's newest project was conceived under my supervision. Please give them any materials they require to move forward with their research.</indent></color>"
 msgstr ""
-"<alpha=#AA><indent=20%><size=10><smallcaps>De: <b>[EDITADO]</b>\n"
-"Para: <b>[EDITADO]</b></smallcaps></size>\n"
+"<alpha=#AA><indent=20%><size=10><smallcaps>De: <b>Diretora Stern</b>\n"
+"Para: <b>Dra. McClintock</b></smallcaps></size>\n"
 "Doutora,\n"
 "O mais novo projeto da Engenharia foi concebido sobre a minha supervisão. Por favor, dê a eles qualquer material que for necessário para continuar com a pesquisa.</indent></color>"
 
 #. STRINGS.CODEX.AICONTROL.BODY.CONTAINER6
 msgctxt "STRINGS.CODEX.AICONTROL.BODY.CONTAINER6"
 msgid ""
-"<alpha=#AA><indent=25%><size=10><smallcaps>From: <b>[REDACTED]</b>\n"
-"To: <b>[REDACTED]</b></smallcaps></size>\n"
+"<alpha=#AA><indent=25%><size=10><smallcaps>From: <b>Dr. McClintock</b>\n"
+"To: <b>Director Stern</b></smallcaps></size>\n"
 "Director,\n"
 "Engineering has requested brainmaps of all blueprint subjects for the development of a Pod linked software and I am reluctant to oblige.\n"
 "\n"
 "I believe they are seeking a way to exert temporary control over implanted subjects, and I fear this avenue of research may be ethically unsound.</indent></color>"
 msgstr ""
-"<alpha=#AA><indent=25%><size=10><smallcaps>De: <b>[EDITADO]</b>\n"
-"Para: <b>[EDITADO]</b></smallcaps></size>\n"
+"<alpha=#AA><indent=25%><size=10><smallcaps>De: <b>Dra. McClintock</b>\n"
+"Para: <b>Diretora Stern</b></smallcaps></size>\n"
 "Diretora,\n"
 "A Engenharia pediu mapas neurais de todas as cobaias modelo para o desenvolvimento de uma espécie de software ligado à impressora e estou relutante em aceitar.\n"
 "\n"
@@ -7145,12 +7186,12 @@ msgstr "Re: Pedido Questionável"
 msgctxt "STRINGS.CODEX.ARTHISTORYREQUEST.BODY.CONTAINER1"
 msgid ""
 "<size=10><smallcaps><b>Implant Database Request</b>\n"
-"From: <b>[REDACTED]</b>\n"
-"To: <b>[REDACTED]</b></smallcaps></size>"
+"From: <b>Director Stern</b><alpha=#AA> <jstern@gravitas.nova></color>\n"
+"To: <b>Dr. McClintock</b><alpha=#AA> <jmcclintock@gravitas.nova></color></smallcaps></size>"
 msgstr ""
 "<size=10><smallcaps><b>Pedido de Implantação no Banco de Dados</b>\n"
-"De: <b>[EDITADO]</b>\n"
-"Para: <b>[EDITADO]</b></smallcaps></size>"
+"De: <b>Diretora Stern</b>\n"
+"Para: <b>Dra. McClintock</b></smallcaps></size>"
 
 #. STRINGS.CODEX.ARTHISTORYREQUEST.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.ARTHISTORYREQUEST.BODY.CONTAINER2"
@@ -7170,14 +7211,16 @@ msgstr ""
 #. STRINGS.CODEX.ARTHISTORYREQUEST.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.ARTHISTORYREQUEST.BODY.CONTAINER3"
 msgid ""
-"<alpha=#AA><indent=10%><smallcaps>[REDACTED]</smallcaps>\n"
+"<alpha=#AA><indent=10%><size=10><smallcaps>From: <b>Dr. McClintock</b>\n"
+"To: <b>Director Stern</b></smallcaps></size>\n"
 "Director,\n"
 "\n"
 "I have been thinking, and it occurs to me that our subjects may one day travel outside the range of radio contact when establishing new colonies.\n"
 "I believe in such a case it is our duty to preserve our planet's non-scientific knowledge as colonies travel into the cosmos as representatives of humanity.\n"
 "I would like to make a formal request that arts and cultural histories make their way onto the microchip databases.</indent></color>"
 msgstr ""
-"<alpha=#AA><indent=10%><smallcaps>[EDITADO]</smallcaps>\n"
+"<alpha=#AA><indent=10%><size=10><smallcaps>De:<b>Dra. McClintock</b>\n"
+"Para: <b>Diretora Stern</b></smallcaps></size>\n"
 "Diretora,\n"
 "\n"
 "Eu estava pensando, e eu concluí que nossas cobaias podem um dia viajar para fora do alcance do contato do rádio ao estabelecer novas colônias.\n"
@@ -7237,6 +7280,46 @@ msgstr "NÃO ENCRIPTADO"
 msgctxt "STRINGS.CODEX.ATOMICONRECRUITMENT.TITLE"
 msgid "Results from Atomicon"
 msgstr "Resultados da Atomicon"
+
+#. STRINGS.CODEX.B835.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER1"
+msgid "I started work at a new company called the \"Gravitas Facility\" today! I was nervous I wouldn't get the job at first because I was fresh out of school, and I was so so so pushy in the interview, but the Director apparently liked my thesis on the physiological thermal regulation of arctic lizards. I'll be working with some brilliant geneticists, bioengineering organisms for space travel in harsh environments! It's like a dream come true. I get to work on exciting new research in a place where no one knows me!"
+msgstr "Eu comecei a trabalhar em uma nova companhia chamada \"Instituto Gravitas\" hoje! Eu estava com medo de não conseguir o trabalho porque eu tinha acabado de sair da faculdade, e eu fui muito muito insistente na entrevista, mas a Diretora aparentemente gostou da minha tese sobre a fisiologia da regulação térmica em lagartixas árticas. Eu vou estar trabalhando com alguns brilhantes geneticistas, criando seres vivos para viagens espaciais em ambientes extremos! É como se um sonho se tornasse realidade. Eu vou poder trabalhar em pesquisas empolgantes em um lugar onde ninguém me conhece!"
+
+#. STRINGS.CODEX.B835.BODY.CONTAINER2
+msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER2"
+msgid "No no no no no! It can't be! BANHI ANSARI is here, working on space shuttle thrusters in the robotics lab! As soon as she saw me she called me \"Bubbles\" and told everyone about the time I accidentally inhaled a bunch of fungal spores during lab, blew a big snot bubble out my nose and then sneezed all over Professor Avery! I can't believe that story followed me here! BANHI RUINS EVERYTHING!"
+msgstr "Não não não não não! Não pode ser! BELA ANSARI está aqui, trabalhando em propulsores espaciais no laboratório de robótica! Assim que eu vi ela me chamando de \"Bolhas\" e falando pra todo mundo do dia que eu acidentalmente cheirei um monte de esporos fúngico no laboratório, espirrei e uma bolha saiu do meu nariz e quando ela estourou voou tudinho no Professor Avery! Eu não posso acreditar que essa história me seguiu até aqui! BELA ARRUINA TUDO!"
+
+#. STRINGS.CODEX.B835.BODY.CONTAINER3
+msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER3"
+msgid "Everyone's calling me \"Bubbles\" instead of \"Doctor\" at work now! Some of them don't even know it's a nickname, but I don't want to correct them and seem rude or anything. Ugh! Why couldn't that story have just stayed back at Atoma U?"
+msgstr "Agora todo mundo no trabalho tá me chamando de \"Bolhas\" invés de \"Doutora\"! Alguns deles nem sabem que é um apelido, mas eu não quero corrigí-los para não parecer rude ou algo do tipo. Ugh! Por que essa história não ficou lá na Facu?"
+
+#. STRINGS.CODEX.B835.BODY.CONTAINER4
+msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER4"
+msgid "I've spent the last few days buried in my work, and I'm actually feeling a lot better. We finally perfected a gene manipulation that controls heat sensitivity in rats. Our test subjects barely even shiver in subzero temperatures now. We'll probably do a testrun tomorrow with Robotics to see how the rats fare in the prototype shuttles we're developing."
+msgstr "Eu passei os últimos dias mergulhada no meu trabalho, e eu tô até me sentindo bem melhor. Nós finalmente aperfeiçoamos uma manipulação do gene que controla a sensibilidade térmica nos ratos. Nossas cobaias mal tremem em temperaturas abaixo de zero. Nós provavelmente iremos fazer um teste amanhã com a Robótica pra ver se os ratos duram nas cápsulas protótipo que estamos desenvolvendo."
+
+#. STRINGS.CODEX.B835.BODY.CONTAINER5
+msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER5"
+msgid "HAHAHAHAHA! Bioengineering and Robotics did the testrun today and Banhi was securing the live cargo pods when one of the rats squeaked at her. She was so scared, she fell on her butt and TOOTED in front of EVERYONE! They're all calling her \"Pipsqueak\" - \"Bubbles\" doesn't seem quite so bad now. Pipsqueak's been a really good sport about it though, she even laughed it off at the time. I think we might actually be friends now? It's weird."
+msgstr "HAHAHAHAHA! Bioengenharia e Robótica fizeram o teste hoje e a Bela estava checando a carga de suporte vital quando um dos ratos chiou perto dela. Ela ficou com tanto medo que ela caiu de bunda e GRITOU na frente de TODO MUNDO! Eles agora tão chamando ela de \"Gemidão\" - agora \"Bolhas\" nem parece tão ruim assim. A Gemidão levou bem na esportiva, ela até riu na hora. Eu acho que agora nós até podemos ser amigas? Que esquisito."
+
+#. STRINGS.CODEX.B835.BODY.CONTAINER6
+msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER6"
+msgid "I lied. Me and Banhi aren't friends - we're BEST FRIENDS. She even showed me how she does her hair. We're gonna book the wind tunnel after work and run experiments together on thermo-rat rockets! Haha!"
+msgstr "Eu menti. Eu e a Bela não somos só amigas - Somos MELHORES AMIGAS. Ela até me mostrou como ela faz o cabelo dela. Nós reservamos o túnel de vento depois do trabalho para fazer uns experimentos juntas com ratos foguete! Haha!"
+
+#. STRINGS.CODEX.B835.SUBTITLE
+msgctxt "STRINGS.CODEX.B835.SUBTITLE"
+msgid "ENCRYPTION LEVEL: NONE"
+msgstr "NÍVEL DE ENCRIPTAÇÃO: NENHUM"
+
+#. STRINGS.CODEX.B835.TITLE
+msgctxt "STRINGS.CODEX.B835.TITLE"
+msgid "Personal Journal: B835"
+msgstr "Diário Pessoal: B835"
 
 #. STRINGS.CODEX.BACTERIALCULTURES.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BACTERIALCULTURES.BODY.CONTAINER1"
@@ -7571,11 +7654,11 @@ msgctxt "STRINGS.CODEX.DINNEREMAIL.BODY.CONTAINER1"
 msgid ""
 "<size=10><smallcaps><b>Re: You in?</b>\n"
 "From: <b>[REDACTED]</b>\n"
-"To: <b>Dr.Higgs</b></smallcaps></size>"
+"To: <b>Dr.Higgs</b><alpha=#AA> <wphiggs@gravitas.nova></color></smallcaps></size>"
 msgstr ""
 "<size=10><smallcaps><b>Re: Você topa?</b>\n"
 "De: <b>[EDITADO]</b>\n"
-"Para: <b>Dr. Higgs</b></smallcaps></size>"
+"Para: <b>Dr. Higgs</b><alpha=#AA> <wphiggs@gravitas.nova></color></smallcaps></size>"
 
 #. STRINGS.CODEX.DINNEREMAIL.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.DINNEREMAIL.BODY.CONTAINER2"
@@ -7585,7 +7668,7 @@ msgid ""
 "(P.S. I'm not kidding this time, Wil!)</indent>\n"
 "\n"
 "<size=10>[REDACTED]\n"
-"Physics\n"
+"Physics Department\n"
 "The Gravitas Facility</size>"
 msgstr ""
 "<indent=5%>Tá bom, mas só se nós formos para um lugar novo. Se você me fizer comer almôndegas mais uma vez eu juro que eu vou <i>VOMITAR</i>.\n"
@@ -7593,16 +7676,18 @@ msgstr ""
 "(P.S. Eu não estou brincando desta vez, Wil!)</indent>\n"
 "\n"
 "<size=10>[EDITADO]\n"
-"Física\n"
+"Departamento de Física\n"
 "O Instituto Gravitas</size>"
 
 #. STRINGS.CODEX.DINNEREMAIL.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.DINNEREMAIL.BODY.CONTAINER3"
 msgid ""
-"<alpha=#AA><indent=10%><smallcaps>wphiggs@gravitas.nova</smallcaps>\n"
-"Hey Dr.B, you in for a bite to eat with the team after work? It's only 4 and I'm already <i>starving</i>.</indent></color>"
+"<alpha=#AA><indent=10%><size=10><smallcaps>From: <b>Dr. Higgs</b>\n"
+"To: <b>[REDACTED]</b></smallcaps></size>\n"
+"Hey Dr. B, you in for a bite to eat with the team after work? It's only 4 and I'm already <i>starving</i>.</indent></color>"
 msgstr ""
-"<alpha=#AA><indent=10%><smallcaps>wphiggs@gravitas.nova</smallcaps>\n"
+"<alpha=#AA><indent=10%><size=10><smallcaps>De: <b>Dr. Higgs</b>\n"
+"Para: <b>[REDACTED]</b></smallcaps></size>\n"
 "Ei Dr. B, você topa sair pra comer com a equipe depois do trabalho? Já é quase 4 e eu já tô <i>morrendo de fome</i>.</indent></color>"
 
 #. STRINGS.CODEX.DINNEREMAIL.SUBTITLE
@@ -8155,6 +8240,86 @@ msgctxt "STRINGS.CODEX.HIBISCUS3.TITLE"
 msgid "Hibiscus-3"
 msgstr "Hibisco-3"
 
+#. STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER1"
+msgid ""
+"<size=10><smallcaps><b>Re: dr. holland's dog</b>\n"
+"From: <b>Dr. Jones</b><alpha=#AA> <ejones@gravitas.nova></color>\n"
+"To: <b>Dr. Summers</b><alpha=#AA> <jsummers@gravitas.nova></color></smallcaps></size>\n"
+msgstr ""
+"<size=10><smallcaps><b>Re: cachorro do dr. holland</b>\n"
+"De: <b>Dr. Jones</b><alpha=#AA> <ejones@gravitas.nova></color>\n"
+"Para: <b>Dr. Summers</b><alpha=#AA> <jsummers@gravitas.nova></color></smallcaps></size>\n"
+
+#. STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER2
+msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER2"
+msgid ""
+"<indent=5%><i><b>UGHHHHHHHH!</b></i>\n"
+"You're the worst!\n"
+"\n"
+"XOXO,\n"
+"Dr. Jones\n"
+"Information and Statistics Department\n"
+"The Gravitas Facility</indent>"
+msgstr ""
+"<indent=5%><i><b>AHHHHHHHHH!</b></i>\n"
+"Você é horrível!\n"
+"\n"
+"Abraços e Beijos,\n"
+"Dr. Jones\n"
+"Departamento de Informação e Estatística\n"
+"O Instituto Gravitas</indent>"
+
+#. STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER3
+msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER3"
+msgid ""
+"<alpha=#AA><indent=10%><size=10><smallcaps>From: <b>Dr. Summers</b>\n"
+"To: <b>Dr. Jones</b></smallcaps></size>\n"
+"Haha, I think it's cute, he really loves his dog. Oh! Did I show you the thing my cat did? She always falls asleep on my bed but last night she sprawled out on her back and her little tongue was poking out! So cute.\n"
+"\n"
+"<color=#F44A47>>[BROKEN IMAGE]</color>\n"
+"<alpha=#AA>[121 MISSING FILES ATTACHED]</indent></color>\n"
+msgstr ""
+"<alpha=#AA><indent=10%><size=10><smallcaps>De: <b>Dr. Summers</b>\n"
+"Para: <b>Dr. Jones</b></smallcaps></size>\n"
+"Haha, Eu achei fofo, ele realmente ama o cachorro dele. Ah! Eu te mostrei aquela coisa que a minha gata fez? Ela sempre dorme na minha cama mas ontem a noite ela se esticou de costa e ela ficou com a linguinha de fora! Foi tão fofo.\n"
+"\n"
+"<color=#F44A47>>[IMAGEM CORROMPIDA]</color>\n"
+"<alpha=#AA>[121 ARQUIVOS ANEXADOS FALTANDO]</indent></color>\n"
+
+#. STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER4
+msgctxt "STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER4"
+msgid ""
+"<alpha=#AA><indent=15%><size=10><smallcaps>From: <b>Dr. Jones</b>\n"
+"To: <b>Dr. Summers</b></smallcaps></size>\n"
+"OMIGOD, every time I go into the breakroom now I get ambushed by Dr. Holland and he traps me in a 20 minute long conversation about his new dog.\n"
+"\n"
+"Like, I GET it! Your puppy is cute! Why do you have like 400 different pictures of it on your phone, FROM THE SAME ANGLE?!\n"
+"\n"
+"SO annoying.\n"
+"\n"
+"XOXO,</indent></color>"
+msgstr ""
+"<alpha=#AA><indent=15%><size=10><smallcaps>De: <b>Dr. Jones</b>\n"
+"Para: <b>Dr. Summers</b></smallcaps></size>\n"
+"MEUDEUS, toda vez que eu vou pro sala de descanso eu sou abordado pelo Dr. Holland me deixando preso em uma conversa de 20 minutos sobre o novo cachorro dele.\n"
+"\n"
+"Tipo, EU ENTENDI! Ele é fofinho! Mas porque você tem que ter 400 fotos diferentes no celular, DO MESMO ÂNGULO?!\n"
+"\n"
+"MUITO irritante.\n"
+"\n"
+"Abraços e Beijos,</indent></color>"
+
+#. STRINGS.CODEX.HOLLANDSDOG.SUBTITLE
+msgctxt "STRINGS.CODEX.HOLLANDSDOG.SUBTITLE"
+msgid "UNENCRYPTED"
+msgstr "NÃO ENCRIPTADO"
+
+#. STRINGS.CODEX.HOLLANDSDOG.TITLE
+msgctxt "STRINGS.CODEX.HOLLANDSDOG.TITLE"
+msgid "Re: dr. holland's dog"
+msgstr "Re: dr. holland's dog"
+
 #. STRINGS.CODEX.MAILROOMETIQUETTE.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MAILROOMETIQUETTE.BODY.CONTAINER1"
 msgid ""
@@ -8226,24 +8391,26 @@ msgctxt "STRINGS.CODEX.MEMORYCHIP.BODY.CONTAINER1"
 msgid ""
 "<size=10><smallcaps><b>Subject: Duplicant Memory Solution</b>\n"
 "From: <b>[REDACTED]</b>\n"
-"To: <b>[REDACTED]</b></smallcaps></size>"
+"To: <b>Director Stern</b><alpha=#AA> <jstern@gravitas.nova></color></smallcaps></size>"
 msgstr ""
 "<size=10><smallcaps><b>Assunto: Solução para a Memória dos Duplicantes</b>\n"
 "De: <b>[EDITADO]</b>\n"
-"Para: <b>[EDITADO]</b></smallcaps></size>"
+"Para: <b>Diretora Stern</b><alpha=#AA> <jstern@gravitas.nova></color></smallcaps></size>"
 
 #. STRINGS.CODEX.MEMORYCHIP.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MEMORYCHIP.BODY.CONTAINER2"
 msgid ""
 "<indent=5%>Director,\n"
 "\n"
-"I had a thought about how to solve the Duplicant memory problem.\n"
+"I had a thought about how to solve your Duplicant memory problem.\n"
 "\n"
 "Rather than attempt to access the subject's old memories, what if we were to embed all necessary information for colony survival into the printing process itself?\n"
 "\n"
-"The amount of data engineering can store in a chip has grown exponentially over the last year.We should take advantage of the development.\n"
+"The amount of data engineering can store in a chip has grown exponentially over the last year. We should take advantage of the development.\n"
 "\n"
-"</indent>[REDACTED]]"
+"[REDACTED]\n"
+"Engineering Department\n"
+"The Gravitas Facility</indent>"
 msgstr ""
 "<indent=5%>Diretora,\n"
 "\n"
@@ -8253,7 +8420,9 @@ msgstr ""
 "\n"
 "A quantidade de dados que podem ser armazenadas em um chip cresceu exponencialmente no ano passado. Nós deveríamos nos aproveitar deste desenvolvimento.\n"
 "\n"
-"</indent>[EDITADO]"
+"[EDITADO]\n"
+"Departamento de Engenharia\n"
+"O Instituto Gravitas</indent>"
 
 #. STRINGS.CODEX.MEMORYCHIP.SUBTITLE
 msgctxt "STRINGS.CODEX.MEMORYCHIP.SUBTITLE"
@@ -9288,6 +9457,70 @@ msgstr "Raça da Criatura"
 msgctxt "STRINGS.CODEX.SUNNY.TITLE"
 msgid "Sun Bug"
 msgstr "Vagalume Solar"
+
+#. STRINGS.CODEX.THEJANITOR.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.THEJANITOR.BODY.CONTAINER1"
+msgid ""
+"<size=10><smallcaps><b>Re: omg the janitor</b>\n"
+"From: <b>Dr. Jones</b><alpha=#AA> <ejones@gravitas.nova></color>\n"
+"To: <b>Dr. Summers</b><alpha=#AA> <jsummers@gravitas.nova></color></smallcaps></size>\n"
+msgstr ""
+"<size=10><smallcaps><b>Re: meudeus o zelador</b>\n"
+"De: <b>Dr. Jones</b><alpha=#AA> <ejones@gravitas.nova></color>\n"
+"Para: <b>Dr. Summers</b><alpha=#AA> <jsummers@gravitas.nova></color></smallcaps></size>\n"
+
+#. STRINGS.CODEX.THEJANITOR.BODY.CONTAINER2
+msgctxt "STRINGS.CODEX.THEJANITOR.BODY.CONTAINER2"
+msgid ""
+"<indent=5%><i>Pfft,</i> whatever.\n"
+"\n"
+"XOXO,\n"
+"Dr. Jones\n"
+"Information and Statistics Department\n"
+"The Gravitas Facility</indent>"
+msgstr ""
+"<indent=5%><i>Pfft,</i> tanto faz.\n"
+"\n"
+"Abraços e Beijos,\n"
+"Dr. Jones\n"
+"Departamento de Informação e Estatística\n"
+"O Instituto Gravitas</indent>"
+
+#. STRINGS.CODEX.THEJANITOR.BODY.CONTAINER3
+msgctxt "STRINGS.CODEX.THEJANITOR.BODY.CONTAINER3"
+msgid ""
+"<alpha=#AA><indent=10%><size=10><smallcaps>From: <b>Dr. Summers</b>\n"
+"To: <b>Dr. Jones</b></smallcaps></size>\n"
+"Aw, he's really nice if you get to know him though. Really dependable too. One time I busted a wheel off my office chair and he got me a new one in like, two minutes. I think he's just sweaty because he works so hard.</indent></color>\n"
+msgstr ""
+"<alpha=#AA><indent=10%><size=10><smallcaps>De: <b>Dr. Summers</b>\n"
+"Para: <b>Dr. Jones</b></smallcaps></size>\n"
+"Ahn, ele pode ser legal se você conhecer ele né. Depende muito também. Uma vez eu quebrei uma rodinha da cadeira do meu escritório e ele me trouxe uma em tipo, dois minutos. Eu acho que ele vive suado porque ele deve trabalhar bastante.</indent></color>\n"
+
+#. STRINGS.CODEX.THEJANITOR.BODY.CONTAINER4
+msgctxt "STRINGS.CODEX.THEJANITOR.BODY.CONTAINER4"
+msgid ""
+"<alpha=#AA><indent=15%><size=10><smallcaps>From: <b>Dr. Jones</b>\n"
+"To: <b>Dr. Summers</b></smallcaps></size>\n"
+"OMIGOSH have you seen our building's janitor? He totally smells and he has sweatstains under his armpits like EVERY time I see him. SO embarassing.\n"
+"\n"
+"XOXO,</indent></color>"
+msgstr ""
+"<alpha=#AA><indent=15%><size=10><smallcaps>De: <b>Dr. Jones</b>\n"
+"Para: <b>Dr. Summers</b></smallcaps></size>\n"
+"MEUDEUS você já viu o zelador do nosso prédio? Ele fede e tem manchas de suor debaixo dos sovacos tipo TODA vez que eu vejo ele. MUITO vergonhoso.\n"
+"\n"
+"Abraços e Beijos,</indent></color>"
+
+#. STRINGS.CODEX.THEJANITOR.SUBTITLE
+msgctxt "STRINGS.CODEX.THEJANITOR.SUBTITLE"
+msgid "UNENCRYPTED"
+msgstr "NÃO ENCRIPTADO"
+
+#. STRINGS.CODEX.THEJANITOR.TITLE
+msgctxt "STRINGS.CODEX.THEJANITOR.TITLE"
+msgid "Re: omg the janitor"
+msgstr "Re: meudeus o zelador"
 
 #. STRINGS.CODEX.THIMBLEREED.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.THIMBLEREED.BODY.CONTAINER1"
@@ -10782,10 +11015,20 @@ msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEGRASS.DOMESTICATEDDESC"
 msgid "This plant improves <link=\"DECOR\">Decor</link>."
 msgstr "Esta planta melhora a <link=\"DECOR\">Decor</link>."
 
+#. STRINGS.CREATURES.SPECIES.PRICKLEGRASS.GROWTH_BONUS
+msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEGRASS.GROWTH_BONUS"
+msgid "Growth Bonus"
+msgstr "Bônus de Crescimento"
+
 #. STRINGS.CREATURES.SPECIES.PRICKLEGRASS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEGRASS.NAME"
 msgid "<link=\"PRICKLEGRASS\">Bluff Briar</link>"
 msgstr "<link=\"PRICKLEGRASS\">Urtiga</link>"
+
+#. STRINGS.CREATURES.SPECIES.PRICKLEGRASS.WILT_PENALTY
+msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEGRASS.WILT_PENALTY"
+msgid "Wilt Penalty"
+msgstr "Penalidade por Murchar"
 
 #. STRINGS.CREATURES.SPECIES.PROPANESPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PROPANESPOUT.DESC"
@@ -14181,6 +14424,11 @@ msgstr "Impossível pegar"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CHORE_DRIVER_IS_NULL"
 msgid "Assigned to: {Assignee}"
 msgstr "Designado à: {Assignee}"
+
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING"
+msgid "Currently Peeing"
+msgstr "Fazendo Xixi No Momento"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.DOES_SUIT_NEED_RECHARGING_IDLE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.DOES_SUIT_NEED_RECHARGING_IDLE"
@@ -17626,7 +17874,7 @@ msgstr "Esta {0} está constantemente desafiando outros para lutar com ela, inde
 #. STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.NAME"
 msgid "Bubbles"
-msgstr "Bárbara"
+msgstr "Bolhas"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BURT.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BURT.DESC"
@@ -29311,6 +29559,16 @@ msgctxt "STRINGS.ROOMS.CRITERIA.NEUTRAL_TYPE"
 msgid "Enclosed by wall tiles"
 msgstr "Circundado por blocos de parede"
 
+#. STRINGS.ROOMS.CRITERIA.NO_COTS.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.DESCRIPTION"
+msgid "Cannot contain basic Cots"
+msgstr "Não pode conter Berços"
+
+#. STRINGS.ROOMS.CRITERIA.NO_COTS.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.NO_COTS.NAME"
+msgid "No basic Cots"
+msgstr "Sem Berços"
+
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION"
 msgid "Cannot contain any building labelled Industrial Machinery"
@@ -29320,6 +29578,16 @@ msgstr "Não pode conter nenhuma estrutura rotulada como Maquinário Industrial"
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.NAME"
 msgid "No industrial machinery"
 msgstr "Nenhum maquinário industrial"
+
+#. STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.DESCRIPTION
+msgctxt "STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.DESCRIPTION"
+msgid "Cannot contain basic Outhouses"
+msgstr "Não pode conter Privadas"
+
+#. STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.NAME
+msgctxt "STRINGS.ROOMS.CRITERIA.NO_OUTHOUSES.NAME"
+msgid "No Outhouses"
+msgstr "Sem Privadas"
 
 #. STRINGS.ROOMS.CRITERIA.NO_TYPE_CONFLICTS
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_TYPE_CONFLICTS"
@@ -32355,7 +32623,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.7.7)"
+"- Traduzido por Chastomber :P (1.7.8)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33131,7 +33399,7 @@ msgstr "Baixa Moral (Fácil)"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.NAME"
 msgid "Easy"
-msgstr ""
+msgstr "Fácil"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY.TOOLTIP"
@@ -37261,6 +37529,11 @@ msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.HAS_EXPERIENCE.NAME"
 msgid "{0} Experience"
 msgstr "{0} Experiência"
 
+#. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERED
+msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.MASTERED"
+msgid "{0} has mastered the job {1}"
+msgstr "{0} dominou o trabalho {1}"
+
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.NO_APTITUDE
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.NO_APTITUDE"
 msgid "None"
@@ -37327,6 +37600,40 @@ msgstr "(Atualmente {0})"
 msgctxt "STRINGS.UI.ROLES_SCREEN.DROPDOWN.NAME_AND_ROLE"
 msgid "{0} <color=#F44A47FF>({1})</color>"
 msgstr ""
+
+#. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_DESC_EXPECTATION
+msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_DESC_EXPECTATION"
+msgid "Duplicant Morale is too low for their current expectations, so they will suffer Stress."
+msgstr "Moral do Duplicante é baixa demais para as expectativas atuais, então ele sofrerá Estresse."
+
+#. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_DESC_JOB
+msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_DESC_JOB"
+msgid "Duplicant Morale is too low for the assigned Job, so they will suffer Stress."
+msgstr "Moral do Duplicante é baixa demais para o Trabalho designado, então ele sofrerá Estresse."
+
+#. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_DESC_TARGET_JOB
+msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_DESC_TARGET_JOB"
+msgid "Duplicant Morale is too low for the expectations of this job, so they will suffer Stress."
+msgstr "Moral do Duplicante é baixa demais para este Trabalho, então ele sofrerá Estresse."
+
+#. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_EXPECTATION
+msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_EXPECTATION"
+msgid "Morale: {0}, Current Expectation: {1}"
+msgstr "Moral: {0}, Expectativa Atual: {1}"
+
+#. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_JOB
+#, fuzzy
+#| msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.QUALITYOFLIFE.TIER0.NAME"
+#| msgid "Morale expectation"
+msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_JOB"
+msgid "Morale: {0}, {2} job expecations: {1}"
+msgstr "Moral: {0}, expectativa do trabalho {2}: {1}"
+
+#. STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_TARGET_JOB
+#, fuzzy
+msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_TARGET_JOB"
+msgid "{2}'s Morale: {0}, {3} job expecations: {1}"
+msgstr "Moral de {2}: {0}, Expectativas de trabalho de {3}: {1}"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION"
@@ -42413,6 +42720,10 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.NAME"
+#~ msgid "Insufficient Resources"
+#~ msgstr "Recursos Insuficientes"
+
 #~ msgctxt "STRINGS.UI.ASTEROIDCLOCK.SCHEDULE_BUTTON_TOOLTIP"
 #~ msgid ""
 #~ "Manage Schedule\n"
@@ -45099,10 +45410,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.ORESCRUBBER.NAME"
 #~ msgid "Ore Scrubber"
 #~ msgstr "Purificador de Minérios"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.NAME"
-#~ msgid "Outhouse"
-#~ msgstr "Privada"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.PETROLEUMGENERATOR.NAME"
 #~ msgid "Petroleum Generator"
