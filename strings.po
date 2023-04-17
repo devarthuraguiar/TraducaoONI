@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.6.4\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.6.5\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -3373,11 +3373,11 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.EFFECT"
 msgid ""
-"<link=\"TOXICSAND\">Polluted Dirt</link> down into <link=\"FERTILIZER"
-"\">Fertilizer</link>."
+"Reduces <link=\"TOXICSAND\">Polluted Dirt</link> and other compostables down "
+"into <link=\"DIRT\">Dirt</link>."
 msgstr ""
-"Quebra <link=\"TOXICSAND\">Terra Poluída</link> em <link=\"FERTILIZER"
-"\">Fertilizante</link>."
+"Reduz <link=\"TOXICSAND\">Terra Poluída</link> e outros compostáveis em "
+"<link=\"DIRT\">Terra</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.NAME"
@@ -3756,6 +3756,24 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME"
 msgid "<link=\"EXTERIORWALL\">Wall</link>"
 msgstr "<link=\"EXTERIORWALL\">Parede</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC"
+msgid "Window"
+msgstr "Janela"
+
+#. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.EFFECT
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.EFFECT"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME
+#| msgctxt "STRINGS.ELEMENTS.SNOW.NAME"
+#| msgid "<link=\"SNOW\">Snow</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.NAME"
+msgid "<link=\"\">Window</link>"
+msgstr "<link=\"\">Janela</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FARMSTATION.DESC"
@@ -7013,6 +7031,25 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.NAME"
 msgid "<link=\"SPACEHEATER\">Space Heater</link>"
 msgstr "<link=\"SPACEHEATER\">Aquecedor</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.SPACEWALL.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.DESC"
+msgid "Keeps the space out and the atmosphere in"
+msgstr "Mantém o espaço fora e a atmosfera dentro"
+
+#. STRINGS.BUILDINGS.PREFABS.SPACEWALL.EFFECT
+#| msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.PICK_JOB"
+#| msgid "Job..."
+msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.EFFECT"
+msgid "..."
+msgstr "..."
+
+#. STRINGS.BUILDINGS.PREFABS.SPACEWALL.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.NAME"
+#| msgid "<link=\"SPACEHEATER\">Space Heater</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.NAME"
+msgid "<link=\"SPACEWALL\">Space Wall</link>"
+msgstr "<link=\"SPACEWALL\">Parede Espacial</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE.DESC"
 msgid "Useful for converting the geothermal energy of magma into usable power."
@@ -8623,205 +8660,6 @@ msgctxt "STRINGS.CREATURES.BAGGED_NAME_FMT"
 msgid "Bagged {0}"
 msgstr "{0} Empacotado"
 
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.NAME"
-msgid "Acceptable Atmosphere"
-msgstr "Atmosfera Aceitável"
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.TOOLTIP"
-msgid "It's breathable."
-msgstr "É respirável."
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.NAME"
-msgid "Fed"
-msgstr "Alimentado"
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.TOOLTIP"
-msgid "Has enough food to eat."
-msgstr "Possui comida suficiente para comer."
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.NAME"
-msgid "Critter Pen"
-msgstr "Curral de Criaturas"
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.TOOLTIP"
-msgid "Has a pen to live in."
-msgstr "Possui um curral para morar."
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.NAME"
-msgid "Comfortable Temperature"
-msgstr "Temperatura Confortável"
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.TOOLTIP"
-msgid "Not too hot, not too cold."
-msgstr "Não muito quente, nem muito frio."
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.NAME"
-msgid "Well Fed"
-msgstr "Bem Alimentado"
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.TOOLTIP"
-msgid "This critter has recently dined on its favorite food."
-msgstr "Esta criatura comeu recentemente sua comida favorita."
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.NAME"
-msgid "Well Groomed"
-msgstr "Bem Escovada"
-
-#. STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.TOOLTIP"
-msgid "Getting plenty of personal attention from a Rancher."
-msgstr "Ganhando muita atenção pessoal de um Fazendeiro."
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.DESTRUCTIVE.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.DESTRUCTIVE.NAME"
-msgid "Destructive"
-msgstr "Destrutivo"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.DESTRUCTIVE.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.DESTRUCTIVE.TOOLTIP"
-msgid "Likely to mess up the place"
-msgstr "Gosta de bagunçar o lugar"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.NAME"
-msgid "Increased Reproduction"
-msgstr "Reprodução Aumentada"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.TOOLTIP"
-msgid "This critter will produce an egg soon if conditions remain favorable"
-msgstr ""
-"Esta criatura produzirá um ovo logo se as condições continuarem favoráveis"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.GOOD_PRODUCTIVITY.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GOOD_PRODUCTIVITY.NAME"
-msgid "Good Productivity"
-msgstr "Produtividade boa"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.GOOD_PRODUCTIVITY.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GOOD_PRODUCTIVITY.TOOLTIP"
-msgid "Producing at a normal level"
-msgstr "Produzindo a um nível normal"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.INCREASED_CRITERIA_PENALTY.NAME
-msgctxt ""
-"STRINGS.CREATURES.DOMESTICATION.EFFECTS.INCREASED_CRITERIA_PENALTY.NAME"
-msgid "Sensitive"
-msgstr "Sensível"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.INCREASED_CRITERIA_PENALTY.TOOLTIP
-msgctxt ""
-"STRINGS.CREATURES.DOMESTICATION.EFFECTS.INCREASED_CRITERIA_PENALTY.TOOLTIP"
-msgid "Loses happiness faster than normal under poor conditions"
-msgstr ""
-"Perde felicidade mais rápido que o normal quando está em pobres condições"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.NAME"
-msgid "Decreased Reproduction"
-msgstr "Reprodução Diminuída"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.TOOLTIP"
-msgid "This creature is holding off on laying eggs due to bad conditions"
-msgstr "Esta criatura parou de colocar ovos devido as péssimas condições"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.NAME"
-msgid "Downward Spiral"
-msgstr "Depressivo"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.TOOLTIP"
-msgid "Losing happiness until conditions improve"
-msgstr "Perdendo felicidade até as condições melhorarem"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.NAME"
-msgid "Low Productivity"
-msgstr "Baixa Produtividade"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.TOOLTIP"
-msgid "Producing at a reduced level"
-msgstr "Produzindo a um nível reduzido"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.NAME"
-msgid "Unproductive"
-msgstr "Improdutivo"
-
-#. STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.TOOLTIP"
-msgid ""
-"Without improved conditions, this critter will not provide any useful "
-"products"
-msgstr ""
-"Sem condições melhores, esta criatura não irá providenciar nenhum recurso "
-"útil"
-
-#. STRINGS.CREATURES.DOMESTICATION.LEVELS.HAPPY.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.HAPPY.NAME"
-msgid "Tame"
-msgstr "Dócil"
-
-#. STRINGS.CREATURES.DOMESTICATION.LEVELS.HAPPY.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.HAPPY.TOOLTIP"
-msgid ""
-"This critter is well taken care of and fully trusts its Duplicant caregivers"
-msgstr ""
-"Esta criatura foi bem cuidada e confia totalmente em seus cuidadores "
-"Duplicantes"
-
-#. STRINGS.CREATURES.DOMESTICATION.LEVELS.NEUTRAL.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.NEUTRAL.NAME"
-msgid "Skittish"
-msgstr "Desconfiado"
-
-#. STRINGS.CREATURES.DOMESTICATION.LEVELS.NEUTRAL.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.NEUTRAL.TOOLTIP"
-msgid ""
-"This critter's most basic needs are being met, but it's still wary of "
-"Duplicants"
-msgstr ""
-"Esta criatura teve suas necessidades básicas atendidas, mas ainda tem medo "
-"dos Duplicantes"
-
-#. STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.NAME
-#, fuzzy
-msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.NAME"
-msgid "Affectionate"
-msgstr "Mimado"
-
-#. STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.TOOLTIP
-#, fuzzy
-msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.TOOLTIP"
-msgid ""
-"This critter loves its Duplicant caregivers and is spoiled absolutely rotten"
-msgstr ""
-"Esta criatura ama seus cuidadores Duplicantes e ficou completamente mimada"
-
-#. STRINGS.CREATURES.DOMESTICATION.LEVELS.UNHAPPY.NAME
-msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.UNHAPPY.NAME"
-msgid "Wild"
-msgstr "Selvagem"
-
-#. STRINGS.CREATURES.DOMESTICATION.LEVELS.UNHAPPY.TOOLTIP
-msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.UNHAPPY.TOOLTIP"
-msgid "This critter is fending for itself and does not trust Duplicants"
-msgstr "Esta criatura está se defendendo e não confia nos Duplicantes"
-
 #. STRINGS.CREATURES.FAMILY.DRECKO
 msgctxt "STRINGS.CREATURES.FAMILY.DRECKO"
 msgid "<link=\"DRECKOSPECIES\">Drecko</link>"
@@ -10352,20 +10190,20 @@ msgstr "<link=\"GULPFISH\">Pacu das Neves</link>"
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.DESC"
 msgid ""
-"An innocent little <link=\"TROPICALPACU\">Tropical Pacu Fry</link>.\n"
+"An innocent little <link=\"PACUTROPICAL\">Tropical Pacu Fry</link>.\n"
 "\n"
-"In time, it will mature into an adult <link=\"TROPICALPACU\">Tropical Pacu</"
+"In time, it will mature into an adult <link=\"PACUTROPICAL\">Tropical Pacu</"
 "link>."
 msgstr ""
-"Um pequeno e inocente <link=\"TROPICALPACU\">Pacuzinho Tropical</link>.\n"
+"Um pequeno e inocente <link=\"PACUTROPICAL\">Pacuzinho Tropical</link>.\n"
 "\n"
-"Com o tempo, ele vai crescer formando um <link=\"TROPICALPACU\">Pacu "
+"Com o tempo, ele vai crescer formando um <link=\"PACUTROPICAL\">Pacu "
 "Tropical</link> adulto."
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.BABY.NAME"
-msgid "<link=\"TROPICALPACU\">Tropical Pacu Fry</link>"
-msgstr "<link=\"TROPICALPACU\">Pacuzinho Tropical</link>"
+msgid "<link=\"PACUTROPICAL\">Tropical Pacu Fry</link>"
+msgstr "<link=\"PACUTROPICAL\">Pacuzinho Tropical</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.DESC"
@@ -10377,13 +10215,13 @@ msgstr ""
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.EGG_NAME"
-msgid "<link=\"TROPICALPACUEGG\">Tropical Pacu Egg</link>"
-msgstr "<link=\"TROPICALPACUEGG\">Ovo de Pacu Tropical</link>"
+msgid "<link=\"PACUTROPICALEGG\">Tropical Pacu Egg</link>"
+msgstr "<link=\"PACUTROPICALEGG\">Ovo de Pacu Tropical</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.NAME"
-msgid "<link=\"TROPICALPACU\">Tropical Pacu</link>"
-msgstr "<link=\"TROPICALPACU\">Pacu Tropical</link>"
+msgid "<link=\"PACUTROPICAL\">Tropical Pacu</link>"
+msgstr "<link=\"PACUTROPICAL\">Pacu Tropical</link>"
 
 #. STRINGS.CREATURES.SPECIES.PACUEGG.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PACUEGG.DESC"
@@ -13715,8 +13553,8 @@ msgstr "Indo cobrir compostos"
 
 #. STRINGS.DUPLICANTS.CHORES.FLIPCOMPOST.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLIPCOMPOST.TOOLTIP"
-msgid "Composts need to be flipped to produce Fertilizer"
-msgstr "Compostos devem ser cobertos para produzir Fertilizante"
+msgid "Composts need to be flipped in order for their contents to compost"
+msgstr "Compostáveis devem ser cobertos para seu conteúdo compostar"
 
 #. STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.GENERATEPOWER.NAME"
@@ -25100,7 +24938,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.NAME"
 msgid "ALERT - Surface Breach"
-msgstr "ALTERA - Abertura para a Superfície"
+msgstr "ALERTA - Abertura para a Superfície"
 
 #. STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP"
@@ -26906,12 +26744,9 @@ msgid "Manufactured Material"
 msgstr "Material Manufaturado"
 
 #. STRINGS.MISC.TAGS.MARKEDFORCOMPOST
-#, fuzzy
-#| msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOST.NAME"
-#| msgid "Marked For Compost"
 msgctxt "STRINGS.MISC.TAGS.MARKEDFORCOMPOST"
 msgid "Marked For Compost"
-msgstr "Marcado para Compostagem"
+msgstr "Marcado Para Compostagem"
 
 #. STRINGS.MISC.TAGS.MASSAGE_TABLE
 msgctxt "STRINGS.MISC.TAGS.MASSAGE_TABLE"
@@ -29396,10 +29231,9 @@ msgid "<link=\"SKYDETECTORS\">Celestial Detection</link>"
 msgstr "<link=\"SKYDETECTORS\">Detecção Celestial</link>"
 
 #. STRINGS.RESEARCH.TECHS.SMARTSTORAGE.DESC
-#, fuzzy
 msgctxt "STRINGS.RESEARCH.TECHS.SMARTSTORAGE.DESC"
 msgid "Automate the storage of solids."
-msgstr "Automatizar a armazenagem de sólidos."
+msgstr "Automatize a armazenagem de sólidos."
 
 #. STRINGS.RESEARCH.TECHS.SMARTSTORAGE.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SMARTSTORAGE.NAME"
@@ -30058,6 +29892,16 @@ msgctxt "STRINGS.SETITEMS.BREAKROOM_TABLE.NAME"
 msgid "Table"
 msgstr "Mesa"
 
+#. STRINGS.SETITEMS.CHAIR.DESC
+msgctxt "STRINGS.SETITEMS.CHAIR.DESC"
+msgid "A chair"
+msgstr "Uma cadeira"
+
+#. STRINGS.SETITEMS.CHAIR.NAME
+msgctxt "STRINGS.SETITEMS.CHAIR.NAME"
+msgid "Chair"
+msgstr "Cadeira"
+
 #. STRINGS.SETITEMS.DESK.DESC
 msgctxt "STRINGS.SETITEMS.DESK.DESC"
 msgid ""
@@ -30081,6 +29925,92 @@ msgstr "Um elevador"
 msgctxt "STRINGS.SETITEMS.ELEVATOR.NAME"
 msgid "Elevator"
 msgstr "Elevador"
+
+#. STRINGS.SETITEMS.FACILITY_CENTERPEICE.DESC
+msgctxt "STRINGS.SETITEMS.FACILITY_CENTERPEICE.DESC"
+msgid "A big statue"
+msgstr "Uma estátua grande"
+
+#. STRINGS.SETITEMS.FACILITY_CENTERPEICE.NAME
+#| msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.NAME"
+#| msgid "Status"
+msgctxt "STRINGS.SETITEMS.FACILITY_CENTERPEICE.NAME"
+msgid "Statue"
+msgstr "Estátua"
+
+#. STRINGS.SETITEMS.FACILITY_CHANDELIER.DESC
+msgctxt "STRINGS.SETITEMS.FACILITY_CHANDELIER.DESC"
+msgid "A light that is too big"
+msgstr "Uma luminária só que grande"
+
+#. STRINGS.SETITEMS.FACILITY_CHANDELIER.NAME
+msgctxt "STRINGS.SETITEMS.FACILITY_CHANDELIER.NAME"
+msgid "Chandelier"
+msgstr "Candelabro"
+
+#. STRINGS.SETITEMS.FACILITY_COUCH.DESC
+msgctxt "STRINGS.SETITEMS.FACILITY_COUCH.DESC"
+msgid "A couch"
+msgstr "Um sofá"
+
+#. STRINGS.SETITEMS.FACILITY_COUCH.NAME
+msgctxt "STRINGS.SETITEMS.FACILITY_COUCH.NAME"
+msgid "Couch"
+msgstr "Sofá"
+
+#. STRINGS.SETITEMS.FACILITY_DESK.DESC
+msgctxt "STRINGS.SETITEMS.FACILITY_DESK.DESC"
+msgid "A desk"
+msgstr "Uma mesa"
+
+#. STRINGS.SETITEMS.FACILITY_DESK.NAME
+msgctxt "STRINGS.SETITEMS.FACILITY_DESK.NAME"
+msgid "Director's Desk"
+msgstr "Mesa do Diretor"
+
+#. STRINGS.SETITEMS.FACILITY_DISPLAY.DESC
+msgctxt "STRINGS.SETITEMS.FACILITY_DISPLAY.DESC"
+msgid "An electronic display"
+msgstr "Uma tela eletrônica"
+
+#. STRINGS.SETITEMS.FACILITY_DISPLAY.NAME
+msgctxt "STRINGS.SETITEMS.FACILITY_DISPLAY.NAME"
+msgid "Electronic Display"
+msgstr "Tela Eletrônica"
+
+#. STRINGS.SETITEMS.FACILITY_GLOBE_DROORS.DESC
+#| msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTOR.STATUS"
+#| msgid "Aiding Duplicant"
+msgctxt "STRINGS.SETITEMS.FACILITY_GLOBE_DROORS.DESC"
+msgid "A filing cabinet"
+msgstr "Um armário espaçoso"
+
+#. STRINGS.SETITEMS.FACILITY_GLOBE_DROORS.NAME
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.POSTDISEASERECOVERY.NAME"
+#| msgid "Feeling a bit better"
+msgctxt "STRINGS.SETITEMS.FACILITY_GLOBE_DROORS.NAME"
+msgid "Filing Cabinet"
+msgstr "Armário Espaçoso"
+
+#. STRINGS.SETITEMS.FACILITY_LAMP.DESC
+msgctxt "STRINGS.SETITEMS.FACILITY_LAMP.DESC"
+msgid "A lamp"
+msgstr "Uma lâmpada"
+
+#. STRINGS.SETITEMS.FACILITY_LAMP.NAME
+msgctxt "STRINGS.SETITEMS.FACILITY_LAMP.NAME"
+msgid "Lamp"
+msgstr "Luminária"
+
+#. STRINGS.SETITEMS.FACILITY_TALLPLANT.DESC
+msgctxt "STRINGS.SETITEMS.FACILITY_TALLPLANT.DESC"
+msgid "A plant"
+msgstr "Uma planta"
+
+#. STRINGS.SETITEMS.FACILITY_TALLPLANT.NAME
+msgctxt "STRINGS.SETITEMS.FACILITY_TALLPLANT.NAME"
+msgid "Plant"
+msgstr "Planta"
 
 #. STRINGS.SETITEMS.GENESHUFFLER.DESC
 msgctxt "STRINGS.SETITEMS.GENESHUFFLER.DESC"
@@ -30144,12 +30074,9 @@ msgstr ""
 "um computador que mal funciona."
 
 #. STRINGS.SETITEMS.RECEPTION_DESK.NAME
-#, fuzzy
-#| msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.RECREATION.NAME"
-#| msgid "Recreation"
 msgctxt "STRINGS.SETITEMS.RECEPTION_DESK.NAME"
 msgid "Reception Desk"
-msgstr "Mesa de Recepção"
+msgstr "Mesa da Recepção"
 
 #. STRINGS.SETITEMS.SKELETON.DESC
 msgctxt "STRINGS.SETITEMS.SKELETON.DESC"
@@ -30194,6 +30121,26 @@ msgstr ""
 msgctxt "STRINGS.SETITEMS.WALL_CLOCK.NAME"
 msgid "Clock"
 msgstr "Relógio"
+
+#. STRINGS.SETITEMS.WALL_DEGREE.DESC
+msgctxt "STRINGS.SETITEMS.WALL_DEGREE.DESC"
+msgid "Someone is proud of this"
+msgstr "Alguém está orgulhoso disso"
+
+#. STRINGS.SETITEMS.WALL_DEGREE.NAME
+msgctxt "STRINGS.SETITEMS.WALL_DEGREE.NAME"
+msgid "Fancy Degree"
+msgstr "Diploma Maneiro"
+
+#. STRINGS.SETITEMS.WALL_PAINTING.DESC
+msgctxt "STRINGS.SETITEMS.WALL_PAINTING.DESC"
+msgid "A painting of an expensive thing which belongs to an expensive person"
+msgstr "Uma pintura de uma coisa rica que pertence a uma pessoa rica"
+
+#. STRINGS.SETITEMS.WALL_PAINTING.NAME
+msgctxt "STRINGS.SETITEMS.WALL_PAINTING.NAME"
+msgid "Painting"
+msgstr "Pintura"
 
 #. STRINGS.UI.ACTIONS
 msgctxt "STRINGS.UI.ACTIONS"
@@ -33046,7 +32993,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.6.4)"
+"- Traduzido por Chastomber :P (1.6.5)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33131,6 +33078,14 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "DEVELOPMENT BUILD: {0}"
 msgstr "VERSÃO DE DESENVOLVIMENTO: {0}"
+
+#. STRINGS.UI.DROPDOWN.NONE
+#, fuzzy
+#| msgctxt "STRINGS.BUILDING.STATUSITEMS.UNASSIGNED.NAME"
+#| msgid "Unassigned"
+msgctxt "STRINGS.UI.DROPDOWN.NONE"
+msgid "Unassigned"
+msgstr "Não atribuído"
 
 #. STRINGS.UI.DUPLICANTPRINTING
 msgctxt "STRINGS.UI.DUPLICANTPRINTING"
@@ -42589,6 +42544,171 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.NAME"
+#~ msgid "Acceptable Atmosphere"
+#~ msgstr "Atmosfera Aceitável"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.ATMOSPHERE_OK.TOOLTIP"
+#~ msgid "It's breathable."
+#~ msgstr "É respirável."
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.NAME"
+#~ msgid "Fed"
+#~ msgstr "Alimentado"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.HAS_FOOD_SOURCE.TOOLTIP"
+#~ msgid "Has enough food to eat."
+#~ msgstr "Possui comida suficiente para comer."
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.NAME"
+#~ msgid "Critter Pen"
+#~ msgstr "Curral de Criaturas"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.IN_PEN.TOOLTIP"
+#~ msgid "Has a pen to live in."
+#~ msgstr "Possui um curral para morar."
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.NAME"
+#~ msgid "Comfortable Temperature"
+#~ msgstr "Temperatura Confortável"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.TEMPERATURE_OK.TOOLTIP"
+#~ msgid "Not too hot, not too cold."
+#~ msgstr "Não muito quente, nem muito frio."
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.NAME"
+#~ msgid "Well Fed"
+#~ msgstr "Bem Alimentado"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_FED.TOOLTIP"
+#~ msgid "This critter has recently dined on its favorite food."
+#~ msgstr "Esta criatura comeu recentemente sua comida favorita."
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.NAME"
+#~ msgid "Well Groomed"
+#~ msgstr "Bem Escovada"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.CRITERIA.WELL_GROOMED.TOOLTIP"
+#~ msgid "Getting plenty of personal attention from a Rancher."
+#~ msgstr "Ganhando muita atenção pessoal de um Fazendeiro."
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.DESTRUCTIVE.NAME"
+#~ msgid "Destructive"
+#~ msgstr "Destrutivo"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.DESTRUCTIVE.TOOLTIP"
+#~ msgid "Likely to mess up the place"
+#~ msgstr "Gosta de bagunçar o lugar"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.NAME"
+#~ msgid "Increased Reproduction"
+#~ msgstr "Reprodução Aumentada"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GAIN_FERTILITY.TOOLTIP"
+#~ msgid "This critter will produce an egg soon if conditions remain favorable"
+#~ msgstr ""
+#~ "Esta criatura produzirá um ovo logo se as condições continuarem favoráveis"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GOOD_PRODUCTIVITY.NAME"
+#~ msgid "Good Productivity"
+#~ msgstr "Produtividade boa"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.GOOD_PRODUCTIVITY.TOOLTIP"
+#~ msgid "Producing at a normal level"
+#~ msgstr "Produzindo a um nível normal"
+
+#~ msgctxt ""
+#~ "STRINGS.CREATURES.DOMESTICATION.EFFECTS.INCREASED_CRITERIA_PENALTY.NAME"
+#~ msgid "Sensitive"
+#~ msgstr "Sensível"
+
+#~ msgctxt ""
+#~ "STRINGS.CREATURES.DOMESTICATION.EFFECTS.INCREASED_CRITERIA_PENALTY.TOOLTIP"
+#~ msgid "Loses happiness faster than normal under poor conditions"
+#~ msgstr ""
+#~ "Perde felicidade mais rápido que o normal quando está em pobres condições"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.NAME"
+#~ msgid "Decreased Reproduction"
+#~ msgstr "Reprodução Diminuída"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_FERTILITY.TOOLTIP"
+#~ msgid "This creature is holding off on laying eggs due to bad conditions"
+#~ msgstr "Esta criatura parou de colocar ovos devido as péssimas condições"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.NAME"
+#~ msgid "Downward Spiral"
+#~ msgstr "Depressivo"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOSE_HAPPINESS.TOOLTIP"
+#~ msgid "Losing happiness until conditions improve"
+#~ msgstr "Perdendo felicidade até as condições melhorarem"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.NAME"
+#~ msgid "Low Productivity"
+#~ msgstr "Baixa Produtividade"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.LOW_PRODUCTIVITY.TOOLTIP"
+#~ msgid "Producing at a reduced level"
+#~ msgstr "Produzindo a um nível reduzido"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.NAME"
+#~ msgid "Unproductive"
+#~ msgstr "Improdutivo"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.EFFECTS.UNPRODUCTIVE.TOOLTIP"
+#~ msgid ""
+#~ "Without improved conditions, this critter will not provide any useful "
+#~ "products"
+#~ msgstr ""
+#~ "Sem condições melhores, esta criatura não irá providenciar nenhum recurso "
+#~ "útil"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.HAPPY.NAME"
+#~ msgid "Tame"
+#~ msgstr "Dócil"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.HAPPY.TOOLTIP"
+#~ msgid ""
+#~ "This critter is well taken care of and fully trusts its Duplicant "
+#~ "caregivers"
+#~ msgstr ""
+#~ "Esta criatura foi bem cuidada e confia totalmente em seus cuidadores "
+#~ "Duplicantes"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.NEUTRAL.NAME"
+#~ msgid "Skittish"
+#~ msgstr "Desconfiado"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.NEUTRAL.TOOLTIP"
+#~ msgid ""
+#~ "This critter's most basic needs are being met, but it's still wary of "
+#~ "Duplicants"
+#~ msgstr ""
+#~ "Esta criatura teve suas necessidades básicas atendidas, mas ainda tem "
+#~ "medo dos Duplicantes"
+
+#, fuzzy
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.NAME"
+#~ msgid "Affectionate"
+#~ msgstr "Mimado"
+
+#, fuzzy
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.SPOILED.TOOLTIP"
+#~ msgid ""
+#~ "This critter loves its Duplicant caregivers and is spoiled absolutely "
+#~ "rotten"
+#~ msgstr ""
+#~ "Esta criatura ama seus cuidadores Duplicantes e ficou completamente mimada"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.UNHAPPY.NAME"
+#~ msgid "Wild"
+#~ msgstr "Selvagem"
+
+#~ msgctxt "STRINGS.CREATURES.DOMESTICATION.LEVELS.UNHAPPY.TOOLTIP"
+#~ msgid "This critter is fending for itself and does not trust Duplicants"
+#~ msgstr "Esta criatura está se defendendo e não confia nos Duplicantes"
+
 #~ msgctxt "STRINGS.MISC.TAGS.MARKEDFORCOMPOST"
 #~ msgid "Compost Edibles"
 #~ msgstr "Compostável"
@@ -44278,10 +44398,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Compost"
 #~ msgstr "Composteira"
 
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.COOKINGSTATION.NAME"
-#~ msgid "Electric Grill"
-#~ msgstr "Churrasqueira Elétrica"
-
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
 #~ msgid "DEV Generator"
 #~ msgstr "Gerador DEV"
@@ -44321,10 +44437,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.NAME"
 #~ msgid "Fire Pole"
 #~ msgstr "Poste de Bombeiro"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORLAMP.NAME"
-#~ msgid "Lamp"
-#~ msgstr "Luminária"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.LOGIC_PORT_DESC"
 #~ msgid "<style=\"logic\">Active</style>/<style=\"logic\">Inactive</style>"
@@ -46886,10 +46998,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Duplicant..."
 #~ msgstr "Duplicante..."
 
-#~ msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.PICK_JOB"
-#~ msgid "Job..."
-#~ msgstr "Trabalho..."
-
 #~ msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.UNASSIGNED"
 #~ msgid "Unassigned"
 #~ msgstr "Não atribuído"
@@ -47689,10 +47797,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTOR.NAME"
 #~ msgid "Aid Duplicant"
 #~ msgstr "Cuidar de Duplicante"
-
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.DOCTOR.STATUS"
-#~ msgid "Aiding Duplicant"
-#~ msgstr "Cuidando de Duplicante"
 
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRIORITIZECHORE.NAME"
 #~ msgid "Prioritize chore"
