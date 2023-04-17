@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.7.1\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.7.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -5471,8 +5471,11 @@ msgid "<link=\"ORESCRUBBER\">Ore Scrubber</link>"
 msgstr "<link=\"ORESCRUBBER\">Purificador de Minérios</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC
+#, fuzzy
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC"
+#| msgid "They colony that eats together, excretes together."
 msgctxt "STRINGS.BUILDINGS.PREFABS.OUTHOUSE.DESC"
-msgid "They colony that eats together, excretes together."
+msgid "The colony that eats together, excretes together."
 msgstr "A colônia que come junto, caga junto."
 
 #. STRINGS.BUILDINGS.PREFABS.OUTHOUSE.EFFECT
@@ -5527,8 +5530,6 @@ msgid "A phonobox music player."
 msgstr "Um fonógrafo tocador de músicas."
 
 #. STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.RATIONBOX.NAME"
-#| msgid "<link=\"RATIONBOX\">Ration Box</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME"
 msgid "<link=\"PHONOBOX\">Phonobox</link>"
 msgstr "<link=\"PHONOBOX\">Fonógrafo</link>"
@@ -5668,6 +5669,21 @@ msgstr "Protege circuitos de sobrecarregarem por aumentar ou diminuir o fluxo de
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMER.NAME"
 msgid "<link=\"POWERTRANSFORMER\">Power Transformer</link>"
 msgstr "<link=\"POWERTRANSFORMER\">Transformador de Energia</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.DESC"
+msgid "Shh! It only transforms when no one's looking."
+msgstr "Xiu! Ele só transforma quando ninguém está olhando."
+
+#. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.EFFECT"
+msgid "Protects circuits from overloading by increasing or decreasing <link=\"POWER\">Power</link> flow."
+msgstr "Protege circuitos de sobrecarregarem por aumentar ou diminuir o fluxo de <link=\"POWER\">Energia</link>."
+
+#. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME"
+msgid "<link=\"POWERTRANSFORMER\">Small Power Transformer</link>"
+msgstr "<link=\"POWERTRANSFORMER\">Pequeno Transformador de Energia</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.DESC"
@@ -7752,8 +7768,6 @@ msgid "ENCRYPTION LEVEL: ONE"
 msgstr "NÍVEL DE ENCRIPTAÇÃO: UM"
 
 #. STRINGS.CODEX.EMPLOYEEPROCESSING.TITLE
-#| msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON"
-#| msgid "Complete Neural Process"
 msgctxt "STRINGS.CODEX.EMPLOYEEPROCESSING.TITLE"
 msgid "Employee Processing"
 msgstr "Cadastramento de Funcionário"
@@ -8731,8 +8745,6 @@ msgid "ENCRYPTION LEVEL: NONE"
 msgstr "NÍVEL DE ENCRIPTAÇÃO: NENHUM"
 
 #. STRINGS.CODEX.POLITEREQUEST.TITLE
-#| msgctxt "STRINGS.DUPLICANTS.NEEDS.DECOR.EXPECTATION_MOD_NAME"
-#| msgid "Job Tier Request"
 msgctxt "STRINGS.CODEX.POLITEREQUEST.TITLE"
 msgid "Polite Request"
 msgstr "Pedido Educado"
@@ -13356,6 +13368,21 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.BINGE_EAT.TOOLTIP"
 msgid "This Duplicant is attempting to eat their emotions due to stress"
 msgstr "Este Duplicante está tentando afogar suas emoções com comida devido ao estresse"
 
+#. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME"
+msgid "Relieve Self On Break"
+msgstr "Alivia-se no Intervalo"
+
+#. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS"
+msgid "Relieving self"
+msgstr "Aliviando-se"
+
+#. STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.TOOLTIP"
+msgid "This Duplicant didn't find a toilet in time. Oops"
+msgstr "Este Duplicante não conseguiu achar um banheiro a tempo. Ops"
+
 #. STRINGS.DUPLICANTS.CHORES.BUILD.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILD.NAME"
 msgid "Build"
@@ -14036,6 +14063,17 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.ALLOWED_TO_DEPRESSURIZE"
 msgid "Not currently overpressure"
 msgstr "Não está em sobrepressão no momento"
 
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_FULL
+#, fuzzy
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_FULL"
+msgid "Bladder isn't full"
+msgstr "Bexiga não está cheia"
+
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_NOT_FULL
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.BLADDER_NOT_FULL"
+msgid "Bladder too full"
+msgstr "Bexiga muito cheia"
+
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_CHAT
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CAN_CHAT"
 msgid "Unreachable"
@@ -14080,6 +14118,11 @@ msgstr "Traje está carregado no momento"
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL"
 msgid "EdibleIsNotNull"
 msgstr "ComestívelNãoéNulo"
+
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EXCLUSIVELY_AVAILABLE
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EXCLUSIVELY_AVAILABLE"
+msgid "Building Already Busy"
+msgstr "Estrutura Já Está Ocupada"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_MINGLE_CELL
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_MINGLE_CELL"
@@ -19821,6 +19864,11 @@ msgstr "Cumprimentando"
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.COLD.TOOLTIP"
 msgid "Cold"
 msgstr "Frio"
+
+#. STRINGS.DUPLICANTS.THOUGHTS.CONVERSATION.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.THOUGHTS.CONVERSATION.TOOLTIP"
+msgid "Having a conversation"
+msgstr "Tendo uma boa conversa"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.ENCOURAGE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.ENCOURAGE.TOOLTIP"
@@ -32144,7 +32192,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.7.1)"
+"- Traduzido por Chastomber :P (1.7.2)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
