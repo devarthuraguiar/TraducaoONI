@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.6.7\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.6.8\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -6451,7 +6451,6 @@ msgid "<link=\"POIDOORINTERNAL\">Security Door</link>"
 msgstr "<link=\"POIDOORINTERNAL\">Porta de Segurança</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.DESC"
 msgid ""
 msgstr ""
@@ -6462,8 +6461,6 @@ msgid "A fancy door to a big facility."
 msgstr "Uma porta maneira para uma grande instalação."
 
 #. STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.NAME"
-#| msgid "<link=\"DOOR\">Pneumatic Door</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.POIFACILITYDOOR.NAME"
 msgid "<link=\"FACILITYDOOR\">Facility Door</link>"
 msgstr "<link=\"FACILITYDOOR\">Porta da Instalação</link>"
@@ -10178,8 +10175,6 @@ msgstr ""
 "link> adulto."
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME"
-#| msgid "<link=\"GULPFISH\">Gulp Fish Fry</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.BABY.NAME"
 msgid "<link=\"PACUCLEANER\">Gulp Fish Fry</link>"
 msgstr "<link=\"PACUCLEANER\">Pacuzinho das Neves</link>"
@@ -24640,8 +24635,8 @@ msgstr ""
 "\n"
 "Pela saúde e segurança dos seus colegas, por favor não armazenem culturas de "
 "bactérias dentro da geladeira da cafeteria.\n"
-"Da mesma forma, fiquem avisados de que lava-louças da cafeteria é incapaz de "
-"lidar com \"pratos\" de petri apesar do nome.\n"
+"Da mesma forma, fiquem avisados de que a lava-louças da cafeteria é incapaz "
+"de lidar com \"pratos\" de petri apesar do nome.\n"
 "\n"
 "Nós agradecemos a sua consideração.\n"
 "-O Instituto Gravitas"
@@ -30009,12 +30004,12 @@ msgstr "Tela Eletrônica"
 #. STRINGS.SETITEMS.FACILITY_GLOBE_DROORS.DESC
 msgctxt "STRINGS.SETITEMS.FACILITY_GLOBE_DROORS.DESC"
 msgid "A filing cabinet"
-msgstr "Um armário espaçoso"
+msgstr "Um arquivo espaçoso"
 
 #. STRINGS.SETITEMS.FACILITY_GLOBE_DROORS.NAME
 msgctxt "STRINGS.SETITEMS.FACILITY_GLOBE_DROORS.NAME"
 msgid "Filing Cabinet"
-msgstr "Armário Espaçoso"
+msgstr "Arquivo Espaçoso"
 
 #. STRINGS.SETITEMS.FACILITY_LAMP.DESC
 msgctxt "STRINGS.SETITEMS.FACILITY_LAMP.DESC"
@@ -30025,6 +30020,16 @@ msgstr "Uma lâmpada"
 msgctxt "STRINGS.SETITEMS.FACILITY_LAMP.NAME"
 msgid "Lamp"
 msgstr "Luminária"
+
+#. STRINGS.SETITEMS.FACILITY_TABLE.DESC
+msgctxt "STRINGS.SETITEMS.FACILITY_TABLE.DESC"
+msgid "A table"
+msgstr "Uma mesa"
+
+#. STRINGS.SETITEMS.FACILITY_TABLE.NAME
+msgctxt "STRINGS.SETITEMS.FACILITY_TABLE.NAME"
+msgid "Table"
+msgstr "Mesa"
 
 #. STRINGS.SETITEMS.FACILITY_TALLPLANT.DESC
 msgctxt "STRINGS.SETITEMS.FACILITY_TALLPLANT.DESC"
@@ -30169,8 +30174,8 @@ msgstr "Diploma Maneiro"
 
 #. STRINGS.SETITEMS.WALL_PAINTING.DESC
 msgctxt "STRINGS.SETITEMS.WALL_PAINTING.DESC"
-msgid "A painting of an expensive thing which belongs to an expensive person"
-msgstr "Uma pintura de uma coisa rica que pertence a uma pessoa rica"
+msgid "A painting of a landscape"
+msgstr "Uma pintura de uma paisagem"
 
 #. STRINGS.SETITEMS.WALL_PAINTING.NAME
 msgctxt "STRINGS.SETITEMS.WALL_PAINTING.NAME"
@@ -31891,8 +31896,11 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION
+#, fuzzy
+#| msgctxt "STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION"
+#| msgid "Invalid Locaton"
 msgctxt "STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION"
-msgid "Invalid Locaton"
+msgid "Invalid Location"
 msgstr "Local Inválido"
 
 #. STRINGS.UI.DEBUG_TOOLS.PAINT_ELEMENTS_SCREEN.ADD_FOW_MASK
@@ -33033,7 +33041,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.6.7)"
+"- Traduzido por Chastomber :P (1.6.8)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -42586,6 +42594,11 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.SETITEMS.WALL_PAINTING.DESC"
+#~ msgid ""
+#~ "A painting of an expensive thing which belongs to an expensive person"
+#~ msgstr "Uma pintura de uma coisa rica que pertence a uma pessoa rica"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
 #~ msgid "A key element to building rooms on the surface of the asteroid."
