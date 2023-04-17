@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.6.9\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.6.10\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -8748,7 +8748,7 @@ msgstr "<link=\"PUFTSPECIES\">Bolhas</link>"
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC"
 msgid "Eats any: {0}"
-msgstr "Comer: {0}"
+msgstr "Ao comer: {0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.NAME"
@@ -8758,7 +8758,7 @@ msgstr "Dieta"
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.DESC"
 msgid "Penned with: {0}"
-msgstr "Estiver com: {0}"
+msgstr "Se estiver com: {0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.NAME"
@@ -8768,7 +8768,7 @@ msgstr "Criatura Próxima"
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.DESC"
 msgid "Not penned with: {0}"
-msgstr "Não está com: {0}"
+msgstr "Não estiver com: {0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE_NEG.NAME"
@@ -9223,7 +9223,7 @@ msgid ""
 "\"CHLORINEGAS\">Chlorine</link>."
 msgstr ""
 "Uma fumarola altamente pressurizada que irrompe periodicamente liberando "
-"<link=\"CHLORINEGAS\">Cloro</link> aquecido."
+"<link=\"CHLORINEGAS\">Cloro</link> quente."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.CHLORINE_GAS.NAME"
@@ -9349,7 +9349,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.GEYSER.METHANE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.METHANE.NAME"
 msgid "<link=\"GEYSERGENERICMETHANE\">Natural Gas Geyser</link>"
-msgstr "<link=\"GEYSERGENERICMETHANE\">Gêiser de Gás Natural</link>"
+msgstr "<link=\"GEYSERGENERICMETHANE\">Fumarola de Gás Natural</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.MOLTEN_COPPER.DESC"
@@ -9507,7 +9507,8 @@ msgid ""
 msgstr ""
 "Uma pequena e inocente <link=\"HATCHLING\">Mucurinha</link>.\n"
 "\n"
-"Com o tempo, ela crescer formando uma <link=\"HATCH\">Mucura</link> adulta."
+"Com o tempo, ela vai crescer formando uma <link=\"HATCH\">Mucura</link> "
+"adulta."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.BABY.NAME"
@@ -9618,7 +9619,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME"
 msgid "<link=\"HATCHVEGGIE\">Sage Hatchling</link>"
-msgstr "<link=\"HATCHVEGGIE\">Mucura Anciã</link>"
+msgstr "<link=\"HATCHVEGGIE\">Mucurinha Anciã</link>"
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.DESC"
@@ -9667,7 +9668,7 @@ msgid ""
 "\n"
 "Palmeras grow inedible buds that emit toxic hydrogen gas."
 msgstr ""
-"Uma <link=\"PLANTS\">Planta</link> larga que lida com cloro e pode germinar "
+"Uma <link=\"PLANTS\">Planta</link> grande que lida com cloro e pode germinar "
 "em hortas.\n"
 "\n"
 "Palmeiras fornecem frutos não comestíveis que emitem gás hidrogênio tóxico."
@@ -9678,8 +9679,8 @@ msgid ""
 "A large, chlorine-dwelling <link=\"PLANTS\">Plant</link> that grows inedible "
 "buds which emit toxic hydrogen gas."
 msgstr ""
-"Uma <link=\"PLANTS\">Planta</link> larga que lida com cloro e fornece frutos "
-"não comestíveis que emitem gás hidrogênio tóxico."
+"Uma <link=\"PLANTS\">Planta</link> grande que lida com cloro e fornece "
+"frutos não comestíveis que emitem gás hidrogênio tóxico."
 
 #. STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.JUNGLEGASPLANT.NAME"
@@ -9689,7 +9690,7 @@ msgstr "<link=\"JUNGLEGASPLANT\">Palmeira</link>"
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.DESC"
 msgid "A chubby baby <link=\"LIGHTBUG\">Shine Bug</link>."
-msgstr "Um bebê gordinho de <link=\"LIGHTBUG\">Vagalume</link>."
+msgstr "Um bebê <link=\"LIGHTBUG\">Vagalume</link> gordinho."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.BABY.NAME"
@@ -9722,7 +9723,7 @@ msgid ""
 "\n"
 "This one is a black Nega morph."
 msgstr ""
-"Um bebê gordinho de <link=\"LIGHTBUGBLACK\">Vagalume</link>.\n"
+"Um bebê <link=\"LIGHTBUGBLACK\">Vagalume</link> gordinho.\n"
 "\n"
 "Este aqui é da raça Negra."
 
@@ -9757,7 +9758,7 @@ msgid ""
 "\n"
 "This one is a blue Placid morph."
 msgstr ""
-"Um bebê gordinho de <link=\"LIGHTBUGBLUE\">Vagalume</link>.\n"
+"Um bebê <link=\"LIGHTBUGBLUE\">Vagalume</link> gordinho.\n"
 "\n"
 "Este aqui é da raça Plácida."
 
@@ -9797,7 +9798,7 @@ msgid ""
 "\n"
 "This one is a bright Crystal morph."
 msgstr ""
-"Um bebê gordinho de <link=\"LIGHTBUGCRYSTAL\">Vagalume</link>.\n"
+"Um bebê <link=\"LIGHTBUGCRYSTAL\">Vagalume</link> gordinho.\n"
 "\n"
 "Este aqui é da raça brilhante Cristal."
 
@@ -9836,7 +9837,7 @@ msgid ""
 "\n"
 "This one is an orange Sunny morph."
 msgstr ""
-"Um bebê gordinho de <link=\"LIGHTBUGORANGE\">Vagalume</link>.\n"
+"Um bebê <link=\"LIGHTBUGORANGE\">Vagalume</link> gordinho.\n"
 "\n"
 "Este aqui é da raça laranja Ensolarada."
 
@@ -9876,7 +9877,7 @@ msgid ""
 "\n"
 "This one is a pink Vital morph."
 msgstr ""
-"Um bebê gordinho de <link=\"LIGHTBUGPINK\">Vagalume</link>.\n"
+"Um bebê <link=\"LIGHTBUGPINK\">Vagalume</link> gordinho.\n"
 "\n"
 "Este aqui é da raça rosa Vital."
 
@@ -9915,7 +9916,7 @@ msgid ""
 "\n"
 "This one is a purple Royal morph."
 msgstr ""
-"Um bebê gordinho de <link=\"LIGHTBUGPINK\">Vagalume</link>.\n"
+"Um bebê <link=\"LIGHTBUGPURPLE\">Vagalume</link> gordinho.\n"
 "\n"
 "Este aqui é da raça roxo Real."
 
@@ -9960,7 +9961,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.METHANEGEYSER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.NAME"
 msgid "<link=\"GEYSERGENERICMETHANEGEYSER\">Natural Gas Geyser</link>"
-msgstr "<link=\"GEYSERGENERICMETHANEGEYSER\">Gêiser de Gás Natural</link>"
+msgstr "<link=\"GEYSERGENERICMETHANEGEYSER\">Fumarola de Gás Natural</link>"
 
 #. STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MUSHROOMPLANT.DESC"
@@ -9999,8 +10000,8 @@ msgid ""
 "\n"
 "Oil can be extracted from a reservoir with sufficient pressure."
 msgstr ""
-"Reservatórios de Petróleo são formações rochosas que armazenam abaixo da "
-"superfície <link=\"CRUDEOIL\">Petróleo Bruto</link>.\n"
+"Reservatórios de Petróleo são formações rochosas que armazenam <link="
+"\"CRUDEOIL\">Petróleo Bruto</link> abaixo da superfície.\n"
 "\n"
 "Petróleo Bruto pode ser extraído de um reservatório usando a pressão "
 "adequada."
@@ -10019,7 +10020,8 @@ msgid ""
 msgstr ""
 "Uma pequena e gosmenta <link=\"OILFLOATER\">Larva do Óleo</link>\n"
 "\n"
-"Se incubado, ele dará origem a uma <link=\"OILFLOATER\">Bicho do Óleo</link>."
+"Um dia ela crescerá dando origem a um <link=\"OILFLOATER\">Bicho do Óleo</"
+"link>."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.BABY.NAME"
@@ -10154,7 +10156,7 @@ msgstr ""
 "Pacus são criaturas aquáticas que não conseguem viver fora da <link=\"WATER"
 "\">Água</link> ou da <link=\"DIRTYWATER\">Água Poluída</link>.\n"
 "\n"
-"Todo organismo no universo observável considera que o Pacu é extremamente "
+"Todo organismo no universo observável considera o Pacu extremamente "
 "delicioso."
 
 #. STRINGS.CREATURES.SPECIES.PACU.EGG_NAME
@@ -10189,7 +10191,7 @@ msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.DESC"
 msgid ""
 "Every organism in the known universe finds the Pacu extremely delicious."
 msgstr ""
-"Todo organismo no universo observável considera que o Pacu é extremamente "
+"Todo organismo no universo observável considera o Pacu extremamente "
 "delicioso."
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_CLEANER.EGG_NAME
@@ -10225,7 +10227,7 @@ msgctxt "STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.DESC"
 msgid ""
 "Every organism in the known universe finds the Pacu extremely delicious."
 msgstr ""
-"Todo organismo no universo observável considera que o Pacu é extremamente "
+"Todo organismo no universo observável considera o Pacu extremamente "
 "delicioso."
 
 #. STRINGS.CREATURES.SPECIES.PACU.VARIANT_TROPICAL.EGG_NAME
@@ -10267,7 +10269,7 @@ msgstr ""
 msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.DOMESTICATEDDESC"
 msgid ""
 "This plant produces edible <link=\"BRISTLE BERRY\">Bristle Berries</link>."
-msgstr "Esta planta produz <link=\"BRISTLE BERRY\">Fruto de Seda</link>."
+msgstr "Esta planta produz <link=\"BRISTLE BERRY\">Fruto da Seda</link>."
 
 #. STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PRICKLEFLOWER.NAME"
@@ -10296,7 +10298,7 @@ msgstr "<link=\"PRICKLEGRASS\">Urtiga</link>"
 #. STRINGS.CREATURES.SPECIES.PROPANESPOUT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PROPANESPOUT.DESC"
 msgid "A rocky vent that spouts <link=\"PROPANE\">Propane</link>."
-msgstr "Uma abertura de pedra que emite <link=\"PROPANE\">Propano</link>."
+msgstr "Uma abertura rochosa que emite <link=\"PROPANE\">Propano</link>."
 
 #. STRINGS.CREATURES.SPECIES.PROPANESPOUT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PROPANESPOUT.NAME"
@@ -10700,7 +10702,7 @@ msgid ""
 msgstr ""
 "Idade\n"
 "------------------\n"
-"Esta criatura morrerá quando sua Idade chegar no seu tempo de vida máximo"
+"Esta criatura morrerá quando sua Idade chegar no tempo de vida da espécie"
 
 #. STRINGS.CREATURES.STATS.AIRPRESSURE.NAME
 msgctxt "STRINGS.CREATURES.STATS.AIRPRESSURE.NAME"
@@ -10790,7 +10792,7 @@ msgid ""
 msgstr ""
 "Felicidade\n"
 "------------------\n"
-"Felicidade Alta aumenta a produtividade da criatura e indiretamente melhora "
+"Felicidade alta aumenta a produtividade da criatura e indiretamente melhora "
 "a taxa de colocação de ovos\n"
 "\n"
 "Ela também provê satisfação em saber que eles estão vivendo uma boa vida de "
@@ -10859,7 +10861,7 @@ msgstr "Taxa de crescimento selvagem"
 #. STRINGS.CREATURES.STATS.MATURITY.NAME
 msgctxt "STRINGS.CREATURES.STATS.MATURITY.NAME"
 msgid "Growth Progress"
-msgstr "Taxa de Crescimento"
+msgstr "Progresso de Crescimento"
 
 #. STRINGS.CREATURES.STATS.MATURITY.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATS.MATURITY.TOOLTIP"
@@ -10867,7 +10869,7 @@ msgid ""
 "Growth Progress\n"
 "------------------\n"
 msgstr ""
-"Taxa de Crescimento\n"
+"Progresso de Crescimento\n"
 "------------------\n"
 
 #. STRINGS.CREATURES.STATS.MATURITY.TOOLTIP_GROWING
@@ -11188,7 +11190,8 @@ msgstr "    • Iluminação"
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_BRIGHT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_BRIGHT.TOOLTIP"
 msgid "Growth will resume when darkness requirements are met"
-msgstr "Crescimento continuará quando o requisito de sombra for atingido"
+msgstr ""
+"Crescimento continuará quando os requisitos de escuridão forem atingidos"
 
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_DARK.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_DARK.NAME"
@@ -11219,7 +11222,7 @@ msgstr "Movendo para o local"
 #. STRINGS.CREATURES.STATUSITEMS.DEBUGGOTO.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DEBUGGOTO.TOOLTIP"
 msgid "All that obedience training paid off"
-msgstr "Todo aquele treinamento de obediência vale a pena"
+msgstr "Todo aquele treinamento de obediência valeu a pena"
 
 #. STRINGS.CREATURES.STATUSITEMS.DIGESTING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DIGESTING.NAME"
@@ -11315,7 +11318,7 @@ msgstr "Animado"
 #. STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_GET_RANCHED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_GET_RANCHED.TOOLTIP"
 msgid "This critter heard a Rancher call for it and is very excited!"
-msgstr "Esta criatura ouviu o chamado de um Fazendeiro e está muito animado!"
+msgstr "Esta criatura ouviu o chamado de um Fazendeiro e está muito animada!"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXHALING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXHALING.NAME"
@@ -11351,7 +11354,7 @@ msgstr "Expelindo Resíduos"
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_LIQUID.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_LIQUID.TOOLTIP"
 msgid "This critter doing their \"business\""
-msgstr "Esta criatura está fazendo \"negócios\""
+msgstr "Esta criatura está fazendo seus \"negócios\""
 
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.NAME"
@@ -11361,7 +11364,7 @@ msgstr "Expelindo Resíduos"
 #. STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXPELLING_SOLID.TOOLTIP"
 msgid "This critter is doing their \"business\""
-msgstr "Esta criatura está fazendo \"negócios\""
+msgstr "Esta criatura está fazendo seus \"negócios\""
 
 #. STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXTERNALTEMPERATURE.NAME"
@@ -11437,12 +11440,12 @@ msgstr "Sendo Escovada"
 #. STRINGS.CREATURES.STATUSITEMS.GETTING_RANCHED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GETTING_RANCHED.TOOLTIP"
 msgid "This critter's going to look so good when they're done"
-msgstr "Esta criatura vai ficar bem arrumada quando eles terminarem"
+msgstr "Esta criatura vai ficar bem arrumada quando terminar"
 
 #. STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.NAME"
 msgid "Being Wrangled"
-msgstr "Sendo Capturado"
+msgstr "Sendo Amarrada"
 
 #. STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.TOOLTIP"
@@ -11467,7 +11470,7 @@ msgstr "Amadurecendo"
 #. STRINGS.CREATURES.STATUSITEMS.GROWINGUP.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GROWINGUP.TOOLTIP"
 msgid "This baby critter is about to reach adulthood"
-msgstr "Este criatura bebê está prestes a chegar a fase adulta"
+msgstr "Esta criatura bebê está prestes a chegar a fase adulta"
 
 #. STRINGS.CREATURES.STATUSITEMS.HATCHING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HATCHING.NAME"
@@ -11592,7 +11595,7 @@ msgstr "Incubação Completa"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.IN_INCUBATOR.TOOLTIP"
 msgid "This critter has hatched in its incubator and is waiting for pickup"
 msgstr ""
-"Esta criatura foi chocada em sua incubadora e está aguardando ser capturado"
+"Esta criatura foi chocada em sua incubadora e está aguardando ser capturada"
 
 #. STRINGS.CREATURES.STATUSITEMS.INCUBATING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.INCUBATING.NAME"
@@ -11602,7 +11605,7 @@ msgstr "Incubando"
 #. STRINGS.CREATURES.STATUSITEMS.INCUBATING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.INCUBATING.TOOLTIP"
 msgid "Cozily preparing to meet the world"
-msgstr "Preparando para conhecer o novo mundo"
+msgstr "Preparando-se para conhecer o mundo"
 
 #. STRINGS.CREATURES.STATUSITEMS.INHALING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.INHALING.NAME"
@@ -11693,7 +11696,7 @@ msgstr ""
 #. STRINGS.CREATURES.STATUSITEMS.NORMAL_YIELD.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NORMAL_YIELD.NAME"
 msgid "Good Yield"
-msgstr "Colheita Boa"
+msgstr "Boa Colheita"
 
 #. STRINGS.CREATURES.STATUSITEMS.NORMAL_YIELD.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.NORMAL_YIELD.TOOLTIP"
@@ -11713,8 +11716,7 @@ msgstr "Velha"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.OLD.TOOLTIP"
 msgid "This critter is getting old and only has {TimeUntilDeath} left to live."
 msgstr ""
-"Esta criatura está envelhecendo e possui apenas {TimeUntilDeath} restante "
-"para viver."
+"Esta criatura está envelhecendo e possui apenas {TimeUntilDeath} para viver."
 
 #. STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.NAME"
@@ -11796,7 +11798,7 @@ msgstr "Horta Operacional"
 #. STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.TOOLTIP"
 msgid "This plant's farm plot is operational"
-msgstr "A horta desta planta está operacional"
+msgstr "O local de cultivo desta planta está operacional"
 
 #. STRINGS.CREATURES.STATUSITEMS.REFRIGERATED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.REFRIGERATED.NAME"
@@ -11938,7 +11940,7 @@ msgstr "Esta criatura não consegue respirar"
 #. STRINGS.CREATURES.STATUSITEMS.TIRED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.TIRED.NAME"
 msgid "Fatigued"
-msgstr "Fatigado"
+msgstr "Fatigada"
 
 #. STRINGS.CREATURES.STATUSITEMS.TIRED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.TIRED.TOOLTIP"
@@ -11948,7 +11950,7 @@ msgstr "Esta criatura precisa de uma soneca"
 #. STRINGS.CREATURES.STATUSITEMS.TRAPPED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.TRAPPED.NAME"
 msgid "Trapped"
-msgstr "Capturado"
+msgstr "Capturada"
 
 #. STRINGS.CREATURES.STATUSITEMS.TRAPPED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.TRAPPED.TOOLTIP"
@@ -11963,7 +11965,8 @@ msgstr "Não Refrigerado"
 #. STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP"
 msgid "Temperatures above {RotTemperature} spoil food more quickly"
-msgstr "Temperaturas acima de {RotTemperature} estragam a comida mais rápido"
+msgstr ""
+"Temperaturas acima de {RotTemperature} estragam a comida mais rapidamente"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING.NAME"
@@ -12120,7 +12123,8 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ART.DESC"
 msgid ""
 "Determines the speed and finesse with which a Duplicant creates artwork."
 msgstr ""
-"Determina a velocidade e a qualidade o qual um Duplicante cria obras de arte."
+"Determina a velocidade e a qualidade ao qual um Duplicante cria obras de "
+"arte."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ART.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ART.NAME"
@@ -12198,7 +12202,7 @@ msgid ""
 "Determines how quickly a Duplicant gains or reduces <link=\"STRESS\">Breath</"
 "link>."
 msgstr ""
-"Determina o quão rápido um Duplicante ganha ou reduz <link=\"STRESS"
+"Determina o quão rápido um Duplicante ganha ou perde <link=\"STRESS"
 "\">Fôlego</link>."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BREATHDELTA.NAME
@@ -12535,6 +12539,7 @@ msgstr ""
 "link> e ganha habilidades."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.LEARNING.NAME"
 msgid "Learning"
 msgstr "Aprender"
@@ -12682,7 +12687,7 @@ msgstr "Determina a qual temperatura um Duplicante irá se queimar."
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.NAME"
 msgid "Scalding Threshold"
-msgstr "Temperatura de Queima"
+msgstr "Temperatura de Queimaduras"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME"
@@ -12698,7 +12703,7 @@ msgid ""
 msgstr ""
 "Crescimento de Escamas\n"
 "------------------\n"
-"O tempo restante para as escamas dessa criatura crescerem novamente."
+"Quanto tempo até as escamas dessa criatura crescerem novamente."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC"
@@ -12979,7 +12984,7 @@ msgstr "Cuidar"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC"
 msgid "Tend to domesticated critters."
-msgstr "Cuidam de criaturas domesticadas."
+msgstr "Cuidar de criaturas domesticadas."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.NAME"
@@ -12999,7 +13004,7 @@ msgstr "Reparar"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.DESC"
 msgid "Use research stations to unlock new technologies."
-msgstr "Trabalhar em estações de pesquisa para desbloquear novas tecnologias."
+msgstr "Usar estações de pesquisa para desbloquear novas tecnologias."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.NAME"
@@ -13009,7 +13014,7 @@ msgstr "Pesquisar"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.DESC"
 msgid "Fill non-critical storage buildings with resources."
-msgstr "Preencha estruturas não críticas com recursos."
+msgstr "Preencher estruturas não críticas com recursos."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME"
@@ -13019,7 +13024,7 @@ msgstr "Armazenar"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.DESC"
 msgid "Tune machinery and set or flip switches and sensors."
-msgstr "Mexer com máquinas e definir ou alternar sensores e alavancas."
+msgstr "Melhorar máquinas e definir ou alternar sensores e alavancas."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME"
@@ -13192,9 +13197,10 @@ msgid "Going to compost"
 msgstr "Indo compostar"
 
 #. STRINGS.DUPLICANTS.CHORES.COMPOSTWORKABLE.TOOLTIP
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.COMPOSTWORKABLE.TOOLTIP"
 msgid "This Duplicant is dropping off organic material at the compost"
-msgstr "Este Duplicante está soltando material orgânico para compostagem"
+msgstr "Este Duplicante está largando material orgânico na composteira"
 
 #. STRINGS.DUPLICANTS.CHORES.COOK.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOK.NAME"
@@ -13750,7 +13756,7 @@ msgstr "Cochilo Narcoléptico"
 #. STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.STATUS"
 msgid "Narcolepsy Napping"
-msgstr "Cochilo Narcoléptico"
+msgstr "Cochilando Narcolépticamente"
 
 #. STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.TOOLTIP"
@@ -13785,7 +13791,7 @@ msgstr "Manuseando"
 #. STRINGS.DUPLICANTS.CHORES.POWER_TINKER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWER_TINKER.TOOLTIP"
 msgid "Tinkering with buildings improves their functionality"
-msgstr "Manuseio com estruturas melhora sua funcionalidade"
+msgstr "Manusear estruturas melhora sua funcionalidade"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.ALLOWED_TO_DEPRESSURIZE
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.ALLOWED_TO_DEPRESSURIZE"
@@ -13935,7 +13941,7 @@ msgstr "{Selected} não está se movendo"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_NARCOLEPSING
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_NARCOLEPSING"
 msgid "{Selected} is currently napping"
-msgstr "{Target} está tirando um cochilo"
+msgstr "{Selected} está tirando um cochilo"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_NOT_ANGRY
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_NOT_ANGRY"
@@ -14181,7 +14187,7 @@ msgstr "Ancorar Exotraje"
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.STATUS"
 msgid "Docking exosuit"
-msgstr "Ancorando Exotraje"
+msgstr "Ancorando exotraje"
 
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.TOOLTIP"
@@ -14251,8 +14257,8 @@ msgid ""
 "Singing to critter eggs improves their incubation rate, and really who "
 "doesn't love singing?"
 msgstr ""
-"Canta para os ovos melhora a taxa de incubação, e sério, quem não gosta de "
-"ouvir uma canção?"
+"Cantar para os ovos melhora a taxa de incubação, e sério, quem não ama "
+"cantar?"
 
 #. STRINGS.DUPLICANTS.CHORES.SLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SLEEP.NAME"
@@ -14392,7 +14398,7 @@ msgstr "Entrando no Tubo de Tráfego"
 #. STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.TRAVELTUBEENTRANCE.TOOLTIP"
 msgid "Nyoooom!"
-msgstr "Nyoooom!"
+msgstr "Nhioooom!"
 
 #. STRINGS.DUPLICANTS.CHORES.UGLY_CRY.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.UGLY_CRY.NAME"
@@ -14654,9 +14660,10 @@ msgid "Suffocation"
 msgstr "Sufocamento"
 
 #. STRINGS.DUPLICANTS.DESC_TOOLTIP
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.DESC_TOOLTIP"
 msgid "About {0}s"
-msgstr "Sobre {0}s"
+msgstr "Em {0}s"
 
 #. STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX"
@@ -33046,7 +33053,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.6.9)"
+"- Traduzido por Chastomber :P (1.6.10)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
