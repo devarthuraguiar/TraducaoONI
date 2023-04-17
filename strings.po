@@ -188,8 +188,8 @@ msgstr "Todas as baterias estão acima da taxa de recarga"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.NAME"
-msgid "Autobottling: On"
-msgstr "Auto-engarrafamento: Ligado"
+msgid "Auto-Bottle: On"
+msgstr "Auto-Engarrafar: Ligado"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.ALLOWED.TOOLTIP"
@@ -198,8 +198,8 @@ msgstr "Duplicantes podem retirar líquidos de Bombas Manuais e trazer para este
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.NAME"
-msgid "Autobottling: Off"
-msgstr "Auto-engarrafamento: Desligado"
+msgid "Auto-Bottle: Off"
+msgstr "Auto-Engarrafar: Desligado"
 
 #. STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BOTTLE_EMPTIER.DENIED.TOOLTIP"
@@ -255,6 +255,26 @@ msgstr "Abastecido: {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BURNER.HAS_FUEL.TOOLTIP"
 msgid "{0} fuel remaining"
 msgstr "{0} combustível restante"
+
+#. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.NAME"
+msgid "Auto-Canister: On"
+msgstr "Auto-Envasar: Ligado"
+
+#. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.ALLOWED.TOOLTIP"
+msgid "Duplicants may specifically fetch gas from Canister Fillers to bring to this location"
+msgstr "Duplicantes podem retirar gases de Enchedores de Botijões e trazer para este local"
+
+#. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.NAME"
+msgid "Auto-Canister: Off"
+msgstr "Auto-Envasar: Desligado"
+
+#. STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.CANISTER_EMPTIER.DENIED.TOOLTIP"
+msgid "Duplicants may not specifically fetch gas from Canister Fillers to bring to this location"
+msgstr "Duplicantes não podem retirar gases de Enchedores de Botijões e trazer para este local"
 
 #. STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CANNOTCOOLFURTHER.NAME"
@@ -2739,9 +2759,19 @@ msgid "Super computers unlock higher technology tiers than research stations alo
 msgstr "Super computadores desbloqueiam níveis tecnológicos mais altos do que estações de pesquisa sozinhas."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT
+#| msgctxt "STRINGS.RESEARCH.TYPES.BETA.DESC"
+#| msgid ""
+#| "<link=\"RESEARCH\">Advanced Research</link> is required to unlock improved technologies.\n"
+#| "It can be conducted at a <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
-msgid "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies."
-msgstr "Conduz <link=\"RESEARCH\">Pesquisa Avançada</link> para desbloquear novas tecnologias."
+msgid ""
+"Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies.\n"
+"\n"
+"Assigned Duplicants must possess the <link=\"RESEARCHER\">Super Computer Researching</link> trait."
+msgstr ""
+"Conduz <link=\"RESEARCH\">Pesquisa Avançada</link> para desbloquear novas tecnologias.\n"
+"\n"
+"Duplicante Designados precisam ter o traço <link=\"RESEARCHER\">Pesquisar com Super Computador</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME"
@@ -2888,18 +2918,26 @@ msgstr "<link=\"ARCADEMACHINE\">Fliperama</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
-msgid "Prepare a Duplicant for the rigors of space travel."
-msgstr "Prepare um Duplicante para as dificuldades da viagem espacial"
+msgid "Duplicants must complete astronaut training in order to pilot space rockets."
+msgstr "Duplicantes precisam completar treinamento de astronauta para poderem pilotar espaçonaves."
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.EFFECT"
 msgid ""
+"Trains Duplicants to become <link=\"ASTRONAUT\">Astronauts</link>.\n"
+"\n"
+"Duplicants must possess the <link=\"ASTRONAUTTRAINEE\">Astronaut-in-Training</link> trait to receive training."
 msgstr ""
+"Treina Duplicantes para se tornarem <link=\"ASTRONAUT\">Astronautas</link>.\n"
+"\n"
+"Duplicantes precisam possui o traço <link=\"ASTRONAUTTRAINEE\">Astronauta-em-Treinamento</link> para receber treinamento."
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME"
+#| msgid "<link=\"ASTRONAUTTRAININGCENTER\">Astronaut Training Center</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.NAME"
-msgid "<link=\"ASTRONAUTTRAININGCENTER\">Astronaut Training Center</link>"
-msgstr "<link=\"ASTRONAUTTRAININGCENTER\">Centro de Treinamento de Astronautas</link>"
+msgid "<link=\"ASTRONAUTTRAININGCENTER\">Space Cadet Centrifuge</link>"
+msgstr "<link=\"ASTRONAUTTRAININGCENTER\">Centrífuga de Cadetes Espaciais</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.CHARGE_LOSS"
@@ -3025,18 +3063,18 @@ msgstr "<link=\"BOTTLEEMPTIER\">Esvaziador de Garrrafas</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.DESC"
-msgid "A gas bottle emptier's Element Filter can be used to designate areas for specific gas storage."
-msgstr "O Filtro de Elementos de um esvaziador de garrafas de gás pode ser usado para designar gases em áreas específicas."
+msgid "A canister emptier's Element Filter can be used to designate areas for specific gas storage."
+msgstr "O Filtro de Elementos de um esvaziador de botijões pode ser usado para designar gases em áreas específicas."
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.EFFECT"
-msgid "Empties bottled <link=\"ELEMENTSGAS\">Gases</link> back into the world."
-msgstr "Esvazia <link=\"ELEMENTSGAS\">Gases</link> engarrafados de volta ao mundo."
+msgid "Empties <link=\"ELEMENTSGAS\">Gas</link> canisters back into the world."
+msgstr "Esvazia <link=\"ELEMENTSGAS\">Gases</link> em botijões de volta ao mundo."
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.NAME"
-msgid "<link=\"BOTTLEEMPTIERGAS\">Gas Bottle Emptier</link>"
-msgstr "<link=\"BOTTLEEMPTIERGAS\">Esvaziador de Garrrafas de Gás</link>"
+msgid "<link=\"BOTTLEEMPTIERGAS\">Canister Emptier</link>"
+msgstr "<link=\"BOTTLEEMPTIERGAS\">Esvaziador de Botijões</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BUNKERDOOR.DESC"
@@ -3270,8 +3308,8 @@ msgstr "Composteiras lidam com resíduos biológicos e ajudam a fertilizar plant
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.EFFECT"
-msgid "Reduces <link=\"TOXICSAND\">Polluted Dirt</link> and other compostables down into <link=\"DIRT\">Dirt</link>."
-msgstr "Reduz <link=\"TOXICSAND\">Terra Poluída</link> e outros compostáveis em <link=\"DIRT\">Terra</link>."
+msgid "Reduces <link=\"TOXICSAND\">Polluted Dirt</link> and other compostables down into <link=\"FERTILIZER\">Fertilizer</link>."
+msgstr "Reduz <link=\"TOXICSAND\">Terra Poluída</link> e outros compostáveis em <link=\"FERTILIZER\">Fertilizante</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.COMPOST.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMPOST.NAME"
@@ -3706,8 +3744,8 @@ msgstr "<link=\"FARMTILE\">Bloco de Horta</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.DESC"
-msgid "Fertilizer Synthesizers convert polluted water into fertilizer for domestic plants."
-msgstr "Sintetizadores de Fertilizante convertem água poluída em fertilizante para plantas domésticas."
+msgid "Fertilizer Synthesizers convert polluted dirt into fertilizer for domestic plants."
+msgstr "Sintetizadores de Fertilizante convertem terra poluída em fertilizante para plantas domésticas."
 
 #. STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.FERTILIZERMAKER.EFFECT"
@@ -3897,18 +3935,20 @@ msgstr "<link=\"GANTRY\">Pórtico</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC"
-msgid "A bottling station for gases!"
-msgstr "Uma estação de engarrafamento para gases!"
+msgid "Canisters allow Duplicants to manually delivery gases from place to place."
+msgstr "Botijões permitem os Duplicantes transportarem gases de um lugar para o outro."
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.EFFECT"
-msgid "Stores <link=\"ELEMENTSGAS\">Gas</link> from <link=\"GASPIPING\">Gas Pipes</link> into bottles for manual transport."
-msgstr "Armazena <link=\"ELEMENTSGAS\">Gás</link> dos <link=\"GASPIPING\">Tubos de Gás</link> em garrafas para transporte manual."
+msgid "Automatically stores piped <link=\"ELEMENTSGAS\">Gases</link> into canisters for manual transport."
+msgstr "Armazena automaticamente <link=\"ELEMENTSGAS\">Gases</link> encanado em botijões para transporte manual."
 
 #. STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME"
+#| msgid "<link=\"GASBOTTLER\">Gas Bottler</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.NAME"
-msgid "<link=\"GASBOTTLER\">Gas Bottler</link>"
-msgstr "<link=\"GASBOTTLER\">Engarrafador de Gás</link>"
+msgid "<link=\"GASBOTTLER\">Canister Filler</link>"
+msgstr "<link=\"GASBOTTLER\">Enchedor de Botijões</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCARGOBAY.DESC"
@@ -4596,8 +4636,6 @@ msgid "<link=\"INSULATIONTILE\">Insulated Tile</link>"
 msgstr "<link=\"INSULATIONTILE\">Bloco Adiabático</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DOOR.DESC"
-#| msgid "Door controls can be used to prevent Duplicants from entering restricted areas."
 msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.DESC"
 msgid "Rockets can be used to send Duplicants into space and retrieve rare resources."
 msgstr "Foguetes podem ser usados para enviar Duplicantes ao espaço e para coletar recursos raros."
@@ -5864,13 +5902,13 @@ msgstr "<link=\"OUTHOUSE\">Privada</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.DESC"
-msgid "Oxylite Refineries convert Oxygen into solid Oxylite."
-msgstr "Refinarias de Oxilito convertem Oxigênio em Oxilito sólido."
+msgid "Oxylite is a solid and easily transportable source of consumable oxygen."
+msgstr "Oxilito é um sólido e uma fonte facilmente transportável de oxigênio consumível."
 
 #. STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.EFFECT"
-msgid "Catalyzes <link=\"OXYGEN\">Oxygen</link> into <link=\"OXYROCK\">Oxylite</link> using a small amount of <link=\"GOLD\">Gold</link>."
-msgstr "Catalisa <link=\"OXYGEN\">Oxigênio</link> em <link=\"OXYROCK\">Oxilito</link> usando uma pequena porção de <link=\"GOLD\">Ouro</link>."
+msgid "Synthesizes <link=\"OXYROCK\">Oxylite</link> using <link=\"OXYGEN\">Oxygen</link> and a small amount of <link=\"GOLD\">Gold</link>."
+msgstr "Sintetiza <link=\"OXYROCK\">Oxilito</link> usando <link=\"OXYGEN\">Oxigênio</link> e uma pequena porção de <link=\"GOLD\">Ouro</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.NAME"
@@ -7032,24 +7070,28 @@ msgstr "Ligar"
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.DESC"
-msgid "Telescopes are necessary for space tier research."
-msgstr "Telescópios são necessários para nível de pesquisa espacial."
+msgid "Telescopes are necessary for conducting rocket research and learning starmaps."
+msgstr "Telescópios são necessários para conduzir pesquisa espacial e para aprender mapas estelares."
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Interstellar Research</link> to unlock new technologies.\n"
 "\n"
-"Must be exposed to space."
+"Assigned Duplicants must possess the <link=\"SENIORRESEARCHER\">Telescope Researching</link> trait.\n"
+"\n"
+"Must be exposed to space to function."
 msgstr ""
 "Conduz <link=\"RESEARCH\">Pesquisa Interestelar</link> e desbloqueia novas tecnologias.\n"
+"\n"
+"Duplicantes Designados precisam possuir o traço <link=\"SENIORRESEARCHER\">Pesquisar com Telescópio</link>.\n"
 "\n"
 "Precisa estar exposto ao espaço."
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME"
-msgid "<link=\"TELESCOPE\">Telescope</link>"
-msgstr "<link=\"TELESCOPE\">Telescópio</link>"
+msgid "<link=\"TELESCOPE\">Research Telescope</link>"
+msgstr "<link=\"TELESCOPE\">Telescópio de Pesquisa</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.DESC"
@@ -19429,8 +19471,12 @@ msgstr "<link=\"ARTIST\">Artista</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.ASTRONAUT.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUT.DESCRIPTION"
-msgid "Astronauts are trained and ready to explore space."
-msgstr "Astronautas são treinados e prontos para explorar o espaço."
+msgid ""
+"Astronauts are trained rocket pilots capable of going on\n"
+"space missions deep into the unknown."
+msgstr ""
+"Astronautas são pilotos de foguetes treinados capazes de ir\n"
+"em missões espaciais rumo ao desconhecido."
 
 #. STRINGS.DUPLICANTS.ROLES.ASTRONAUT.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUT.NAME"
@@ -19439,13 +19485,17 @@ msgstr "<link=\"ASTRONAUT\">Astronauta</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.DESCRIPTION"
-msgid "Cadets are selected to undergo astronaut training."
-msgstr "Cadetes são selecionados para passar por treinamento de astronauta"
+msgid ""
+"Space Cadets are research and exosuit experts who may\n"
+"train to become astronauts."
+msgstr ""
+"Cadetes Espaciais são especialistas em pesquisa e exotrajes que\n"
+"podem treinar para se tornar astronautas."
 
 #. STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.NAME"
-msgid "<link=\"ASTRONAUTTRAINEE\">Cadet</link>"
-msgstr "<link=\"ASTRONAUTTRAINEE\">Cadete</link>"
+msgid "<link=\"ASTRONAUTTRAINEE\">Space Cadet</link>"
+msgstr "<link=\"ASTRONAUTTRAINEE\">Cadete Espacial</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.BOTANIST.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.BOTANIST.DESCRIPTION"
@@ -21655,11 +21705,9 @@ msgstr "Com raiva"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP
 #, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
-#| msgid "Took a Break"
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP"
-msgid "Bio Break"
-msgstr "Vazou"
+msgid "Washroom Break"
+msgstr "Intervalo pro Banheiro"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.CHATTY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.CHATTY.TOOLTIP"
@@ -22755,7 +22803,13 @@ msgstr "<link=\"FOOLSGOLD\">Pirita</link>"
 #. STRINGS.ELEMENTS.FOSSIL.DESC
 msgctxt "STRINGS.ELEMENTS.FOSSIL.DESC"
 msgid ""
+"Fossil is organic matter, highly compressed and hardened into a mineral state.\n"
+"\n"
+"It is useful as a Construction Material."
 msgstr ""
+"Fóssil é matéria orgânica dura e altamente comprimida até formar um estado mineral.\n"
+"\n"
+"É útil como Material de Construção."
 
 #. STRINGS.ELEMENTS.FOSSIL.NAME
 msgctxt "STRINGS.ELEMENTS.FOSSIL.NAME"
@@ -22970,11 +23024,11 @@ msgstr "<link=\"KATAIRITE\">Abissalito</link>"
 #. STRINGS.ELEMENTS.LIME.DESC
 msgctxt "STRINGS.ELEMENTS.LIME.DESC"
 msgid ""
-"(CaCO<sub>3</sub>) Lime is a mineral commonly found in animal shells.\n"
+"(CaCO<sub>3</sub>) Lime is a mineral commonly found in <link=\"CRITTERS\">Critter</link> egg shells.\n"
 "\n"
 "It is useful as a Construction Material."
 msgstr ""
-"(CaCO<sub>3</sub>) Cal é um mineral comumente encontrado em carapaças de animais.\n"
+"(CaCO<sub>3</sub>) Cal é um mineral comumente encontrado em cascas de ovos de <link=\"CRITTERS\">Criaturas</link>.\n"
 "\n"
 "É útil como Material de Construção."
 
@@ -23747,8 +23801,14 @@ msgstr "<link=\"SOLIDPROPANE\">Propano</link>"
 
 #. STRINGS.ELEMENTS.SOURGAS.DESC
 msgctxt "STRINGS.ELEMENTS.SOURGAS.DESC"
-msgid "Sour gas is a hydrocarbon gas containing significant amounts of hydrogen sulfide"
-msgstr "Gás ácido é um gás hidrocarboneto contendo quantidades significativas de sulfato de hidrogênio"
+msgid ""
+"Sour Gas is a hydrocarbon <link=\"ELEMENTSGAS\">Gas</link> containing high concentrations of hydrogen sulfide.\n"
+"\n"
+"It is a byproduct of highly heated <link=\"PETROLEUM\">Petroleum</link>."
+msgstr ""
+"Gás Ácido é um hidrocarboneto <link=\"ELEMENTSGAS\">Gasoso</link> carregando altas concentrações de sulfato de hidrogênio.\n"
+"\n"
+"É um subproduto de <link=\"PETROLEUM\">Petróleo</link> altamente aquecido."
 
 #. STRINGS.ELEMENTS.SOURGAS.NAME
 msgctxt "STRINGS.ELEMENTS.SOURGAS.NAME"
@@ -30691,10 +30751,10 @@ msgstr "Desbloqueia tecnologias melhores."
 msgctxt "STRINGS.RESEARCH.TYPES.GAMMA.DESC"
 msgid ""
 "<link=\"RESEARCH\">Interstellar Research</link> is required to unlock space technologies.\n"
-"It can be conducted at a <link=\"TELESCOPE\">Telescope</link>."
+"It can be conducted at a <link=\"TELESCOPE\">Research Telescope</link>."
 msgstr ""
 "<link=\"RESEARCH\">Pesquisa Interestelar</link> é necessária para desbloquear tecnologias espaciais.\n"
-"Pode ser conduzida em um <link=\"TELESCOPE\">Telescópio</link>."
+"Pode ser conduzida em um <link=\"TELESCOPE\">Telescópio de Pesquisa</link>."
 
 #. STRINGS.RESEARCH.TYPES.GAMMA.NAME
 msgctxt "STRINGS.RESEARCH.TYPES.GAMMA.NAME"
@@ -31381,8 +31441,6 @@ msgid "Base {0}"
 msgstr "Base {0}"
 
 #. STRINGS.UI.BUILD_REQUIRES_ROLE
-#| msgctxt "STRINGS.UI.ROLES"
-#| msgid "ROLES"
 msgctxt "STRINGS.UI.BUILD_REQUIRES_ROLE"
 msgid "{ROLE}"
 msgstr ""
@@ -39444,8 +39502,8 @@ msgstr "Traço: Minerar <link=\"HARDNESS\">Materiais Muito Duros</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_ASTRONAUT_TRAINING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_ASTRONAUT_TRAINING.DESCRIPTION"
-msgid "Ready for Astronaut training"
-msgstr "Pronto para treinamento de Astronauta"
+msgid "Trait: Astronaut-in-Training"
+msgstr "Traço: Astronauta-em-Treinamento"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_PLUMBING.DESCRIPTION"
@@ -39571,6 +39629,13 @@ msgstr "Estresse por Trabalhar"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.NO_PERKS"
 msgid "This job comes with no training"
 msgstr "Este trabalho não precisa de treinamento"
+
+#. STRINGS.UI.ROLES_SCREEN.PERKS.TELESCOPE_RESEARCH.DESCRIPTION
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME"
+#| msgid "<link=\"TELESCOPE\">Telescope</link>"
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.TELESCOPE_RESEARCH.DESCRIPTION"
+msgid "Trait: <link=\"TELESCOPE\">Research Telescope</link> Researching"
+msgstr "Traço: Pesquisar com <link=\"TELESCOPE\">Telescópio de Pesquisa</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_BASICTRAINING
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.TITLE_BASICTRAINING"
@@ -39758,8 +39823,8 @@ msgstr "Voltar"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.COMMON
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.COMMON"
-msgid "Common substances"
-msgstr "Substâncias comuns"
+msgid "Common Substances"
+msgstr "Substâncias Comuns"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE"
@@ -39808,7 +39873,7 @@ msgstr "Especial"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.GAS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.GAS"
-msgid "Gasses"
+msgid "Gases"
 msgstr "Gases"
 
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.LIQUID
@@ -40129,10 +40194,6 @@ msgid "My Duplicants use bedtime blocks to rest up after a hard day's work."
 msgstr "Meus Duplicantes usam os blocos de soneca para descansar depois de um longo dia de trabalho."
 
 #. STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT
-#| msgctxt "STRINGS.CREATURES.STATS.MATURITY.TOOLTIP"
-#| msgid ""
-#| "Growth Progress\n"
-#| "------------------\n"
 msgctxt "STRINGS.UI.SCHEDULEGROUPS.TOOLTIP_FORMAT"
 msgid ""
 "{0}\n"
@@ -40238,8 +40299,6 @@ msgid "{0} (Assigned)"
 msgstr "{0} (Designado)"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.PICK_DUPLICANT"
-#| msgid "Duplicant..."
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK"
 msgid "<i>Move Duplicant...</i>"
 msgstr "<i>Mover Duplicante...</i>"
@@ -40395,6 +40454,12 @@ msgctxt "STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT"
 msgid "This rocket needs a {0} to gather {1}"
 msgstr "Este foguete precisa de {0} para coletar {1}"
 
+#. STRINGS.UI.STARMAP.DESTINATIONTITLE
+#, fuzzy
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONTITLE"
+msgid "Destination Status"
+msgstr "Estado do Destino"
+
 #. STRINGS.UI.STARMAP.DISTANCE
 msgctxt "STRINGS.UI.STARMAP.DISTANCE"
 msgid "{0} km"
@@ -40404,6 +40469,11 @@ msgstr ""
 msgctxt "STRINGS.UI.STARMAP.DISTANCE_OVERLAY"
 msgid "TOO FAR FOR THIS ROCKET"
 msgstr "LONGE DEMAIS PARA ESTE FOGUETE"
+
+#. STRINGS.UI.STARMAP.LAUNCH_MISSION
+msgctxt "STRINGS.UI.STARMAP.LAUNCH_MISSION"
+msgid "LAUNCH MISSION"
+msgstr "INICIAR MISSÃO"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT"
@@ -43566,23 +43636,43 @@ msgstr "Entregar materiais para esta estrutura"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.NAME"
-msgid "Enable Autobottling"
-msgstr "Ativar Auto Engarrafamento"
+msgid "Enable Auto-Bottle"
+msgstr "Ativar Auto-Engarrafar"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED.TOOLTIP"
 msgid "If enabled, Duplicants will deliver bottled liquids to this building directly from Pitcher Pumps"
 msgstr "Se ativado, Duplicantes irão automaticamente entregar líquidos engarrafados a esta estrutura a partir de Bombas Manuais"
 
+#. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME
+msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.NAME"
+msgid "Enable Auto-Canister"
+msgstr "Ativar Auto-Envasar"
+
+#. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.TOOLTIP
+msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.ALLOWED_GAS.TOOLTIP"
+msgid "If enabled, Duplicants will deliver gas canisters to this building directly from Canister Fillers"
+msgstr "Se ativado, Duplicantes irão automaticamente entregar botijões de gás a esta estrutura a partir de Enchedores de Botijões"
+
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.NAME"
-msgid "Disable Autobottling"
-msgstr "Desativar Auto Engarrafamento"
+msgid "Disable Auto-Bottle"
+msgstr "Desativar Auto-Engarrafar"
 
 #. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED.TOOLTIP"
 msgid "If disabled, Duplicants will no longer deliver bottled liquids directly from Pitcher Pumps"
 msgstr "Se desativado, Duplicantes não irão automaticamente entregar líquidos engarrafados a esta estrutura a partir de Bombas Manuais"
+
+#. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.NAME
+msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.NAME"
+msgid "Disable Auto-Canister"
+msgstr "Desativar Auto-Envasar"
+
+#. STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.TOOLTIP
+msgctxt "STRINGS.UI.USERMENUACTIONS.MANUAL_PUMP_DELIVERY.DENIED_GAS.TOOLTIP"
+msgid "If disabled, Duplicants will no longer deliver gas canisters directly from Canister Fillers"
+msgstr "Se desativado, Duplicantes não irão automaticamente entregar botijões de gás a esta estrutura a partir de Enchedores de Botijões"
 
 #. STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.MOVETOLOCATION.NAME"
@@ -44766,6 +44856,49 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.EFFECT"
+#~ msgid "Conducts <link=\"RESEARCH\">Advanced Research</link> to unlock new technologies."
+#~ msgstr "Conduz <link=\"RESEARCH\">Pesquisa Avançada</link> para desbloquear novas tecnologias."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
+#~ msgid "Prepare a Duplicant for the rigors of space travel."
+#~ msgstr "Prepare um Duplicante para as dificuldades da viagem espacial"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASBOTTLER.DESC"
+#~ msgid "A bottling station for gases!"
+#~ msgstr "Uma estação de engarrafamento para gases!"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.OXYLITEREFINERY.DESC"
+#~ msgid "Oxylite Refineries convert Oxygen into solid Oxylite."
+#~ msgstr "Refinarias de Oxilito convertem Oxigênio em Oxilito sólido."
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUT.DESCRIPTION"
+#~ msgid "Astronauts are trained and ready to explore space."
+#~ msgstr "Astronautas são treinados e prontos para explorar o espaço."
+
+#~ msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.DESCRIPTION"
+#~ msgid "Cadets are selected to undergo astronaut training."
+#~ msgstr "Cadetes são selecionados para passar por treinamento de astronauta"
+
+#, fuzzy
+#~| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
+#~| msgid "Took a Break"
+#~ msgctxt "STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP"
+#~ msgid "Bio Break"
+#~ msgstr "Vazou"
+
+#~ msgctxt "STRINGS.ELEMENTS.SOURGAS.DESC"
+#~ msgid "Sour gas is a hydrocarbon gas containing significant amounts of hydrogen sulfide"
+#~ msgstr "Gás ácido é um gás hidrocarboneto contendo quantidades significativas de sulfato de hidrogênio"
+
+#~ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DO_ASTRONAUT_TRAINING.DESCRIPTION"
+#~ msgid "Ready for Astronaut training"
+#~ msgstr "Pronto para treinamento de Astronauta"
+
+#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.GAS"
+#~ msgid "Gasses"
+#~ msgstr "Gases"
 
 #~| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.SPAWNER.TOOLTIP"
 #~| msgid "Spawn food, creatures, equipment, and other entities"
