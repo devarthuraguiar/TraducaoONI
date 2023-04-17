@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.0.8\n"
+"Project-Id-Version: Português foi Incluído! 2.0.9\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -9126,13 +9126,13 @@ msgstr "<link=\"OXYLITEREFINERY\">Refinaria de Oxilito</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PARKSIGN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PARKSIGN.DESC"
-msgid "Typically found in parks."
-msgstr "Tipicamente encontrados em parques."
+msgid "Passing through parks will increase Duplicant Morale."
+msgstr "Passar por parques aumentará a Moral dos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.PARKSIGN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.PARKSIGN.EFFECT"
-msgid "Classifies this area as a park."
-msgstr "Identifica esta área como um parque."
+msgid "Classifies an area as a Park or Nature Reserve."
+msgstr "Classifica uma área como um Parque ou Reserva Natural."
 
 #. STRINGS.BUILDINGS.PREFABS.PARKSIGN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PARKSIGN.NAME"
@@ -18787,8 +18787,8 @@ msgstr "A Esperança de uma Colônia"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.NAME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.NAME"
-msgid "ESCAPE ASTEROID"
-msgstr "ESCAPAR DO ASTEROIDE"
+msgid "The Great Escape"
+msgstr "A Grande Escapada"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.REQUIREMENTS.REACHED_SPACE_DESTINATION
 msgctxt ""
@@ -18846,13 +18846,13 @@ msgstr ""
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS"
-msgid "One Bed One Bath"
-msgstr "Uma Cama Um Banheiro"
+msgid "Bed and Bath"
+msgstr "Cama e Banho"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS_DESCRIPTION
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS_DESCRIPTION"
-msgid "Have at least one bed and one toilet for each Duplicant in the colony."
+msgid "Have at least one toilet in the colony and a bed for every Duplicant."
 msgstr ""
 "Tenha pelo menos uma cama e uma privada para cada Duplicante na colônia."
 
@@ -18867,17 +18867,6 @@ msgctxt ""
 msgid "Distribute 1000kg of Oxygen using gas vents."
 msgstr "Distribua 1000kg de Oxigênio usando saídas de ar."
 
-#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_N_ROOM_TYPE
-msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_N_ROOM_TYPE"
-msgid "Some Reservations"
-msgstr "Algumas Reservas"
-
-#. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_N_ROOM_TYPE_DESCRIPTION
-msgctxt ""
-"STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_N_ROOM_TYPE_DESCRIPTION"
-msgid "Improve Duplicant Morale by designating {1} areas as {0}."
-msgstr "Melhore a Moral dos Duplicantes por designar áreas de {1} como {0}"
-
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_NATURE_RESERVES"
 msgid "Some Reservations"
@@ -18887,9 +18876,8 @@ msgstr "Algumas Reservas"
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS."
 "BUILD_NATURE_RESERVES_DESCRIPTION"
-msgid "Improve Duplicant Morale by designating 4 areas as Nature Reserves."
-msgstr ""
-"Melhore a Moral dos Duplicantes por designar 4 áreas como Reservas Naturais."
+msgid "Improve Duplicant Morale by designating {1} areas as {0}."
+msgstr "Melhore a Moral dos Duplicantes por designar áreas de {1} como {0}."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_OUTSIDE_BIOME"
@@ -19337,8 +19325,8 @@ msgstr "Esta É Nossa Casa"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.NAME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.NAME"
-msgid "COLONIZE ASTEROID"
-msgstr "COLONIZAR ASTEROIDE"
+msgid "Home Sweet Home"
+msgstr "Lar Doce Lar"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.BUILT_MONUMENT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.REQUIREMENTS.BUILT_MONUMENT"
@@ -38461,8 +38449,16 @@ msgstr "<link=\"BEANPLANTSEED\">Feijão Brocoso</link>"
 
 #. STRINGS.ITEMS.FOOD.BURGER.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.DESC"
-msgid "It's the best food."
-msgstr "É a melhor comida."
+msgid ""
+"<link=\"MEAT\">Meat</link> and <link=\"LETTUCE\">Lettuce</link> on a chilled "
+"<link=\"COLDWHEATBREAD\">Frost Bun</link>.\n"
+"\n"
+"It's the only burger ever to be served cold."
+msgstr ""
+"<link=\"MEAT\">Carne</link> e <link=\"LETTUCE\">Alface</link> em um <link="
+"\"COLDWHEATBREAD\">Pãozinho das Neves</link> friozinho.\n"
+"\n"
+"É o único hambúrguer que deve ser servido frio."
 
 #. STRINGS.ITEMS.FOOD.BURGER.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.NAME"
@@ -38471,8 +38467,12 @@ msgstr "<link=\"BURGER\">Hambúrguer Congelante</link>"
 
 #. STRINGS.ITEMS.FOOD.BURGER.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.BURGER.RECIPEDESC"
-msgid "Meat, Lettuce, Bun"
-msgstr "Carne, Alface, Pão"
+msgid ""
+"<link=\"MEAT\">Meat</link> and <link=\"LETTUCE\">Lettuce</link> on a chilled "
+"<link=\"COLDWHEATBREAD\">Frost Bun</link>."
+msgstr ""
+"<link=\"MEAT\">Carne</link> e <link=\"LETTUCE\">Alface</link> em um <link="
+"\"COLDWHEATBREAD\">Pãozinho das Neves</link> friozinho."
 
 #. STRINGS.ITEMS.FOOD.COLDWHEATBREAD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATBREAD.DESC"
@@ -38492,7 +38492,7 @@ msgstr ""
 #. STRINGS.ITEMS.FOOD.COLDWHEATBREAD.NAME
 msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATBREAD.NAME"
 msgid "<link=\"COLDWHEATBREAD\">Frost Bun</link>"
-msgstr "<link=\"COLDWHEATBREAD\">Bolinho das Neves</link>"
+msgstr "<link=\"COLDWHEATBREAD\">Pãozinho das Neves</link>"
 
 #. STRINGS.ITEMS.FOOD.COLDWHEATBREAD.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATBREAD.RECIPEDESC"
@@ -38542,13 +38542,15 @@ msgstr "Entranhas macias e dobradas de um <style=\"KKeyword\">Ovo</style>."
 #. STRINGS.ITEMS.FOOD.COOKEDFISH.DESC
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.DESC"
 msgid ""
-"The cooked meat of a defeated critter.\n"
+"The cooked <link=\"FISHMEAT\">Fillet</link> of a freshly caught <style="
+"\"KKeyword\">Pacu</style>.\n"
 "\n"
-"It has a delightful smoky aftertaste."
+"Unsurprisingly, it tastes a bit fishy."
 msgstr ""
-"A carne cozida de uma criatura derrotada.\n"
+"O <link=\"FISHMEAT\">Filé</link> cozido de um <style=\"KKeyword\">Pacu</"
+"style> recém capturado.\n"
 "\n"
-"Tem ótimo gostinho defumado."
+"Insupreendentemente, tem um gostinho de peixe ."
 
 #. STRINGS.ITEMS.FOOD.COOKEDFISH.NAME
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.NAME"
@@ -38556,9 +38558,15 @@ msgid "<link=\"COOKEDFISH\">Cooked Fish</link>"
 msgstr "<link=\"COOKEDFISH\">Peixe Cozido</link>"
 
 #. STRINGS.ITEMS.FOOD.COOKEDFISH.RECIPEDESC
+#| msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.RECIPEDESC"
+#| msgid "The cooked meat of a defeated <style=\"KKeyword\">Critter</style>."
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.RECIPEDESC"
-msgid "The cooked meat of a defeated <style=\"KKeyword\">Critter</style>."
-msgstr "A carne cozida de uma <style=\"KKeyword\">Criatura</style> derrotada."
+msgid ""
+"The cooked <link=\"FISHMEAT\">Fillet</link> of a freshly caught <style="
+"\"KKeyword\">Pacu</style>."
+msgstr ""
+"O <link=\"FISHMEAT\">Filé</link> cozido de um <style=\"KKeyword\">Pacu</"
+"style> recém capturado."
 
 #. STRINGS.ITEMS.FOOD.COOKEDMEAT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDMEAT.DESC"
@@ -39082,15 +39090,15 @@ msgstr "<link=\"SPICENUT\">Pimenta Coquinho</link>"
 #. STRINGS.ITEMS.FOOD.SPICYTOFU.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.DESC"
 msgid ""
-"<link=\"TOFU\">Tofu</link> marinated in <link=\"SPICEVINE\">Pincha "
-"Pepperplant</link> sauce.\n"
+"<link=\"TOFU\">Tofu</link> marinated in a flavorful <link=\"SPICEVINE"
+"\">Pincha Pepperplant</link> sauce.\n"
 "\n"
-"It has an unusual but pleasant consistency."
+"It packs a delightful punch."
 msgstr ""
-"<link=\"TOFU\">Tofu</link> marinado em molho de <link=\"SPICEVINE\">Pimenta "
-"Coquinho</link>.\n"
+"<link=\"TOFU\">Tofu</link> marinado em um saboroso molho de <link=\"SPICEVINE"
+"\">Pimenta Coquinho</link>.\n"
 "\n"
-"Tem um sabor diferente mas de consistência agradável."
+"Ele entrega um golpe agradável."
 
 #. STRINGS.ITEMS.FOOD.SPICYTOFU.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.NAME"
@@ -39100,26 +39108,42 @@ msgstr "<link=\"SPICYTOFU\">Tofu Apimentado</link>"
 #. STRINGS.ITEMS.FOOD.SPICYTOFU.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.RECIPEDESC"
 msgid ""
-"<link=\"TOFU\">Tofu</link> marinated in <link=\"SPICENUT\">Pincha Peppernut</"
-"link> sauce."
+"<link=\"TOFU\">Tofu</link> marinated in a flavorful<link=\"SPICENUT\">Pincha "
+"Peppernut</link> sauce."
 msgstr ""
-"<link=\"TOFU\">Tofu</link> marinado em molho de <link=\"SPICENUT\">Pimenta "
-"Coquinho</link>."
+"<link=\"TOFU\">Tofu</link> marinado em um saboroso molho de <link=\"SPICEVINE"
+"\">Pimenta Coquinho</link>."
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.DESC"
-msgid "Meat and fish"
-msgstr "Carne e peixe"
+msgid ""
+"A bit of <link=\"MEAT\">Meat</link> from the land and <link=\"FISHMEAT"
+"\">Fish</link> from the sea.\n"
+"\n"
+"It hearty and satisfying."
+msgstr ""
+"Um pouco de <link=\"MEAT\">Carne</link> da terra e <link=\"FISHMEAT\">Peixe</"
+"link> do oceano.\n"
+"\n"
+"É confortante e delicioso."
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.NAME
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.NAME"
-msgid "<link=\"SURFANDTURF\">Surf n' Turf</link>"
-msgstr "<link=\"SURFANDTURF\">Surf n' Turf</link>"
+msgid "<link=\"SURFANDTURF\">Surf'n'Turf</link>"
+msgstr "<link=\"SURFANDTURF\">Chapa Mista</link>"
 
 #. STRINGS.ITEMS.FOOD.SURFANDTURF.RECIPEDESC
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.EFFECT"
+#| msgid ""
+#| "Grows one <link=\"PLANTS\">Plant</link> from a <link=\"PLANTS\">Seed</"
+#| "link>."
 msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.RECIPEDESC"
-msgid "Meat and fish"
-msgstr "Carne e peixe"
+msgid ""
+"A bit of <link=\"MEAT\">Meat</link> from the land and <link=\"FISHMEAT"
+"\">Fish</link> from the sea."
+msgstr ""
+"Um pouco de <link=\"MEAT\">Carne</link> da terra e <link=\"FISHMEAT\">Peixe</"
+"link> do oceano."
 
 #. STRINGS.ITEMS.FOOD.SUSHI.DESC
 msgctxt "STRINGS.ITEMS.FOOD.SUSHI.DESC"
@@ -39152,8 +39176,15 @@ msgstr ""
 
 #. STRINGS.ITEMS.FOOD.TOFU.DESC
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.DESC"
-msgid "Plain bean curd."
-msgstr "Colhada de feijão."
+msgid ""
+"A bland curd made from <link=\"BEAN\">Nosh Beans</link>.\n"
+"\n"
+"It has an unusual but pleasant consistency."
+msgstr ""
+"Uma coalhada de sabor suave feita de <link=\"BEAN\">Feijões Brocosos</"
+"link>.\n"
+"\n"
+"Possui uma consistência diferente porém agradável."
 
 #. STRINGS.ITEMS.FOOD.TOFU.NAME
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.NAME"
@@ -39161,9 +39192,12 @@ msgid "<link=\"TOFU\">Tofu</link>"
 msgstr "<link=\"TOFU\">Tofu</link>"
 
 #. STRINGS.ITEMS.FOOD.TOFU.RECIPEDESC
+#| msgctxt "STRINGS.CREATURES.SPECIES.BEAN_PLANT.DOMESTICATEDDESC"
+#| msgid "This plant produces <link=\"BEAN\">Nosh Beans</link>."
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.RECIPEDESC"
-msgid "<link=\"BEAN\">Nosh Bean</link> curd."
-msgstr "Coalhada de <link=\"BEAN\">Feijão Brocoso</link>."
+msgid "A bland curd made from <link=\"BEAN\">Nosh Beans</link>."
+msgstr ""
+"Uma coalhada de sabor suave feita de <link=\"BEAN\">Feijões Brocosos</link>."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BASIC_FABRIC.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BASIC_FABRIC.DESC"
@@ -40139,9 +40173,10 @@ msgstr ""
 "Estes Duplicantes morreram pela falta de <link=\"OXYGEN\">Oxigênio</link>:"
 
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY
+#| msgid ""
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY"
-msgid "<<PLACEHOLDER>>"
-msgstr "<<EM CONSTRUÇÃO>>"
+msgid ""
+msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.NAME"
@@ -40520,9 +40555,10 @@ msgstr ""
 "• Consumido no último ciclo: {ConsumptionRate}"
 
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY
+#| msgid ""
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY"
-msgid "<<PLACEHOLDER>>"
-msgstr "<<EM CONSTRUÇÃO>>"
+msgid ""
+msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.NAME"
@@ -40862,9 +40898,10 @@ msgstr ""
 "sistemas de funcionarem:"
 
 #. STRINGS.MISC.NOTIFICATIONS.PLUMBING.MESSAGEBODY
+#| msgid ""
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PLUMBING.MESSAGEBODY"
-msgid "<<PLACEHOLDER>>"
-msgstr "<<EM CONSTRUÇÃO>>"
+msgid ""
+msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.PLUMBING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.PLUMBING.NAME"
@@ -40877,9 +40914,10 @@ msgid "Notes on connecting buildings with pipes"
 msgstr "Dicas na conexão de estruturas com canos"
 
 #. STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY
+#| msgid ""
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY"
-msgid "<<PLACEHOLDER>>"
-msgstr "<<EM CONSTRUÇÃO>>"
+msgid ""
+msgstr ""
 
 #. STRINGS.MISC.NOTIFICATIONS.POWER.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.NAME"
@@ -49834,7 +49872,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (2.0.8)"
+"- Traduzido por Chastomber :P (2.0.9)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -49848,8 +49886,8 @@ msgstr "<b>Bem vindo à Oxygen Not Included!</b>"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.ANIMATION_HEADER
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.ANIMATION_HEADER"
-msgid "LAUNCH DATE MK. 2!"
-msgstr "DATA DE LANÇAMENTO MARCO 2!"
+msgid "LAUNCH TRAILER!"
+msgstr "TRAILER DE LANÇAMENTO!"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.BODY
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.BODY"
@@ -49867,13 +49905,13 @@ msgstr "FÓRUNS"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.HEADER
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.HEADER"
-msgid "DEVELOPMENT BUILD"
-msgstr "ACESSO ANTECIPADO"
+msgid "JOIN THE DISCUSSION"
+msgstr "ENTRE NA DISCUSSÃO"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.MAILINGLIST
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.MAILINGLIST"
-msgid "NOTIFY ME!"
-msgstr "ME NOTIFIQUE!"
+msgid "MAILING LIST"
+msgstr "LISTA DE EMAIL"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.PATCHNOTES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.PATCHNOTES"
@@ -49912,8 +49950,8 @@ msgstr "Menos que um dia"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.SPECIFIC_DATE
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.SPECIFIC_DATE"
-msgid "JULY"
-msgstr "JULHO"
+msgid "LAUNCHED!"
+msgstr "LANÇADA!"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.TWENTY_FOUR_HOURS
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.TWENTY_FOUR_HOURS"
@@ -49928,7 +49966,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO: {0}"
+msgstr "VERSÃO (2.0.9): {0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -56592,13 +56630,13 @@ msgstr "Média de Energia Desperdiçada"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.TRAVEL_TIME
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.TRAVEL_TIME"
-msgid "Travel Time"
-msgstr "Tempo de Viagem"
+msgid "Total Travel Time"
+msgstr "Tempo de Viagem Total"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.WORK_TIME
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.WORK_TIME"
-msgid "Work Time"
-msgstr "Tempo Trabalhando"
+msgid "Total Work Time"
+msgstr "Tempo Trabalho Total"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.TIMELAPSE_UNAVAILABLE
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.TIMELAPSE_UNAVAILABLE"
@@ -65359,14 +65397,16 @@ msgctxt "STRINGS.WORLDS.BADLANDS.DESCRIPTION"
 msgid ""
 "A barren location with an overabundance of mineral resources.\n"
 "\n"
-"<smallcaps>Colonization in The Badlands will not be easy, but it should "
-"theoretically be possible.</smallcaps>\n"
+"<smallcaps>The rocky terrain of The Badlands poses no immediate threats, but "
+"the sparse resources will make expansion and technological progress "
+"challenging.</smallcaps>\n"
 "\n"
 msgstr ""
 "Um destino sem vida com abundância em recursos minerais.\n"
 "\n"
-"<smallcaps>Colonização nas Terras Ruins não será fácil, mas é teoricamente "
-"possível.</smallcaps>\n"
+"<smallcaps>O terreno rochoso das Terras Ruins não apresentam ameaças "
+"imediatas, mas recursos esparsos farão a expansão e o progresso tecnológico "
+"mais desafiadores.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.BADLANDS.NAME
@@ -65379,14 +65419,16 @@ msgctxt "STRINGS.WORLDS.FOREST_DEFAULT.DESCRIPTION"
 msgid ""
 "A location with a natural abundance of trees.\n"
 "\n"
-"<smallcaps>Arboria would be reasonably suitable for Duplicant colonization.</"
-"smallcaps>\n"
+"<smallcaps>Colonizing Arboria will require careful planning right from the "
+"start. Because of its lack of metals, biological solutions to problems must "
+"be sought.</smallcaps>\n"
 "\n"
 msgstr ""
 "Um destino com abundância natural de árvores.\n"
 "\n"
-"<smallcaps>Arbórea seria razoavelmente adequado para a colonização "
-"Duplicante.</smallcaps>\n"
+"<smallcaps>Colonizar Arbórea precisa de planejamento cuidadoso desde o "
+"início. Devido a sua falta de metais, soluções biológicas para os problemas "
+"devem ser utilizadas.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.FOREST_DEFAULT.NAME
@@ -65399,14 +65441,16 @@ msgctxt "STRINGS.WORLDS.FOREST_HOT.DESCRIPTION"
 msgid ""
 "A location with oppressively hot temperatures.\n"
 "\n"
-"<smallcaps>Despite the presence of living foliage, colonization of Aridio "
-"will pose considerable challenges.</smallcaps>\n"
+"<smallcaps>Temperatures on Aridio are much higher than expected. While "
+"resources are abundant, maintaining food and infrastructure could be "
+"difficult as our colony warms.</smallcaps>\n"
 "\n"
 msgstr ""
 "Um destino com temperaturas opressivamente quentes.\n"
 "\n"
-"<smallcaps>Apesar da presença de flora viva, a colonização de Aridio trará "
-"desafios consideráveis.</smallcaps>\n"
+"<smallcaps>Temperaturas em Aridio são muito mais altas que o esperado. "
+"Enquanto os recursos são abundantes, manter comida e infraestruturas pode "
+"ser uma tarefa difícil enquanto a nossa colônia esquenta.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.FOREST_HOT.NAME
@@ -65419,15 +65463,18 @@ msgctxt "STRINGS.WORLDS.FOREST_LUSH.DESCRIPTION"
 msgid ""
 "A lush location rich in wildlife and life-sustaining resources.\n"
 "\n"
-"<smallcaps>Verdante will still pose some challenges, but Duplicants could do "
-"quite well here overall.</smallcaps>\n"
+"<smallcaps>Establishing a foothold on Verdante will be challenging due to "
+"reduced food and oxygen options. However, abundant biological and mineral "
+"resources should afford excellent long-term growth.</smallcaps>\n"
 "\n"
 msgstr ""
 "Um destino exuberante, rico em vida selvagem e recursos que sustentam a "
 "vida.\n"
 "\n"
-"<smallcaps>Verdante poderá ser desafiante, mas os Duplicantes se darão muito "
-"bem aqui.</smallcaps>\n"
+"<smallcaps>Estabelecer uma colônia em Verdante poderá ser desafiador devido "
+"as opções reduzidas de comida e oxigênio. Porém, os recursos biológicos e "
+"minerais abundantes devem providenciar crescimento excelente a longo prazo.</"
+"smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.FOREST_LUSH.NAME
@@ -65455,12 +65502,16 @@ msgid ""
 "A desolate location with a cache of life-sustaining water trapped beneath "
 "the surface.\n"
 "\n"
-"<smallcaps>Oasisse is ill-suited to Duplicant life.</smallcaps>\n"
+"<smallcaps>A wide underground desert will pose temperature threats and "
+"strain the resources of a colony on Oasisse. However, surviving the "
+"challenge should yield great industrial potential.</smallcaps>\n"
 "\n"
 msgstr ""
-"Um destino com reservas de água presas debaixo da superfície.\n"
+"Um destino desolado com reservas de água presas debaixo da superfície.\n"
 "\n"
-"<smallcaps>Oasis é mal adaptado para vida Duplicante.</smallcaps>\n"
+"<smallcaps>Um grande deserto subterrâneo dará ameaças na temperatura e "
+"restringirá os recursos de uma colônia em Oasis. Entretanto, sobreviver o "
+"desafio poderá dar um grande potencial industrial</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.OASIS.NAME
@@ -65473,14 +65524,16 @@ msgctxt "STRINGS.WORLDS.OCEANIA.DESCRIPTION"
 msgid ""
 "A location with vast quantities of undrinkable salt water.\n"
 "\n"
-"<smallcaps>Oceania should be considered actively hostile to colonization "
-"efforts.</smallcaps>\n"
+"<smallcaps>Oceania is quite stable and resource rich, but the majority of "
+"the area is covered in a saltwater ocean. Careful expansion and resource "
+"usage should lead to a successful colony.</smallcaps>\n"
 "\n"
 msgstr ""
 "Um destino com vastas quantidades de água salgada não potável.\n"
 "\n"
-"<smallcaps>Oceania deve ser considerada como ativamente hostil aos esforços "
-"de colonização.</smallcaps>\n"
+"<smallcaps>Oceania é bem estável e rica em recursos, mas a maior parte da "
+"área e coberta em oceano de água salgada. Expansão cuidadosa e uso de "
+"recursos podem levar a uma colônia bem sucedida.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.OCEANIA.NAME
@@ -65493,14 +65546,15 @@ msgctxt "STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION"
 msgid ""
 "A promising location with a balanced variety of resources.\n"
 "\n"
-"<smallcaps>Terra may still pose its challenges, but few locations will be as "
-"welcoming to Duplicant life as this.</smallcaps>\n"
+"<smallcaps>Terra meets all our requirements and holds no surprises. It is an "
+"ideal location for our first attempt to establish a colony.</smallcaps>\n"
 "\n"
 msgstr ""
 "Um destino promissor com uma variedade balanceada de recursos.\n"
 "\n"
-"<smallcaps>Terra pode ainda ser desafiadora, mas alguns locais serão ótimos "
-"para a vida Duplicante do jeito que ela é.</smallcaps>\n"
+"<smallcaps>Terra passa em todos os requisitos e não guarda nenhuma surpresa. "
+"É uma localização ideal para a nossa primeira tentativa de estabelecer uma "
+"colônia.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.SANDSTONE_DEFAULT.NAME
@@ -65513,12 +65567,17 @@ msgctxt "STRINGS.WORLDS.SANDSTONE_FROZEN.DESCRIPTION"
 msgid ""
 "A frigid location marked by inhospitably low temperatures throughout.\n"
 "\n"
-"<smallcaps>Duplicant colonization of Rime will be a struggle.</smallcaps>\n"
+"<smallcaps>Rime's low temperatures will make finding water and establishing "
+"farms and ranches problematic. However, the wide spectrum of minerals and "
+"cool environment could lead to thriving industry.</smallcaps>\n"
 "\n"
 msgstr ""
-"Um destino frígido, marcado por temperaturas inospitamente baixas.\n"
+"Um destino frígido marcada por temperaturas inospitamente baixas.\n"
 "\n"
-"<smallcaps>Colonização Duplicante de Geada será difícil.</smallcaps>\n"
+"<smallcaps>As temperaturas baixas de Geada trarão problemas para as tarefas "
+"de encontrar água e estabelecer plantações e ranchos. No entanto, o grande "
+"espectro de minerais e o ambiente frio pode levar a uma indústria próspera.</"
+"smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.SANDSTONE_FROZEN.NAME
@@ -65586,20 +65645,139 @@ msgctxt "STRINGS.WORLDS.VOLCANIC.DESCRIPTION"
 msgid ""
 "A location rife with molten lava pockets and intense heat.\n"
 "\n"
-"<smallcaps>Volcanea should be considered actively hostile to Duplicant life."
-"</smallcaps>\n"
+"<smallcaps>Volcanea would be perfect if it wasn't for the volcanoes. Digging "
+"carefully and managing the temperatures our your colony will be essential to "
+"success.</smallcaps>\n"
 "\n"
 msgstr ""
 "Um local cheio de depósitos de lava derretida e intenso calor.\n"
 "\n"
-"<smallcaps>Volcanea deve ser considera ativamente hostil à vida Duplicante.</"
-"smallcaps>\n"
+"<smallcaps>Volcanea seria perfeita se não fosse pelos vulcões. Escavar "
+"cuidadosamente e gerenciar as temperaturas da nossa colônia será essencial "
+"para o sucesso.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.VOLCANIC.NAME
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.PARKSIGN.DESC"
+#~ msgid "Typically found in parks."
+#~ msgstr "Tipicamente encontrados em parques."
+
+#~ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.NAME"
+#~ msgid "ESCAPE ASTEROID"
+#~ msgstr "ESCAPAR DO ASTEROIDE"
+
+#~ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_N_ROOM_TYPE"
+#~ msgid "Some Reservations"
+#~ msgstr "Algumas Reservas"
+
+#~ msgctxt ""
+#~ "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS."
+#~ "BUILD_NATURE_RESERVES_DESCRIPTION"
+#~ msgid "Improve Duplicant Morale by designating 4 areas as Nature Reserves."
+#~ msgstr ""
+#~ "Melhore a Moral dos Duplicantes por designar 4 áreas como Reservas "
+#~ "Naturais."
+
+#~ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.THRIVING.NAME"
+#~ msgid "COLONIZE ASTEROID"
+#~ msgstr "COLONIZAR ASTEROIDE"
+
+#~ msgctxt "STRINGS.ITEMS.FOOD.BURGER.DESC"
+#~ msgid "It's the best food."
+#~ msgstr "É a melhor comida."
+
+#~ msgctxt "STRINGS.ITEMS.FOOD.BURGER.RECIPEDESC"
+#~ msgid "Meat, Lettuce, Bun"
+#~ msgstr "Carne, Alface, Pão"
+
+#~ msgctxt "STRINGS.ITEMS.FOOD.COOKEDFISH.DESC"
+#~ msgid ""
+#~ "The cooked meat of a defeated critter.\n"
+#~ "\n"
+#~ "It has a delightful smoky aftertaste."
+#~ msgstr ""
+#~ "A carne cozida de uma criatura derrotada.\n"
+#~ "\n"
+#~ "Tem ótimo gostinho defumado."
+
+#~ msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.DESC"
+#~ msgid "Meat and fish"
+#~ msgstr "Carne e peixe"
+
+#~ msgctxt "STRINGS.ITEMS.FOOD.SURFANDTURF.RECIPEDESC"
+#~ msgid "Meat and fish"
+#~ msgstr "Carne e peixe"
+
+#~ msgctxt "STRINGS.ITEMS.FOOD.TOFU.DESC"
+#~ msgid "Plain bean curd."
+#~ msgstr "Colhada de feijão."
+
+#~ msgctxt "STRINGS.ITEMS.FOOD.TOFU.RECIPEDESC"
+#~ msgid "<link=\"BEAN\">Nosh Bean</link> curd."
+#~ msgstr "Coalhada de <link=\"BEAN\">Feijão Brocoso</link>."
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.DIGGING.MESSAGEBODY"
+#~ msgid "<<PLACEHOLDER>>"
+#~ msgstr "<<EM CONSTRUÇÃO>>"
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.INSULATION.MESSAGEBODY"
+#~ msgid "<<PLACEHOLDER>>"
+#~ msgstr "<<EM CONSTRUÇÃO>>"
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.PLUMBING.MESSAGEBODY"
+#~ msgid "<<PLACEHOLDER>>"
+#~ msgstr "<<EM CONSTRUÇÃO>>"
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.POWER.MESSAGEBODY"
+#~ msgid "<<PLACEHOLDER>>"
+#~ msgstr "<<EM CONSTRUÇÃO>>"
+
+#~ msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.ANIMATION_HEADER"
+#~ msgid "LAUNCH DATE MK. 2!"
+#~ msgstr "DATA DE LANÇAMENTO MARCO 2!"
+
+#~ msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.HEADER"
+#~ msgid "DEVELOPMENT BUILD"
+#~ msgstr "ACESSO ANTECIPADO"
+
+#~ msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.MAILINGLIST"
+#~ msgid "NOTIFY ME!"
+#~ msgstr "ME NOTIFIQUE!"
+
+#~ msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.SPECIFIC_DATE"
+#~ msgid "JULY"
+#~ msgstr "JULHO"
+
+#~ msgctxt "STRINGS.WORLDS.FOREST_HOT.DESCRIPTION"
+#~ msgid ""
+#~ "A location with oppressively hot temperatures.\n"
+#~ "\n"
+#~ "<smallcaps>Despite the presence of living foliage, colonization of Aridio "
+#~ "will pose considerable challenges.</smallcaps>\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Um destino com temperaturas opressivamente quentes.\n"
+#~ "\n"
+#~ "<smallcaps>Apesar da presença de flora viva, a colonização de Aridio "
+#~ "trará desafios consideráveis.</smallcaps>\n"
+#~ "\n"
+
+#~ msgctxt "STRINGS.WORLDS.SANDSTONE_FROZEN.DESCRIPTION"
+#~ msgid ""
+#~ "A frigid location marked by inhospitably low temperatures throughout.\n"
+#~ "\n"
+#~ "<smallcaps>Duplicant colonization of Rime will be a struggle.</"
+#~ "smallcaps>\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Um destino frígido, marcado por temperaturas inospitamente baixas.\n"
+#~ "\n"
+#~ "<smallcaps>Colonização Duplicante de Geada será difícil.</smallcaps>\n"
+#~ "\n"
 
 #~ msgctxt "STRINGS.CODEX.A3_FRANKIESBLOG.BODY.SIGNATURE1"
 #~ msgid ""
