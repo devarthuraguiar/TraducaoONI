@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.7.8\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.7.9\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1303,8 +1303,6 @@ msgid "Collect eggs from critters to incubate"
 msgstr "Colete ovos de criaturas para incubação"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.LINE_ITEM
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
-#| msgid "On {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDGASIN.LINE_ITEM"
 msgid "• {0}"
 msgstr ""
@@ -1334,8 +1332,6 @@ msgid "This building has nowhere to send gas"
 msgstr "Esta estrutura não tem por onde enviar gás"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
-#| msgid "On {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDIN.LINE_ITEM"
 msgid "• {0}"
 msgstr ""
@@ -1395,8 +1391,6 @@ msgid "This building is missing required materials"
 msgstr "Esta estrutura está sem os materiais necessários"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
-#| msgid "On {0}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDRESOURCEMASS.LINE_ITEM"
 msgid "• {0}"
 msgstr ""
@@ -17750,6 +17744,11 @@ msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NAME"
 msgid "Morale Expectation"
 msgstr "Expectativa de Moral"
 
+#. STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NEUTRAL_MODIFIER
+msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.NEUTRAL_MODIFIER"
+msgid "Sufficient Morale"
+msgstr "Moral Suficiente"
+
 #. STRINGS.DUPLICANTS.OPINIONS.DARKNESS
 msgctxt "STRINGS.DUPLICANTS.OPINIONS.DARKNESS"
 msgid "There's too little <link=\"LIGHT\">Light</link> for this Duplicant to see."
@@ -25580,6 +25579,27 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.MOPPINGMESSAGE.TOOLTIP"
 msgid "Notes on handling polluted materials"
 msgstr "Dicas ao lidar com materiais poluídos"
 
+#. STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY
+msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.MESSAGEBODY"
+msgid ""
+"The Foods, Rooms, Decor, and Recreation a Duplicant experiences will have an efffect on their Morale. Good experiences improve their Morale and poor experiences drop it. When Morale is below their Expectations, Duplicants will become Stressed.\n"
+"\n"
+"As Duplicants are assigned to Jobs, they gain increased Expectations, and so the colony will have to be improved to keep up their Morale. An overview of Morale and Stress can be viewed on the Vitals screen."
+msgstr ""
+"As Comidas, Salas, Decor e Recreação que um Duplicante experimenta afetará a sua Moral. Boas experiências melhorarão a Moral e experiências ruins irão diminuí-la. Quando a Moral está abaixo das suas Expectativas, Duplicantes ficarão Estressados.\n"
+"\n"
+"Assim que os Duplicantes forem designados à Trabalhos, as Expectativas aumentam, e assim a colônia deve acompanhar as melhorias para manter a Moral. Um resumo sobre a Moral e Estresse podem ser visto na tela Vitais."
+
+#. STRINGS.MISC.NOTIFICATIONS.MORALE.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.NAME"
+msgid "TIP: Morale"
+msgstr "DICA: Moral"
+
+#. STRINGS.MISC.NOTIFICATIONS.MORALE.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.MORALE.TOOLTIP"
+msgid "Notes on Duplicant expectations"
+msgstr "Dicas sobre as expectativas dos Duplicantes"
+
 #. STRINGS.MISC.NOTIFICATIONS.NEARLYDRY.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEARLYDRY.NAME"
 msgid "Nearly dry"
@@ -25783,6 +25803,27 @@ msgstr "Trabalhos Dominados"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.TOOLTIP"
 msgid "Job Mastered"
 msgstr "Trabalho Dominado"
+
+#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE.MESSAGEBODY
+msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE.MESSAGEBODY"
+msgid ""
+"Duplicants will generally only perform certain activities during certain times of day. This helps them avoid long trips to the toilet from remote work sites, and to meet up with their friends at meal time. Depending on the shape and progress of the colony, it may be useful to modify the default schedule to improve the Duplicants' efficiency and Morale.\n"
+"\n"
+"Increasing the length of Downtime can improve their Morale, and different schedules for large numbers of Duplicants can help avoid crowding in the bathrooms or keep a Manual Generator running all night."
+msgstr ""
+"Duplicantes geralmente só irão realizar certas atividades durante certos períodos do dia. Isto ajuda a eles evitarem fazer longas viagens para o banheiro em locais de trabalho distantes, e se encontrar com seus amigos durante a hora da refeição. Dependendo do formato e progresso da colônia, talvez seja útil modificar a rotina padrão para melhorar a eficiência e a Moral.\n"
+"\n"
+"Aumentar o tempo do Intervalo pode melhorar a Moral, e diferentes rotinas para um grande número de Duplicantes pode ajudar a evitar banheiros lotados ou manter um Gerador Manual funcionando durante a noite."
+
+#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE.NAME"
+msgid "TIP: Scheduling"
+msgstr "DICA: Criar Rotinas"
+
+#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE.TOOLTIP"
+msgid "Notes on managing Duplicant schedules"
+msgstr "Dicas para administrar as rotinas dos Duplicantes"
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME"
@@ -26588,6 +26629,11 @@ msgctxt "STRINGS.MISC.TAGS.ANTISEPTIC"
 msgid "Antiseptic"
 msgstr "Antisséptico"
 
+#. STRINGS.MISC.TAGS.ANY
+msgctxt "STRINGS.MISC.TAGS.ANY"
+msgid "Any"
+msgstr "Qualquer"
+
 #. STRINGS.MISC.TAGS.ANYWATER
 msgctxt "STRINGS.MISC.TAGS.ANYWATER"
 msgid "Water Based"
@@ -26722,6 +26768,11 @@ msgstr "Comestível"
 msgctxt "STRINGS.MISC.TAGS.EGG"
 msgid "Critter Egg"
 msgstr "Ovo de Criatura"
+
+#. STRINGS.MISC.TAGS.EGGSHELL
+msgctxt "STRINGS.MISC.TAGS.EGGSHELL"
+msgid "Egg Shell"
+msgstr "Casca de Ovo"
 
 #. STRINGS.MISC.TAGS.EMITSLIGHT
 msgctxt "STRINGS.MISC.TAGS.EMITSLIGHT"
@@ -31383,19 +31434,17 @@ msgstr "<b>{0}</b> <color=#B87194FF>pode</color> comer <b>{1}</b>"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY"
-msgid "Quality: {0}"
-msgstr "Qualidade: {0}"
+msgid "Morale: {0}"
+msgstr "Moral: {0}"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY_VS_EXPECTATION
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY_VS_EXPECTATION"
 msgid ""
 "------------------\n"
-"This food has a quality of {0}\n"
-"It will give these bonuses if {1} eats it:"
+"This food will give {0} Morale if {1} eats it:"
 msgstr ""
 "------------------\n"
-"Esta comida tem uma qualidade de {0}\n"
-"Ela dará os seguintes bônus se {1} comê-la:"
+"Esta comida dará {0} de Moral se {1} comê-la:"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.FOOD_REFUSE
 msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_REFUSE"
@@ -32623,7 +32672,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.7.8)"
+"- Traduzido por Chastomber :P (1.7.9)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33378,8 +33427,8 @@ msgstr "Regular"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT.TOOLTIP
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT.TOOLTIP"
-msgid "Duplicants regain immunity normally"
-msgstr "Duplicantes ganham imunidade normalmente"
+msgid "Duplicants have average expectations."
+msgstr "Duplicantes possuem expectativas normais."
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DISABLED.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DISABLED.NAME"
@@ -37633,7 +37682,7 @@ msgstr "Moral: {0}, expectativa do trabalho {2}: {1}"
 #, fuzzy
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATION_ALERT_TARGET_JOB"
 msgid "{2}'s Morale: {0}, {3} job expecations: {1}"
-msgstr "Moral de {2}: {0}, Expectativas de trabalho de {3}: {1}"
+msgstr "Moral de {2}: {0}, Expectativas do trabalho {3}: {1}"
 
 #. STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.EXPECTATIONS.DECOR.HIGH.DESCRIPTION"
@@ -42720,6 +42769,14 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY"
+#~ msgid "Quality: {0}"
+#~ msgstr "Qualidade: {0}"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.DEFAULT.TOOLTIP"
+#~ msgid "Duplicants regain immunity normally"
+#~ msgstr "Duplicantes ganham imunidade normalmente"
+
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.INSUFFICIENT_CONVERSION_MASS.NAME"
 #~ msgid "Insufficient Resources"
 #~ msgstr "Recursos Insuficientes"
@@ -44227,10 +44284,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.READ_PORT_DESC"
 #~ msgid "Stored Value"
 #~ msgstr "Valor Armazenado"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.STATUS_ITEM_VALUE"
-#~ msgid "Stored Value: {0}"
-#~ msgstr "Valor Armazenado: {0}"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.VALUE_PORT_DESC"
 #~ msgid "Specify Value"
