@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.8.2\n"
+"Project-Id-Version: Português foi Incluído! 1.8.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -2040,22 +2040,23 @@ msgstr ""
 "Remova materiais do Receptáculo de Transporte para liberar espaço para mais objetos"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.NAME
+#, fuzzy
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.NAME"
-msgid "View Blocked"
-msgstr "Vista Bloqueada"
+msgid "No Line of Sight"
+msgstr "Fora da Linha de Visão"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.TOOLTIP"
 msgid ""
-"The view of the sky is fully blocked.\n"
+"This building has no view of space\n"
 "\n"
-"Make sure the surrounding area is clear\n"
+"Ensure an unblocked view of the sky is available to collect research data\n"
 "Visibility: {VISIBILITY}\n"
 "Scan Radius: {RADIUS} cells"
 msgstr ""
-"A visão do céu está completamente bloqueada.\n"
+"Esta estrutura não tem visão do espaço\n"
 "\n"
-"Certifique-se que a área ao redor está limpa\n"
+"Mantenha uma área de visualização do céu disponível para coletar dados de pesquisa\n"
 "Visibilidade: {VISIBILITY}\n"
 "Raio de Escaneamento: {RADIUS} células"
 
@@ -2067,15 +2068,15 @@ msgstr "Visibilidade Reduzida"
 #. STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.TOOLTIP"
 msgid ""
-"An obscured view of the sky is preventing the collection of data\n"
+"This building has an inadequate or obscured view of space\n"
 "\n"
-"Make sure the surrounding area is clear\n"
+"Ensure an unblocked view of the sky is available to collect research data\n"
 "Visibility: {VISIBILITY}\n"
 "Scan Radius: {RADIUS} cells"
 msgstr ""
-"A visão bloqueada do céu está impedindo a coleta de dados\n"
+"Esta estrutura tem uma visão inadequada ou obstruída do espaço\n"
 "\n"
-"Certifique-se que a área ao redor está limpa\n"
+"Mantenha uma área de visualização do céu disponível para coletar dados de pesquisa\n"
 "Visibilidade: {VISIBILITY}\n"
 "Raio de Escaneamento: {RADIUS} células"
 
@@ -3281,8 +3282,6 @@ msgid "<link=\"COMETDETECTOR\">Space Scanner</link>"
 msgstr "<link=\"COMETDETECTOR\">Detector Espacial</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
-#| msgid "Duplicants must complete astronaut training in order to pilot space rockets."
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.DESC"
 msgid "At least one astronaut must be assigned to the command module to pilot a rocket."
 msgstr "Pelo menos um astronauta precisa ser designado ao módulo de comando para pilotar o foguete."
@@ -3647,11 +3646,6 @@ msgid "A shot of espresso helps Duplicants relax after a long day."
 msgstr "Uma dose de café ajuda os Duplicantes relaxarem depois de um longo dia."
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.EFFECT"
-#| msgid ""
-#| "Plays music for Duplicants to dance to on their breaks.\n"
-#| "\n"
-#| "Increases Duplicant Morale."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.EFFECT"
 msgid ""
 "Provides refreshment for Duplicants on their breaks.\n"
@@ -12414,6 +12408,16 @@ msgctxt "STRINGS.CREATURES.SPECIES.SWAMPLILY.NAME"
 msgid "<link=\"SWAMPLILY\">Balm Lily</link>"
 msgstr "<link=\"SWAMPLILY\">Lírio Milagroso</link>"
 
+#. STRINGS.CREATURES.SPECIES.SWEETBREATHER.DESC
+msgctxt "STRINGS.CREATURES.SPECIES.SWEETBREATHER.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.SWEETBREATHER.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.SWEETBREATHER.NAME"
+msgid "<link=\"SWEETBREATHER\">Sweetbreather</link>"
+msgstr ""
+
 #. STRINGS.CREATURES.STATS.AGE.NAME
 msgctxt "STRINGS.CREATURES.STATS.AGE.NAME"
 msgid "Age"
@@ -14707,15 +14711,11 @@ msgid "This Duplicant is going to work on their art"
 msgstr "Este Duplicante está indo trabalhar na sua arte"
 
 #. STRINGS.DUPLICANTS.CHORES.ASTRONAUT.NAME
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACEPRISON"
-#| msgid "Spaceprison"
 msgctxt "STRINGS.DUPLICANTS.CHORES.ASTRONAUT.NAME"
 msgid "Space Mission"
 msgstr "Missão Espacial"
 
 #. STRINGS.DUPLICANTS.CHORES.ASTRONAUT.STATUS
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACEPRISON"
-#| msgid "Spaceprison"
 msgctxt "STRINGS.DUPLICANTS.CHORES.ASTRONAUT.STATUS"
 msgid "On Space Mission"
 msgstr "Indo em Missão Espacial"
@@ -14868,8 +14868,8 @@ msgstr "Este Duplicante está aguardando a permissão para passar"
 
 #. STRINGS.DUPLICANTS.CHORES.CLEANTOILET.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.CLEANTOILET.NAME"
-msgid "Clean"
-msgstr "Limpar"
+msgid "Clean Outhouse"
+msgstr "Limpar Privada"
 
 #. STRINGS.DUPLICANTS.CHORES.CLEANTOILET.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.CLEANTOILET.STATUS"
@@ -16051,8 +16051,8 @@ msgstr "Relaxando"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP"
-msgid "This Duplicant really needs to unwind"
-msgstr "Este Duplicante realmente precisa se acalmar"
+msgid "This Duplicant taking some time to recover from their stress"
+msgstr "Este Duplicante está usando um pouco de tempo para se recuperar de seu estresse"
 
 #. STRINGS.DUPLICANTS.CHORES.STRESSIDLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSIDLE.NAME"
@@ -17271,57 +17271,54 @@ msgid "This Duplicant is stuffing their face as a result of stress"
 msgstr "Este Duplicante está enchendo a barriga como resultado do estresse"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK1.NAME
-#, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
-#| msgid "Took a Break"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK1.NAME"
-msgid "1-Block Break"
-msgstr "1-Bloco Intervalo"
+msgid "One Shift Break"
+msgstr "Intervalo de Um Turno"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK1.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK1.TOOLTIP"
-msgid "This Duplicant has had one block of Downtime in the last cycle."
-msgstr "Este Duplicante teve um bloco de Intervalo no último ciclo."
+msgid "This Duplicant has had one Downtime shift in the last cycle"
+msgstr "Este Duplicante teve um bloco de Intervalo no último ciclo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK2.NAME"
-msgid "2-Block Break"
-msgstr "2-Bloco Intervalo"
+msgid "Two Shift Break"
+msgstr "Intervalo de Dois Blocos"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK2.TOOLTIP"
-msgid "This Duplicant has had two blocks of Downtime in the last cycle."
-msgstr "Este Duplicante teve dois blocos de Intervalo no último ciclo."
+msgid "This Duplicant has had two Downtime shifts in the last cycle"
+msgstr "Este Duplicante teve dois blocos de Intervalo no último ciclo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK3.NAME"
-msgid "3-Block Break"
-msgstr "3-Bloco Intervalo"
+msgid "Three Shift Break"
+msgstr "Intervalo de Três Turnos"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK3.TOOLTIP"
-msgid "This Duplicant has had three blocks of Downtime in the last cycle."
-msgstr "Este Duplicante teve três blocos de Intervalo no último ciclo."
+msgid "This Duplicant has had three Downtime shifts in the last cycle"
+msgstr "Este Duplicante teve três blocos de Intervalo no último ciclo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK4.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK4.NAME"
-msgid "4-Block Break"
-msgstr "4-Bloco Intervalo"
+msgid "Four Shift Break"
+msgstr "Intervalo de Quatro Blocos"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK4.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK4.TOOLTIP"
-msgid "This Duplicant has had four blocks of Downtime in the last cycle."
-msgstr "Este Duplicante teve quarto blocos de Intervalo no último ciclo."
+msgid "This Duplicant has had four Downtime shifts in the last cycle"
+msgstr "Este Duplicante teve quarto blocos de Intervalo no último ciclo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK5.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.NAME"
-msgid "5-Block Break"
-msgstr "5-Bloco Intervalo"
+msgid "Five Shift Break"
+msgstr "Intervalo de Cinco Blocos"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK5.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.TOOLTIP"
-msgid "This Duplicant has had five blocks of Downtime in the last cycle."
-msgstr "Este Duplicante teve quarto blocos de Intervalo no último ciclo."
+msgid "This Duplicant has had five Downtime shifts in the last cycle"
+msgstr "Este Duplicante teve quarto blocos de Intervalo no último ciclo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREATHING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREATHING.NAME"
@@ -17461,73 +17458,79 @@ msgstr "Morto"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR0.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.NAME"
-msgid "Poor Decor"
-msgstr "Decor Pobre"
+msgid "Last Cycle's Decor: Poor"
+msgstr "Decor do Último Ciclo: Pobre"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP"
-msgid "This Duplicant thinks the colony is decorated in poor taste"
-msgstr "Este Duplicante acha que a colônia está mal decorada"
+msgid "This Duplicant thought the overall decor yesterday was quite poor"
+msgstr "Este Duplicante acha que o decor geral da colônia ontem estava bem pobre"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME"
-msgid "Mediocre Decor"
-msgstr "Decor Medíocre"
+msgid "Last Cycle's Decor: Mediocre"
+msgstr "Decor do Último Ciclo: Medíocre"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP"
-msgid "This Duplicant has no strong opinions about the look of the colony"
-msgstr "Este Duplicante não tem opiniões fortes sobre a aparência da colônia"
+msgid "This Duplicant had no strong opinions about the colony's decor yesterday"
+msgstr "Este Duplicante não tem opiniões fortes sobre a aparência de ontem da colônia"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME"
-msgid "Above Average Decor"
-msgstr "Decor Acima da Média"
+msgid "Last Cycle's Decor: Average"
+msgstr "Decor do Último Ciclo: Mediano"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP"
-msgid "This Duplicant appreciates that the colony's been spruced up"
-msgstr "Este Duplicante aprecia que a colônia foi enfeitada"
+msgid "This Duplicant thought the overall decor yesterday was pretty alright"
+msgstr "Este Duplicante acha que o decor geral da colônia ontem estava bem ok"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME"
-msgid "Nice Decor"
-msgstr "Bom Decor"
+msgid "Last Cycle's Decor: Nice"
+msgstr "Decor do Último Ciclo: Ótimo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP"
-msgid "This Duplicant thinks it looks pretty good in here!"
-msgstr "Este Duplicante acha que está tudo bem aqui!"
+msgid "This Duplicant thought the overall decor yesterday was quite nice!"
+msgstr "Este Duplicante acha que o decor geral da colônia ontem estava muito bom!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME"
-msgid "Charming Decor"
-msgstr "Decor Charmoso"
+msgid "Last Cycle's Decor: Charming"
+msgstr "Decor do Último Ciclo: Encantador"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.TOOLTIP"
-msgid "This Duplicant thinks the colony's decor is downright charming!"
-msgstr "Este Duplicante acha que o decor da colônia está muito encantador!"
+msgid "This Duplicant thought the overall decor yesterday was downright charming!"
+msgstr "Este Duplicante acha que o decor geral da colônia ontem estava simplesmente encantador!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME"
-msgid "Gorgeous Decor"
-msgstr "Decor Maravilhoso"
+msgid "Last Cycle's Decor: Gorgeous"
+msgstr "Decor do Último Ciclo: Belíssimo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP"
-msgid "This Duplicant loves what I've done with the place!"
-msgstr "Este Duplicante ama tudo que foi feito com este lugar!"
+msgid ""
+"This Duplicant thought the overall decor yesterday was fantastic\n"
+"\n"
+"They love what I've done with the place!"
+msgstr ""
+"Este Duplicante acha que o decor geral da colônia ontem estava fantástico\n"
+"\n"
+"Ele(a) ama tudo o que eu fiz com o ambiente!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.NAME"
-msgid "Ugly Decor"
-msgstr "Decor Horroroso"
+msgid "Last Cycle's Decor: Ugly"
+msgstr "Decor do Último Ciclo: Horroroso"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.TOOLTIP"
-msgid "This Duplicant finds the lack of decor in here downright depressing"
-msgstr "Este Duplicante acha a falta de Decor nesta área muito deprimente"
+msgid "This Duplicant thought the overall decor yesterday was downright depressing"
+msgstr "Este Duplicante acha que o decor geral da colônia ontem estava bem deprimente"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DIARRHEA.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DIARRHEA.CAUSE"
@@ -18528,8 +18531,14 @@ msgstr "Recebendo Massagem Clínica"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP"
-msgid "Proper facilities further improve this massage's effectiveness"
-msgstr "Estruturas devidamente colocadas melhoraram a efetividade desta massagem"
+msgid ""
+"Clinical facilities are improving the effectiveness of this massage\n"
+"\n"
+"This Duplicant's stress is just melting away"
+msgstr ""
+"As instalações da clínica estão melhorando a eficiência desta massagem\n"
+"\n"
+"O estresse deste Duplicante está passando"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUDDENMORALEHELPER.NAME"
@@ -18548,7 +18557,7 @@ msgstr "Intensamente Brilhante"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_BURNING.TOOLTIP"
-msgid "The extremely bright light here is making this Duplicant happy, but prolonged exposure will result in burning."
+msgid "The bright light is significantly improving this Duplicant's mood, but prolonged exposure may result in burning"
 msgstr "A luz extremamente brilhante daqui deixa este Duplicante feliz, mas a exposição prolongada resultará em queimaduras."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SUNLIGHT_PLEASANT.NAME
@@ -20447,13 +20456,19 @@ msgstr "Este Duplicante deseja muito uma privada"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GAMING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GAMING.NAME"
-msgid "Playing Game"
-msgstr "Jogando Jogos"
+msgid "Playing a Game"
+msgstr "Jogando um Jogo"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GAMING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GAMING.TOOLTIP"
-msgid "This Duplicant is playing a video game"
-msgstr "Este Duplicante está jogando um jogo"
+msgid ""
+"This Duplicant is playing a video game\n"
+"\n"
+"It looks like fun"
+msgstr ""
+"Este Duplicante está jogando um jogo\n"
+"\n"
+"Parece divertido"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GENERATINGPOWER.NAME"
@@ -20688,8 +20703,8 @@ msgstr "Enturmando"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MINGLING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MINGLING.TOOLTIP"
-msgid "This Duplicant is mingling with other Duplicants in the room"
-msgstr "Este Duplicante está se enturmando com outros Duplicantes na sala"
+msgid "This Duplicant is using their break to chat with friends"
+msgstr "Este Duplicante está usando seu intervalo para falar com amigos"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOPDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOPDELIVERSTATUS.NAME"
@@ -20954,8 +20969,14 @@ msgstr "Baixa Moral"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP"
-msgid "This Duplicant is getting stressed by their responsibilities, but improved amenities would cheer them up"
-msgstr "Este Duplicante está ficando estressado devido as suas responsabilidades, mas serviços podem animá-lo"
+msgid ""
+"The bad in this Duplicant's life is starting to outweigh the good\n"
+"\n"
+"Improved amenities and additional Downtime would help improve their Morale"
+msgstr ""
+"O mal na vida deste Duplicante está começando a vencer do bem\n"
+"\n"
+"Estruturas melhoradas e Intervalo adicional pode ajudar a melhorar a Moral"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME"
@@ -21289,8 +21310,8 @@ msgstr "Socializando"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SOCIALIZING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SOCIALIZING.TOOLTIP"
-msgid "This Duplicant is hanging out to chat with other Duplicants"
-msgstr "Este Duplicante está indo conversar com outros Duplicantes"
+msgid "This Duplicant is using their break to hang out"
+msgstr "Este Duplicante está usando o seu intervalo para se socializar"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.STARVING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STARVING.NAME"
@@ -21924,8 +21945,8 @@ msgstr "Flatulento"
 
 #. STRINGS.DUPLICANTS.TRAITS.FOODIE.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.FOODIE.DESC"
-msgid "This Duplicant has a highly refined palate."
-msgstr "Este Duplicante tem um paladar altamente refinado."
+msgid "This Duplicant has a highly refined palate and desires luxurious foods."
+msgstr "Este Duplicante tem um paladar altamente refinado e deseja comidas luxuosas."
 
 #. STRINGS.DUPLICANTS.TRAITS.FOODIE.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.FOODIE.NAME"
@@ -22172,8 +22193,8 @@ msgstr "Pacifista"
 
 #. STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC"
-msgid "This Duplicant is satisfied by even the blandest food."
-msgstr "Este Duplicante fica satisfeito até pela comida mais suave."
+msgid "This Duplicant finds pleasure in even the blandest of foods."
+msgstr "Este Duplicante encontra prazer até mesmo na comida mais suave."
 
 #. STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.NAME"
@@ -27040,27 +27061,6 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.TOOLTIP"
 msgid "Job Mastered"
 msgstr "Trabalho Dominado"
 
-#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE.MESSAGEBODY
-msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE.MESSAGEBODY"
-msgid ""
-"Duplicants will generally only perform certain activities during certain times of day. This helps them avoid long trips to the toilet from remote work sites, and to meet up with their friends at meal time. Depending on the shape and progress of the colony, it may be useful to modify the default schedule to improve the Duplicants' efficiency and Morale.\n"
-"\n"
-"Increasing the length of Downtime can improve their Morale, and different schedules for large numbers of Duplicants can help avoid crowding in the bathrooms or keep a Manual Generator running all night."
-msgstr ""
-"Duplicantes geralmente só irão realizar certas atividades durante certos períodos do dia. Isto ajuda a eles evitarem fazer longas viagens para o banheiro em locais de trabalho distantes, e se encontrar com seus amigos durante a hora da refeição. Dependendo do formato e progresso da colônia, talvez seja útil modificar a rotina padrão para melhorar a eficiência e a Moral.\n"
-"\n"
-"Aumentar o tempo do Intervalo pode melhorar a Moral, e diferentes rotinas para um grande número de Duplicantes pode ajudar a evitar banheiros lotados ou manter um Gerador Manual funcionando durante a noite."
-
-#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE.NAME
-msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE.NAME"
-msgid "TIP: Scheduling"
-msgstr "DICA: Criar Rotinas"
-
-#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE.TOOLTIP
-msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE.TOOLTIP"
-msgid "Notes on managing Duplicant schedules"
-msgstr "Dicas para administrar as rotinas dos Duplicantes"
-
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME
 #, fuzzy
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME"
@@ -27954,6 +27954,11 @@ msgstr "Vestimenta"
 msgctxt "STRINGS.MISC.TAGS.COAL"
 msgid "Coal"
 msgstr "Carvão"
+
+#. STRINGS.MISC.TAGS.COMMAND_MODULE
+msgctxt "STRINGS.MISC.TAGS.COMMAND_MODULE"
+msgid "Command Module"
+msgstr "Módulo de Comando"
 
 #. STRINGS.MISC.TAGS.COMPOST_FORMAT
 msgctxt "STRINGS.MISC.TAGS.COMPOST_FORMAT"
@@ -31094,8 +31099,6 @@ msgid "Barracks"
 msgstr "Dormitório"
 
 #. STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP
-#| msgctxt "STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP"
-#| msgid "Using a toilet in an enclosed room will improve Duplicants' Morale."
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.TOOLTIP"
 msgid "Sleeping in Barracks will improve Duplicants' Morale."
 msgstr "Dormir no Dormitório aumentará a Moral dos Duplicantes."
@@ -31111,8 +31114,6 @@ msgid "Bedroom"
 msgstr "Quarto"
 
 #. STRINGS.ROOMS.TYPES.BEDROOM.TOOLTIP
-#| msgctxt "STRINGS.ROOMS.TYPES.LATRINE.TOOLTIP"
-#| msgid "Using a toilet in an enclosed room will improve Duplicants' Morale."
 msgctxt "STRINGS.ROOMS.TYPES.BEDROOM.TOOLTIP"
 msgid "Sleeping in a private Bedroom will improve Duplicants' Morale."
 msgstr "Dormir em um Quarto aumentará a Moral dos Duplicantes."
@@ -34050,7 +34051,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.8.2)"
+"- Traduzido por Chastomber :P (1.8.3)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -35350,6 +35351,11 @@ msgctxt "STRINGS.UI.FRONTEND.MAINMENU.RESUMEGAME"
 msgid "RESUME GAME"
 msgstr "CONTINUAR JOGO"
 
+#. STRINGS.UI.FRONTEND.MAINMENU.SCENARIOS
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.SCENARIOS"
+msgid "SCENARIOS"
+msgstr "CENÁRIOS"
+
 #. STRINGS.UI.FRONTEND.MAINMENU.STARTDEMO
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.STARTDEMO"
 msgid "START DEMO"
@@ -35434,8 +35440,8 @@ msgstr "MODO DE JOGO"
 
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.NOSWEAT_DESC
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.NOSWEAT_DESC"
-msgid "The cosmos is a glorious place where you can lead your colony into adventure with confidence."
-msgstr "O cosmo é um lugar glorioso onde você pode conduzir sua colônia para uma aventura com confiança."
+msgid "The cosmos is a glorious place where you can lead your colony into adventure with ease."
+msgstr "O cosmo é um lugar glorioso onde você pode conduzir sua colônia para uma aventura com tranquilidade."
 
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.NOSWEAT_TITLE
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.NOSWEAT_TITLE"
@@ -35744,6 +35750,36 @@ msgstr "2) Desativar Moral"
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_TITLE"
 msgid "MORALE CHANGES"
 msgstr "MUDANÇAS DE MORAL"
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.LOAD_CONFIRM_TITLE
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.LOAD_CONFIRM_TITLE"
+msgid "LOAD"
+msgstr "CARREGAR"
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.LOAD_SCENARIO_CONFIRM
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.LOAD_SCENARIO_CONFIRM"
+msgid "Load the \"{SCENARIO_NAME}\" scenario?"
+msgstr "Carregar o cenário \"{SCENARIO_NAME}\"?"
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.NO_SCENARIOS_AVAILABLE
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.NO_SCENARIOS_AVAILABLE"
+msgid "No scenarios available. Subscribe to some in the Steam Workshop."
+msgstr "Nenhum cenário disponível. Inscreva-se em alguns na Oficina Steam."
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.TITLE
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.TITLE"
+msgid "Scenarios"
+msgstr "Cenários"
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.UNSUBSCRIBE
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.UNSUBSCRIBE"
+msgid "Unsubscribe"
+msgstr "Cancelar inscrição"
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.UNSUBSCRIBE_CONFIRM
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.UNSUBSCRIBE_CONFIRM"
+msgid "Are you sure you want to unsubscribe from this scenario?"
+msgstr "Tem certeza que deseja cancelar inscrição neste cenário?"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.AUDIO_DRIVERS
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.AUDIO_DRIVERS"
@@ -40386,7 +40422,7 @@ msgstr "LENTO"
 #. STRINGS.UI.STARMAP.CAN_CARRY_ELEMENT
 #, fuzzy
 msgctxt "STRINGS.UI.STARMAP.CAN_CARRY_ELEMENT"
-msgid "You can gather {0} on this rocket's {1}"
+msgid "{0} resources can be gathered using this rocket's {1}"
 msgstr "Você pode coletar {0} com esse foguete de {1}"
 
 #. STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT
@@ -40395,9 +40431,12 @@ msgid "This rocket needs a {0} to gather {1}"
 msgstr "Este foguete precisa de {0} para coletar {1}"
 
 #. STRINGS.UI.STARMAP.CONTAINER_REQUIRED
+#, fuzzy
+#| msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP"
+#| msgid "A {0} must be installed before launch"
 msgctxt "STRINGS.UI.STARMAP.CONTAINER_REQUIRED"
-msgid "{0} required"
-msgstr "{0} necessário"
+msgid "A {0} must be installed to collect this resource"
+msgstr "{0} precisa ser instalado antes da decolagem"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
@@ -40410,8 +40449,6 @@ msgid "Destination selected"
 msgstr "Destino selecionado"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BEDUNREACHABLE.NAME"
-#| msgid "Bed beyond reach"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.UNREACHABLE"
 msgid "Destination beyond reach"
 msgstr "Destino além do alcance"
@@ -40422,8 +40459,6 @@ msgid "Select a destination from the starmap"
 msgstr "Selecione um destino do mapa estelar"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE
-#| msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.NODESTINATION"
-#| msgid "No destination selected"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.REACHABLE"
 msgid "Viable destination selected, ready for launch"
 msgstr "Destino viável selecionado, pronto para decolagem"
@@ -40465,8 +40500,6 @@ msgid "Fuel tank full"
 msgstr "Tanque de combustível abastecido"
 
 #. STRINGS.UI.STARMAP.FULLTANK.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HUNGRY.TOOLTIP"
-#| msgid "This Duplicant is ready for lunch"
 msgctxt "STRINGS.UI.STARMAP.FULLTANK.TOOLTIP"
 msgid "Tank is full, ready to launch"
 msgstr "Tanque está cheio, pronto para decolagem"
@@ -40507,8 +40540,6 @@ msgid "Installed"
 msgstr "Instalado"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED_TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.HUNGRY.TOOLTIP"
-#| msgid "This Duplicant is ready for lunch"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INSTALLED_TOOLTIP"
 msgid "{0} installed, ready for launch"
 msgstr "{0} instalado, pronto para decolagem"
@@ -40552,6 +40583,11 @@ msgstr "Estado da Missão:"
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.MODULES"
 msgid "Modules"
 msgstr "Módulos"
+
+#. STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER
+msgctxt "STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER"
+msgid "Oxidizer"
+msgstr "Oxidizador"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.PASSENGERS"
@@ -40695,8 +40731,6 @@ msgid "Weight Penalty"
 msgstr "Penalidade por Peso"
 
 #. STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS
-#| msgctxt "STRINGS.UI.UISIDESCREENS.TIMEDSWITCHSIDESCREEN.CURRENTSTATE"
-#| msgid "Current State:"
 msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.CURRENTMASS"
 msgid "Current Rocket Mass: "
 msgstr "Massa Atual do Foguete: "
@@ -40718,8 +40752,8 @@ msgstr "Penalidade por Peso: "
 
 #. STRINGS.UI.STARMAP.STATUS
 msgctxt "STRINGS.UI.STARMAP.STATUS"
-msgid "STATUS"
-msgstr "ESTADO"
+msgid "SELECTED"
+msgstr "SELECIONADO"
 
 #. STRINGS.UI.STARMAP.SUBROW
 msgctxt "STRINGS.UI.STARMAP.SUBROW"
@@ -44922,6 +44956,133 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.CLEANTOILET.NAME"
+#~ msgid "Clean"
+#~ msgstr "Limpar"
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE.MESSAGEBODY"
+#~ msgid ""
+#~ "Duplicants will generally only perform certain activities during certain times of day. This helps them avoid long trips to the toilet from remote work sites, and to meet up with their friends at meal time. Depending on the shape and progress of the colony, it may be useful to modify the default schedule to improve the Duplicants' efficiency and Morale.\n"
+#~ "\n"
+#~ "Increasing the length of Downtime can improve their Morale, and different schedules for large numbers of Duplicants can help avoid crowding in the bathrooms or keep a Manual Generator running all night."
+#~ msgstr ""
+#~ "Duplicantes geralmente só irão realizar certas atividades durante certos períodos do dia. Isto ajuda a eles evitarem fazer longas viagens para o banheiro em locais de trabalho distantes, e se encontrar com seus amigos durante a hora da refeição. Dependendo do formato e progresso da colônia, talvez seja útil modificar a rotina padrão para melhorar a eficiência e a Moral.\n"
+#~ "\n"
+#~ "Aumentar o tempo do Intervalo pode melhorar a Moral, e diferentes rotinas para um grande número de Duplicantes pode ajudar a evitar banheiros lotados ou manter um Gerador Manual funcionando durante a noite."
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE.NAME"
+#~ msgid "TIP: Scheduling"
+#~ msgstr "DICA: Criar Rotinas"
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE.TOOLTIP"
+#~ msgid "Notes on managing Duplicant schedules"
+#~ msgstr "Dicas para administrar as rotinas dos Duplicantes"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_NONE.NAME"
+#~ msgid "View Blocked"
+#~ msgstr "Vista Bloqueada"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACE_VISIBILITY_REDUCED.TOOLTIP"
+#~ msgid ""
+#~ "An obscured view of the sky is preventing the collection of data\n"
+#~ "\n"
+#~ "Make sure the surrounding area is clear\n"
+#~ "Visibility: {VISIBILITY}\n"
+#~ "Scan Radius: {RADIUS} cells"
+#~ msgstr ""
+#~ "A visão bloqueada do céu está impedindo a coleta de dados\n"
+#~ "\n"
+#~ "Certifique-se que a área ao redor está limpa\n"
+#~ "Visibilidade: {VISIBILITY}\n"
+#~ "Raio de Escaneamento: {RADIUS} células"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.STRESSHEAL.TOOLTIP"
+#~ msgid "This Duplicant really needs to unwind"
+#~ msgstr "Este Duplicante realmente precisa se acalmar"
+
+#, fuzzy
+#~| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
+#~| msgid "Took a Break"
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK1.NAME"
+#~ msgid "1-Block Break"
+#~ msgstr "1-Bloco Intervalo"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK2.NAME"
+#~ msgid "2-Block Break"
+#~ msgstr "2-Bloco Intervalo"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK3.NAME"
+#~ msgid "3-Block Break"
+#~ msgstr "3-Bloco Intervalo"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK4.NAME"
+#~ msgid "4-Block Break"
+#~ msgstr "4-Bloco Intervalo"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.NAME"
+#~ msgid "5-Block Break"
+#~ msgstr "5-Bloco Intervalo"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.NAME"
+#~ msgid "Poor Decor"
+#~ msgstr "Decor Pobre"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.NAME"
+#~ msgid "Mediocre Decor"
+#~ msgstr "Decor Medíocre"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.NAME"
+#~ msgid "Above Average Decor"
+#~ msgstr "Decor Acima da Média"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR2.TOOLTIP"
+#~ msgid "This Duplicant appreciates that the colony's been spruced up"
+#~ msgstr "Este Duplicante aprecia que a colônia foi enfeitada"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.NAME"
+#~ msgid "Nice Decor"
+#~ msgstr "Bom Decor"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR3.TOOLTIP"
+#~ msgid "This Duplicant thinks it looks pretty good in here!"
+#~ msgstr "Este Duplicante acha que está tudo bem aqui!"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR4.NAME"
+#~ msgid "Charming Decor"
+#~ msgstr "Decor Charmoso"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.NAME"
+#~ msgid "Gorgeous Decor"
+#~ msgstr "Decor Maravilhoso"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECORMINUS1.NAME"
+#~ msgid "Ugly Decor"
+#~ msgstr "Decor Horroroso"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION_CLINIC.TOOLTIP"
+#~ msgid "Proper facilities further improve this massage's effectiveness"
+#~ msgstr "Estruturas devidamente colocadas melhoraram a efetividade desta massagem"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MINGLING.TOOLTIP"
+#~ msgid "This Duplicant is mingling with other Duplicants in the room"
+#~ msgstr "Este Duplicante está se enturmando com outros Duplicantes na sala"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP"
+#~ msgid "This Duplicant is getting stressed by their responsibilities, but improved amenities would cheer them up"
+#~ msgstr "Este Duplicante está ficando estressado devido as suas responsabilidades, mas serviços podem animá-lo"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SOCIALIZING.TOOLTIP"
+#~ msgid "This Duplicant is hanging out to chat with other Duplicants"
+#~ msgstr "Este Duplicante está indo conversar com outros Duplicantes"
+
+#~ msgctxt "STRINGS.UI.STARMAP.CONTAINER_REQUIRED"
+#~ msgid "{0} required"
+#~ msgstr "{0} necessário"
+
+#~ msgctxt "STRINGS.UI.STARMAP.STATUS"
+#~ msgid "STATUS"
+#~ msgstr "ESTADO"
+
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC"
 #~ msgid "A little boost of energy."
 #~ msgstr "Nada como um café pra dar energia."
@@ -45745,10 +45906,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Quality of Life Expectation"
 #~ msgstr "Expectativa de Qualidade de Vida"
 
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.NAME"
-#~ msgid "Relieve Self On Break"
-#~ msgstr "Alivia-se no Intervalo"
-
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.BREAK_PEE.STATUS"
 #~ msgid "Relieving self"
 #~ msgstr "Aliviando-se"
@@ -45760,10 +45917,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.EDIBLE_IS_NOT_NULL"
 #~ msgid "EdibleIsNotNull"
 #~ msgstr "ComestívelNãoéNulo"
-
-#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TOOKABREAK.NAME"
-#~ msgid "Took a Break"
-#~ msgstr "Teve um Intervalo"
 
 #~ msgctxt "STRINGS.DUPLICANTS.NEEDS.QUALITYOFLIFE.BAD_MODIFIER"
 #~ msgid "Lacking Quality of Life"
@@ -45836,10 +45989,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION"
 #~ msgid "Work Time"
 #~ msgstr "Hora do Trabalho"
-
-#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME"
-#~ msgid "Work Shift"
-#~ msgstr "Trabalho"
 
 #~ msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS"
 #~ msgid "Quality Of Life"
