@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.6.11\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.6.12\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -3706,7 +3706,7 @@ msgid ""
 msgstr ""
 "Incuba ovos de criaturas até estarem prontos para eclodir.\n"
 "\n"
-"Duplicantes designados devem possuir o traço <link=\"RANCHER\">Capturar "
+"Duplicantes designados devem possuir o traço <link=\"RANCHER\">Laçar "
 "Criaturas</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.EGGINCUBATOR.NAME
@@ -6645,7 +6645,7 @@ msgid ""
 msgstr ""
 "Permite ao Fazendeiro designado cuidar de criaturas.\n"
 "\n"
-"Duplicantes designados precisam possuir o traço <link=\"RANCHER\">Capturar "
+"Duplicantes designados precisam possuir o traço <link=\"RANCHER\">Laçar "
 "Criaturas</link>.\n"
 "\n"
 "Esta estrutura é um componente necessário da sala Estábulo."
@@ -11445,7 +11445,7 @@ msgstr "Esta criatura vai ficar bem arrumada quando terminar"
 #. STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.NAME"
 msgid "Being Wrangled"
-msgstr "Sendo Amarrada"
+msgstr "Sendo Laçada"
 
 #. STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.GETTING_WRANGLED.TOOLTIP"
@@ -13142,18 +13142,18 @@ msgstr "Esta entrega vai providenciar materiais para um local de construção"
 #. STRINGS.DUPLICANTS.CHORES.CAPTURE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.CAPTURE.NAME"
 msgid "Wrangle"
-msgstr "Capturar"
+msgstr "Laçar"
 
 #. STRINGS.DUPLICANTS.CHORES.CAPTURE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.CAPTURE.STATUS"
 msgid "Wrangling"
-msgstr "Capturando"
+msgstr "Laçando"
 
 #. STRINGS.DUPLICANTS.CHORES.CAPTURE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.CAPTURE.TOOLTIP"
 msgid "Duplicants employed as Ranchers can wrangle most critters without traps"
 msgstr ""
-"Duplicantes empregados como Fazendeiros podem capturar a maior parte das "
+"Duplicantes empregados como Fazendeiros podem laçar a maior parte das "
 "criaturas sem armadilhas"
 
 #. STRINGS.DUPLICANTS.CHORES.CHECKPOINT.NAME
@@ -25027,7 +25027,7 @@ msgid ""
 "New Duplicants are no longer available for printing.\n"
 "Countdown to the next production was rebooted."
 msgstr ""
-"Nenhum Duplicante está disponível para a impressão.\n"
+"Novos Duplicantes não estão mais disponíveis para impressão.\n"
 "Contagem para a próxima produção foi reiniciada."
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.NAME
@@ -25070,7 +25070,7 @@ msgid ""
 "pools of liquid, my Duplicants will be able to bottle them. Then they'll "
 "automatically deliver the bottles whereever they need to go."
 msgstr ""
-"Para poder carregar <link=\"LIQUIDS\">líquidos</link> de um lugar para o "
+"Para poder carregar <link=\"LIQUIDS\">Líquidos</link> de um lugar para o "
 "outro, meus Duplicantes precisam primeiro engarrafá-los para o transporte.\n"
 "\n"
 "Se eu construir Bombas Manuais da <link=\"MISC\">ABA CANOS</link> sobre "
@@ -25100,7 +25100,7 @@ msgid ""
 "    • My Duplicants are consuming {1} per cycle"
 msgstr ""
 "As reservas de <link=\"FOOD\">Comida</link> estão baixas:\n"
-"    • Você possui {0} disponível\n"
+"    • {0} estão atualmente disponíveis\n"
 "    • Meus Duplicantes estão consumindo {1} por ciclo"
 
 #. STRINGS.MISC.NOTIFICATIONS.FOODROT.NAME
@@ -25249,7 +25249,7 @@ msgstr "Novos Duplicantes foram reabsorvidos"
 #. STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.IMMIGRANTSLEFT.TOOLTIP"
 msgid "The printable Duplicants have been Oozed"
-msgstr "Os Duplicantes imprimíveis foram reabsorvidos"
+msgstr "Os Duplicantes imprimíveis voltaram para a Gosma"
 
 #. STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.INCREASEDEXPECTATIONS.NAME"
@@ -25691,7 +25691,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.NAME"
 msgid "TIP: Stress Management"
-msgstr "DICA: Administrando Stress"
+msgstr "DICA: Administrando Estresse"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.TOOLTIP"
@@ -25922,7 +25922,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.NAME"
 msgid "TIP: Colony Management"
-msgstr "DICA: Administrando a colônia"
+msgstr "DICA: Administração da Colônia"
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.TOOLTIP"
@@ -25937,7 +25937,7 @@ msgstr "Cavar"
 #. STRINGS.MISC.PLACERS.MOPPLACER.NAME
 msgctxt "STRINGS.MISC.PLACERS.MOPPLACER.NAME"
 msgid "Mop"
-msgstr "Limpar"
+msgstr "Secar"
 
 #. STRINGS.MISC.POPFX.RESOURCE_EATEN
 msgctxt "STRINGS.MISC.POPFX.RESOURCE_EATEN"
@@ -26188,7 +26188,7 @@ msgstr "Desinfecção Pendente"
 #. STRINGS.MISC.STATUSITEMS.MARKEDFORDISINFECTION.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORDISINFECTION.TOOLTIP"
 msgid "Awaiting a Duplicant to disinfect"
-msgstr "Aguardando um Duplicante desinfetar"
+msgstr "Aguardando um Duplicante para desinfetar"
 
 #. STRINGS.MISC.STATUSITEMS.NOCLEARLOCATIONSAVAILABLE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.NOCLEARLOCATIONSAVAILABLE.NAME"
@@ -26218,7 +26218,7 @@ msgstr "Em Uso"
 #. STRINGS.MISC.STATUSITEMS.OPERATING.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.OPERATING.TOOLTIP"
 msgid "This object is currently being used"
-msgstr "Este objeto está em uso"
+msgstr "Este objeto está em uso no momento"
 
 #. STRINGS.MISC.STATUSITEMS.ORDERATTACK.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERATTACK.NAME"
@@ -26233,7 +26233,7 @@ msgstr "Esperando um Duplicante assassinar esta criatura indefesa"
 #. STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.NAME"
 msgid "Pending Wrangle"
-msgstr "Captura Pendente"
+msgstr "Laço Pendente"
 
 #. STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.TOOLTIP
 msgctxt "STRINGS.MISC.STATUSITEMS.ORDERCAPTURE.TOOLTIP"
@@ -26610,7 +26610,7 @@ msgstr "Inflamável"
 #. STRINGS.MISC.TAGS.CLINIC
 msgctxt "STRINGS.MISC.TAGS.CLINIC"
 msgid "Clinic"
-msgstr "Clínico"
+msgstr "Clínica"
 
 #. STRINGS.MISC.TAGS.CLOTHES
 msgctxt "STRINGS.MISC.TAGS.CLOTHES"
@@ -26648,7 +26648,6 @@ msgid "Consumable Ore"
 msgstr "Minério Consumível"
 
 #. STRINGS.MISC.TAGS.CONVEYOR
-#, fuzzy
 msgctxt "STRINGS.MISC.TAGS.CONVEYOR"
 msgid "Shipping Build"
 msgstr "Construção p/Logística"
@@ -26656,7 +26655,7 @@ msgstr "Construção p/Logística"
 #. STRINGS.MISC.TAGS.COOKING
 msgctxt "STRINGS.MISC.TAGS.COOKING"
 msgid "Cook Delivery"
-msgstr "Entrega p/Cozinhar"
+msgstr "Entrega p/Cozinha"
 
 #. STRINGS.MISC.TAGS.COOKINGINGREDIENT
 msgctxt "STRINGS.MISC.TAGS.COOKINGINGREDIENT"
@@ -26684,17 +26683,14 @@ msgid "Edible"
 msgstr "Comestível"
 
 #. STRINGS.MISC.TAGS.EGG
-#, fuzzy
-#| msgctxt "STRINGS.UI.UISIDESCREENS.EGGINCUBATOR.TITLE"
-#| msgid "Critter Eggs"
 msgctxt "STRINGS.MISC.TAGS.EGG"
 msgid "Critter Egg"
-msgstr "Ovos de Criatura"
+msgstr "Ovo de Criatura"
 
 #. STRINGS.MISC.TAGS.EMITSLIGHT
 msgctxt "STRINGS.MISC.TAGS.EMITSLIGHT"
 msgid "Light Emitter"
-msgstr "Fonte de Luz"
+msgstr "Emissor de Luz"
 
 #. STRINGS.MISC.TAGS.EXTRUDABLE
 msgctxt "STRINGS.MISC.TAGS.EXTRUDABLE"
@@ -26759,7 +26755,7 @@ msgstr "Produto Industrial"
 #. STRINGS.MISC.TAGS.LIFE
 msgctxt "STRINGS.MISC.TAGS.LIFE"
 msgid "Life"
-msgstr "Vida"
+msgstr "Vital"
 
 #. STRINGS.MISC.TAGS.LIQUID
 msgctxt "STRINGS.MISC.TAGS.LIQUID"
@@ -28709,7 +28705,7 @@ msgstr ""
 "A pesquisa selecionada requer um tipo avançado de pesquisa para ser "
 "completada\n"
 "\n"
-"Atribua a um Duplicante o trabalho de Assistente de Pesquisa usando o Painel "
+"Atribua a um Duplicante o trabalho de Pesquisador Assistente usando o Painel "
 "Trabalhos <color=#F44A47>[L]</color> para ativar esta tarefa"
 
 #. STRINGS.RESEARCH.MESSAGING.NORESEARCHSELECTED
@@ -28730,7 +28726,7 @@ msgstr "Requer {0}"
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.AUTOMATION_OVERLAY.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.AUTOMATION_OVERLAY.DESC"
 msgid "Enables access to the Automation Overlay."
-msgstr "Permite o acesso ao Painel Automação."
+msgstr "Permite acesso ao Painel Automação."
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.AUTOMATION_OVERLAY.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.AUTOMATION_OVERLAY.NAME"
@@ -28965,9 +28961,6 @@ msgid "Heat allows the creation of entirely new materials."
 msgstr "Calor permite a criação de materiais inteiramente novos."
 
 #. STRINGS.RESEARCH.TECHS.HIGHTEMPFORGING.NAME
-#, fuzzy
-#| msgctxt "STRINGS.RESEARCH.TECHS.TEMPERATUREMODULATION.NAME"
-#| msgid "<link=\"TEMPERATUREMODULATION\">Temperature Modulation</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHTEMPFORGING.NAME"
 msgid "<link=\"HIGHTEMPFORGING\">High-Temperature Forging</link>"
 msgstr "<link=\"HIGHTEMPFORGING\">Forja em Altas Temperaturas</link>"
@@ -29236,9 +29229,6 @@ msgid "The ultimate solution to ugly things? Make them transparent."
 msgstr "A solução definitiva para coisa feias? Só as deixar transparentes."
 
 #. STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME
-#, fuzzy
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.REFRIGERATOR.NAME"
-#| msgid "<link=\"REFRIGERATOR\">Refrigerator</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.REFRACTIVEDECOR.NAME"
 msgid "<link=\"REFRACTIVEDECOR\">Refractive Decor</link>"
 msgstr "<link=\"REFRACTIVEDECOR\">Decor Refrativo</link>"
@@ -29494,7 +29484,7 @@ msgstr "Requer pelo menos uma Caixa de Ração ou Refrigerador"
 #. STRINGS.ROOMS.CRITERIA.FOOD_BOX.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.FOOD_BOX.NAME"
 msgid "Food storage"
-msgstr "Armazenamento de comida"
+msgstr "Armazenador de comida"
 
 #. STRINGS.ROOMS.CRITERIA.HEADER
 msgctxt "STRINGS.ROOMS.CRITERIA.HEADER"
@@ -29579,7 +29569,7 @@ msgstr "Circundado por blocos de parede e portas"
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.DESCRIPTION"
 msgid "Cannot contain any building labelled Industrial Machinery"
-msgstr "Não pode conter nenhuma estrutura rotulada Maquinário Industrial"
+msgstr "Não pode conter nenhuma estrutura rotulada como Maquinário Industrial"
 
 #. STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.NO_INDUSTRIAL_MACHINERY.NAME"
@@ -29609,12 +29599,12 @@ msgstr "Estação de Controle de Energia"
 #. STRINGS.ROOMS.CRITERIA.RANCH_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.RANCH_STATION.DESCRIPTION"
 msgid "Requires a single Ranch Station"
-msgstr "Requer uma Estação de Pecuária"
+msgstr "Requer uma Estação de Beleza Pet"
 
 #. STRINGS.ROOMS.CRITERIA.RANCH_STATION.NAME
 msgctxt "STRINGS.ROOMS.CRITERIA.RANCH_STATION.NAME"
 msgid "Ranch Station"
-msgstr "Estação de Pecuária"
+msgstr "Estação de Beleza Pet"
 
 #. STRINGS.ROOMS.CRITERIA.REC_BUILDING.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.REC_BUILDING.DESCRIPTION"
@@ -29982,7 +29972,7 @@ msgstr "Estátua"
 #. STRINGS.SETITEMS.FACILITY_CHANDELIER.DESC
 msgctxt "STRINGS.SETITEMS.FACILITY_CHANDELIER.DESC"
 msgid "A light that is too big"
-msgstr "Uma luminária só que grande"
+msgstr "Uma luminária que é grande demais"
 
 #. STRINGS.SETITEMS.FACILITY_CHANDELIER.NAME
 msgctxt "STRINGS.SETITEMS.FACILITY_CHANDELIER.NAME"
@@ -30032,7 +30022,7 @@ msgstr "Arquivo Espaçoso"
 #. STRINGS.SETITEMS.FACILITY_LAMP.DESC
 msgctxt "STRINGS.SETITEMS.FACILITY_LAMP.DESC"
 msgid "A lamp"
-msgstr "Uma lâmpada"
+msgstr "Uma luminária"
 
 #. STRINGS.SETITEMS.FACILITY_LAMP.NAME
 msgctxt "STRINGS.SETITEMS.FACILITY_LAMP.NAME"
@@ -30131,7 +30121,6 @@ msgid "Wreck of a satellite"
 msgstr "Destroços de um satélite"
 
 #. STRINGS.SETITEMS.SATELLITE.NAME
-#, fuzzy
 msgctxt "STRINGS.SETITEMS.SATELLITE.NAME"
 msgid "Crashed Satellite"
 msgstr "Satélite Quebrado"
@@ -30228,7 +30217,7 @@ msgstr "Esta Colônia têm {0} Ciclo(s) de Idade"
 #. STRINGS.UI.ASTEROIDCLOCK.TIME_PLAYED
 msgctxt "STRINGS.UI.ASTEROIDCLOCK.TIME_PLAYED"
 msgid "Time Played: {0} hours"
-msgstr "Tempo de jogo: {0} horas"
+msgstr "Tempo de Jogo: {0} horas"
 
 #. STRINGS.UI.ATTRIBUTELEVEL
 msgctxt "STRINGS.UI.ATTRIBUTELEVEL"
@@ -30253,7 +30242,7 @@ msgstr "<link=\"BUILDCATEGORYAUTOMATION\">Automação</link>"
 #. STRINGS.UI.BUILDCATEGORIES.AUTOMATION.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.AUTOMATION.TOOLTIP"
 msgid "Automate my base with logic circuits and sensors."
-msgstr "Automatize minha base com sensores e circuitos lógicos."
+msgstr "Automatiza minha base com sensores e circuitos lógicos."
 
 #. STRINGS.UI.BUILDCATEGORIES.BASE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.BASE.NAME"
@@ -30263,7 +30252,7 @@ msgstr "<link=\"BUILDCATEGORYBASE\">Base</link>"
 #. STRINGS.UI.BUILDCATEGORIES.BASE.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.BASE.TOOLTIP"
 msgid "Maintain the colony's infrastructure with these homebase basics."
-msgstr "Manter a colônia funcionando com estas infraestruturas básicas."
+msgstr "Mantém a colônia funcionando com estas infraestruturas básicas."
 
 #. STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.NAME"
@@ -30274,7 +30263,7 @@ msgstr "<link=\"BUILDCATEGORYCONVEYANCE\">Logística</link>"
 msgctxt "STRINGS.UI.BUILDCATEGORIES.CONVEYANCE.TOOLTIP"
 msgid "Effortlessly transport ore and solid materials around my base."
 msgstr ""
-"Transportar minérios e materiais sólidos pela minha base com nenhum esforço."
+"Transporta minérios e materiais sólidos pela minha base com nenhum esforço."
 
 #. STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.NAME"
@@ -30284,7 +30273,7 @@ msgstr "<link=\"BUILDCATEGORYEQUIPMENT\">Estações</link>"
 #. STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.EQUIPMENT.TOOLTIP"
 msgid "Unlock new technologies through the power of science!"
-msgstr "Desbloqueie novas tecnologias com o poder da ciência!"
+msgstr "Desbloqueia novas tecnologias com o poder da ciência!"
 
 #. STRINGS.UI.BUILDCATEGORIES.FOOD.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FOOD.NAME"
@@ -30294,7 +30283,7 @@ msgstr "<link=\"BUILDCATEGORYFOOD\">Comida</link>"
 #. STRINGS.UI.BUILDCATEGORIES.FOOD.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FOOD.TOOLTIP"
 msgid "Keep my Duplicants' spirits high and their bellies full."
-msgstr "Manter meus Duplicantes felizes e de barriga cheia."
+msgstr "Mantém meus Duplicantes felizes e de barriga cheia."
 
 #. STRINGS.UI.BUILDCATEGORIES.FURNITURE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.FURNITURE.NAME"
@@ -30315,7 +30304,7 @@ msgstr "<link=\"BUILDCATEGORYHVAC\">Tubos</link>"
 #. STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.TOOLTIP"
 msgid "Control the flow of gas in the base."
-msgstr "Controle do fluxo de gás na minha base."
+msgstr "Controla o fluxo de gás na minha base."
 
 #. STRINGS.UI.BUILDCATEGORIES.MEDICAL.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MEDICAL.NAME"
@@ -30335,7 +30324,7 @@ msgstr "<link=\"BUILDCATEGORYMISC\">Decor</link>"
 #. STRINGS.UI.BUILDCATEGORIES.MISC.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.MISC.TOOLTIP"
 msgid "Spruce up my colony with some lovely interior decorating."
-msgstr "Enfeitar minha colônia com um pouco de decoração de interiores."
+msgstr "Enfeita minha colônia com um pouco de decoração de interiores."
 
 #. STRINGS.UI.BUILDCATEGORIES.OXYGEN.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.OXYGEN.NAME"
@@ -30355,7 +30344,7 @@ msgstr "<link=\"BUILDCATEGORYPLUMBING\">Canos</link>"
 #. STRINGS.UI.BUILDCATEGORIES.PLUMBING.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.PLUMBING.TOOLTIP"
 msgid "Get the colony's water running and its sewage flowing."
-msgstr "Faça a água da colônia correr e o seu esgoto fluir."
+msgstr "Faz a água da colônia correr e o seu esgoto fluir."
 
 #. STRINGS.UI.BUILDCATEGORIES.POWER.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.POWER.NAME"
@@ -30365,7 +30354,7 @@ msgstr "<link=\"BUILDCATEGORYPOWER\">Energia</link>"
 #. STRINGS.UI.BUILDCATEGORIES.POWER.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.POWER.TOOLTIP"
 msgid "Need to power the colony? Here's how to do it!"
-msgstr "Precisa energizar a colônia? Aqui está como se faz!"
+msgstr "Preciso energizar a colônia? Aqui está como se faz!"
 
 #. STRINGS.UI.BUILDCATEGORIES.REFINING.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.REFINING.NAME"
@@ -30385,7 +30374,7 @@ msgstr "<link=\"BUILDCATEGORYUTILITIES\">Utilitários</link>"
 #. STRINGS.UI.BUILDCATEGORIES.UTILITIES.TOOLTIP
 msgctxt "STRINGS.UI.BUILDCATEGORIES.UTILITIES.TOOLTIP"
 msgid "Heat up and cool down."
-msgstr "Aqueça e esfrie."
+msgstr "Aquece e esfria."
 
 #. STRINGS.UI.BUILDINGEFFECTS.ADDED_EFFECT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ADDED_EFFECT"
@@ -30420,7 +30409,7 @@ msgstr "<link=\"POWER\">Energia</link> perdida: {0}"
 #. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_LURE"
 msgid "Capture Method: Lures"
-msgstr "Método de Captura: Armadilhas"
+msgstr "Método de Captura: Iscas"
 
 #. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_TRAP
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_TRAP"
@@ -30430,7 +30419,7 @@ msgstr "Método de Captura: Armadilhas"
 #. STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_WRANGLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CAPTURE_METHOD_WRANGLE"
 msgid "Capture Method: Wrangling"
-msgstr "Método de Captura: Captura Manual"
+msgstr "Método de Captura: Laço"
 
 #. STRINGS.UI.BUILDINGEFFECTS.CONSUMESANYELEMENT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.CONSUMESANYELEMENT"
@@ -30783,11 +30772,13 @@ msgid "{0}: {1} per <link=\"RESEARCH\">Research</link> point"
 msgstr "{0}: {1} por ponto de <link=\"RESEARCH\">Pesquisa</link>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH
+#, fuzzy
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH"
 msgid "Shearable {Item}: {Amount} per {Time}"
 msgstr "{Item} tosquiável: {Amount} por {Time}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO
+#, fuzzy
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO"
 msgid "Shearable {Item}: {Amount} per {Time} ({Atmosphere})"
 msgstr "{Item} tosquiável: {Amount} por {Time} ({Atmosphere})"
@@ -30867,8 +30858,8 @@ msgid ""
 msgstr ""
 "Esta criatura foi capturada por um Fazendeiro\n"
 "------------------\n"
-"Marque criaturas para captura usando a Ferramenta "
-"Capturar<color=#F44A47>(N)</color>"
+"Marque criaturas para captura usando a Ferramenta Laçar <color=#F44A47>(N)</"
+"color>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.COOLANT"
@@ -30919,7 +30910,7 @@ msgid ""
 "\n"
 "{Items}"
 msgstr ""
-"Esta criatura... \"produzirá\" os seguintes materiais:\n"
+"Esta criatura \"produzirá\" os seguintes materiais:\n"
 "\n"
 "{Items}"
 
@@ -30995,7 +30986,7 @@ msgstr "Reduz a temperatura de gases encanados por {0}"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_DISEASE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_DISEASE"
 msgid "{0} germs are present in the output of this geyser."
-msgstr "{0} estão presentes na produção deste gêiser."
+msgstr "{0} germes estão presentes na produção deste gêiser."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PERIOD"
@@ -31164,8 +31155,7 @@ msgstr "Produz barulho a {0} dB no raio de {1} blocos"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OPERATIONEFFECTS"
 msgid "The building will produce these effects when its requirements are met"
 msgstr ""
-"A estrutura irá produzir estes efeitos quando os seus requisitos forem "
-"atingidos"
+"A estrutura produzirá estes efeitos quando os seus requisitos forem atingidos"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OPERATIONREQUIREMENTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.OPERATIONREQUIREMENTS"
@@ -31187,7 +31177,7 @@ msgstr "Começa a sobreaquecer quando atinge {0} e derrete em {1}"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PLANTERBOX_PENTALTY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PLANTERBOX_PENTALTY"
 msgid "Plants grow more slowly when contained within boxes"
-msgstr "Plantas crescem mais devagar quando armazenadas dentro de caixas"
+msgstr "Plantas crescem mais devagar quando cultivadas em jardineiras"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PREFERS_ROOM"
@@ -31262,7 +31252,7 @@ msgstr "Usar esta estrutura irá remover os efeitos listados"
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESCREATIVITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESCREATIVITY"
 msgid "A Duplicant must work on this object to create art"
-msgstr "Um Duplicante precisa trabalhar nesse objeto para criar arte"
+msgstr "Um Duplicante precisa trabalhar neste objeto para criar arte"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESELEMENT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REQUIRESELEMENT"
@@ -31356,13 +31346,13 @@ msgstr ""
 "Esta criatura pode ser tosquiada a cada {Time} para produzir {Amount} de "
 "{Item}\n"
 "\n"
-"Precisa estar em um ambiente rico em {Atmosphere} para o {Item} tosquiado "
+"Precisa estar em um ambiente rico em {Atmosphere} para o(a) {Item} tosquiado "
 "crescer novamente"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
 msgid "Holds up to {0} of material"
-msgstr "Armazena até {0} do material"
+msgstr "Armazena até {0} de material"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STRESSREDUCEDPERMINUTE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STRESSREDUCEDPERMINUTE"
@@ -31577,10 +31567,10 @@ msgstr ""
 "Os fatores variáveis de um gêiser são:\n"
 "\n"
 "    • Elemento emitido \n"
-"    • Temperatura do elemento \n"
+"    • Temperatura de emissão \n"
 "    • Massa emitida \n"
 "    • Duração por ciclo \n"
-"    • Duração dormente \n"
+"    • Duração de dormência \n"
 "    • Doenças emitidas"
 
 #. STRINGS.UI.CODEX.MANAGEMENT_BUTTON
@@ -31743,7 +31733,7 @@ msgid ""
 "<b>New Duplicants</b> are <color=#B87194FF>not allowed</color> to eat \n"
 "<b>{0}</b> by default"
 msgstr ""
-"<b>Novos Duplicantes</b> estão <color=#B87194FF>proibídos</color> de comer \n"
+"<b>Novos Duplicantes</b> estão <color=#B87194FF>proibidos</color> de comer \n"
 "<b>{0}</b> por padrão"
 
 #. STRINGS.UI.CONSUMABLESSCREEN.NEW_MINIONS_FOOD_PERMISSION_ON
@@ -31914,9 +31904,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION
-#, fuzzy
-#| msgctxt "STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION"
-#| msgid "Invalid Locaton"
 msgctxt "STRINGS.UI.DEBUG_TOOLS.INVALID_LOCATION"
 msgid "Invalid Location"
 msgstr "Local Inválido"
@@ -32045,7 +32032,7 @@ msgstr "Joules por quilograma: {0}"
 msgctxt ""
 "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_JOULES"
 msgid "Total joules: {0}"
-msgstr "Joules Totais: {0}"
+msgstr "Joules totais: {0}"
 
 #. STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_MASS
 msgctxt ""
@@ -32811,7 +32798,7 @@ msgid ""
 "------------------\n"
 "Effects: {1}"
 msgstr ""
-"{2} foi designado à {0}.\n"
+"{2} foi designado a {0}.\n"
 "------------------\n"
 "Efeitos: {1}"
 
@@ -32888,7 +32875,7 @@ msgstr "<size=13><b>Trabalho Atual:</b> {0}</size>"
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.NOJOB_TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.NOJOB_TOOLTIP"
 msgid "This {0} is... \"between jobs\" at present"
-msgstr "Este {0} está... \"entre trabalhos\" no momento"
+msgstr "{0} está... \"entre trabalhos\" no momento"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.TOOLTIP
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.CURRENT_ROLE.TOOLTIP"
@@ -33055,11 +33042,11 @@ msgstr ""
 "\n"
 "Um agradecimento especial para aqueles que se juntaram a nós durante o tempo "
 "em Alfa. Nós apreciamos sua avaliação e agradecemos por se juntar a nós no "
-"processo de desenvolvimento. Não poderíamos fazer sem você.\n"
+"processo de desenvolvimento. Não chegaríamos aqui sem vocês.\n"
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.6.11)"
+"- Traduzido por Chastomber :P (1.6.12)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33082,7 +33069,7 @@ msgid ""
 "Stay up to date by joining our mailing list, or head on over to the forums "
 "and join the discussion."
 msgstr ""
-"Fique atualizado ao se juntar a nossa lista de email ou vá para os fóruns e "
+"Fique atualizado ao se juntar à nossa lista de e-mail ou vá para os fóruns e "
 "junte-se a discussão."
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FORUMBUTTON
@@ -33173,7 +33160,7 @@ msgstr "Ponto de Condensação: {0}"
 #. STRINGS.UI.ELEMENTAL.DEWPOINT.TOOLTIP
 msgctxt "STRINGS.UI.ELEMENTAL.DEWPOINT.TOOLTIP"
 msgid "The selected object will condense into a liquid at {0}"
-msgstr "O objeto selecionado irá condensar em líquido a {0}"
+msgstr "O objeto selecionado irá condensar em líquido em {0}"
 
 #. STRINGS.UI.ELEMENTAL.DISEASE.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.DISEASE.NAME"
@@ -33183,7 +33170,7 @@ msgstr "Doença: {0}"
 #. STRINGS.UI.ELEMENTAL.DISEASE.TOOLTIP
 msgctxt "STRINGS.UI.ELEMENTAL.DISEASE.TOOLTIP"
 msgid "There are {0} on the selected object"
-msgstr "Existe {0} no objeto selecionado"
+msgstr "Existem {0} no objeto selecionado"
 
 #. STRINGS.UI.ELEMENTAL.FREEZEPOINT.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.FREEZEPOINT.NAME"
@@ -33193,7 +33180,7 @@ msgstr "Ponto de Fusão: {0}"
 #. STRINGS.UI.ELEMENTAL.FREEZEPOINT.TOOLTIP
 msgctxt "STRINGS.UI.ELEMENTAL.FREEZEPOINT.TOOLTIP"
 msgid "The selected object will cool into a solid at {0}"
-msgstr "O objeto selecionado vai esfriar-se em sólido a {0}"
+msgstr "O objeto selecionado vai esfriar-se em sólido em {0}"
 
 #. STRINGS.UI.ELEMENTAL.MASS.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.MASS.NAME"
@@ -33213,7 +33200,7 @@ msgstr "Ponto de Fusão: {0}"
 #. STRINGS.UI.ELEMENTAL.MELTINGPOINT.TOOLTIP
 msgctxt "STRINGS.UI.ELEMENTAL.MELTINGPOINT.TOOLTIP"
 msgid "The selected object will melt into a liquid at {0}"
-msgstr "O objeto selecionado vai derreter-se em líquido a {0}"
+msgstr "O objeto selecionado vai derreter-se em líquido em {0}"
 
 #. STRINGS.UI.ELEMENTAL.OVERHEATPOINT.NAME
 msgctxt "STRINGS.UI.ELEMENTAL.OVERHEATPOINT.NAME"
@@ -33339,7 +33326,7 @@ msgstr "Ponto de Vaporização: {0}"
 #. STRINGS.UI.ELEMENTAL.VAPOURIZATIONPOINT.TOOLTIP
 msgctxt "STRINGS.UI.ELEMENTAL.VAPOURIZATIONPOINT.TOOLTIP"
 msgid "The selected object will evaporate into a gas at {0}"
-msgstr "O objeto selecionado vai evaporar em gás a {0}"
+msgstr "O objeto selecionado vai evaporar em gás em {0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ADDED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ADDED"
@@ -33678,6 +33665,7 @@ msgstr ""
 "{0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME
+#, fuzzy
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME"
 msgid "Time Breakdown:"
 msgstr "Tempo gasto:"
@@ -34364,7 +34352,7 @@ msgid ""
 "Are you sure you want to quit to main menu?\n"
 "All unsaved progress will be lost."
 msgstr ""
-"Você tem certeza que deseja sair?\n"
+"Você tem certeza que quer voltar para o menu principal?\n"
 "Todo progresso não salvo será perdido."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.QUITTODESKTOP
@@ -34473,8 +34461,8 @@ msgid ""
 "Included."
 msgstr ""
 "Um problema ocorreu ao carregar Oxygen Not Included. Isso geralmente ocorre "
-"pelo Visual Studio C++ 2015 não está propriamente instalado no sistema. Por "
-"favor, feche o jogo, rode o Windows Update e tente reabrir Oxygen Not "
+"quando o Visual Studio C++ 2015 não está propriamente instalado no sistema. "
+"Por favor, feche o jogo, rode o Windows Update e tente reabrir Oxygen Not "
 "Included."
 
 #. STRINGS.UI.FRONTEND.MINSPECSCREEN.TITLE
@@ -37985,7 +37973,7 @@ msgstr "Traço: Treinamento na Estação da Beleza Pet"
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_WRANGLE_CREATURES.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_WRANGLE_CREATURES.DESCRIPTION"
 msgid "Trait: Critter Wrangling"
-msgstr "Traço: Capturar Criaturas"
+msgstr "Traço: Laçar Criaturas"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CONVEYOR_BUILD.DESCRIPTION"
@@ -38737,22 +38725,22 @@ msgstr "Ferramenta Cancelar"
 #. STRINGS.UI.TOOLS.CAPTURE.NAME
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.NAME"
 msgid "Wrangle"
-msgstr "Capturar"
+msgstr "Laçar"
 
 #. STRINGS.UI.TOOLS.CAPTURE.NOT_CAPTURABLE
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.NOT_CAPTURABLE"
 msgid "Cannot Wrangle"
-msgstr "Impossível Capturar"
+msgstr "Impossível Laçar"
 
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLACTION
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.TOOLACTION"
 msgid "DRAG TO WRANGLE CRITTERS"
-msgstr "ARRASTE PARA CAPTURAR CRIATURAS"
+msgstr "ARRASTE PARA LAÇAR CRIATURAS"
 
 #. STRINGS.UI.TOOLS.CAPTURE.TOOLNAME
 msgctxt "STRINGS.UI.TOOLS.CAPTURE.TOOLNAME"
 msgid "Wrangle tool"
-msgstr "Ferramenta Capturar"
+msgstr "Ferramenta Laçar"
 
 #. STRINGS.UI.TOOLS.CLEANUPCATEGORY.NAME
 msgctxt "STRINGS.UI.TOOLS.CLEANUPCATEGORY.NAME"
@@ -39956,7 +39944,7 @@ msgstr "Ajuste a quantidade máxima que pode ser armazenada aqui"
 #. STRINGS.UI.UISIDESCREENS.CAPTURE_POINT_SIDE_SCREEN.AUTOWRANGLE
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPTURE_POINT_SIDE_SCREEN.AUTOWRANGLE"
 msgid "Auto-Wrangle Surplus"
-msgstr "Auto-Capturar Excedente"
+msgstr "Auto-Laçar Excedente"
 
 #. STRINGS.UI.UISIDESCREENS.CAPTURE_POINT_SIDE_SCREEN.AUTOWRANGLE_TOOLTIP
 msgctxt ""
@@ -39965,14 +39953,14 @@ msgid ""
 "A Rancher will automatically wrangle any critters that exceed the population "
 "limit or that do not belong in this stable"
 msgstr ""
-"Um Fazendeiro capturará automaticamente qualquer criatura que exceda o "
-"limite de população ou que não pertença a este estábulo"
+"Um Fazendeiro laçará automaticamente qualquer criatura que exceda o limite "
+"de população ou que não pertença a este estábulo"
 
 #. STRINGS.UI.UISIDESCREENS.CAPTURE_POINT_SIDE_SCREEN.LIMIT_TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPTURE_POINT_SIDE_SCREEN.LIMIT_TOOLTIP"
 msgid ""
 "Critters exceeding this population limit will automatically be wrangled:"
-msgstr "Criaturas excedendo este limite populacional serão capturadas:"
+msgstr "Criaturas excedendo este limite populacional serão laçadas:"
 
 #. STRINGS.UI.UISIDESCREENS.CAPTURE_POINT_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPTURE_POINT_SIDE_SCREEN.TITLE"
@@ -41304,12 +41292,12 @@ msgstr "Cancelar esta ordem de ataque"
 #. STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.NAME"
 msgid "Cancel Wrangle"
-msgstr "Cancelar Captura"
+msgstr "Cancelar Laço"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCAPTURE.TOOLTIP"
 msgid "Cancel this wrangle order"
-msgstr "Cancelar esta ordem de captura"
+msgstr "Cancelar esta ordem de laço"
 
 #. STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CANCELCLEANTOILET.NAME"
@@ -41374,7 +41362,7 @@ msgstr "Cancelar esta ordem de desenraizamento"
 #. STRINGS.UI.USERMENUACTIONS.CAPTURE.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.CAPTURE.NAME"
 msgid "Wrangle"
-msgstr "Capturar"
+msgstr "Laçar"
 
 #. STRINGS.UI.USERMENUACTIONS.CAPTURE.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.CAPTURE.TOOLTIP"
