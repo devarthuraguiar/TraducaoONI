@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.7.3\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.7.4\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -3457,18 +3457,24 @@ msgstr "<link=\"ELECTROLYZER\">Célula Eletrolítica</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
-msgid "You'd be surprised how much research went into making this wall."
-msgstr "Você ficaria surpreso pela quantidade de pesquisas que foram feitas para fazer esta parede."
+msgid "Drywall can be used in conjunction with tiles to build airtight rooms on the surface."
+msgstr "Paredes de fundo podem ser usadas em conjunto com os blocos para criar salas herméticas na superfície."
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
-msgid "Back wall included."
-msgstr "Parede de fundo incluída."
+msgid ""
+"Prevents gas and liquid loss in space.\n"
+"\n"
+"Builds an insulating backwall behind buildings."
+msgstr ""
+"Previne perda de líquidos e gases no espaço.\n"
+"\n"
+"Cria uma estruturaf de fundo isolante por trás das estruturas."
 
 #. STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.NAME"
-msgid "<link=\"EXTERIORWALL\">Wallpaper</link>"
-msgstr "<link=\"EXTERIORWALL\">Papel de Parede</link>"
+msgid "<link=\"EXTERIORWALL\">Drywall</link>"
+msgstr "<link=\"EXTERIORWALL\">Parede de Fundo</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.FACILITYBACKWALLWINDOW.DESC"
@@ -3806,13 +3812,13 @@ msgstr "<link=\"GASCONDUITOVERFLOW\">Válvula de Gás de Sobrecarga</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.DESC"
-msgid ""
-msgstr ""
+msgid "Priority flows ensure important buildings are filled first when on a system with other buildings."
+msgstr "Fluxos prioritários garantem que estruturas importantes sejam preenchidas primeiro em um sistema com outras estruturas."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT"
-msgid "Has a secondary input which is only drawn from when the primary input is empty."
-msgstr "Possui uma entrada secundária que só é utilizada quando a entrada primária está vazia."
+msgid "Diverts <link=\"ELEMENTSGAS\">Gas</link> to a secondary input when its primary input overflows."
+msgstr "Diverge <link=\"ELEMENTSGAS\">Gás</link> para uma entrada secundária quando a entrada primária sobrecarrega."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.NAME"
@@ -3821,17 +3827,17 @@ msgstr "<link=\"GASCONDUITPREFERENTIALFLOW\">Fluxo de Gás Prioritário</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC"
-msgid "Radiant pipes significantly improve the rate of temperature exchange with the surrounding environment."
-msgstr "Tubos radiadores melhoram significativamente as taxas de trocas de calor no ambiente ao redor."
+msgid "Radiant pipes pumping cold gas can be run through hot areas to help cool them down."
+msgstr "Tubos radiadores bombeando gás frio podem ser passados em áreas quentes para ajudar a resfria-las."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT"
 msgid ""
-"Carries <link=\"ELEMENTSGAS\">Gas</link> and encourages significant change in <link=\"HEAT\">Temperature</link>.\n"
+"Carries <link=\"ELEMENTSGAS\">Gas</link>, allowing extreme <link=\"HEAT\">Temperature</link> exchange with the surrounding environment.\n"
 "\n"
 "Can be run through tiles."
 msgstr ""
-"Transporta <link=\"ELEMENTSGAS\">Gases</link> e encoraja uma mudança significativa na <link=\"HEAT\">Temperatura</link>.\n"
+"Transporta <link=\"ELEMENTSGAS\">Gases</link>, permitindo trocas extremas de <link=\"HEAT\">Temperatura</link> com o ambiente.\n"
 "\n"
 "Pode passar pelos blocos."
 
@@ -4358,13 +4364,13 @@ msgstr "<link=\"INSULATIONTILE\">Bloco Adiabático</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.DESC"
-msgid "Converts <link=\"CLAY\">Clay</link> to <link=\"CERAMIC\">Ceramic</link>"
-msgstr "Converte <link=\"CLAY\">Argila</link> em <link=\"CERAMIC\">Cerâmica</link>"
+msgid "Kilns can also be used to refine coal into pure carbon."
+msgstr "Fornos podem ser usado para refinar carvão em carbono puro."
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.EFFECT"
-msgid "Converts <link=\"CLAY\">Clay</link> to <link=\"CERAMIC\">Ceramic</link>."
-msgstr "Converte <link=\"CLAY\">Argila</link> em <link=\"CERAMIC\">Cerâmica</link>."
+msgid "Fires <link=\"CLAY\">Clay</link> to produce <link=\"CERAMIC\">Ceramic</link>."
+msgstr "Aquece <link=\"CLAY\">Argila</link> para produzir <link=\"CERAMIC\">Cerâmica</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.NAME"
@@ -4515,13 +4521,13 @@ msgstr "<link=\"LIQUIDCONDUITOVERFLOW\">Válvula de Líquido de Sobrecarga</link
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.DESC"
-msgid ""
-msgstr ""
+msgid "Priority flows ensure important buildings are filled first when on a system with other buildings."
+msgstr "Fluxos prioritários garantem que estruturas importantes sejam preenchidas primeiro em um sistema com outras estruturas."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.EFFECT"
-msgid "Has a secondary input which is only drawn from when the primary input is empty."
-msgstr "Possui uma entrada secundária que só é utilizada quando a entrada primária está vazia."
+msgid "Diverts <link=\"ELEMENTSLIQUID\">Liquid</link> to a secondary input when its primary input overflows."
+msgstr "Desvia <link=\"ELEMENTSLIQUID\">Líquidos</link> para uma entrada secundária quando sua entrada primária sobrecarrega."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.NAME"
@@ -4530,17 +4536,17 @@ msgstr "<link=\"LIQUIDCONDUITPREFERENTIALFLOW\">Fluxo de Líquido Prioritário</
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC"
-msgid "Radiant pipes significantly improve the rate of temperature exchange with the surrounding environment."
-msgstr "Canos radiadores melhoram significativamente as taxas de trocas de calor no ambiente próximo."
+msgid "Radiant pipes pumping cold liquid can be run through hot areas to help cool them down."
+msgstr "Canos radiadores bombeando líquido frio podem ser passados em áreas quentes para ajudar a resfria-las."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT"
 msgid ""
-"Carries <link=\"ELEMENTSLIQUID\">Liquid</link> and encourages significant change in <link=\"HEAT\">Temperature</link>.\n"
+"Carries <link=\"ELEMENTSLIQUID\">Liquid</link>, allowing extreme <link=\"HEAT\">Temperature</link> exchange with the surrounding environment.\n"
 "\n"
 "Can be run through tiles."
 msgstr ""
-"Transporta <link=\"ELEMENTSLIQUID\">Líquidos</link> e encoraja uma mudança significativa na <link=\"HEAT\">Temperatura</link>.\n"
+"Transporta <link=\"ELEMENTSLIQUID\">Líquido</link>, permitindo trocas extremas de <link=\"HEAT\">Temperatura</link> com o ambiente.\n"
 "\n"
 "Pode passar pelos blocos."
 
@@ -6787,13 +6793,19 @@ msgstr "<link=\"WASHSINK\">Pia</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.WATERCOOLER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.DESC"
-msgid "Duplicants can come here to exchange the base gossip and gripe about working conditions."
-msgstr "Duplicantes que vem aqui podem espalhar a fofoca da base e se queixar sobre as condições de trabalho."
+msgid "Chatting with friends improves Duplicants' moods and reduces their stress."
+msgstr "Conversar com amigos melhora o humor de um Duplicante e reduz seu estresse."
 
 #. STRINGS.BUILDINGS.PREFABS.WATERCOOLER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.EFFECT"
-msgid "A basic social gathering place for Duplicants."
-msgstr "Um local de reuniões sociais para os Duplicantes."
+msgid ""
+"Provides a gathering place for Duplicants during Leisure Time.\n"
+"\n"
+"Improves Duplicant Quality of Life."
+msgstr ""
+"Provê um local de reuniões para os Duplicantes durante a Hora do Lazer.\n"
+"\n"
+"Aumenta a Qualidade de Vida de um Duplicante."
 
 #. STRINGS.BUILDINGS.PREFABS.WATERCOOLER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.NAME"
@@ -12996,8 +13008,6 @@ msgid "Recreation Expectation"
 msgstr "Expectativa de Recreação"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.NAME"
-#| msgid "Decor Expectation"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RECREATIONEXPECTATION.NAME"
 msgid "Recreation Expectation"
 msgstr "Expectativa de Recreação"
@@ -14337,7 +14347,7 @@ msgstr "Atribuições de trabalho incorreta"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_SCHEDULED_TIME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_SCHEDULED_TIME"
 msgid "Not allowed by schedule"
-msgstr "Não permitido pela agenda"
+msgstr "Não permitido pela rotina"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_STANDING
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_STANDING"
@@ -15958,8 +15968,6 @@ msgid "Poor Decor"
 msgstr "Decor Pobre"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HASDISEASE.TOOLTIP"
-#| msgid "This Duplicant has contracted a Disease"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR0.TOOLTIP"
 msgid "This Duplicant thinks the colony is decorated in poor taste"
 msgstr "Este Duplicante acha que a colônia está mal decorada"
@@ -15970,8 +15978,6 @@ msgid "Mediocre Decor"
 msgstr "Decor Medíocre"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINED.TOOLTIP"
-#| msgid "This Duplicant has been isolated from the colony"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR1.TOOLTIP"
 msgid "This Duplicant has no strong opinions about the look of the colony"
 msgstr "Este Duplicante não tem opiniões fortes sobre a aparência da colônia"
@@ -16012,8 +16018,6 @@ msgid "Gorgeous Decor"
 msgstr "Decor Maravilhoso"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FUSSY.TOOLTIP"
-#| msgid "This Duplicant is hard to please"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.DECOR5.TOOLTIP"
 msgid "This Duplicant loves what I've done with the place!"
 msgstr "Este Duplicante ama tudo que foi feito com este lugar!"
@@ -23362,6 +23366,11 @@ msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEROLES"
 msgid "ManageRoles"
 msgstr "Gerenciar Tarefas"
 
+#. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESCHEDULE
+msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGESCHEDULE"
+msgid "ManageSchedule"
+msgstr "Gerenciar Rotina"
+
 #. STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEVITALS
 msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGEVITALS"
 msgid "ManageVitals"
@@ -25561,25 +25570,10 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.ROLEMASTERED.TOOLTIP"
 msgid "Job Mastered"
 msgstr "Trabalho Dominado"
 
-#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_DAY
-msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_DAY"
-msgid "Work time!"
-msgstr "Hora do Trabalho!"
-
-#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_EVENING
-msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_EVENING"
-msgid "Break time!"
-msgstr "Hora do Intervalo!"
-
-#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_MORNING
-msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_MORNING"
-msgid "Morning time!"
-msgstr "Hora da Manhã!"
-
-#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_NIGHT
-msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_NIGHT"
-msgid "Night time!"
-msgstr "Hora da Noite!"
+#. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME"
+msgid "{0}: {1} Time!"
+msgstr "Hora da {0}: {1}!"
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY"
@@ -29626,7 +29620,7 @@ msgid ""
 "\n"
 "NOT IMPLEMENTED"
 msgstr ""
-"Gerenciar Agenda\n"
+"Gerenciar Rotina\n"
 "\n"
 "NÃO IMPLEMENTADO"
 
@@ -32317,7 +32311,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.7.3)"
+"- Traduzido por Chastomber :P (1.7.4)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33656,11 +33650,11 @@ msgstr "Chave de Geração do Mundo"
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
-"<b>Welcome to the Cosmic Upgrade!!</b>\n"
+"<b>Welcome to the Expressive Upgrade!!</b>\n"
 "\n"
 "{0}"
 msgstr ""
-"<b>Bem-vindo a Atualização Cósmica!</b>\n"
+"<b>Bem-vindo a Atualização Expressiva!</b>\n"
 "\n"
 "{0}"
 
@@ -33674,26 +33668,26 @@ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
 "<b>Update Features:</b>\n"
 "\n"
-"• The Surface biome has been added to the top of the asteroid\n"
-"• Solar power and metallic meteors can be harnessed\n"
-"• New glass and steel resources allow constructing advanced buildings\n"
-"• Further fixes and polish to Critter Ranching and eggs\n"
+"• New Duplicant interactions and reactions\n"
+"• Colony Schedule management\n"
+"• Recreational time and new leisure buildings\n"
+"• New lore, animations, and sounds\n"
 "\n"
 "Please view the full patch notes for further details!"
 msgstr ""
 "<b>Recursos da Atualização:</b>\n"
 "\n"
-"• O bioma Superfície foi adicionado ao topo do asteroide\n"
-"• Energia solar e metoros metálicos podem ser aproveitados\n"
-"• Novos materiais de vidro e aço permitem a construção de estruturas avançadas\n"
-"• Mais correções e polimento na Pecuária e ovos\n"
+"• Novas interações e reações dos Duplicantes\n"
+"• Gerenciamento da Agenda da Colônia\n"
+"• Hora de recreação e novas estruturas recreativas\n"
+"• Mais história, animações e sons\n"
 "\n"
 "Por favor veja as notas de atualização completas para mais detalhes!"
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-msgid "COSMIC UPGRADE"
-msgstr "ATUALIZAÇÃO CÓSMICA"
+msgid "EXPRESSIVE UPGRADE"
+msgstr "ATUALIZAÇÃO EXPRESSIVA"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT"
@@ -38018,50 +38012,97 @@ msgctxt "STRINGS.UI.SCHEDULEBLOCKTYPES.WORK.NAME"
 msgid "Work"
 msgstr "Trabalho"
 
-#. STRINGS.UI.SCHEDULESCREEN.ALLOWED
-msgctxt "STRINGS.UI.SCHEDULESCREEN.ALLOWED"
-msgid "Allowed"
-msgstr "Permitido"
+#. STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION
+msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.DESCRIPTION"
+msgid "Hygiene Time"
+msgstr "Hora da Higiene"
 
-#. STRINGS.UI.SCHEDULESCREEN.BLOCKS
-msgctxt "STRINGS.UI.SCHEDULESCREEN.BLOCKS"
-msgid "BLOCKS:"
-msgstr "BLOQUEIA:"
+#. STRINGS.UI.SCHEDULEGROUPS.HYGENE.NAME
+msgctxt "STRINGS.UI.SCHEDULEGROUPS.HYGENE.NAME"
+msgid "Bathtime"
+msgstr "Banho"
 
-#. STRINGS.UI.SCHEDULESCREEN.CLICKTOCHANGE
-msgctxt "STRINGS.UI.SCHEDULESCREEN.CLICKTOCHANGE"
-msgid "Click to change block type."
-msgstr "Clique para mudar o tipo de bloco."
+#. STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION
+msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
+msgid "Recreation Time"
+msgstr "Hora da Recreação"
 
-#. STRINGS.UI.SCHEDULESCREEN.CLICKTOSELECT
-msgctxt "STRINGS.UI.SCHEDULESCREEN.CLICKTOSELECT"
-msgid "Click to select."
-msgstr "Clique para selecionar."
+#. STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME
+msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME"
+msgid "Leisure"
+msgstr "Lazer"
 
-#. STRINGS.UI.SCHEDULESCREEN.DENIED
-msgctxt "STRINGS.UI.SCHEDULESCREEN.DENIED"
-msgid "Denied"
-msgstr "Negado"
+#. STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION
+msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
+msgid "Sleep Time"
+msgstr "Hora de Dormir"
 
-#. STRINGS.UI.SCHEDULESCREEN.SCHEDULE
-msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE"
-msgid "SCHEDULE:"
-msgstr "ROTINA:"
+#. STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME
+#| msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_EVENING"
+#| msgid "Break time!"
+msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.NAME"
+msgid "Bedtime"
+msgstr "Dormir"
 
-#. STRINGS.UI.SCHEDULESCREEN.SELECTBLOCKTYPETOOLTIP
-msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTBLOCKTYPETOOLTIP"
-msgid "Select a block type to adjust the colony's schedule"
-msgstr "Selecione um tipo de bloco para ajustar a rotina da colônia"
+#. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION
+msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION"
+msgid "Work Time"
+msgstr "Hora do Trabalho"
 
-#. STRINGS.UI.SCHEDULESCREEN.SELECTHELP
-msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTHELP"
-msgid "Select an option and then click or drag on the timetable to adjust the Duplicant's schedule."
-msgstr "Selecione uma opção e então clique ou arraste na linha do tempo para ajustar a rotina do Duplicante."
+#. STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME
+msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NAME"
+msgid "Work Shift"
+msgstr "Trabalho"
 
-#. STRINGS.UI.SCHEDULESCREEN.TIMESLOT
-msgctxt "STRINGS.UI.SCHEDULESCREEN.TIMESLOT"
-msgid "Time Slot"
-msgstr "Espaço"
+#. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP
+msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_OFF_TOOLTIP"
+msgid ""
+"Toggle Sounds and Notifications\n"
+"\n"
+"Disabled. No sounds or notifications will play for this schedule.\n"
+"\n"
+"Click to enable."
+msgstr ""
+"Alternar Sons e Notificações\n"
+"\n"
+"Desativado. Nenhum som ou notificação tocará para esta programação.\n"
+"\n"
+"Clique para ativar."
+
+#. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_ON_TOOLTIP
+msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON_ON_TOOLTIP"
+msgid ""
+"Toggle Sounds and Notifications\n"
+"\n"
+"Enabled. Sounds and notifications will play when schedule blocks change for this schedule.\n"
+"\n"
+"Click to disable."
+msgstr ""
+"Alternar Sons e Notificações\n"
+"\n"
+"Ativado. Sons e notificações tocarão quando houver troca de horários nesta programação.\n"
+"\n"
+"Clique para desativar."
+
+#. STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP
+msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP"
+msgid "Delete Schedule"
+msgstr "Deletar Rotina"
+
+#. STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP
+msgctxt "STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP"
+msgid "Rename Schedule"
+msgstr "Renomear Rotina"
+
+#. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_DEFAULT
+msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_DEFAULT"
+msgid "Default Schedule"
+msgstr "Rotina Padrão"
+
+#. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_FORMAT
+msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_FORMAT"
+msgid "Schedule {0}"
+msgstr "Rotina {0}"
 
 #. STRINGS.UI.SPEED_FAST
 msgctxt "STRINGS.UI.SPEED_FAST"
@@ -38854,8 +38895,8 @@ msgstr "Gerencie as atribuições de trabalho e prioridades dos Duplicantes"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE"
-msgid "Adjust colony timetable"
-msgstr "Ajuste a rotina da colônia"
+msgid "Adjust colony scheduling"
+msgstr "Ajustar a rotina da colônia"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS"
@@ -42187,6 +42228,126 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.DESC"
+#~ msgid "You'd be surprised how much research went into making this wall."
+#~ msgstr "Você ficaria surpreso pela quantidade de pesquisas que foram feitas para fazer esta parede."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.EXTERIORWALL.EFFECT"
+#~ msgid "Back wall included."
+#~ msgstr "Parede de fundo incluída."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITPREFERENTIALFLOW.EFFECT"
+#~ msgid "Has a secondary input which is only drawn from when the primary input is empty."
+#~ msgstr "Possui uma entrada secundária que só é utilizada quando a entrada primária está vazia."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.DESC"
+#~ msgid "Radiant pipes significantly improve the rate of temperature exchange with the surrounding environment."
+#~ msgstr "Tubos radiadores melhoram significativamente as taxas de trocas de calor no ambiente ao redor."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITRADIANT.EFFECT"
+#~ msgid ""
+#~ "Carries <link=\"ELEMENTSGAS\">Gas</link> and encourages significant change in <link=\"HEAT\">Temperature</link>.\n"
+#~ "\n"
+#~ "Can be run through tiles."
+#~ msgstr ""
+#~ "Transporta <link=\"ELEMENTSGAS\">Gases</link> e encoraja uma mudança significativa na <link=\"HEAT\">Temperatura</link>.\n"
+#~ "\n"
+#~ "Pode passar pelos blocos."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.DESC"
+#~ msgid "Converts <link=\"CLAY\">Clay</link> to <link=\"CERAMIC\">Ceramic</link>"
+#~ msgstr "Converte <link=\"CLAY\">Argila</link> em <link=\"CERAMIC\">Cerâmica</link>"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITPREFERENTIALFLOW.EFFECT"
+#~ msgid "Has a secondary input which is only drawn from when the primary input is empty."
+#~ msgstr "Possui uma entrada secundária que só é utilizada quando a entrada primária está vazia."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.DESC"
+#~ msgid "Radiant pipes significantly improve the rate of temperature exchange with the surrounding environment."
+#~ msgstr "Canos radiadores melhoram significativamente as taxas de trocas de calor no ambiente próximo."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCONDUITRADIANT.EFFECT"
+#~ msgid ""
+#~ "Carries <link=\"ELEMENTSLIQUID\">Liquid</link> and encourages significant change in <link=\"HEAT\">Temperature</link>.\n"
+#~ "\n"
+#~ "Can be run through tiles."
+#~ msgstr ""
+#~ "Transporta <link=\"ELEMENTSLIQUID\">Líquidos</link> e encoraja uma mudança significativa na <link=\"HEAT\">Temperatura</link>.\n"
+#~ "\n"
+#~ "Pode passar pelos blocos."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.DESC"
+#~ msgid "Duplicants can come here to exchange the base gossip and gripe about working conditions."
+#~ msgstr "Duplicantes que vem aqui podem espalhar a fofoca da base e se queixar sobre as condições de trabalho."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.EFFECT"
+#~ msgid "A basic social gathering place for Duplicants."
+#~ msgstr "Um local de reuniões sociais para os Duplicantes."
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_MORNING"
+#~ msgid "Morning time!"
+#~ msgstr "Hora da Manhã!"
+
+#~ msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME_NIGHT"
+#~ msgid "Night time!"
+#~ msgstr "Hora da Noite!"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
+#~ msgid ""
+#~ "<b>Update Features:</b>\n"
+#~ "\n"
+#~ "• The Surface biome has been added to the top of the asteroid\n"
+#~ "• Solar power and metallic meteors can be harnessed\n"
+#~ "• New glass and steel resources allow constructing advanced buildings\n"
+#~ "• Further fixes and polish to Critter Ranching and eggs\n"
+#~ "\n"
+#~ "Please view the full patch notes for further details!"
+#~ msgstr ""
+#~ "<b>Recursos da Atualização:</b>\n"
+#~ "\n"
+#~ "• O bioma Superfície foi adicionado ao topo do asteroide\n"
+#~ "• Energia solar e metoros metálicos podem ser aproveitados\n"
+#~ "• Novos materiais de vidro e aço permitem a construção de estruturas avançadas\n"
+#~ "• Mais correções e polimento na Pecuária e ovos\n"
+#~ "\n"
+#~ "Por favor veja as notas de atualização completas para mais detalhes!"
+
+#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.ALLOWED"
+#~ msgid "Allowed"
+#~ msgstr "Permitido"
+
+#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.BLOCKS"
+#~ msgid "BLOCKS:"
+#~ msgstr "BLOQUEIA:"
+
+#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.CLICKTOCHANGE"
+#~ msgid "Click to change block type."
+#~ msgstr "Clique para mudar o tipo de bloco."
+
+#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.CLICKTOSELECT"
+#~ msgid "Click to select."
+#~ msgstr "Clique para selecionar."
+
+#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.DENIED"
+#~ msgid "Denied"
+#~ msgstr "Negado"
+
+#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE"
+#~ msgid "SCHEDULE:"
+#~ msgstr "ROTINA:"
+
+#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTBLOCKTYPETOOLTIP"
+#~ msgid "Select a block type to adjust the colony's schedule"
+#~ msgstr "Selecione um tipo de bloco para ajustar a rotina da colônia"
+
+#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.SELECTHELP"
+#~ msgid "Select an option and then click or drag on the timetable to adjust the Duplicant's schedule."
+#~ msgstr "Selecione uma opção e então clique ou arraste na linha do tempo para ajustar a rotina do Duplicante."
+
+#~ msgctxt "STRINGS.UI.SCHEDULESCREEN.TIMESLOT"
+#~ msgid "Time Slot"
+#~ msgstr "Espaço"
+
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.PIPEMAYMELT.NAME"
 #~ msgid "Pipe May Melt"
 #~ msgstr "Cano Pode Derreter"
@@ -42574,26 +42735,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TINKERING.TOOLTIP"
 #~ msgid "The duplicant working this station is creating {0} for use elsewhere."
 #~ msgstr "O duplicante que está trabalhando nessa estação está criando {0} para uso em outro lugar."
-
-#~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
-#~ msgid ""
-#~ "<b>Update Features:</b>\n"
-#~ "\n"
-#~ "• New \"Critter Morphs\" can be hatched through careful breeding\n"
-#~ "• Two new creatures, Drecko and Pacu, can be found in new worlds\n"
-#~ "• Sandbox Mode lets you become master of the asteroid\n"
-#~ "• New automation controls, pipes and buildings\n"
-#~ "\n"
-#~ "Please view the full patch notes for further details!"
-#~ msgstr ""
-#~ "<b>Recursos da Atualização:</b>\n"
-#~ "\n"
-#~ "• Novas \"Raças de Criatura\" podem ser chocadas por reprodução cuidadosa\n"
-#~ "• Duas novas criaturas, Dreco e Pacu, podem ser encontradas em novos mundos\n"
-#~ "• Modo Caixa de Areia permite você se tornar o mestre do asteroide\n"
-#~ "• Novos controles de automação, canos e estruturas\n"
-#~ "\n"
-#~ "Por favor veja as notas de atualização completas para mais detalhes!"
 
 #~ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
 #~ msgid "RANCHING UPGRADE MARK II"
