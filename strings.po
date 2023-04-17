@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.9.6\n"
+"Project-Id-Version: Português foi Incluído! 1.9.7\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-Flags-xgettext: --add-comments\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: STRINGS\n"
-"X-Poedit-Bookmarks: 1967,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 4193,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
 msgctxt "STRINGS.BUILDING.DETAILS.USE_COUNT"
@@ -13124,7 +13124,7 @@ msgstr "Bolhas Densas são criaturas não agressivas que excretam <link=\"OXYROC
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.EGG_NAME"
 msgid "<link=\"PUFTOXYLITE\">Dense Puftlet Egg</link>"
-msgstr "<link=\"PUFTOXYLITE\">Bolhinha Densa</link>"
+msgstr "<link=\"PUFTOXYLITE\">Ovo de Bolhinha Densa</link>"
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.NAME"
@@ -13389,7 +13389,7 @@ msgid ""
 "\n"
 "This critter is {0} domesticated"
 msgstr ""
-"Criaturas totalmente domesticadas irão produzir mais materiais do que as selvagens, e ainda podem providenciar benefícios psicológicos para sua colônia\n"
+"Criaturas totalmente domesticadas produzirão mais materiais do que as selvagens, e ainda podem providenciar benefícios psicológicos para sua colônia\n"
 "\n"
 "Esta criatura está {0} domesticada"
 
@@ -13744,7 +13744,7 @@ msgid ""
 "\n"
 "It prefers temperatures between {0} and {1}"
 msgstr ""
-"Esta criatura não consegue reter calor suficiente para se manter quente nesse ambiente\n"
+"Esta criatura não consegue reter calor suficiente para se manter quente neste ambiente\n"
 "\n"
 "Prefere temperaturas entre {0} e {1}"
 
@@ -13786,7 +13786,7 @@ msgstr "Respiração Fria"
 #. STRINGS.CREATURES.STATUSITEMS.COOLING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.COOLING.TOOLTIP"
 msgid "This critter's respiration is having a cooling effect on the area"
-msgstr "A respiração desta criatura esta esfriando o ambiente"
+msgstr "A respiração desta criatura está esfriando o ambiente"
 
 #. STRINGS.CREATURES.STATUSITEMS.CROP_SLEEPING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_SLEEPING.NAME"
@@ -13846,7 +13846,7 @@ msgstr "Esta criatura não vai se levantar..."
 #. STRINGS.CREATURES.STATUSITEMS.DEBUGGOTO.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DEBUGGOTO.NAME"
 msgid "Moving to debug location"
-msgstr "Movendo para o local"
+msgstr "Movendo para o local de debug"
 
 #. STRINGS.CREATURES.STATUSITEMS.DEBUGGOTO.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DEBUGGOTO.TOOLTIP"
@@ -13879,12 +13879,9 @@ msgid "Drowning"
 msgstr "Afogando"
 
 #. STRINGS.CREATURES.STATUSITEMS.DROWNING.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.DROWNING.TOOLTIP"
-#| msgid "This {0} can't breathe in liquid!"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DROWNING.TOOLTIP"
 msgid "This critter can't breathe in liquid!"
-msgstr "Esta {0} não consegue respirar em líquido!"
+msgstr "Esta criatura não consegue respirar em líquido!"
 
 #. STRINGS.CREATURES.STATUSITEMS.DRYINGOUT.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DRYINGOUT.NAME"
@@ -13944,7 +13941,7 @@ msgstr "Esta criatura acabou de receber um pouco de atenção e se sente incrív
 #. STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_GET_RANCHED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_GET_RANCHED.NAME"
 msgid "Excited"
-msgstr "Animado"
+msgstr "Animada"
 
 #. STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_GET_RANCHED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.EXCITED_TO_GET_RANCHED.TOOLTIP"
@@ -14196,7 +14193,7 @@ msgstr "Congelando"
 #. STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.HYPOTHERMIA.TOOLTIP"
 msgid "Internal temperature is dangerously low"
-msgstr "Temperatura interna extremamente baixa"
+msgstr "Temperatura interna está extremamente baixa"
 
 #. STRINGS.CREATURES.STATUSITEMS.IDLE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.IDLE.NAME"
@@ -14411,7 +14408,7 @@ msgstr "Esta horta não pode cultivar plantas no estado atual"
 #. STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.NAME"
 msgid "Farm plot operational"
-msgstr "Horta Operacional"
+msgstr "Local de cultivo operacional"
 
 #. STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RECEPTACLEOPERATIONAL.TOOLTIP"
@@ -14426,7 +14423,7 @@ msgstr "Refrigerado"
 #. STRINGS.CREATURES.STATUSITEMS.REFRIGERATED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.REFRIGERATED.TOOLTIP"
 msgid "Ideal temperature storage is slowing this food's decay rate"
-msgstr "A temperatura do armazenamento está desacelerando a decomposição da comida"
+msgstr "A temperatura de armazenamento ideal está desacelerando a decomposição da comida"
 
 #. STRINGS.CREATURES.STATUSITEMS.SCALDING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SCALDING.NAME"
@@ -14579,7 +14576,7 @@ msgstr "Temperaturas acima de {RotTemperature} estragam a comida mais rapidament
 #. STRINGS.CREATURES.STATUSITEMS.WILTING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING.NAME"
 msgid "Growth Halted{Reasons}"
-msgstr "Crescimento Parado{Reasons}"
+msgstr "Crescimento Parado {Reasons}"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTING.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING.TOOLTIP"
@@ -14589,7 +14586,7 @@ msgstr "Crescimento continuará quando as condições melhorarem"
 #. STRINGS.CREATURES.STATUSITEMS.WILTING_NON_GROWING_PLANT.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING_NON_GROWING_PLANT.NAME"
 msgid "Growth Halted{Reasons}"
-msgstr "Crescimento Parado{Reasons}"
+msgstr "Crescimento Parado {Reasons}"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTING_NON_GROWING_PLANT.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTING_NON_GROWING_PLANT.TOOLTIP"
@@ -14599,7 +14596,7 @@ msgstr "Crescimento continuará quando as condições melhorarem"
 #. STRINGS.CREATURES.STATUSITEMS.WILTINGDOMESTIC.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTINGDOMESTIC.NAME"
 msgid "Growth Halted{Reasons}"
-msgstr "Crescimento Parado{Reasons}"
+msgstr "Crescimento Parado {Reasons}"
 
 #. STRINGS.CREATURES.STATUSITEMS.WILTINGDOMESTIC.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.WILTINGDOMESTIC.TOOLTIP"
@@ -14995,7 +14992,7 @@ msgstr "Benefício de Comida"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.GENERATOROUTPUT.NAME"
 msgid "Power Output"
-msgstr "Saída de Energia"
+msgstr "Bônus de Energia"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESS.DESC"
@@ -15276,7 +15273,7 @@ msgstr "Preferência de Temperatura"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.DESC"
 msgid "Determines the temperature at which a Duplicant will get burned."
-msgstr "Determina a qual temperatura um Duplicante irá se queimar."
+msgstr "Determina em qual temperatura um Duplicante irá se queimar."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.NAME"
@@ -15604,7 +15601,7 @@ msgstr "Armazenar"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.DESC"
 msgid "Tune machinery and set or flip switches and sensors."
-msgstr "Melhorar máquinas e definir ou alternar sensores e alavancas."
+msgstr "Melhorar máquinas e definir/alternar estado de sensores e alavancas."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME"
@@ -16175,7 +16172,7 @@ msgstr "Compostáveis devem ser cobertos para seu conteúdo compostar"
 #. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.NAME"
 msgid "Sleep on Floor"
-msgstr "Dormiu no Chão"
+msgstr "Dormir no Chão"
 
 #. STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLOORSLEEP.STATUS"
@@ -16336,7 +16333,7 @@ msgstr "Ir para Quarentena"
 #. STRINGS.DUPLICANTS.CHORES.MOVETOQUARANTINE.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOQUARANTINE.STATUS"
 msgid "Moving to quarantine"
-msgstr "Movendo para quarentena"
+msgstr "Indo para quarentena"
 
 #. STRINGS.DUPLICANTS.CHORES.MOVETOQUARANTINE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOQUARANTINE.TOOLTIP"
@@ -16532,7 +16529,7 @@ msgstr "Nenhum desejo atual"
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HEADER"
 msgid "The selected {Selected} could:"
-msgstr "O(A) {Selected} selecionado pode:"
+msgstr "O {Selected} selecionado pode:"
 
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ALLOWED_BY_AUTOMATION
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ALLOWED_BY_AUTOMATION"
@@ -16710,6 +16707,7 @@ msgid "Nowhere to mourn"
 msgstr "Sem lugar para ficar de luto"
 
 #. STRINGS.DUPLICANTS.CHORES.RANCH.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.RANCH.NAME"
 msgid "Ranch"
 msgstr "Pecuária"
@@ -16720,6 +16718,7 @@ msgid "Deliver to {0}"
 msgstr "Entregar para {0}"
 
 #. STRINGS.DUPLICANTS.CHORES.RANCH.STATUS
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.RANCH.STATUS"
 msgid "Ranching"
 msgstr "Pecuária"
@@ -16847,7 +16846,7 @@ msgstr "Descansando"
 #. STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.TOOLTIP"
 msgid "This Duplicant isn't feeling well and is taking a rest"
-msgstr "Este Duplicante não está se sentindo bem e vai descansar"
+msgstr "Este Duplicante não está se sentindo muito bem e vai descansar"
 
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.NAME"
@@ -16862,7 +16861,7 @@ msgstr "Ancorando exotraje"
 #. STRINGS.DUPLICANTS.CHORES.RETURNSUIT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.TOOLTIP"
 msgid "This Duplicant is plugging an exosuit in for refilling"
-msgstr "Este Duplicante está plugando um exotraje para reencher"
+msgstr "Este Duplicante está plugando um exotraje para reenchimento"
 
 #. STRINGS.DUPLICANTS.CHORES.SCRUBORE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.SCRUBORE.NAME"
@@ -17258,7 +17257,7 @@ msgstr "Este Duplicante foi geneticamente amaldiçoado com um odor terrível"
 #. STRINGS.DUPLICANTS.CONGENITALTRAITS.STINKY.NAME
 msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.STINKY.NAME"
 msgid "Stinkiness"
-msgstr "Fedorência"
+msgstr "Catinguência"
 
 #. STRINGS.DUPLICANTS.DEATHS.COMBAT.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.COMBAT.DESCRIPTION"
@@ -17268,7 +17267,7 @@ msgstr "{Target} sucumbiu às suas feridas depois de ser incapacitado."
 #. STRINGS.DUPLICANTS.DEATHS.COMBAT.NAME
 msgctxt "STRINGS.DUPLICANTS.DEATHS.COMBAT.NAME"
 msgid "Slain"
-msgstr "Combate"
+msgstr "Assassinato"
 
 #. STRINGS.DUPLICANTS.DEATHS.DROWNED.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.DROWNED.DESCRIPTION"
@@ -17353,7 +17352,7 @@ msgstr "Sufocamento"
 #. STRINGS.DUPLICANTS.DESC_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DESC_TOOLTIP"
 msgid "About {0}s"
-msgstr "Sobre {0}s"
+msgstr "Em {0}s"
 
 #. STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX"
@@ -17387,7 +17386,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.DESCRIPTIVE_SYMPTOMS"
 msgid "Nonlethal. Duplicants experience extreme body heat loss causing chills and discomfort."
-msgstr "Não letal. Duplicantes apresentarão extrema perda de calor corporal causando calafrios e descomforto."
+msgstr "Não letal. Duplicantes apresentarão extrema perda de calor corporal causando calafrios e desconforto."
 
 #. STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.COLDBRAIN.LEGEND_HOVERTEXT"
@@ -17685,7 +17684,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.DISEASES.HEATRASH.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.DESCRIPTIVE_SYMPTOMS"
 msgid "Nonlethal. Duplicants experience high fever and discomfort."
-msgstr "Não letal. Duplicantes apresentarão febre alta e descomforto."
+msgstr "Não letal. Duplicantes apresentarão febre alta e desconforto."
 
 #. STRINGS.DUPLICANTS.DISEASES.HEATRASH.LEGEND_HOVERTEXT
 msgctxt "STRINGS.DUPLICANTS.DISEASES.HEATRASH.LEGEND_HOVERTEXT"
@@ -17849,7 +17848,7 @@ msgstr "Tossindo"
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.COUGH_SYMPTOM_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.COUGH_SYMPTOM_TOOLTIP"
 msgid "Duplicants periodically cough up Polluted Oxygen, producing additional germs"
-msgstr "Duplicantes periodicamente irão tossir Oxigênio Poluído, produzindo germes adicionais"
+msgstr "Duplicantes irão periodicamente tossir Oxigênio Poluído, produzindo germes adicionais"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTION"
@@ -17858,7 +17857,7 @@ msgid ""
 "This Duplicant's chest congestion is making it difficult to breathe"
 msgstr ""
 "\n"
-"A congestão respiratória nesse Duplicante está dificultando sua respiração"
+"A congestão respiratória neste Duplicante está dificultando sua respiração"
 
 #. STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTIVE_SYMPTOMS
 msgctxt "STRINGS.DUPLICANTS.DISEASES.SLIMELUNG.DESCRIPTIVE_SYMPTOMS"
@@ -18103,12 +18102,12 @@ msgstr "X"
 #. STRINGS.DUPLICANTS.GENDER.NB.PLURALS.ONE
 msgctxt "STRINGS.DUPLICANTS.GENDER.NB.PLURALS.ONE"
 msgid "they"
-msgstr "eles"
+msgstr "elx"
 
 #. STRINGS.DUPLICANTS.GENDER.NB.PLURALS.TWO
 msgctxt "STRINGS.DUPLICANTS.GENDER.NB.PLURALS.TWO"
 msgid "their"
-msgstr "deles"
+msgstr "delxs"
 
 #. STRINGS.DUPLICANTS.GENDERTITLE
 msgctxt "STRINGS.DUPLICANTS.GENDERTITLE"
@@ -18198,7 +18197,7 @@ msgstr "Comendo sem parar"
 #. STRINGS.DUPLICANTS.MODIFIERS.BINGE_EATING.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BINGE_EATING.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants became so <link=\"STRESS\">Stressed</link> they began overeating:"
-msgstr "Estes Duplicantes ficaram tão <link=\"STRESS\">Estressados</link> e acabaram comendo demais:"
+msgstr "Estes Duplicantes ficaram tão <link=\"STRESS\">Estressados</link> e começaram a comer demais:"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BINGE_EATING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BINGE_EATING.TOOLTIP"
@@ -18243,7 +18242,7 @@ msgstr "Intervalo de Quatro Blocos"
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK4.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK4.TOOLTIP"
 msgid "This Duplicant has had four Downtime shifts in the last cycle"
-msgstr "Este Duplicante teve quarto blocos de Intervalo no último ciclo"
+msgstr "Este Duplicante teve quatro blocos de Intervalo no último ciclo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK5.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.NAME"
@@ -18253,7 +18252,7 @@ msgstr "Intervalo de Cinco Blocos"
 #. STRINGS.DUPLICANTS.MODIFIERS.BREAK5.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREAK5.TOOLTIP"
 msgid "This Duplicant has had five Downtime shifts in the last cycle"
-msgstr "Este Duplicante teve quarto blocos de Intervalo no último ciclo"
+msgstr "Este Duplicante teve cinco blocos de Intervalo no último ciclo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BREATHING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BREATHING.NAME"
@@ -18298,7 +18297,7 @@ msgstr "Centro da Atenção"
 #. STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.TOOLTIP"
 msgid "This Duplicant feels like someone's watching over them..."
-msgstr "Este Duplicante sente que alguém está cuidando dele..."
+msgstr "Este Duplicante sente como se alguém estivesse olhando por eles..."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CLAUSTROPHOBIC.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CLAUSTROPHOBIC.CAUSE"
@@ -18328,7 +18327,7 @@ msgstr "Frio"
 #. STRINGS.DUPLICANTS.MODIFIERS.COLD.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.COLD.TOOLTIP"
 msgid "This Duplicant is uncomfortably cold"
-msgstr "Este Duplicante está sentindo frio"
+msgstr "Este Duplicante está sentindo frio desconfortável"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.COLDAIR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.COLDAIR.NAME"
@@ -18534,7 +18533,7 @@ msgid ""
 msgstr ""
 "A última comida que este Duplicante comeu estava Regular\n"
 "\n"
-"Ele(a) achou que estava bem ok"
+"Ele achou que estava bem ok"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE1.NAME"
@@ -18550,7 +18549,7 @@ msgid ""
 msgstr ""
 "A última comida que este Duplicante comeu estava Boa\n"
 "\n"
-"Ele(a) achou que estava muito boa!"
+"Ele achou que estava muito boa!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE2.NAME"
@@ -18566,7 +18565,7 @@ msgid ""
 msgstr ""
 "A última comida que este Duplicante comeu estava Ótima\n"
 "\n"
-"Ele(a) achou que estava muito boa!"
+"Ele achou que estava muito boa!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE3.NAME"
@@ -18582,7 +18581,7 @@ msgid ""
 msgstr ""
 "A última comida que este Duplicante comeu estava Ótima\n"
 "\n"
-"Ele(a) achou que estava muito boa!"
+"Ele achou que estava muito boa!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLE4.NAME"
@@ -18598,7 +18597,7 @@ msgid ""
 msgstr ""
 "A última comida que este Duplicante comeu estava Divina\n"
 "\n"
-"Ele(a) achou que estava super deliciosa!"
+"Ele achou que estava super deliciosa!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS1.NAME"
@@ -18614,7 +18613,7 @@ msgid ""
 msgstr ""
 "A última comida que este Duplicante comeu estava Ruim\n"
 "\n"
-"Ele(a) espera que a próxima refeição seja um pouco melhor"
+"Ele espera que a próxima refeição seja um pouco melhor"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS2.NAME"
@@ -18630,7 +18629,7 @@ msgid ""
 msgstr ""
 "A última comida que este Duplicante comeu estava Terrível\n"
 "\n"
-"Ele(a) espera que a próxima refeição seja melhor"
+"Ele espera que a próxima refeição seja melhor"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.EDIBLEMINUS3.NAME"
@@ -18646,7 +18645,7 @@ msgid ""
 msgstr ""
 "A última comida que este Duplicante comeu estava Nojenta\n"
 "\n"
-"Ele(a) espera que a próxima refeição seja melhor"
+"Ele espera que a próxima refeição seja melhor"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ENTITLEMENT.NAME"
@@ -18874,7 +18873,7 @@ msgstr "Gambiarra do Engenheiro"
 #. STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MACHINETINKER.TOOLTIP"
 msgid "A skilled Engineer has jerry rigged this generator to temporarily run faster"
-msgstr "Um hábil Engenheiro fez uma gambiarra neste gerador para ele funcionar mais rápido"
+msgstr "Um hábil Engenheiro fez uma gambiarra neste gerador para ele funcionar temporariamente mais rápido"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME"
@@ -19050,7 +19049,7 @@ msgstr "Sem Oxigênio"
 #. STRINGS.DUPLICANTS.MODIFIERS.NOOXYGEN.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.NOOXYGEN.TOOLTIP"
 msgid "There is no breathable air in this area"
-msgstr "Não existe gás respirável nessa área"
+msgstr "Não existe gás respirável nesta área"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PASSEDOUTSLEEP.NAME"
@@ -19237,7 +19236,7 @@ msgstr "Banheiro"
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBATHROOM.TOOLTIP"
 msgid "This Duplicant used a Lavatory in a Washroom"
-msgstr "Este Duplicante usou um Vaso Sanitário e um Banheiro"
+msgstr "Este Duplicante usou um Vaso Sanitário em um Banheiro"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROOMBEDROOM.NAME"
@@ -19352,7 +19351,7 @@ msgstr "Este Duplicante sentiu um cheirinho de algo incrivelmente podre"
 #. STRINGS.DUPLICANTS.MODIFIERS.SMELLEDSTINKY.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SMELLEDSTINKY.NAME"
 msgid "Smelled Stinky"
-msgstr "Sentiu uma Catinga"
+msgstr "Sentiu Catinga"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SMELLEDSTINKY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SMELLEDSTINKY.TOOLTIP"
@@ -19518,7 +19517,7 @@ msgstr "Trocas Ambientais"
 #. STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.NAME"
 msgid "Dead Tired"
-msgstr "\"Morto\" de Cansaço"
+msgstr "Morto de Cansaço"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.TERRIBLESLEEP.TOOLTIP"
@@ -19706,7 +19705,7 @@ msgstr "Este Duplicante está satisfeito depois de ter comido um grande prato"
 #. STRINGS.DUPLICANTS.MODIFIERS.WETFEET.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WETFEET.CAUSE"
 msgid "Obtained by walking through liquid."
-msgstr "Obtido por andar pelo líquido."
+msgstr "Obtido por andar por líquidos."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.WETFEET.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.WETFEET.NAME"
@@ -19907,7 +19906,7 @@ msgid ""
 "\n"
 "Failing to keep a Duplicant's Morale at or above their Morale Requirements means they will not be able to unwind, causing them <link=\"STRESS\">Stress</link> over time."
 msgstr ""
-"Quanto mais responsabilidades um Duplicante tem, mais ele irá desejar tempo extra de lazer e serviços melhorados.\n"
+"Quanto mais responsabilidades um Duplicante tem, mais ele desejará tempo extra de lazer e serviços melhorados.\n"
 "\n"
 "Falhar em manter a Moral do Duplicante de acordo com os Requisitos de Moral fará com que ele não consiga relaxar, aumentando o <link=\"STRESS\">Estresse</link> com o tempo."
 
@@ -20335,7 +20334,7 @@ msgstr "Tales"
 #. STRINGS.DUPLICANTS.PERSONALITIES.TURNER.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TURNER.DESC"
 msgid "This {0} is paralyzed by the knowledge that others have memories and perceptions of them they can't control."
-msgstr "Este {0} fica paralisado ao saber que os outros possuem memórias e percepções que eles não podem controlar."
+msgstr "Este {0} fica chocado em saber que os outros possuem memórias e percepções que eles não podem controlar."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.TURNER.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TURNER.NAME"
@@ -20410,7 +20409,7 @@ msgid ""
 "Promotion to the full-fledged Architect position further increases\n"
 "a Duplicant's construction speeds."
 msgstr ""
-"Promoção à posição de Arquiteto aumenta bastante a velocidade\n"
+"Promoção à posição de Arquiteto aumentará bastante a velocidade\n"
 "de construção do Duplicante."
 
 #. STRINGS.DUPLICANTS.ROLES.BUILDER.NAME
@@ -20424,7 +20423,7 @@ msgid ""
 "Promotion to the Chef position further increases a Duplicant's\n"
 "cooking skills."
 msgstr ""
-"Promoção à posição de Chef aumenta bastante as habilidades\n"
+"Promoção à posição de Chef aumentará bastante as habilidades\n"
 "de culinária de um Duplicante."
 
 #. STRINGS.DUPLICANTS.ROLES.COOK.NAME
@@ -20454,7 +20453,7 @@ msgstr "Este Duplicante prefere fazer trabalhos de {0} e vai dominá-los {1}% ma
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.DESCRIPTION"
 msgid "Becoming a Groundskeeper minorly improves a Duplicant's physical strength."
-msgstr "Tornar-se um Zelador melhora um pouco a força física de um Duplicante."
+msgstr "Tornar-se um Zelador melhorará um pouco a força física de um Duplicante."
 
 #. STRINGS.DUPLICANTS.ROLES.HANDYMAN.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.HANDYMAN.NAME"
@@ -20548,7 +20547,7 @@ msgid ""
 "improves a Duplicant's researching ability."
 msgstr ""
 "Este trabalho provê treinamento para o uso de Super Computadores e\n"
-"melhora a habilidade de pesquisa de um Duplicante."
+"melhorará a habilidade de pesquisa de um Duplicante."
 
 #. STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_RESEARCHER.NAME"
@@ -20575,7 +20574,7 @@ msgid ""
 "Promotion to the Courier position further increases a Duplicant's\n"
 "strength and carrying capacity for even swifter deliveries."
 msgstr ""
-"Promoção à posição de Mensageiro aumenta bastante a força de\n"
+"Promoção à posição de Mensageiro aumentará bastante a força de\n"
 "um Duplicante e a capacidade de carga para entregas mais velozes."
 
 #. STRINGS.DUPLICANTS.ROLES.MATERIALS_MANAGER.NAME
@@ -20662,7 +20661,7 @@ msgid ""
 "Tuned generators will temporarily have improved power output."
 msgstr ""
 "Este trabalho provê treinamento adicional na atualização de geradores.\n"
-"Geradores atualizados irão temporariamente possuir geração de energia melhorada."
+"Geradores atualizados irão temporariamente gerar mais energia."
 
 #. STRINGS.DUPLICANTS.ROLES.POWER_TECHNICIAN.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.POWER_TECHNICIAN.NAME"
@@ -20675,8 +20674,8 @@ msgid ""
 "Becoming a Rancher improves a Duplicant's ability to care for\n"
 "domestic critters."
 msgstr ""
-"Tornar-se um Fazendeiro aumentará a habilidade de cuidado\n"
-"por criaturas domésticas de um Duplicante."
+"Tornar-se um Fazendeiro aumentará a habilidade de cuidado de\n"
+"um Duplicante por criaturas domésticas."
 
 #. STRINGS.DUPLICANTS.ROLES.RANCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.NAME"
@@ -20689,7 +20688,7 @@ msgid ""
 "Promotion to the Scientist position further increases a Duplicant's\n"
 "researching ability."
 msgstr ""
-"Promoção à posição de Cientista melhora bastante a habilidade de\n"
+"Promoção à posição de Cientista melhorará bastante a habilidade de\n"
 "pesquisa de um Duplicante."
 
 #. STRINGS.DUPLICANTS.ROLES.RESEARCHER.NAME
@@ -20708,7 +20707,7 @@ msgid ""
 "Promotion to the Senior Architect position further increases a\n"
 "Duplicant's construction speeds."
 msgstr ""
-"Promoção à posição de Arquiteto Sênior aumenta bastante a\n"
+"Promoção à posição de Arquiteto Sênior aumentará bastante a\n"
 "velocidade de construção de um Duplicante."
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME
@@ -20722,7 +20721,7 @@ msgid ""
 "Promotion to the Seasoned Farmer position further increases a\n"
 "Duplicant's farming skills."
 msgstr ""
-"Promoção à posição de Agricultor Experiente aumenta bastante a\n"
+"Promoção à posição de Agricultor Experiente aumentará bastante a\n"
 "habilidade de agricultura de um Duplicante."
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.NAME
@@ -20737,7 +20736,7 @@ msgid ""
 "Duplicant's digging speed."
 msgstr ""
 "Promoção à posição de Mineiro Experiente aumenta bastante a\n"
-"velocidade de cavar de um Duplicante."
+"velocidade de escavação de um Duplicante."
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MINER.NAME"
@@ -20794,7 +20793,7 @@ msgstr "Bexiga"
 #. STRINGS.DUPLICANTS.STATS.BLADDER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATS.BLADDER.TOOLTIP"
 msgid "Duplicants make \"messes\" if no toilets are available at one hundred percent bladder fullness"
-msgstr "Duplicantes fazem \"bagunças\" se não existirem privadas disponíveis e a bexiga estiver 100% cheia"
+msgstr "Duplicantes fazem \"bagunças\" se não existirem privadas disponíveis quando a bexiga estiver 100% cheia"
 
 #. STRINGS.DUPLICANTS.STATS.BREATH.NAME
 msgctxt "STRINGS.DUPLICANTS.STATS.BREATH.NAME"
@@ -21705,7 +21704,7 @@ msgstr "Indo para local seguro"
 #. STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MOVINGTOSAFEAREA.TOOLTIP"
 msgid "This Duplicant is finding a safer place"
-msgstr "Este Duplicante está procurando um local seguro"
+msgstr "Este Duplicante está procurando um local mais seguro"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.MUSHDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHDELIVERSTATUS.NAME"
@@ -21738,9 +21737,10 @@ msgid "Nervous breakdown"
 msgstr "Colapso nervoso"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NERVOUSBREAKDOWN.NOTIFICATION_TOOLTIP
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NERVOUSBREAKDOWN.NOTIFICATION_TOOLTIP"
 msgid "These Duplicants have cracked under the <link=\"STRESS\">Stress</link> and need assistance:"
-msgstr "Estes Duplicantes colapsaram devido ao <link=\"STRESS\">Estresse</link> e necessitam de assistência:"
+msgstr "Estes Duplicantes pararam devido ao <link=\"STRESS\">Estresse</link> e necessitam de assistência:"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.NERVOUSBREAKDOWN.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.NERVOUSBREAKDOWN.TOOLTIP"
@@ -21911,12 +21911,12 @@ msgstr "Refeição Ruim"
 #. STRINGS.DUPLICANTS.STATUSITEMS.POOR_FOOD_QUALITY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POOR_FOOD_QUALITY.TOOLTIP"
 msgid "The last meal this Duplicant ate didn't quite meet their expectations"
-msgstr "A última refeição desta Duplicante não atingiu suas expectativas"
+msgstr "A última refeição deste Duplicante não atingiu suas expectativas"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORDECOR.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORDECOR.NAME"
 msgid "Drab decor"
-msgstr "Baixo Decor"
+msgstr "Baixa Decor"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORDECOR.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORDECOR.TOOLTIP"
@@ -22244,7 +22244,7 @@ msgid ""
 "\n"
 "At this rate they're sure to feel <link=\"SLEEP\">Well Rested</link> tomorrow morning"
 msgstr ""
-"Este Duplicante está tendo um sono de qualidade bem merecido\n"
+"Este Duplicante está tendo um bem merecido sono de qualidade\n"
 "\n"
 "A esta taxa com certeza ele vai se sentir <link=\"SLEEP\">Bem Descansado</link> na manhã seguinte"
 
@@ -22621,7 +22621,7 @@ msgstr "Este Duplicante está lavando as mãos"
 #. STRINGS.DUPLICANTS.THOUGHTS.ANGRY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.ANGRY.TOOLTIP"
 msgid "Angry"
-msgstr "Com raiva"
+msgstr "Irritado"
 
 #. STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.THOUGHTS.BREAKBLADDER.TOOLTIP"
@@ -22736,7 +22736,7 @@ msgstr "Destrutivo"
 #. STRINGS.DUPLICANTS.TRAITS.AGGRESSIVE.NOREPAIR
 msgctxt "STRINGS.DUPLICANTS.TRAITS.AGGRESSIVE.NOREPAIR"
 msgid "• Will not repair buildings above 60% stress"
-msgstr "• Não irá reparar estruturas se o estresse estiver acima de 60%"
+msgstr "• Não reparará estruturas se o estresse estiver acima de 60%"
 
 #. STRINGS.DUPLICANTS.TRAITS.ANEMIC.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ANEMIC.DESC"
@@ -22985,7 +22985,7 @@ msgstr "Bexiga Irritada"
 #. STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.DESC"
 msgid "They're great for tunneling, but finding good gloves is a nightmare"
-msgstr "Estas mãos são boas para fazer túneis, mas achar luvas é um pesadelo"
+msgstr "Elas são ótimas para fazer túneis, mas achar luvas é um pesadelo"
 
 #. STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.MOLEHANDS.NAME"
@@ -23035,7 +23035,7 @@ msgstr "Propenso a Vertigem"
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.FASHIONABLE.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.FASHIONABLE.DESC"
 msgid "This Duplicant dies a bit inside when forced to wear unstylish clothing"
-msgstr "Este Duplicante morre por dentro toda vez que é forçado a vestir trajes sem estilo"
+msgstr "Este Duplicante morre por dentro toda vez que é forçado a vestir roupas sem estilo"
 
 #. STRINGS.DUPLICANTS.TRAITS.NEEDS.FASHIONABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.NEEDS.FASHIONABLE.NAME"
@@ -23314,7 +23314,7 @@ msgid ""
 "\n"
 "It is useful in <link=\"HYGIENE\">Hygienic</link> processes."
 msgstr ""
-"Barrela é um composto instável que emite o tóxico <link=\"CHLORINEGAS\">Cloro</link>.\n"
+"Barrela é um composto instável que emite <link=\"CHLORINEGAS\">Cloro</link> tóxico.\n"
 "\n"
 "É útil em processos <link=\"HYGIENE\">Higiênicos</link>."
 
@@ -23790,7 +23790,7 @@ msgid ""
 msgstr ""
 "Amálgama de Ouro é uma amálgama condutiva de ouro e mercúrio.\n"
 "\n"
-"É indicado para construir circuitos de <link=\"POWER\">Energia</link>."
+"É indicada para construir circuitos de <link=\"POWER\">Energia</link>."
 
 #. STRINGS.ELEMENTS.GOLDAMALGAM.NAME
 msgctxt "STRINGS.ELEMENTS.GOLDAMALGAM.NAME"
@@ -24127,7 +24127,7 @@ msgstr "<link=\"MAFICROCK\">Rocha Máfica</link>"
 #. STRINGS.ELEMENTS.MAGMA.DESC
 msgctxt "STRINGS.ELEMENTS.MAGMA.DESC"
 msgid "Magma is a composite of <link=\"IGNEOUSROCK\">Igneous Rock</link> heated into a molten, <link=\"ELEMENTSLIQUID\">Liquid</link> state."
-msgstr "Magma é um composto de <link=\"IGNEOUSROCK\">Rocha Ígnea</link> aquecida até o estado <link=\"ELEMENTSLIQUID\">Líquido</link>."
+msgstr "Magma é um composto de <link=\"IGNEOUSROCK\">Rocha Ígnea</link> aquecido até o estado <link=\"ELEMENTSLIQUID\">Líquido</link>."
 
 #. STRINGS.ELEMENTS.MAGMA.NAME
 msgctxt "STRINGS.ELEMENTS.MAGMA.NAME"
@@ -25930,7 +25930,7 @@ msgstr "Construir Categoria Canos"
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYPLUMBINGSTRUCTURES
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYPLUMBINGSTRUCTURES"
 msgid "BuildCategoryPlumbingStructures"
-msgstr "Categoria Construir Estruturas de Encan/ Tubul"
+msgstr "Categoria Construir Estruturas de Encanamento"
 
 #. STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYPOWERCONTROL
 msgctxt "STRINGS.INPUT_BINDINGS.INFRASTRUCTUREMENU.BUILDCATEGORYPOWERCONTROL"
@@ -26285,22 +26285,22 @@ msgstr "Painel 9"
 #. STRINGS.INPUT_BINDINGS.ROOT.PANDOWN
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PANDOWN"
 msgid "PanDown"
-msgstr "Mexer pra Baixo"
+msgstr "Mover pra Baixo"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.PANLEFT
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PANLEFT"
 msgid "PanLeft"
-msgstr "Mexer pra Esq"
+msgstr "Mover pra Esq"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.PANRIGHT
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PANRIGHT"
 msgid "PanRight"
-msgstr "Mexer pra Dir"
+msgstr "Mover pra Dir"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.PANUP
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PANUP"
 msgid "PanUp"
-msgstr "Mexer pra Cima"
+msgstr "Mover pra Cima"
 
 #. STRINGS.INPUT_BINDINGS.ROOT.PLAN1
 msgctxt "STRINGS.INPUT_BINDINGS.ROOT.PLAN1"
@@ -26415,42 +26415,42 @@ msgstr "Limpar Chão"
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXDESTROY
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXDESTROY"
 msgid "SandboxDestroy"
-msgstr "Destruir"
+msgstr "Caixa de Areia Destruir"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXFLOOD
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXFLOOD"
 msgid "SandboxFlood"
-msgstr "Preencher"
+msgstr "Caixa de Areia Preencher"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXHEATGUN
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXHEATGUN"
 msgid "SandboxHeatGun"
-msgstr "Arma de Calor"
+msgstr "Caixa de Areia Arma de Calor"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXREVEAL
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXREVEAL"
 msgid "SandboxReveal"
-msgstr "Revelar"
+msgstr "Caixa de Areia Revelar"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSAMPLE
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSAMPLE"
 msgid "SandboxSample"
-msgstr "Copiar"
+msgstr "Caixa de Areia Copiar"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSPAWNENTITY
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSPAWNENTITY"
 msgid "SandboxSpawnEntity"
-msgstr "Entidade"
+msgstr "Caixa de Areia Entidade"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSPRINKLE
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.SANDBOXSPRINKLE"
 msgid "SandboxSprinkle"
-msgstr "Espalhar"
+msgstr "Caixa de Areia Espalhar"
 
 #. STRINGS.INPUT_BINDINGS.SANDBOX.TOGGLESANDBOXTOOLS
 msgctxt "STRINGS.INPUT_BINDINGS.SANDBOX.TOGGLESANDBOXTOOLS"
 msgid "ToggleSandboxTools"
-msgstr "Ativ./Des. Ferramentas do Modo Caixa de Areia"
+msgstr "Ativ./Des. Ferramentas Caixa de Areia"
 
 #. STRINGS.INPUT_BINDINGS.TOOL.DRAGSTRAIGHT
 msgctxt "STRINGS.INPUT_BINDINGS.TOOL.DRAGSTRAIGHT"
@@ -26505,7 +26505,7 @@ msgstr "<link=\"BASICPLANTFOOD\">Rango-Fruto</link> compactado em uma barra dens
 #. STRINGS.ITEMS.FOOD.BASICPLANTFOOD.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTFOOD.DESC"
 msgid "A flavorless grain that almost never wiggles on its own."
-msgstr "Um grão sem gosto que quase nunca se mexe."
+msgstr "Um grão sem gosto que quase nunca se mexe por conta própria."
 
 #. STRINGS.ITEMS.FOOD.BASICPLANTFOOD.NAME
 msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTFOOD.NAME"
@@ -26519,7 +26519,7 @@ msgid ""
 "\n"
 "Each bite leaves a mild cooling sensation in one's mouth, even when the bun itself is warm."
 msgstr ""
-"Um bolinho simples, feito de <link=\"COLDWHEAT\">Trigo das Neves</link> assado.\n"
+"Um bolinho simples, feito de <link=\"COLDWHEATSEED\">Grão de Trigo das Neves</link> assado.\n"
 "\n"
 "Cada mordida dá uma leve sensação de frescor, mesmo quando o bolo ainda está quentinho."
 
@@ -26531,7 +26531,7 @@ msgstr "<link=\"COLDWHEATBREAD\">Bolinho das Neves</link>"
 #. STRINGS.ITEMS.FOOD.COLDWHEATBREAD.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATBREAD.RECIPEDESC"
 msgid "A simple bun baked from <link=\"COLDWHEATSEED\">Sleet Wheat Grain</link> grain."
-msgstr "Um bolinho simples, assado com <link=\"COLDWHEAT\">Trigo das Neves</link>."
+msgstr "Um bolinho simples, assado com <link=\"COLDWHEATSEED\">Trigo das Neves</link>."
 
 #. STRINGS.ITEMS.FOOD.COLDWHEATSEED.DESC
 msgctxt "STRINGS.ITEMS.FOOD.COLDWHEATSEED.DESC"
@@ -26649,7 +26649,7 @@ msgid ""
 "\n"
 "It has a thick, savory flavor with subtle earthy undertones."
 msgstr ""
-"Uma refeição frita com <link=\"MUSHROOMPLANT\">Cogumelo Negro</link>.\n"
+"Uma refeição frita com <link=\"MUSHROOM\">Cogumelo Negro</link>.\n"
 "\n"
 "Tem um gosto muito saboroso com uma pitada de terra."
 
@@ -26661,7 +26661,7 @@ msgstr "<link=\"FRIEDMUSHROOM\">Cogumelo Frito</link>"
 #. STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.FRIEDMUSHROOM.RECIPEDESC"
 msgid "A fried dish made with a fruiting <link=\"MUSHROOM\">Mushroom</link>."
-msgstr "Uma refeição frita com <link=\"MUSHROOMPLANT\">Cogumelo Negro</link>."
+msgstr "Uma refeição frita com <link=\"MUSHROOM\">Cogumelo Negro</link>."
 
 #. STRINGS.ITEMS.FOOD.FRUITCAKE.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FRUITCAKE.DESC"
@@ -33119,7 +33119,7 @@ msgstr ""
 #. STRINGS.UI.BUILDINGEFFECTS.ITEM_TEMPERATURE_ADJUST
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ITEM_TEMPERATURE_ADJUST"
 msgid "Stored <link=\"HEAT\">Temperature</link>: {0}"
-msgstr "<link=\"HEAT\">Temperatura</link> Armazenada: {0}"
+msgstr "<link=\"HEAT\">Temperatura</link> de Armazenamento: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.KCAL_PER_CYCLE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.KCAL_PER_CYCLE"
@@ -35409,7 +35409,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.9.6)"
+"- Traduzido por Chastomber :P (1.9.7)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -43291,7 +43291,7 @@ msgstr "Precisa estar em um quarto"
 #. STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_ROTATE_KEY"
 msgid "Press <color=#F44A47>[{Key}]</color> to Rotate"
-msgstr "Pressione <color=#F44A47>[{Key}]</color> para Rotacionar"
+msgstr "Pressione <color=#F44A47>[{Key}]</color> para Girar"
 
 #. STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_TUBELOCATION_NO_UTURNS"
@@ -44142,7 +44142,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.POI_INTERNAL
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.POI_INTERNAL"
 msgid "This door cannot be manually controlled."
-msgstr "Esta porta não pode ser manualmente controlada."
+msgstr "Esta porta não pode ser controlada manualmente."
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.TITLE"
@@ -45023,7 +45023,7 @@ msgid ""
 "Current {0}:\n"
 "{1}"
 msgstr ""
-"Atual {0}:\n"
+"{0} Atual:\n"
 "{1}"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.DISEASE
@@ -46830,7 +46830,7 @@ msgstr "Interpolando gases tóxicos..."
 #. STRINGS.UI.WORLDGEN.PLACINGCREATURES
 msgctxt "STRINGS.UI.WORLDGEN.PLACINGCREATURES"
 msgid "Building the suspense..."
-msgstr "Criando suspense..."
+msgstr "Aumentando o suspense..."
 
 #. STRINGS.UI.WORLDGEN.PROCESSING
 msgctxt "STRINGS.UI.WORLDGEN.PROCESSING"
