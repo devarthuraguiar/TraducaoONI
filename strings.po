@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.0.9\n"
+"Project-Id-Version: Português foi Incluído! 2.0.10\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -662,7 +662,7 @@ msgid ""
 msgstr ""
 "A antena deste detector está escaneando à <b>{Quality}</b> de efetividade.\n"
 "\n"
-"Baixa qualidade pode ocorrer por:\n"
+"Qualidade diminuída pode ocorrer por:\n"
 "    • Interferência por maquinário pesado próximo\n"
 "    • Rochas ou blocos obstruindo a linha de visão da antena no espaço"
 
@@ -1008,7 +1008,7 @@ msgstr "Inundado"
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.NOTIFICATION_TOOLTIP"
 msgid "These buildings are flooded:"
-msgstr "Estas estruturas foram inundadas:"
+msgstr "Estas estruturas estão inundadas:"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLOODED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLOODED.TOOLTIP"
@@ -1661,8 +1661,8 @@ msgid ""
 "This building's <style=\"KKeyword\">Liquid Intake</style> does not have a "
 "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link> connected"
 msgstr ""
-"A <style=\"KKeyword\">Entrada de Líquido</style> não possui <link="
-"\"LIQUIDCONDUIT\">Encanamento</link> conectado"
+"A <style=\"KKeyword\">Entrada de Líquido</style> desta estrutura não possui "
+"<link=\"LIQUIDCONDUIT\">Cano</link> conectado"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDLIQUIDOUT.NAME"
@@ -1675,8 +1675,8 @@ msgid ""
 "This building's <style=\"KKeyword\">Liquid Output</style> does not have a "
 "<link=\"LIQUIDCONDUIT\">Liquid Pipe</link> connected"
 msgstr ""
-"A <style=\"KKeyword\">Saída de Líquido</style> não possui <link="
-"\"LIQUIDCONDUIT\">Encanamento</link> conectado"
+"A <style=\"KKeyword\">Saída de Líquido</style> desta estrutura não possui "
+"<link=\"LIQUIDCONDUIT\">Cano</link> conectado"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDPLANT.NAME"
@@ -1821,7 +1821,7 @@ msgstr "Impossível Minerar"
 #. STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEUTRONIUMUNMINABLE.TOOLTIP"
 msgid "This resource cannot be mined by Duplicant tools"
-msgstr "Este recurso não pode ser minerado pelas ferramentas dos Duplicantes"
+msgstr "Este recurso não pode ser minerado por ferramentas Duplicantes"
 
 #. STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.NAME"
@@ -1849,7 +1849,7 @@ msgstr ""
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NEWDUPLICANTSAVAILABLE.TOOLTIP"
 msgid "I am ready to print a new colony member or care package"
 msgstr ""
-"Eu estou pronto para imprimir um novo membro da colônia ou um pacote de "
+"Estou pronta para imprimir um novo membro da colônia ou um pacote de "
 "suprimentos"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NAME
@@ -1907,8 +1907,8 @@ msgid ""
 "This building cannot produce the correct <style=\"KKeyword\">Research Type</"
 "style> for the current <link=\"TECH\">Research Focus</link>"
 msgstr ""
-"Estas estruturas não pode produzir o <b>Tipo de Pesquisa</b> correto para o "
-"<link=\"TECH\">Foco da Pesquisa</link> selecionado"
+"Esta estrutura não pode produzir o <style=\"KKeyword\">Tipo de Pesquisa</"
+"style> correto para o <link=\"TECH\">Foco da Pesquisa</link> selecionado"
 
 #. STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAVAILABLEEGG.NAME"
@@ -16621,7 +16621,7 @@ msgid ""
 "of lungs, allowing it to hold its breath during the long periods it spends "
 "underground."
 msgstr ""
-"A Toupeira do Espaço é uma criatura única que possui dois pulmões "
+"A Toupeira Espacial é uma criatura única que possui dois pulmões "
 "completamente desenvolvidos, permitindo ela segurar a respiração pelos "
 "longos períodos que ela passa debaixo do solo."
 
@@ -16643,7 +16643,7 @@ msgstr "Criatura Domesticável"
 #. STRINGS.CODEX.MOLE.TITLE
 msgctxt "STRINGS.CODEX.MOLE.TITLE"
 msgid "Shove Vole"
-msgstr "Toupeira do Espaço"
+msgstr "Toupeira Espacial"
 
 #. STRINGS.CODEX.MOLTEN.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MOLTEN.BODY.CONTAINER1"
@@ -18795,7 +18795,7 @@ msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.REQUIREMENTS."
 "REACHED_SPACE_DESTINATION"
 msgid "Breach the {0}"
-msgstr "Passe pelo {0}"
+msgstr "Passe pela {0}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.REQUIREMENTS.REACHED_SPACE_DESTINATION_DESCRIPTION
 msgctxt ""
@@ -18949,8 +18949,8 @@ msgctxt ""
 msgid ""
 "Use a Duplicant's Skill Points to buy out an entire branch of the Skill Tree."
 msgstr ""
-"Use os Pontos de Habilidade de um Duplicante para comprar uma ramificação "
-"inteira da Árvore de Habilidades."
+"Use os Pontos de Habilidade de um Duplicante para desbloquear uma "
+"ramificação inteira da Árvore de Habilidades."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COOKED_FOOD
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COOKED_FOOD"
@@ -19441,7 +19441,7 @@ msgstr "<link=\"LIGHTBUGSPECIES\">Vagalume</link>"
 #. STRINGS.CREATURES.FAMILY.MOLE
 msgctxt "STRINGS.CREATURES.FAMILY.MOLE"
 msgid "<link=\"MOLESPECIES\">Shove Vole</link>"
-msgstr "<link=\"MOLESPECIES\">Toupeira do Espaço</link>"
+msgstr "<link=\"MOLESPECIES\">Toupeira Espacial</link>"
 
 #. STRINGS.CREATURES.FAMILY.MOO
 msgctxt "STRINGS.CREATURES.FAMILY.MOO"
@@ -19496,7 +19496,7 @@ msgstr "<link=\"LIGHTBUGSPECIES\">Vagalumes</link>"
 #. STRINGS.CREATURES.FAMILY_PLURAL.MOLESPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.MOLESPECIES"
 msgid "<link=\"MOLESPECIES\">Shove Voles</link>"
-msgstr "<link=\"MOLESPECIES\">Toupeiras do Espaço</link>"
+msgstr "<link=\"MOLESPECIES\">Toupeiras Espaciais</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.MOOSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.MOOSPECIES"
@@ -19526,7 +19526,7 @@ msgstr "<link=\"SQUIRRELSPECIES\">Pips</link>"
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC"
 msgid "Eats: {0}"
-msgstr "Ao comer: {0}"
+msgstr "Comer: {0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.NAME"
@@ -19536,7 +19536,7 @@ msgstr "Dieta"
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.DESC"
 msgid "Penned with: {0}"
-msgstr "Se estiver com: {0}"
+msgstr "Estiver com: {0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.NEARBY_CREATURE.NAME"
@@ -20728,7 +20728,7 @@ msgstr "Bônus de Crescimento"
 #. STRINGS.CREATURES.SPECIES.LEAFYPLANT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.NAME"
 msgid "<link=\"POTTEDLEAFY\">Mirth Leaf</link>"
-msgstr "<link=\"POTTEDLEAFY\">Folha de Felicidade</link>"
+msgstr "<link=\"POTTEDLEAFY\">Folha Feliz</link>"
 
 #. STRINGS.CREATURES.SPECIES.LEAFYPLANT.WILT_PENALTY
 msgctxt "STRINGS.CREATURES.SPECIES.LEAFYPLANT.WILT_PENALTY"
@@ -21018,7 +21018,7 @@ msgid ""
 msgstr ""
 "Uma pequena e fofinha Touperinha.\n"
 "\n"
-"Um dia ela crescerá dando origem a uma <link=\"MOLE\">Toupeira do Espaço</"
+"Um dia ela crescerá dando origem a uma <link=\"MOLE\">Toupeira Espacial</"
 "link>."
 
 #. STRINGS.CREATURES.SPECIES.MOLE.BABY.NAME
@@ -21042,12 +21042,12 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME"
 msgid "<link=\"MOLE\">Shove Vole Egg</link>"
-msgstr "<link=\"MOLE\">Ovo de Toupeira do Espaço</link>"
+msgstr "<link=\"MOLE\">Ovo de Toupeira Espacial</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.NAME"
 msgid "<link=\"MOLE\">Shove Vole</link>"
-msgstr "<link=\"MOLE\">Toupeira do Espaço</link>"
+msgstr "<link=\"MOLE\">Toupeira Espacial</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOO.DESC"
@@ -21878,7 +21878,7 @@ msgstr ""
 "A <link=\"PLANTS\">Semente</link> de uma <link=\"PRICKLEFLOWER\">Flor de "
 "Seda</link>.\n"
 "\n"
-"Cavar Objetos Enterrados pode revelar uma Semente de Flor de Seda."
+"Cavar Objetos Enterrados pode revelar uma Semente de Seda."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.NAME"
@@ -41241,7 +41241,7 @@ msgstr ""
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.NAME"
 msgid "Tutorial: Duplicant Temperature"
-msgstr "Tutorial: Temperatura dos Dupes"
+msgstr "Tutorial: Temperatura dos Duplicantes"
 
 #. STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.THERMALCOMFORT.TOOLTIP"
@@ -48773,7 +48773,10 @@ msgstr ""
 #. STRINGS.UI.CREDITSSCREEN.THIRD_PARTY.HARMONY
 msgctxt "STRINGS.UI.CREDITSSCREEN.THIRD_PARTY.HARMONY"
 msgid "Harmony by Andreas Pardeike"
-msgstr "Harmony feito por Andreas Pardeike"
+msgstr ""
+"Harmony feito por Andreas Pardeike\n"
+"\n"
+"Traduzido por Chastomber :P"
 
 #. STRINGS.UI.CREDITSSCREEN.TITLE
 msgctxt "STRINGS.UI.CREDITSSCREEN.TITLE"
@@ -49872,7 +49875,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (2.0.9)"
+"- Traduzido por Chastomber :P (2.0.10)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -49966,7 +49969,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (2.0.9): {0}"
+msgstr "VERSÃO (2.0.10): {0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -65532,8 +65535,8 @@ msgstr ""
 "Um destino com vastas quantidades de água salgada não potável.\n"
 "\n"
 "<smallcaps>Oceania é bem estável e rica em recursos, mas a maior parte da "
-"área e coberta em oceano de água salgada. Expansão cuidadosa e uso de "
-"recursos podem levar a uma colônia bem sucedida.</smallcaps>\n"
+"área e coberta em oceano de água salgada. Expansão e o uso de recursos com "
+"cautela podem levar a uma colônia bem sucedida.</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.OCEANIA.NAME
@@ -65576,8 +65579,8 @@ msgstr ""
 "\n"
 "<smallcaps>As temperaturas baixas de Geada trarão problemas para as tarefas "
 "de encontrar água e estabelecer plantações e ranchos. No entanto, o grande "
-"espectro de minerais e o ambiente frio pode levar a uma indústria próspera.</"
-"smallcaps>\n"
+"espectro de minerais e o ambiente frio podem levar a uma indústria próspera."
+"</smallcaps>\n"
 "\n"
 
 #. STRINGS.WORLDS.SANDSTONE_FROZEN.NAME
