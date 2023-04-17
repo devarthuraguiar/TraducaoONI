@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.1\n"
+"Project-Id-Version: Português foi Incluído! 2.1.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1166,8 +1166,6 @@ msgstr ""
 "liberado"
 
 #. STRINGS.BUILDING.STATUSITEMS.GETTINGREADY.NAME
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.STRESSREDUCTION.NAME"
-#| msgid "Getting Massage"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GETTINGREADY.NAME"
 msgid "Getting Ready"
 msgstr "Ficando Pronto"
@@ -1715,9 +1713,6 @@ msgid "Missing Requirements"
 msgstr "Requisitos Faltantes"
 
 #. STRINGS.BUILDING.STATUSITEMS.MISSINGREQUIREMENTS.TOOLTIP
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.TOOLTIP"
-#| msgid ""
-#| "These materials must be delivered before this building can be repaired"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGREQUIREMENTS.TOOLTIP"
 msgid ""
 "There are some problems that need to be fixed before this building is "
@@ -2176,14 +2171,6 @@ msgstr ""
 "Estelar selecionado"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED.NOTIFICATION_TOOLTIP
-#| msgctxt ""
-#| "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED."
-#| "NOTIFICATION_TOOLTIP"
-#| msgid ""
-#| "Select a <link=\"TECH\">Research</link> project in the <style=\"KKeyword"
-#| "\">Research Tree</style> <b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></"
-#| "color> or a Destination in the <style=\"KKeyword\">Starmap</style> "
-#| "<b><color=#F44A4A>{STARMAP_MENU_KEY}</b></color>"
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.NORESEARCHORDESTINATIONSELECTED."
 "NOTIFICATION_TOOLTIP"
@@ -2227,11 +2214,6 @@ msgstr ""
 "um novo projeto de <link=\"TECH\">Pesquisa</link>"
 
 #. STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP"
-#| msgid ""
-#| "Open the <style=\"KKeyword\">Research Tree</style> "
-#| "<b><color=#F44A4A>{RESEARCH_MENU_KEY}</b></color> to select a new <link="
-#| "\"TECH\">Research</link> project"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NORESEARCHSELECTED.TOOLTIP"
 msgid ""
 "Open the <b>Research Tree</b> <b><color=#F44A4A>[R]</b></color> to select a "
@@ -2651,10 +2633,6 @@ msgid "Power Loop Detected"
 msgstr "Loop de Energia Detectado"
 
 #. STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.TOOLTIP
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY"
-#| msgid ""
-#| "Can hold {0} of <style=\"KKeyword\">Power</style> when connected to a "
-#| "<style=\"KKeyword\">Generator</style>"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERLOOPDETECTED.TOOLTIP"
 msgid ""
 "A Transformer's <style=\"KKeyword\">Power Output </style>should not be "
@@ -3578,8 +3556,6 @@ msgstr ""
 "style> a um gerador de <style=\"KKeyword\">Energia</style>"
 
 #. STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.NAME
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME"
-#| msgid "Circuit Status: {CurrentLoad} / {MaxLoad}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIREMAXWATTAGESTATUS.NAME"
 msgid "Potential Load: {TotalPotentialLoadAndColor} / {MaxLoad}"
 msgstr "Carga Potencial: {TotalPotentialLoadAndColor} / {MaxLoad}"
@@ -4183,11 +4159,6 @@ msgid "Soak up some relaxing sun rays."
 msgstr "Sugue um pouco de raios solares relaxantes."
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to play video games on their breaks.\n"
-#| "\n"
-#| "Increases Duplicant <link=\"MORALE\">Morale</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.EFFECT"
 msgid ""
 "Duplicants can relax by lounging in <link=\"LIGHT\">Sunlight</link>.\n"
@@ -4200,33 +4171,33 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_HIGH
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_HIGH"
-msgid "{attrib}: {amount} (High Lux)"
-msgstr "{attrib}: {amount} (Lux Alto)"
+msgid "{attrib}: {amount} (Bright Light)"
+msgstr "{attrib}: {amount} (Luz Forte)"
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_HIGH_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_HIGH_TOOLTIP"
 msgid ""
-"Duplicants will gain {amount} {attrib} if this building is in bright light."
+"Duplicants will gain {amount} {attrib} if this building is in at least {lux} "
+"light."
 msgstr ""
-"Duplicantes ganharão {amount} {attrib} se esta estrutura estiver em luz "
-"brilhante."
+"Duplicantes ganharão {amount} {attrib} se esta estrutura estiver em luz de "
+"pelo menos {lux}."
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW"
-msgid "{attrib}: {amount} (Low Lux)"
-msgstr "{attrib}: {amount} (Lux Baixo)"
+msgid "{attrib}: {amount} (Dim Light)"
+msgstr "{attrib}: {amount} (Luz Fraca)"
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW_TOOLTIP"
 msgid ""
-"Duplicants will gain {amount} {attrib} if this building is in dim light."
+"Duplicants will gain {amount} {attrib} if this building is in light dimmer "
+"than {lux}."
 msgstr ""
-"Duplicantes ganharão {amount} {attrib} se esta estrutura estiver em luz "
-"fraca."
+"Duplicantes ganharão {amount} {attrib} se esta estrutura estiver em luz mais "
+"fraca que {lux}."
 
 #. STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.NAME
-#| msgctxt "STRINGS.ELEMENTS.NAPHTHA.NAME"
-#| msgid "<link=\"NAPHTHA\">Naphtha</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.NAME"
 msgid "<link=\"BEACHCHAIR\">Beach Chair</link>"
 msgstr "<link=\"BEACHCHAIR\">Cadeira de Praia</link>"
@@ -4497,7 +4468,6 @@ msgid "<link=\"CARGOBAY\">Cargo Bay</link>"
 msgstr "<link=\"CARGOBAY\">Ala de Carga</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CARPETTILE.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.CARPETTILE.DESC"
 msgid ""
 msgstr ""
@@ -6635,29 +6605,37 @@ msgstr ""
 "Aumenta a <link=\"MORALE\">Moral</link> dos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.HOTTUB.NAME
-#| msgctxt "STRINGS.CODEX.HEAT.TITLE"
-#| msgid "<link=\"HEAT\">Heat</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.NAME"
 msgid "<link=\"HOTTUB\">Hot Tub</link>"
 msgstr "<link=\"HOTTUB\">Banheira</link>"
 
-#. STRINGS.BUILDINGS.PREFABS.HOTTUB.REQUIREMENT
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_TEMPERATURE.NAME"
-#| msgid "{Src_Element} Temperature Below {Active_Temperature}"
-msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.REQUIREMENT"
+#. STRINGS.BUILDINGS.PREFABS.HOTTUB.TEMPERATURE_REQUIREMENT
+msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.TEMPERATURE_REQUIREMENT"
 msgid "Minimum {element} Temperature: {temperature}"
 msgstr "Temperatura Mínima da {element}: {temperature}"
 
-#. STRINGS.BUILDINGS.PREFABS.HOTTUB.REQUIREMENT_TOOLTIP
-msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.REQUIREMENT_TOOLTIP"
+#. STRINGS.BUILDINGS.PREFABS.HOTTUB.TEMPERATURE_REQUIREMENT_TOOLTIP
+msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.TEMPERATURE_REQUIREMENT_TOOLTIP"
 msgid ""
 "The Hot Tub will only be usable if supplied with {temperature} {element}. If "
 "the {element} gets too cold, the Hot Tub will drain and require refilling "
 "with {element}."
 msgstr ""
-"A banheira só ficará utilizável quando for suprida com {element} à "
+"A Banheira só ficará utilizável quando for suprida com {element} à "
 "{temperature}. Se a {element} ficar muito fria, a Banheira esvaziará e "
 "precisará reencher com {element}."
+
+#. STRINGS.BUILDINGS.PREFABS.HOTTUB.WATER_REQUIREMENT
+msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.WATER_REQUIREMENT"
+msgid "{element}: {amount}"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.HOTTUB.WATER_REQUIREMENT_TOOLTIP
+msgctxt "STRINGS.BUILDINGS.PREFABS.HOTTUB.WATER_REQUIREMENT_TOOLTIP"
+msgid ""
+"This building must be filled with {amount} {element} in order to function."
+msgstr ""
+"Esta estrutura precisa ser enchida com {amount} {element} para funcionar."
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.DESC"
@@ -7026,8 +7004,6 @@ msgstr ""
 "Beber suco aumenta a <link=\"MORALE\">Moral</link> dos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.JUICER.NAME
-#| msgctxt "STRINGS.ELEMENTS.ICE.NAME"
-#| msgid "<link=\"ICE\">Ice</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.JUICER.NAME"
 msgid "<link=\"JUICER\">Juicer</link>"
 msgstr "<link=\"JUICER\">Espremedor de Frutas</link>"
@@ -8920,12 +8896,38 @@ msgstr ""
 "\n"
 "Parte da <link=\"WATER\">Água</link> espirra e cai no chão durante o uso."
 
+#. STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.LEAK_REQUIREMENT
+msgctxt "STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.LEAK_REQUIREMENT"
+msgid "Spillage: {amount}"
+msgstr "Vazamento: {amount}"
+
+#. STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.LEAK_REQUIREMENT_TOOLTIP
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.LEAK_REQUIREMENT_TOOLTIP"
+msgid ""
+"This building will spill {amount} of its contents on to the floor during "
+"use, which must be replenished."
+msgstr ""
+"Esta estrutura espirrará {amount} dos seus conteúdos no chão durante o uso, "
+"o qual deve ser constantemente reabastecido."
+
 #. STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MACHINESHOP.NAME"
-#| msgid "<link=\"MACHINESHOP\">Mechanics Station</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.NAME"
 msgid "<link=\"MECHANICALSURFBOARD\">Mechanical Surfboard</link>"
 msgstr "<link=\"MECHANICALSURFBOARD\">Prancha de Surfe Mecânica</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.WATER_REQUIREMENT
+msgctxt "STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.WATER_REQUIREMENT"
+msgid "{element}: {amount}"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.WATER_REQUIREMENT_TOOLTIP
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.MECHANICALSURFBOARD.WATER_REQUIREMENT_TOOLTIP"
+msgid ""
+"This building must be filled with {amount} {element} in order to function."
+msgstr ""
+"Esta estrutura precisa ser enchida com {amount} {element} para funcionar."
 
 #. STRINGS.BUILDINGS.PREFABS.MEDICALCOT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MEDICALCOT.DESC"
@@ -10458,11 +10460,6 @@ msgid "A steamy sauna soothes away all the aches and pains."
 msgstr "Uma sauna fumegante que alivia todas as dores."
 
 #. STRINGS.BUILDINGS.PREFABS.SAUNA.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.EFFECT"
-#| msgid ""
-#| "Allows Duplicants to play video games on their breaks.\n"
-#| "\n"
-#| "Increases Duplicant <link=\"MORALE\">Morale</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SAUNA.EFFECT"
 msgid ""
 "Uses <link=\"STEAM\">Steam</link> to create a relaxing atmosphere.\n"
@@ -10474,8 +10471,6 @@ msgstr ""
 "Aumenta a <link=\"MORALE\">Moral</link> dos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.SAUNA.NAME
-#| msgctxt "STRINGS.ELEMENTS.SAND.NAME"
-#| msgid "<link=\"SAND\">Sand</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SAUNA.NAME"
 msgid "<link=\"SAUNA\">Sauna</link>"
 msgstr "<link=\"SAUNA\">Sauna</link>"
@@ -10628,10 +10623,6 @@ msgid "Sparkling water puts a twinkle in a Duplicant's eye."
 msgstr "Água borbulhante põe um brilho nos olhos de um Duplicante."
 
 #. STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CO2SCRUBBER.EFFECT"
-#| msgid ""
-#| "Uses <link=\"WATER\">Water</link> to filter <link=\"CARBONDIOXIDE"
-#| "\">Carbon Dioxide</link> from the air."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.EFFECT"
 msgid ""
 "Creates soda from <link=\"WATER\">Water</link> and <link=\"CARBONDIOXIDE"
@@ -10645,8 +10636,6 @@ msgstr ""
 "Consumir refri aumenta a <link=\"MORALE\">Moral</link> dos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.SANITATIONSCIENCES.NAME"
-#| msgid "<link=\"SANITATIONSCIENCES\">Sanitation</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.NAME"
 msgid "<link=\"SODAFOUNTAIN\">Soda Fountain</link>"
 msgstr "<link=\"SODAFOUNTAIN\">Fonte de Refri</link>"
@@ -11611,14 +11600,18 @@ msgid "Duplicants love the feeling of high-powered wind through their hair."
 msgstr ""
 "Duplicantes amam a sensação de um vento poderoso passando pelos seus cabelos."
 
+#. STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.DISPLACEMENTEFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.DISPLACEMENTEFFECT"
+msgid "Gas Displacement: {amount}"
+msgstr "Deslocamento de Gás: {amount}"
+
+#. STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.DISPLACEMENTEFFECT_TOOLTIP
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.DISPLACEMENTEFFECT_TOOLTIP"
+msgid "This building will displace {amount} Gas while in use."
+msgstr "Esta estrutura deslocará {amount} de Gás quando em uso."
+
 #. STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASE.EFFECT"
-#| msgid ""
-#| "Houses a single <link=\"PLANTS\">Plant</link> when sown with a <link="
-#| "\"PLANTS\">Seed</link>.\n"
-#| "\n"
-#| "Increases <link=\"DECOR\">Decor</link>, contributing to <link=\"MORALE"
-#| "\">Morale</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.EFFECT"
 msgid ""
 "Must be connected to <link=\"GASPIPING\">Gas Pipes</link> and a <link=\"POWER"
@@ -11632,8 +11625,6 @@ msgstr ""
 "Aumenta a <link=\"MORALE\">Moral</link> dos Duplicantes."
 
 #. STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.NAME
-#| msgctxt "STRINGS.ELEMENTS.FERTILIZER.NAME"
-#| msgid "<link=\"FERTILIZER\">Fertilizer</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.NAME"
 msgid "<link=\"VERTICALWINDTUNNEL\">Vertical Wind Tunnel</link>"
 msgstr "<link=\"VERTICALWINDTUNNEL\">Túnel de Vento Vertical</link>"
@@ -16743,8 +16734,6 @@ msgstr ""
 "luminosidade, fazendo ela preferir cavernas e túneis."
 
 #. STRINGS.CODEX.HATCH.SPECIES_SUBTITLE
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.CREATURE"
-#| msgid "Critters"
 msgctxt "STRINGS.CODEX.HATCH.SPECIES_SUBTITLE"
 msgid "Critter Species"
 msgstr "Espécie da Criatura"
@@ -16859,8 +16848,6 @@ msgid "Undiscovered Data"
 msgstr "Dados Não Revelados"
 
 #. STRINGS.CODEX.HEADERS.SUBENTRIES
-#| msgctxt "STRINGS.UI.CODEX.FOOD.CALORIES"
-#| msgid "Calories: {0}"
 msgctxt "STRINGS.CODEX.HEADERS.SUBENTRIES"
 msgid "Entries ({0}/{1})"
 msgstr "Registros ({0}/{1})"
@@ -19897,8 +19884,6 @@ msgid "Built a {0}."
 msgstr "Construiu um {0}."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_N_ROOMS
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_PRODUCTION"
-#| msgid "{0}: {1} at {2}"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.BUILT_N_ROOMS"
 msgid "Built {0}: {1} / {2}"
 msgstr "Construiu {0}: {1} / {2}"
@@ -19922,8 +19907,6 @@ msgid "Built outside the starting biome"
 msgstr "Construiu fora do bioma inicial"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIE_SURPLUS
-#| msgctxt "STRINGS.UI.CODEX.FOOD.CALORIES"
-#| msgid "Calories: {0}"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CALORIE_SURPLUS"
 msgid "Calorie surplus: {0} / {1}"
 msgstr "Excedente Calórico: {0} / {1}"
@@ -19940,15 +19923,11 @@ msgid "{2} errands: {0} / {1}"
 msgstr "Tarefas de {2}: {0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CLOTHE_DUPES
-#| msgctxt "STRINGS.UI.DUPLICANTPRINTING"
-#| msgid "Duplicant Printing"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CLOTHE_DUPES"
 msgid "Duplicants in clothing: {0} / {1}"
 msgstr "Duplicantes usando vestimentas: {0} / {1}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CONSUME_CALORIES
-#| msgctxt "STRINGS.UI.CODEX.FOOD.CALORIES"
-#| msgid "Calories: {0}"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.CONSUME_CALORIES"
 msgid "Calories: {0} / {1}"
 msgstr "Calorias: {0} / {1}"
@@ -20003,8 +19982,6 @@ msgid "Cycle: {0:0.##} / {1:0.##}"
 msgstr "Ciclo: {0:0.##} / {1:0.##}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.GENERATE_POWER
-#| msgctxt "STRINGS.UI.DELIVERED"
-#| msgid "Delivered: {0} {1}"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.GENERATE_POWER"
 msgid "Energy generated: {0} / {1}"
 msgstr "Energia gerada: {0} / {1}"
@@ -20041,8 +20018,6 @@ msgstr ""
 "distante do Mapa Estelar"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MORALE
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE"
-#| msgid "{0} at {1}"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.MORALE"
 msgid "{0} morale: {1}"
 msgstr "Moral de {0}: {1}"
@@ -20053,8 +20028,6 @@ msgid "Never built a {0}"
 msgstr "Nunca construiu um {0}"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_FARM_TILES
-#| msgctxt "STRINGS.CODEX.HEADERS.RECEPTACLE"
-#| msgid "Farmable Plants"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.NO_FARM_TILES"
 msgid "No farmed plants"
 msgstr "Nenhuma planta cultivada"
@@ -20078,8 +20051,6 @@ msgid "Platform achievements can be unlocked."
 msgstr "Conquistas podem ser desbloqueadas."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POOP_PRODUCTION
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.NAME"
-#| msgid "Heat Production: {0}/s"
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.STATUS.POOP_PRODUCTION"
 msgid "Poop production: {0} / {1}"
 msgstr "Produção de coco: {0} / {1}"
@@ -26892,9 +26863,6 @@ msgid "Joy Reaction"
 msgstr "Reação Feliz"
 
 #. STRINGS.DUPLICANTS.CHORES.JOYREACTION.REPORT_NAME
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.STRESS_BREAKS.NAME"
-#| msgid "Stress Reactions"
 msgctxt "STRINGS.DUPLICANTS.CHORES.JOYREACTION.REPORT_NAME"
 msgid "Overjoyed Reaction"
 msgstr "Reação Super Feliz"
@@ -30171,15 +30139,11 @@ msgid "Intravenous Feeding"
 msgstr "Nutrição Intravenosa"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ISSPARKLESTREAKER.NAME
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.SPACESTATION"
-#| msgid "Space Station"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ISSPARKLESTREAKER.NAME"
 msgid "Sparkle Streaking"
 msgstr "Em Frenesi de Brilhos"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ISSPARKLESTREAKER.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.TRAIN.TOOLTIP"
-#| msgid "This Duplicant is busy training"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ISSPARKLESTREAKER.TOOLTIP"
 msgid ""
 "This Duplicant is currently Sparkle Streaking!\n"
@@ -30191,8 +30155,6 @@ msgstr ""
 "Bling!"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.JUICER.NAME
-#| msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.FRANKIE.NAME"
-#| msgid "Frankie"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.JUICER.NAME"
 msgid "Drank Juice"
 msgstr "Tomou Suco"
@@ -38440,8 +38402,6 @@ msgid "Balloon Friend"
 msgstr "Amigo Balão"
 
 #. STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.NAME
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.EQUIPMENT"
-#| msgid "<link=\"EQUIPMENT\">Equipment</link>"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.EQUIPPABLEBALLOON.NAME"
 msgid "<link=\"EQUIPPABLEBALLOON\">Balloon Friend</link>"
 msgstr "<link=\"EQUIPPABLEBALLOON\">Amigo Balão</link>"
@@ -38848,8 +38808,6 @@ msgid "Cinema Zoom Speed Minus"
 msgstr "Mais Velocidade Zoom"
 
 #. STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDPLUS
-#| msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMOUT"
-#| msgid "Cinematic Zoom Out"
 msgctxt "STRINGS.INPUT_BINDINGS.CINEMATICCAMERA.CINEMAZOOMSPEEDPLUS"
 msgid "Cinema Zoom Speed Plus"
 msgstr "Menos Velocidade Zoom"
@@ -39085,8 +39043,6 @@ msgid "Toggle Chrome Profiler"
 msgstr ""
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.TOGGLEPROFILER
-#| msgctxt "STRINGS.UI.TOOLTIPS.RED_ALERT_TITLE"
-#| msgid "Toggle Red Alert"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.TOGGLEPROFILER"
 msgid "Toggle Profiler"
 msgstr ""
@@ -46593,8 +46549,6 @@ msgstr ""
 "\"MORALE\">Moral</link>."
 
 #. STRINGS.RESEARCH.TECHS.FLOWREDIRECTION.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.POWERREGULATION.NAME"
-#| msgid "<link=\"POWERREGULATION\">Power Regulation</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.FLOWREDIRECTION.NAME"
 msgid "<link=\"FLOWREDIRECTION\">Flow Redirection</link>"
 msgstr "<link=\"FLOWREDIRECTION\">Redirecionamento de Fluxo</link>"
@@ -46609,8 +46563,6 @@ msgstr ""
 "aumenta a <link=\"MORALE\">Moral</link>."
 
 #. STRINGS.RESEARCH.TECHS.FOODREPURPOSING.NAME
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.FOODPOISONING.NAME"
-#| msgid "<link=\"FOODPOISONING\">Food Poisoning</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.FOODREPURPOSING.NAME"
 msgid "<link=\"FOODREPURPOSING\">Food Repurposing</link>"
 msgstr "<link=\"FOODREPURPOSING\">Redirecionamento de Comida</link>"
@@ -48575,8 +48527,6 @@ msgid "Preferred Room: {0}"
 msgstr "Sala Preferida: {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.PROCESSEDITEM
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
-#| msgid "On {0}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.PROCESSEDITEM"
 msgid "{1} {0}"
 msgstr ""
@@ -49139,10 +49089,6 @@ msgstr ""
 "    • condutividade térmica"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATER_TARGETTEMPERATURE
-#| msgctxt "STRINGS.DUPLICANTS.STATS.TEMPERATURE.TOOLTIP"
-#| msgid ""
-#| "A healthy Duplicant's <style=\"KKeyword\">Body Temperature</style> is "
-#| "<b>{1}</b>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.HEATER_TARGETTEMPERATURE"
 msgid ""
 "Stops heating when the surrounding average <style=\"KKeyword\">Tempature</"
@@ -49565,11 +49511,6 @@ msgstr ""
 "por cada minuto ininterrupto de uso"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.TRANSFORMER_INPUT_WIRE
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.FOODBORNE_TOOLTIP"
-#| msgid ""
-#| "Duplicants may contract this <style=\"KKeyword\">Disease</style> by "
-#| "ingesting <style=\"KKeyword\">Food</style> contaminated with these <style="
-#| "\"KKeyword\">Germs</style>"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.TRANSFORMER_INPUT_WIRE"
 msgid ""
 "Connect a <style=\"KKeyword\">Wire</style> to the large <style=\"KKeyword"
@@ -49579,10 +49520,6 @@ msgstr ""
 "style> maior com qualquer quantidade de <style=\"KKeyword\">Watts</style>."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.TRANSFORMER_OUTPUT_WIRE
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.TOOLTIP"
-#| msgid ""
-#| "These <style=\"KKeyword\">Pipe</style> systems have exited the ideal "
-#| "<style=\"KKeyword\">Pressure</style> range:"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.TRANSFORMER_OUTPUT_WIRE"
 msgid ""
 "The <style=\"KKeyword\">Power</style> provided by the the small <style="
@@ -49809,8 +49746,6 @@ msgid "<link=\"JOURNALS\">Journals</link>"
 msgstr "<link=\"JOURNALS\">Diários</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.SICKNESS"
-#| msgid "<link=\"SICKNESS\">Sickness</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MISCELLANEOUSTIPS"
 msgid "<link=\"MISCELLANEOUSTIPS\">Miscellaneous Tips</link>"
 msgstr "<link=\"MISCELLANEOUSTIPS\">Dicas Diversas</link>"
@@ -49861,15 +49796,11 @@ msgid "<link=\"TECH\">Research</link>"
 msgstr "<link=\"TECH\">Pesquisa</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.TIPS
-#| msgctxt "STRINGS.CODEX.STRESS.TITLE"
-#| msgid "<link=\"STRESS\">Stress</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.TIPS"
 msgid "<link=\"LESSONS\">Lessons</link>"
 msgstr "<link=\"LESSONS\">Lições</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.VIDEOS
-#| msgctxt "STRINGS.ELEMENTS.VOID.NAME"
-#| msgid "<link=\"VOID\">Void</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.VIDEOS"
 msgid "<link=\"VIDEOS\">Videos</link>"
 msgstr "<link=\"VIDEOS\">Vídeos</link>"
@@ -51458,7 +51389,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (2.1): {0}"
+msgstr "VERSÃO (2.1.1): {0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -56808,8 +56739,6 @@ msgid "Safe"
 msgstr "Seguro"
 
 #. STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND7
-#| msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND6"
-#| msgid "Strained"
 msgctxt "STRINGS.UI.OVERLAYS.ELECTRICAL.LEGEND7"
 msgid "Strained"
 msgstr "No Limite"
@@ -64319,8 +64248,6 @@ msgid "{0} to {1}"
 msgstr "De {0} para {1}"
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_INCLUDE_AMOUNTS
-#| msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
-#| msgid "{0} to {1}"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO_INCLUDE_AMOUNTS"
 msgid "{2} {0} to {3} {1}"
@@ -64339,8 +64266,6 @@ msgstr ""
 "{1}"
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_SIMPLE_INCLUDE_AMOUNTS
-#| msgctxt "STRINGS.UI.STARMAP.STORAGESTATS.STORAGECAPACITY"
-#| msgid "{0} / {1}"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_SIMPLE_INCLUDE_AMOUNTS"
 msgid "{0} {1}"
@@ -64352,8 +64277,6 @@ msgid "{1} ({0})"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_WITH_INCLUDE_AMOUNTS
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.GEYSER_PRODUCTION"
-#| msgid "{0}: {1} at {2}"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_WITH_INCLUDE_AMOUNTS"
 msgid "{3} {1} ({2} {0})"
@@ -65013,6 +64936,13 @@ msgstr "kB"
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.MEGABYTE"
 msgid "MB"
 msgstr "MB"
+
+#. STRINGS.UI.UNITSUFFIXES.LIGHT.LUX
+#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.LOU"
+#| msgid "Lou"
+msgctxt "STRINGS.UI.UNITSUFFIXES.LIGHT.LUX"
+msgid "Lux"
+msgstr "Lux"
 
 #. STRINGS.UI.UNITSUFFIXES.MASS.DRACHMA
 msgctxt "STRINGS.UI.UNITSUFFIXES.MASS.DRACHMA"
@@ -67174,8 +67104,6 @@ msgid "Miscalculated Pod Location"
 msgstr "Localização da Duplicadora Mal Calculada"
 
 #. STRINGS.WORLD_TRAITS.MISSING_TRAIT
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_TRAIT"
-#| msgid "Missing required trait"
 msgctxt "STRINGS.WORLD_TRAITS.MISSING_TRAIT"
 msgid "<missing trait>"
 msgstr ""
@@ -67505,6 +67433,10 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.BEACHCHAIR.LIGHTEFFECT_LOW"
+#~ msgid "{attrib}: {amount} (Low Lux)"
+#~ msgstr "{attrib}: {amount} (Lux Baixo)"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.CARPETTILE.DESC"
 #~ msgid ""
