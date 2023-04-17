@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.5.7\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.5.8\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -3927,7 +3927,7 @@ msgid ""
 "Becomes <link=\"LOGIC\">Active</link> when the configured Gas Element is "
 "detected."
 msgstr ""
-"Saída lógica ficará <link=\"LOGIC\">Ativa</link> quando o Elemento Gás "
+"Saída lógica ficará <link=\"LOGIC\">Ativa</link> quando o Elemento Gasoso "
 "configurado for detectado."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.LOGIC_PORT_DESC
@@ -7484,7 +7484,7 @@ msgstr ""
 #. STRINGS.CODEX.CLEANER.SUBTITLE
 msgctxt "STRINGS.CODEX.CLEANER.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.CLEANER.TITLE
 msgctxt "STRINGS.CODEX.CLEANER.TITLE"
@@ -7509,7 +7509,7 @@ msgstr ""
 #. STRINGS.CODEX.CRYSTAL.SUBTITLE
 msgctxt "STRINGS.CODEX.CRYSTAL.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.CRYSTAL.TITLE
 msgctxt "STRINGS.CODEX.CRYSTAL.TITLE"
@@ -7539,7 +7539,7 @@ msgstr ""
 #. STRINGS.CODEX.DENSE.SUBTITLE
 msgctxt "STRINGS.CODEX.DENSE.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.DENSE.TITLE
 msgctxt "STRINGS.CODEX.DENSE.TITLE"
@@ -7632,7 +7632,7 @@ msgstr ""
 #. STRINGS.CODEX.GLOSSY.SUBTITLE
 msgctxt "STRINGS.CODEX.GLOSSY.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.GLOSSY.TITLE
 msgctxt "STRINGS.CODEX.GLOSSY.TITLE"
@@ -7837,7 +7837,7 @@ msgstr ""
 #. STRINGS.CODEX.MOLTEN.SUBTITLE
 msgctxt "STRINGS.CODEX.MOLTEN.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.MOLTEN.TITLE
 msgctxt "STRINGS.CODEX.MOLTEN.TITLE"
@@ -7906,7 +7906,7 @@ msgstr ""
 #. STRINGS.CODEX.NEGA.SUBTITLE
 msgctxt "STRINGS.CODEX.NEGA.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Molten Slickster"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.NEGA.TITLE
 msgctxt "STRINGS.CODEX.NEGA.TITLE"
@@ -7994,7 +7994,7 @@ msgstr ""
 #. STRINGS.CODEX.PLACID.SUBTITLE
 msgctxt "STRINGS.CODEX.PLACID.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.PLACID.TITLE
 msgctxt "STRINGS.CODEX.PLACID.TITLE"
@@ -8024,7 +8024,7 @@ msgstr ""
 #. STRINGS.CODEX.PRINCE.SUBTITLE
 msgctxt "STRINGS.CODEX.PRINCE.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.PRINCE.TITLE
 msgctxt "STRINGS.CODEX.PRINCE.TITLE"
@@ -8065,7 +8065,7 @@ msgstr ""
 #. STRINGS.CODEX.ROYAL.SUBTITLE
 msgctxt "STRINGS.CODEX.ROYAL.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.ROYAL.TITLE
 msgctxt "STRINGS.CODEX.ROYAL.TITLE"
@@ -8080,7 +8080,7 @@ msgstr ""
 #. STRINGS.CODEX.SAGE.SUBTITLE
 msgctxt "STRINGS.CODEX.SAGE.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.SAGE.TITLE
 msgctxt "STRINGS.CODEX.SAGE.TITLE"
@@ -8167,7 +8167,7 @@ msgstr ""
 #. STRINGS.CODEX.SMOOTH.SUBTITLE
 msgctxt "STRINGS.CODEX.SMOOTH.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.SMOOTH.TITLE
 msgctxt "STRINGS.CODEX.SMOOTH.TITLE"
@@ -8182,7 +8182,7 @@ msgstr ""
 #. STRINGS.CODEX.SQUEAKY.SUBTITLE
 msgctxt "STRINGS.CODEX.SQUEAKY.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.SQUEAKY.TITLE
 msgctxt "STRINGS.CODEX.SQUEAKY.TITLE"
@@ -8197,7 +8197,7 @@ msgstr ""
 #. STRINGS.CODEX.STONE.SUBTITLE
 msgctxt "STRINGS.CODEX.STONE.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.STONE.TITLE
 msgctxt "STRINGS.CODEX.STONE.TITLE"
@@ -8212,7 +8212,7 @@ msgstr ""
 #. STRINGS.CODEX.SUNNY.SUBTITLE
 msgctxt "STRINGS.CODEX.SUNNY.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.SUNNY.TITLE
 msgctxt "STRINGS.CODEX.SUNNY.TITLE"
@@ -8252,7 +8252,7 @@ msgstr ""
 #. STRINGS.CODEX.TROPICAL.SUBTITLE
 msgctxt "STRINGS.CODEX.TROPICAL.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.TROPICAL.TITLE
 msgctxt "STRINGS.CODEX.TROPICAL.TITLE"
@@ -8267,7 +8267,7 @@ msgstr ""
 #. STRINGS.CODEX.VITAL.SUBTITLE
 msgctxt "STRINGS.CODEX.VITAL.SUBTITLE"
 msgid "Critter Morph"
-msgstr "Forma da Criatura"
+msgstr "Raça da Criatura"
 
 #. STRINGS.CODEX.VITAL.TITLE
 msgctxt "STRINGS.CODEX.VITAL.TITLE"
@@ -8585,7 +8585,7 @@ msgstr "<link=\"PUFTSPECIES\">Bolhas</link>"
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC"
 msgid "Eats any: {0}"
-msgstr "Come qualquer: {0}"
+msgstr "Comer: {0}"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.NAME
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.NAME"
@@ -8978,7 +8978,7 @@ msgid ""
 msgstr ""
 "Uma pequena <link=\"DRECKO\">Drequinho</link>.\n"
 "\n"
-"Esta aqui é da forma Plástica."
+"Esta aqui é da raça Plástica."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
@@ -9350,7 +9350,7 @@ msgid ""
 msgstr ""
 "Um inocente bebê <link=\"HATCH\">Mucura</link>.\n"
 "\n"
-"Este aqui é da forma Pedra, que ama devorar pedras e metais."
+"Este aqui é da raça Pedra, que ama devorar pedras e metais."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_HARD.BABY.NAME"
@@ -9385,7 +9385,7 @@ msgid ""
 msgstr ""
 "Um inocente bebê <link=\"HATCHMETAL\">Mucura</link>.\n"
 "\n"
-"Este aqui é da forma Suave, que ama devorar diferentes tipos de metais."
+"Este aqui é da raça Suave, que ama devorar diferentes tipos de metais."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.BABY.NAME"
@@ -9420,7 +9420,7 @@ msgid ""
 msgstr ""
 "Um inocente bebê <link=\"HATCH\">Mucura</link>.\n"
 "\n"
-"Este aqui é da forma Anciã, que ama devorar a maior parte dos materiais "
+"Este aqui é da raça Anciã, que ama devorar a maior parte dos materiais "
 "orgânicos."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.BABY.NAME
@@ -9532,7 +9532,7 @@ msgid ""
 msgstr ""
 "Um bebê gordinho de <link=\"LIGHTBUGBLACK\">Vagalume</link>.\n"
 "\n"
-"Este aqui é da forma Negra."
+"Este aqui é da raça Negra."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME"
@@ -9567,7 +9567,7 @@ msgid ""
 msgstr ""
 "Um bebê gordinho de <link=\"LIGHTBUGBLUE\">Vagalume</link>.\n"
 "\n"
-"Este aqui é da forma Plácida."
+"Este aqui é da raça Plácida."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME"
@@ -9586,7 +9586,7 @@ msgstr ""
 "Vagalumes emitem <link=\"LIGHT\">Luz</link> na esperança de atrair mais da "
 "sua espécie e ter companhia.\n"
 "\n"
-"A luz da forma Plácida ficou azul devido a reprodução seletiva."
+"A luz da raça Plácida ficou azul devido a reprodução seletiva."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME"
@@ -9607,7 +9607,7 @@ msgid ""
 msgstr ""
 "Um bebê gordinho de <link=\"LIGHTBUGCRYSTAL\">Vagalume</link>.\n"
 "\n"
-"Este aqui é da forma brilhante Cristal."
+"Este aqui é da raça brilhante Cristal."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.BABY.NAME"
@@ -9625,7 +9625,7 @@ msgstr ""
 "Vagalumes emitem <link=\"LIGHT\">Luz</link> na esperança de atrair mais da "
 "sua espécie e ter companhia.\n"
 "\n"
-"A luz da forma Cristal foi ampliada devido a reprodução seletiva."
+"A luz da raça Cristal foi ampliada devido a reprodução seletiva."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_CRYSTAL.EGG_NAME"
@@ -9646,7 +9646,7 @@ msgid ""
 msgstr ""
 "Um bebê gordinho de <link=\"LIGHTBUGORANGE\">Vagalume</link>.\n"
 "\n"
-"Este aqui é da forma laranja Ensolarada."
+"Este aqui é da raça laranja Ensolarada."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.BABY.NAME"
@@ -9665,7 +9665,7 @@ msgstr ""
 "Vagalumes emitem <link=\"LIGHT\">Luz</link> na esperança de atrair mais da "
 "sua espécie e ter companhia.\n"
 "\n"
-"A luz da forma Ensolarada ficou laranja devido a reprodução seletiva."
+"A luz da raça Ensolarada ficou laranja devido a reprodução seletiva."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_ORANGE.EGG_NAME"
@@ -9686,7 +9686,7 @@ msgid ""
 msgstr ""
 "Um bebê gordinho de <link=\"LIGHTBUGPINK\">Vagalume</link>.\n"
 "\n"
-"Este aqui é da forma rosa Vital."
+"Este aqui é da raça rosa Vital."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.BABY.NAME"
@@ -9704,7 +9704,7 @@ msgstr ""
 "Vagalumes emitem <link=\"LIGHT\">Luz</link> na esperança de atrair mais da "
 "sua espécie e ter companhia.\n"
 "\n"
-"A luz da forma Vital ficou rosa devido a reprodução seletiva."
+"A luz da raça Vital ficou rosa devido a reprodução seletiva."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PINK.EGG_NAME"
@@ -9725,7 +9725,7 @@ msgid ""
 msgstr ""
 "Um bebê gordinho de <link=\"LIGHTBUGPINK\">Vagalume</link>.\n"
 "\n"
-"Este aqui é da forma roxo Real."
+"Este aqui é da raça roxo Real."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.BABY.NAME"
@@ -9744,7 +9744,7 @@ msgstr ""
 "Vagalumes emitem <link=\"LIGHT\">Luz</link> na esperança de atrair mais da "
 "sua espécie e ter companhia.\n"
 "\n"
-"A luz da forma Real ficou roxa devido a reprodução seletiva."
+"A luz da raça Real ficou roxa devido a reprodução seletiva."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_PURPLE.EGG_NAME"
@@ -9863,7 +9863,7 @@ msgid ""
 msgstr ""
 "Um <link=\"OILFLOATERDECOR\">Bicho do Óleo</link> bebê.\n"
 "\n"
-"Este aqui é da forma Pura."
+"Este aqui é da raça Pura."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_DECOR.BABY.NAME"
@@ -9898,7 +9898,7 @@ msgid ""
 msgstr ""
 "Um <link=\"OILFLOATERHIGHTEMP\">Bicho do Óleo</link> bebê.\n"
 "\n"
-"Este aqui é da forma Fumegante."
+"Este aqui é da raça Fumegante."
 
 #. STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.OILFLOATER.VARIANT_HIGHTEMP.BABY.NAME"
@@ -10139,7 +10139,7 @@ msgid ""
 msgstr ""
 "Um bebê <link=\"PUFTBLEACHSTONE\">Bolha</link>.\n"
 "\n"
-"Este aqui é da forma Barulhenta."
+"Este aqui é da raça Barulhenta."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_BLEACHSTONE.BABY.NAME"
@@ -10174,7 +10174,7 @@ msgid ""
 msgstr ""
 "Um bebê <link=\"PUFTOXYLITE\">Bolha</link>.\n"
 "\n"
-"Este aqui é da forma Densa."
+"Este aqui é da raça Densa."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_OXYLITE.BABY.NAME"
@@ -12399,6 +12399,31 @@ msgstr "Determina a qual temperatura um Duplicante irá se queimar."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALDINGTHRESHOLD.NAME"
 msgid "Scalding Threshold"
 msgstr "Temperatura de Queima"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.NAME"
+#| msgid "Scale Growth"
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME"
+msgid "Scale Growth"
+msgstr "Crescimento de Escamas"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP
+#, fuzzy
+#| msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP"
+#| msgid ""
+#| "Scale Growth\n"
+#| "------------------\n"
+#| "How long until this creatures scales will grow back."
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
+msgid ""
+"Scale Growth\n"
+"------------------\n"
+"How long until this creatures scales will grow back."
+msgstr ""
+"Crescimento de Escamas\n"
+"------------------\n"
+"O tempo restante para as escamas dessa criatura crescerem novamente."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC"
@@ -16858,8 +16883,8 @@ msgid ""
 "People often expect a Duplicant named \"{0}\" to be tough, but they're all "
 "pretty huge wimps."
 msgstr ""
-"Pessoas sempre esperaram que um Duplicante com o nome \"{0}\" fosse durão, "
-"mas eles são todos bem fraquinhos."
+"Pessoas sempre esperam que um Duplicante com o nome \"{0}\" fosse durão, mas "
+"eles são todos bem fraquinhos."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.NAILS.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.NAILS.NAME"
@@ -23565,7 +23590,7 @@ msgid ""
 "A baked <link=\"PRICKLEFRUIT\">Bristle Berry</link> stuffed with delectable "
 "spices and vibrantly flavored."
 msgstr ""
-"Um <<link=\"PRICKLEFRUIT\">Fruto da Seda</link> assado e recheado com "
+"Um <link=\"PRICKLEFRUIT\">Fruto da Seda</link> assado e recheado com "
 "diversos temperos e com um gosto vibrante."
 
 #. STRINGS.ITEMS.FOOD.SPICEBREAD.DESC
@@ -27134,32 +27159,32 @@ msgstr "Ariadna"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.ASHLEY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.ASHLEY"
 msgid "Ashley"
-msgstr "Ashley"
+msgstr "Adriana"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.CATIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.CATIE"
 msgid "Catie"
-msgstr "Catie"
+msgstr "Carol"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.CHARLIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.CHARLIE"
 msgid "Charlie"
-msgstr "Charlie"
+msgstr "Carla"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.CRANDICE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.CRANDICE"
 msgid "Crandice"
-msgstr "Crandice"
+msgstr "Creuza"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.DANA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.DANA"
 msgid "Dana"
-msgstr "Dana"
+msgstr "Dani"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.ELASEBETE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.ELASEBETE"
 msgid "Elasebete"
-msgstr "Elasebete"
+msgstr "Elizabete"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.EMILY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.EMILY"
@@ -27169,12 +27194,12 @@ msgstr "Emily"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.EMMA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.EMMA"
 msgid "Emma"
-msgstr "Emma"
+msgstr "Ema"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.GENEVA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.GENEVA"
 msgid "Geneva"
-msgstr "Geneva"
+msgstr "Geovana"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.GISELDA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.GISELDA"
@@ -27184,7 +27209,7 @@ msgstr "Giselda"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.GRUNKTILDA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.GRUNKTILDA"
 msgid "Grunktilda"
-msgstr "Grunktilda"
+msgstr "Getrudes"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.JADE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.JADE"
@@ -27194,12 +27219,12 @@ msgstr "Jade"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.JENNA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.JENNA"
 msgid "Jenna"
-msgstr "Jenna"
+msgstr "Xena"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.JENNY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.JENNY"
 msgid "Jenny"
-msgstr "Jenny"
+msgstr "Jennifer"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.KELLY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.KELLY"
@@ -27209,17 +27234,17 @@ msgstr "Kelly"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.KELSEY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.KELSEY"
 msgid "Kelsey"
-msgstr "Kelsey"
+msgstr "Kristina"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.KIERSTEN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.KIERSTEN"
 msgid "Kiersten"
-msgstr "Kiersten"
+msgstr "Karine"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LANNIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LANNIE"
 msgid "Lannie"
-msgstr "Lannie"
+msgstr "Lene"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LAURA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LAURA"
@@ -27229,42 +27254,42 @@ msgstr "Laura"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LEIRA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LEIRA"
 msgid "Leira"
-msgstr "Leira"
+msgstr "Laisa"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LILAH
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LILAH"
 msgid "Lilah"
-msgstr "Lilah"
+msgstr "Lila"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LORNA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LORNA"
 msgid "Lorna"
-msgstr "Lorna"
+msgstr "Lohana"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LUCY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.LUCY"
 msgid "Lucy"
-msgstr "Lucy"
+msgstr "Lúcia"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.MAHA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.MAHA"
 msgid "Maha"
-msgstr "Maha"
+msgstr "Maiara"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.NABIEAH
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.NABIEAH"
 msgid "Nabie-Ah"
-msgstr "Nabie-Ah"
+msgstr "Naisa"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.NANA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.NANA"
 msgid "Nana"
-msgstr "Nana"
+msgstr "Nara"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.NASIM
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.NASIM"
 msgid "Nasim"
-msgstr "Nasim"
+msgstr "Nicole"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.PRISCILLA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.PRISCILLA"
@@ -27274,17 +27299,17 @@ msgstr "Priscilla"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.RACHEL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.RACHEL"
 msgid "Rachel"
-msgstr "Rachel"
+msgstr "Raquel"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.RINALDINE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.RINALDINE"
 msgid "Rinaldine"
-msgstr "Rinaldine"
+msgstr "Reinaldinha"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.SARAH
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.SARAH"
 msgid "Sarah"
-msgstr "Sarah"
+msgstr "Sara"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.SIMONE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.SIMONE"
@@ -27294,17 +27319,17 @@ msgstr "Simone"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.TONI
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.TONI"
 msgid "Toni"
-msgstr "Toni"
+msgstr "Tainá"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.VIVIAN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.VIVIAN"
 msgid "Vivian"
-msgstr "Vivian"
+msgstr "Viviane"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.WALANI
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.WALANI"
 msgid "Walani"
-msgstr "Walani"
+msgstr "Wanda"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.WENDY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.FEMALE.WENDY"
@@ -27329,42 +27354,42 @@ msgstr "Willow"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.ALEX
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.ALEX"
 msgid "Alex"
-msgstr "Alex"
+msgstr "Anderson"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.ALIA
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.ALIA"
 msgid "Alia"
-msgstr "Alia"
+msgstr "Abel"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.CHARLIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.CHARLIE"
 msgid "Charlie"
-msgstr "Charlie"
+msgstr "Charles"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.COREY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.COREY"
 msgid "Corey"
-msgstr "Corey"
+msgstr "Carlos"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.DANY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.DANY"
 msgid "Dany"
-msgstr "Dany"
+msgstr "Daniel"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.EUGENE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.EUGENE"
 msgid "Eugene"
-msgstr "Eugene"
+msgstr "Eugênio"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.GRAHAM
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.GRAHAM"
 msgid "Graham"
-msgstr "Graham"
+msgstr "Geovane"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.HINK
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.HINK"
 msgid "Hink"
-msgstr "Hink"
+msgstr "Heitor"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.HUGO
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.HUGO"
@@ -27379,77 +27404,77 @@ msgstr "Ian"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JAMBELL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JAMBELL"
 msgid "Jambell"
-msgstr "Jambell"
+msgstr "Jorge"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JAMIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JAMIE"
 msgid "Jamie"
-msgstr "Jamie"
+msgstr "Jessé"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JAN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JAN"
 msgid "Jan"
-msgstr "Jan"
+msgstr "Jonathas"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JARRETT
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JARRETT"
 msgid "Jarrett"
-msgstr "Jarrett"
+msgstr "Josiel"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JASON
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JASON"
 msgid "Jason"
-msgstr "Jason"
+msgstr "Joaquim"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JEFF
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JEFF"
 msgid "Jeff"
-msgstr "Jeff"
+msgstr "Jefferson"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JOE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JOE"
 msgid "Joe"
-msgstr "Joe"
+msgstr "João"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JULIAN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.JULIAN"
 msgid "Ju-Lian"
-msgstr "Ju-Lian"
+msgstr "Juliano"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.KERNLE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.KERNLE"
 msgid "Kernle"
-msgstr "Kernle"
+msgstr "Kaíque"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.KEVIN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.KEVIN"
 msgid "Kevin"
-msgstr "Kevin"
+msgstr "Kássio"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.LAWRY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.LAWRY"
 msgid "Lawry"
-msgstr "Lawry"
+msgstr "Leandro"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.LOU
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.LOU"
 msgid "Lou"
-msgstr "Lou"
+msgstr "Leonardo"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MARK
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MARK"
 msgid "Mark"
-msgstr "Mark"
+msgstr "Marcos"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MARTY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MARTY"
 msgid "Marty"
-msgstr "Marty"
+msgstr "Maicon"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MATT
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MATT"
 msgid "Matt"
-msgstr "Matt"
+msgstr "Matias"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MAXWELL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MAXWELL"
@@ -27459,57 +27484,57 @@ msgstr "Maxwell"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MAY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MAY"
 msgid "May"
-msgstr "May"
+msgstr "Michel"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MIKE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.MIKE"
 msgid "Mike"
-msgstr "Mike"
+msgstr "Miguel"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.PETER
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.PETER"
 msgid "Peter"
-msgstr "Peter"
+msgstr "Pedro"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.REDWARD
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.REDWARD"
 msgid "Redward"
-msgstr "Redward"
+msgstr "Ricardo"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.SCOTT
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.SCOTT"
 msgid "Scott"
-msgstr "Scott"
+msgstr "Santiago"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.SLOTH
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.SLOTH"
 msgid "Sloth"
-msgstr "Sloth"
+msgstr "Saulo"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.STENLAY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.STENLAY"
 msgid "Stenlay"
-msgstr "Stenlay"
+msgstr "Sebastião"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.TRAVALDO
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.TRAVALDO"
 msgid "Travaldo"
-msgstr "Travaldo"
+msgstr "Ismael"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.VINCE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.VINCE"
 msgid "Vince"
-msgstr "Vince"
+msgstr "Vicente"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.VITO
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.VITO"
 msgid "Vito"
-msgstr "Vito"
+msgstr "Vítor"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.WARLY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.WARLY"
 msgid "Warly"
-msgstr "Warly"
+msgstr "Wagner"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.WEBBER
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.WEBBER"
@@ -27534,92 +27559,92 @@ msgstr "Wolfgang"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.WOODIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.WOODIE"
 msgid "Woodie"
-msgstr "Woodie"
+msgstr "Wanderley"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.YOG
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.YOG"
 msgid "Yog"
-msgstr "Yog"
+msgstr "Yago"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.ACE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.ACE"
 msgid "Ace"
-msgstr "Ace"
+msgstr "Anael"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.ANDERSON
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.ANDERSON"
 msgid "Anderson"
-msgstr "Anderson"
+msgstr "Alex"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.AVERY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.AVERY"
 msgid "Avery"
-msgstr "Avery"
+msgstr "Alisson"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.AXEL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.AXEL"
 msgid "Axel"
-msgstr "Axel"
+msgstr "Adriel"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BABYFACE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BABYFACE"
 msgid "Babyface"
-msgstr "Cara de Bebê"
+msgstr "Bebê"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BAILEY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BAILEY"
 msgid "Bailey"
-msgstr "Bailey"
+msgstr "Berlim"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BAO
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BAO"
 msgid "Bao"
-msgstr "Bao"
+msgstr "Bru"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BLUMP
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BLUMP"
 msgid "Blump"
-msgstr "Blump"
+msgstr "Batista"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BOBBIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BOBBIE"
 msgid "Bobbie"
-msgstr "Bobbie"
+msgstr "BomBom"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BROOK
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BROOK"
 msgid "Brook"
-msgstr "Brook"
+msgstr "Benete"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BUDDY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.BUDDY"
 msgid "Buddy"
-msgstr "Buddy"
+msgstr "Boreal"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CAMPBELL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CAMPBELL"
 msgid "Campbell"
-msgstr "Campbell"
+msgstr "Chris"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CHAN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CHAN"
 msgid "Chan"
-msgstr "Chan"
+msgstr "Cacau"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CROMULUS
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CROMULUS"
 msgid "Cromulus"
-msgstr "Cromulus"
+msgstr "Calisto"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CRUDMUFFIN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CRUDMUFFIN"
 msgid "Crudmuffin"
-msgstr "Crudmuffin"
+msgstr "Castiel"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CRUMB
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.CRUMB"
 msgid "Crumb"
-msgstr "Crumb"
+msgstr "Céu"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.DANCER
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.DANCER"
@@ -27634,77 +27659,77 @@ msgstr "Edu"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.DUMPLING
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.DUMPLING"
 msgid "Dumpling"
-msgstr "Torta"
+msgstr "Empanada"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.FARAH
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.FARAH"
 msgid "Farah"
-msgstr "Farah"
+msgstr "Fabi"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.GEORGIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.GEORGIE"
 msgid "Georgie"
-msgstr "Georgie"
+msgstr "Giu"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.GREASY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.GREASY"
 msgid "Greasy"
-msgstr "Mecânico"
+msgstr "Lula"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.JUDE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.JUDE"
 msgid "Jude"
-msgstr "Jude"
+msgstr "Juca"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.JUPITER
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.JUPITER"
 msgid "Jupiter"
-msgstr "Jupiter"
+msgstr "Júpiter"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.KERRY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.KERRY"
 msgid "Kerry"
-msgstr "Kerry"
+msgstr "Kauane"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.KRIS
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.KRIS"
 msgid "Kris"
-msgstr "Kris"
+msgstr "Kim"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.LEE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.LEE"
 msgid "Lee"
-msgstr "Lee"
+msgstr "Lia"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.LOGAN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.LOGAN"
 msgid "Logan"
-msgstr "Logan"
+msgstr "Lucian"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.LOVELACE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.LOVELACE"
 msgid "Lovelace"
-msgstr "Sedutor"
+msgstr "Khalifa"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.LUNK
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.LUNK"
 msgid "Lunk"
-msgstr "Lunk"
+msgstr "Luz"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.MASON
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.MASON"
 msgid "Mason"
-msgstr "Mason"
+msgstr "Marte"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.MUSCLE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.MUSCLE"
 msgid "Muscle"
-msgstr "Músculo"
+msgstr "Mutante"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.ORION
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.ORION"
 msgid "Orion"
-msgstr "Órion"
+msgstr "Ozires"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.PARIS
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.PARIS"
@@ -27714,22 +27739,22 @@ msgstr "Paris"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.PAT
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.PAT"
 msgid "Pat"
-msgstr "Pat"
+msgstr "Pom"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.PEARSON
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.PEARSON"
 msgid "Pearson"
-msgstr "Pearson"
+msgstr "Prado"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.REESE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.REESE"
 msgid "Reese"
-msgstr "Reese"
+msgstr "Rezende"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SADSACK
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SADSACK"
 msgid "Sadsack"
-msgstr "Sadsack"
+msgstr "Santana"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SCOUT
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SCOUT"
@@ -27739,22 +27764,22 @@ msgstr "Vigia"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SELDEMER
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SELDEMER"
 msgid "Seldemer"
-msgstr "Seldemer"
+msgstr "Saturno"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SLAB
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SLAB"
 msgid "Slab"
-msgstr "Slab"
+msgstr "Laje"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SNORT
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SNORT"
 msgid "Snort"
-msgstr "Snort"
+msgstr "Sigma"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.STAR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.STAR"
 msgid "Star"
-msgstr "Star"
+msgstr "Shia"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SUNSHINE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SUNSHINE"
@@ -27769,12 +27794,12 @@ msgstr "Trator"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.TUCKER
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.TUCKER"
 msgid "Tucker"
-msgstr "Tucker"
+msgstr "Tainã"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.WEMP
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.WEMP"
 msgid "Wemp"
-msgstr "Wemp"
+msgstr "Wei"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.MS
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.MS"
@@ -27784,7 +27809,7 @@ msgstr "Srta."
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.OL_WOMAN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.OL_WOMAN"
 msgid "Ol' Woman"
-msgstr "Sra."
+msgstr "Velha"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.PRINCESS
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.FEMALE.PRINCESS"
@@ -27809,7 +27834,7 @@ msgstr "Sr."
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.MALE.OL_MAN
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.MALE.OL_MAN"
 msgid "Ol' Man"
-msgstr "Sr"
+msgstr "Velho "
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.MALE.PRINCE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.MALE.PRINCE"
@@ -27834,42 +27859,42 @@ msgstr "Coronel"
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.DR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.DR"
 msgid "Dr."
-msgstr "Dr."
+msgstr "Drx."
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.EVIL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.EVIL"
 msgid "Evil"
-msgstr "O(a) Vil"
+msgstr "Malignx"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.GOOD_OL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.GOOD_OL"
 msgid "Good Ol'"
-msgstr "Bom e velho"
+msgstr "Bom e Velho"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.MX
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.MX"
 msgid "Mx."
-msgstr "Sr(a)."
+msgstr "Seu"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.OLD
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.OLD"
 msgid "Old"
-msgstr "Velho"
+msgstr "Velhx"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.PEPPY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.PEPPY"
 msgid "Peppy"
-msgstr "Energético(a)"
+msgstr "Poderoso"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.PROFESSOR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.PROFESSOR"
 msgid "Professor"
-msgstr "Mestre"
+msgstr "Professor"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.SLICKITY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.SLICKITY"
 msgid "Slickity"
-msgstr "Liso(a)"
+msgstr "Monstruosx"
 
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.TINY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.TINY"
@@ -27879,17 +27904,17 @@ msgstr "Mini"
 #. STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.WUNDER
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.WUNDER"
 msgid "Wunder"
-msgstr "Milagroso(a)"
+msgstr "Milagrosx"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.FEMALE.THE_DUDETTE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.FEMALE.THE_DUDETTE"
 msgid "\"The Dudette\""
-msgstr "\"A Cara\""
+msgstr "\"A Mulher\""
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.MALE.THE_DUDE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.MALE.THE_DUDE"
 msgid "\"The Dude\""
-msgstr "\"O Cara\""
+msgstr "\"O Homão\""
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.JR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.JR"
@@ -27899,47 +27924,47 @@ msgstr "Jr."
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.MCCOOL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.MCCOOL"
 msgid "McCool"
-msgstr "da Hora"
+msgstr ", O Épico"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.SR
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.SR"
 msgid "Sr."
-msgstr "Sênior"
+msgstr ", O Lindo"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.STRONG
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.STRONG"
 msgid "Strong"
-msgstr "o Forte"
+msgstr ", O Forte"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_BAD
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_BAD"
 msgid "The Bad"
-msgstr "O(A) Vil"
+msgstr ", O Terrível"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_CHOSEN_ONE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_CHOSEN_ONE"
 msgid "The Chosen One"
-msgstr "O(A) Escolhido(a)"
+msgstr ", O Escolhido"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_EVIL
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_EVIL"
 msgid "The Evil"
-msgstr "O(A) Maligno(a)"
+msgstr ", O Maligno"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_GOOD
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_GOOD"
 msgid "The Good"
-msgstr "O Bom"
+msgstr ", O Bom"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_GREAT
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_GREAT"
 msgid "The Great"
-msgstr "O Ótimo"
+msgstr ", O Grande"
 
 #. STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_UGLY
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.SUFFIX.NB.THE_UGLY"
 msgid "The Ugly"
-msgstr "O Feio"
+msgstr ", O Feio"
 
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.ALL_GOOD_THINGS
 msgctxt "STRINGS.NAMEGEN.GRAVE.EPITAPHS.ALL_GOOD_THINGS"
@@ -27976,7 +28001,7 @@ msgctxt ""
 "STRINGS.NAMEGEN.GRAVE.EPITAPHS."
 "NEVER_ANOTHER_LIKE_THEM_UNTIL_WE_PRINT_ANOTHER_LIKE_THEM"
 msgid "Never another like them. Until we print another like them."
-msgstr "Não existiu outro igual. Até outro igual ser impresso."
+msgstr "Não existiu outro igual. Até a gente imprimir um outro igual."
 
 #. STRINGS.NAMEGEN.GRAVE.EPITAPHS.NOW_WELL_NEVER_KNOW_WHERE_THEY_BURIED_THE_TREASURE
 msgctxt ""
@@ -29890,7 +29915,7 @@ msgstr "<link=\"ARTIST\">Criatividade</link> do Duplicante"
 #, fuzzy
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESELEMENT"
 msgid "Supply of {0}"
-msgstr "Suprimento de {0}"
+msgstr "Suprir com {0}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASINPUT
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASINPUT"
@@ -30170,7 +30195,7 @@ msgstr "{0} estão presentes na produção deste gêiser."
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PERIOD
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PERIOD"
 msgid "This geyser will produce for {0} of every {1}"
-msgstr "Este gêiser produzirá {0} a cada {1}"
+msgstr "Este gêiser produzirá por {0} a cada {1}"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION"
@@ -32214,7 +32239,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.5.7)"
+"- Traduzido por Chastomber :P (1.5.8)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33775,7 +33800,7 @@ msgid ""
 msgstr ""
 "<b>Recursos da Atualização:</b>\n"
 "\n"
-"• Novas \"Formas de Criatura\" podem ser chocadas por reprodução cuidadosa\n"
+"• Novas \"Raças de Criatura\" podem ser chocadas por reprodução cuidadosa\n"
 "• Duas novas criaturas, Dreco e Pacu, podem ser encontradas em novos mundos\n"
 "• Modo Caixa de Areia permite você se tornar o mestre do asteroide\n"
 "• Novos controles de automação, canos e estruturas\n"
@@ -38830,7 +38855,7 @@ msgid ""
 "\n"
 "Click to grant permission"
 msgstr ""
-"Passar pela Esquerda por esta porta não é permitido\n"
+"Passar para Esquerda por esta porta não é permitido\n"
 "\n"
 "Clique para dar permissão"
 
@@ -38841,7 +38866,7 @@ msgid ""
 "\n"
 "Click to revoke permission"
 msgstr ""
-"Passar pela Esquerda por esta porta é permitido\n"
+"Passar para Esquerda por esta porta é permitido\n"
 "\n"
 "Clique para revogar permissão"
 
@@ -38852,7 +38877,7 @@ msgid ""
 "\n"
 "Click to grant permission"
 msgstr ""
-"Passar pela Direita por esta porta não é permitido\n"
+"Passar para Direita por esta porta não é permitido\n"
 "\n"
 "Clique para dar permissão"
 
@@ -38863,7 +38888,7 @@ msgid ""
 "\n"
 "Click to revoke permission"
 msgstr ""
-"Passar pela Direita por esta porta é permitido\n"
+"Passar para Direita por esta porta é permitido\n"
 "\n"
 "Clique para revogar permissão"
 
