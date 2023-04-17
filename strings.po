@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.5.3\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.5.4\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -7476,6 +7476,25 @@ msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.TITLE"
 msgid "Bristle Blossom"
 msgstr "Flor de Seda"
 
+#. STRINGS.CODEX.CLEANER.BODY.CONTAINER1
+#| msgid ""
+msgctxt "STRINGS.CODEX.CLEANER.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.CLEANER.SUBTITLE
+#, fuzzy
+#| msgctxt "STRINGS.CODEX.CRYSTAL.SUBTITLE"
+#| msgid "Critter Morph"
+msgctxt "STRINGS.CODEX.CLEANER.SUBTITLE"
+msgid "Critter Morph"
+msgstr "Variante da Criatura"
+
+#. STRINGS.CODEX.CLEANER.TITLE
+msgctxt "STRINGS.CODEX.CLEANER.TITLE"
+msgid "Gulp Fish"
+msgstr "Peixe Frio"
+
 #. STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1"
 msgid ""
@@ -7695,6 +7714,11 @@ msgstr "Receita"
 msgctxt "STRINGS.CODEX.HEADERS.ROLE_PERKS"
 msgid "Role Perks"
 msgstr "Traços do Trabalho"
+
+#. STRINGS.CODEX.HEADERS.SUBENTRIES
+msgctxt "STRINGS.CODEX.HEADERS.SUBENTRIES"
+msgid "Contents"
+msgstr "Itens"
 
 #. STRINGS.CODEX.HEADERS.TECH_UNLOCKS
 msgctxt "STRINGS.CODEX.HEADERS.TECH_UNLOCKS"
@@ -8876,13 +8900,13 @@ msgid ""
 "speed.\n"
 "\n"
 "Their backsides are covered in thick woolly fibers that only grow in <link="
-"\"CHLORINE\">Chlorine</link> climates."
+"\"HYDROGEN\">Hydrogen</link> climates."
 msgstr ""
 "Osgas são criaturas escorregadias que podem subir pelas paredes com uma "
 "velocidade incrível.\n"
 "\n"
 "As suas costas são cobertas de fibras grossas que só crescem em ambientes "
-"com <link=\"CHLORINE\">Cloro</link>."
+"com <link=\"HYDROGEN\">Hidrogênio</link>."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME"
@@ -8917,13 +8941,13 @@ msgid ""
 "unexpected speed.\n"
 "\n"
 "Their backsides are covered in bioplastic scales that only grow in <link="
-"\"CHLORINE\">Chlorine</link> climates."
+"\"HYDROGEN\">Hydrogen</link> climates."
 msgstr ""
 "Osgas Plásticas são criaturas escorregadias que podem subir pelas paredes "
 "com uma velocidade incrível.\n"
 "\n"
 "As suas costas são cobertas de escamas de bioplástico que só crescem em "
-"ambientes com <link=\"CHLORINE\">Cloro</link>."
+"ambientes com <link=\"HYDROGEN\">Hidrogênio</link>."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME"
@@ -18560,6 +18584,33 @@ msgstr "Em Quarentena"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINED.TOOLTIP"
 msgid "This Duplicant has been isolated from the colony"
 msgstr "Este Duplicante foi isolado da colônia"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NAME"
+msgid "Food Not Permitted"
+msgstr "Comida Não Permitida"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_NAME"
+msgid "Unpermitted food"
+msgstr "Comida não permitida"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_TOOLTIP
+msgctxt ""
+"STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.NOTIFICATION_TOOLTIP"
+msgid ""
+"These Duplicants are not allowed to eat any of the <link=\"FOOD\">Food</"
+"link> within their reach:"
+msgstr ""
+"Estes Duplicantes não estão permitidos de comer nenhuma das <link=\"FOOD"
+"\">Comidas</link> dentro do seu alcance:"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSNOTPERMITTED.TOOLTIP"
+msgid "This Duplicant is not allowed to eat any of the food they can reach."
+msgstr ""
+"Este Duplicante não está permitido de comer nenhuma das comidas que ele pode "
+"alcançar."
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.RATIONSUNREACHABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RATIONSUNREACHABLE.NAME"
@@ -29851,6 +29902,16 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.RESEARCH_MATERIALS"
 msgid "{0}: {1} per <link=\"RESEARCH\">Research</link> point"
 msgstr "{0}: {1} por ponto de <link=\"RESEARCH\">Pesquisa</link>"
 
+#. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH"
+msgid "Shearable {Item}: {Amount} per {Time}"
+msgstr "{Item} tosquiável: {Amount} por {Time}"
+
+#. STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.SCALE_GROWTH_ATMO"
+msgid "Shearable {Item}: {Amount} per {Time} ({Atmosphere})"
+msgstr "{Item} tosquiável: {Amount} por {Time} ({Atmosphere})"
+
 #. STRINGS.UI.BUILDINGEFFECTS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.STORAGECAPACITY"
 msgid "Storage capacity: {0}"
@@ -30397,6 +30458,24 @@ msgid ""
 "This research station consumes {1} of {0} for each research point produced"
 msgstr ""
 "Esta estação de pesquisa consome {1} de {0} por ponto de pesquisa produzido"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH"
+msgid "This critter can be sheared every {Time} to produce {Amount} {Item}"
+msgstr ""
+"Esta criatura pode ser tosquiada a cada {Time} para produzir {Amount} {Item}"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.SCALE_GROWTH_ATMO"
+msgid ""
+"This critter can be sheared every {Time} to produce {Amount} {Item}\n"
+"\n"
+"An atmosphere of {Atmosphere} is required to stimulate growth"
+msgstr ""
+"Esta criatura pode ser tosquiada a cada {Time} para produzir {Amount} "
+"{Item}\n"
+"\n"
+"Uma atmosfera de {Atmosphere} é necessária para estimular o crescimento"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
@@ -32079,7 +32158,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.5.3)"
+"- Traduzido por Chastomber :P (1.5.4)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
