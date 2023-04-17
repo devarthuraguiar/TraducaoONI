@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.11\n"
+"Project-Id-Version: Português foi Incluído! 1.11.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur <arthur.aguiar151@gmail.com>\n"
@@ -9355,21 +9355,19 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.EFFECT"
 msgid ""
-"Maps Starmap destinations and produces <link=\"RESEARCHDATABANK\">Databanks</"
-"link>.\n"
+"Maps Starmap destinations.\n"
 "\n"
 "Assigned Duplicants must possess the <link=\"RESEARCHER\">Geographical "
 "Analysis</link> trait.\n"
 "\n"
 "Building must be exposed to space to function."
 msgstr ""
-"Mapeia destinos do Mapa Estelar e produz <link=\"RESEARCHDATABANK\">Pesquisa "
-"Interestelar</link>.\n"
+"Mapeia destinos do Mapa Estelar.\n"
 "\n"
 "Duplicantes Designados precisam possuir o traço <link=\"RESEARCHER\">Análise "
 "Geográfica</link>.\n"
 "\n"
-"Precisa estar exposto ao espaço para funcionar."
+"Estrutura precisa estar exposta ao espaço para funcionar."
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.NAME"
@@ -10064,7 +10062,6 @@ msgid "Mining Gun Promo"
 msgstr "Anúncio da Arma Mineradora"
 
 #. STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER1
-#| msgid ""
 msgctxt "STRINGS.CODEX.A0_PROPFACILITYDISPLAY3.BODY.CONTAINER1"
 msgid ""
 msgstr ""
@@ -16470,11 +16467,11 @@ msgstr "<link=\"GEYSERGENERICHOTSTEAM\">Fumarola de Vapor</link>"
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC"
 msgid ""
-"A highly pressurized geyser that periodically erupts with hot <link=\"STEAM"
-"\">Steam</link>."
+"A highly pressurized geyser that periodically erupts with hot <link=\"WATER"
+"\">Water</link>."
 msgstr ""
-"Um gêiser altamente pressurizado que periodicamente irrompe liberando <link="
-"\"STEAM\">Vapor</link> quente."
+"Um gêiser altamente pressurizado que irrompe periodicamente liberando <link="
+"\"WATER\">Água</link>."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.NAME"
@@ -16750,11 +16747,13 @@ msgstr "<link=\"HATCHMETAL\">Mucurinha Suave</link>"
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.DESC"
 msgid ""
-"Smooth Hatches excrete solid <link=\"COPPER\">Copper</link> as waste and "
-"enjoy burrowing into the ground."
+"Smooth Hatches enjoy burrowing into the ground and excrete <link="
+"\"REFINEDMETAL\">Refined Metal</link> when fed <link=\"RAWMETAL\">Metal Ore</"
+"link>."
 msgstr ""
-"Mucuras Suaves excretam <link=\"COPPER\">Cobre</link> como resíduo e adoram "
-"se enterrar no chão."
+"Mucuras Suaves adoram se enterrar no chão e excretam <link=\"REFINEDMETAL"
+"\">Metais Refinados</link> quando alimentadas com <link=\"RAWMETAL\">Metais "
+"Brutos</link>."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.EGG_NAME"
@@ -19455,7 +19454,7 @@ msgstr "Taxa de Consumo de Ar"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ART.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.ART.DESC"
-msgid "Determines the speed at which a Duplicant creates artwork."
+msgid "Determines how quickly a Duplicant can produce artwork."
 msgstr "Determina a velocidade ao qual um Duplicante cria obras de arte."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.ART.NAME
@@ -19509,7 +19508,7 @@ msgstr "{0} Chance de Sementes"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.BOTANIST.DESC"
-msgid "Determines how quickly and efficiently a Duplicant raises plants."
+msgid "Determines how quickly and efficiently a Duplicant cultivates plants."
 msgstr ""
 "Determina o quão rápido e eficiente um Duplicante é ao cultivar plantas."
 
@@ -19554,9 +19553,7 @@ msgstr "Taxa de Queima Calórica"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.CARING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.CARING.DESC"
-msgid ""
-"Determines medical skill and how well a Duplicant works with peers and "
-"critters."
+msgid "Determines medical skill and sociability with peers and critters."
 msgstr ""
 "Determina habilidade médica e quão bem um Duplicante trabalha com seus "
 "colegas e criaturas."
@@ -19913,7 +19910,7 @@ msgstr "Suporte à Vida"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.DESC"
-msgid "Determines how adeptly a Duplicant uses machines."
+msgid "Determines how quickly a Duplicant uses machines."
 msgstr "Determina o quão adepto um Duplicante é com máquinas."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERY.NAME
@@ -20055,7 +20052,7 @@ msgstr "Necessidade de Moral"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.DESC"
-msgid "Determines how quickly and efficiently a Duplicant raises critters."
+msgid "Determines how quickly and efficiently a Duplicant tends critters."
 msgstr ""
 "Determina o quão rápido e eficiente um Duplicante é ao cuidar de criaturas."
 
@@ -20127,12 +20124,8 @@ msgstr "{0} Capacidade de Carga"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.DESC"
-msgid ""
-"Determines a Duplicant's carrying capacity, and how much elbow grease they "
-"can put into cleaning errands."
-msgstr ""
-"Determina a capacidade de carga de um Duplicante e o quanto de esforço eles "
-"conseguem dar ao fazer tarefas de limpeza."
+msgid "Determines a Duplicant's carrying capacity and cleaning speed."
+msgstr "Determina a velocidade de mineração do Duplicante."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.NAME"
@@ -20574,7 +20567,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.CHORES.BUILDFETCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDFETCH.NAME"
 msgid "Construction Supply"
-msgstr "Suprindo Construção"
+msgstr "Suprir Construção"
 
 #. STRINGS.DUPLICANTS.CHORES.BUILDFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.BUILDFETCH.STATUS"
@@ -20664,11 +20657,9 @@ msgid "This Duplicant is cooking food"
 msgstr "Este Duplicante está cozinhando comida"
 
 #. STRINGS.DUPLICANTS.CHORES.COOKFETCH.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDPUMPINGSTATION.NAME"
-#| msgid "Pitcher Pump"
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOKFETCH.NAME"
 msgid "Kitchen Supply"
-msgstr "Suprindo Cozinha"
+msgstr "Suprir Cozinha"
 
 #. STRINGS.DUPLICANTS.CHORES.COOKFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.COOKFETCH.STATUS"
@@ -20860,7 +20851,8 @@ msgstr "Soltando inventário não usado"
 #. STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.DROPUNUSEDINVENTORY.TOOLTIP"
 msgid "This Duplicant is dropping carried items they no longer need"
-msgstr "Este Duplicante está soltando itens que ele não precisa mais"
+msgstr ""
+"Este Duplicante está soltando itens carregados que ele não precisa mais"
 
 #. STRINGS.DUPLICANTS.CHORES.EAT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.EAT.NAME"
@@ -20978,16 +20970,14 @@ msgstr "Este Duplicante está fabricando alguma coisa"
 #. STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.NAME"
 msgid "Manufacturing Supply"
-msgstr "Suprindo Fabricação"
+msgstr "Suprir Fabricação"
 
 #. STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.REPORT_NAME"
 msgid "Manufacturing Supply to {0}"
-msgstr "Suprindo Fabricação para {0}"
+msgstr "Suprir Fabricação para {0}"
 
 #. STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.STATUS
-#| msgctxt "STRINGS.MISC.TAGS.MANUFACTUREDMATERIAL"
-#| msgid "Manufactured Material"
 msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATEFETCH.STATUS"
 msgid "Supplying Manufacturing Materials"
 msgstr "Suprindo com Materiais Fabricados"
@@ -20999,11 +20989,9 @@ msgstr ""
 "Este Duplicante está entregando materiais para onde eles são necessários"
 
 #. STRINGS.DUPLICANTS.CHORES.FARMFETCH.NAME
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.WARMINGUP.NAME"
-#| msgid "Warming up"
 msgctxt "STRINGS.DUPLICANTS.CHORES.FARMFETCH.NAME"
 msgid "Farming Supply"
-msgstr "Suprindo Agricultura"
+msgstr "Suprir Agricultura"
 
 #. STRINGS.DUPLICANTS.CHORES.FARMFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FARMFETCH.STATUS"
@@ -21055,12 +21043,12 @@ msgstr "Este Duplicante Fazendeiro está movendo uma criatura"
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.NAME"
 msgid "Life Support Supply"
-msgstr "Suprindo Suporte à Vida"
+msgstr "Suprir Suporte à Vida"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.REPORT_NAME"
 msgid "Life Support Supply to {0}"
-msgstr "Suprindo Suporte à Vida para {0}"
+msgstr "Suprir Suporte à Vida para {0}"
 
 #. STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHCRITICAL.STATUS"
@@ -21125,8 +21113,6 @@ msgstr ""
 "Dormir no chão dará aos Duplicantes uma bela Dor nas Costas"
 
 #. STRINGS.DUPLICANTS.CHORES.FOODFETCH.NAME
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.GOODEATS.NAME"
-#| msgid "Soul Food"
 msgctxt "STRINGS.DUPLICANTS.CHORES.FOODFETCH.NAME"
 msgid "Store Food"
 msgstr "Armazenar Comida"
@@ -21137,15 +21123,11 @@ msgid "Store {0}"
 msgstr "Armazenar {0}"
 
 #. STRINGS.DUPLICANTS.CHORES.FOODFETCH.STATUS
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.RATIONBOXCONTENTS.NAME"
-#| msgid "Storing: {Stored}"
 msgctxt "STRINGS.DUPLICANTS.CHORES.FOODFETCH.STATUS"
 msgid "Storing Food"
 msgstr "Armazenando Comida"
 
 #. STRINGS.DUPLICANTS.CHORES.FOODFETCH.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DANCING.TOOLTIP"
-#| msgid "This Duplicant is getting down with their bad self"
 msgctxt "STRINGS.DUPLICANTS.CHORES.FOODFETCH.TOOLTIP"
 msgid "This Duplicant is putting edibles where they belong"
 msgstr "Este Duplicante está colocando a comida onde deve ser colocada"
@@ -21227,6 +21209,11 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.IDLE.TOOLTIP"
 msgid "This Duplicant cannot reach any pending errands"
 msgstr "Este Duplicante não consegue alcançar nenhuma das tarefas pendentes"
 
+#. STRINGS.DUPLICANTS.CHORES.IS_DEAD_TASK
+msgctxt "STRINGS.DUPLICANTS.CHORES.IS_DEAD_TASK"
+msgid "Uhh... 'Sleeping'"
+msgstr "Ahnn... 'Dormindo'"
+
 #. STRINGS.DUPLICANTS.CHORES.LIQUIDCOOLEDFAN.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.LIQUIDCOOLEDFAN.NAME"
 msgid "Use Fan"
@@ -21243,16 +21230,16 @@ msgid "This Duplicant is attempting to cool down the area"
 msgstr "Este Duplicante está tentando esfriar a área"
 
 #. STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.NAME
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.ADJECTIVE.OPERATIONAL"
-#| msgid "Operational"
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.NAME"
 msgid "Operational Supply"
-msgstr "Suprindo Operacionais"
+msgstr "Suprir Operacional"
 
 #. STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.REPORT_NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.REPORT_NAME"
 msgid "Operational Supply to {0}"
-msgstr "Suprindo Operacionais para {0}"
+msgstr "Suprir Operacional para {0}"
 
 #. STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.MACHINEFETCH.STATUS"
@@ -21374,6 +21361,13 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.NARCOLEPSY.TOOLTIP"
 msgid "Zzzzzz..."
 msgstr "Zzzzzz..."
 
+#. STRINGS.DUPLICANTS.CHORES.NOT_EXISTING_TASK
+#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTTING.NAME"
+#| msgid "Rotting"
+msgctxt "STRINGS.DUPLICANTS.CHORES.NOT_EXISTING_TASK"
+msgid "Not Existing"
+msgstr "Não Existente"
+
 #. STRINGS.DUPLICANTS.CHORES.PEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PEE.NAME"
 msgid "Relieve Self"
@@ -21407,7 +21401,7 @@ msgstr "Manusear estruturas melhora sua funcionalidade"
 #. STRINGS.DUPLICANTS.CHORES.POWERFETCH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWERFETCH.NAME"
 msgid "Power Supply"
-msgstr "Suprindo Energia"
+msgstr "Suprir Energia"
 
 #. STRINGS.DUPLICANTS.CHORES.POWERFETCH.REPORT_NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWERFETCH.REPORT_NAME"
@@ -21415,8 +21409,6 @@ msgid "Power Supply to {0}"
 msgstr "Suprir Energia para {0}"
 
 #. STRINGS.DUPLICANTS.CHORES.POWERFETCH.STATUS
-#| msgctxt "STRINGS.MISC.TAGS.SOLIDMATERIAL"
-#| msgid "Solid Material"
 msgctxt "STRINGS.DUPLICANTS.CHORES.POWERFETCH.STATUS"
 msgid "Supplying Power Materials"
 msgstr "Suprindo com Materiais de Energia"
@@ -21827,8 +21819,6 @@ msgid "Repair Supply"
 msgstr "Suprir Reparos"
 
 #. STRINGS.DUPLICANTS.CHORES.REPAIRFETCH.STATUS
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORREPAIRMATERIALS.NAME"
-#| msgid "Awaiting Repair Material Delivery"
 msgctxt "STRINGS.DUPLICANTS.CHORES.REPAIRFETCH.STATUS"
 msgid "Supplying Repair Materials"
 msgstr "Suprindo com Materiais de Reparos"
@@ -21878,8 +21868,6 @@ msgid "Research Supply"
 msgstr "Suprindo Pesquisa"
 
 #. STRINGS.DUPLICANTS.CHORES.RESEARCHFETCH.STATUS
-#| msgctxt "STRINGS.RESEARCH.MESSAGING.MISSING_RESEARCH_STATION"
-#| msgid "Missing Research Station"
 msgctxt "STRINGS.DUPLICANTS.CHORES.RESEARCHFETCH.STATUS"
 msgid "Supplying Research Materials"
 msgstr "Suprindo com Materiais de Pesquisa"
@@ -22005,29 +21993,21 @@ msgid "Zzzzzz..."
 msgstr "Zzzzzz..."
 
 #. STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.NAME
-#| msgctxt "STRINGS.MISC.TAGS.RAREMATERIALS"
-#| msgid "Rare Material"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.NAME"
 msgid "Store Materials"
 msgstr "Armazenar Materiais"
 
 #. STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.REPORT_NAME
-#| msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY"
-#| msgid "Morale: {0}"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.REPORT_NAME"
 msgid "Store {0}"
 msgstr "Armazenar {0}"
 
 #. STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.STATUS
-#| msgctxt "STRINGS.MISC.TAGS.SOLIDMATERIAL"
-#| msgid "Solid Material"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.STATUS"
 msgid "Storing Materials"
 msgstr "Armazenando Materiais"
 
 #. STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BREAKDELIVERSTATUS.TOOLTIP"
-#| msgid "This Duplicant is transporting materials to {Target}"
 msgctxt "STRINGS.DUPLICANTS.CHORES.STORAGEFETCH.TOOLTIP"
 msgid "This Duplicant is putting materials in to storage for use later"
 msgstr ""
@@ -22131,18 +22111,18 @@ msgstr ""
 "longe"
 
 #. STRINGS.DUPLICANTS.CHORES.THINKING.NAME
+#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.PREFIX.NB.WUNDER"
+#| msgid "Wunder"
 msgctxt "STRINGS.DUPLICANTS.CHORES.THINKING.NAME"
-msgid "Thinking"
-msgstr "Pensando"
+msgid "Ponder"
+msgstr "Ponderar"
 
 #. STRINGS.DUPLICANTS.CHORES.THINKING.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.THINKING.STATUS"
-msgid "Thinking"
-msgstr "Pensando"
+msgid "Pondering"
+msgstr "Ponderando"
 
 #. STRINGS.DUPLICANTS.CHORES.THINKING.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.CLEANTOILET.TOOLTIP"
-#| msgid "This Duplicant is cleaning out the Outhouse"
 msgctxt "STRINGS.DUPLICANTS.CHORES.THINKING.TOOLTIP"
 msgid "This Duplicant is thinking about what to do"
 msgstr "Este Duplicante está pensando no que fazer"
@@ -32454,8 +32434,6 @@ msgid "Temporary container"
 msgstr "Armazenador temporário"
 
 #. STRINGS.ITEMS.CARGO_CAPSULE.NAME
-#| msgctxt "STRINGS.UI.STARMAP.COMPONENT.CARGO_BAY"
-#| msgid "Cargo Bay"
 msgctxt "STRINGS.ITEMS.CARGO_CAPSULE.NAME"
 msgid "Cargo Capsule"
 msgstr "Cápsula de Carga"
@@ -35179,6 +35157,18 @@ msgstr ""
 "Objeto está marcado e será movido para compostagem assim que um Duplicante "
 "estiver disponível"
 
+#. STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOSTINSTORAGE.NAME
+msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOSTINSTORAGE.NAME"
+msgid "Composted"
+msgstr "Compostado"
+
+#. STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOSTINSTORAGE.TOOLTIP
+#| msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALTEMPERATURE.TOOLTIP"
+#| msgid "The selected object is currently {Temp}"
+msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORCOMPOSTINSTORAGE.TOOLTIP"
+msgid "The selected object is currently in the compost"
+msgstr "O objeto selecionado está atualmente na composteira"
+
 #. STRINGS.MISC.STATUSITEMS.MARKEDFORDISINFECTION.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.MARKEDFORDISINFECTION.NAME"
 msgid "Disinfect Errand"
@@ -35800,6 +35790,13 @@ msgstr "Material Fabricado"
 msgctxt "STRINGS.MISC.TAGS.MARKEDFORCOMPOST"
 msgid "Marked For Compost"
 msgstr "Marcado Para Compostagem"
+
+#. STRINGS.MISC.TAGS.MARKEDFORCOMPOSTINSTORAGE
+#| msgctxt "STRINGS.DUPLICANTS.CHORES.EMPTYSTORAGE.NAME"
+#| msgid "Empty Storage"
+msgctxt "STRINGS.MISC.TAGS.MARKEDFORCOMPOSTINSTORAGE"
+msgid "In Compost Storage"
+msgstr "Na Armazenagem da Composteira"
 
 #. STRINGS.MISC.TAGS.MASSAGE_TABLE
 msgctxt "STRINGS.MISC.TAGS.MASSAGE_TABLE"
@@ -37005,6 +37002,11 @@ msgstr "Anderson"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.ALIA"
 msgid "Alia"
 msgstr "Abel"
+
+#. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.BRYCE
+msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.BRYCE"
+msgid "Bryce"
+msgstr ""
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.CHARLIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.CHARLIE"
@@ -42710,7 +42712,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.11)"
+"- Traduzido por Chastomber :P (1.11.1)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -43193,8 +43195,8 @@ msgstr "Tempo Ocioso:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP"
-msgid "My Duplicants spent a total of {0} idling over the course of the day"
-msgstr "Meus Duplicantes passaram um total de {0} ociosos ao longo do dia"
+msgid "On average, my Duplicants {0} of their time idling"
+msgstr "Em média, meus Duplicantes gastam {0} do tempo ociosos"
 
 #. STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.LEVEL_UP.NAME"
@@ -43270,6 +43272,13 @@ msgstr ""
 "{0}\n"
 "{1}: {2}"
 
+#. STRINGS.UI.ENDOFDAYREPORT.NOTES.PERSONAL_TIME
+#| msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET"
+#| msgid "{0}"
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.PERSONAL_TIME"
+msgid "{0}"
+msgstr ""
+
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.ROTTED
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.ROTTED"
 msgid "Rotten {0}"
@@ -43282,6 +43291,13 @@ msgstr "Estragado"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NOTES.TIME_SPENT
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.TIME_SPENT"
+msgid "{0}"
+msgstr ""
+
+#. STRINGS.UI.ENDOFDAYREPORT.NOTES.WORK_TIME
+#| msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_TARGET"
+#| msgid "{0}"
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.WORK_TIME"
 msgid "{0}"
 msgstr ""
 
@@ -43318,6 +43334,21 @@ msgstr ""
 "Minha colônia produziu {0} de <link=\"OXYGEN\">Oxigênio</link> ao longo do "
 "dia"
 
+#. STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.NAME
+#| msgctxt "STRINGS.UI.JOBSSCREEN.PRIORITY_CLASS.PERSONAL_NEEDS"
+#| msgid "Personal Needs"
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.NAME"
+msgid "Personal Time:"
+msgstr "Tempo Pessoal:"
+
+#. STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.PERSONAL_TIME.POSITIVE_TOOLTIP"
+msgid ""
+"On average, my Duplicants spent {0} of their time tending to personal needs"
+msgstr ""
+"Em média, meus Duplicantes gastam {0} do tempo cuidando de suas necessidades "
+"pessoais"
+
 #. STRINGS.UI.ENDOFDAYREPORT.PREV
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.PREV"
 msgid "Prev"
@@ -43351,18 +43382,6 @@ msgstr ""
 "O <link=\"STRESS\">Estresse</link> total da minha colônia foi aumentado em "
 "{0}"
 
-#. STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME
-msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME"
-msgid "Time Breakdown:"
-msgstr "Tempo Gasto:"
-
-#. STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP
-msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP"
-msgid ""
-"My Duplicants spent a total of {0} doing errands over the course of the day"
-msgstr ""
-"Meus Duplicantes passaram um total de {0} fazendo tarefas ao longo do dia"
-
 #. STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TOILET_INCIDENT.NAME"
 msgid "Restroom Accidents:"
@@ -43381,11 +43400,8 @@ msgstr "Tempo de Viagem:"
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP"
 msgid ""
-"My Duplicants spent a total of {0} traveling between errands throughout of "
-"the day"
-msgstr ""
-"Meus Duplicantes gastaram um total de {0} viajando entre tarefas ao longo do "
-"dia"
+"On average, my Duplicants spent {0} of their time travelling between tasks"
+msgstr "Em média, meus Duplicantes gastam {0} do tempo viajando entre tarefas"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_MESSAGE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_MESSAGE"
@@ -43397,11 +43413,19 @@ msgstr ""
 "tarefas. (> {0})"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_TITLE
-#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.IRONCOMET.NAME"
-#| msgid "Iron Comet"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_TITLE"
 msgid "Long Commutes"
 msgstr "Longas Viagens"
+
+#. STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.NAME
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.NAME"
+msgid "Working Time:"
+msgstr "Tempo Trabalhando:"
+
+#. STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.POSITIVE_TOOLTIP
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.WORK_TIME.POSITIVE_TOOLTIP"
+msgid "On average, my Duplicants spent {0} of their time working"
+msgstr "Em média, meus Duplicantes gastam {0} do tempo trabalhando"
 
 #. STRINGS.UI.EQUIPMENTTAB_HELD
 msgctxt "STRINGS.UI.EQUIPMENTTAB_HELD"
@@ -45680,8 +45704,6 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #. STRINGS.UI.IMMIGRANTSCREEN.CARE_PACKAGE_ELEMENT_COUNT
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE"
-#| msgid "{0} at {1}"
 msgctxt "STRINGS.UI.IMMIGRANTSCREEN.CARE_PACKAGE_ELEMENT_COUNT"
 msgid "{0} x {1}"
 msgstr ""
@@ -51299,6 +51321,11 @@ msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_ATTACHPOINT"
 msgid "Must be built overlapping an {0}"
 msgstr "Precisa ser construído extrapolando uma {0}"
 
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_BACK_WALL
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_BACK_WALL"
+msgid "Obstructed by back wall"
+msgstr "Obstruído por parede de fundo"
+
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CEILING
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CEILING"
 msgid "Must be built on the ceiling"
@@ -51359,11 +51386,6 @@ msgstr "Não pode ser construído dentro de um bloco"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_OCCUPIED"
 msgid "Must be built in unoccupied space"
 msgstr "Precisa ser construído em espaço não ocupado"
-
-#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_PLATE_OBSTRUCTION
-msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_PLATE_OBSTRUCTION"
-msgid "Obstructed by Tempshift Plate"
-msgstr "Obstruído por Placa de Condução Térmica"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OVERLAP
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OVERLAP"
@@ -52548,8 +52570,6 @@ msgid "Recipe Details"
 msgstr "Detalhes da Receita"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_QUEUE
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FERTILITYDELTA.NAME"
-#| msgid "Reproduction Rate"
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_QUEUE"
 msgid "Order Production Quantity:"
 msgstr "Quantidade de Ordens de Produção:"
@@ -52787,8 +52807,6 @@ msgid " or "
 msgstr " ou "
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_GROUP_TYPE
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.NOTES.GERMS"
-#| msgid "On {0}"
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_GROUP_TYPE"
 msgid " -- {0}"
 msgstr ""
@@ -52810,11 +52828,120 @@ msgstr "Si próprio"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TITLE"
-msgid "'To Do' List"
-msgstr "Lista 'O que Fazer'"
+msgid "\"To Do\" List"
+msgstr "Lista \"O que Fazer\""
 
-#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP
-msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP"
+#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_COMPULSORY
+#| msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP"
+#| msgid ""
+#| "{Description}\n"
+#| "\n"
+#| "{Errand}'s Type: {Groups}\n"
+#| "\n"
+#| "{Name}'s {BestGroup} Priority: {PersonalPriorityValue} "
+#| "({PersonalPriority})\n"
+#| "{Building} Priority: {BuildingPriority}\n"
+#| "All {BestGroup} Errands: {TypePriority}\n"
+#| "\n"
+#| "Total Priority: {TotalPriority}"
+msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_COMPULSORY"
+msgid ""
+"{Description}\n"
+"\n"
+"{Errand} is a Compulsory action, and so will happen immediately.\n"
+"\n"
+"Compulsory: {ClassPriority}\n"
+"All {BestGroup} Errands: {TypePriority}\n"
+"\n"
+"Total Priority: {TotalPriority}"
+msgstr ""
+"{Description}\n"
+"\n"
+"{Errand} é uma ação Compulsória, e então acontecerá imediatamente.\n"
+"\n"
+"Compulsória: {ClassPriority}\n"
+"Todas {BestGroup} Tarefas: {TypePriority}\n"
+"\n"
+"Prioridade Total: {TotalPriority}"
+
+#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_ACTIVE
+msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_ACTIVE"
+msgid "{Name} is currently working on \"{Errand}\"."
+msgstr "{Name} está trabalhando atualmente em \"{Errand}\"."
+
+#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_INACTIVE
+msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_INACTIVE"
+msgid ""
+"{Name} could work on \"{Errand}\", but it's not their top priority right now."
+msgstr ""
+"{Name} poderia trabalhar em \"{Errand}\", mas não é sua prioridade mais alta "
+"no momento."
+
+#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_EMERGENCY
+#| msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP"
+#| msgid ""
+#| "{Description}\n"
+#| "\n"
+#| "{Errand}'s Type: {Groups}\n"
+#| "\n"
+#| "{Name}'s {BestGroup} Priority: {PersonalPriorityValue} "
+#| "({PersonalPriority})\n"
+#| "{Building} Priority: {BuildingPriority}\n"
+#| "All {BestGroup} Errands: {TypePriority}\n"
+#| "\n"
+#| "Total Priority: {TotalPriority}"
+msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_EMERGENCY"
+msgid ""
+"{Description}\n"
+"\n"
+"{Errand} is an Emergency errand, and so will be performed before all Regular "
+"and Personal chores.\n"
+"\n"
+"Emergency : {ClassPriority}\n"
+"{Building} Priority: {BuildingPriority}\n"
+"All {BestGroup} Errands: {TypePriority}\n"
+"\n"
+"Total Priority: {TotalPriority}"
+msgstr ""
+"{Description}\n"
+"\n"
+"{Errand} é uma tarefa Emergencial, e será realizada antes de todas as "
+"tarefas Normais e Pessoais.\n"
+"\n"
+"Emergencial : {ClassPriority}\n"
+"{Building} Prioridade: {BuildingPriority}\n"
+"Todas {BestGroup} Tarefas: {TypePriority}\n"
+"\n"
+"Prioridade Total: {TotalPriority}"
+
+#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_IDLE
+msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_IDLE"
+msgid ""
+"{Name} is currently idle.\n"
+"\n"
+"Duplicants will only {Errand} when there is nothing else for them to do.\n"
+"\n"
+"Idle: {ClassPriority}\n"
+"All {BestGroup} Errands: {TypePriority}\n"
+"\n"
+"Total Priority: {TotalPriority}"
+msgstr ""
+"{Name} está ocioso no momento.\n"
+"\n"
+"Duplicantes só irão {Errand} quando não houver nada para eles fazerem.\n"
+"\n"
+"Ocioso: {ClassPriority}\n"
+"Todas {BestGroup} Tarefas: {TypePriority}\n"
+"\n"
+"Prioridade Total: {TotalPriority}"
+
+#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NA
+msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NA"
+msgid "--"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NORMAL
+msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NORMAL"
 msgid ""
 "{Description}\n"
 "\n"
@@ -52837,25 +52964,40 @@ msgstr ""
 "\n"
 "Prioridade Total: {TotalPriority}"
 
-#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_ACTIVE
-msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_ACTIVE"
-msgid "{Name} is currently working on '{Errand}'."
-msgstr "{Name} está trabalhando atualmente em '{Errand}'."
-
-#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_INACTIVE
-msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_DESC_INACTIVE"
+#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_PERSONAL
+#| msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP"
+#| msgid ""
+#| "{Description}\n"
+#| "\n"
+#| "{Errand}'s Type: {Groups}\n"
+#| "\n"
+#| "{Name}'s {BestGroup} Priority: {PersonalPriorityValue} "
+#| "({PersonalPriority})\n"
+#| "{Building} Priority: {BuildingPriority}\n"
+#| "All {BestGroup} Errands: {TypePriority}\n"
+#| "\n"
+#| "Total Priority: {TotalPriority}"
+msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_PERSONAL"
 msgid ""
-"{Name} could work on '{Errand}', but it's not the top priority right now."
+"{Description}\n"
+"\n"
+"{Errand} is a Personal Needs errand, and so will be performed before all "
+"Regular chores.\n"
+"\n"
+"Personal Needs: {ClassPriority}\n"
+"All {BestGroup} Errands: {TypePriority}\n"
+"\n"
+"Total Priority: {TotalPriority}"
 msgstr ""
-"{Name} poderia trabalhar em '{Errand}', mas não é sua prioridade mais alta "
-"no momento."
-
-#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NA
-#| msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.UNASSIGNED"
-#| msgid "-"
-msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_NA"
-msgid "--"
-msgstr ""
+"{Description}\n"
+"\n"
+"{Errand} é uma tarefa de Necessidade Pessoal, e irá ser realizada antes de "
+"todas as tarefas Normais.\n"
+"\n"
+"Necessidades Pessoais: {ClassPriority}\n"
+"Todas {BestGroup} Tarefas: {TypePriority}\n"
+"\n"
+"Prioridade Total: {TotalPriority}"
 
 #. STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TITLE"
@@ -55491,6 +55633,61 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC"
+#~ msgid ""
+#~ "A highly pressurized geyser that periodically erupts with hot <link="
+#~ "\"STEAM\">Steam</link>."
+#~ msgstr ""
+#~ "Um gêiser altamente pressurizado que periodicamente irrompe liberando "
+#~ "<link=\"STEAM\">Vapor</link> quente."
+
+#~ msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_METAL.DESC"
+#~ msgid ""
+#~ "Smooth Hatches excrete solid <link=\"COPPER\">Copper</link> as waste and "
+#~ "enjoy burrowing into the ground."
+#~ msgstr ""
+#~ "Mucuras Suaves excretam <link=\"COPPER\">Cobre</link> como resíduo e "
+#~ "adoram se enterrar no chão."
+
+#~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.STRENGTH.DESC"
+#~ msgid ""
+#~ "Determines a Duplicant's carrying capacity, and how much elbow grease "
+#~ "they can put into cleaning errands."
+#~ msgstr ""
+#~ "Determina a capacidade de carga de um Duplicante e o quanto de esforço "
+#~ "eles conseguem dar ao fazer tarefas de limpeza."
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.THINKING.NAME"
+#~ msgid "Thinking"
+#~ msgstr "Pensando"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.THINKING.STATUS"
+#~ msgid "Thinking"
+#~ msgstr "Pensando"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.IDLE_TIME.POSITIVE_TOOLTIP"
+#~ msgid "My Duplicants spent a total of {0} idling over the course of the day"
+#~ msgstr "Meus Duplicantes passaram um total de {0} ociosos ao longo do dia"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.NAME"
+#~ msgid "Time Breakdown:"
+#~ msgstr "Tempo Gasto:"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.TIME_SPENT.POSITIVE_TOOLTIP"
+#~ msgid ""
+#~ "My Duplicants spent a total of {0} doing errands over the course of the "
+#~ "day"
+#~ msgstr ""
+#~ "Meus Duplicantes passaram um total de {0} fazendo tarefas ao longo do dia"
+
+#~ msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVEL_TIME.POSITIVE_TOOLTIP"
+#~ msgid ""
+#~ "My Duplicants spent a total of {0} traveling between errands throughout "
+#~ "of the day"
+#~ msgstr ""
+#~ "Meus Duplicantes gastaram um total de {0} viajando entre tarefas ao longo "
+#~ "do dia"
+
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.NOAPPLICABLEANALYSISSELECTED.NAME"
 #~ msgid "No studyable starmap destination selected"
 #~ msgstr "Nenhum destino do mapa estelar estudável selecionado"
@@ -55974,14 +56171,6 @@ msgstr "Espalhando areia..."
 #~ "[EDITADO]\n"
 #~ "Departamento de Informação e Estatística\n"
 #~ "O Instituto Gravitas"
-
-#~ msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_WATER.DESC"
-#~ msgid ""
-#~ "A highly pressurized geyser that periodically erupts with hot <link="
-#~ "\"WATER\">Water</link>."
-#~ msgstr ""
-#~ "Um gêiser altamente pressurizado que irrompe periodicamente liberando "
-#~ "<link=\"WATER\">Água</link>."
 
 #~ msgctxt "STRINGS.MISC.TAGS.UNBREATHABLE"
 #~ msgid "Unbreathable"
@@ -59163,10 +59352,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.SLEEP.DESCRIPTION"
 #~ msgid "Sleep Time"
 #~ msgstr "Hora de Dormir"
-
-#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.DESCRIPTION"
-#~ msgid "Work Time"
-#~ msgstr "Hora do Trabalho"
 
 #~ msgctxt "STRINGS.UI.VITALSSCREEN.QUALITYOFLIFE_EXPECTATIONS"
 #~ msgid "Quality Of Life"
