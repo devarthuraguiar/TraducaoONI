@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.0.11\n"
+"Project-Id-Version: Português foi Incluído! 2.0.12\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
 "X-Generator: Poedit 2.2.3\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Poedit-Bookmarks: 614,5040,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 2437,5040,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-Basepath: .\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
@@ -645,6 +645,24 @@ msgstr ""
 "Auto: Duplicantes irão abrir e fechar esta porta conforme necessário\n"
 "Trancado: Nada pode passar por ela\n"
 "Aberto: Esta porta continuará aberta"
+
+#. STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.NAME"
+msgid "Requires Emptying"
+msgstr "Requer Esvaziamento"
+
+#. STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.DESALINATORNEEDSEMPTYING.TOOLTIP"
+msgid ""
+"This building is full of <link=\"SALT\">Salt</link> and can no longer "
+"operate.\n"
+"------------------\n"
+"A Duplicant must empty it for operation to continue."
+msgstr ""
+"Esta estrutura está cheia de <link=\"SALT\">Sal</link> e não pode mais "
+"funcionar.\n"
+"------------------\n"
+"Um Duplicante precisa esvaziá-la para que a operação continue."
 
 #. STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
@@ -4065,7 +4083,7 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.EFFECT"
 msgid "Empties <link=\"ELEMENTSGAS\">Gas</link> canisters back into the world."
 msgstr ""
-"Esvazia <link=\"ELEMENTSGAS\">Gases</link> em botijões de volta ao mundo."
+"Esvazia <link=\"ELEMENTSGAS\">Gases</link> dos botijões de volta ao mundo."
 
 #. STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.BOTTLEEMPTIERGAS.NAME"
@@ -4087,8 +4105,6 @@ msgid ""
 msgstr ""
 "Bloqueia o fluxo de <link=\"ELEMENTSLIQUID\">Líquido</link> e <link="
 "\"ELEMENTSGAS\">Gás</link>, mantendo a pressão entre regiões.\n"
-"\n"
-"Defina Restrições de Acesso a Duplicantes para restringir o acesso.\n"
 "\n"
 "Consegue resistir impactos e altas pressões."
 
@@ -4240,7 +4256,7 @@ msgstr "Obra de arte"
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.NAME"
 msgid "<link=\"CANVASWIDE\">Landscape Canvas</link>"
-msgstr "<link=\"CANVAS\">Tela em Paisagem</link>"
+msgstr "<link=\"CANVASWIDE\">Tela em Paisagem</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CANVASWIDE.POORQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CANVASWIDE.POORQUALITYNAME"
@@ -4710,13 +4726,13 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CROWNMOULDING.NAME"
 msgid "<link=\"CROWNMOULDING\">Crown Moulding</link>"
-msgstr "<link=\"MOUDLINGTILE\">Bloco Emoldurável</link>"
+msgstr "<link=\"CROWNMOULDING\">Bloco Emoldurável</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DESALINATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DESALINATOR.DESC"
 msgid "Salt can be refined into table salt for a mealtime morale boost."
 msgstr ""
-"Sal pode ser refinado em uma saleira para um bônus na moral durante o almoço."
+"Sal pode ser colocado em um saleiro para um bônus de moral durante o almoço."
 
 #. STRINGS.BUILDINGS.PREFABS.DESALINATOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DESALINATOR.EFFECT"
@@ -4825,7 +4841,7 @@ msgid ""
 "Sick bays can be placed in hospital rooms to decrease the likelihood of "
 "disease spreading."
 msgstr ""
-"Alas de Doentes podem ser colocadas em salas hospitalares para diminuir o "
+"Alas de doentes podem ser colocadas em salas hospitalares para diminuir o "
 "alastramento de doenças."
 
 #. STRINGS.BUILDINGS.PREFABS.DOCTORSTATION.EFFECT
@@ -5240,7 +5256,7 @@ msgid ""
 "Build these in addition to ladders for efficient upward and downward "
 "movement."
 msgstr ""
-"Construa estes junto com escadas para aumentar a eficiência do movimento de "
+"Construa estes junto a escadas para aumentar a eficiência de movimento de "
 "subida e descida."
 
 #. STRINGS.BUILDINGS.PREFABS.FIREPOLE.EFFECT
@@ -5265,7 +5281,7 @@ msgid ""
 "A fish release must be built above liquid to prevent released fish from "
 "suffocating."
 msgstr ""
-"Um ponto de soltura de peixes precisa ser construído sobre o líquido para "
+"Um ponto de soltura de peixes precisa ser construído sobre líquido para "
 "prevenir que os peixes soltos sufoquem."
 
 #. STRINGS.BUILDINGS.PREFABS.FISHDELIVERYPOINT.EFFECT
@@ -5471,7 +5487,7 @@ msgstr ""
 "Aumenta a <link=\"DECOR\">Decor</link>, contribuindo para a <link=\"MORALE"
 "\">Moral</link>.\n"
 "\n"
-"Precisa estar pendurada a partir de um teto.."
+"Precisa estar pendurada a partir de um teto."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEHANGINGFANCY.NAME"
@@ -5504,7 +5520,7 @@ msgstr ""
 "Aumenta a <link=\"DECOR\">Decor</link>, contribuindo para a <link=\"MORALE"
 "\">Moral</link>.\n"
 "\n"
-"Precisa estar pendurada a partir de uma parede.."
+"Precisa estar pendurada a partir de uma parede."
 
 #. STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.FLOWERVASEWALL.NAME"
@@ -5576,7 +5592,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT"
 msgid "Extend/Retract"
-msgstr "Extender/Retrair"
+msgstr "Extender/Recolher"
 
 #. STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GANTRY.LOGIC_PORT_ACTIVE"
@@ -6166,7 +6182,7 @@ msgstr "<link=\"GENERATOR\">Gerador à Carvão</link>"
 #. STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.OVERPRODUCTION"
 msgid "{Generator} overproduction"
-msgstr "Superprodução do(a) {Generator}"
+msgstr "Superprodução {Generator}"
 
 #. STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.DESC"
@@ -6580,7 +6596,7 @@ msgid ""
 "Pipe insulation prevents liquid contents from significantly changing "
 "temperature in transit."
 msgstr ""
-"Encanamento Adiabático previne que os líquidos em trânsito sofram mudança de "
+"Canos adiabático previne que os líquidos em trânsito sofram mudança de "
 "temperatura."
 
 #. STRINGS.BUILDINGS.PREFABS.INSULATEDLIQUIDCONDUIT.EFFECT
@@ -6641,7 +6657,7 @@ msgid ""
 "Reduces <link=\"HEAT\">Heat</link> transfer between walls, retaining ambient "
 "heat in an area."
 msgstr ""
-"Usado como bloco de chão ou parede para construir salas.\n"
+"Usado como bloco de piso ou parede para construir salas.\n"
 "\n"
 "Reduz a troca de <link=\"HEAT\">Calor</link> entre paredes, retendo calor em "
 "uma área."
@@ -6708,7 +6724,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.NAME"
 msgid "<link=\"JETSUITLOCKER\">Jet Suit Dock</link>"
-msgstr "<link=\"SUITLOCKER\">Estação de Traje à Jato</link>"
+msgstr "<link=\"JETSUITLOCKER\">Estação de Traje à Jato</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.DESC"
@@ -6740,7 +6756,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITMARKER.NAME"
 msgid "<link=\"JETSUITMARKER\">Jet Suit Checkpoint</link>"
-msgstr "<link=\"SUITMARKER\">Ponto de Checagem de Traje à Jato</link>"
+msgstr "<link=\"JETSUITMARKER\">Ponto de Checagem de Traje à Jato</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KEROSENEENGINE.DESC"
@@ -6774,7 +6790,7 @@ msgstr "<link=\"KEROSENEENGINE\">Motor à Petróleo</link>"
 #. STRINGS.BUILDINGS.PREFABS.KILN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.DESC"
 msgid "Kilns can also be used to refine coal into pure carbon."
-msgstr "Fornos podem ser usado para refinar carvão em carbono puro."
+msgstr "Fornos podem ser usados para refinar carvão em carbono puro."
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.EFFECT"
@@ -6797,7 +6813,7 @@ msgstr "<link=\"KILN\">Forno</link>"
 #. STRINGS.BUILDINGS.PREFABS.LADDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LADDER.DESC"
 msgid "(That means they climb it.)"
-msgstr "(Significa que eles podem escalam nela.)"
+msgstr "(Significa que eles podem escalar nela.)"
 
 #. STRINGS.BUILDINGS.PREFABS.LADDER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LADDER.EFFECT"
@@ -7668,10 +7684,10 @@ msgid ""
 "receiving <b><color=#f44a47>Red</b></color>."
 msgstr ""
 "Envia um <b><color=#57b95e>Sinal Verde</b></color> quando ambas Entradas A "
-"<b>E</b> Entrada B estiverem recebendo <b><color=#57b95e>Verde</b></color>.\n"
+"<b>E</b> B estiverem recebendo <b><color=#57b95e>Verde</b></color>.\n"
 "\n"
-"Envia um <b><color=#f44a47>Sinal Vermelho</b></color> quando até uma Entrada "
-"estiver recebendo <b><color=#f44a47>Vermelho</b></color>."
+"Envia um <b><color=#f44a47>Sinal Vermelho</b></color> mesmo quando só uma "
+"Entrada estiver recebendo <b><color=#f44a47>Vermelho</b></color>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEAND.NAME"
@@ -7928,7 +7944,7 @@ msgid ""
 "Outputs a <b><color=#f44a47>Red Signal</b></color> if both or neither Inputs "
 "are receiving a <b><color=#57b95e>Green Signal</b></color>."
 msgstr ""
-"Envia um <b><color=#57b95e>Sinal Verde</b></color> se somente uma das "
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> se SOMENTE uma das "
 "Entradas estiver recebendo <b><color=#57b95e>Verde</b></color>.\n"
 "\n"
 "Envia um <b><color=#f44a47>Sinal Vermelho</b></color> se ambas ou nenhuma "
@@ -8108,7 +8124,7 @@ msgid ""
 "style> from flowing through connected circuits"
 msgstr ""
 "<b><color=#f44a47>Sinal Vermelho</b></color>: Impede a <style=\"KKeyword"
-"\">Energia</style> passar para circuitos conectados"
+"\">Energia</style> de passar para circuitos conectados"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPOWERRELAY.NAME"
@@ -8245,7 +8261,7 @@ msgstr "Envia um <b><color=#57b95e>Sinal Verde</b></color> se ATIVADO"
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_INACTIVE"
 msgid "Sends a <b><color=#f44a47>Red Signal</b></color> if toggled OFF"
-msgstr "Envia um <b><color=#f44a47>Sinal Vermelho</b></color> se DESLIGADO"
+msgstr "Envia um <b><color=#f44a47>Sinal Vermelho</b></color> se DESATIVADO"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.NAME"
@@ -8354,7 +8370,7 @@ msgid ""
 msgstr ""
 "Conecta estruturas à <link=\"LOGIC\">Sensores</link>.\n"
 "\n"
-"Pode passar pelos blocos."
+"Pode passar pelos blocos de piso e parede."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIRE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIRE.NAME"
@@ -8381,7 +8397,7 @@ msgstr ""
 "Faz uma seção de <link=\"LOGICWIRE\">Cabo Automatizado</link> passar pela "
 "outra sem uni-las.\n"
 "\n"
-"Não pode passar pelos blocos."
+"Pode passar pelos blocos de piso e parede."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIREBRIDGE.LOGIC_PORT"
@@ -8550,7 +8566,7 @@ msgstr "Escultura de Mármore Genial"
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.NAME"
 msgid "<link=\"MARBLESCULPTURE\">Marble Block</link>"
-msgstr "<link=\"ICESCULPTURE\">Bloco de Mármore</link>"
+msgstr "<link=\"MARBLESCULPTURE\">Bloco de Mármore</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.POORQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.POORQUALITYNAME"
@@ -8637,7 +8653,7 @@ msgid ""
 "\n"
 "Revives incapacitated Duplicants."
 msgstr ""
-"Acelera recuperação de <link=\"HEALTH\">Saúde</link> e a cura de lesões "
+"Acelera a recuperação de <link=\"HEALTH\">Saúde</link> e a cura de lesões "
 "físicas.\n"
 "\n"
 "Revive Duplicantes incapacitados."
@@ -8716,9 +8732,6 @@ msgid "Mediocre Metal Sculpture"
 msgstr "Escultura de Metal Medíocre"
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC"
-#| msgid ""
-#| "Duplicants who have learned art skills can produce decorative artworks."
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.DESC"
 msgid ""
 "Duplicants who have learned art skills can produce more decorative "
@@ -8748,7 +8761,7 @@ msgstr "Escultura de Metal Genial"
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.NAME"
 msgid "<link=\"METALSCULPTURE\">Metal Block</link>"
-msgstr "<link=\"ICESCULPTURE\">Bloco de Metal</link>"
+msgstr "<link=\"METALSCULPTURE\">Bloco de Metal</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.POORQUALITYNAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.METALSCULPTURE.POORQUALITYNAME"
@@ -8771,7 +8784,7 @@ msgid ""
 "\n"
 "Significantly increases Duplicant runspeed."
 msgstr ""
-"Pode ser usado como bloco de chão ou de parede para construir salas.\n"
+"Pode ser usado para construir pisos e paredes de salas.\n"
 "\n"
 "Aumenta consideravelmente a velocidade dos Duplicantes."
 
@@ -9284,7 +9297,7 @@ msgid ""
 "\n"
 "Significantly increases Duplicant runspeed."
 msgstr ""
-"Pode ser usado como bloco de chão ou de parede para construir salas.\n"
+"Pode ser usado para construir pisos e paredes de salas.\n"
 "\n"
 "Aumenta consideravelmente a velocidade dos Duplicantes."
 
@@ -9436,7 +9449,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.POWERTRANSFORMERSMALL.NAME"
 msgid "<link=\"POWERTRANSFORMERSMALL\">Power Transformer</link>"
-msgstr "<link=\"POWERTRANSFORMER\">Transformador de Energia</link>"
+msgstr "<link=\"POWERTRANSFORMERSMALL\">Transformador de Energia</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PRESSUREDOOR.DESC"
@@ -9568,8 +9581,8 @@ msgid ""
 msgstr ""
 "Sem serviço.\n"
 "\n"
-"Os botões de dentro indicam que ele poderia descer pelo menos uns 12 andares "
-"alguma vez no passado."
+"Os botões de dentro indicam que ele já deve ter descido várias dezenas de "
+"andares alguma vez no passado."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPELEVATOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPELEVATOR.NAME"
@@ -10049,7 +10062,7 @@ msgid ""
 "\n"
 "Duplicants will lose all assigned skills in the process."
 msgstr ""
-"Reembolsa os Pontos de Habilidade de um Duplicante para reatribuição.\n"
+"Reembolsa os Pontos de Habilidade de um Duplicante para novas atribuições.\n"
 "\n"
 "Duplicantes perderão todas as habilidades designadas no processo."
 
@@ -10064,7 +10077,7 @@ msgid ""
 "Rock Crushers loosen nuggets from raw ore and can process many different "
 "resources."
 msgstr ""
-"Esmagadores de Rochas soltam pepitas do minério bruto e podem ser usado para "
+"Esmagadores de Rochas soltam pepitas de minério bruto e podem ser usado para "
 "processar muitos recursos diferentes."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT
@@ -10157,9 +10170,6 @@ msgid "Mediocre Sculpture"
 msgstr "Escultura Medíocre"
 
 #. STRINGS.BUILDINGS.PREFABS.SCULPTURE.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC"
-#| msgid ""
-#| "Duplicants who have learned art skills can produce decorative artworks."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SCULPTURE.DESC"
 msgid ""
 "Duplicants who have learned art skills can produce more decorative "
@@ -10260,9 +10270,6 @@ msgid "Mediocre Sculpture"
 msgstr "Escultura Medíocre"
 
 #. STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC"
-#| msgid ""
-#| "Duplicants who have learned art skills can produce decorative artworks."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.DESC"
 msgid ""
 "Duplicants who have learned art skills can produce more decorative "
@@ -10833,7 +10840,7 @@ msgstr "<link=\"SUITMARKER\">Ponto de Checagem de Atmotraje</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.DESC"
 msgid "Rare materials can be procured through rocket missions into space."
 msgstr ""
-"Materiais raros podem ser adquiridos por missões com foguetes no espaço."
+"Materiais raros podem ser adquiridos em missões com foguetes no espaço."
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT"
@@ -10865,7 +10872,7 @@ msgid ""
 "Super Coolant is an industrial grade <link=\"FULLERENE\">Fullerene</link> "
 "coolant."
 msgstr ""
-"Super Resfriador é um resfriador de <link=\"FULLERENE\">Fulereno</link> a "
+"Super Resfriador é um resfriador de <link=\"FULLERENE\">Fulereno</link> de "
 "nível industrial."
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SUPERINSULATOR_RECIPE_DESCRIPTION
@@ -11046,7 +11053,7 @@ msgstr "<link=\"THERMALBLOCK\">Placa de Condução Térmica</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.TILE.DESC"
 msgid "Tile can be used to bridge gaps and get to unreachable areas."
 msgstr ""
-"Blocos podem ser usados para construir salas, pisos, ou pontes áreas "
+"Blocos podem ser usados para construir salas, pisos, ou pontes para áreas "
 "inacessíveis."
 
 #. STRINGS.BUILDINGS.PREFABS.TILE.EFFECT
@@ -11056,7 +11063,7 @@ msgid ""
 "\n"
 "Increases Duplicant runspeed."
 msgstr ""
-"Pode ser usado como bloco de chão ou de parede para construir salas.\n"
+"Pode ser usado como bloco de piso ou de parede para construir salas.\n"
 "\n"
 "Aumenta a velocidade de movimento dos Duplicantes."
 
@@ -11189,7 +11196,7 @@ msgid ""
 "Enriched uranium is a specialized substance that can be used to fuel "
 "powerful nuclear reactors."
 msgstr ""
-"Urânio enriquecido é um substância especializada que pode ser usada como "
+"Urânio enriquecido é uma substância especializada que pode ser usada como "
 "combustível de poderosos reatores nucleares."
 
 #. STRINGS.BUILDINGS.PREFABS.URANIUMCENTRIFUGE.EFFECT
@@ -13719,13 +13726,14 @@ msgstr "Registro de Disfunção de Memória"
 #. STRINGS.CODEX.A6_NEWSECURITY2.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.A6_NEWSECURITY2.BODY.CONTAINER2"
 msgid ""
-"<indent=5%>So, the Facility is introducing this new security system that "
+"<indent=5%>So, the facility is introducing this new security system that "
 "scans your hand to unlock the doors. My question is, what exactly are they "
 "scanning?\n"
 "\n"
 "The folks in engineering say the door device doesn't look like a fingerprint "
-"scanner, and the duo working over in bioengineering won't comment at all.</"
-"indent>"
+"scanner, but the duo working over in bioengineering won't comment at all.\n"
+"\n"
+"I can't say I like it.</indent>"
 msgstr ""
 "<indent=5%>Então, o Instituto está introduzindo um novo sistema de segurança "
 "que escaneiam sua mão para desbloquear as portas. Minha pergunta é, o que "
@@ -13733,7 +13741,9 @@ msgstr ""
 "\n"
 "A galera da engenharia disse que o dispositivo na porta não parece com um "
 "scanner de digitais, mas a dupla que trabalha na bioengenharia não quer "
-"comentar nada.</indent>"
+"comentar nada.\n"
+"\n"
+"O que eu posso dizer é que não gosto nada disso.</indent>"
 
 #. STRINGS.CODEX.A6_NEWSECURITY2.BODY.EMAILHEADER1
 msgctxt "STRINGS.CODEX.A6_NEWSECURITY2.BODY.EMAILHEADER1"
@@ -18834,12 +18844,12 @@ msgid ""
 "Temporal Tear carrying that hope on their shoulders... Perhaps one day "
 "they'll find a place to call home, and begin a thriving colony all their own."
 msgstr ""
-"Nossa terra natal neste universo não existe mais, substituída pelo esqueleto "
-"de um planeta e uma ferida no céu... Mas eu tenho esperança de que outros "
-"mundos existem por aí, escondidos em outras dimensões. Eu enviei meu "
-"Duplicante pela Brecha Temporal carregando apenas aquela esperança nos "
-"ombros... Talvez um dia ele irá encontrar um lugar para chamar de casa, e "
-"começar sua própria colônia."
+"Nossa terra natal neste universo se foi, substituída pelo esqueleto de um "
+"planeta e uma ferida no céu... Mas eu tenho a esperança de que outros mundos "
+"existem por aí, escondidos em outras dimensões. Eu enviei meu Duplicante "
+"pela Brecha Temporal carregando apenas aquela esperança nos ombros... Talvez "
+"um dia ele encontrará um lugar para chamar de casa, e começar sua própria "
+"colônia."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.MESSAGE_TITLE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.MESSAGE_TITLE"
@@ -18880,9 +18890,9 @@ msgid ""
 "and a wound in the sky... But I hold out hope that other worlds exist out "
 "there, tucked away in other dimensions."
 msgstr ""
-"Nossa terra natal neste universo não existe mais, substituída pelo esqueleto "
-"de um planeta e uma ferida no céu... Mas eu tenho esperança de que outros "
-"mundos existem por aí, escondidos em outras dimensões."
+"Nossa terra natal neste universo se foi, substituída pelo esqueleto de um "
+"planeta e uma ferida no céu... Mas eu tenho a esperança de que outros mundos "
+"existem por aí, escondidos em outras dimensões."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT.SECOND
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.DISTANT_PLANET_REACHED.VIDEO_TEXT.SECOND"
@@ -18892,8 +18902,8 @@ msgid ""
 "thriving colony all their own."
 msgstr ""
 "Eu enviei meu Duplicante pela Brecha Temporal carregando apenas aquela "
-"esperança nos ombros... Talvez um dia ele irá encontrar um lugar para chamar "
-"de casa, e começar sua própria colônia."
+"esperança nos ombros... Talvez um dia ele encontrará um lugar para chamar de "
+"casa, e começar sua própria colônia."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.AUTOMATE_A_BUILDING"
@@ -19026,7 +19036,7 @@ msgstr "Não Está Cru"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COOKED_FOOD_DESCRIPTION
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.COOKED_FOOD_DESCRIPTION"
 msgid ""
-"Have a Duplicant eat any cooked meal prepared at an Electrical Grill or Gas "
+"Have a Duplicant eat any cooked meal prepared at an Electric Grill or Gas "
 "Range."
 msgstr ""
 "Faça um Duplicante comer qualquer refeição preparada em uma Churrasqueira "
@@ -19079,7 +19089,7 @@ msgid ""
 "least one chore while wearing an Exosuit."
 msgstr ""
 "Por {0} ciclos seguidos, faça com que cada Duplicante na colônia complete "
-"pelo menos uma tarefa vestindo um Exotraje.."
+"pelo menos uma tarefa vestindo um Exotraje."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXPLORE_OIL_BIOME
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.EXPLORE_OIL_BIOME"
@@ -19094,8 +19104,8 @@ msgstr "Entre em um bioma de petróleo pela primeira vez."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP"
-msgid "Tune Up For What?"
-msgstr "As Definições de Energia foram Atualizadas"
+msgid "Finely Tuned Machine"
+msgstr "Máquina Perfeitamente Atualizada"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP_DESCRIPTION
 msgctxt ""
@@ -19117,7 +19127,7 @@ msgstr "Choque uma nova raça de criatura a partir de um ovo."
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT"
 msgid "Down the Hatch"
-msgstr "Investindo em Mucuras"
+msgstr "Mucura Rica"
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.HATCH_REFINEMENT_DESCRIPTION
 msgctxt ""
@@ -19279,7 +19289,7 @@ msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS."
 "TUBE_TRAVEL_DISTANCE_DESCRIPTION"
 msgid "Have Duplicants travel 10,000m by Transit Tube."
-msgstr "Tenha Duplicantes viajando 10,000 m em Tubos de Tráfego."
+msgstr "Faça Duplicantes viajarem 10,000m em Tubos de Tráfego."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TWENTY_DUPES
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.TWENTY_DUPES"
@@ -19678,7 +19688,7 @@ msgid ""
 "This is the base speed with which critters produce new <style=\"KKeyword"
 "\">Eggs</style>"
 msgstr ""
-"Esta a velocidade base ao qual uma criatura produz novos <style=\"KKeyword"
+"Esta é a velocidade base ao qual uma criatura produz novos <style=\"KKeyword"
 "\">Ovos</style>"
 
 #. STRINGS.CREATURES.MODIFIERS.BASE_INCUBATION_RATE.NAME
@@ -20357,7 +20367,8 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_PO2.NAME"
 msgid "<link=\"GEYSERGENERICHOTPO2\">Hot Polluted Oxygen Vent</link>"
-msgstr "<link=\"GEYSERGENERICHOTPO2\">Fumarola de Oxigênio Poluído</link>"
+msgstr ""
+"<link=\"GEYSERGENERICHOTPO2\">Fumarola de Oxigênio Poluído Quente</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.HOT_STEAM.DESC"
@@ -21911,8 +21922,8 @@ msgid ""
 "\n"
 "Digging up Buried Objects may uncover an Ink Bloom Seed."
 msgstr ""
-"A <link=\"PLANTS\">Semente</link> de uma <link=\"<link=\"INK BLOOM\">Flor de "
-"Tinta</link>.\n"
+"A <link=\"PLANTS\">Semente</link> de uma <link=\"INK BLOOM\">Flor de Tinta</"
+"link>.\n"
 "\n"
 "Cavar Objetos Enterrados pode revelar uma Semente de Flor de Tinta."
 
@@ -27761,33 +27772,33 @@ msgstr "Lutando contra {0} de {1}"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.AIR
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.AIR"
-msgid "by breathing germ-filled {0}"
-msgstr "por inalar {0} cheio de germes"
+msgid "Breathing germ-filled {0}"
+msgstr "Inalação de {0} cheio de germes"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.FOOD
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.FOOD"
-msgid "by eating a germ-covered {0}"
-msgstr "por ingerir {0} coberto por germes"
+msgid "Eating a germ-covered {0}"
+msgstr "Ingestão de {0} coberto por germes"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.INTERNAL_TEMPERATURE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.INTERNAL_TEMPERATURE"
-msgid "from extreme internal temperatures"
-msgstr "por temperaturas internas extremas"
+msgid "Extreme internal temperatures"
+msgstr "Temperaturas internas extremas"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.SKIN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.SKIN"
-msgid "through skin contamination"
-msgstr "por contaminação na pele"
+msgid "Skin contamination"
+msgstr "Contaminação pela pele"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.TOXIC_AREA
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.TOXIC_AREA"
-msgid "through exposure to toxic areas"
-msgstr "por exposição à áreas tóxicas"
+msgid "Exposure to toxic areas"
+msgstr "Exposição à áreas tóxicas"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.UNKNOWN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.UNKNOWN"
-msgid "from unknown source"
-msgstr "de uma fonte desconhecida"
+msgid "Unknown source"
+msgstr "Fonte desconhecida"
 
 #. STRINGS.DUPLICANTS.DISEASES.LEGEND_POSTAMBLE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.LEGEND_POSTAMBLE"
@@ -28017,8 +28028,8 @@ msgstr "Fatal se não tratado em: {0}\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.INFECTION_SOURCE
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.INFECTION_SOURCE"
-msgid "Contracted disease: {0}\n"
-msgstr "Doença contraída: {0}\n"
+msgid "Contracted by: {0}\n"
+msgstr "Contraído por: {0}\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.NOMEDICINETAKEN
 msgctxt "STRINGS.DUPLICANTS.DISEASES.STATUS_ITEM_TOOLTIP.NOMEDICINETAKEN"
@@ -30975,8 +30986,6 @@ msgid "Improves a Duplicant's cooking speed"
 msgstr "Melhora a velocidade de cozimento de um Duplicante"
 
 #. STRINGS.DUPLICANTS.ROLES.COOK.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.JUNIOR_COOK.NAME"
-#| msgid "<link=\"JUNIORCOOK\">Grilling</link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.COOK.NAME"
 msgid "<link=\"COOK\">Grilling II</link>"
 msgstr "<link=\"COOK\">Grelhar II</link>"
@@ -31312,8 +31321,6 @@ msgstr ""
 "Doenças</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.NAME"
-#| msgid "<link=\"MEDIC\">Improved Medicine I</link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_MEDIC.NAME"
 msgid "<link=\"MEDIC\">Advanced Medical Care</link>"
 msgstr "<link=\"MEDIC\">Cuidado Médico Avançado</link>"
@@ -31339,8 +31346,6 @@ msgstr ""
 "Melhora o atributo de <style=\"KKeyword\">Pecuária</style> de um Duplicante"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_RANCHER.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.RANCHER.NAME"
-#| msgid "<link=\"RANCHER\">Critter Ranching</link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RANCHER.NAME"
 msgid "<link=\"SENIORRANCHER\">Critter Ranching II</link>"
 msgstr "<link=\"SENIORRANCHER\">Pecuária II</link>"
@@ -32131,13 +32136,13 @@ msgstr "Este Duplicante está transportando materiais para <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.NAME"
-msgid "Fabricating {Target}"
-msgstr "Fabricando {Target}"
+msgid "Fabricating {Item}"
+msgstr "Fabricando {Item}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.TOOLTIP"
-msgid "This Duplicant is crafting a <b>{Target}</b>"
-msgstr "Este Duplicante está fabricando um <b>{Target}</b>"
+msgid "This Duplicant is crafting a <b>{Item}</b>"
+msgstr "Este Duplicante está fabricando um <b>{Item}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FIGHTING.NAME"
@@ -32818,12 +32823,12 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME"
-msgid "Refining {Target}"
-msgstr "Refinando {Target}"
+msgid "Refining {Item}"
+msgstr "Refinando {Item}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.TOOLTIP"
-msgid "This Duplicant is refining <b>{Target}</b>"
+msgid "This Duplicant is refining <b>{Item}</b>"
 msgstr "Este Duplicante está refinando <b>{Target}</b>"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINEAREAUNREACHABLE.NAME
@@ -50056,7 +50061,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (2.0.11): {0}"
+msgstr "VERSÃO (2.0.12): {0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -50891,6 +50896,12 @@ msgstr "Nunca"
 msgctxt "STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.DESCRIPTION"
 msgid "Note: These values are configured per save file"
 msgstr "Nota: Esses valores são configurados por arquivo de save"
+
+#. STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.TIMELAPSE_DISABLED_DESCRIPTION
+msgctxt ""
+"STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.TIMELAPSE_DISABLED_DESCRIPTION"
+msgid "Disabled"
+msgstr "Desativado"
 
 #. STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.TIMELAPSE_RESOLUTION
 msgctxt "STRINGS.UI.FRONTEND.COLONY_SAVE_OPTIONS_SCREEN.TIMELAPSE_RESOLUTION"
@@ -53000,6 +53011,17 @@ msgstr ""
 "Um erro de Acesso Não Autorizado ocorreu ao tentar gravar algo no disco.\n"
 "Por favor, verifique se você possui permissões para gravar em:\n"
 "{0}"
+
+#. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.PLAYER_PREFS_CORRUPTED
+msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.PLAYER_PREFS_CORRUPTED"
+msgid ""
+"A problem occurred while loading your game options.\n"
+"They have been reset to their default settings.\n"
+"\n"
+msgstr ""
+"Um problema ocorreu ao carregar suas opções de jogo.\n"
+"Elas foram redefinidas para as configurações padrão.\n"
+"\n"
 
 #. STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_INSUFFICIENT_SPACE
 msgctxt "STRINGS.UI.FRONTEND.SUPPORTWARNINGS.SAVE_DIRECTORY_INSUFFICIENT_SPACE"
@@ -55611,11 +55633,6 @@ msgstr ""
 "Trabalhar no escuro não afeta os Duplicantes"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.LITAREA
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ESPRESSO.TOOLTIP"
-#| msgid ""
-#| "This Duplicant had delicious drink!\n"
-#| "\n"
-#| "Leisure activities increase Duplicants' <style=\"KKeyword\">Morale</style>"
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.TOOLTIPS.LITAREA"
 msgid ""
 "<b>Lit Area</b>\n"
@@ -56509,7 +56526,7 @@ msgid ""
 msgstr ""
 "Duplicantes irão primeiro escolher que <style=\"KKeyword\">Tipo de Tarefa</"
 "style> realizar baseado nas <style=\"KKeyword\">Prioridades de Duplicante</"
-"style><color=#F44A4A><b>[L]</b></color>\n"
+"style> <color=#F44A4A><b>[L]</b></color>\n"
 "------------------\n"
 "Eles então escolherão <style=\"KKeyword\">Tarefas</style> individuais dentro "
 "daquele tipo usando as <style=\"KKeyword\">Prioridades da Estrutura</style> "
@@ -62355,7 +62372,8 @@ msgid ""
 "{Name} could work on <b>{Errand}</b>, but it's not their top priority right "
 "now"
 msgstr ""
-"{Name} poderia fazer <b>{Errand}</b>, mas não é sua prioridade mais alta"
+"{Name} poderia trabalhar em <b>{Errand}</b>, mas não é sua prioridade mais "
+"alta"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_EMERGENCY
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TOOLTIP_EMERGENCY"
@@ -64763,7 +64781,7 @@ msgstr "COMEÇAR"
 #. STRINGS.UI.WELCOMEMESSAGEBODY
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY"
 msgid ""
-"I've awoken at the target location, but my colonization efforts have already "
+"I've awoken at the target location, but colonization efforts have already "
 "hit a hitch. I was supposed to land on the planet's surface, but became "
 "trapped many miles underground instead.\n"
 "\n"
@@ -65844,6 +65862,26 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#~ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP"
+#~ msgid "Tune Up For What?"
+#~ msgstr "As Definições de Energia foram Atualizadas"
+
+#~ msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTIONSOURCES.SKIN"
+#~ msgid "through skin contamination"
+#~ msgstr "por contaminação na pele"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.NAME"
+#~ msgid "Fabricating {Target}"
+#~ msgstr "Fabricando {Target}"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.TOOLTIP"
+#~ msgid "This Duplicant is crafting a <b>{Target}</b>"
+#~ msgstr "Este Duplicante está fabricando um <b>{Target}</b>"
+
+#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME"
+#~ msgid "Refining {Target}"
+#~ msgstr "Refinando {Target}"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.MARBLESCULPTURE.DESC"
 #~ msgid ""
@@ -78204,10 +78242,6 @@ msgstr "Volcanea"
 #~ msgid "Internal Combustion"
 #~ msgstr "Combustão Interna"
 
-#~ msgctxt "STRINGS.RESEARCH.TECHS.DIRECTEDAIRSTREAMS.NAME"
-#~ msgid "Decontamination"
-#~ msgstr "Descontaminação"
-
 #~ msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME"
 #~ msgid "Duplicant Traffic Control"
 #~ msgstr "Controle de Tráfico de Duplicantes"
@@ -78871,14 +78905,6 @@ msgstr "Volcanea"
 #~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ARTING.TOOLTIP"
 #~ msgid "This Duplicant is expressing themselves artistically"
 #~ msgstr "Este Duplicante está se expressando artisticamente"
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATING.NAME"
-#~ msgid "Fabricating {Item}"
-#~ msgstr "Fabricando {Item}"
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.PROCESSING.NAME"
-#~ msgid "Refining {Item}"
-#~ msgstr "Refinando {Item}"
 
 #~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.QUARANTINEAREAUNASSIGNED.NAME"
 #~ msgid "No quarantine zone assigned"
