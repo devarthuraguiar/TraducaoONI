@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.9.4\n"
+"Project-Id-Version: Português foi Incluído! 1.9.5\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -4849,8 +4849,6 @@ msgid "Doubles the <link=\"DECOR\">Decor</link> of any item placed on it. Ugly i
 msgstr "Duplica o <link=\"DECOR\">Decor</link> de qualquer item colocado nele. Itens feios podem ficar de alguma forma atraentes ao colocá-los no pedestal."
 
 #. STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.NAME
-#| msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.NAME"
-#| msgid "<link=\"PICKLEDMEAL\">Pickled Meal</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.NAME"
 msgid "<link=\"ITEMPEDESTAL\">Display Pedestal</link>"
 msgstr "<link=\"ITEMPEDESTAL\">Pedestal</link>"
@@ -13172,13 +13170,13 @@ msgstr "<link=\"COLDBREATHER\">Semente de Planta do Frio</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.DESC"
 msgid ""
-"The <link=\"SEEDS\">seed</link> of a <link=\"COLDWHEAT\">Sleet Wheat</link> plant.\n"
+"The <link=\"PLANTS\">Seed</link> of a <link=\"COLDWHEAT\">Sleet Wheat</link> plant.\n"
 "\n"
 "Grain can be sown to cultivate more Sleet Wheat, or processed into <link=\"FOOD\">Food</link>."
 msgstr ""
-"As <link=\"SEEDS\">Sementes</link> de um <link=\"COLDWHEAT\">Trigo das Neves</link>.\n"
+"A <link=\"SEEDS\">Semente</link> de um <link=\"COLDWHEAT\">Trigo das Neves</link>.\n"
 "\n"
-"Grão pode ser semeado para cultivar mais Trigo das Neves, ou processado em <link=\"FOOD\">Comida</link>."
+"O grão pode ser semeado para cultivar mais Trigo das Neves, ou processado em <link=\"FOOD\">Comida</link>."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.COLDWHEAT.NAME"
@@ -13188,13 +13186,13 @@ msgstr "<link=\"COLDWHEAT\">Grão de Trigo das Neves</link>"
 #. STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.DESC"
 msgid ""
-"The <link=\"SEEDS\">seed</link> of a <link=\"GASGRASS\">Gas Grass</link> plant.\n"
+"The <link=\"PLANTS\">Seed</link> of a <link=\"GASGRASS\">Gas Grass</link> plant.\n"
 "\n"
 "Used as feed for<link=\"MOO\">Gassy Moos</link>."
 msgstr ""
-"A <link=\"SEEDS\">semente</link> de uma <link=\"GASGRASS\">Grama Gasosa</link>.\n"
+"A <link=\"SEEDS\">Semente</link> de uma <link=\"GASGRASS\">Grama Gasosa</link>.\n"
 "\n"
-"Útil como alimento para <link=\"MOO\">Bois Gasosos</link>."
+"Usado como alimento para <link=\"MOO\">Bois Gasosos</link>."
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.GASGRASS.NAME"
@@ -35376,7 +35374,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.9.4)"
+"- Traduzido por Chastomber :P (1.9.5)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -37737,17 +37735,17 @@ msgstr "Consome 1 <link=\"PLANTS\">Semente</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FINAL_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FINAL_HARVEST"
-msgid "Final harvest yields <link=\"PLANTS\">seed</link>"
+msgid "Final harvest yields <link=\"PLANTS\">Seeds</link>"
 msgstr "A colheita final produz <link=\"PLANTS\">Sementes</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FRUIT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_FRUIT"
-msgid "Fruit produces <link=\"PLANTS\">seed</link>"
+msgid "Fruit produces <link=\"PLANTS\">Seeds</link>"
 msgstr "Fruto produz <link=\"PLANTS\">Sementes</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.SEED_PRODUCTION_HARVEST"
-msgid "Harvest yields <link=\"PLANTS\">seed</link>"
+msgid "Harvest yields <link=\"PLANTS\">Seeds</link>"
 msgstr "A colheita produz <link=\"PLANTS\">Sementes</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.SEED_REQUIREMENT_CEILING
@@ -41985,11 +41983,13 @@ msgstr "ANÁLISE COMPLETA"
 #. STRINGS.UI.STARMAP.ANALYSIS_DESCRIPTION
 msgctxt "STRINGS.UI.STARMAP.ANALYSIS_DESCRIPTION"
 msgid ""
-"Use telescopes to complete a destination analysis.\n"
-"Completing a destination analysis will allow rockets to visit this destination."
+"Use a Telescope to analyze space destinations.\n"
+"\n"
+"Completing analysis on an object will unlock rocket missions to that destination."
 msgstr ""
-"Use telescópios para completar uma análise do destino.\n"
-"Completar uma análise de destino permitirá foguetes visitarem este destino."
+"Use um Telescópio analisar destinos espaciais.\n"
+"\n"
+"Completar a análise de um objeto permitirá que foguetes visitem este destino."
 
 #. STRINGS.UI.STARMAP.ANALYZE_DESTINATION
 msgctxt "STRINGS.UI.STARMAP.ANALYZE_DESTINATION"
@@ -42003,8 +42003,8 @@ msgstr "Coletado por: {1}"
 
 #. STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT
 msgctxt "STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT"
-msgid "{0} required."
-msgstr "{0} requerido."
+msgid "{0} installation required to retrieve material"
+msgstr "Instalação de {0} necessária para coletar o material"
 
 #. STRINGS.UI.STARMAP.CARGOEMPTY.NAME
 msgctxt "STRINGS.UI.STARMAP.CARGOEMPTY.NAME"
@@ -42033,7 +42033,7 @@ msgstr "Motor do Foguete"
 
 #. STRINGS.UI.STARMAP.COMPOSITION_SMALL_AMOUNT
 msgctxt "STRINGS.UI.STARMAP.COMPOSITION_SMALL_AMOUNT"
-msgid "Trace Amounts"
+msgid "Trace Amount"
 msgstr "Pequenas Quantidades"
 
 #. STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED
@@ -42048,13 +42048,19 @@ msgstr "???"
 
 #. STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED_TOOLTIP
 msgctxt "STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED_TOOLTIP"
-msgid "Further research of this destination is required. Send a research module."
-msgstr "É necessário mais pesquisas neste destino. Envie um módulo de pesquisa."
+msgid ""
+"Further research required to identify resource\n"
+"------------------\n"
+"Send a Research Module to this destination for more information"
+msgstr ""
+"Mais pesquisa adicional é necessária para identificar recurso\n"
+"------------------\n"
+"Envie um Módulo de Pesquisa para este destino para mais informações"
 
 #. STRINGS.UI.STARMAP.CONTAINER_REQUIRED
 msgctxt "STRINGS.UI.STARMAP.CONTAINER_REQUIRED"
-msgid "{0} required."
-msgstr "{0} requerido."
+msgid "{0} installation required to retrieve material"
+msgstr "Instalação de {0} necessária para coletar o material"
 
 #. STRINGS.UI.STARMAP.DEFAULT_NAME
 msgctxt "STRINGS.UI.STARMAP.DEFAULT_NAME"
@@ -42090,6 +42096,33 @@ msgstr "Destino viável selecionado, pronto para decolagem"
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION_TOOLTIP.UNREACHABLE"
 msgid "The selected destination is beyond rocket reach"
 msgstr "O destino selecionado está além do alcance do foguete"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSTUDY.LOWERATMO
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.LOWERATMO"
+msgid "Study lower atmosphere"
+msgstr "Estudo da atmosfera inferior"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSTUDY.MAGNETICFIELD
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.MAGNETICFIELD"
+msgid "Study magnetic field"
+msgstr "Estudo de campo magnético"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSTUDY.SUBSURFACE
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.SUBSURFACE"
+msgid "Study subsurface"
+msgstr "Estudo de subsuperfície"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSTUDY.SURFACE
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.SURFACE"
+msgid "Study surface"
+msgstr "Estudo de superfície"
+
+#. STRINGS.UI.STARMAP.DESTINATIONSTUDY.UPPERATMO
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.STERILIZINGATMOSPHERE.NAME"
+#| msgid "Sterile Atmosphere"
+msgctxt "STRINGS.UI.STARMAP.DESTINATIONSTUDY.UPPERATMO"
+msgid "Study upper atmosphere"
+msgstr "Estudo da atmosfera superior"
 
 #. STRINGS.UI.STARMAP.DESTINATIONTITLE
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONTITLE"
@@ -42383,11 +42416,13 @@ msgstr "O foguete não pode decolar sem um Atmotraje carregado"
 #. STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION
 msgctxt "STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION"
 msgid ""
-"Gather Interstellar Research Data on a Research Module.\n"
-"Research Modules Equipped: {0}."
+"Gather Interstellar Research Data using Research Modules.\n"
+"\n"
+"Research Modules Installed: {0}"
 msgstr ""
-"Colete Dados de Pesquisa Interestelar em um Módulo de Pesquisa.\n"
-"Módulos de Pesquisa Equipados: {0}."
+"Colete Dados de Pesquisa Interestelar usando Módulos de Pesquisa.\n"
+"\n"
+"Módulos de Pesquisa Instalados: {0}."
 
 #. STRINGS.UI.STARMAP.ROCKET_COUNT
 msgctxt "STRINGS.UI.STARMAP.ROCKET_COUNT"
@@ -46945,6 +46980,18 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT"
+#~ msgid "{0} required."
+#~ msgstr "{0} requerido."
+
+#~ msgctxt "STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED_TOOLTIP"
+#~ msgid "Further research of this destination is required. Send a research module."
+#~ msgstr "É necessário mais pesquisas neste destino. Envie um módulo de pesquisa."
+
+#~ msgctxt "STRINGS.UI.STARMAP.CONTAINER_REQUIRED"
+#~ msgid "{0} required."
+#~ msgstr "{0} requerido."
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.DESC"
 #~ msgid "Research modules can generate databanks points when flown."
