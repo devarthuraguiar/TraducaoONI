@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.11.4\n"
+"Project-Id-Version: Português foi Incluído! 1.11.5\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur <arthur.aguiar151@gmail.com>\n"
@@ -41751,6 +41751,11 @@ msgctxt "STRINGS.UI.DEMOOVERSCREEN.TIMERTOOLTIP"
 msgid "Demo time remaining"
 msgstr "Tempo de demo restante"
 
+#. STRINGS.UI.DETAILTABS.BUILDING_CHORES.AVAILABLE_CHORES
+msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.AVAILABLE_CHORES"
+msgid "AVAILABLE ERRANDS"
+msgstr "TAREFAS DISPONÍVEIS"
+
 #. STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_DESC_ACTIVE
 msgctxt "STRINGS.UI.DETAILTABS.BUILDING_CHORES.DUPE_TOOLTIP_DESC_ACTIVE"
 msgid "{Name} is currently working on '{Errand}'."
@@ -42769,7 +42774,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.11.4)"
+"- Traduzido por Chastomber :P (1.11.5)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -43472,11 +43477,11 @@ msgstr "Em média, meus Duplicantes gastam {0} do tempo viajando entre tarefas"
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_MESSAGE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_MESSAGE"
 msgid ""
-"Your duplicates are spending a large amount of their time travelling between "
-"tasks. (> {0})"
+"Your Duplicants are spending a significant amount of time travelling between "
+"their errands (> {0})"
 msgstr ""
 "Seus Duplicantes estão gastando uma boa parte do seu tempo viajando entre "
-"tarefas. (> {0})"
+"tarefas (> {0})"
 
 #. STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_TITLE
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.TRAVELTIMEWARNING.WARNING_TITLE"
@@ -49988,10 +49993,11 @@ msgid "Settings"
 msgstr "Configurações"
 
 #. STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.DESCRIPTION"
 msgid ""
+"It was discovered in a package labeled \"To be entrusted to Dr. Walker\"."
 msgstr ""
+"Foi descoberto em um pacote intitulado \"Deve ser entregue ao Dr. Walker\"."
 
 #. STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.NAME"
@@ -50034,10 +50040,13 @@ msgid "Tier 5"
 msgstr "Nível 5"
 
 #. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.DESCRIPTION"
 msgid ""
+"A thriving colony of tiny, microscopic organisms is responsible for giving "
+"it its bluish glow."
 msgstr ""
+"Uma próspera colônia de organismos microscópicos é responsável por dar o seu "
+"brilho azulado."
 
 #. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.NAME"
@@ -50045,10 +50054,13 @@ msgid "Bioluminescent Rock"
 msgstr "Rocha Bioluminescente"
 
 #. STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION"
 msgid ""
+"Equipment used to conduct experiments answering the age-old question, "
+"\"Could that blend\"?"
 msgstr ""
+"Equipamento usado para conduzir experimentos respondendo a clássica "
+"pergunta, \"Será se isso tritura?\""
 
 #. STRINGS.UI.SPACEARTIFACTS.BLENDER.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BLENDER.NAME"
@@ -50056,10 +50068,9 @@ msgid "Blender"
 msgstr "Liquidificador"
 
 #. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "It still works."
+msgstr "Ainda funciona."
 
 #. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.NAME"
@@ -50067,10 +50078,9 @@ msgid "Strange Brick"
 msgstr "Tijolo Estranho"
 
 #. STRINGS.UI.SPACEARTIFACTS.DNAMODEL.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.DNAMODEL.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "An educational model of genetic information."
+msgstr "Um modelo educacional de informação genética."
 
 #. STRINGS.UI.SPACEARTIFACTS.DNAMODEL.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.DNAMODEL.NAME"
@@ -50083,7 +50093,7 @@ msgid ""
 "It's unclear whether this is its naturally occurring shape, or if its "
 "appearance as been sculpted."
 msgstr ""
-"É desconhecido se esta é uma forma que ocorreu naturalmente, ou se sua "
+"É desconhecido se esta é uma formação que ocorreu naturalmente, ou se sua "
 "aparência foi esculpida."
 
 #. STRINGS.UI.SPACEARTIFACTS.EGGROCK.NAME
@@ -50103,8 +50113,8 @@ msgstr "Fóssil Intocado"
 
 #. STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.DESCRIPTION"
-msgid "Sequel to \"Lava Lamp\"."
-msgstr "Continuação de \"Lâmpada de Lava\""
+msgid "The sequel to \"Lava Lamp\"."
+msgstr "A continuação de \"Lâmpada de Lava\""
 
 #. STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.NAME"
@@ -50112,23 +50122,21 @@ msgid "Magma Lamp"
 msgstr "Lâmpada de Magma"
 
 #. STRINGS.UI.SPACEARTIFACTS.MODERNART.DESCRIPTION
-#| msgid ""
+#| msgctxt "STRINGS.EQUIPMENT.PREFABS.COOL_VEST.DESC"
+#| msgid "Don't sweat it!"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MODERNART.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "I don't get it."
+msgstr "Não consigo entender."
 
 #. STRINGS.UI.SPACEARTIFACTS.MODERNART.NAME
-#| msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.INJURED.NAME"
-#| msgid "Moderate"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MODERNART.NAME"
 msgid "Modern Art"
 msgstr "Arte Moderna"
 
 #. STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "A unique green stone formed from the impact of a meteorite."
+msgstr "Uma pedra verde única, formada a partir do impacto de um meteorito"
 
 #. STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.NAME"
@@ -50137,8 +50145,8 @@ msgstr "Moldavita"
 
 #. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION"
-msgid "A very, very small moon."
-msgstr "Uma lua bem pequena."
+msgid "A moon's moon's moon. It's very small."
+msgstr "A lua da lua de uma lua. É muito pequena."
 
 #. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.NAME"
@@ -50152,7 +50160,7 @@ msgid ""
 "\n"
 "Its function is unclear."
 msgstr ""
-"Uma peça retangular de rocha.\n"
+"Uma peça retangular de pedra.\n"
 "\n"
 "Sua função é desconhecida."
 
@@ -50162,23 +50170,21 @@ msgid "Small Obelisk"
 msgstr "Obelisco Pequeno"
 
 #. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION"
 msgid ""
+"An intermediary place to store espresso before you move it to your mouth."
 msgstr ""
+"Um local intermediário para guardar um café antes de você leva-lo a sua boca."
 
 #. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.NAME
-#| msgctxt "STRINGS.CODEX.B2_ELLIESBIRTHDAY.TITLE"
-#| msgid "Office Cake"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.NAME"
 msgid "Office Mug"
 msgstr "Xícara de Escritório"
 
 #. STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "Ew, weird. It has five fingers!"
+msgstr "Credo, que estranho. Só tem cinco dedos!"
 
 #. STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.NAME"
@@ -50186,21 +50192,19 @@ msgid "Old X-Ray"
 msgstr "Raio-X Antigo"
 
 #. STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "Don't drink from it! There was a pacu... IN the percolator!"
+msgstr "Não beba isso! Tinha um pacu... DENTRO da chaleira!"
 
 #. STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.NAME"
-msgid "Pacu in a Percolator"
-msgstr "Pacu em um Percolador"
+msgid "Percolator"
+msgstr "Chaleira"
 
 #. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "No space colony is complete without one."
+msgstr "Nenhuma colônia espacial é completa sem uma."
 
 #. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.NAME"
@@ -50215,7 +50219,7 @@ msgid ""
 "\n"
 "This one is rainbow coloured."
 msgstr ""
-"É desconhecido se esta é uma forma que ocorreu naturalmente, ou se sua "
+"É desconhecido se esta é uma formação que ocorreu naturalmente, ou se sua "
 "aparência foi esculpida.\n"
 "\n"
 "Esta aqui tem as cores do arco íris."
@@ -50226,10 +50230,11 @@ msgid "Egg-Shaped Rock"
 msgstr "Rocha em Formato de Ovo"
 
 #. STRINGS.UI.SPACEARTIFACTS.ROBOTARM.DESCRIPTION
-#| msgid ""
+#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_FUNCTIONAL"
+#| msgid "Is Not Functional"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROBOTARM.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "It's not functional. Just cool."
+msgstr "Não funciona. Só é legal."
 
 #. STRINGS.UI.SPACEARTIFACTS.ROBOTARM.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROBOTARM.NAME"
@@ -50237,23 +50242,19 @@ msgid "Robot Arm"
 msgstr "Braço de Robô"
 
 #. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "It's unclear how it formed, although I'm glad it did."
+msgstr "É incerto de como foi formado, mas fico feliz que se formou."
 
 #. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.NAME
-#| msgctxt "STRINGS.UI.STARMAP.LAND_ROCKET"
-#| msgid "Land Rocket"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.NAME"
 msgid "Tornado Rock"
 msgstr "Rocha Tornado"
 
 #. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "This mystery of the universe has already been solved."
+msgstr "O mistério do universo já foi resolvido."
 
 #. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.NAME"
@@ -50271,10 +50272,9 @@ msgid "Sandstone"
 msgstr "Arenito"
 
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "The name \"Pesquet\" is barely legible on the inside."
+msgstr "O nome \"Pesquet\" é pouco legível na parte de dentro."
 
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.NAME"
@@ -50293,10 +50293,9 @@ msgid "Shield Generator"
 msgstr "Gerador de Escudo"
 
 #. STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "No collection is complete without it."
+msgstr "Nenhuma coleção é completa sem ela."
 
 #. STRINGS.UI.SPACEARTIFACTS.SINK.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.NAME"
@@ -50304,10 +50303,11 @@ msgid "Sink"
 msgstr "Pia"
 
 #. STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.DESCRIPTION"
 msgid ""
-msgstr ""
+"A marvel of the cosmos, inside this display is an entirely self-contained "
+"solar system."
+msgstr "Uma maravilha do cosmos, dentro deste domo existe um sistema solar."
 
 #. STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.NAME"
@@ -50315,10 +50315,10 @@ msgid "Self-Contained System"
 msgstr "Sistema Auto Contido"
 
 #. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION"
-msgid ""
+msgid "Listens to Duplicant heartbeats, or gurgley tummies."
 msgstr ""
+"Ausculta os batimentos cardíacos dos Duplicantes, ou os barulhos da barriga."
 
 #. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.NAME"
@@ -50330,7 +50330,7 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.TEAPOT.DESCRIPTION"
 msgid ""
 "A teapot from the depths of space, coated in a thick layer of Neutronium."
 msgstr ""
-"Um bule vindo das profundezas do espaço, coberto de uma pequena camada de "
+"Um bule vindo das profundezas do espaço, coberto por uma camada grossa de "
 "Neutrônio."
 
 #. STRINGS.UI.SPACEARTIFACTS.TEAPOT.NAME
@@ -50339,10 +50339,9 @@ msgid "Encrusted Teapot"
 msgstr "Bule Incrustado"
 
 #. STRINGS.UI.SPACEARTIFACTS.VHS.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.DESCRIPTION"
-msgid ""
-msgstr ""
+msgid "Be kind when you handle it. It's very fragile."
+msgstr "Seja gentil quando segurar. É muito frágil."
 
 #. STRINGS.UI.SPACEARTIFACTS.VHS.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.NAME"
@@ -56163,6 +56162,14 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION"
+#~ msgid "A very, very small moon."
+#~ msgstr "Uma lua bem pequena."
+
+#~ msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.NAME"
+#~ msgid "Pacu in a Percolator"
+#~ msgstr "Pacu em um Percolador"
 
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.NAME"
 #~ msgid "Move to Safety"
@@ -64575,10 +64582,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Deliverable Not Available"
 #~ msgstr "Entregável Não Disponível"
 
-#~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_FUNCTIONAL"
-#~ msgid "Is Not Functional"
-#~ msgstr "Não Funcional"
-
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_IN_MY_ROOM"
 #~ msgid "Not in Target's Room"
 #~ msgstr "Não está na sala do Alvo"
@@ -67508,10 +67511,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Waste management techniques to keep your base clean and livable."
 #~ msgstr ""
 #~ "Técnicas de manejo de resíduos para manter sua colônia limpa e viva."
-
-#~ msgctxt "STRINGS.RESEARCH.PERCOLATION.NAME"
-#~ msgid "Percolation"
-#~ msgstr "Filtração"
 
 #~ msgctxt "STRINGS.RESEARCH.POWERREGULATION.DESC"
 #~ msgid ""
