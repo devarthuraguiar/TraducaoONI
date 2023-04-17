@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.8.4\n"
+"Project-Id-Version: Português foi Incluído! 1.8.5\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -13,6 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Flags-xgettext: --add-comments\n"
 "X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: STRINGS\n"
 
 #. STRINGS.BUILDING.DETAILS.USE_COUNT
 msgctxt "STRINGS.BUILDING.DETAILS.USE_COUNT"
@@ -985,6 +986,16 @@ msgstr ""
 "------------------\n"
 "<link=\"BOTTLEEMPTIER\">Esvaziadores de Garrafas</link> podem ser usados para transportar e depositar a <link=\"DIRTYWATER\">Água Poluída</link> em áreas designadas"
 
+#. STRINGS.BUILDING.STATUSITEMS.HASGANTRY.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.HASGANTRY.NAME"
+msgid "Has Gantry"
+msgstr "Possui Pórtico"
+
+#. STRINGS.BUILDING.STATUSITEMS.HASGANTRY.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.HASGANTRY.TOOLTIP"
+msgid "A <link=\"GANTRY\">Gantry</link> must be placed at the based of the <link=\"COMMANDMODULE\">Command Capsule</link> so that an astronaut can get inside."
+msgstr "Um <link=\"GANTRY\">Pórtico</link> precisa ser construído na base de uma <link=\"COMMANDMODULE\">Cápsula de Comando</link> para que um astronauta possa entrar."
+
 #. STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.HEATINGSTALLEDHOTENV.NAME"
 msgid "Max Temperature Reached"
@@ -1285,6 +1296,16 @@ msgstr ""
 "Construa Blocos sob esta estrutura\n"
 "------------------\n"
 "Blocos podem ser encontrados na <color=#833A5FFF>Aba Base</color> <color=#F44A47>[1]</color> do Menu Construir"
+
+#. STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.NAME"
+msgid "Missing Gantry"
+msgstr "Faltando Pórtico"
+
+#. STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.MISSINGGANTRY.TOOLTIP"
+msgid "A <link=\"GANTRY\">Gantry</link> must be placed at the based of the <link=\"COMMANDMODULE\">Command Capsule</link> so that an astronaut can get inside."
+msgstr "Um <link=\"GANTRY\">Pórtico</link> precisa ser construído na base de uma <link=\"COMMANDMODULE\">Cápsula de Comando</link> para que um astronauta possa entrar."
 
 #. STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MOPUNREACHABLE.NAME"
@@ -4435,7 +4456,7 @@ msgstr "<link=\"HANDSANITIZER\">Higienizador de Mãos</link>"
 #. STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.DESC"
 msgid "New Duplicants will come out here, but thank goodness, they'll never go back in."
-msgstr "Novos Duplicantes saem dele, mas ainda bem que eles nunca voltam."
+msgstr "Novos Duplicantes saem dela, mas ainda bem que eles nunca voltam."
 
 #. STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEADQUARTERS.EFFECT"
@@ -15537,6 +15558,11 @@ msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CHORE_DRIVER_IS_NULL"
 msgid "Assigned to: {Assignee}"
 msgstr "Designado à: {Assignee}"
 
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CONTAINS_OXYGEN
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CONTAINS_OXYGEN"
+msgid "Not enough Oxygen"
+msgstr "Oxigênio Insuficiente"
+
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.CURRENTLY_PEEING"
 msgid "Currently Peeing"
@@ -22328,15 +22354,11 @@ msgid "<link=\"ALGAE\">Algae</link>"
 msgstr "<link=\"ALGAE\">Alga</link>"
 
 #. STRINGS.ELEMENTS.BITUMEN.DESC
-#| msgctxt "STRINGS.RESEARCH.TECHS.IMPROVEDCOMBUSTION.DESC"
-#| msgid "Burn dirty fuels for exceptional <link=\"POWER\">Power</link> production."
 msgctxt "STRINGS.ELEMENTS.BITUMEN.DESC"
 msgid "Bitumen is a sticky viscous residue from <link=\"PETROLEUM\">Petroleum</link> production"
 msgstr "Betume é um resíduo grudento e viscoso da produção de <link=\"PETROLEUM\">Petróleo</link>"
 
 #. STRINGS.ELEMENTS.BITUMEN.NAME
-#| msgctxt "STRINGS.ELEMENTS.LIME.NAME"
-#| msgid "<link=\"LIME\">Lime</link>"
 msgctxt "STRINGS.ELEMENTS.BITUMEN.NAME"
 msgid "<link=\"BITUMEN\">Bitumen</link>"
 msgstr "<link=\"BITUMEN\">Betume</link>"
@@ -23106,8 +23128,6 @@ msgid "(S) Sulfur is a common chemical element usually produced as a byproduct o
 msgstr "(S) Enxofre é um elemento químico comum geralmente produzido como um subproduto na produção de <link=\"METHANE\">Gás Natural</link>."
 
 #. STRINGS.ELEMENTS.LIQUIDSULFUR.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDFILTER.NAME"
-#| msgid "<link=\"LIQUIDFILTER\">Liquid Filter</link>"
 msgctxt "STRINGS.ELEMENTS.LIQUIDSULFUR.NAME"
 msgid "<link=\"LIQUIDSULFUR\">Liquid Sulfur</link>"
 msgstr "<link=\"LIQUIDSULFUR\">Enxofre Líquido</link>"
@@ -23851,8 +23871,6 @@ msgid "(S) Sulfur is a common chemical element usually produced as a byproduct o
 msgstr "(S) Enxofre é um elemento químico comum geralmente produzido como um subproduto na produção de <link=\"METHANE\">Gás Natural</link>."
 
 #. STRINGS.ELEMENTS.SULFUR.NAME
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SUNBURN.NAME"
-#| msgid "<link=\"SUNBURN\">Sunburn</link>"
 msgctxt "STRINGS.ELEMENTS.SULFUR.NAME"
 msgid "<link=\"SULFUR\">Sulfur</link>"
 msgstr "<link=\"SULFUR\">Enxofre</link>"
@@ -23863,8 +23881,6 @@ msgid "(S) Sulfur is a common chemical element usually produced as a byproduct o
 msgstr "(S) Enxofre é um elemento químico comum geralmente produzido como um subproduto na produção de <link=\"METHANE\">Gás Natural</link>."
 
 #. STRINGS.ELEMENTS.SULFURGAS.NAME
-#| msgctxt "STRINGS.ELEMENTS.SOURGAS.NAME"
-#| msgid "<link=\"SOURGAS\">Sour Gas</link>"
 msgctxt "STRINGS.ELEMENTS.SULFURGAS.NAME"
 msgid "<link=\"SULFURGAS\">Sulfur Gas</link>"
 msgstr "<link=\"SULFURGAS\">Gás Enxofre</link>"
@@ -27102,7 +27118,6 @@ msgid "Job Mastered"
 msgstr "Trabalho Dominado"
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME
-#, fuzzy
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME"
 msgid "{0}: {1}!"
 msgstr "{0}: {1}!"
@@ -34091,7 +34106,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.8.4)"
+"- Traduzido por Chastomber :P (1.8.5)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -35470,8 +35485,8 @@ msgstr "PERIGO!"
 
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.BLANK_DESC
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.BLANK_DESC"
-msgid "Select a mode..."
-msgstr "Selecione um modo..."
+msgid "Select a playstyle..."
+msgstr "Selecione um estilo de jogo..."
 
 #. STRINGS.UI.FRONTEND.MODESELECTSCREEN.HEADER
 msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.HEADER"
@@ -35791,6 +35806,21 @@ msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER_TITLE"
 msgid "MORALE CHANGES"
 msgstr "MUDANÇAS DE MORAL"
 
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.BUTTON_DONE
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.BUTTON_DONE"
+msgid "Done"
+msgstr "Feito"
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.BUTTON_LOAD
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.BUTTON_LOAD"
+msgid "Load"
+msgstr "Carregar"
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.BUTTON_WORKSHOP
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.BUTTON_WORKSHOP"
+msgid "Steam Workshop"
+msgstr "Oficina Steam"
+
 #. STRINGS.UI.FRONTEND.SCENARIOS_MENU.LOAD_CONFIRM_TITLE
 msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.LOAD_CONFIRM_TITLE"
 msgid "LOAD"
@@ -35803,8 +35833,24 @@ msgstr "Carregar o cenário \"{SCENARIO_NAME}\"?"
 
 #. STRINGS.UI.FRONTEND.SCENARIOS_MENU.NO_SCENARIOS_AVAILABLE
 msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.NO_SCENARIOS_AVAILABLE"
-msgid "No scenarios available. Subscribe to some in the Steam Workshop."
-msgstr "Nenhum cenário disponível. Inscreva-se em alguns na Oficina Steam."
+msgid ""
+"No scenarios available.\n"
+"\n"
+"Subscribe to some in the Steam Workshop."
+msgstr ""
+"Nenhum cenário disponível.\n"
+"\n"
+"Inscreva-se em alguns na Oficina Steam."
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.SCENARIO_DESCRIPTION
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.SCENARIO_DESCRIPTION"
+msgid "Description"
+msgstr "Descrição"
+
+#. STRINGS.UI.FRONTEND.SCENARIOS_MENU.SCENARIO_NAME
+msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.SCENARIO_NAME"
+msgid "Name:"
+msgstr "Nome: "
 
 #. STRINGS.UI.FRONTEND.SCENARIOS_MENU.TITLE
 msgctxt "STRINGS.UI.FRONTEND.SCENARIOS_MENU.TITLE"
@@ -40238,6 +40284,11 @@ msgctxt "STRINGS.UI.SCHEDULEGROUPS.WORKTIME.NOTIFICATION_TOOLTIP"
 msgid "During Work shifts my Duplicants must perform the work tasks I've placed for them throughout the colony."
 msgstr "Durante turnos de Trabalho meus Duplicantes devem realizar as tarefas de trabalho que eu coloquei para eles."
 
+#. STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE
+msgctxt "STRINGS.UI.SCHEDULESCREEN.ADD_SCHEDULE"
+msgid "Add New Schedule"
+msgstr "Adicionar Nova Programação"
+
 #. STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON
 msgctxt "STRINGS.UI.SCHEDULESCREEN.ALARM_BUTTON"
 msgid "Shift Alarms"
@@ -40283,6 +40334,17 @@ msgctxt "STRINGS.UI.SCHEDULESCREEN.DELETE_BUTTON_TOOLTIP"
 msgid "Delete Schedule"
 msgstr "Deletar Rotina"
 
+#. STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE
+#, fuzzy
+msgctxt "STRINGS.UI.SCHEDULESCREEN.DOWNTIME_MORALE"
+msgid "Downtime Morale: {0}"
+msgstr "Moral de Intervalo: {0}"
+
+#. STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS
+msgctxt "STRINGS.UI.SCHEDULESCREEN.PAINT_TOOLS"
+msgid "Paint Tools:"
+msgstr "Ferramentas de Edição:"
+
 #. STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP
 msgctxt "STRINGS.UI.SCHEDULESCREEN.RENAME_BUTTON_TOOLTIP"
 msgid "Rename custom schedule"
@@ -40318,6 +40380,11 @@ msgstr "{0} (Designado)"
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_DROPDOWN_BLANK"
 msgid "<i>Move Duplicant...</i>"
 msgstr "<i>Mover Duplicante...</i>"
+
+#. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR
+msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_EDITOR"
+msgid "Schedule Editor"
+msgstr "Editor de Rotina"
 
 #. STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_DEFAULT
 msgctxt "STRINGS.UI.SCHEDULESCREEN.SCHEDULE_NAME_DEFAULT"
@@ -40470,10 +40537,30 @@ msgctxt "STRINGS.UI.STARMAP.CANT_CARRY_ELEMENT"
 msgid "This rocket needs a {0} to gather {1}"
 msgstr "Este foguete precisa de {0} para coletar {1}"
 
+#. STRINGS.UI.STARMAP.COMPONENT.CARGO_BAY
+msgctxt "STRINGS.UI.STARMAP.COMPONENT.CARGO_BAY"
+msgid "Cargo Bay"
+msgstr "Ala de Carga"
+
+#. STRINGS.UI.STARMAP.COMPONENT.FUEL_TANK
+msgctxt "STRINGS.UI.STARMAP.COMPONENT.FUEL_TANK"
+msgid "Fuel Tank"
+msgstr "Tanque de Combustível"
+
+#. STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE
+msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
+msgid "Rocket Engine"
+msgstr "Motor do Foguete"
+
 #. STRINGS.UI.STARMAP.CONTAINER_REQUIRED
 msgctxt "STRINGS.UI.STARMAP.CONTAINER_REQUIRED"
 msgid "A {0} must be installed to collect this resource"
 msgstr "{0} precisa ser instalado para coletar este recurso"
+
+#. STRINGS.UI.STARMAP.DEFAULT_NAME
+msgctxt "STRINGS.UI.STARMAP.DEFAULT_NAME"
+msgid "Rocket"
+msgstr "Foguete"
 
 #. STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.NOTSELECTED"
@@ -40506,10 +40593,9 @@ msgid "The selected destination is beyond rocket reach"
 msgstr "O destino selecionado está além do alcance do foguete"
 
 #. STRINGS.UI.STARMAP.DESTINATIONTITLE
-#, fuzzy
 msgctxt "STRINGS.UI.STARMAP.DESTINATIONTITLE"
 msgid "Destination Status"
-msgstr "Estado do Destino"
+msgstr "Informações do Destino"
 
 #. STRINGS.UI.STARMAP.DISTANCE
 msgctxt "STRINGS.UI.STARMAP.DISTANCE"
@@ -40522,8 +40608,6 @@ msgid "TOO FAR FOR THIS ROCKET"
 msgstr "LONGE DEMAIS PARA ESTE FOGUETE"
 
 #. STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME
-#| msgctxt "STRINGS.UI.STARMAP.EMPTYTANK.NAME"
-#| msgid "Fuel tank not full"
 msgctxt "STRINGS.UI.STARMAP.EMPTYOXIDIZERTANK.NAME"
 msgid "Oxidizer tank not full"
 msgstr "Tanque do oxidizador não carregado"
@@ -40589,10 +40673,9 @@ msgid "LAUNCH MISSION"
 msgstr "INICIAR MISSÃO"
 
 #. STRINGS.UI.STARMAP.LAUNCH_ROCKET
-#, fuzzy
 msgctxt "STRINGS.UI.STARMAP.LAUNCH_ROCKET"
 msgid "Launch Rocket"
-msgstr "Iniciar Decolagem"
+msgstr "Decolar Foguete"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.ASTRONAUGHT"
@@ -40628,6 +40711,13 @@ msgstr "Requerido"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP"
 msgid "A {0} must be installed before launch"
 msgstr "{0} precisa ser instalado antes da decolagem"
+
+#. STRINGS.UI.STARMAP.LISTTITLES.DISTANCE
+#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.DANCER"
+#| msgid "Dancer"
+msgctxt "STRINGS.UI.STARMAP.LISTTITLES.DISTANCE"
+msgid "Distance"
+msgstr "Distância"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.FUEL
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.FUEL"
@@ -40684,6 +40774,11 @@ msgctxt "STRINGS.UI.STARMAP.LISTTITLES.STORAGE"
 msgid "Storage"
 msgstr "Armazenamento"
 
+#. STRINGS.UI.STARMAP.LISTTITLES.TYPE
+msgctxt "STRINGS.UI.STARMAP.LISTTITLES.TYPE"
+msgid "Type"
+msgstr "Tipo"
+
 #. STRINGS.UI.STARMAP.LISTTITLES.WORLDCOMPOSITION
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.WORLDCOMPOSITION"
 msgid "World Composition"
@@ -40694,25 +40789,28 @@ msgctxt "STRINGS.UI.STARMAP.MANAGEMENT_BUTTON"
 msgid "STARMAP"
 msgstr "MAPA ESTELAR"
 
+#. STRINGS.UI.STARMAP.MISSION_STATUS.GO
+msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.GO"
+msgid "ALL SYSTEMS GO"
+msgstr "TODOS OS SISTEMAS PRONTOS"
+
 #. STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED
-#, fuzzy
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.GROUNDED"
 msgid "Grounded"
 msgstr "Ancorado"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING
-#, fuzzy
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RANCHING.NAME"
+#| msgid "Ranching"
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING"
-msgid "Grounded"
-msgstr "Ancorado"
+msgid "Launching"
+msgstr "Decolando"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.UNDERWAY
 #, fuzzy
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.UNDERWATER.NAME"
-#| msgid "Underwater"
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.UNDERWAY"
 msgid "Underway"
-msgstr "Debaixo d'água"
+msgstr "A caminho"
 
 #. STRINGS.UI.STARMAP.MISSION_STATUS.WAITING_TO_LAND
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.WAITING_TO_LAND"
@@ -40735,6 +40833,7 @@ msgid ""
 "Rockets allow you to visit nearby celestial bodies.\n"
 "\n"
 "Each rocket must have a Command Module, an Engine, and Fuel.\n"
+"\n"
 "You can also carry other modules that allow you to gather specific resources from the places you visit.\n"
 "\n"
 "Remember the more weight a rocket has, the more limited it'll be on the distance it can travel. You can add more fuel to fix that, but fuel will add weight as well."
@@ -40742,6 +40841,7 @@ msgstr ""
 "Foguetes te permitem visitar corpos celestiais próximos.\n"
 "\n"
 "Cada foguete precisa ter um Módulo de Comando, um Motor e Combustível.\n"
+"\n"
 "Você também pode carregar outros módulos que te permitem coletar recursos específicos dos locais que você visitar.\n"
 "\n"
 "Lembre-se que quanto mais peso um foguete tem, mais limitado será a distância que ele pode viajar. Você pode adicionar mais combustível para resolver isso, mas combustível também aumenta o peso."
@@ -40825,6 +40925,12 @@ msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.STATUS"
 msgid "Status"
 msgstr "Estatísticas"
 
+#. STRINGS.UI.STARMAP.ROCKETSTATUS.STATUS_TITLE
+#, fuzzy
+msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.STATUS_TITLE"
+msgid "Rocket Status"
+msgstr "Informações do Foguete"
+
 #. STRINGS.UI.STARMAP.ROCKETSTATUS.TIMEREMAINING
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATUS.TIMEREMAINING"
 msgid "Time Remaining"
@@ -40859,6 +40965,11 @@ msgstr "Massa: "
 msgctxt "STRINGS.UI.STARMAP.ROCKETWEIGHT.MASSPENALTY"
 msgid "Mass Penalty: "
 msgstr "Penalidade por Peso: "
+
+#. STRINGS.UI.STARMAP.SEE_ROCKETS_LIST
+msgctxt "STRINGS.UI.STARMAP.SEE_ROCKETS_LIST"
+msgid "See Rockets List"
+msgstr "Veja a Lista de Foguetes"
 
 #. STRINGS.UI.STARMAP.STATUS
 msgctxt "STRINGS.UI.STARMAP.STATUS"
@@ -45066,6 +45177,11 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#, fuzzy
+#~ msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.LAUNCHING"
+#~ msgid "Grounded"
+#~ msgstr "Ancorado"
+
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.CLEANTOILET.NAME"
 #~ msgid "Clean"
 #~ msgstr "Limpar"
@@ -49179,10 +49295,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.ELEMENTS.RADIUM.NAME"
 #~ msgid "Radium"
 #~ msgstr "Rádio"
-
-#~ msgctxt "STRINGS.ELEMENTS.ROCKGAS.NAME"
-#~ msgid "Rock Gas"
-#~ msgstr "Rocha Gasosa"
 
 #~ msgctxt "STRINGS.ELEMENTS.SANDSTONE.NAME"
 #~ msgid "Sandstone"
