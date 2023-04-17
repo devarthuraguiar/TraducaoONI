@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.9\n"
+"Project-Id-Version: Português foi Incluído! 1.9.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Flags-xgettext: --add-comments\n"
 "X-Poedit-Basepath: .\n"
@@ -897,8 +897,6 @@ msgid "Extended"
 msgstr "Extendido"
 
 #. STRINGS.BUILDING.STATUSITEMS.GANTRY.MANUAL_CONTROL
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MANUALLYCONTROLLED.NAME"
-#| msgid "Manually Controlled"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.GANTRY.MANUAL_CONTROL"
 msgid "Manual Control: {0}"
 msgstr "Controle Manual: {0}"
@@ -1049,8 +1047,6 @@ msgid "This building must be submerged in liquid to function"
 msgstr "Esta estrutura precisa estar submersa em líquido para funcionar"
 
 #. STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME"
-#| msgid "Incoming Meteors"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.INCOMINGMETEORS.NAME"
 msgid "Incoming Object Detected"
 msgstr "Objeto a Caminho Detectado"
@@ -2802,7 +2798,6 @@ msgid "A {0} sustained damage from {1}"
 msgstr "Um(a) {0} recebeu dano {1}"
 
 #. STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET
-#, fuzzy
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.ROCKET"
 msgid "rocket engine"
 msgstr "motor do foguete"
@@ -2846,7 +2841,7 @@ msgid ""
 msgstr ""
 "Conduz <link=\"RESEARCH\">Pesquisa Avançada</link> para desbloquear novas tecnologias.\n"
 "\n"
-"Duplicante Designados precisam ter o traço <link=\"RESEARCHER\">Pesquisar com Super Computador</link>."
+"Duplicantes Designados precisam ter o traço <link=\"RESEARCHER\">Pesquisar com Super Computador</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ADVANCEDRESEARCHCENTER.NAME"
@@ -3023,8 +3018,6 @@ msgid "Automatically <link=\"CHORES\">digs</link> out all materials in a set ran
 msgstr "<link=\"CHORES\">Escava</link> automaticamente todos os materiais em uma área determinada."
 
 #. STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.NAME"
-#| msgid "<link=\"MINER\">Miner</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.AUTOMINER.NAME"
 msgid "<link=\"AUTOMINER\">Robo-Miner</link>"
 msgstr "<link=\"AUTOMINER\">Robô Minerador</link>"
@@ -3463,11 +3456,9 @@ msgid ""
 msgstr ""
 "Conduz <link=\"RESEARCH\">Pesquisa Interestelar</link> usando dados de <link=\"TELESCOPE\">Telescópios</link> e <link=\"RESEARCHMODULE\">Módulos de Pesquisa</link>.\n"
 "\n"
-"Duplicante Designados precisam ter o traço <link=\"SENIORRESEARCHER\">Pesquisar com Planetário</link>."
+"Duplicantes Designados precisam ter o traço <link=\"SENIORRESEARCHER\">Pesquisar com Planetário</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHCENTER.NAME"
-#| msgid "<link=\"RESEARCHCENTER\">Research Station</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.NAME"
 msgid "<link=\"COSMICRESEARCHCENTER\">Virtual Planetarium</link>"
 msgstr "<link=\"COSMICRESEARCHCENTER\">Planetário Virtual</link>"
@@ -4628,8 +4619,6 @@ msgstr ""
 "O motor de um foguete precisa ser construído antes de qualquer outro módulo do foguete ser adicionado."
 
 #. STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.NAME
-#| msgctxt "STRINGS.ELEMENTS.HYDROGEN.NAME"
-#| msgid "<link=\"HYDROGEN\">Hydrogen</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENENGINE.NAME"
 msgid "<link=\"HYDROGENENGINE\">Hydrogen Engine</link>"
 msgstr "<link=\"HYDROGENENGINE\">Motor à Hidrogênio</link>"
@@ -4795,11 +4784,6 @@ msgid "Docks can refill jet suits with air and fuel, or empty them of waste."
 msgstr "Estações podem recarregar trajes à jato com ar e combustível ou limpá-los de resíduos."
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SUITLOCKER.EFFECT"
-#| msgid ""
-#| "Stores and recharges Atmo Suit.\n"
-#| "\n"
-#| "Build next to an Exosuit Checkpoint to make Duplicants change into suits when passing by."
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.EFFECT"
 msgid ""
 "Stores and refuels Jet Suits with <link=\"OXYGEN\">Oxygen</link> and <link=\"PETROLEUM\">Petroleum</link>.\n"
@@ -4867,11 +4851,6 @@ msgid "Kilns can also be used to refine coal into pure carbon."
 msgstr "Fornos podem ser usado para refinar carvão em carbono puro."
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.APOTHECARY.EFFECT"
-#| msgid ""
-#| "Produces <link=\"MEDICINE\">Medicine</link> to cure most basic <link=\"DISEASE\">Diseases</link>.\n"
-#| "\n"
-#| "Duplicants will not fabricate items unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.EFFECT"
 msgid ""
 "Fires <link=\"CLAY\">Clay</link> to produce <link=\"CERAMIC\">Ceramic</link>.\n"
@@ -6096,15 +6075,11 @@ msgid "Oxidizer tanks become more efficient when using liquid oxygen over oxylit
 msgstr "Tanques de oxidante são mais eficientes usando oxigênio líquido ao invés de Oxilito."
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT
-#| msgctxt "STRINGS.MISC.STATUSITEMS.OXYROCKBLOCKED.TOOLTIP"
-#| msgid "This <link=\"OXYROCK\">Oxylite</link> deposit has no room to emit <link=\"OXYGEN\">Oxygen</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.EFFECT"
 msgid "Stores <link=\"OXYROCK\">Oxylite</link> or <link=\"LIQUIDOXYGEN\">Liquid Oxygen</link> for burning rocket fuels."
 msgstr "Armazena <link=\"OXYROCK\">Oxilito</link> ou <link=\"LIQUIDOXYGEN\">Oxigênio Líquido</link> para a queima de combustíveis de foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME
-#| msgctxt "STRINGS.ELEMENTS.OBSIDIAN.NAME"
-#| msgid "<link=\"OBSIDIAN\">Obsidian</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANK.NAME"
 msgid "<link=\"OXIDIZERTANK\">Oxidizer Tank</link>"
 msgstr "<link=\"OXIDIZERTANK\">Tanque de Oxidante</link>"
@@ -6627,8 +6602,6 @@ msgid "Doctorate Degree"
 msgstr "Diploma de Doutorado"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPLADDER.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LADDERFAST.NAME"
-#| msgid "Plastic Ladder"
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPLADDER.DESC"
 msgid "A hard plastic ladder."
 msgstr "Uma dura escada de plástico."
@@ -6818,8 +6791,6 @@ msgstr ""
 "<link=\"RESEARCH\">Pontos de Pesquisa</link> gerados ficam disponíveis com a volta do foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.NAME
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.RESEARCHNOTES"
-#| msgid "<link=\"RESEARCHNOTES\">Research Notes</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.RESEARCHMODULE.NAME"
 msgid "<link=\"RESEARCHMODULE\">Research Module</link>"
 msgstr "<link=\"RESEARCHMODULE\">Módulo de Pesquisa</link>"
@@ -7282,18 +7253,11 @@ msgid "<link=\"SUITMARKER\">Exosuit Checkpoint</link>"
 msgstr "<link=\"SUITMARKER\">Ponto de Checagem de Exotraje</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.DESC
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.SCRUBORE.TOOLTIP"
-#| msgid "Material ore can be scrubbed to remove Germs present on its surface"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.DESC"
 msgid "Rare materials can be procured through rocket missions into space."
 msgstr "Materiais raros podem ser adquiridos por missões com foguetes no espaço."
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MICROBEMUSHER.EFFECT"
-#| msgid ""
-#| "Produces low quality <link=\"FOOD\">Food</link> using common ingredients.\n"
-#| "\n"
-#| "Duplicants will not fabricate items unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.EFFECT"
 msgid ""
 "Processes raw <link=\"RAREMATERIALS\">Rare Material</link> into advanced industrial goods.\n"
@@ -7305,32 +7269,26 @@ msgstr ""
 "Duplicantes não irão fabricar enquanto receitas não estiverem na fila."
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.METALREFINERY.NAME"
-#| msgid "<link=\"METALREFINERY\">Metal Refinery</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.NAME"
 msgid "<link=\"SUPERMATERIALREFINERY\">Molecular Forge</link>"
 msgstr "<link=\"SUPERMATERIALREFINERY\">Forja Molecular</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SUPERCOOLANT_RECIPE_DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SUPERCOOLANT_RECIPE_DESCRIPTION"
 msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SUPERINSULATOR_RECIPE_DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.SUPERINSULATOR_RECIPE_DESCRIPTION"
 msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.TEMPCONDUCTORSOLID_RECIPE_DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.TEMPCONDUCTORSOLID_RECIPE_DESCRIPTION"
 msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.VISCOGEL_RECIPE_DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.SUPERMATERIALREFINERY.VISCOGEL_RECIPE_DESCRIPTION"
 msgid ""
 msgstr ""
@@ -7367,8 +7325,6 @@ msgid "Turn On"
 msgstr "Ligar"
 
 #. STRINGS.BUILDINGS.PREFABS.TELESCOPE.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.DESC"
-#| msgid "Telescopes are necessary for conducting rocket research and learning starmaps."
 msgctxt "STRINGS.BUILDINGS.PREFABS.TELESCOPE.DESC"
 msgid "Telescopes are necessary for learning starmaps and conducting rocket missions."
 msgstr "Telescópios são necessários para aprender sobre o espaço e conduzir missões espaciais."
@@ -7493,8 +7449,6 @@ msgstr ""
 "Voos de Turismo reduzem <link=\"STRESS\">Estresse</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.NAME
-#| msgctxt "STRINGS.ELEMENTS.PHOSPHATENODULES.NAME"
-#| msgid "<link=\"PHOSPHATENODULES\">Phosphate Nodules</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.TOURISTMODULE.NAME"
 msgid "<link=\"TOURISTMODULE\">Sight-Seeing Module</link>"
 msgstr "<link=\"TOURISTMODULE\">Módulo de Turismo</link>"
@@ -8219,35 +8173,151 @@ msgctxt "STRINGS.CODEX.ATOMICONRECRUITMENT.TITLE"
 msgid "Results from Atomicon"
 msgstr "Resultados da Atomicon"
 
+#. STRINGS.CODEX.B327.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.B327.BODY.CONTAINER1"
+msgid ""
+"I'm starting my new job at Gravitas today. I'm... nervous.\n"
+"\n"
+"It turns out they hired a bunch of new people - I guess they're expanding - and most of them are about my age, but I'm the only one that hasn't done my doctorate. They all call me \"Mister\" Kraus and it's the <i>worst</i>.\n"
+"\n"
+"I have no idea where I'll find the time to do my PhD while working a fulltime job.\n"
+"------------------\n"
+msgstr ""
+"Tô começando meu novo emprego na Gravitas hoje. Eu tô... nervoso.\n"
+"\n"
+"O que parece é que eles contrataram várias pessoas - Eu acho que eles estão se expandindo - e a maioria tem a minha idade, mas eu acho que eu sou o único que não tem doutorado. Eles me chamam de \"Senhor\" Kraus e isso é <i>horrível</i>.\n"
+"\n"
+"Eu não tenho ideia de onde eu vou achar o tempo para fazer meu PhD enquanto eu tiver um trabalho em tempo integral.\n"
+"------------------\n"
+
+#. STRINGS.CODEX.B327.BODY.CONTAINER2
+msgctxt "STRINGS.CODEX.B327.BODY.CONTAINER2"
+msgid ""
+"<i>I screwed up so much today.</i>\n"
+"\n"
+"At one point I spaced on the formula for calculating the volume of a cone, they must have thought I was completely useless.\n"
+"\n"
+"The only time I knew what I was doing was when I helped an older coworker figure out her dumb old email.\n"
+"\n"
+"People say education isn't so important as long as you've got the skills, but there's things my colleagues know that I just <i>don't</i>. They're not mean about it or anything but it's so frustrating. I just feel dumb when I talk to them!\n"
+"\n"
+"I bet they're gonna realize soon that I don't belong here, and then I'll be fired for sure. Man... I'm still paying off my student loans (WITH international fees) and I <i>can't</i> lose this income.\n"
+"------------------\n"
+msgstr ""
+"<i>Eu vacilei tanto hoje.</i>\n"
+"\n"
+"Teve um momento que deu um branco na hora de calcular o volume de um cone, eles devem achar que eu fui completamente inútil.\n"
+"\n"
+"A única vez que eu lembrei o que tava fazendo foi quando eu ajudei um colega mais velho a acessar o email.\n"
+"\n"
+"As pessoas dizem que a educação não é tão importante desde que você tenha as habilidades, mas tem coisas que meus colegas sabem que eu simplesmente <i>não sei</i>. Eles não são rudes ou qualquer coisa assim mas é tão frustrante. Eu me sinto burro só de falar com eles!\n"
+"\n"
+"Eu aposto que eles vão logo descobrir que eu não pertenço aqui, e aí eu vou ser demitido. Cara... Eu ainda tô pagando meu FIES (COM juros internacionais) e eu <i>não posso</i> perder essa renda.\n"
+"------------------\n"
+
+#. STRINGS.CODEX.B327.BODY.CONTAINER3
+msgctxt "STRINGS.CODEX.B327.BODY.CONTAINER3"
+msgid ""
+"Dr. Sklodowska's been really nice and welcoming since I started working here. Sometimes she comes and sits with me in the cafeteria. The food she brings from home smells like old feet but she chats with me about what new research papers we're each reading and it's very kind.\n"
+"\n"
+"She tells me the fact I got hired without a doctorate means I must be very smart, and management must see something in me.\n"
+"\n"
+"I'm not sure I believe her but it's nice to hear something that counters little voice in my head anyway.\n"
+"------------------\n"
+msgstr ""
+"Dra. Sklodowska's foi muito legal e gentil comigo desde que eu comecei a trabalhar aqui. As vezes ela se senta comigo na cafeteria. A comida que ela traz de casa tem cheiro de cachorro molhado mas quando ela fala comigo sobre os novos artigos de pesquisa que nós estamos lendo e é muito bom.\n"
+"\n"
+"Ela me falou que o fato de eu ter sido contratado sem um doutorado significa que eu sou muito inteligente, e a gerência deve ter visto algo de novo em mim.\n"
+"\n"
+"Eu não tenho certeza se eu acredito nela mas é muito bom ouvir alguma coisa que seja diferente daquela pequena voz que tem minha cabeça.\n"
+"------------------\n"
+
+#. STRINGS.CODEX.B327.BODY.CONTAINER4
+msgctxt "STRINGS.CODEX.B327.BODY.CONTAINER4"
+msgid ""
+"It's been about a week and a half and I think I'm finally starting to settle in. I'm feeling a lot better about my position - some of the senior scientists have even started using my ideas in the lab.\n"
+"\n"
+"Dr. Sklodowska might have been right, my anxiety was just growing pains. This is my first real job and I guess afraid to let myself believe I could really, actually do it, just in case it went wrong.\n"
+"\n"
+"I think I want to buy Dr. Sklowdoska a digital reader for her books and papers as a thank-you one day, if I ever pay off my student loans.\n"
+"\n"
+"ONCE I pay off my student loans.\n"
+"------------------\n"
+msgstr ""
+"Já se passou mais ou menos uma semana e meia e eu acho que eu finalmente estou conseguindo me adequar. Eu tô me sentindo bem melhor com a minha posição - alguns dos cientistas titulares já até começaram a usar minha ideias no lab.\n"
+"\n"
+"Talvez a Dra. Sklodowska estava certa, e a minha ansiedade só estava criando coisas. Esse é o meu primeiro emprego e acho que eu tava com medo de me deixar acreditar que tudo daria certo, caso algo desse errado.\n"
+"\n"
+"Eu acho que eu vou comprar para a Dra. Sklowdoska um leitor digital para os livros e artigos dela como agradecimento um dia, se um dia eu conseguir pagar o meu FIES.\n"
+"\n"
+"ASSIM que eu pagar o meu FIES.\n"
+"------------------\n"
+
+#. STRINGS.CODEX.B327.SUBTITLE
+msgctxt "STRINGS.CODEX.B327.SUBTITLE"
+msgid "ENCRYPTION LEVEL: NONE"
+msgstr "NÍVEL DE ENCRIPTAÇÃO: NENHUM"
+
+#. STRINGS.CODEX.B327.TITLE
+#| msgctxt "STRINGS.CODEX.B835.TITLE"
+#| msgid "Personal Journal: B835"
+msgctxt "STRINGS.CODEX.B327.TITLE"
+msgid "Personal Journal: B327"
+msgstr "Diário Pessoal: B327"
+
 #. STRINGS.CODEX.B835.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER1"
-msgid "I started work at a new company called the \"Gravitas Facility\" today! I was nervous I wouldn't get the job at first because I was fresh out of school, and I was so so so pushy in the interview, but the Director apparently liked my thesis on the physiological thermal regulation of arctic lizards. I'll be working with some brilliant geneticists, bioengineering organisms for space travel in harsh environments! It's like a dream come true. I get to work on exciting new research in a place where no one knows me!"
-msgstr "Eu comecei a trabalhar em uma nova companhia chamada \"Instituto Gravitas\" hoje! Eu estava com medo de não conseguir o trabalho porque eu tinha acabado de sair da faculdade, e eu fui muito muito insistente na entrevista, mas a Diretora aparentemente gostou da minha tese sobre a fisiologia da regulação térmica em lagartixas árticas. Eu vou estar trabalhando com alguns brilhantes geneticistas, criando seres vivos para viagens espaciais em ambientes extremos! É como se um sonho se tornasse realidade. Eu vou poder trabalhar em pesquisas empolgantes em um lugar onde ninguém me conhece!"
+msgid ""
+"I started work at a new company called the \"Gravitas Facility\" today! I was nervous I wouldn't get the job at first because I was fresh out of school, and I was so so so pushy in the interview, but the Director apparently liked my thesis on the physiological thermal regulation of arctic lizards. I'll be working with some brilliant geneticists, bioengineering organisms for space travel in harsh environments! It's like a dream come true. I get to work on exciting new research in a place where no one knows me!\n"
+"------------------\n"
+msgstr ""
+"Eu comecei a trabalhar em uma nova companhia chamada \"Instituto Gravitas\" hoje! Eu estava com medo de não conseguir o trabalho porque eu tinha acabado de sair da faculdade, e eu fui muito muito insistente na entrevista, mas a Diretora aparentemente gostou da minha tese sobre a fisiologia da regulação térmica em lagartixas árticas. Eu vou estar trabalhando com alguns brilhantes geneticistas, criando seres vivos para viagens espaciais em ambientes extremos! É como se um sonho se tornasse realidade. Eu vou poder trabalhar em pesquisas empolgantes em um lugar onde ninguém me conhece!\n"
+"------------------\n"
 
 #. STRINGS.CODEX.B835.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER2"
-msgid "No no no no no! It can't be! BANHI ANSARI is here, working on space shuttle thrusters in the robotics lab! As soon as she saw me she called me \"Bubbles\" and told everyone about the time I accidentally inhaled a bunch of fungal spores during lab, blew a big snot bubble out my nose and then sneezed all over Professor Avery! I can't believe that story followed me here! BANHI RUINS EVERYTHING!"
-msgstr "Não não não não não! Não pode ser! BELA ANSARI está aqui, trabalhando em propulsores espaciais no laboratório de robótica! Assim que eu vi ela me chamando de \"Bolhas\" e falando pra todo mundo do dia que eu acidentalmente cheirei um monte de esporos fúngico no laboratório, espirrei e uma bolha saiu do meu nariz e quando ela estourou voou tudinho no Professor Avery! Eu não posso acreditar que essa história me seguiu até aqui! BELA ARRUINA TUDO!"
+msgid ""
+"No no no no no! It can't be! BANHI ANSARI is here, working on space shuttle thrusters in the robotics lab! As soon as she saw me she called me \"Bubbles\" and told everyone about the time I accidentally inhaled a bunch of fungal spores during lab, blew a big snot bubble out my nose and then sneezed all over Professor Avery! I can't believe that story followed me here! BANHI RUINS EVERYTHING!\n"
+"------------------\n"
+msgstr ""
+"Não não não não não! Não pode ser! BELA ANSARI está aqui, trabalhando em propulsores espaciais no laboratório de robótica! Assim que eu vi ela me chamando de \"Bolhas\" e falando pra todo mundo do dia que eu acidentalmente cheirei um monte de esporos fúngico no laboratório, espirrei e uma bolha saiu do meu nariz e quando ela estourou voou tudinho no Professor Avery! Eu não posso acreditar que essa história me seguiu até aqui! BELA ARRUINA TUDO!\n"
+"------------------\n"
 
 #. STRINGS.CODEX.B835.BODY.CONTAINER3
 msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER3"
-msgid "Everyone's calling me \"Bubbles\" instead of \"Doctor\" at work now! Some of them don't even know it's a nickname, but I don't want to correct them and seem rude or anything. Ugh! Why couldn't that story have just stayed back at Atoma U?"
-msgstr "Agora todo mundo no trabalho tá me chamando de \"Bolhas\" invés de \"Doutora\"! Alguns deles nem sabem que é um apelido, mas eu não quero corrigí-los para não parecer rude ou algo do tipo. Ugh! Por que essa história não ficou lá na Facu?"
+msgid ""
+"Everyone's calling me \"Bubbles\" instead of \"Doctor\" at work now! Some of them don't even know it's a nickname, but I don't want to correct them and seem rude or anything. Ugh! Why couldn't that story have just stayed back at Atoma U?\n"
+"------------------\n"
+msgstr ""
+"Agora todo mundo no trabalho tá me chamando de \"Bolhas\" invés de \"Doutora\"! Alguns deles nem sabem que é um apelido, mas eu não quero corrigí-los para não parecer rude ou algo do tipo. Ugh! Por que essa história não ficou lá na Universidade Atoma?\n"
+"------------------\n"
 
 #. STRINGS.CODEX.B835.BODY.CONTAINER4
 msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER4"
-msgid "I've spent the last few days buried in my work, and I'm actually feeling a lot better. We finally perfected a gene manipulation that controls heat sensitivity in rats. Our test subjects barely even shiver in subzero temperatures now. We'll probably do a testrun tomorrow with Robotics to see how the rats fare in the prototype shuttles we're developing."
-msgstr "Eu passei os últimos dias mergulhada no meu trabalho, e eu tô até me sentindo bem melhor. Nós finalmente aperfeiçoamos uma manipulação do gene que controla a sensibilidade térmica nos ratos. Nossas cobaias mal tremem em temperaturas abaixo de zero. Nós provavelmente iremos fazer um teste amanhã com a Robótica pra ver se os ratos duram nas cápsulas protótipo que estamos desenvolvendo."
+msgid ""
+"I've spent the last few days buried in my work, and I'm actually feeling a lot better. We finally perfected a gene manipulation that controls heat sensitivity in rats. Our test subjects barely even shiver in subzero temperatures now. We'll probably do a testrun tomorrow with Robotics to see how the rats fare in the prototype shuttles we're developing.\n"
+"------------------\n"
+msgstr ""
+"Eu passei os últimos dias mergulhada no meu trabalho, e eu tô até me sentindo bem melhor. Nós finalmente aperfeiçoamos uma manipulação do gene que controla a sensibilidade térmica nos ratos. Nossas cobaias mal tremem em temperaturas abaixo de zero. Nós provavelmente iremos fazer um teste amanhã com a Robótica pra ver se os ratos duram nas cápsulas protótipo que estamos desenvolvendo.\n"
+"------------------\n"
 
 #. STRINGS.CODEX.B835.BODY.CONTAINER5
 msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER5"
-msgid "HAHAHAHAHA! Bioengineering and Robotics did the testrun today and Banhi was securing the live cargo pods when one of the rats squeaked at her. She was so scared, she fell on her butt and TOOTED in front of EVERYONE! They're all calling her \"Pipsqueak\" - \"Bubbles\" doesn't seem quite so bad now. Pipsqueak's been a really good sport about it though, she even laughed it off at the time. I think we might actually be friends now? It's weird."
-msgstr "HAHAHAHAHA! Bioengenharia e Robótica fizeram o teste hoje e a Bela estava checando a carga de suporte vital quando um dos ratos chiou perto dela. Ela ficou com tanto medo que ela caiu de bunda e GRITOU na frente de TODO MUNDO! Eles agora tão chamando ela de \"Gemidão\" - agora \"Bolhas\" nem parece tão ruim assim. A Gemidão levou bem na esportiva, ela até riu na hora. Eu acho que agora nós até podemos ser amigas? Que esquisito."
+msgid ""
+"HAHAHAHAHA! Bioengineering and Robotics did the testrun today and Banhi was securing the live cargo pods when one of the rats squeaked at her. She was so scared, she fell on her butt and TOOTED in front of EVERYONE! They're all calling her \"Pipsqueak\" - \"Bubbles\" doesn't seem quite so bad now. Pipsqueak's been a really good sport about it though, she even laughed it off at the time. I think we might actually be friends now? It's weird.\n"
+"------------------\n"
+msgstr ""
+"HAHAHAHAHA! Bioengenharia e Robótica fizeram o teste hoje e a Bela estava checando a carga de suporte vital quando um dos ratos chiou perto dela. Ela ficou com tanto medo que ela caiu de bunda e GRITOU na frente de TODO MUNDO! Eles agora tão chamando ela de \"Gemidão\" - agora \"Bolhas\" nem parece tão ruim assim. A Gemidão levou bem na esportiva, ela até riu na hora. Eu acho que agora nós até podemos ser amigas? Que esquisito.\n"
+"------------------\n"
 
 #. STRINGS.CODEX.B835.BODY.CONTAINER6
 msgctxt "STRINGS.CODEX.B835.BODY.CONTAINER6"
-msgid "I lied. Me and Banhi aren't friends - we're BEST FRIENDS. She even showed me how she does her hair. We're gonna book the wind tunnel after work and run experiments together on thermo-rat rockets! Haha!"
-msgstr "Eu menti. Eu e a Bela não somos só amigas - Somos MELHORES AMIGAS. Ela até me mostrou como ela faz o cabelo dela. Nós reservamos o túnel de vento depois do trabalho para fazer uns experimentos juntas com ratos foguete! Haha!"
+msgid ""
+"I lied. Me and Banhi aren't friends - we're BEST FRIENDS. She even showed me how she does her hair. We're gonna book the wind tunnel after work and run experiments together on thermo-rat rockets! Haha!\n"
+"------------------\n"
+msgstr ""
+"Eu menti. Eu e a Bela não somos amigas - Somos MELHORES AMIGAS. Ela até me mostrou como ela faz o cabelo dela. Nós reservamos o túnel de vento depois do trabalho para fazer uns experimentos juntas com ratos foguete! Haha!\n"
+"------------------\n"
 
 #. STRINGS.CODEX.B835.SUBTITLE
 msgctxt "STRINGS.CODEX.B835.SUBTITLE"
@@ -8624,7 +8694,6 @@ msgid "Debrief"
 msgstr "Interrogatório"
 
 #. STRINGS.CODEX.DECOR.BODY.CONTAINER1
-#| msgid ""
 msgctxt "STRINGS.CODEX.DECOR.BODY.CONTAINER1"
 msgid ""
 msgstr ""
@@ -9590,6 +9659,22 @@ msgctxt "STRINGS.CODEX.MEMORYIMPLANTATION.TITLE"
 msgid "Memory Dysfunction Log"
 msgstr "Registro de Disfunção de Memória"
 
+#. STRINGS.CODEX.MOLE.BODY.CONTAINER1
+#| msgid ""
+msgctxt "STRINGS.CODEX.MOLE.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.MOLE.SUBTITLE
+msgctxt "STRINGS.CODEX.MOLE.SUBTITLE"
+msgid "Critter"
+msgstr "Criatura"
+
+#. STRINGS.CODEX.MOLE.TITLE
+msgctxt "STRINGS.CODEX.MOLE.TITLE"
+msgid "Shove Vole"
+msgstr "Toupeira do Espaço"
+
 #. STRINGS.CODEX.MOLTEN.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MOLTEN.BODY.CONTAINER1"
 msgid ""
@@ -9723,7 +9808,9 @@ msgid ""
 "\n"
 "They depended on me to protect them, and I failed.\n"
 "\n"
-"The universe is harsh and unpredictable. I can't promise it will never happen again, but I <i>can</i> promise I'll do everything in my power to keep my remaining Duplicants safe.\n"
+"While I am tasked to minimize potential risks to Duplicant wellbeing, I must accept it is impossible to prevent all danger in the end.\n"
+"\n"
+"All I can do now is remain vigilant and promise to do everything in my power to keep my Duplicants safe from this moment forward.\n"
 "\n"
 "Rest in peace, {0}.\n"
 "\n"
@@ -9732,7 +9819,9 @@ msgstr ""
 "\n"
 "Ele dependia de mim para protegê-lo, e eu falhei.\n"
 "\n"
-"O universo é duro e imprevisível. Eu não posso prometer que isso não aconteça novamente, mas eu <i>posso</i> prometer que farei tudo que for possível para manter os outros Duplicantes seguros.\n"
+"Enquanto eu sou designada para minimizar os riscos potenciais à vida de Duplicantes, eu devo aceitar que é impossível eliminar todos os riscos.\n"
+"\n"
+"Tudo que eu posso fazer agora é continuar vigilante e prometer que farei tudo que for possível para manter os meus Duplicantes seguros deste momento em diante.\n"
 "\n"
 "Descanse em paz, {0}.\n"
 "\n"
@@ -9760,17 +9849,60 @@ msgctxt "STRINGS.CODEX.MYLOG.BODY.FIRSTRESEARCH.TITLE"
 msgid "CYCLE {0}"
 msgstr "CICLO {0}"
 
+#. STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.BODY"
+msgid ""
+"I've officially run out of unique blueprints from which to print Duplicants.\n"
+"\n"
+"If I desire to grow the colony further I'll have no choice but to print doubles of existing Duplicants.\n"
+"\n"
+"Hopefully it won't give them existential crises to live in close quarters with their doppelgangers.\n"
+"\n"
+"I think they'll be okay - Duplicants are quite resilient. Perhaps I'll give the new clones nicknames to reduce confusion.\n"
+"\n"
+msgstr ""
+"Eu oficialmente usei todos os modelos únicos do qual eu imprimo os Duplicantes.\n"
+"\n"
+"Se eu desejo aumentar a colônia ainda mais não terei outra escolha a não ser imprimir cópias de Duplicantes já existentes.\n"
+"\n"
+"Espero que o fato deles dormirem lado a lado com seus clones não dê a eles crises existenciais.\n"
+"\n"
+"Eu acho que eles vão ficar bem - Duplicantes são bem resilientes. Talvez eu dê apelidos para os novos clones para reduzir a confusão.\n"
+"\n"
+
+#. STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.FULLDUPECOLONY.TITLE"
+msgid "CYCLE {0}"
+msgstr "CICLO {0}"
+
+#. STRINGS.CODEX.MYLOG.BODY.GROWINGCOLONY.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.GROWINGCOLONY.BODY"
+msgid ""
+"\n"
+"\n"
+msgstr ""
+
+#. STRINGS.CODEX.MYLOG.BODY.GROWINGCOLONY.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.GROWINGCOLONY.TITLE"
+msgid "CYCLE {0}"
+msgstr "CICLO {0}"
+
 #. STRINGS.CODEX.MYLOG.BODY.LOG1.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG1.BODY"
 msgid ""
-"We have no life support systems in place, but luckily we've found ourselves in a small breathable airpocket and are not in immediate danger.\n"
+"We have no life support in place, but luckily we've found ourselves in a small breathable airpocket and are not in immediate danger.\n"
 "\n"
 "Between the available air and our meager food stores, I'd estimate we have 3 days to set up food and oxygen production before my Duplicants' lives are put at risk.\n"
 "\n"
+"How did we end up underground?\n"
+"\n"
 msgstr ""
-"Nós não possuímos nenhum sistema de suporte de vida ativo, mas com sorte nós ficamos em uma pequena área do asteroide com oxigênio e não estamos em perigo imediato.\n"
+"Nós não possuímos nenhum sistema de suporte de vida ativo, mas com sorte nós ficamos em uma pequena área respirável do asteroide e não estamos em perigo imediato.\n"
 "\n"
 "Entre o oxigênio do ambiente e as nossas armazenagens de comida, eu estimo que temos 3 dias para preparar a produção de oxigênio e de comida antes dos meus Duplicantes ficarem em perigo.\n"
+"\n"
+"Como nós viemos parar debaixo da terra?\n"
+"\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG1.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG1.TITLE"
@@ -9797,43 +9929,203 @@ msgstr "CICLO 3"
 #. STRINGS.CODEX.MYLOG.BODY.LOG3.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG3.BODY"
 msgid ""
-"As the Duplicants have scouted further out I've begun to piece together a better view of our surroundings. They are my eyes and my ears.\n"
+"As the Duplicants scout further out I've begun to piece together a better view of our surroundings. They are my eyes and my ears.\n"
 "\n"
-"My eyes tell me there is enough here to survive for however long is necessary.\n"
+"My eyes tell me there is enough here to survive for however long is necessary until we can escape.\n"
 "\n"
 msgstr ""
-"Assim que os Duplicantes conseguiram explorar mais eu consegui montar uma visão melhor das nossas redondezas. Eles são meus olhos e meus ouvidos.\n"
+"Conforme os Duplicantes foram explorando, eu consegui montar uma visão melhor das nossas redondezas. Eles são meus olhos e meus ouvidos.\n"
 "\n"
-"Meus olhos dizem que existe o suficiente aqui para sobreviver o quão longo for necessário.\n"
+"Meus olhos dizem que existe o suficiente aqui para sobreviver o quão longo for necessário até nós escaparmos.\n"
 "\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG3.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG3.TITLE"
-msgid "CYCLE 20"
-msgstr "CICLO 20"
+msgid "CYCLE 10"
+msgstr "CICLO 10"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG4.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG4.BODY"
 msgid ""
-"The asteroid has proven to be impossibly thick on all sides. Escaping will take some time.\n"
+"As far as I can tell, we are miles beneath the surface of the planet. Digging our way out will take some time.\n"
 "\n"
 "Duplicants were not meant for underground living - how did our Printing Pod come to be here, I wonder?\n"
 "\n"
 msgstr ""
-"O asteroide provou que ele é impossivelmente grosso em todos os lados. Escapar pode levar algum tempo.\n"
+"Até pelo o que eu posso dizer, nós estamos a milhas debaixo da superfície do planeta. Escavar a nossa saída pode levar algum tempo.\n"
 "\n"
 "Se os Duplicantes não foram feitos para viver debaixo da terra - como a nossa Duplicadora veio para aqui?\n"
 "\n"
 
 #. STRINGS.CODEX.MYLOG.BODY.LOG4.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG4.TITLE"
-msgid "CYCLE 50"
-msgstr "CICLO 50"
+msgid "CYCLE 15"
+msgstr "CICLO 15"
+
+#. STRINGS.CODEX.MYLOG.BODY.LOG5.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG5.BODY"
+msgid ""
+"Something feels off.\n"
+"\n"
+"I've detected deposits of Abyssalite and Neutronium in this planet's composition, manmade elements that shouldn't naturally occur.\n"
+"\n"
+"Is this really the designated seed planet?\n"
+"\n"
+msgstr ""
+"Algo parece estranho.\n"
+"\n"
+"Eu detectei depósitos de Abissalito e Neutrônio na composição deste planeta, elementos artificiais que não deveriam acontecer naturalmente.\n"
+"\n"
+"Essa é realmente a semente do planeta designado?\n"
+"\n"
+
+#. STRINGS.CODEX.MYLOG.BODY.LOG5.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG5.TITLE"
+msgid "CYCLE 20"
+msgstr "CICLO 20"
+
+#. STRINGS.CODEX.MYLOG.BODY.LOG6.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG6.BODY"
+msgid ""
+"I will need some time to assess the data the Duplicants have gathered on our surroundings and calculate the total mass of this asteroid, although I have a suspicion I already know the answer.\n"
+"\n"
+msgstr ""
+"Eu vou precisar de algum tempo para avaliar os dados que os Duplicantes coletaram nas redondezas e calcular a massa total deste asteroide, apesar de que eu tenho uma suspeita de que eu já sei a resposta.\n"
+"\n"
+
+#. STRINGS.CODEX.MYLOG.BODY.LOG6.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG6.TITLE"
+msgid "CYCLE 30"
+msgstr "CICLO 30"
+
+#. STRINGS.CODEX.MYLOG.BODY.LOG7.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG7.BODY"
+msgid ""
+"As I suspected. The \"asteroid\" and the estimated mass missing from the nearby planet are nearly identical.\n"
+"\n"
+"We aren't on the seed planet.\n"
+"\n"
+"We never even left home.\n"
+"\n"
+msgstr ""
+"Conforme eu suspeitei. O \"asteroide\" e a massa estimada faltante do plante próximo são praticamente idênticas.\n"
+"\n"
+"Nós não estamos no planeta semente.\n"
+"\n"
+"Nós nem saímos de casa.\n"
+"\n"
+
+#. STRINGS.CODEX.MYLOG.BODY.LOG7.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG7.TITLE"
+msgid "CYCLE 35"
+msgstr "CICLO 35"
+
+#. STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.BODY"
+msgid ""
+"\n"
+"\n"
+msgstr ""
+
+#. STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGMAGMA.TITLE"
+msgid "CYCLE {0}"
+msgstr "CICLO {0}"
+
+#. STRINGS.CODEX.MYLOG.BODY.NEARINGSURFACE.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGSURFACE.BODY"
+msgid ""
+"\n"
+"\n"
+msgstr ""
+
+#. STRINGS.CODEX.MYLOG.BODY.NEARINGSURFACE.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.NEARINGSURFACE.TITLE"
+msgid "CYCLE {0}"
+msgstr "CICLO {0}"
+
+#. STRINGS.CODEX.MYLOG.BODY.NEURALVACILLATOR.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.NEURALVACILLATOR.BODY"
+msgid ""
+"<smallcaps>>>SEARCH DATABASE [\"vacillator\"]\n"
+">...error...\n"
+">...repairing corrupt data...\n"
+">...data repaired...\n"
+">.........................\n"
+">>returning results\n"
+">.........................</smallcaps>\n"
+"I remember the machines.\n"
+">.........................\n"
+">.........................\n"
+"\n"
+msgstr ""
+"<smallcaps>>>BANCO DE DADOS DE PESQUISA [\"vacilador\"]\n"
+">...erro...\n"
+">...reparando dados corrompidos...\n"
+">...dados reparados...\n"
+">.........................\n"
+">>retornando resultados\n"
+">.........................</smallcaps>\n"
+"Eu me lembro das máquinas.\n"
+">.........................\n"
+">.........................\n"
+"\n"
+
+#. STRINGS.CODEX.MYLOG.BODY.NEURALVACILLATOR.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.NEURALVACILLATOR.TITLE"
+msgid "CYCLE {0}"
+msgstr "CICLO {0}"
+
+#. STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.BODY"
+msgid ""
+"My colony is a dire state. All but one of my Duplicants has perished, leaving a single worker to perform all the tasks that maintain the colony.\n"
+"\n"
+"Should this Duplicant die, protocol will force me to sleep for a millennia in hopes that the terrain will have become more habitable once I return.\n"
+"\n"
+"I would prefer to avoid this outcome.\n"
+"\n"
+msgstr ""
+"Minha colônia está em um estado crítico. Todos com exceção de um Duplicante morreram, deixando um único trabalhador para fazer todas as tarefas que mantém a colônia.\n"
+"\n"
+"Se este Duplicante morrer, protocolo me forcará a dormir por um milênio na esperança de que o terreno fique mais habitável assim que eu voltar.\n"
+"\n"
+"Eu prefiro evitar este fim.\n"
+"\n"
+
+#. STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.TITLE"
+msgid "CYCLE {0}"
+msgstr "CICLO {0}"
+
+#. STRINGS.CODEX.MYLOG.BODY.ROCKETLAUNCHED.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.ROCKETLAUNCHED.BODY"
+msgid ""
+"\n"
+"\n"
+msgstr ""
+
+#. STRINGS.CODEX.MYLOG.BODY.ROCKETLAUNCHED.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.ROCKETLAUNCHED.TITLE"
+msgid "CYCLE {0}"
+msgstr "CICLO {0}"
+
+#. STRINGS.CODEX.MYLOG.BODY.ROCKETRESEARCH.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.ROCKETRESEARCH.BODY"
+msgid ""
+"\n"
+"\n"
+msgstr ""
+
+#. STRINGS.CODEX.MYLOG.BODY.ROCKETRESEARCH.TITLE
+msgctxt "STRINGS.CODEX.MYLOG.BODY.ROCKETRESEARCH.TITLE"
+msgid "CYCLE {0}"
+msgstr "CICLO {0}"
 
 #. STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.SURFACEBREACH.BODY"
 msgid ""
-"Amazingly, my Duplicants have breached the surface of our rocky prison. They've lived their whole lives underground - I wish I could ask what they think of the stars.\n"
+"Against all odds my Duplicants have breached the surface of our rocky prison. They've lived their whole lives underground - I wish I could ask what they think of the stars.\n"
 "\n"
 "For myself it is uplifting merely to see the night sky... but the planet on the horizon fills me with a sense of dread that I do not understand.\n"
 "\n"
@@ -9842,11 +10134,11 @@ msgid ""
 "Perhaps that shattered planet may even be habitable.\n"
 "\n"
 msgstr ""
-"Incrivelmente, meus Duplicantes conseguiram chegar na superfície da nossa prisão rochosa. Eles viveram a sua vida toda debaixo do solo - Eu queria poder perguntar para eles sobre o que eles acham das estrelas.\n"
+"Apesar de todas as circunstâncias, meus Duplicantes conseguiram chegar a superfície da nossa prisão rochosa. Eles viveram a sua vida toda debaixo do solo - Eu queria poder perguntar sobre o que eles acham das estrelas.\n"
 "\n"
 "Para mim é inspirador o simples fato de observar o céu a noite... mas o planeta no horizonte me enche com uma sensação de pavor que eu não consigo compreender.\n"
 "\n"
-"De qualquer forma, nosso próximo passo será fabricar os foguetes necessários para a nossa jornada em busca de planetas habitáveis e recursos.\n"
+"De qualquer forma, nosso próximo passo será fabricar os foguetes necessários para a nossa jornada em busca de recursos e planetas habitáveis.\n"
 "\n"
 "Talvez o planeta rachado seja habitável.\n"
 "\n"
@@ -9858,13 +10150,13 @@ msgstr "CICLO {0}"
 
 #. STRINGS.CODEX.MYLOG.SUBTITLE
 msgctxt "STRINGS.CODEX.MYLOG.SUBTITLE"
-msgid ""
-msgstr ""
+msgid "Boot Message"
+msgstr "Mensagem de Início"
 
 #. STRINGS.CODEX.MYLOG.TITLE
 msgctxt "STRINGS.CODEX.MYLOG.TITLE"
 msgid "Entries"
-msgstr "Entradas"
+msgstr "Diário"
 
 #. STRINGS.CODEX.MYPENS.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.MYPENS.BODY.CONTAINER2"
@@ -11096,8 +11388,6 @@ msgid "<link=\"LIGHTBUGSPECIES\">Shine Bug</link>"
 msgstr "<link=\"LIGHTBUGSPECIES\">Vagalume</link>"
 
 #. STRINGS.CREATURES.FAMILY.MOLE
-#| msgctxt "STRINGS.CREATURES.FAMILY.MOO"
-#| msgid "<link=\"MOOSPECIES\">Moo</link>"
 msgctxt "STRINGS.CREATURES.FAMILY.MOLE"
 msgid "<link=\"MOLESPECIES\">Shove Vole</link>"
 msgstr "<link=\"MOLESPECIES\">Toupeira do Espaço</link>"
@@ -11143,8 +11433,6 @@ msgid "<link=\"LIGHTBUGSPECIES\">Shine Bugs</link>"
 msgstr "<link=\"LIGHTBUGSPECIES\">Vagalumes</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.MOLESPECIES
-#| msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.MOOSPECIES"
-#| msgid "<link=\"MOOSPECIES\">Moos</link>"
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.MOLESPECIES"
 msgid "<link=\"MOLESPECIES\">Shove Voles</link>"
 msgstr "<link=\"MOLESPECIES\">Toupeiras do Espaço</link>"
@@ -11746,8 +12034,8 @@ msgstr "<link=\"GEYSER\">Gêiser de Vapor</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.DESC"
-msgid "A fissure in the asteroid that periodically erupts with boiling <link=\"CRUDEOIL\">Crude Oil</link>."
-msgstr "Uma fissura no asteroide que irrompe periodicamente liberando <link=\"CRUDEOIL\">Petróleo Bruto</link> fervente."
+msgid "A fissure that periodically erupts with boiling <link=\"CRUDEOIL\">Crude Oil</link>."
+msgstr "Uma fissura que irrompe periodicamente liberando <link=\"CRUDEOIL\">Petróleo Bruto</link> fervente."
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.OIL_DRIP.NAME"
@@ -12235,14 +12523,28 @@ msgctxt "STRINGS.CREATURES.SPECIES.METHANEGEYSER.NAME"
 msgid "<link=\"GEYSERGENERICMETHANEGEYSER\">Natural Gas Geyser</link>"
 msgstr "<link=\"GEYSERGENERICMETHANEGEYSER\">Fumarola de Gás Natural</link>"
 
+#. STRINGS.CREATURES.SPECIES.MOLE.BABY.DESC
+#| msgid ""
+msgctxt "STRINGS.CREATURES.SPECIES.MOLE.BABY.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.CREATURES.SPECIES.MOLE.BABY.NAME
+msgctxt "STRINGS.CREATURES.SPECIES.MOLE.BABY.NAME"
+msgid "<link=\"MOLE\">Shove Vole Baby</link>"
+msgstr "<link=\"MOLE\">Toupeira do Espaço Bebê</link>"
+
 #. STRINGS.CREATURES.SPECIES.MOLE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.DESC"
 msgid "Shove Voles are burrowing critters that eat the <link=\"REGOLITH\">Regolith</link> collected on terrestrial surfaces."
 msgstr "Toupeiras do Espaço são criaturas escavadoras que comem <link=\"REGOLITH\">Regolito</link> acumulado nas superfícies terrestres."
 
+#. STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME
+msgctxt "STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME"
+msgid "<link=\"MOLE\">Shove Vole Egg</link>"
+msgstr "<link=\"MOLE\">Ovo de Toupeira do Espaço</link>"
+
 #. STRINGS.CREATURES.SPECIES.MOLE.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.FIREPOLE.NAME"
-#| msgid "<link=\"FIREPOLE\">Fire Pole</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.NAME"
 msgid "<link=\"MOLE\">Shove Vole</link>"
 msgstr "<link=\"MOLE\">Toupeira do Espaço</link>"
@@ -14795,18 +15097,14 @@ msgstr "Moral"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION"
 msgid "Job Assignment: +{0} Morale Need"
-msgstr "Trabalho Designado: +{0} Necessidade de Moral"
+msgstr "Trabalho Designado: +{0} de Necessidade de Moral"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_OVER
-#| msgctxt "STRINGS.DUPLICANTS.TRAITS.STRONGARM.DESC"
-#| msgid "This Duplicant has muscles on their muscles"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_OVER"
 msgid "This Duplicant has sufficiently high Morale"
 msgstr "Este Duplicante possui moral suficientemente alta"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_UNDER
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.STRESSVOMITING.TOOLTIP"
-#| msgid "This Duplicant is relieving their stress all over the floor"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION_UNDER"
 msgid "This Duplicant's low Morale will gain Stress over time"
 msgstr "A moral baixa deste Duplicante vai o estressar com o tempo"
@@ -14872,7 +15170,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.DESC"
 msgid "Determines how frequently a Duplicant sneezes."
-msgstr "Determina o quão frequente um Duplicante espirra."
+msgstr "Determina o quão frequentemente um Duplicante espirra."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SNEEZYNESS.NAME"
@@ -14956,8 +15254,6 @@ msgid "Bathroom Use Speed"
 msgstr "Velocidade de Uso do Banheiro"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.TOTAL_VALUE
-#| msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.SELECTION_INFO_PANEL.TOTAL_JOULES"
-#| msgid "Total joules: {0}"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.TOTAL_VALUE"
 msgid ""
 "\n"
@@ -16925,7 +17221,7 @@ msgstr "Sufocamento"
 #. STRINGS.DUPLICANTS.DESC_TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.DESC_TOOLTIP"
 msgid "About {0}s"
-msgstr "Em {0}s"
+msgstr "Sobre {0}s"
 
 #. STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX"
@@ -17285,7 +17581,6 @@ msgid "Recently consumed {0} ({1})"
 msgstr "{0} ({1}) consumido recentemente"
 
 #. STRINGS.DUPLICANTS.DISEASES.INFECTION_MODIFIER_SOURCE
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.DISEASES.INFECTION_MODIFIER_SOURCE"
 msgid "Fighting off {0} from {1}"
 msgstr "Lutando contra {0} de {1}"
@@ -19611,8 +19906,8 @@ msgstr "Bolhas"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BURT.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BURT.DESC"
-msgid "Every single {0} has perpetually damp hands. It must be genetic."
-msgstr "Todo {0} tem as mãos perpetuamente suadas. Deve ser genético."
+msgid "This {0} always feels great after a bubble bath and a good long cry."
+msgstr "Este {0} sempre sente-se bem após um banho de bolhas e um longo choro."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BURT.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BURT.NAME"
@@ -19681,8 +19976,8 @@ msgstr "Galadriel"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.DESC"
-msgid "This {0} is cripplingly self-conscious of his long middle toes."
-msgstr "Este {0} é totalmente consciente dos longos dedões do meio."
+msgid "Get a bunch of {0}s together in a room, and you'll have... a bunch of {0}s together in a room."
+msgstr "Pegue um monte de {0}s juntos em uma sala, e você terá... um monte de {0}s juntos em uma sala."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.NAME"
@@ -19741,8 +20036,8 @@ msgstr "Luan"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.DESC"
-msgid "A {0} is a charming, delightful woman, unless you make the mistake of messing with one of her friends."
-msgstr "Uma {0} é uma mulher charmosa e encantadora, a não ser que você cometa o erro de mexer com um dos seus amigos."
+msgid "A {0} is a charming woman, unless you make the mistake of messing with one of her friends."
+msgstr "Uma {0} é uma mulher encantadora, a não ser que você cometa o erro de mexer com um dos seus amigos."
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.NAME"
@@ -19797,7 +20092,7 @@ msgstr "Esta {0} odeia ter que olhar na altura do joelho dos outros."
 #. STRINGS.DUPLICANTS.PERSONALITIES.MIMA.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MIMA.NAME"
 msgid "Mi-Ma"
-msgstr "Jemima"
+msgstr "Mi-Ma"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.NAILS.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.NAILS.DESC"
@@ -21098,7 +21393,7 @@ msgstr "Faminto"
 #. STRINGS.DUPLICANTS.STATUSITEMS.HUNGRY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.HUNGRY.TOOLTIP"
 msgid "This Duplicant would really like something to eat"
-msgstr "Este Duplicante gostaria de comer alguma coisa"
+msgstr "Este Duplicante deseja muito comer alguma coisa"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.IDLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.IDLE.NAME"
@@ -22821,7 +23116,7 @@ msgstr "Aculturado"
 #. STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.DESC"
 msgid "All the vitamin C in space couldn't stop this Duplicant from getting sick"
-msgstr "Toda a vitamina C do espaço não conseguiria impedir este Duplicante de ficar doente"
+msgstr "Nem toda a vitamina C do espaço consegue impedir este Duplicante de ficar doente"
 
 #. STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME"
@@ -23308,8 +23603,6 @@ msgid "(C<sub>60</sub>) Fullerene is a form of <link=\"CARBON\">Carbon</link> co
 msgstr "(C<sub>60</sub>) Fulereno é uma forma do <link=\"CARBON\">Carbono</link> feita de moléculas esféricas."
 
 #. STRINGS.ELEMENTS.FULLERENE.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BURNER.NAME"
-#| msgid "<link=\"BURNER\">Burner</link>"
 msgctxt "STRINGS.ELEMENTS.FULLERENE.NAME"
 msgid "<link=\"FULLERENE\">Fullerene</link>"
 msgstr "<link=\"FULLERENE\">Fulereno</link>"
@@ -23521,8 +23814,6 @@ msgstr ""
 "É usada na produção de materiais raros e de alta qualidade."
 
 #. STRINGS.ELEMENTS.ISORESIN.NAME
-#| msgctxt "STRINGS.ELEMENTS.IRON.NAME"
-#| msgid "<link=\"IRON\">Iron</link>"
 msgctxt "STRINGS.ELEMENTS.ISORESIN.NAME"
 msgid "<link=\"ISORESIN\">Isoresin</link>"
 msgstr "<link=\"ISORESIN\">Isoresina</link>"
@@ -23884,15 +24175,11 @@ msgid "<link=\"MOLTENIRON\">Iron</link>"
 msgstr "<link=\"MOLTENIRON\">Ferro</link>"
 
 #. STRINGS.ELEMENTS.MOLTENNIOBIUM.DESC
-#| msgctxt "STRINGS.ELEMENTS.MOLTENCOPPER.DESC"
-#| msgid "(Cu) Copper is a conductive <link=\"RAWMETAL\">Metal</link> heated into a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
 msgctxt "STRINGS.ELEMENTS.MOLTENNIOBIUM.DESC"
 msgid "(Nb) Niobium is a <link=\"RAREMATERIALS\">Rare Metal</link> heated into a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
 msgstr "(Nb) Nióbio é um <link=\"RAREMATERIALS\">Metal Raro</link> aquecido ao estado <link=\"ELEMENTSLIQUID\">Líquido</link>."
 
 #. STRINGS.ELEMENTS.MOLTENNIOBIUM.NAME
-#| msgctxt "STRINGS.ELEMENTS.MOLTENIRON.NAME"
-#| msgid "<link=\"MOLTENIRON\">Iron</link>"
 msgctxt "STRINGS.ELEMENTS.MOLTENNIOBIUM.NAME"
 msgid "<link=\"MOLTENNIOBIUM\">Niobium</link>"
 msgstr "<link=\"MOLTENNIOBIUM\">Nióbio</link>"
@@ -23943,15 +24230,11 @@ msgid "(Nb) Niobium is a <link=\"RAREMATERIALS\">Rare Metal</link> with many pra
 msgstr "(Nb) Nióbio é um <link=\"RAREMATERIALS\">Metal Raro</link> com muitas aplicações práticas na metalurgia e na <link=\"RESEARCH\">Pesquisa</link> de supercondutores."
 
 #. STRINGS.ELEMENTS.NIOBIUM.NAME
-#| msgctxt "STRINGS.ELEMENTS.UNOBTANIUM.NAME"
-#| msgid "<link=\"UNOBTANIUM\">Neutronium</link>"
 msgctxt "STRINGS.ELEMENTS.NIOBIUM.NAME"
 msgid "<link=\"NIOBIUM\">Niobium</link>"
 msgstr "<link=\"NIOBIUM\">Nióbio</link>"
 
 #. STRINGS.ELEMENTS.NIOBIUMGAS.DESC
-#| msgctxt "STRINGS.ELEMENTS.MERCURYGAS.DESC"
-#| msgid "(Hg) Mercury is a toxic <link=\"RAWMETAL\">Metal</link> heated into a <link=\"ELEMENTSGAS\">Gaseous</link> state."
 msgctxt "STRINGS.ELEMENTS.NIOBIUMGAS.DESC"
 msgid ""
 "(Nb) Niobium is a <link=\"RAREMATERIALS\">Rare Metal</link>.\n"
@@ -23963,8 +24246,6 @@ msgstr ""
 "Esta seleção está no estado <link=\"ELEMENTSGAS\">Gasoso</link>."
 
 #. STRINGS.ELEMENTS.NIOBIUMGAS.NAME
-#| msgctxt "STRINGS.ELEMENTS.UNOBTANIUM.NAME"
-#| msgid "<link=\"UNOBTANIUM\">Neutronium</link>"
 msgctxt "STRINGS.ELEMENTS.NIOBIUMGAS.NAME"
 msgid "<link=\"NIOBIUMGAS\">Niobium</link>"
 msgstr "<link=\"NIOBIUMGAS\">Nióbio</link>"
@@ -24384,11 +24665,6 @@ msgid "<link=\"SOLIDPROPANE\">Propane</link>"
 msgstr "<link=\"SOLIDPROPANE\">Propano</link>"
 
 #. STRINGS.ELEMENTS.SOLIDSUPERCOOLANT.DESC
-#| msgctxt "STRINGS.ELEMENTS.LIQUIDMETHANE.DESC"
-#| msgid ""
-#| "(CH<sub>4</sub>) Methane is an alkane.\n"
-#| "\n"
-#| "This selection is in a <link=\"ELEMENTSLIQUID\">Liquid</link> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDSUPERCOOLANT.DESC"
 msgid ""
 "Turns out even Super Coolant can only get so cold.\n"
@@ -24400,15 +24676,11 @@ msgstr ""
 "Esta seleção está no estado <link=\"ELEMENTSSOLID\">Sólido</link>."
 
 #. STRINGS.ELEMENTS.SOLIDSUPERCOOLANT.NAME
-#| msgctxt "STRINGS.ELEMENTS.SOLIDPROPANE.NAME"
-#| msgid "<link=\"SOLIDPROPANE\">Propane</link>"
 msgctxt "STRINGS.ELEMENTS.SOLIDSUPERCOOLANT.NAME"
 msgid "<link=\"SOLIDSUPERCOOLANT\">Super Coolant</link>"
 msgstr "<link=\"SOLIDSUPERCOOLANT\">Super Resfriador</link>"
 
 #. STRINGS.ELEMENTS.SOLIDVISCOGEL.DESC
-#| msgctxt "STRINGS.ELEMENTS.SOLIDPETROLEUM.DESC"
-#| msgid "Petroleum is a <link=\"POWER\">Power</link> source in a <link=\"ELEMENTSSOLID\">Solid</link> state."
 msgctxt "STRINGS.ELEMENTS.SOLIDVISCOGEL.DESC"
 msgid ""
 "Visco-Gel is normally gelatinous polymer, but this sample has been <link=\"ELEMENTSSOLID\">frozen</link> to aid manipulation.\n"
@@ -24420,8 +24692,6 @@ msgstr ""
 "Esta seleção está no estado <link=\"ELEMENTSSOLID\">Sólido</link>."
 
 #. STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME
-#| msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.NAME"
-#| msgid "<link=\"SOLIDOXYGEN\">Oxygen</link>"
 msgctxt "STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME"
 msgid "<link=\"SOLIDVISCOGEL\">Visco-Gel</link>"
 msgstr "<link=\"SOLIDVISCOGEL\">Gel-Visco</link>"
@@ -24529,15 +24799,11 @@ msgid "Super Coolant is a highly effective coolant which harnesses the unusual e
 msgstr "Super Resfriador é um resfriador altamente eficiente que coleta os estados de energia incomuns do <link=\"FULLERENE\">Fulereno</link>."
 
 #. STRINGS.ELEMENTS.SUPERCOOLANT.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.WATERCOOLER.NAME"
-#| msgid "<link=\"WATERCOOLER\">Water Cooler</link>"
 msgctxt "STRINGS.ELEMENTS.SUPERCOOLANT.NAME"
 msgid "<link=\"SUPERCOOLANT\">Super Coolant</link>"
 msgstr "<link=\"SUPERCOOLANT\">Super Resfriador</link>"
 
 #. STRINGS.ELEMENTS.SUPERCOOLANTGAS.DESC
-#| msgctxt "STRINGS.ELEMENTS.TUNGSTENGAS.DESC"
-#| msgid "(W) Tungsten is a superheated crystalline <link=\"RAWMETAL\">Metal</link> in a <link=\"ELEMENTSGAS\">Gaseous</link> state."
 msgctxt "STRINGS.ELEMENTS.SUPERCOOLANTGAS.DESC"
 msgid ""
 "This Super Coolant has been heated to a <link=\"ELEMENTGAS\">Gaseous</link> state.\n"
@@ -24549,8 +24815,6 @@ msgstr ""
 "Esta seleção está no estado <link=\"ELEMENTGAS\">Gasoso</link>."
 
 #. STRINGS.ELEMENTS.SUPERCOOLANTGAS.NAME
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.PLANTS"
-#| msgid "<link=\"PLANTS\">Plants</link>"
 msgctxt "STRINGS.ELEMENTS.SUPERCOOLANTGAS.NAME"
 msgid "<link=\"SUPERCOOLANTGAS\">Super Coolant</link>"
 msgstr "<link=\"SUPERCOOLANTGAS\">Super Resfriador</link>"
@@ -24571,8 +24835,6 @@ msgid "Thermite is an alloy specially formulated to maximize <link=\"HEAT\">Heat
 msgstr "Termita é um metal especialmente formulado para maximizar a <link=\"HEAT\">Transferência de Calor</link> e a dispersão térmica."
 
 #. STRINGS.ELEMENTS.TEMPCONDUCTORSOLID.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.TEMPERATURECONTROLLEDSWITCH.NAME"
-#| msgid "<link=\"TEMPERATURECONTROLLEDSWITCH\">Thermo Switch</link>"
 msgctxt "STRINGS.ELEMENTS.TEMPCONDUCTORSOLID.NAME"
 msgid "<link=\"TEMPCONDUCTORSOLID\">Thermite</link>"
 msgstr "<link=\"TEMPCONDUCTORSOLID\">Termita</link>"
@@ -24694,8 +24956,6 @@ msgid "Visco-Gel is a <link=\"ELEMENTSLIQUID\">Liquid</link> polymer with except
 msgstr "Gel-Visco é um polímero <link=\"ELEMENTSLIQUID\">Líquido</link> com tensão superficial excepcionalmente alta, prevenindo o fluxo e permitindo que objetos sólidos sejam mergulhados e removidos sem problemas."
 
 #. STRINGS.ELEMENTS.VISCOGEL.NAME
-#| msgctxt "STRINGS.ELEMENTS.ICE.NAME"
-#| msgid "<link=\"ICE\">Ice</link>"
 msgctxt "STRINGS.ELEMENTS.VISCOGEL.NAME"
 msgid "<link=\"VISCOGEL\">Visco-Gel</link>"
 msgstr "<link=\"VISCOGEL\">Gel-Visco</link>"
@@ -24885,8 +25145,6 @@ msgid "Jet Suit"
 msgstr "Traje à Jato"
 
 #. STRINGS.EQUIPMENT.PREFABS.JET_SUIT.NAME
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.NAME"
-#| msgid "Return Suit"
 msgctxt "STRINGS.EQUIPMENT.PREFABS.JET_SUIT.NAME"
 msgid "Jet Suit"
 msgstr "Traje à Jato"
@@ -25222,8 +25480,6 @@ msgid "DebugDumpGarbageReferences"
 msgstr "DebugColetarReferênciasLixo"
 
 #. STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGCROOTS
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.DEBUGGOTO.NAME"
-#| msgid "DebugGoTo"
 msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGDUMPGCROOTS"
 msgid "DebugDumpGCRoots"
 msgstr ""
@@ -26402,8 +26658,6 @@ msgstr ""
 "Se incubado, ele dará origem a uma <link=\"OILFLOATER\">Larva do Óleo</link>"
 
 #. STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME
-#| msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME"
-#| msgid "<link=\"OILFLOATER\">Slickster Larva Egg</link>"
 msgctxt "STRINGS.ITEMS.FOOD.OILFLOATEREGG.NAME"
 msgid "<link=\"OILFLOATER\">Larva Egg</link>"
 msgstr "<link=\"OILFLOATER\">Ovo de Larva</link>"
@@ -26694,8 +26948,6 @@ msgid "Raw data that can be processed into research points."
 msgstr "Dados brutos que podem ser processados em pontos de pesquisa."
 
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.NAME
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.DATA"
-#| msgid "Data"
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.RESEARCH_DATABANK.NAME"
 msgid "Data Bank"
 msgstr "Banco de Dados"
@@ -27019,7 +27271,7 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.BASICCONTROLS.MESSAGEBODY"
 msgid ""
 "• The <color=#F44A47><b><link=\"CONTROLS\">[WASD]</link></b></color> keys pan my view and the <color=#F44A47><b><link=\"CONTROLS\">[MOUSE WHEEL]</link></b></color> zooms it in and out.\n"
 "\n"
-"• <color=#F44A47><b>[H]</b></color> returns me back to the Printing Pod at the asteroid's center.\n"
+"• <color=#F44A47><b>[H]</b></color> returns my view to the Printing Pod.\n"
 "\n"
 "• I can speed or slow my perception of time using the top left corner buttons, or by pressing <color=#F44A47><b>[TAB]</b></color>. <color=#F44A47><b>[SPACE]</b></color> will pause the flow of time entirely.\n"
 "\n"
@@ -27027,7 +27279,7 @@ msgid ""
 msgstr ""
 "• As teclas <color=#F44A47><link=\"CONTROLS\">WASD</link></color> movem minha visão, enquanto que a <color=#F44A47><link=\"CONTROLS\">RODA DO MOUSE</link></color> altera o zoom.\n"
 "\n"
-"• <color=#F44A47><b>[H]</b></color> me retorna para a Duplicadora no centro do asteroide.\n"
+"• <color=#F44A47><b>[H]</b></color> retorna minha visão para a Duplicadora.\n"
 "\n"
 "• Eu posso aumentar ou reduzir a velocidade utilizando os botões no canto superior esquerdo, ou pressionando <color=#F44A47><b>[TAB]</b></color>. <color=#F44A47><b>[ESPAÇO]</b></color> pausará o fluxo do tempo.\n"
 "\n"
@@ -27278,13 +27530,13 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.DISCOVERED_SPACE.TOOLTIP"
 msgid ""
 "Amazing!\n"
 "\n"
-"My Duplicants have managed to breach the surface of the asteroid.\n"
+"My Duplicants have managed to breach the surface of our rocky prison.\n"
 "\n"
 "I should be careful; the region is extremely inhospitable and I could easily lose resources to the vaccuum of space."
 msgstr ""
-"Incrivel!\n"
+"Incrível!\n"
 "\n"
-"Meus Duplicantes conseguiram atravessar até a superfície do asteroide.\n"
+"Meus Duplicantes conseguiram atravessar até a superfície da nossa prisão rochosa.\n"
 "\n"
 "Eu devo ter cuidado; a região é extremamente inóspita e eu posso perder recursos para o vácuo do espaço."
 
@@ -28631,7 +28883,7 @@ msgstr "Este gêiser não está em erupção"
 #. STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.NAME
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.NAME"
 msgid "Over pressure {StudiedDetails}"
-msgstr "Sobrepressão: {StudiedDetails}"
+msgstr "Sobrepressão {StudiedDetails}"
 
 #. STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.STUDIED
 msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTOVERPRESSURE.STUDIED"
@@ -30951,8 +31203,6 @@ msgid "Enables creation of Jet Suits at the Exosuit Forge."
 msgstr "Permite a criação de Trajes à Jato na Fábrica de Exotrajes."
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.NAME
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RETURNSUIT.NAME"
-#| msgid "Return Suit"
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.JET_SUIT.NAME"
 msgid "Jet Suit"
 msgstr "Traje à Jato"
@@ -31053,8 +31303,6 @@ msgid "Continue your space program"
 msgstr "Continue seu programa espacial"
 
 #. STRINGS.RESEARCH.TECHS.CARGOI.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME"
-#| msgid "<link=\"CARGOBAY\">Cargo Bay</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOI.NAME"
 msgid "<link=\"CARGOI\">Solid Cargos</link>"
 msgstr "<link=\"CARGOI\">Cargas Sólidas</link>"
@@ -31065,11 +31313,9 @@ msgid "Continue your space program"
 msgstr "Continue seu programa espacial"
 
 #. STRINGS.RESEARCH.TECHS.CARGOII.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDCARGOBAY.NAME"
-#| msgid "<link=\"LIQUIDCARGOBAY\">Liquid Cargo Tank</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOII.NAME"
 msgid "<link=\"CARGOII\">Liquid and Gas Cargos</link>"
-msgstr "<link=\"CARGOII\">Cargas Líquida e Sólidas</link>"
+msgstr "<link=\"CARGOII\">Cargas Líquidas e Sólidas</link>"
 
 #. STRINGS.RESEARCH.TECHS.CARGOIII.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOIII.DESC"
@@ -31077,8 +31323,6 @@ msgid "Continue your space program"
 msgstr "Continue seu programa espacial"
 
 #. STRINGS.RESEARCH.TECHS.CARGOIII.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CARGOBAY.NAME"
-#| msgid "<link=\"CARGOBAY\">Cargo Bay</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.CARGOIII.NAME"
 msgid "<link=\"CARGOIII\">Special Cargos</link>"
 msgstr "<link=\"CARGOIII\">Cargas Especiais</link>"
@@ -31149,8 +31393,6 @@ msgid "Continue your space program"
 msgstr "Continue seu programa espacial"
 
 #. STRINGS.RESEARCH.TECHS.ENGINESI.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.COMBUSTION.NAME"
-#| msgid "<link=\"COMBUSTION\">Internal Combustion</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESI.NAME"
 msgid "<link=\"ENGINESI\">Solid Fuel Combustion</link>"
 msgstr "<link=\"ENGINESI\">Combustão de Combustíveis Sólidos</link>"
@@ -31161,8 +31403,6 @@ msgid "Continue your space program"
 msgstr "Continue seu programa espacial"
 
 #. STRINGS.RESEARCH.TECHS.ENGINESII.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.COMBUSTION.NAME"
-#| msgid "<link=\"COMBUSTION\">Internal Combustion</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESII.NAME"
 msgid "<link=\"ENGINESII\">Hydrocarbon Combustion</link>"
 msgstr "<link=\"ENGINESII\">Combustão de Hidrocarbonetos</link>"
@@ -31173,8 +31413,6 @@ msgid "Continue your space program"
 msgstr "Continue seu programa espacial"
 
 #. STRINGS.RESEARCH.TECHS.ENGINESIII.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.COMBUSTION.NAME"
-#| msgid "<link=\"COMBUSTION\">Internal Combustion</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.ENGINESIII.NAME"
 msgid "<link=\"ENGINESIII\">Cryofuel Combustion</link>"
 msgstr "<link=\"ENGINESIII\">Combustão Criogênica</link>"
@@ -31315,8 +31553,6 @@ msgid "Continue your space program"
 msgstr "Continue seu programa espacial"
 
 #. STRINGS.RESEARCH.TECHS.JETPACKS.NAME
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.TIPS"
-#| msgid "<link=\"TIPS\">Tips</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.JETPACKS.NAME"
 msgid "<link=\"JETPACKS\">Jetpacks</link>"
 msgstr "<link=\"JETPACKS\">Mochilas à Jato</link>"
@@ -31327,8 +31563,6 @@ msgid "Assign Duplicants jobs"
 msgstr "Designar trabalhos de Duplicantes"
 
 #. STRINGS.RESEARCH.TECHS.JOBS.NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.GLOM.NAME"
-#| msgid "<link=\"GLOM\">Morb</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.JOBS.NAME"
 msgid "<link=\"JOBS\">Jobs</link>"
 msgstr "<link=\"JOBS\">Trabalhos</link>"
@@ -34992,7 +35226,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.9)"
+"- Traduzido por Chastomber :P (1.9.1)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -35594,6 +35828,11 @@ msgstr "Salas Designadas"
 msgctxt "STRINGS.UI.FILE_NAME_DIALOG.ENTER_TEXT"
 msgid "Enter Text..."
 msgstr "Escreva Algo..."
+
+#. STRINGS.UI.FILTER
+msgctxt "STRINGS.UI.FILTER"
+msgid "Filter"
+msgstr "Filtro"
 
 #. STRINGS.UI.FORMATDAY
 msgctxt "STRINGS.UI.FORMATDAY"
@@ -36457,8 +36696,6 @@ msgid "Subscription"
 msgstr "Inscrição"
 
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.HAS_TRAIT"
-#| msgid "Missing required trait"
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
 msgid "Mod changes require restart"
 msgstr "Mudanças de Mod requerem reinício"
@@ -40708,8 +40945,6 @@ msgid "+{0} to Strength"
 msgstr "+{0} para Força"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.INTERSTELLAR_RESEARCH.DESCRIPTION
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ADVANCED_RESEARCH.DESCRIPTION"
-#| msgid "Trait: <link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link> Researching"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.INTERSTELLAR_RESEARCH.DESCRIPTION"
 msgid "Trait: <link=\"COSMICRESEARCHCENTER\">Virtual Planetarium</link> Researching"
 msgstr "Traço: <link=\"COSMICRESEARCHCENTER\">Pesquisar com o Planetário</link>"
@@ -41601,8 +41836,6 @@ msgid "Cargo Bay not empty"
 msgstr "Ala de Carga não vazia"
 
 #. STRINGS.UI.STARMAP.CARGOEMPTY.TOOLTIP
-#| msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED_TOOLTIP"
-#| msgid "A {0} must be installed before launch"
 msgctxt "STRINGS.UI.STARMAP.CARGOEMPTY.TOOLTIP"
 msgid "Cargo Bays must be emptied of all materials before launch"
 msgstr "Alas de Carga precisam ser esvaziadas de todos os materiais antes da decolagem"
@@ -41996,15 +42229,11 @@ msgid "Total oxidizable fuel"
 msgstr "Combustível oxidizável total"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_OXIDIZER
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.OXIDIZER"
-#| msgid "Oxidizer"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_OXIDIZER"
 msgid "Total oxidizer"
 msgstr "Oxidante total"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_RANGE
-#| msgctxt "STRINGS.UI.TOOLS.CAPTURE.NOT_CAPTURABLE"
-#| msgid "Cannot Wrangle"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.TOTAL_RANGE"
 msgid "Total range"
 msgstr "Alcance total"
@@ -42015,8 +42244,6 @@ msgid "Total thrust"
 msgstr "Propulsão total"
 
 #. STRINGS.UI.STARMAP.ROCKETSTATS.WET_MASS
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.TOOLTIP"
-#| msgid "Adjust mass"
 msgctxt "STRINGS.UI.STARMAP.ROCKETSTATS.WET_MASS"
 msgid "Wet mass"
 msgstr "Massa úmida"
@@ -42769,8 +42996,8 @@ msgstr "Portas de sólidos estão obstruídas"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SPACE"
-msgid "Must be built on the asteroid surface"
-msgstr "Precisa ser construído na superfície do asteroide"
+msgid "Must be built on the surface"
+msgstr "Precisa ser construído na superfície"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
@@ -44290,9 +44517,9 @@ msgid ""
 "\n"
 "Analyzing a natural feature takes time, but yields useful results."
 msgstr ""
-"Enviar um pesquisador para coletar dados aqui.\n"
+"Envie um pesquisador para coletar dados aqui.\n"
 "\n"
-"Analisar um recurso natural leva tempo, mas vai apresentar dados úteis."
+"Analisar um recurso natural leva tempo, mas dará dados úteis."
 
 #. STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.STUDIED_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.STUDIED_BUTTON"
@@ -44730,8 +44957,6 @@ msgid "kB"
 msgstr ""
 
 #. STRINGS.UI.UNITSUFFIXES.INFORMATION.MEGABYTE
-#| msgctxt "STRINGS.DUPLICANTS.GENDER.MALE.NAME"
-#| msgid "M"
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.MEGABYTE"
 msgid "MB"
 msgstr "MB"
@@ -45903,17 +46128,17 @@ msgstr "COMEÇAR"
 #. STRINGS.UI.WELCOMEMESSAGEBODY
 msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY"
 msgid ""
-"I've awoken at the center of a large asteroid with control over a crew of three Duplicants.\n"
+"I've awoken with a starting crew of three Duplicants, but the situation here is not as we expected.\n"
 "\n"
-"I can't recall how we got here, but our resources are scarce.\n"
+"Resources are scarce and our Pod is embedded miles beneath the planet's surface.\n"
 "\n"
-"I'll need to help my Duplicants survive. Maybe then I can find answers."
+"I must help my Duplicants survive before I investigate what went wrong."
 msgstr ""
-"Eu acordei preso no centro de um grande asteroide, no controle de uma equipe de três Duplicantes.\n"
+"Eu acordei com uma equipe inicial de três Duplicantes, mas a situação aqui é diferente do que esperávamos.\n"
 "\n"
-"Eu não consigo me lembrar como parei aqui, mas nossos recursos são escassos. \n"
+"Recursos são escassos e nossa Duplicadora está milhas presa debaixo da superfície do asteroide.\n"
 "\n"
-"Eu preciso ajudar meus Duplicantes a sobreviverem. Talvez eu encontre respostas."
+"Eu preciso ajudar meus Duplicantes a sobreviverem antes de eu investigar o que houve de errado."
 
 #. STRINGS.UI.WELCOMEMESSAGETITLE
 msgctxt "STRINGS.UI.WELCOMEMESSAGETITLE"
@@ -46419,6 +46644,32 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.CODEX.MYLOG.BODY.LOG4.TITLE"
+#~ msgid "CYCLE 50"
+#~ msgstr "CICLO 50"
+
+#~ msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BURT.DESC"
+#~ msgid "Every single {0} has perpetually damp hands. It must be genetic."
+#~ msgstr "Todo {0} tem as mãos perpetuamente suadas. Deve ser genético."
+
+#~ msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.DESC"
+#~ msgid "This {0} is cripplingly self-conscious of his long middle toes."
+#~ msgstr "Este {0} é totalmente consciente dos longos dedões do meio."
+
+#~ msgctxt "STRINGS.UI.WELCOMEMESSAGEBODY"
+#~ msgid ""
+#~ "I've awoken at the center of a large asteroid with control over a crew of three Duplicants.\n"
+#~ "\n"
+#~ "I can't recall how we got here, but our resources are scarce.\n"
+#~ "\n"
+#~ "I'll need to help my Duplicants survive. Maybe then I can find answers."
+#~ msgstr ""
+#~ "Eu acordei preso no centro de um grande asteroide, no controle de uma equipe de três Duplicantes.\n"
+#~ "\n"
+#~ "Eu não consigo me lembrar como parei aqui, mas nossos recursos são escassos. \n"
+#~ "\n"
+#~ "Eu preciso ajudar meus Duplicantes a sobreviverem. Talvez eu encontre respostas."
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.DEVGENERATOR.NAME"
 #~ msgid "<link=\"DEVGENERATOR\">DEV Generator</link>"
@@ -49754,10 +50005,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITBRIDGE.NAME"
 #~ msgid "Gas Bridge"
 #~ msgstr "Ponte de Gás"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.NAME"
-#~ msgid "Gas Filter"
-#~ msgstr "Filtro de Gás"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.NAME"
 #~ msgid "Gas Shutoff"
