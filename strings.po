@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.1.2\n"
+"Project-Id-Version: Português foi Incluído! 2.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Bookmarks: 2437,5040,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-Basepath: .\n"
@@ -1483,6 +1483,24 @@ msgstr ""
 "de uma estrutura automatizada se conecta à sua própria <style=\"KKeyword"
 "\">Entrada</style> por meio do circuito Automatizado"
 
+#. STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.NAME"
+msgid "Damage: Overloading"
+msgstr "Dano: Sobrecarga"
+
+#. STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICOVERLOADED.TOOLTIP"
+msgid ""
+"This <style=\"KKeyword\">Logic Wire</style> is taking damage.\n"
+"\n"
+"Use a <style=\"KKeyword\">Logic Ribbon</style> instead, or limit the output "
+"to one Bit."
+msgstr ""
+"Este <style=\"KKeyword\">Cabo Automatizado</style> está sofrendo dano.\n"
+"\n"
+"Use um <style=\"KKeyword\">Cinturão Automatizado</style> ou limite a saída "
+"para um Bit."
+
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.NAME"
 msgid "Sending a <b><color=#57b95e>Green Signal</b></color>"
@@ -2611,6 +2629,16 @@ msgstr ""
 "Este cano está no risco de derreter devido a <style=\"KKeyword"
 "\">Temperatura</style> atual"
 
+#. STRINGS.BUILDING.STATUSITEMS.PLAYERCONTROLLEDTOGGLESIDESCREEN.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.PLAYERCONTROLLEDTOGGLESIDESCREEN.NAME"
+msgid "Pending Toggle on Unpause"
+msgstr "Alternar Pendente ao Resumir"
+
+#. STRINGS.BUILDING.STATUSITEMS.PLAYERCONTROLLEDTOGGLESIDESCREEN.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.PLAYERCONTROLLEDTOGGLESIDESCREEN.TOOLTIP"
+msgid "This will be toggled when time is unpaused"
+msgstr "O estado será alternado quando o tempo for resumido"
+
 #. STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.POWERBUTTONOFF.NAME"
 msgid "Function Suspended"
@@ -3681,6 +3709,11 @@ msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.LIQUID_PRESSURE"
 msgid "neighboring liquid pressure"
 msgstr "devido a pressão de líquidos ao redor"
 
+#. STRINGS.BUILDINGS.DAMAGESOURCES.LOGIC_CIRCUIT_OVERLOADED
+msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.LOGIC_CIRCUIT_OVERLOADED"
+msgid "an overloaded logic circuit"
+msgstr "de um circuito lógico sobrecarregado"
+
 #. STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE
 msgctxt "STRINGS.BUILDINGS.DAMAGESOURCES.MICROMETEORITE"
 msgid "micrometeorite"
@@ -4064,19 +4097,21 @@ msgstr "<link=\"BATTERYMEDIUM\">Bateria Jumbo</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.ACTIVATE_TOOLTIP"
 msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> when battery is less than "
-"<b>{0}%</b> charged"
+"<b>{0}%</b> charged, until it is <b>{1}% (High Threshold)</b> charged"
 msgstr ""
-"Envia um <b><color=#57b95e>Sinal Verde</b></color> quando a bateria está "
-"menos que <b>{0}%</b> carregada"
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> quando a carga da bateria "
+"estiver menor que <b>{0}%</b>, até a carga chegar em <b>{1}% (Limite Alto)</"
+"b>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP"
 msgid ""
-"Sends a <b><color=#f44a47>Red Signal</b></color> when battery is more than "
-"<b>{0}%</b> charged"
+"Sends a <b><color=#f44a47>Red Signal</b></color> when battery is <b>{0}%</b> "
+"charged, until it is less than <b>{1}% (Low Threshold)</b> charged"
 msgstr ""
-"Envia um <b><color=#f44a47>Sinal Vermelho</b></color> quando a bateria está "
-"mais que <b>{0}%</b> carregada"
+"Envia um <b><color=#f44a47>Sinal Vermelho</b></color> quando a bateria "
+"estiver <b>{0}%</b> carregada, até a carga ficar menor que <b>{1}% (Limite "
+"Baixo)</b>"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DESC"
@@ -4117,10 +4152,11 @@ msgstr "Parâmetros de Recarga"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_ACTIVE"
 msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> when battery is less than "
-"<b>Low Threshold</b> charged"
+"<b>Low Threshold</b> charged, until <b>High Threshold</b> is reached again"
 msgstr ""
-"Envia um <b><color=#57b95e>Sinal Verde</b></color> quando a bateria está "
-"menos carregada que o <b>Limite Baixo</b>"
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> quando a bateria estiver "
+"com carga menor que o <b>Limite Baixo</b>, até o <b>Limite Alto</b> ser "
+"atingido novamente"
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT_INACTIVE"
@@ -7684,6 +7720,138 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDVENT.NAME"
 msgid "<link=\"LIQUIDVENT\">Liquid Vent</link>"
 msgstr "<link=\"LIQUIDVENT\">Saída de Líquidos</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.LOGICALARM.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.DESC"
+msgid ""
+"Sends a notification when it receives a <b><color=#57b95e>Green Signal</b></"
+"color>."
+msgstr ""
+"Envia uma notificação quando ele recebe um <b><color=#57b95e>Sinal Verde</"
+"b></color>."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICALARM.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.EFFECT"
+msgid ""
+"Attach to sensors to send a notification when certain conditions are met.\n"
+"\n"
+"Notifications can be customized."
+msgstr ""
+"Conecte sensores para enviar uma notificação quando certas condições forem "
+"satisfeitas.\n"
+"\n"
+"Notificações podem ser customizadas."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_NAME"
+msgid "INPUT"
+msgstr "ENTRADA"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_ACTIVE"
+msgid "<b><color=#57b95e>Green Signal</b></color>: Push notification"
+msgstr "<b><color=#57b95e>Sinal Verde</b></color>: Dispara notificação"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.INPUT_PORT_INACTIVE"
+msgid "<b><color=#f44a47>Red Signal</b></color>: Nothing"
+msgstr "<b><color=#f44a47>Sinal Vermelho</b></color>: Sem Efeito"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICALARM.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.LOGIC_PORT"
+msgid "Notification"
+msgstr "Notificação"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICALARM.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICALARM.NAME"
+msgid "<link=\"LOGICALARM\">Automated Notifier</link>"
+msgstr "<link=\"LOGICALARM\">Notificador Automatizado</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.DESC"
+msgid "For numbers higher than ten connect multiple counters together."
+msgstr "Para números maiores que dez, conecte múltiplos contadores juntos."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.EFFECT"
+msgid ""
+"Counts how many times a <b><color=#57b95e>Green Signal</b></color> has been "
+"received up to a chosen number.\n"
+"\n"
+"When the chosen number is reached it sends a <b><color=#57b95e>Green Signal</"
+"b></color> until it receives another <b><color=#57b95e>Green Signal</b></"
+"color> to start the count over."
+msgstr ""
+"Conta quantas vezes um <b><color=#57b95e>Sinal Verde</b></color> foi "
+"recebido até chegar em um número escolhido.\n"
+"\n"
+"Quando o número escolhido é atingido, ele envia um <b><color=#57b95e>Sinal "
+"Verde</b></color> até receber um outro <b><color=#57b95e>Sinal Verde</b></"
+"color> para reiniciar a contagem."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.INPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.INPUT_PORT_ACTIVE"
+msgid "<b><color=#57b95e>Green Signal</b></color>: Increase counter by one"
+msgstr "<b><color=#57b95e>Sinal Verde</b></color>: Aumenta o contador em um"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.INPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.INPUT_PORT_INACTIVE"
+msgid "<b><color=#f44a47>Red Signal</b></color>: Nothing"
+msgstr "<b><color=#f44a47>Sinal Vermelho</b></color>: Sem Efeito"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT"
+msgid "Internal Counter Value"
+msgstr "Valor de Contagem Interno"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_OUTPUT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_OUTPUT"
+msgid "Number Reached"
+msgstr "Número Atingido"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_RESET
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.LOGIC_PORT_RESET"
+msgid "Reset Counter"
+msgstr "Redefinir Contador"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.NAME"
+msgid "<link=\"LOGICCOUNTER\">Signal Counter</link>"
+msgstr "<link=\"LOGICCONTROL\">Contador de Sinal</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.OUTPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.OUTPUT_PORT_ACTIVE"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> when the counter matches "
+"the selected value"
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> quando o contador atinge "
+"o valor selecionado"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.OUTPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.OUTPUT_PORT_INACTIVE"
+msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
+msgstr "Senão, envia um <b><color=#f44a47>Sinal Vermelho</b></color>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_ACTIVE"
+msgid "<b><color=#57b95e>Green Signal</b></color>: Reset counter"
+msgstr "<b><color=#57b95e>Sinal Verde</b></color>: Redefine contador"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCOUNTER.RESET_PORT_INACTIVE"
+msgid "<b><color=#f44a47>Red Signal</b></color>: Nothing"
+msgstr "<b><color=#f44a47>Sinal Vermelho</b></color>: Sem Efeito"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.COUNT_CRITTER_LABEL
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.COUNT_CRITTER_LABEL"
+msgid "Count Critters"
+msgstr "Contar Criaturas"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.COUNT_EGG_LABEL
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.COUNT_EGG_LABEL"
+msgid "Count Eggs"
+msgstr "Contar Ovos"
+
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.DESC"
 msgid ""
@@ -7727,6 +7895,11 @@ msgstr "Senão, envia um <b><color=#f44a47>Sinal Vermelho</b></color>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.NAME"
 msgid "<link=\"LOGICCRITTERCOUNTSENSOR\">Critter Sensor</link>"
 msgstr "<link=\"LOGICCRITTERCOUNTSENSOR\">Sensor de Criaturas</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.SIDESCREEN_TITLE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.SIDESCREEN_TITLE"
+msgid "Critter Sensor"
+msgstr "Sensor de Criaturas"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICDISEASESENSOR.DESC"
@@ -7890,7 +8063,7 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT"
-msgid "Specific<link=\"ELEMENTSLIQUID\">Liquid</link> Presence"
+msgid "Specific <link=\"ELEMENTSLIQUID\">Liquid</link> Presence"
 msgstr "Presença de <link=\"ELEMENTSLIQUID\">Líquido</link> Específico"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICELEMENTSENSORLIQUID.LOGIC_PORT_ACTIVE
@@ -8019,6 +8192,56 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEBUFFER.OUTPUT_NAME"
 msgid "OUTPUT"
 msgstr "SAÍDA"
 
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.DESC"
+msgid ""
+"Signal Distributors can be used to choose which circuit should receive a "
+"given automation signal."
+msgstr ""
+"Distribuidores de Sinais podem ser usados para escolher quais circuitos "
+"devem receber um determinado sinal de automação."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.EFFECT"
+msgid ""
+"Route a single Input signal out one of four possible Outputs, based on the "
+"selection made by the Control Inputs.\n"
+"\n"
+"Send a <b><color=#57b95e>Green Signal</b></color> or a <b><color=#f44a47>Red "
+"Signal</b></color> to the two Control Inputs to determine which Output is "
+"selected."
+msgstr ""
+"Direcione um único sinal de Entrada para uma das quatros possíveis Saídas, "
+"baseado na seleção feita pelas Entradas de Controle.\n"
+"\n"
+"Envie um <b><color=#57b95e>Sinal Verde</b></color> ou um "
+"<b><color=#f44a47>Sinal Vermelho</b></color> para as duas Entradas de "
+"Controle para determinar qual Saída será selecionada."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.NAME"
+msgid "<link=\"LOGICGATEDEMULTIPLEXER\">Signal Distributor</link>"
+msgstr "<link=\"LOGICGATEDEMULTIPLEXER\">Distribuidor de Sinal</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_ACTIVE"
+msgid ""
+"Sends a <b><color=#57b95e>Green</b></color> or <b><color=#f44a47>Red</b></"
+"color> signal to the selected output"
+msgstr ""
+"Envia um sinal <b><color=#57b95e>Verde</b></color> ou "
+"<b><color=#f44a47>Vermelho</b></color> para a saída selecionada"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_INACTIVE"
+msgid "Nothing"
+msgstr "Sem Efeito"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.OUTPUT_NAME"
+msgid "OUTPUT"
+msgstr "SAÍDA"
+
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.DESC"
 msgid ""
@@ -8067,6 +8290,56 @@ msgstr "Senão, envia um <b><color=#f44a47>Sinal Vermelho</b></color>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEFILTER.OUTPUT_NAME"
+msgid "OUTPUT"
+msgstr "SAÍDA"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.DESC"
+msgid ""
+"Signal Selectors can be used to select which automation signal is relevant "
+"to pass through to a given circuit"
+msgstr ""
+"Seletores de Sinal podem ser usados para selecionar qual sinal de automação "
+"é relevante para passar em um determinado circuito"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.EFFECT"
+msgid ""
+"Select which one of four Input signals should be sent out the Output, using "
+"Control Inputs.\n"
+"\n"
+"Send a <b><color=#57b95e>Green Signal</b></color> or a <b><color=#f44a47>Red "
+"Signal</b></color> to the two Control Inputs to determine which Input is "
+"selected."
+msgstr ""
+"Seleciona um dos quatros sinais de Entrada que podem ser enviados para a "
+"Saída, usando Entradas de Controle.\n"
+"\n"
+"Envie um <b><color=#57b95e>Sinal Verde</b></color> ou um "
+"<b><color=#f44a47>Sinal Vermelho</b></color> para as duas Entradas de "
+"Controle para determinar qual Entrada será selecionada."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.NAME"
+msgid "<link=\"LOGICGATEMULTIPLEXER\">Signal Selector</link>"
+msgstr "<link=\"LOGICGATEMULTIPLEXER\">Seletor de Sinal</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_ACTIVE"
+msgid ""
+"Receives a <b><color=#57b95e>Green</b></color> or <b><color=#f44a47>Red</b></"
+"color> signal from the selected input"
+msgstr ""
+"Recebe um sinal <b><color=#57b95e>Verde</b></color> ou "
+"<b><color=#f44a47>Vermelho</b></color> da entrada selecionada"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_INACTIVE"
+msgid "Nothing"
+msgstr "Sem Efeito"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.OUTPUT_NAME"
 msgid "OUTPUT"
 msgstr "SAÍDA"
 
@@ -8225,6 +8498,51 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEXOR.OUTPUT_NAME"
 msgid "OUTPUT"
 msgstr "SAÍDA"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.DESC"
+msgid "The hammer makes neat sounds when it strikes buildings."
+msgstr "O martelo faz sons legais quando bate em estruturas."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.EFFECT"
+msgid ""
+"In its default orientation, the hammer strikes the building to the left when "
+"it recieves a <b><color=#57b95e>Green Signal</b></color>.\n"
+"\n"
+"Each building has a unique sound when struck by the hammer. The hammer does "
+"no damage when it strikes."
+msgstr ""
+"Em sua orientação padrão, o martelo bate na estrutura a sua esquerda quando "
+"recebe um <b><color=#57b95e>Sinal Verde</b></color>.\n"
+"\n"
+"Cada estrutura possui um som único quando acertado pelo martelo. O martelo "
+"não causa dano quando bate."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_NAME"
+msgid "INPUT"
+msgstr "ENTRADA"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_ACTIVE"
+msgid "<b><color=#57b95e>Green Signal</b></color>: Hammer strikes once"
+msgstr "<b><color=#57b95e>Sinal Verde</b></color>: Martelo bate uma vez"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.INPUT_PORT_INACTIVE"
+msgid "<b><color=#f44a47>Red Signal</b></color>: Nothing"
+msgstr "<b><color=#f44a47>Sinal Vermelho</b></color>: Sem Efeito"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.LOGIC_PORT"
+msgid "Resonating Buildings"
+msgstr "Ressoar Estruturas"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICHAMMER.NAME"
+msgid "<link=\"LOGICHAMMER\">Hammer</link>"
+msgstr "<link=\"LOGICHAMMER\">Martelo</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.DESC"
@@ -8472,6 +8790,263 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.NAME"
 msgid "<link=\"LOGICPRESSURESENSORLIQUID\">Hydro Sensor</link>"
 msgstr "<link=\"LOGICPRESSURESENSORLIQUID\">Sensor Hídrico</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.DESC"
+msgid ""
+"Logic ribbons use significantly less space to carry multiple automation "
+"signals."
+msgstr ""
+"Cinturões lógicos usam espaço significativamente menor por carregar "
+"múltiplos sinais de automação."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.EFFECT"
+msgid ""
+"A 4-Bit <link=\"LOGICWIRE\">Automation Wire</link> which can carry up to "
+"four automation signals.\n"
+"\n"
+"Use a <link=\"LOGICRIBBONWRITER\">Ribbon Writer</link> to output to multiple "
+"Bits, and a <link=\"LOGICRIBBONREADER\">Ribbon Reader</link> to input from "
+"multiple Bits."
+msgstr ""
+"Um <link=\"LOGICWIRE\">Cabo Automatizado</link> de 4-Bits que pode carregar "
+"até quatro sinais de automação.\n"
+"\n"
+"Use um <link=\"LOGICRIBBONWRITER\">Gravador de Cinturão</link> para enviar "
+"múltiplos Bits, e um <link=\"LOGICRIBBONREADER\">Leitor de Cinturão</link> "
+"para receber múltiplos Bits."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBON.NAME"
+msgid "<link=\"LOGICRIBBON\">Automation Ribbon</link>"
+msgstr "<link=\"LOGICRIBBON\">Cinturão Automatizado</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.DESC"
+msgid ""
+"Wire bridges allow multiple automation grids to exist in a small area "
+"without connecting."
+msgstr ""
+"Pontes de cabo permitem múltiplos circuitos automatizados existirem em uma "
+"pequena área sem conectarem."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.EFFECT"
+msgid ""
+"Runs one <link=\"LOGICRIBBON\">Automation Ribbon</link> section over another "
+"without joining them.\n"
+"\n"
+"Can be run through wall and floor tile."
+msgstr ""
+"Faz uma seção de <link=\"LOGICRIBBON\">Cinturão Automatizado</link> passar "
+"pela outra sem uni-las.\n"
+"\n"
+"Pode passar pelos blocos de piso e parede."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT"
+msgid "Transmit Signal"
+msgstr "Transmite Sinal"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_ACTIVE"
+msgid ""
+"<b><color=#57b95e>Green Signal</b></color>: Pass through the "
+"<b><color=#57b95e>Green Signal</b></color>"
+msgstr ""
+"<b><color=#57b95e>Sinal Verde</b></color>: Passa pelo "
+"<b><color=#57b95e>Sinal Verde</b></color>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.LOGIC_PORT_INACTIVE"
+msgid ""
+"<b><color=#f44a47>Red Signal</b></color>: Pass through the "
+"<b><color=#f44a47>Red Signal</b></color>"
+msgstr ""
+"<b><color=#f44a47>Sinal Vermelho</b></color>: Passa pelo "
+"<b><color=#f44a47>Sinal Vermelho</b></color>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONBRIDGE.NAME"
+msgid "<link=\"LOGICRIBBONBRIDGE\">Automation Ribbon Bridge</link>"
+msgstr "<link=\"LOGICRIBBONBRIDGE\">Ponte de Cinturão Automatizado</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.DESC"
+msgid ""
+"Inputs the signal from a single Bit in an <link=\"LOGICRIBBON\">Automation "
+"Ribbon</link> into an <link=\"LOGICWIRE\">Automation Wire</link>."
+msgstr ""
+"Envia o sinal de um único Bit de um <link=\"LOGICRIBBON\">Cinturão "
+"Automatizado</link> para um <link=\"LOGICWIRE\">Cabo Automatizado</link>."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.EFFECT"
+msgid ""
+"Reads a <b><color=#57b95e>Green Signal</b></color> or a "
+"<b><color=#f44a47>Red Signal</b></color> from the specified Bit of an <link="
+"\"LOGICRIBBON\">Automation Ribbon</link> onto an <link=\"LOGICWIRE"
+"\">Automation Wire</link>."
+msgstr ""
+"Lê um <b><color=#57b95e>Sinal Verde</b></color> ou um "
+"<b><color=#f44a47>Sinal Vermelho</b></color> do Bit especificado de um <link="
+"\"LOGICRIBBON\">Cinturão Automatizado</link> para um <link=\"LOGICWIRE"
+"\">Cabo Automatizado</link>."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_NAME"
+msgid "RIBBON INPUT"
+msgstr "ENTRADA DE CINTURÃO"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_ACTIVE"
+msgid ""
+"<b><color=#57b95e>Green Signal</b></color>: Reads a <b><color=#57b95e>Green "
+"Signal</b></color> from selected Bit"
+msgstr ""
+"<b><color=#57b95e>Sinal Verde</b></color>: Lê um <b><color=#57b95e>Sinal "
+"Verde</b></color> do Bit selecionado"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.INPUT_PORT_INACTIVE"
+msgid ""
+"<b><color=#f44a47>Red Signal</b></color>: Reads a <b><color=#f44a47>Red "
+"Signal</b></color> from selected Bit"
+msgstr ""
+"<b><color=#f44a47>Sinal Vermelho</b></color>: Lê um <b><color=#f44a47>Sinal "
+"Vermelho</b></color> do Bit selecionado"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT"
+msgid "4-Bit Input"
+msgstr "Entrada 4-Bit"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT_OUTPUT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.LOGIC_PORT_OUTPUT"
+msgid "Bit Reading"
+msgstr "Leitura de Bit"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.NAME"
+msgid "<link=\"LOGICRIBBONREADER\">Ribbon Reader</link>"
+msgstr "<link=\"LOGICRIBBONREADER\">Leitor de Cinturão</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_NAME"
+msgid "OUTPUT"
+msgstr "SAÍDA"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_PORT_ACTIVE"
+msgid ""
+"<b><color=#57b95e>Green Signal</b></color>: Sends a <b><color=#57b95e>Green "
+"Signal</b></color> to attached <link=\"LOGICWIRE\">Automation Wire</link>"
+msgstr ""
+"<b><color=#57b95e>Sinal Verde</b></color>: Envia um <b><color=#57b95e>Sinal "
+"Verde</b></color> para o <link=\"LOGICWIRE\">Cabo Automatizado</link> "
+"conectado"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONREADER.OUTPUT_PORT_INACTIVE"
+msgid ""
+"<b><color=#f44a47>Red Signal</b></color>: Sends a <b><color=#f44a47>Red "
+"Signal</b></color> to attached <link=\"LOGICWIRE\">Automation Wire</link>"
+msgstr ""
+"<b><color=#f44a47>Sinal Vermelho</b></color>: Envia um "
+"<b><color=#f44a47>Sinal Vermelho</b></color> para o <link=\"LOGICWIRE\">Cabo "
+"Automatizado</link> conectado"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.DESC"
+msgid ""
+"Translates the signal from an <link=\"LOGICWIRE\">Automation Wire</link> to "
+"a single Bit in an <link=\"LOGICRIBBON\">Automation Ribbon</link>"
+msgstr ""
+"Traduz o sinal de um <link=\"LOGICWIRE\">Cabo Automatizado</link> em um "
+"único Bit de um <link=\"LOGICRIBBON\">Cinturão Automatizado</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.EFFECT"
+msgid ""
+"Writes a <b><color=#57b95e>Green Signal</b></color> or a "
+"<b><color=#f44a47>Red Signal</b></color> to the specified Bit of an <link="
+"\"LOGICRIBBON\">Automation Ribbon</link>\n"
+"\n"
+"<link=\"LOGICRIBBON\">Automation Ribbon</link> must be used as the output "
+"wire to avoid overloading."
+msgstr ""
+"Grava um <b><color=#57b95e>Sinal Verde</b></color> ou um "
+"<b><color=#f44a47>Sinal Vermelho</b></color> no Bit especificado de um <link="
+"\"LOGICRIBBON\">Cinturão Automatizado</link>\n"
+"\n"
+"<link=\"LOGICRIBBON\">Cinturão Automatizado</link> precisa ser usado como "
+"cabo de saída para evitar sobrecarga."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_NAME"
+msgid "INPUT"
+msgstr "ENTRADA"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_PORT_ACTIVE"
+msgid ""
+"<b><color=#57b95e>Green Signal</b></color>: Receives <b><color=#57b95e>Green "
+"Signal</b></color> to be written to selected Bit"
+msgstr ""
+"<b><color=#57b95e>Sinal Verde</b></color>: Recebe <b><color=#57b95e>Sinal "
+"Verde</b></color> para ser gravado no Bit selecionado"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.INPUT_PORT_INACTIVE"
+msgid ""
+"<b><color=#f44a47>Red Signal</b></color>: Receives <b><color=#f44a47>Red "
+"Signal</b></color> to to be written selected Bit"
+msgstr ""
+"<b><color=#f44a47>Sinal Vermelho</b></color>: Recebe <b><color=#f44a47>Sinal "
+"Vermelho</b></color> para ser gravado no Bit selecionado"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.LOGIC_PORT"
+msgid "1-Bit Input"
+msgstr "Entrada 1-Bit"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.LOGIC_PORT_OUTPUT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.LOGIC_PORT_OUTPUT"
+msgid "Bit Writing"
+msgstr "Gravação de Bit"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.NAME"
+msgid "<link=\"LOGICRIBBONWRITER\">Ribbon Writer</link>"
+msgstr "<link=\"LOGICRIBBONWRITER\">Gravador de Cinturão</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.OUTPUT_NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.OUTPUT_NAME"
+msgid "RIBBON OUTPUT"
+msgstr "SAÍDA DO CINTURÃO"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.OUTPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.OUTPUT_PORT_ACTIVE"
+msgid ""
+"<b><color=#57b95e>Green Signal</b></color>: Writes a <b><color=#57b95e>Green "
+"Signal</b></color> to selected Bit of an <link=\"LOGICRIBBON\">Automation "
+"Ribbon</link>"
+msgstr ""
+"<b><color=#57b95e>Sinal Verde</b></color>: Grava um <b><color=#57b95e>Sinal "
+"Verde</b></color> no Bit selecionado do <link=\"LOGICRIBBON\">Cinturão "
+"Automatizado</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.OUTPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRIBBONWRITER.OUTPUT_PORT_INACTIVE"
+msgid ""
+"<b><color=#f44a47>Red Signal</b></color>: Writes a <b><color=#f44a47>Red "
+"Signal</b></color> to selected Bit of an <link=\"LOGICRIBBON\">Automation "
+"Ribbon</link>"
+msgstr ""
+"<b><color=#f44a47>Sinal Vermelho</b></color>: Grava um "
+"<b><color=#f44a47>Sinal Vermelho</b></color> no Bit selecionado do <link="
+"\"LOGICRIBBON\">Cinturão Automatizado</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.DESC"
 msgid ""
@@ -8486,15 +9061,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.EFFECT"
 msgid ""
 "Sends a <b><color=#57b95e>Green Signal</b></color> or a "
 "<b><color=#f44a47>Red Signal</b></color> on an <link=\"LOGIC\">Automation</"
-"link> grid.\n"
-"\n"
-"Must be manually toggled by a Duplicant."
+"link> grid."
 msgstr ""
 "Envia um <b><color=#57b95e>Sinal Verde</b></color> ou um "
 "<b><color=#f44a47>Sinal Vermelho</b></color> em um circuito <link=\"LOGIC"
-"\">Automatizado</link>.\n"
-"\n"
-"Precisa ser alternado manualmente por um Duplicante."
+"\">Automatizado</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT"
@@ -8515,6 +9086,11 @@ msgstr "Envia um <b><color=#f44a47>Sinal Vermelho</b></color> se DESATIVADO"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.NAME"
 msgid "<link=\"LOGICSWITCH\">Signal Switch</link>"
 msgstr "<link=\"LOGICSWITCH\">Alavanca de Sinal</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.SIDESCREEN_TITLE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.SIDESCREEN_TITLE"
+msgid "Signal Switch"
+msgstr "Alavanca de Sinal"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.DESC"
@@ -8563,20 +9139,21 @@ msgstr "<link=\"LOGICTEMPERATURESENSOR\">Sensor Térmico</link>"
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.DESC"
 msgid ""
-"Clock sensors ensure systems always turn on at the same time, day or night, "
+"Cycle sensors ensure systems always turn on at the same time, day or night, "
 "every cycle."
 msgstr ""
-"Temporizadores garantem que os sistemas sempre irão ligar na mesma hora do "
-"dia ou da noite, em cada ciclo."
+"Sensores de ciclo garantem que os sistemas sempre irão ligar na mesma hora "
+"do dia ou da noite, em cada ciclo."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.EFFECT"
 msgid ""
 "Sets an automatic <b><color=#57b95e>Green Signal</b></color> and "
-"<b><color=#f44a47>Red Signal</b></color> schedule using a timer."
+"<b><color=#f44a47>Red Signal</b></color> schedule within one day-night cycle."
 msgstr ""
 "Define uma programação automática de <b><color=#57b95e>Sinal Verde</b></"
-"color> e <b><color=#f44a47>Sinal Vermelho</b></color> usando um temporizador."
+"color> e <b><color=#f44a47>Sinal Vermelho</b></color> dentro de um ciclo dia-"
+"noite."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.LOGIC_PORT"
@@ -8599,8 +9176,98 @@ msgstr "Senão, envia um <b><color=#f44a47>Sinal Vermelho</b></color>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMEOFDAYSENSOR.NAME"
-msgid "<link=\"LOGICTIMEOFDAYSENSOR\">Clock Sensor</link>"
-msgstr "<link=\"LOGICTIMEOFDAYSENSOR\">Temporizador</link>"
+msgid "<link=\"LOGICTIMEOFDAYSENSOR\">Cycle Sensor</link>"
+msgstr "<link=\"LOGICTIMEOFDAYSENSOR\">Sensor de Ciclo</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.DESC"
+msgid ""
+"Timer sensors create automation schedules for very short or very long "
+"periods of time."
+msgstr ""
+"Temporizadores criam programações automatizadas para períodos muito curtos "
+"ou muito longos de tempo."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.EFFECT"
+msgid ""
+"Creates a timer to send <b><color=#57b95e>Green Signals</b></color> and "
+"<b><color=#f44a47>Red Signals</b></color> for specific amounts of time."
+msgstr ""
+"Cria um temporizador para enviar <b><color=#57b95e>Sinais Verde</b></color> "
+"e <b><color=#f44a47>Sinais Vermelhos</b></color> por quantidades específicas "
+"de tempo."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.LOGIC_PORT"
+msgid "Timer Schedule"
+msgstr "Programação do Temporizador"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.LOGIC_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.LOGIC_PORT_ACTIVE"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> for the selected amount "
+"of Green time"
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> pela quantidade "
+"selecionada de tempo Verde"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.LOGIC_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.LOGIC_PORT_INACTIVE"
+msgid ""
+"Then, sends a <b><color=#f44a47>Red Signal</b></color> for the selected "
+"amount of Red time"
+msgstr ""
+"Depois, envia um <b><color=#f44a47>Sinal Vermelho</b></color> pela "
+"quantidade selecionada de tempo Vermelho"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTIMERSENSOR.NAME"
+msgid "<link=\"LOGICTIMERSENSOR\">Timer Sensor</link>"
+msgstr "<link=\"LOGICTIMERSENSOR\">Temporizador</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.DESC"
+msgid ""
+"Wattage sensors can send a signal when a building has switched on or off."
+msgstr ""
+"Sensores de Potência podem enviar um sinal quando uma estrutura foi ligado "
+"ou desligada."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.EFFECT"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> or a "
+"<b><color=#f44a47>Red Signal</b></color> when <link=\"POWER\">Wattage</link> "
+"consumed enters the chosen range."
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> ou um "
+"<b><color=#f44a47>Sinal Vermelho</b></color> quando a <link=\"POWER"
+"\">Potência</link> consumida entra na faixa escolhida."
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT"
+msgid "Consumed <link=\"POWER\">Wattage</link>"
+msgstr "<link=\"POWER\">Potência</link> Consumida"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT_ACTIVE"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> if current <link=\"POWER"
+"\">Wattage</link> is within the selected range"
+msgstr ""
+"Envia um sinal <b><color=#57b95e>Sinal Verde</b></color> quando a <link="
+"\"POWER\">Potência</link> atual estiver dentro da faixa selecionada"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.LOGIC_PORT_INACTIVE"
+msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
+msgstr "Senão, envia um <b><color=#f44a47>Sinal Vermelho</b></color>"
+
+#. STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWATTAGESENSOR.NAME"
+msgid "<link=\"LOGICWATTSENSOR\">Wattage Sensor</link>"
+msgstr "<link=\"LOGICWATTSENSOR\">Sensor de Potência</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICWIRE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICWIRE.DESC"
@@ -8819,13 +9486,20 @@ msgstr "Escultura de Mármore \"Abstrata\""
 
 #. STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.ACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.ACTIVATE_TOOLTIP"
-msgid "Duplicants must take a break when their stress reaches {0}"
-msgstr "Duplicantes devem fazer uma pausa quando seu estresse chegar em {0}"
+msgid ""
+"Duplicants must take a massage break when their <style=\"KKeyword\">Stress</"
+"style> reaches {0}%"
+msgstr ""
+"Duplicantes irão tirar um intervalo para massagem quando seu <style="
+"\"KKeyword\">Estresse</style> atingir {0}%"
 
 #. STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.DEACTIVATE_TOOLTIP
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.DEACTIVATE_TOOLTIP"
-msgid "Breaktime ends when stress is reduced to {0}"
-msgstr "Massagem acaba quando o estresse é reduzido para {0}"
+msgid ""
+"Breaktime ends when <style=\"KKeyword\">Stress</style> is reduced to {0}%"
+msgstr ""
+"Intervalo encerra quando o <style=\"KKeyword\">Estresse</style> for reduzido "
+"para {0}%"
 
 #. STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.MASSAGETABLE.DESC"
@@ -9553,6 +10227,69 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PHONOBOX.NAME"
 msgid "<link=\"PHONOBOX\">Jukebot</link>"
 msgstr "<link=\"PHONOBOX\">DJbô</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.PIXELPACK.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.PIXELPACK.DESC"
+msgid "Four pixels which can be individually designated different colors."
+msgstr ""
+"Quatro pixels podem ser individualmente definidos para diferentes cores."
+
+#. STRINGS.BUILDINGS.PREFABS.PIXELPACK.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.PIXELPACK.EFFECT"
+msgid ""
+"Pixels can be designated a color when it receives a <b><color=#57b95e>Green "
+"Signal</b></color> and a different color when it receives a "
+"<b><color=#f44a47>Red Signal</b></color>.\n"
+"\n"
+"Input from an <link=\"LOGICWIRE\">Automation Wire</link> controls the whole "
+"strip. Input from an <link=\"LOGICRIBBON\">Automation Ribbon</link> can "
+"control individual pixels on the strip."
+msgstr ""
+"Pixels podem ser designados a uma cor quando recebe um "
+"<b><color=#57b95e>Sinal Verde</b></color> e a uma cor diferente quando "
+"receber um <b><color=#f44a47>Sinal Vermelho</b></color>.\n"
+"\n"
+"Entrada de um <link=\"LOGICWIRE\">Cabo Automatizado</link> controla toda "
+"faixa. Entrada de um <link=\"LOGICRIBBON\">Cinturão Automatizado</link> pode "
+"controlar pixels individuais da faixa."
+
+#. STRINGS.BUILDINGS.PREFABS.PIXELPACK.INPUT_NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PIXELPACK.INPUT_NAME"
+msgid "RIBBON INPUT"
+msgstr "ENTRADA DE CINTURÃO"
+
+#. STRINGS.BUILDINGS.PREFABS.PIXELPACK.INPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.PIXELPACK.INPUT_PORT_ACTIVE"
+msgid ""
+"<b><color=#57b95e>Green Signal</b></color>: Display the configured "
+"<b><color=#57b95e>Green Signal</b></color> pixels"
+msgstr ""
+"<b><color=#57b95e>Sinal Verde</b></color>: Mostra os pixels configurados "
+"para <b><color=#57b95e>Sinal Verde</b></color>"
+
+#. STRINGS.BUILDINGS.PREFABS.PIXELPACK.INPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.PIXELPACK.INPUT_PORT_INACTIVE"
+msgid ""
+"<b><color=#f44a47>Red Signal</b></color>: Display the configured "
+"<b><color=#f44a47>Red Signal</b></color> pixels"
+msgstr ""
+"<b><color=#f44a47>Sinal Vermelho</b></color>: Mostra os pixels configurados "
+"para <b><color=#f44a47>Sinal Vermelho</b></color>"
+
+#. STRINGS.BUILDINGS.PREFABS.PIXELPACK.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.PIXELPACK.LOGIC_PORT"
+msgid "Color Selection"
+msgstr "Seleção de Cor"
+
+#. STRINGS.BUILDINGS.PREFABS.PIXELPACK.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PIXELPACK.NAME"
+msgid "<link=\"PIXELPACK\">Pixel Pack</link>"
+msgstr "<link=\"PIXELPACK\">Pacote de Pixel</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.PIXELPACK.SIDESCREEN_TITLE
+msgctxt "STRINGS.BUILDINGS.PREFABS.PIXELPACK.SIDESCREEN_TITLE"
+msgid "Pixel Pack"
+msgstr "Pacote de Pixel"
 
 #. STRINGS.BUILDINGS.PREFABS.PLANTERBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PLANTERBOX.DESC"
@@ -10617,6 +11354,66 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SMALLSCULPTURE.POORQUALITYNAME"
 msgid "\"Abstract\" Sculpture"
 msgstr "Escultura \"Abstrata\""
 
+#. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.ACTIVATE_TOOLTIP
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.ACTIVATE_TOOLTIP"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> when reservoir is less "
+"than <b>{0}%</b> full, until it is <b>{1}% (High Threshold)</b> full"
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> quando o reservatório "
+"estiver menos que <b>{0}%</b> cheio, até ficar <b>{1}% (Limite Alto)</b> "
+"cheio"
+
+#. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.DEACTIVATE_TOOLTIP
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.DEACTIVATE_TOOLTIP"
+msgid ""
+"Sends a <b><color=#f44a47>Red Signal</b></color> when reservoir is <b>{0}%</"
+"b> full, until it is less than <b>{1}% (Low Threshold)</b> full"
+msgstr ""
+"Envia um <b><color=#f44a47>Sinal Vermelho</b></color> quando o reservatório "
+"estiver <b>{0}%</b> cheio, até ele ficar menos que <b>{1}% (Low Threshold)</"
+"b> cheio"
+
+#. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT"
+msgid "Refill Parameters"
+msgstr "Parâmetros de Reenchimento"
+
+#. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_ACTIVE"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> when reservoir is less "
+"than <b>Low Threshold</b> full, until <b>High Threshold</b> is reached again"
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> quando o reservatório "
+"estiver menos cheio que o <b>Limite Baixo</b>, até o <b>Limite Alto</b> ser "
+"atingido novamente"
+
+#. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.LOGIC_PORT_INACTIVE"
+msgid ""
+"Sends a <b><color=#f44a47>Red Signal</b></color> when reservoir is <b>High "
+"Threshold</b> full, until <b>Low Threshold</b> is reached again"
+msgstr ""
+"Envia um <b><color=#f44a47>Sinal Vermelho</b></color> quando o reservatório "
+"estiver no <b>Limite Alto</b>, até o <b>Limite Baixo</b> ser atingido "
+"novamente"
+
+#. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_ACTIVATE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_ACTIVATE"
+msgid "Low Threshold:"
+msgstr "Limite Baixo:"
+
+#. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_DEACTIVATE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_DEACTIVATE"
+msgid "High Threshold:"
+msgstr "Limite Alto:"
+
+#. STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_TITLE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SMARTRESERVOIR.SIDESCREEN_TITLE"
+msgid "Logic Activation Parameters"
+msgstr "Parâmetros de Ativação Lógica"
+
 #. STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.DESC"
 msgid "Sparkling water puts a twinkle in a Duplicant's eye."
@@ -10745,6 +11542,97 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITBRIDGE.NAME"
 msgid "<link=\"SOLIDCONDUITBRIDGE\">Conveyor Bridge</link>"
 msgstr "<link=\"SOLIDCONDUITBRIDGE\">Ponte do Transportador</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.DESC"
+msgid ""
+"Germ sensors can help control automation behavior in the presence of germs."
+msgstr ""
+"Sensores de germes podem ajudar a controlar o comportamento automatizado na "
+"presença de germes."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.EFFECT"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> or a "
+"<b><color=#f44a47>Red Signal</b></color> based on the internal <link="
+"\"DISEASE\">Germ</link> count of the object on the rail."
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> ou um "
+"<b><color=#f44a47>Sinal Vermelho</b></color> de acordo com a quantidade de "
+"<link=\"DISEASE\">Germes</link> do objeto no trilho."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.LOGIC_PORT"
+msgid "Internal <link=\"DISEASE\">Germ</link> Count"
+msgstr "Quantidade de <link=\"DISEASE\">Germes</link> Internos"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.LOGIC_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.LOGIC_PORT_ACTIVE"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> if the number of Germs on "
+"the object on the rail is within the selected range"
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> se o número de Germes do "
+"objeto no trilho estiver dentro da faixa selecionada"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.LOGIC_PORT_INACTIVE
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.LOGIC_PORT_INACTIVE"
+msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
+msgstr "Senão, envia um <b><color=#f44a47>Sinal Vermelho</b></color>"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITDISEASESENSOR.NAME"
+msgid "<link=\"SOLIDCONDUITDISEASESENSOR\">Conveyor Rail Germ Sensor</link>"
+msgstr ""
+"<link=\"SOLIDCONDUITDISEASESENSOR\">Sensor de Germes de Trilho "
+"Transportador</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.DESC"
+msgid ""
+"Element sensors can be used to detect the presence of a specific item on a "
+"rail."
+msgstr ""
+"Sensores de elemento podem ser usados para detectar a presença de um item "
+"específico no trilho."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.EFFECT"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> when the selected item is "
+"detected on a rail."
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> quando o item selecionado "
+"é detectado em um trilho."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT"
+msgid "Internal <link=\"ELEMENTSLIQUID\">Item</link> Presence"
+msgstr "Presença de <link=\"ELEMENTSLIQUID\">Item</link> Interno"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_ACTIVE"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> if the configured item is "
+"detected on the rail"
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> se o item configurado é "
+"detectado no trilho"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.LOGIC_PORT_INACTIVE"
+msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
+msgstr "Senão, envia um <b><color=#f44a47>Sinal Vermelho</b></color>"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITELEMENTSENSOR.NAME"
+msgid "<link=\"SOLIDCONDUITELEMENTSENSOR\">Conveyor Rail Element Sensor</link>"
+msgstr ""
+"<link=\"SOLIDCONDUITELEMENTSENSOR\">Sensor de Elemento de Trilho "
+"Transportador</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITINBOX.DESC"
 msgid ""
@@ -10794,6 +11682,88 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.NAME"
 msgid "<link=\"SOLIDCONDUITOUTBOX\">Conveyor Receptacle</link>"
 msgstr "<link=\"SOLIDCONDUITOUTBOX\">Receptáculo de Transporte</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.DESC"
+msgid ""
+"Thermo sensors disable buildings when their rail contents reach a certain "
+"temperature."
+msgstr ""
+"Sensores Térmicos podem desativar estruturas quando o conteúdo do trilho "
+"atingir certa temperatura."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.EFFECT"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> or a "
+"<b><color=#f44a47>Red Signal</b></color> when rail contents enter the chosen "
+"<link=\"HEAT\">Temperature</link> range."
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> ou um "
+"<b><color=#f44a47>Sinal Vermelho</b></color> quando a <link=\"HEAT"
+"\">Temperatura</link> do conteúdo do trilho entra na faixa escolhida."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT"
+msgid "Internal item <link=\"HEAT\">Temperature</link>"
+msgstr "<link=\"HEAT\">Temperatura</link> do item interno"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE"
+msgid ""
+"Sends a <b><color=#57b95e>Green Signal</b></color> if the contained item is "
+"within the selected Temperature range"
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> se o item contido estiver "
+"dentro da faixa de Temperatura selecionada"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE
+msgctxt ""
+"STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE"
+msgid "Otherwise, sends a <b><color=#f44a47>Red Signal</b></color>"
+msgstr "Senão, envia um <b><color=#f44a47>Sinal Vermelho</b></color>"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITTEMPERATURESENSOR.NAME"
+msgid ""
+"<link=\"SOLIDCONDUITTEMPERATURESENSOR\">Conveyor Rail Thermo Sensor</link>"
+msgstr ""
+"<link=\"SOLIDCONDUITTEMPERATURESENSOR\">Sensor Térmico de Trilho "
+"Transportador</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.DESC"
+msgid ""
+"All solids are sent into the building's output conveyor, except the solid "
+"chosen for filtering."
+msgstr ""
+"Todos os sólidos são enviados para a saída transportadora da estrutura, "
+"exceto o sólido escolhido para filtragem."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.EFFECT"
+msgid ""
+"Separates one <link=\"ELEMENTSSOLID\">Solid</link> from the conveyor, "
+"sending it into a dedicated <link=\"SOLIDCONDUIT\">Conveyor Rail</link>."
+msgstr ""
+"Separa um <link=\"ELEMENTSSOLID\">Sólido</link> do transportador, enviando-o "
+"para um <link=\"SOLIDCONDUIT\">Trilho Transportador</link> dedicado."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.ELEMENT_NOT_SPECIFIED
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.ELEMENT_NOT_SPECIFIED"
+msgid "Not Specified"
+msgstr "Não Especificado"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.NAME"
+msgid "<link=\"SOLIDFILTER\">Solid Filter</link>"
+msgstr "<link=\"SOLIDFILTER\">Filtro Sólido</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.STATUS_ITEM
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.STATUS_ITEM"
+msgid "Filters: {0}"
+msgstr "Filtrando: {0}"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.DESC"
@@ -11282,6 +12252,34 @@ msgstr ""
 "Bolo amarelo é um <link=\"ELEMENTSSOLID\">Sólido</link> usado no "
 "enriquecimento de urânio."
 
+#. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.DESC"
+msgid "Deploys a helpful little Sweepy robot."
+msgstr "Coloca um útil robô Limpa-Limpa."
+
+#. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.EFFECT"
+msgid ""
+"Stores <link=\"ELEMENTSLIQUID\">Liquid</link> and <link=\"ELEMENTSSOLID"
+"\">Solid Materials</link> debris from the Sweepy.\n"
+"\n"
+"Requires <link=\"POWER\">Power</link> to recharge the Sweepy."
+msgstr ""
+"Armazena <link=\"ELEMENTSLIQUID\">Líquidos</link> e <link=\"ELEMENTSSOLID"
+"\">Materiais Sólidos</link> no chão coletados pelo Limpa-Limpa.\n"
+"\n"
+"Precisa de <link=\"POWER\">Energia</link> para recarregar o Limpa-Limpa."
+
+#. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME"
+msgid "<link=\"SWEEPBOTSTATION\">Sweepy Dock</link>"
+msgstr "<link=\"SWEEPBOTSTATION\">Estação Limpa-Limpa</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAMEDSTATION
+msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAMEDSTATION"
+msgid "{0}'s Dock"
+msgstr "Estação do {0}"
+
 #. STRINGS.BUILDINGS.PREFABS.SWITCH.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.DESC"
 msgid "Switches can only affect buildings that come after them on a circuit."
@@ -11302,6 +12300,11 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.NAME"
 msgid "<link=\"SWITCH\">Switch</link>"
 msgstr "<link=\"SWITCH\">Alavanca</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.SWITCH.SIDESCREEN_TITLE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.SIDESCREEN_TITLE"
+msgid "Switch"
+msgstr "Alavanca"
 
 #. STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_OFF
 msgctxt "STRINGS.BUILDINGS.PREFABS.SWITCH.TURN_OFF"
@@ -16803,6 +17806,16 @@ msgctxt "STRINGS.CODEX.HEADERS.HATCHESFROMEGG"
 msgid "Hatched from"
 msgstr "Chocado de"
 
+#. STRINGS.CODEX.HEADERS.INTERNALBATTERY
+msgctxt "STRINGS.CODEX.HEADERS.INTERNALBATTERY"
+msgid "Battery"
+msgstr "Bateria"
+
+#. STRINGS.CODEX.HEADERS.INTERNALSTORAGE
+msgctxt "STRINGS.CODEX.HEADERS.INTERNALSTORAGE"
+msgid "Storage"
+msgstr "Armazenagem"
+
 #. STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES
 msgctxt "STRINGS.CODEX.HEADERS.PREREQUISITE_ROLES"
 msgid "Prerequisite Jobs"
@@ -18813,6 +19826,18 @@ msgctxt "STRINGS.CODEX.RESEARCH.TITLE"
 msgid "<link=\"RESEARCH\">Research</link>"
 msgstr "<link=\"RESEARCH\">Pesquisa</link>"
 
+#. STRINGS.CODEX.ROBOT_DESCRIPTORS.BATTERY.CAPACITY
+msgctxt "STRINGS.CODEX.ROBOT_DESCRIPTORS.BATTERY.CAPACITY"
+msgid "Battery capacity: <b>{0} J</b>"
+msgstr "Capacidade da bateria: <b>{0} J</b>"
+
+#. STRINGS.CODEX.ROBOT_DESCRIPTORS.STORAGE.CAPACITY
+#| msgctxt "STRINGS.DUPLICANTS.TRAITS.IGNORED_EFFECTS"
+#| msgid "Immune to <b>{0}</b>"
+msgctxt "STRINGS.CODEX.ROBOT_DESCRIPTORS.STORAGE.CAPACITY"
+msgid "Internal storage: <b>{0} Kg</b>"
+msgstr "Armazenamento interno: <b>{0} Kg</b>"
+
 #. STRINGS.CODEX.ROYAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.ROYAL.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Royal\" Shine Bug variant</smallcaps>"
@@ -19204,6 +20229,35 @@ msgstr "Raça da Criatura"
 msgctxt "STRINGS.CODEX.SUNNY.TITLE"
 msgid "Sun Bug"
 msgstr "Vagalume Solar"
+
+#. STRINGS.CODEX.SWEEPY.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.SWEEPY.BODY.CONTAINER1"
+msgid ""
+"The Sweepy is a domesticated sweeping robot programmed to clean solid and "
+"liquid debris. The Sweepy Dock will automatically launch the Sweepy, store "
+"the debris the robot picks up, and recharge the Sweepy's battery provided it "
+"has been plugged into a power source.\n"
+"\n"
+"Though the Sweepy can not travel over gaps or uneven ground, it is "
+"programmed to feel really bad about this."
+msgstr ""
+"O Limpa-Limpa é um robô de limpeza doméstico programado para coletar "
+"resíduos líquidos e sólidos. A Estação Limpa-Limpa colocará automaticamente "
+"o Limpa-Limpa, armazenar os resíduos coletados pelo robô e recarregar as "
+"baterias do Limpa-Limpa desde que conectada a uma fonte de energia.\n"
+"\n"
+"Mesmo o Limpa-Limpa não conseguir passar por buracos ou por chão "
+"desnivelado, ele foi programado pra se sentir muito mal sobre isso."
+
+#. STRINGS.CODEX.SWEEPY.SUBTITLE
+msgctxt "STRINGS.CODEX.SWEEPY.SUBTITLE"
+msgid "Cleaning Robot"
+msgstr "Robô de Limpeza"
+
+#. STRINGS.CODEX.SWEEPY.TITLE
+msgctxt "STRINGS.CODEX.SWEEPY.TITLE"
+msgid "Sweepy"
+msgstr "Limpa-Limpa"
 
 #. STRINGS.CODEX.THIMBLEREED.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.THIMBLEREED.BODY.CONTAINER1"
@@ -20420,6 +21474,13 @@ msgstr "<link=\"PUFTSPECIES\">Bolha</link>"
 msgctxt "STRINGS.CREATURES.FAMILY.SQUIRREL"
 msgid "<link=\"SQUIRRELSPECIES\">Pip</link>"
 msgstr "<link=\"SQUIRRELSPECIES\">Cutia</link>"
+
+#. STRINGS.CREATURES.FAMILY.SWEEPBOT
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.SWEEPBOTSTATION.NAME"
+#| msgid "<link=\"SWEEPBOTSTATION\">Sweepy Dock</link>"
+msgctxt "STRINGS.CREATURES.FAMILY.SWEEPBOT"
+msgid "<link=\"SWEEPBOT\">Sweepys</link>"
+msgstr "<link=\"SWEEPBOT\">Limpa-Limpas</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.CRABSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.CRABSPECIES"
@@ -29389,6 +30450,16 @@ msgstr "Centro da Atenção"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CENTEROFATTENTION.TOOLTIP"
 msgid "This Duplicant feels like someone's watching over them..."
 msgstr "Este Duplicante sente como se alguém estivesse olhando por eles..."
+
+#. STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CHARGING.NAME"
+msgid "Charging"
+msgstr "Carregando"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.CHARGING.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CHARGING.TOOLTIP"
+msgid "This Robot is charging its internal battery"
+msgstr "Este Robô está recarregando sua bateria interna"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.CLAUSTROPHOBIC.CAUSE
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.CLAUSTROPHOBIC.CAUSE"
@@ -41859,6 +42930,20 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.LOCOMOTIONMESSAGE.TOOLTIP"
 msgid "Notes on my Duplicants' maneuverability"
 msgstr "Dicas sobre a mobilidade dos meus Duplicantes"
 
+#. STRINGS.MISC.NOTIFICATIONS.LOGIC_CIRCUIT_OVERLOADED.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.LOGIC_CIRCUIT_OVERLOADED.NAME"
+msgid "Logic Circuit Overloaded"
+msgstr "Circuito Lógico Sobrecarregado"
+
+#. STRINGS.MISC.NOTIFICATIONS.LOGIC_CIRCUIT_OVERLOADED.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.LOGIC_CIRCUIT_OVERLOADED.TOOLTIP"
+msgid ""
+"These <link=\"LOGICWIRE\">Automation Wire</link>s melted due to more bits of "
+"data being sent over them than they can support"
+msgstr ""
+"Estes <link=\"LOGICWIRE\">Cabos Automatizados</link> derreteram devido ao "
+"envio de uma maior quantidade de dados que eles podem suportar"
+
 #. STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LOTS_OF_GERMS.MESSAGEBODY"
 msgid ""
@@ -42044,6 +43129,20 @@ msgstr ""
 "------------------\n"
 "<link=\"OUTHOUSE\">Privadas</link> podem ser construídas a partir da <b>Aba "
 "Canos</b><b><color=#F44A4A>[5]</b></color>"
+
+#. STRINGS.MISC.NOTIFICATIONS.NEW_AUTOMATION_WARNING.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.NEW_AUTOMATION_WARNING.NAME"
+msgid "New Automation Port"
+msgstr "Nova Porta de Automação"
+
+#. STRINGS.MISC.NOTIFICATIONS.NEW_AUTOMATION_WARNING.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.NEW_AUTOMATION_WARNING.TOOLTIP"
+msgid ""
+"This building has a new automation port and is unintentionally connected to "
+"an existing <link=\"LOGICWIRE\">Automation Wire</link>"
+msgstr ""
+"Esta estrutura possui uma nova porta de automação e está conectada "
+"acidentalmente a um <link=\"LOGICWIRE\">Cabo Automatizado</link> já existente"
 
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME"
@@ -46323,6 +47422,16 @@ msgctxt "STRINGS.RESEARCH.TECHS.ANIMALCONTROL.NAME"
 msgid "<link=\"ANIMALCONTROL\">Animal Control</link>"
 msgstr "<link=\"ANIMALCONTROL\">Controle Animal</link>"
 
+#. STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.DESC"
+msgid "Sweeping advances in companion technology."
+msgstr "Avanços límpidos em tecnologia de companheiros."
+
+#. STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.ARTIFICIALFRIENDS.NAME"
+msgid "<link=\"ARTIFICIALFRIENDS\">Artificial Friends</link>"
+msgstr "<link=\"ARTIFICIALFRIENDS\">Amigos Artificiais</link>"
+
 #. STRINGS.RESEARCH.TECHS.ARTISTRY.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ARTISTRY.DESC"
 msgid ""
@@ -46889,6 +47998,36 @@ msgctxt "STRINGS.RESEARCH.TECHS.MEDICINEIV.NAME"
 msgid "<link=\"MEDICINEIV\">Micro-Targeted Medicine</link>"
 msgstr "<link=\"MEDICINEIV\">Tratamento Específico</link>"
 
+#. STRINGS.RESEARCH.TECHS.MULTIPLEXING.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.MULTIPLEXING.DESC"
+msgid "More choices for Automation signal distribution."
+msgstr "Mais escolhas para distribuição de sinal de Automação."
+
+#. STRINGS.RESEARCH.TECHS.MULTIPLEXING.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.MULTIPLEXING.NAME"
+msgid "<link=\"MULTIPLEXING\">Multiplexing</link>"
+msgstr "<link=\"MULTIPLEXING\">Multiplexação</link>"
+
+#. STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.DESC"
+msgid "Get all the news you need to know about your complex colony."
+msgstr "Receba todas as notícias que você precisa saber sobre sua colônia."
+
+#. STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME"
+msgid "<link=\"NOTIFICATIONSYSTEMS\">Notification Systems</link>"
+msgstr "<link=\"NOTIFICATIONSYSTEMS\">Sistemas de Notificação</link>"
+
+#. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC"
+msgid "Multi-wire automation at a fraction of the space."
+msgstr "Automação de múltiplos cabos em uma fração de espaço."
+
+#. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.NAME"
+msgid "<link=\"PARALLELAUTOMATION\">Parallel Automation</link>"
+msgstr "<link=\"PARALLELAUTOMATION\">Automação Paralela</link>"
+
 #. STRINGS.RESEARCH.TECHS.PLASTICS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PLASTICS.DESC"
 msgid ""
@@ -47023,6 +48162,16 @@ msgctxt "STRINGS.RESEARCH.TECHS.SANITATIONSCIENCES.NAME"
 msgid "<link=\"SANITATIONSCIENCES\">Sanitation</link>"
 msgstr "<link=\"SANITATIONSCIENCES\">Saneamento</link>"
 
+#. STRINGS.RESEARCH.TECHS.SCREENS.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.SCREENS.DESC"
+msgid "High tech displays with lots of pretty colors."
+msgstr "Telas de alta tecnologia com várias cores bonitas."
+
+#. STRINGS.RESEARCH.TECHS.SCREENS.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.SCREENS.NAME"
+msgid "<link=\"SCREENS\">New Media</link>"
+msgstr "<link=\"SCREENS\">Novas Mídias</link>"
+
 #. STRINGS.RESEARCH.TECHS.SKYDETECTORS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SKYDETECTORS.DESC"
 msgid ""
@@ -47060,6 +48209,17 @@ msgstr ""
 msgctxt "STRINGS.RESEARCH.TECHS.SMELTING.NAME"
 msgid "<link=\"SMELTING\">Smelting</link>"
 msgstr "<link=\"SMELTING\">Fundição</link>"
+
+#. STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.DESC"
+msgid "Make solid decisions in <link=\"ELEMENTSSOLID\">Solid</link> sorting."
+msgstr ""
+"Tome decisões sólidas na separação de <link=\"ELEMENTSSOLID\">Sólidos</link>."
+
+#. STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.NAME"
+msgid "<link=\"SOLIDMANAGEMENT\">Solid Management</link>"
+msgstr "<link=\"SOLIDMANAGEMENT\">Gerenciamento de Sólidos</link>"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC"
@@ -47242,6 +48402,76 @@ msgstr "Pesquisa Interestelar"
 msgctxt "STRINGS.RESEARCH.TYPES.GAMMA.RECIPEDESC"
 msgid "Unlocks cutting-edge technologies."
 msgstr "Desbloqueia tecnologias de ponta."
+
+#. STRINGS.ROBOTS.CATEGORY_NAME
+msgctxt "STRINGS.ROBOTS.CATEGORY_NAME"
+msgid "Robots"
+msgstr "Robôs"
+
+#. STRINGS.ROBOTS.MODELS.SWEEPBOT.DESC
+msgctxt "STRINGS.ROBOTS.MODELS.SWEEPBOT.DESC"
+msgid ""
+"An automated sweeping robot.\n"
+"\n"
+"Picks up both <link=\"ELEMENTSSOLID\">Solid</link> and <link=\"ELEMENTSLIQUID"
+"\">Liquid</link> debris and stores it in a <link=\"SWEEPBOTSTATION\">Sweepy "
+"Dock</link>."
+msgstr ""
+"Um robô de limpeza automatizado.\n"
+"\n"
+"Pega tanto <link=\"ELEMENTSSOLID\">Sólidos</link> quanto <link="
+"\"ELEMENTSLIQUID\">Líquidos</link> do chão e os armazena em uma <link="
+"\"SWEEPBOTSTATION\">Estação Limpa-Limpa</link>."
+
+#. STRINGS.ROBOTS.MODELS.SWEEPBOT.NAME
+msgctxt "STRINGS.ROBOTS.MODELS.SWEEPBOT.NAME"
+msgid "Sweepy"
+msgstr "Limpa-Limpa"
+
+#. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.DESC
+msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.DESC"
+msgid "Something is blocking this robot from reaching its base station"
+msgstr "Algo está bloqueando este robô de chegar na sua estação base"
+
+#. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.NAME
+msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.NAME"
+msgid "Can't reach base station"
+msgstr "Impossível alcançar estação base"
+
+#. STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.TOOLTIP
+msgctxt "STRINGS.ROBOTS.STATUSITEMS.CANTREACHSTATION.TOOLTIP"
+msgid "Something is blocking this robot from reaching its base station"
+msgstr "Algo está bloqueando este robô de chegar na sua estação base"
+
+#. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.DESC
+msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.DESC"
+msgid "This robot must return to its base station to unload"
+msgstr "Este robô precisa retornar a sua estação base para descarregar"
+
+#. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.NAME
+msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.NAME"
+msgid "Dust Bin Full"
+msgstr "Armazenador Cheio"
+
+#. STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.TOOLTIP
+msgctxt "STRINGS.ROBOTS.STATUSITEMS.DUSTBINFULL.TOOLTIP"
+msgid "This robot must return to its base station to unload"
+msgstr "Este robô precisa retornar a sua estação base para descarregar"
+
+#. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.DESC
+msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.DESC"
+msgid "This robot's battery is low and needs to recharge"
+msgstr "A bateria deste robô está baixa e precisa de recarga"
+
+#. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.NAME
+msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.NAME"
+msgid "Low Battery"
+msgstr "Bateria Fraca"
+
+#. STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.TOOLTIP
+msgctxt "STRINGS.ROBOTS.STATUSITEMS.LOWBATTERY.TOOLTIP"
+msgid "This robot's battery is low and needs to recharge"
+msgstr "A bateria deste robô está baixa e precisa de recarga"
 
 #. STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.ADVANCED_WASH_STATION.DESCRIPTION"
@@ -48509,6 +49739,11 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.LIQUIDCOOLING"
 msgid "<link=\"HEAT\">Cooling factor</link>: {0}"
 msgstr "<link=\"HEAT\">Fator de Resfriamento</link>: {0}"
 
+#. STRINGS.UI.BUILDINGEFFECTS.MAX_BITS
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.MAX_BITS"
+msgid "<link=\"LOGIC\">Bit</link> Depth: {0}"
+msgstr "Densidade de <link=\"LOGIC\">Bits</link>: {0}"
+
 #. STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.MAX_WATTAGE"
 msgid "Max <link=\"POWER\">Power</link>: {0}"
@@ -49214,6 +50449,17 @@ msgid ""
 msgstr ""
 "Reduz a <style=\"KKeyword\">Temperatura</style> de <style=\"KKeyword"
 "\">Líquidos</style> encanados em <b>{0}</b>"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_BITS
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_BITS"
+msgid ""
+"Sending an <style=\"KKeyword\">Automation Signal</style> with a higher "
+"<style=\"KKeyword\">Bit Depth</style> than the connected <style=\"KKeyword"
+"\">Logic Wire</style> can result in damage to the circuit"
+msgstr ""
+"Enviando um <style=\"KKeyword\">Sinal de Automação</style> com uma <style="
+"\"KKeyword\">Densidade de Bits</style> maior que o <style=\"KKeyword\">Cabo "
+"Lógico</style> conectado pode resultar em dano ao circuito"
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.MAX_WATTAGE"
@@ -51422,7 +52668,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (2.1.2): {0}"
+msgstr "VERSÃO (2.2): {0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -54007,8 +55253,8 @@ msgstr "OFICINA STEAM"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "NEW SOUNDTRACK!"
-msgstr "NOVA TRILHA SONORA!"
+msgid "AUTOMATION PACK!"
+msgstr "PACOTE DE AUTOMAÇÃO!"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -54027,25 +55273,25 @@ msgstr "ENTRE NA DISCUSSÃO"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"<b>Welcome to Meep's Mandatory Recreation Pack!</b>\n"
+"<b>Welcome to Banhi's Automation Innovation Pack!</b>\n"
 "\n"
 "<b>Update Features:</b>\n"
 "\n"
-"• New recreational buildings for Duplicants to relax in\n"
-"• New 'Overjoyed Reactions' may trigger when Duplicants have an excess of "
-"morale\n"
-"• Numerous bug fixes and improvements\n"
+"• New and Improved automation sensors and outputs for work and for play\n"
+"• New 'Sweepy' robot helps keep your colony tidy and stylish\n"
+"• Bunches of optimizations, bug fixes, and improvements across the game\n"
 "\n"
 "Please view the full patch notes for further details!"
 msgstr ""
-"<b>Bem vindo ao Pacote Obrigatório de Recreação do Niko!</b>\n"
+"<b>Bem vindo ao Pacote de Inovação na Automação da Bela!</b>\n"
 "\n"
 "<b>Recursos da Atualização:</b>\n"
 "\n"
-"• Novas estruturas de recreação para os Duplicantes relaxarem\n"
-"• Novas 'Reações Super Felizes' podem ser ativadas quando Duplicantes "
-"possuem um excesso de moral\n"
-"• Numerosas correções de erros e melhorias\n"
+"• Novos e melhorados sensores e saídas de automação para trabalhar e "
+"brincar\n"
+"• Novo robô 'Limpa-Limpa' que ajuda a manter sua colônia limpa e cheia de "
+"estilo\n"
+"• Numerosas correções de erros, melhorias e otimizações\n"
 "\n"
 "Por favor veja as notas de atualização completas para mais detalhes!"
 
@@ -54339,6 +55585,26 @@ msgstr "NOME DO SAVE"
 msgctxt "STRINGS.UI.FRONTEND.SAVESCREEN.TITLE"
 msgid "SAVE SLOTS"
 msgstr "SLOTS DE SAVE"
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.NEWAUTOMATIONWARNING
+msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.NEWAUTOMATIONWARNING"
+msgid ""
+"The following buildings have acquired new automation ports!\n"
+"\n"
+"Take a moment to check whether these buildings in your colony are now "
+"unintentionally connected to existing <link=\"LOGICWIRE\">Automation Wire</"
+"link>s."
+msgstr ""
+"As seguintes estruturas ganharam novas portas de automação!\n"
+"\n"
+"Faça uma pausa para verificar se estas estruturas foram conectadas "
+"acidentalmente a <link=\"LOGICWIRE\">Cabos Automatizados</link> já "
+"existentes."
+
+#. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.NEWAUTOMATIONWARNING_TITLE
+msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.NEWAUTOMATIONWARNING_TITLE"
+msgid "AUTOMATION CHANGES"
+msgstr "MUDANÇAS NA AUTOMAÇÃO"
 
 #. STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER
 msgctxt "STRINGS.UI.FRONTEND.SAVEUPGRADEWARNINGS.SUDDENMORALEHELPER"
@@ -54848,6 +56114,11 @@ msgstr "Dano por Frio"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.LIQUID_PRESSURE"
 msgid "Pressure Damage"
 msgstr "Dano por Pressão"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.LOGIC_CIRCUIT_OVERLOADED
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.LOGIC_CIRCUIT_OVERLOADED"
+msgid "Signal Overload Damage"
+msgstr "Dano de Sobrecarga de Sinal"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.MICROMETEORITE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.MICROMETEORITE"
@@ -55741,35 +57012,171 @@ msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_INACTIVE"
 msgid "<b><color=#f44a47>Red Signal</b></color>: Disable building"
 msgstr "<b><color=#f44a47>Sinal Vermelho</b></color>: Desativa estrutura"
 
-#. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE
-msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_ACTIVE"
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_ACTIVE"
 msgid "Green Signal"
 msgstr "Sinal Verde"
 
-#. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE
-msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_INACTIVE"
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_INACTIVE"
 msgid "Red Signal"
 msgstr "Sinal Vermelho"
 
-#. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_NAME
-msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_ONE_NAME"
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_FOUR_NAME"
+msgid "INPUT D"
+msgstr "ENTRADA D"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_ACTIVE"
+msgid "Green Signal"
+msgstr "Sinal Verde"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_INACTIVE"
+msgid "Red Signal"
+msgstr "Sinal Vermelho"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_ONE_NAME"
 msgid "INPUT A"
 msgstr "ENTRADA A"
 
-#. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_ACTIVE
-msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_ACTIVE"
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_ACTIVE"
 msgid "Green Signal"
 msgstr "Sinal Verde"
 
-#. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_INACTIVE
-msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_INACTIVE"
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_INACTIVE"
 msgid "Red Signal"
 msgstr "Sinal Vermelho"
 
-#. STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_NAME
-msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_NAME"
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_THREE_NAME"
+msgid "INPUT C"
+msgstr "ENTRADA C"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_ACTIVE"
+msgid "Green Signal"
+msgstr "Sinal Verde"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_INACTIVE"
+msgid "Red Signal"
+msgstr "Sinal Vermelho"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_INPUT_TWO_NAME"
 msgid "INPUT B"
 msgstr "ENTRADA B"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_ACTIVE"
+msgid "Green Signal"
+msgstr "Sinal Verde"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_INACTIVE"
+msgid "Red Signal"
+msgstr "Sinal Vermelho"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_FOUR_NAME"
+msgid "OUTPUT D"
+msgstr "SAÍDA D"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_ACTIVE"
+msgid "Green Signal"
+msgstr "Sinal Verde"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_INACTIVE"
+msgid "Red Signal"
+msgstr "Sinal Vermelho"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_ONE_NAME"
+msgid "OUTPUT A"
+msgstr "SAÍDA A"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_ACTIVE"
+msgid "Green Signal"
+msgstr "Sinal Verde"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_INACTIVE"
+msgid "Red Signal"
+msgstr "Sinal Vermelho"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_THREE_NAME"
+msgid "OUTPUT C"
+msgstr "SAÍDA C"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_ACTIVE"
+msgid "Green Signal"
+msgstr "Sinal Verde"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_INACTIVE"
+msgid "Red Signal"
+msgstr "Sinal Vermelho"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTI_OUTPUT_TWO_NAME"
+msgid "OUTPUT B"
+msgstr "SAÍDA B"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_ACTIVE"
+msgid ""
+"<b><color=#57b95e>Green Signal</b></color>: Set signal path to <b>down</b> "
+"position"
+msgstr ""
+"<b><color=#57b95e>Sinal Verde</b></color>: Define rota de sinal para posição "
+"<b>inferior</b>"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_INACTIVE"
+msgid ""
+"<b><color=#f44a47>Red Signal</b></color>: Set signal path to <b>up</b> "
+"position"
+msgstr ""
+"<b><color=#f44a47>Sinal Vermelho</b></color>: Define rota de sinal para "
+"posição <b>superior</b>"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_ONE_NAME"
+msgid "CONTROL A"
+msgstr "CONTROLE A"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_ACTIVE"
+msgid ""
+"<b><color=#57b95e>Green Signal</b></color>: Set signal path to <b>down</b> "
+"position"
+msgstr ""
+"<b><color=#57b95e>Sinal Verde</b></color>: Define rota de sinal para posição "
+"<b>inferior</b>"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_INACTIVE"
+msgid ""
+"<b><color=#f44a47>Red Signal</b></color>: Set signal path to <b>up</b> "
+"position"
+msgstr ""
+"<b><color=#f44a47>Sinal Vermelho</b></color>: Define rota de sinal para "
+"posição <b>superior</b>"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_MULTIPLEXER_CONTROL_TWO_NAME"
+msgid "CONTROL B"
+msgstr "CONTROLE B"
 
 #. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_ACTIVE
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_ACTIVE"
@@ -55785,6 +57192,21 @@ msgstr "Sinal Vermelho"
 msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_INPUT_ONE_NAME"
 msgid "INPUT"
 msgstr "ENTRADA"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_ACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_ACTIVE"
+msgid "Green Signal"
+msgstr "Sinal Verde"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_INACTIVE
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_INACTIVE"
+msgid "Red Signal"
+msgstr "Sinal Vermelho"
+
+#. STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_NAME
+msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_SINGLE_OUTPUT_ONE_NAME"
+msgid "OUTPUT"
+msgstr "SAÍDA"
 
 #. STRINGS.UI.LOGIC_PORTS.INPUT_PORT_TOOLTIP
 msgctxt "STRINGS.UI.LOGIC_PORTS.INPUT_PORT_TOOLTIP"
@@ -57307,6 +58729,11 @@ msgctxt "STRINGS.UI.OVERLAYS.LOGIC.CIRCUIT_STATUS_HEADER"
 msgid "GRID STATUS"
 msgstr "ESTADO DO CIRCUITO"
 
+#. STRINGS.UI.OVERLAYS.LOGIC.CONTROL_INPUT
+msgctxt "STRINGS.UI.OVERLAYS.LOGIC.CONTROL_INPUT"
+msgid "Control Port"
+msgstr "Porta de Controle"
+
 #. STRINGS.UI.OVERLAYS.LOGIC.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.DISCONNECTED"
 msgid "DISCONNECTED"
@@ -57336,6 +58763,28 @@ msgstr "Porta de Saída"
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RESET_UPDATE"
 msgid "Reset Port"
 msgstr "Porta Redefinir"
+
+#. STRINGS.UI.OVERLAYS.LOGIC.RIBBON_INPUT
+msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RIBBON_INPUT"
+msgid "Ribbon Input Port"
+msgstr "Porta de Entrada de Cinturão"
+
+#. STRINGS.UI.OVERLAYS.LOGIC.RIBBON_OUTPUT
+msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RIBBON_OUTPUT"
+msgid "Ribbon Output Port"
+msgstr "Porta de Saída de Cinturão"
+
+#. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.CONTROL_INPUT
+msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.CONTROL_INPUT"
+msgid ""
+"<b>Control Port</b>\n"
+"Control the signal selection of a <link=\"LOGICGATEMULTIPLEXER\">Signal "
+"Selector</link> or <link=\"LOGICGATEDEMULTIPLEXER\">Signal Distributor</link>"
+msgstr ""
+"<b>Porta Controle</b>\n"
+"Controla a seleção de sinal de um <link=\"LOGICGATEMULTIPLEXER\">Seletor de "
+"Sinal</link> ou de um <link=\"LOGICGATEDEMULTIPLEXER\">Distribuidor de "
+"Sinal</link>"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.DISCONNECTED
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.DISCONNECTED"
@@ -57377,10 +58826,30 @@ msgstr ""
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE"
 msgid ""
 "<b>Reset Port</b>\n"
-"Can reset a Memory Toggle's internal Memory"
+"Reset a <link=\"LOGICMEMORY\">Memory Toggle</link>'s internal Memory to "
+"<b><color=#f44a47>Red</b></color>"
 msgstr ""
 "<b>Porta Redefinir</b>\n"
-"Pode redefinir a Memória interna de uma Memória Disparadora"
+"Redefine a memória interna de uma <link=\"LOGICMEMORY\">Memória Disparadora</"
+"link> para <b><color=#f44a47>Vermelho</b></color>"
+
+#. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_INPUT
+msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_INPUT"
+msgid ""
+"<b>Ribbon Input Port</b>\n"
+"Receives a 4-bit signal from an automation grid"
+msgstr ""
+"<b>Porta de Entrada de Cinturão</b>\n"
+"Recebe um sinal 4-bits de um circuito automatizado"
+
+#. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_OUTPUT
+msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RIBBON_OUTPUT"
+msgid ""
+"<b>Ribbon Output Port</b>\n"
+"Sends a 4-bit signal out to an automation grid"
+msgstr ""
+"<b>Porta de Saída de Cinturão</b>\n"
+"Envia um sinal 4-bits para um circuito automatizado"
 
 #. STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO
 msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.ZERO"
@@ -59357,20 +60826,30 @@ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP"
 msgid "Paint elements into the world simulation {Hotkey}"
 msgstr "Pinte elementos na simulação do mundo {Hotkey}"
 
-#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME
-msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.NAME"
-msgid "Noise"
-msgstr "Ruído"
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.NAME
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.NAME"
+msgid "Noise B"
+msgstr "Ruído B"
 
-#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.TOOLTIP
-msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE.TOOLTIP"
-msgid "Adjust brush noisiness"
-msgstr "Ajustar ruído do pincel"
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.TOOLTIP
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_DENSITY.TOOLTIP"
+msgid "Adjust brush noisiness B"
+msgstr "Ajustar ruído do pincel B"
+
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_SCALE.NAME
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_SCALE.NAME"
+msgid "Noise A"
+msgstr "Ruído A"
+
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_SCALE.TOOLTIP
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_NOISE_SCALE.TOOLTIP"
+msgid "Adjust brush noisiness A"
+msgstr "Ajustar ruído do pincel A"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.NAME"
-msgid "Brush size"
-msgstr "Tamanho do pincel"
+msgid "Size"
+msgstr "Tamanho"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.TOOLTIP"
@@ -59397,15 +60876,35 @@ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DESTROY.TOOLTIP"
 msgid "Delete everything in the selected cell(s) {Hotkey}"
 msgstr "Destrua tudo da(s) célula(s) selecionada(s) {Hotkey}"
 
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE.NAME
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE.NAME"
+msgid "Germ"
+msgstr "Germe"
+
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE.TOOLTIP
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE.TOOLTIP"
+msgid "Adjust type of germ"
+msgstr "Ajustar tipo de germe"
+
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME"
-msgid "Germ count"
-msgstr "Quantidade de germes"
+msgid "Germs"
+msgstr "Germes"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.TOOLTIP"
 msgid "Adjust germ count"
 msgstr "Ajustar quantidade de germes"
+
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.ELEMENT.NAME
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.ELEMENT.NAME"
+msgid "Element"
+msgstr "Elemento"
+
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.ELEMENT.TOOLTIP
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.ELEMENT.TOOLTIP"
+msgid "Adjust type of element"
+msgstr "Ajustar tipo de elemento"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.NAME"
@@ -59451,8 +60950,8 @@ msgstr ""
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME"
-msgid "Absolute mass"
-msgstr "Massa absoluta"
+msgid "Mass"
+msgstr "Massa"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.TOOLTIP"
@@ -59498,8 +60997,8 @@ msgstr "Pinte elementos na simulação usando ruído {Hotkey}"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME"
-msgid "Absolute temperature"
-msgstr "Temperatura absoluta"
+msgid "Temperature"
+msgstr "Temperatura"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.TOOLTIP"
@@ -59508,8 +61007,8 @@ msgstr "Ajustar temperatura absoluta"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.NAME"
-msgid "Additive temperature"
-msgstr "Temperatura adicional"
+msgid "Temperature"
+msgstr "Temperatura"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.TOOLTIP"
@@ -63277,6 +64776,33 @@ msgctxt "STRINGS.UI.UISIDESCREENS.COMMAND_MODULE_SIDE_SCREEN.TITLE"
 msgid "Launch Conditions"
 msgstr "Condições de Decolagem"
 
+#. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DECREMENT_MODE
+msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DECREMENT_MODE"
+msgid "Mode: Decrement"
+msgstr "Modo: Diminuir"
+
+#. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DESCRIPTION
+msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.DESCRIPTION"
+msgid "Send <b><color=#57b95e>Green Signal</b></color> when count is reached:"
+msgstr ""
+"Envia um <b><color=#57b95e>Sinal Verde</b></color> quando o contador é "
+"atingido:"
+
+#. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.INCREMENT_MODE
+msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.INCREMENT_MODE"
+msgid "Mode: Increment"
+msgstr "Modo: Aumentar"
+
+#. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.RESET_BUTTON
+msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.RESET_BUTTON"
+msgid "Reset Counter"
+msgstr "Redefinir Contador"
+
+#. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.TITLE"
+msgid "Counter"
+msgstr "Contador"
+
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.START
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.START"
 msgid "Turn On"
@@ -63316,8 +64842,8 @@ msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME"
-msgid "Critter / Egg Count"
-msgstr "Quantidade de Criaturas / Ovos"
+msgid "Count"
+msgstr "Contar"
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT"
@@ -63615,6 +65141,11 @@ msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_DETAILS"
 msgid "Recipe Details"
 msgstr "Detalhes da Receita"
 
+#. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_FOREVER
+msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_FOREVER"
+msgid "Forever"
+msgstr "Nunca"
+
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_QUEUE
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RECIPE_QUEUE"
 msgid "Order Production Quantity:"
@@ -63701,6 +65232,15 @@ msgstr ""
 "Saída de Líquido Filtrado:\n"
 "{0}"
 
+#. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.FILTEREDELEMENT.SOLID
+msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.FILTEREDELEMENT.SOLID"
+msgid ""
+"Filtered Solid Output:\n"
+"{0}"
+msgstr ""
+"Saída de Sólido Filtrado:\n"
+"{0}"
+
 #. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.NO_SELECTION
 msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.NO_SELECTION"
 msgid "None"
@@ -63752,6 +65292,15 @@ msgid ""
 "All"
 msgstr ""
 "Saída de Líquido:\n"
+"Tudo"
+
+#. STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.SOLID
+msgctxt "STRINGS.UI.UISIDESCREENS.FILTERSIDESCREEN.UNFILTEREDELEMENTS.SOLID"
+msgid ""
+"Solid Output:\n"
+"All"
+msgstr ""
+"Saída de Sólido:\n"
 "Tudo"
 
 #. STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.BUTTON
@@ -63822,6 +65371,128 @@ msgstr ""
 "Só enviará um <b><color=#57b95e>Sinal Verde</b></color> após receber "
 "<b><color=#57b95e>Verde</b></color> por um tempo maior que <b>{0} segundos</"
 "b>"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.DESCRIPTION
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.DESCRIPTION"
+msgid ""
+"Notification will be sent upon receiving a <b><color=#57b95e>Green Signal</"
+"b></color>\n"
+"\n"
+"Making modifications will clear any existing notifications being sent by "
+"this building."
+msgstr ""
+"Notificação será enviada ao receber um <b><color=#57b95e>Sinal Verde</b></"
+"color>\n"
+"\n"
+"Qualquer modificação realizada limpará qualquer notificação existente "
+"enviada por esta estrutura."
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME"
+msgid "<b>Name:</b>"
+msgstr "<b>Nome:</b>"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME_DEFAULT
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.NAME_DEFAULT"
+msgid "Notification"
+msgstr "Notificação"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.PAUSE
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.PAUSE"
+msgid "<b>Pause:</b>"
+msgstr "<b>Pausar:</b>"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TITLE"
+msgid "Notification Designer"
+msgstr "Editor de Notificação"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP"
+msgid "<b>Tooltip:</b>"
+msgstr "<b>Descrição:</b>"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP_DEFAULT
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIP_DEFAULT"
+msgid "Tooltip"
+msgstr "Descrição"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.NAME
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.NAME"
+msgid "Select notification text"
+msgstr "Selecionar texto de notificação"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.PAUSE
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.PAUSE"
+msgid "Time will pause upon notification when checked"
+msgstr "Tempo pausará quando a notificação for disparada"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.TOOLTIP
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.TOOLTIP"
+msgid "Select notification hover text"
+msgstr "Selecione o texto de descrição"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.TYPE
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.TYPE"
+msgid "Select the visual and aural style of the notification"
+msgstr "Selecione o visual e a aura do estilo da notificação"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.ZOOM
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.ZOOM"
+msgid "The view will zoom to this building upon notification when checked"
+msgstr "A visão irá centrar nesta estrutura quando a notificação for disparada"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TYPE
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TYPE"
+msgid "<b>Type:</b>"
+msgstr "<b>Tipo:</b>"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.ZOOM"
+msgid "<b>Zoom:</b>"
+msgstr "<b>Zoom:</b>"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.BIT
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.BIT"
+msgid "Bit {0}"
+msgstr "Bit {0}"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_DESCRIPTION
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_DESCRIPTION"
+msgid ""
+"Selected <b>Bit</b>'s <b>Signal</b> will be read by the <b>Output Port</b>."
+msgstr ""
+"O <b>Sinal</b> do <b>Bit</b> selecionado será lida pela <b>Porta de Saída</"
+"b>."
+
+#. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_TITLE
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_READER_TITLE"
+msgid "Ribbon Reader"
+msgstr "Leitor de Cinturão"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_WRITER_DESCRIPTION
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_WRITER_DESCRIPTION"
+msgid "Received <b>Signal</b> will be written to selected <b>Bit</b>"
+msgstr "<b>Sinal</b> recebido será gravado no <b>Bit</b> selecionado"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_WRITER_TITLE
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.RIBBON_WRITER_TITLE"
+msgid "Ribbon Writer"
+msgstr "Gravador de Cinturão"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.STATE_ACTIVE
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.STATE_ACTIVE"
+msgid "Green"
+msgstr "Verde"
+
+#. STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.STATE_INACTIVE
+msgctxt "STRINGS.UI.UISIDESCREENS.LOGICBITSELECTORSIDESCREEN.STATE_INACTIVE"
+msgid "Red"
+msgstr "Vermelho"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS"
@@ -64734,6 +66405,31 @@ msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.TITLE"
 msgid "Pressure Threshold"
 msgstr "Limite de Pressão"
 
+#. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE
+msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE"
+msgid "Watts"
+msgstr "Watts"
+
+#. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE_TOOLTIP_ABOVE
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE_TOOLTIP_ABOVE"
+msgid ""
+"Will send a <b><color=#57b95e>Green Signal</b></color> if the <style="
+"\"KKeyword\">Wattage</style> consumed is above <b>{0}</b>"
+msgstr ""
+"Enviará um <b><color=#57b95e>Sinal Verde</b></color> se a <style=\"KKeyword"
+"\">Potência</style> consumida estiver acima de <b>{0}</b>"
+
+#. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE_TOOLTIP_BELOW
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.WATTAGE_TOOLTIP_BELOW"
+msgid ""
+"Will send a <b><color=#57b95e>Green Signal</b></color> if the <style="
+"\"KKeyword\">Wattage</style> consumed is below <b>{0}</b>"
+msgstr ""
+"Enviará um <b><color=#57b95e>Sinal Verde</b></color> se a <style=\"KKeyword"
+"\">Potência</style> consumida estiver abaixo de <b>{0}</b>"
+
 #. STRINGS.UI.UISIDESCREENS.TIME_OF_DAY_SIDE_SCREEN.START
 msgctxt "STRINGS.UI.UISIDESCREENS.TIME_OF_DAY_SIDE_SCREEN.START"
 msgid "Turn On"
@@ -64851,6 +66547,72 @@ msgstr ""
 "Esta alavanca precisa estar conectada a um circuito de <link=\"POWER"
 "\">Energia</link>"
 
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.CURRENT_TIME
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.CURRENT_TIME"
+msgid "{0}/{1}"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.DISABLED
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.DISABLED"
+msgid "Timer Disabled"
+msgstr "Temporizador Desativado"
+
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.GREEN_DURATION_TOOLTIP
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.GREEN_DURATION_TOOLTIP"
+msgid ""
+"Green duration determines the amount of time this sensor should send a "
+"<b><color=#57b95e>Green Signal</b></color>\n"
+"------------------\n"
+"This sensor sends a <b><color=#57b95e>Green Signal</b></color> for {0}"
+msgstr ""
+"Duração verde determina a quantidade do tempo que este sensor deve enviar um "
+"<b><color=#57b95e>Sinal Verde</b></color>\n"
+"------------------\n"
+"Este sensor envia um <b><color=#57b95e>Sinal Verde</b></color> por {0}"
+
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_CYCLES
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_CYCLES"
+msgid "Mode: Cycles"
+msgstr "Modo: Ciclos"
+
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_SECONDS
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.MODE_LABEL_SECONDS"
+msgid "Mode: Seconds"
+msgstr "Modo: Segundos"
+
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.OFF
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.OFF"
+msgid "Red Duration"
+msgstr "Duração Vermelha"
+
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.ON
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.ON"
+msgid "Green Duration"
+msgstr "Duração Verde"
+
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RED_DURATION_TOOLTIP
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RED_DURATION_TOOLTIP"
+msgid ""
+"Red duration determines the amount of time this sensor should send a "
+"<b><color=#f44a47>Red Signal</b></color>\n"
+"------------------\n"
+"This sensor will send a <b><color=#57b95e>Red Signal</b></color> for {0}"
+msgstr ""
+"Duração vermelha determina a quantidade do tempo que este sensor deve enviar "
+"um <b><color=#f44a47>Sinal Vermelho</b></color>\n"
+"------------------\n"
+"Este sensor enviará um <b><color=#57b95e>Sinal Vermelho</b></color> por {0}"
+
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RESET_BUTTON
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.RESET_BUTTON"
+msgid "Reset Timer"
+msgstr "Redefinir Temporizador"
+
+#. STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.TIMER_SIDE_SCREEN.TITLE"
+msgid "Timer"
+msgstr "Temporizador"
+
 #. STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ALLBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.TREEFILTERABLESIDESCREEN.ALLBUTTON"
 msgid "All"
@@ -64906,6 +66668,35 @@ msgstr "Filtro de Criaturas"
 msgctxt "STRINGS.UI.UISIDESCREENS.VALVESIDESCREEN.TITLE"
 msgid "Flow Control"
 msgstr "Controle de Fluxo"
+
+#. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.ACTIVATE_IF
+msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.ACTIVATE_IF"
+msgid "Send <b><color=#57b95e>Green Signal</b></color> if:"
+msgstr "Envia um <b><color=#57b95e>Sinal Verde</b></color> se:"
+
+#. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.COLDER_BUTTON
+msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.COLDER_BUTTON"
+msgid "Below"
+msgstr "Abaixo"
+
+#. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.CURRENT_TEMPERATURE
+msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.CURRENT_TEMPERATURE"
+msgid ""
+"Current Wattage:\n"
+"{0}"
+msgstr ""
+"Potência Atual:\n"
+"{0}"
+
+#. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.TITLE"
+msgid "Wattage Threshold"
+msgstr "Limite de Potência"
+
+#. STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.WARMER_BUTTON
+msgctxt "STRINGS.UI.UISIDESCREENS.WATTAGESWITCHSIDESCREEN.WARMER_BUTTON"
+msgid "Above"
+msgstr "Acima"
 
 #. STRINGS.UI.UNITSUFFIXES.CALORIES.CALORIE
 msgctxt "STRINGS.UI.UNITSUFFIXES.CALORIES.CALORIE"
@@ -67506,6 +69297,98 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "NEW SOUNDTRACK!"
+#~ msgstr "NOVA TRILHA SONORA!"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.DESC"
+#~ msgid ""
+#~ "Up to four outputs can be toggled to determine which recieves the signal "
+#~ "from one input."
+#~ msgstr ""
+#~ "Até quatro saídas podem ser alternadas para determinar qual delas "
+#~ "receberá o sinal de uma única entrada."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEDEMULTIPLEXER.EFFECT"
+#~ msgid ""
+#~ "Control A toggles between the outputs in the selector switches. Control B "
+#~ "toggles between the two selector switches to determine which output "
+#~ "receives a <b><color=#57b95e>Green</b></color> or <b><color=#f44a47>Red</"
+#~ "b></color> signal from the input."
+#~ msgstr ""
+#~ "Controle A alterna as saídas entre as alavancas seletoras. Controle B "
+#~ "alterna as duas alavancas seletoras para determinar qual saída recebe um "
+#~ "sinal <b><color=#57b95e>Verde</b></color> ou <b><color=#f44a47>Vermelho</"
+#~ "b></color> conforme o sinal de entrada."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.DESC"
+#~ msgid ""
+#~ "Up to four separate inputs can be toggled to determine which sends the "
+#~ "signal to one output."
+#~ msgstr ""
+#~ "Até quatro entradas podem ser alternada para determinar qual enviará o "
+#~ "sinal para uma saída."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEMULTIPLEXER.EFFECT"
+#~ msgid ""
+#~ "Control A toggles between the inputs in the selector switches. Control B "
+#~ "toggles between the two selector switches to determine which input sends "
+#~ "a <b><color=#57b95e>Green</b></color> or <b><color=#f44a47>Red</b></"
+#~ "color> signal to the output."
+#~ msgstr ""
+#~ "Controle A alterna as entradas entre as alavancas seletoras. Controle B "
+#~ "alterna as duas alavancas seletoras para determinar qual entrada envia um "
+#~ "sinal <b><color=#57b95e>Verde</b></color> ou <b><color=#f44a47>Vermelho</"
+#~ "b></color> para a saída."
+
+#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH_SIZE.NAME"
+#~ msgid "Brush size"
+#~ msgstr "Tamanho do pincel"
+
+#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.DISEASE_COUNT.NAME"
+#~ msgid "Germ count"
+#~ msgstr "Quantidade de germes"
+
+#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME"
+#~ msgid "Absolute mass"
+#~ msgstr "Massa absoluta"
+
+#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE.NAME"
+#~ msgid "Absolute temperature"
+#~ msgstr "Temperatura absoluta"
+
+#~ msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.TEMPERATURE_ADDITIVE.NAME"
+#~ msgid "Additive temperature"
+#~ msgstr "Temperatura adicional"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.DEACTIVATE_TOOLTIP"
+#~ msgid ""
+#~ "Sends a <b><color=#f44a47>Red Signal</b></color> when battery is more "
+#~ "than <b>{0}%</b> charged"
+#~ msgstr ""
+#~ "Envia um <b><color=#f44a47>Sinal Vermelho</b></color> quando a bateria "
+#~ "está mais que <b>{0}%</b> carregada"
+
+#~ msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_ACTIVE"
+#~ msgid "Green Signal"
+#~ msgstr "Sinal Verde"
+
+#~ msgctxt "STRINGS.UI.LOGIC_PORTS.GATE_DOUBLE_INPUT_TWO_INACTIVE"
+#~ msgid "Red Signal"
+#~ msgstr "Sinal Vermelho"
+
+#~ msgctxt "STRINGS.UI.OVERLAYS.LOGIC.TOOLTIPS.RESET_UPDATE"
+#~ msgid ""
+#~ "<b>Reset Port</b>\n"
+#~ "Can reset a Memory Toggle's internal Memory"
+#~ msgstr ""
+#~ "<b>Porta Redefinir</b>\n"
+#~ "Pode redefinir a Memória interna de uma Memória Disparadora"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.VALUE_NAME"
+#~ msgid "Critter / Egg Count"
+#~ msgstr "Quantidade de Criaturas / Ovos"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.NOTIFICATION"
 #~ msgid "Ready to land"
@@ -70725,10 +72608,6 @@ msgstr "Volcanea"
 #~ msgid "Producing oxygen at a rate of {FlowRate}"
 #~ msgstr "Produzindo oxigênio à {FlowRate}"
 
-#~ msgctxt "STRINGS.ROOMS.CRITERIA.HEADER"
-#~ msgid "Room Criteria"
-#~ msgstr "Critérios do Quarto"
-
 #~ msgctxt "STRINGS.ROOMS.EFFECTS.HEADER"
 #~ msgid "Room Effects"
 #~ msgstr "Efeitos da Sala"
@@ -72521,10 +74400,6 @@ msgstr "Volcanea"
 #~ msgid "Standby when the pipe does not contain the specified gas."
 #~ msgstr "Fica Em Espera quando o tubo não contém o gás selecionado."
 
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT"
-#~ msgid "Internal Gas <link=\"HEAT\">Temperature</link>"
-#~ msgstr "<link=\"HEAT\">Temperatura</link> do Gás Interno"
-
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT"
 #~ msgid ""
 #~ "Automatically turns <link=\"ELEMENTSGAS\">Gas</link> flow on or off using "
@@ -73421,10 +75296,6 @@ msgstr "Volcanea"
 #~ msgstr ""
 #~ "O sistema imune de um Duplicante precisa estar muito fraco para contrair "
 #~ "uma doença"
-
-#~ msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION"
-#~ msgid "Duration:"
-#~ msgstr "Duração:"
 
 #~ msgctxt "STRINGS.UI.DETAILTABS.DISEASE.INFECTION.DURATION_AIDREQ"
 #~ msgid "    {0} (Medical care required)"
@@ -77105,10 +78976,6 @@ msgstr "Volcanea"
 #~ msgid "Hygiene Time"
 #~ msgstr "Hora da Higiene"
 
-#~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.DESCRIPTION"
-#~ msgid "Recreation Time"
-#~ msgstr "Hora da Recreação"
-
 #~ msgctxt "STRINGS.UI.SCHEDULEGROUPS.RECREATION.NAME"
 #~ msgid "Leisure"
 #~ msgstr "Lazer"
@@ -79082,10 +80949,6 @@ msgstr "Volcanea"
 #~ msgid "Apothecary"
 #~ msgstr "Botica"
 
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMEDIUM.NAME"
-#~ msgid "Battery"
-#~ msgstr "Bateria"
-
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.NAME"
 #~ msgid "Smart Battery"
 #~ msgstr "Bateria Inteligente"
@@ -79301,10 +81164,6 @@ msgstr "Volcanea"
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICPRESSURESENSORLIQUID.NAME"
 #~ msgid "Hydro Sensor"
 #~ msgstr "Sensor de Líquidos"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.NAME"
-#~ msgid "Signal Switch"
-#~ msgstr "Alavanca de Sinal"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICTEMPERATURESENSOR.NAME"
 #~ msgid "Thermo Sensor"
@@ -80396,10 +82255,6 @@ msgstr "Volcanea"
 #~ msgctxt "STRINGS.RESEARCH.TECHS.CLOTHING.NAME"
 #~ msgid "Clothing"
 #~ msgstr "Vestimenta"
-
-#~ msgctxt "STRINGS.RESEARCH.TECHS.COMBUSTION.NAME"
-#~ msgid "Internal Combustion"
-#~ msgstr "Combustão Interna"
 
 #~ msgctxt "STRINGS.RESEARCH.TECHS.DUPETRAFFICCONTROL.NAME"
 #~ msgid "Duplicant Traffic Control"
@@ -84126,10 +85981,6 @@ msgstr "Volcanea"
 #~ msgid "CopyBuildingSettings"
 #~ msgstr "Copiar Configurações da Estrutura"
 
-#~ msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.DECREMENT"
-#~ msgid "Decrement"
-#~ msgstr "Diminuir"
-
 #~ msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.DECREMENTALT"
 #~ msgid "DecrementAlt"
 #~ msgstr "Diminuir Alt"
@@ -84141,10 +85992,6 @@ msgstr "Volcanea"
 #~ msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.EMPTY"
 #~ msgid "Empty"
 #~ msgstr "Vazio"
-
-#~ msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.INCREMENT"
-#~ msgid "Increment"
-#~ msgstr "Aumentar"
 
 #~ msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.INCREMENTALT"
 #~ msgid "IncrementAlt"
