@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.5.6\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.5.7\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -6556,12 +6556,12 @@ msgstr "Escultura \"Abstrata\""
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.DESC"
 msgid "Shearing stations are used to shear Dreckos."
-msgstr "Estações de tosa são utilizadas para tosar Osgas."
+msgstr "Estações de tosa são utilizadas para tosar Drecos."
 
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.EFFECT"
 msgid "Shears dreckos."
-msgstr "Tosa osgas."
+msgstr "Tosa drecos."
 
 #. STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.SHEARINGSTATION.NAME"
@@ -7482,9 +7482,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.CODEX.CLEANER.SUBTITLE
-#, fuzzy
-#| msgctxt "STRINGS.CODEX.CRYSTAL.SUBTITLE"
-#| msgid "Critter Morph"
 msgctxt "STRINGS.CODEX.CLEANER.SUBTITLE"
 msgid "Critter Morph"
 msgstr "Forma da Criatura"
@@ -7560,13 +7557,13 @@ msgid ""
 "\n"
 "As a result, Drecko fibers are often farmed for use in textile production."
 msgstr ""
-"Osgas são reptilianos que possuem bilhões de cabelos microscópicos nos pés, "
+"Drecos são reptilianos que possuem bilhões de cabelos microscópicos nos pés, "
 "permitindo a eles grudarem e escalarem na maior parte das superfícies.\n"
 "\n"
-"A cauda de uma osga, chamada de \"vagão\", é puramente decorativa e pode ser "
+"A cauda de um Dreco, chamada de \"vagão\", é puramente decorativa e pode ser "
 "perdida ou removida sem machucar o animal.\n"
 "\n"
-"Como resultado, fibras de Osga são utilizadas na produção de têxteis."
+"Como resultado, fibras de Dreco são utilizadas na produção de têxteis."
 
 #. STRINGS.CODEX.DRECKO.SUBTITLE
 msgctxt "STRINGS.CODEX.DRECKO.SUBTITLE"
@@ -7576,7 +7573,7 @@ msgstr "Criatura Domesticável"
 #. STRINGS.CODEX.DRECKO.TITLE
 msgctxt "STRINGS.CODEX.DRECKO.TITLE"
 msgid "Drecko"
-msgstr "Osga"
+msgstr "Dreco"
 
 #. STRINGS.CODEX.DUSKCAP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DUSKCAP.BODY.CONTAINER1"
@@ -7640,7 +7637,7 @@ msgstr "Forma da Criatura"
 #. STRINGS.CODEX.GLOSSY.TITLE
 msgctxt "STRINGS.CODEX.GLOSSY.TITLE"
 msgid "Glossy Drecko"
-msgstr "Osga Plástica"
+msgstr "Dreco Plástico"
 
 #. STRINGS.CODEX.HATCH.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.HATCH.BODY.CONTAINER1"
@@ -8518,7 +8515,7 @@ msgstr "Esta criatura está se defendendo e não confia nos Duplicantes"
 #. STRINGS.CREATURES.FAMILY.DRECKO
 msgctxt "STRINGS.CREATURES.FAMILY.DRECKO"
 msgid "<link=\"DRECKOSPECIES\">Drecko</link>"
-msgstr "<link=\"DREKOSPECIES\">Osga</link>"
+msgstr "<link=\"DREKOSPECIES\">Dreco</link>"
 
 #. STRINGS.CREATURES.FAMILY.GLOM
 msgctxt "STRINGS.CREATURES.FAMILY.GLOM"
@@ -8553,7 +8550,7 @@ msgstr "<link=\"PUFTSPECIES\">Bolha</link>"
 #. STRINGS.CREATURES.FAMILY_PLURAL.DRECKOSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.DRECKOSPECIES"
 msgid "<link=\"DRECKOSPECIES\">Dreckos</link>"
-msgstr "<link=\"DREKOSPECIES\">Osgas</link>"
+msgstr "<link=\"DREKOSPECIES\">Drecos</link>"
 
 #. STRINGS.CREATURES.FAMILY_PLURAL.GLOMSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.GLOMSPECIES"
@@ -8938,14 +8935,14 @@ msgid ""
 "\n"
 "In time it will mature into a fully grown <link=\"DRECKO\">Drecko</link>."
 msgstr ""
-"Uma pequena <link=\"DRECKO\">Osguinha</link>.\n"
+"Uma pequena <link=\"DRECKO\">Drequinho</link>.\n"
 "\n"
-"Com o tempo ela vai crescer formando uma <link=\"DRECKO\">Osga</link>."
+"Com o tempo ela vai crescer formando uma <link=\"DRECKO\">Dreco</link>."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.BABY.NAME"
 msgid "<link=\"DRECKO\">Drecklet</link>"
-msgstr "<link=\"DRECKO\">Osguinha</link>"
+msgstr "<link=\"DRECKO\">Drequinho</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.DESC"
@@ -8956,23 +8953,21 @@ msgid ""
 "Their backsides are covered in thick woolly fibers that only grow in <link="
 "\"HYDROGEN\">Hydrogen</link> climates."
 msgstr ""
-"Osgas são criaturas escorregadias que podem subir pelas paredes com uma "
+"Drecos são criaturas escorregadias que podem subir pelas paredes com uma "
 "velocidade incrível.\n"
 "\n"
 "As suas costas são cobertas de fibras grossas que só crescem em ambientes "
 "com <link=\"HYDROGEN\">Hidrogênio</link>."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME"
-#| msgid "<link=\"DRECKOEGG\">Drecklet Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.EGG_NAME"
 msgid "<link=\"DRECKO\">Drecklet Egg</link>"
-msgstr "<link=\"DRECKO\">Ovo de Osguinha</link>"
+msgstr "<link=\"DRECKO\">Ovo de Drequinho</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.NAME"
 msgid "<link=\"DRECKO\">Drecko</link>"
-msgstr "<link=\"DRECKO\">Osga</link>"
+msgstr "<link=\"DRECKO\">Dreco</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.DESC"
@@ -8981,16 +8976,14 @@ msgid ""
 "\n"
 "This one is a Glossy morph."
 msgstr ""
-"Uma pequena <link=\"DRECKO\">Osguinha</link>.\n"
+"Uma pequena <link=\"DRECKO\">Drequinho</link>.\n"
 "\n"
 "Esta aqui é da forma Plástica."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
-#| msgid "<link=\"DRECKLET\">Glossy Drecklet</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
 msgid "<link=\"DRECKOPLASTIC\">Glossy Drecklet</link>"
-msgstr "<link=\"DRECKOPLASTIC\">Osguinha Plástica</link>"
+msgstr "<link=\"DRECKOPLASTIC\">Drequinho Plástico</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.DESC"
@@ -9001,23 +8994,21 @@ msgid ""
 "Their backsides are covered in bioplastic scales that only grow in <link="
 "\"HYDROGEN\">Hydrogen</link> climates."
 msgstr ""
-"Osgas Plásticas são criaturas escorregadias que podem subir pelas paredes "
+"Drecos Plásticos são criaturas escorregadias que podem subir pelas paredes "
 "com uma velocidade incrível.\n"
 "\n"
 "As suas costas são cobertas de escamas de bioplástico que só crescem em "
 "ambientes com <link=\"HYDROGEN\">Hidrogênio</link>."
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.BABY.NAME"
-#| msgid "<link=\"DRECKLET\">Glossy Drecklet</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.EGG_NAME"
 msgid "<link=\"DRECKOPLASTIC\">Glossy Drecklet Egg</link>"
-msgstr "<link=\"DRECKOPLASTIC\">Ovo de Osguinha Plástica</link>"
+msgstr "<link=\"DRECKOPLASTIC\">Ovo de Drequinho Plástico</link>"
 
 #. STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.DRECKO.VARIANT_PLASTIC.NAME"
 msgid "<link=\"DRECKOPLASTIC\">Glossy Drecko</link>"
-msgstr "<link=\"DRECKOPLASTIC\">Osga Plástica</link>"
+msgstr "<link=\"DRECKOPLASTIC\">Dreco Plástico</link>"
 
 #. STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.GEYSER.BIG_VOLCANO.DESC"
@@ -9447,8 +9438,6 @@ msgstr ""
 "se enterrar no chão."
 
 #. STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.EGG_NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.EGG_NAME"
-#| msgid "<link=\"HATCHEGG\">Sage Hatchling Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.HATCH.VARIANT_VEGGIE.EGG_NAME"
 msgid "<link=\"HATCHVEGGIE\">Sage Hatchling Egg</link>"
 msgstr "<link=\"HATCHVEGGIE\">Ovo de Mucurinha Anciã</link>"
@@ -9525,8 +9514,6 @@ msgstr ""
 "sua espécie e ter companhia."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGEGG\">Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
 msgid "<link=\"LIGHTBUG\">Shine Nymph Egg</link>"
 msgstr "<link=\"LIGHTBUG\">Ovo de Vagaluminho</link>"
@@ -9548,8 +9535,6 @@ msgstr ""
 "Este aqui é da forma Negra."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME"
-#| msgid "<link=\"LIGHTBUG\">Nega Shine Nymph</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.BABY.NAME"
 msgid "<link=\"LIGHTBUGBLACK\">Nega Shine Nymph</link>"
 msgstr "<link=\"LIGHTBUGBLACK\">Vagaluminho Negro</link>"
@@ -9564,8 +9549,6 @@ msgstr ""
 "uma excelente personalidade."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.EGG_NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGEGG\">Nega Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLACK.EGG_NAME"
 msgid "<link=\"LIGHTBUGBLACK\">Nega Shine Nymph Egg</link>"
 msgstr "<link=\"LIGHTBUGBLACK\">Ovo de Vagaluminho Negro</link>"
@@ -9587,8 +9570,6 @@ msgstr ""
 "Este aqui é da forma Plácida."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME"
-#| msgid "<link=\"LIGHTBUG\">Placid Shine Nymph</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.BABY.NAME"
 msgid "<link=\"LIGHTBUGBLUE\">Placid Shine Nymph</link>"
 msgstr "<link=\"LIGHTBUGBLUE\">Vagaluminho Plácido</link>"
@@ -9608,8 +9589,6 @@ msgstr ""
 "A luz da forma Plácida ficou azul devido a reprodução seletiva."
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME"
-#| msgid "<link=\"LIGHTBUGEGG\">Placid Shine Nymph Egg</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.VARIANT_BLUE.EGG_NAME"
 msgid "<link=\"LIGHTBUGBLUE\">Placid Shine Nymph Egg</link>"
 msgstr "<link=\"LIGHTBUGBLUE\">Ovo de Vagaluminho Plácido</link>"
@@ -22388,7 +22367,7 @@ msgstr ""
 #. STRINGS.EQUIPMENT.PREFABS.WARM_VEST.DESC
 msgctxt "STRINGS.EQUIPMENT.PREFABS.WARM_VEST.DESC"
 msgid "Happiness is a warm Duplicant."
-msgstr "Nada mais feliz que um Duplicante bem aquecido."
+msgstr "Nada é mais feliz que um Duplicante bem aquecido."
 
 #. STRINGS.EQUIPMENT.PREFABS.WARM_VEST.EFFECT
 msgctxt "STRINGS.EQUIPMENT.PREFABS.WARM_VEST.EFFECT"
@@ -23268,19 +23247,19 @@ msgid ""
 "\n"
 "If incubated, it will hatch into a new <link=\"DRECKO\">Drecko</link>"
 msgstr ""
-"Um ovo colocado por uma <link=\"DRECKO\">Osga</link>\n"
+"Um ovo colocado por um <link=\"DRECKO\">Dreco</link>\n"
 "\n"
-"Se incubado, ele dará origem a uma <link=\"DRECKO\">Osga</link>"
+"Se incubado, ele dará origem a um <link=\"DRECKO\">Dreco</link>"
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.NAME
 msgctxt "STRINGS.ITEMS.FOOD.DRECKOEGG.NAME"
 msgid "<link=\"DRECKO\">Drecklet Egg</link>"
-msgstr "<link=\"DRECKO\">Ovo de Osginha</link>"
+msgstr "<link=\"DRECKO\">Ovo de Drequinho</link>"
 
 #. STRINGS.ITEMS.FOOD.DRECKOEGG.RECIPEDESC
 msgctxt "STRINGS.ITEMS.FOOD.DRECKOEGG.RECIPEDESC"
 msgid "An egg laid by a <link=\"DRECKO\">Drecko</link>"
-msgstr "Um ovo colocado por uma <link=\"DRECKO\">Osga</link>"
+msgstr "Um ovo colocado por um <link=\"DRECKO\">Dreco</link>"
 
 #. STRINGS.ITEMS.FOOD.FIELDRATION.DESC
 msgctxt "STRINGS.ITEMS.FOOD.FIELDRATION.DESC"
@@ -30719,6 +30698,12 @@ msgctxt "STRINGS.UI.CODEX.DETAILS"
 msgid "Details"
 msgstr "Detalhes"
 
+#. STRINGS.UI.CODEX.FOOD.NON_PERISHABLE
+#, fuzzy
+msgctxt "STRINGS.UI.CODEX.FOOD.NON_PERISHABLE"
+msgid "Spoil time: Infinite"
+msgstr "Tempo de apodrecimento: Infinito"
+
 #. STRINGS.UI.CODEX.FOOD.QUALITY
 msgctxt "STRINGS.UI.CODEX.FOOD.QUALITY"
 msgid "Quality: {0}"
@@ -32229,7 +32214,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.5.6)"
+"- Traduzido por Chastomber :P (1.5.7)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33791,7 +33776,7 @@ msgstr ""
 "<b>Recursos da Atualização:</b>\n"
 "\n"
 "• Novas \"Formas de Criatura\" podem ser chocadas por reprodução cuidadosa\n"
-"• Duas novas criaturas, Osga e Pacu, podem ser encontradas em novos mundos\n"
+"• Duas novas criaturas, Dreco e Pacu, podem ser encontradas em novos mundos\n"
 "• Modo Caixa de Areia permite você se tornar o mestre do asteroide\n"
 "• Novos controles de automação, canos e estruturas\n"
 "\n"
@@ -38350,6 +38335,11 @@ msgstr "Não pode ser construído dentro de um bloco"
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_OCCUPIED"
 msgid "Must be built in unoccupied space"
 msgstr "Precisa ser construído em espaço não ocupado"
+
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OBSTRUCTED"
+msgid "Solid ports are obstructed"
+msgstr "Portas de sólidos estão obstruídas"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_WIRE_OBSTRUCTION"
