@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.2.2\n"
+"Project-Id-Version: Português foi Incluído! 2.2.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -3249,7 +3249,7 @@ msgstr ""
 "\n"
 "Ela está funcionando a <b>{Efficiency}</b> da capacidade total. Aumente a "
 "<style=\"KKeyword\">Massa</style> e a <style=\"KKeyword\">Temperatura</"
-"style> {Src_Element} para melhorar a produção."
+"style> do {Src_Element} para melhorar a produção."
 
 #. STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.NAME"
@@ -3547,6 +3547,25 @@ msgid ""
 msgstr ""
 "A pressão da fonte aumenta a cada uso e deve ser periodicamente aliviada "
 "para evitar desligamento"
+
+#. STRINGS.BUILDING.STATUSITEMS.WINDTUNNELINTAKE.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.WINDTUNNELINTAKE.NAME"
+msgid "Intake Requires Gas"
+msgstr "Entrada Precisa de Gás"
+
+#. STRINGS.BUILDING.STATUSITEMS.WINDTUNNELINTAKE.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.WINDTUNNELINTAKE.TOOLTIP"
+msgid ""
+"A wind tunnel requires Gas at the top and bottom intakes in order to "
+"operate.\n"
+"\n"
+"The intakes for this wind tunnel don't have enough gas to operate."
+msgstr ""
+"Um túnel de vento precisa de Gás nas entradas superior e inferior para poder "
+"funcionar.\n"
+"\n"
+"As entradas para este túnel de vento não possuem gás suficiente para "
+"funcionar."
 
 #. STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WIRECIRCUITSTATUS.NAME"
@@ -12654,13 +12673,13 @@ msgstr "Esta estrutura deslocará {amount} de Gás quando em uso."
 #. STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.EFFECT"
 msgid ""
-"Must be connected to <link=\"GASPIPING\">Gas Pipes</link> and a <link=\"POWER"
+"Must be placed above an open space and be connected to a <link=\"POWER"
 "\">Power Source</link>.\n"
 "\n"
 "Increases Duplicants <link=\"MORALE\">Morale</link>."
 msgstr ""
-"Precisa estar conectada a <link=\"GASPIPING\">Tubos</link> e a uma <link="
-"\"POWER\">Fonte de Energia</link>.\n"
+"Precisa estar conectado sobre um espaço aberto e a uma <link=\"POWER\">Fonte "
+"de Energia</link>.\n"
 "\n"
 "Aumenta a <link=\"MORALE\">Moral</link> dos Duplicantes."
 
@@ -13684,7 +13703,7 @@ msgstr ""
 "criar um tubérculo capaz de se reproduzir nas situações mais inabitáveis que "
 "nós esperamos para as nossas colônias, ou se isso vale a pena o esforço...\n"
 "\n"
-"[LOG ENDS]\n"
+"[FIM DO REGISTRO]\n"
 "------------------\n"
 
 #. STRINGS.CODEX.A2_AGRICULTURALNOTES.BODY.CONTAINER4
@@ -17801,7 +17820,7 @@ msgstr "Efeitos"
 #. STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS
 msgctxt "STRINGS.CODEX.HEADERS.BUILDINGREQUIREMENTS"
 msgid "Requirements"
-msgstr "Requerimentos"
+msgstr "Requisitos"
 
 #. STRINGS.CODEX.HEADERS.COMFORTRANGE
 msgctxt "STRINGS.CODEX.HEADERS.COMFORTRANGE"
@@ -18090,7 +18109,7 @@ msgstr ""
 "Específico de uma substância. Como o Calor Específico varia bastante entre "
 "as substâncias, é comum uma substância possuir maior temperatura que a outra "
 "apesar da energia térmica ser menor. Esta qualidade faz com que a Água "
-"precise de 4 vezes mais emergia térmica para aumentar a temperatura do que o "
+"precise de 4 vezes mais energia térmica para aumentar a temperatura do que o "
 "Oxigênio.\n"
 "\n"
 
@@ -23559,11 +23578,11 @@ msgstr "<link=\"PUFTALPHA\">Bolhinha Príncipe</link>"
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.DESC"
 msgid ""
-"The Puft Prince is a lazy critter that excretes little lumps of <link="
-"\"SLIMEMOLD\">Slime</link> with each breath."
+"The Puft Prince is a lazy critter that excretes little <link=\"SOLID"
+"\">Solid</link> lumps of whatever it has been breathing."
 msgstr ""
 "A Bolha Príncipe é uma criatura preguiçosa que excreta pedaços de <link="
-"\"SLIMEMOLD\">Limo</link> a cada respirada."
+"\"SOLID\">Sólido</link> do que ela estiver respirando."
 
 #. STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.PUFT.VARIANT_ALPHA.EGG_NAME"
@@ -27757,6 +27776,21 @@ msgstr ""
 "Este Duplicante está entregando materiais necessários para a realização de "
 "Tarefas de <style=\"KKeyword\">Suporte à Vida</style>"
 
+#. STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.NAME"
+msgid "Ranching Supply"
+msgstr "Suprir Pecuária"
+
+#. STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.STATUS"
+msgid "Supplying ranching materials"
+msgstr "Suprindo com materiais de pecuária"
+
+#. STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.CHORES.FETCHRANCHING.TOOLTIP"
+msgid "This Duplicant is delivering materials for ranching activities"
+msgstr "Este Duplicante está entregando materiais para atividades de pecuária"
+
 #. STRINGS.DUPLICANTS.CHORES.FLEE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.FLEE.NAME"
 msgid "Flee"
@@ -29062,6 +29096,22 @@ msgstr "Indo desequipar"
 msgctxt "STRINGS.DUPLICANTS.CHORES.UNEQUIP.TOOLTIP"
 msgid "This Duplicant is removing a piece of their equipment"
 msgstr "Este Duplicante está removendo uma peça do seu equipamento"
+
+#. STRINGS.DUPLICANTS.CHORES.UNLEARNSKILL.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.UNLEARNSKILL.NAME"
+msgid "Unlearn Skills"
+msgstr "Esquecer Habilidades"
+
+#. STRINGS.DUPLICANTS.CHORES.UNLEARNSKILL.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.UNLEARNSKILL.STATUS"
+msgid "Unlearning skills"
+msgstr "Esquecendo habilidades"
+
+#. STRINGS.DUPLICANTS.CHORES.UNLEARNSKILL.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.CHORES.UNLEARNSKILL.TOOLTIP"
+msgid "This Duplicant is unlearning <style=\"KKeyword\">Skills</style>"
+msgstr ""
+"Este Duplicante está esquecendo <style=\"KKeyword\">Habilidades</style>"
 
 #. STRINGS.DUPLICANTS.CHORES.UPROOT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.UPROOT.NAME"
@@ -33942,6 +33992,27 @@ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ARTING.TOOLTIP"
 msgid "This Duplicant is hard at work on their art"
 msgstr "Este Duplicante está trabalhando duro na sua arte"
 
+#. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTHANDINGOUT.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTHANDINGOUT.NAME"
+msgid "Balloon Artist"
+msgstr "Artista de Balões"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTHANDINGOUT.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTHANDINGOUT.TOOLTIP"
+msgid "This Duplicant is handing out balloons to other Duplicants."
+msgstr "Este Duplicante está entregando balões a outros Duplicantes."
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.NAME"
+msgid "Balloon Artist"
+msgstr "Artista de Balões"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BALLOONARTISTPLANNING.TOOLTIP"
+msgid "This Duplicant is planning hand out balloons in their downtime."
+msgstr ""
+"Este Duplicante está planejando entregar balões durante o seu intervalo."
+
 #. STRINGS.DUPLICANTS.STATUSITEMS.BEDUNREACHABLE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.BEDUNREACHABLE.NAME"
 msgid "Cannot reach bed"
@@ -35100,7 +35171,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.NAME"
 msgid "Low Morale"
-msgstr "Baixa Moral"
+msgstr "Moral Baixa"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP"
@@ -41493,6 +41564,16 @@ msgid "A bland curd made from <link=\"BEAN\">Nosh Beans</link>."
 msgstr ""
 "Uma coalhada de sabor suave feita de <link=\"BEAN\">Feijões Brocosos</link>."
 
+#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.DESC
+msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.DESC"
+msgid "Can be crushed to produce <link=\"LIME\">Lime</link>."
+msgstr "Pode ser esmagado para produzir <link=\"LIME\">Cal</link>."
+
+#. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.NAME
+msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BABY_CRAB_SHELL.NAME"
+msgid "Small Pokeshell Molt"
+msgstr "Casco Pequeno de Pokecasco"
+
 #. STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BASIC_FABRIC.DESC
 msgctxt "STRINGS.ITEMS.INDUSTRIAL_PRODUCTS.BASIC_FABRIC.DESC"
 msgid ""
@@ -43442,8 +43523,8 @@ msgstr ""
 "\n"
 "{2}\n"
 "\n"
-"Abra a <style=\"KKeyword\">Tela Rotina</style> <b><color=#F44A4A>[PERIOD "
-"KEY]</b></color> para alterar blocos ou atribuições."
+"Abra a <style=\"KKeyword\">Tela Rotina</style> <b><color=#F44A4A>[TECLA "
+"PONTO]</b></color> para alterar blocos ou atribuições."
 
 #. STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULEMESSAGE.MESSAGEBODY"
@@ -48551,15 +48632,11 @@ msgid "Negative Reaction"
 msgstr "Reação Negativa"
 
 #. STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATE.TOOLTIP"
-#| msgid "This Duplicant is crafting something"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.REACTNEGATIVE.TOOLTIP"
 msgid "This robot is reacting negatively to something"
 msgstr "Este robô está reagindo negativamente à algo"
 
 #. STRINGS.ROBOTS.STATUSITEMS.REACTPOSITIVE.DESC
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.FABRICATE.TOOLTIP"
-#| msgid "This Duplicant is crafting something"
 msgctxt "STRINGS.ROBOTS.STATUSITEMS.REACTPOSITIVE.DESC"
 msgid "This robot is reacting positively to something"
 msgstr "Este robô está reagindo positivamente à algo"
@@ -48757,7 +48834,7 @@ msgstr "Armazenador de comida"
 #. STRINGS.ROOMS.CRITERIA.HEADER
 msgctxt "STRINGS.ROOMS.CRITERIA.HEADER"
 msgid "<b>Requirements:</b>"
-msgstr "<b>Requerimentos:</b>"
+msgstr "<b>Requisitos:</b>"
 
 #. STRINGS.ROOMS.CRITERIA.LIGHT.DESCRIPTION
 msgctxt "STRINGS.ROOMS.CRITERIA.LIGHT.DESCRIPTION"
@@ -49903,7 +49980,7 @@ msgstr "<b>Efeitos:</b>"
 #. STRINGS.UI.BUILDINGEFFECTS.OPERATIONREQUIREMENTS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.OPERATIONREQUIREMENTS"
 msgid "<b>Requirements:</b>"
-msgstr "<b>Requerimentos:</b>"
+msgstr "<b>Requisitos:</b>"
 
 #. STRINGS.UI.BUILDINGEFFECTS.OVER_PRESSURE_MASS
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.OVER_PRESSURE_MASS"
@@ -52657,7 +52734,7 @@ msgstr "ARQUIVOS RECUPERADOS"
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_REQUIREMENTS
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_REQUIREMENTS"
 msgid "REQUIREMENTS"
-msgstr "REQUERIMENTOS"
+msgstr "REQUISITOS"
 
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_RESEARCH
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_RESEARCH"
@@ -52762,8 +52839,6 @@ msgid "<b>Welcome to Oxygen Not Included!</b>"
 msgstr "<b>Bem vindo à Oxygen Not Included!</b>"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK
-#| msgctxt "STRINGS.UI.IMMIGRANTSCREEN.BACK"
-#| msgid "BACK"
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK"
 msgid "FEEDBACK"
 msgstr "FEEDBACK"
@@ -52826,7 +52901,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (2.2.2): {0}"
+msgstr "VERSÃO (2.2.3): {0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -54555,8 +54630,6 @@ msgid "Suggestions Forum"
 msgstr "Fórum de Sugestões"
 
 #. STRINGS.UI.FRONTEND.FEEDBACK_SCREEN.TITLE
-#| msgctxt "STRINGS.UI.IMMIGRANTSCREEN.BACK"
-#| msgid "BACK"
 msgctxt "STRINGS.UI.FRONTEND.FEEDBACK_SCREEN.TITLE"
 msgid "FEEDBACK"
 msgstr "FEEDBACK"
@@ -54641,15 +54714,11 @@ msgid "Deuteranopia"
 msgstr "Deuteranopia"
 
 #. STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLOR_MODE_PROTANOPIA
-#| msgctxt "STRINGS.NAMEGEN.ROCKET.NOUN.PROTOTYPE"
-#| msgid "Prototype"
 msgctxt "STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLOR_MODE_PROTANOPIA"
 msgid "Protanopia"
 msgstr "Protanopia"
 
 #. STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLOR_MODE_TRITANOPIA
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.UTOPIA"
-#| msgid "Utopia"
 msgctxt "STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.COLOR_MODE_TRITANOPIA"
 msgid "Tritanopia"
 msgstr "Tritanopia"
@@ -55032,7 +55101,7 @@ msgid ""
 "\n"
 "Please be aware that your experience may suffer as a result."
 msgstr ""
-"Nós detectamos que este computador não atinge os requerimentos mínimos para "
+"Nós detectamos que este computador não atinge os requisitos mínimos para "
 "jogar Oxygen Not Included. Você pode continuar com sua configuração atual, "
 "mas o jogo não funcionará normalmente para você\n"
 "\n"
@@ -55546,8 +55615,8 @@ msgstr "OFICINA STEAM"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "AUTOMATION PACK!"
-msgstr "PACOTE DE AUTOMAÇÃO!"
+msgid "DLC ROADMAP!"
+msgstr "DLC ANUNCIADA!"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -55566,27 +55635,24 @@ msgstr "ENTRE NA DISCUSSÃO"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"<b>Welcome to Banhi's Automation Innovation Pack!</b>\n"
+"<b>New Bugfix Patch for July 2020</b>\n"
 "\n"
-"<b>Update Features:</b>\n"
+" • Fixed multiple simulation heat creation/destruction bugs\n"
+" • Fixed Duplicants getting stuck digging forever\n"
+" • Continued work on alternate color modes\n"
+" • Dozens of other fixes and improvements\n"
 "\n"
-"• New and Improved automation sensors and outputs for work and for play\n"
-"• New 'Sweepy' robot helps keep your colony tidy and stylish\n"
-"• Bunches of optimizations, bug fixes, and improvements across the game\n"
-"\n"
-"Please view the full patch notes for further details!"
+"Please check out the full patch notes for more details!"
 msgstr ""
-"<b>Bem vindo ao Pacote de Inovação na Automação da Bela!</b>\n"
+"<b>Novo Patch de Correção de Bugs para Julho de 2020</b>\n"
 "\n"
-"<b>Recursos da Atualização:</b>\n"
+" • Corrigido múltiplos bugs de criação/destruição de calor\n"
+" • Corrigido Duplicantes ficando presos em escavar eternamente\n"
+" • Atualização nos modos de cor alternativos\n"
+" • Vários outros consertos e melhorias\n"
 "\n"
-"• Novos e melhorados sensores e saídas de automação para trabalhar e "
-"brincar\n"
-"• Novo robô 'Limpa-Limpa' que ajuda a manter sua colônia limpa e cheia de "
-"estilo\n"
-"• Numerosas correções de erros, melhorias e otimizações\n"
-"\n"
-"Por favor veja as notas de atualização completas para mais detalhes!"
+"Por favor, dê uma olhada nas notas de atualização completas para mais "
+"detalhes!"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -55639,8 +55705,6 @@ msgid "Credits"
 msgstr "Créditos"
 
 #. STRINGS.UI.FRONTEND.OPTIONS_SCREEN.FEEDBACK
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.LOGIC_FEEDBACK_LOOP.NAME"
-#| msgid "Feedback Loop"
 msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.FEEDBACK"
 msgid "Feedback"
 msgstr "Feedback"
@@ -55837,6 +55901,17 @@ msgstr ""
 "{1} - A semente de geração do mundo\n"
 "\n"
 "{2} - Dificuldade e configurações Customizadas"
+
+#. STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT
+msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.SAVE_EXIT"
+msgid ""
+"Play time has expired, the game is exiting would you like to overwrite {0}?"
+msgstr "Tempo de jogo expirado, o jogo irá fechar, deseja sobrescrever {0}?"
+
+#. STRINGS.UI.FRONTEND.RAILFORCEQUIT.WARN_EXIT
+msgctxt "STRINGS.UI.FRONTEND.RAILFORCEQUIT.WARN_EXIT"
+msgid "Play time has expired, the game will now exit."
+msgstr "Tempo de jogo expirado, o jogo irá fechar."
 
 #. STRINGS.UI.FRONTEND.SAVESCREEN.CANCELNAME
 msgctxt "STRINGS.UI.FRONTEND.SAVESCREEN.CANCELNAME"
@@ -57631,7 +57706,7 @@ msgstr ""
 #. STRINGS.UI.NEG_INFINITY
 msgctxt "STRINGS.UI.NEG_INFINITY"
 msgid "-Infinity"
-msgstr ""
+msgstr "-Infinito"
 
 #. STRINGS.UI.NEGATIVE_FORMAT
 msgctxt "STRINGS.UI.NEGATIVE_FORMAT"
@@ -60360,7 +60435,7 @@ msgstr "Nenhum"
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.NONE
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.NONE"
 msgid "This position has no qualification requirements"
-msgstr "Esta posição não possui requerimentos de qualificação"
+msgstr "Esta posição não possui requisitos de qualificação"
 
 #. STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.RELEVANT_APTITUDES
 msgctxt "STRINGS.UI.ROLES_SCREEN.ASSIGNMENT_REQUIREMENTS.RELEVANT_APTITUDES"
@@ -63017,6 +63092,11 @@ msgstr ""
 "Duplicantes sempre irão manter o mínimo de massa necessário de um destino, "
 "retornando provavelmente com menos carga que o foguete pode carregar."
 
+#. STRINGS.UI.STARMAP.MISSION_STATUS.DESTROYED
+msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.DESTROYED"
+msgid "Destroyed"
+msgstr "Destruído"
+
 #. STRINGS.UI.STARMAP.MISSION_STATUS.GO
 msgctxt "STRINGS.UI.STARMAP.MISSION_STATUS.GO"
 msgid "ALL SYSTEMS GO"
@@ -63595,7 +63675,7 @@ msgstr "Estruturas"
 #. STRINGS.UI.TOOLS.FILTERLAYERS.CLEAN
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.CLEAN"
 msgid "Cleaning"
-msgstr "Limpando"
+msgstr "Limpeza"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.CLEANANDCLEAR
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.CLEANANDCLEAR"
@@ -64433,7 +64513,7 @@ msgstr "Próxima mensagem"
 #. STRINGS.UI.TOOLTIPS.NO_CODEX_ENTRY
 msgctxt "STRINGS.UI.TOOLTIPS.NO_CODEX_ENTRY"
 msgid "No database entry available"
-msgstr "Nenhuma registro disponível na base de dados"
+msgstr "Nenhum registro disponível na base de dados"
 
 #. STRINGS.UI.TOOLTIPS.NOISE_POLLUTION_OVERLAY_STRING
 msgctxt "STRINGS.UI.TOOLTIPS.NOISE_POLLUTION_OVERLAY_STRING"
@@ -65103,8 +65183,6 @@ msgid "Advanced Mode"
 msgstr "Modo Avançado"
 
 #. STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.CURRENT_COUNT_ADVANCED
-#| msgctxt "STRINGS.UI.OVERLAYS.NOISE_POLLUTION.RANGE"
-#| msgid "{0} dB"
 msgctxt "STRINGS.UI.UISIDESCREENS.COUNTER_SIDE_SCREEN.CURRENT_COUNT_ADVANCED"
 msgid "{0} % "
 msgstr "{0} % "
@@ -65521,7 +65599,7 @@ msgstr "<b>Efeitos:</b>"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RESULTREQUIREMENTS
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.RESULTREQUIREMENTS"
 msgid "<b>Requirements:</b>"
-msgstr "<b>Requerimentos:</b>"
+msgstr "<b>Requisitos:</b>"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.SELECTRECIPE
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.SELECTRECIPE"
@@ -65536,7 +65614,7 @@ msgstr "Receitas"
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TITLE"
 msgid "{0} Production Orders"
-msgstr "{0} Ordens de Produção"
+msgstr "{0}: Ordens de Produção"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.TOOLTIPS.RECIPEPRODUCT"
@@ -65773,8 +65851,6 @@ msgid "Tooltip"
 msgstr "Descrição"
 
 #. STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.BAD
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.DIG.STATUS"
-#| msgid "Going to dig"
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.TOOLTIPS.BAD"
 msgid "\"Boing boing!\""
 msgstr "\"Boing boing!\""
@@ -65948,7 +66024,7 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE"
 msgid "Severity Requirement"
-msgstr "Requerimentos de Severidade"
+msgstr "Requisitos de Severidade"
 
 #. STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TOOLTIP"
@@ -69673,6 +69749,34 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "AUTOMATION PACK!"
+#~ msgstr "PACOTE DE AUTOMAÇÃO!"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
+#~ msgid ""
+#~ "<b>Welcome to Banhi's Automation Innovation Pack!</b>\n"
+#~ "\n"
+#~ "<b>Update Features:</b>\n"
+#~ "\n"
+#~ "• New and Improved automation sensors and outputs for work and for play\n"
+#~ "• New 'Sweepy' robot helps keep your colony tidy and stylish\n"
+#~ "• Bunches of optimizations, bug fixes, and improvements across the game\n"
+#~ "\n"
+#~ "Please view the full patch notes for further details!"
+#~ msgstr ""
+#~ "<b>Bem vindo ao Pacote de Inovação na Automação da Bela!</b>\n"
+#~ "\n"
+#~ "<b>Recursos da Atualização:</b>\n"
+#~ "\n"
+#~ "• Novos e melhorados sensores e saídas de automação para trabalhar e "
+#~ "brincar\n"
+#~ "• Novo robô 'Limpa-Limpa' que ajuda a manter sua colônia limpa e cheia de "
+#~ "estilo\n"
+#~ "• Numerosas correções de erros, melhorias e otimizações\n"
+#~ "\n"
+#~ "Por favor veja as notas de atualização completas para mais detalhes!"
 
 #~ msgctxt "STRINGS.CREATURES.SPECIES.COLDBREATHER.DESC"
 #~ msgid ""
@@ -78447,10 +78551,6 @@ msgstr "Volcanea"
 #~ msgid "Proper facilities further improve this massage's effectiveness"
 #~ msgstr ""
 #~ "Estruturas devidamente colocadas melhoraram a efetividade desta massagem"
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MINGLING.TOOLTIP"
-#~ msgid "This Duplicant is mingling with other Duplicants in the room"
-#~ msgstr "Este Duplicante está se enturmando com outros Duplicantes na sala"
 
 #~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.POORQUALITYOFLIFE.TOOLTIP"
 #~ msgid ""
