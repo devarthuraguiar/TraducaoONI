@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.0.12-h\n"
+"Project-Id-Version: Português foi Incluído! 2.0.13\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -7465,11 +7465,11 @@ msgstr "Quantidade de Criaturas"
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
-"Sends a <b><color=#57b95e>Green Signal</b></color> while the number of "
-"critters in the room is within the selected range"
+"Sends a <b><color=#57b95e>Green Signal</b></color> if the number of Critters "
+"and Eggs in the Room is greater than the selected threshold."
 msgstr ""
 "Envia um <b><color=#57b95e>Sinal Verde</b></color> enquanto o número de "
-"criaturas na sala estiverem dentro da faixa selecionada"
+"Criaturas e Ovos na sala estiverem dentro da faixa selecionada."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT_INACTIVE"
@@ -19144,11 +19144,11 @@ msgstr "Vida Boa"
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION"
 msgid ""
-"Go {0} cycles with Duplicants performing a single errand while still "
-"maintaining {1} Morale."
+"Have Auto Sweepers complete more deliveries to machines than Duplicatnts "
+"over 5 cycles."
 msgstr ""
-"Complete {0} ciclos com Duplicantes realizando uma única tarefa enquanto "
-"mantém a Moral em {1}."
+"Faça com que Auto Coletores completem mais tarefas de entrega para máquinas "
+"do que Duplicantes por 5 ciclos."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.INSPECT_POI"
@@ -40077,6 +40077,21 @@ msgstr ""
 "Estes <link=\"WIRE\">Cabos</link> derreteram devido a demanda excessiva nos "
 "seus circuitos"
 
+#. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY
+msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.MESSAGEBODY"
+msgid "A new Database entry is available"
+msgstr "Um novo registro está disponível na Base de Dados"
+
+#. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.NAME"
+msgid "New Database Entry"
+msgstr "Novo Registro da Base de Dados"
+
+#. STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.CODEXUNLOCK.TOOLTIP"
+msgid "A new Database entry is available"
+msgstr "Um novo registro está disponível na Base de Dados"
+
 #. STRINGS.MISC.NOTIFICATIONS.COLONY_ACHIEVEMENT_EARNED.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.COLONY_ACHIEVEMENT_EARNED.NAME"
 msgid "Colony Achievement earned"
@@ -41179,8 +41194,8 @@ msgstr "Ganho de ponto de habilidade"
 
 #. STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.SKILL_POINT_EARNED.TOOLTIP"
-msgid "A Duplicant can now learn new skills"
-msgstr "Um Duplicante pode agora aprender novas habilidades"
+msgid "Duplicants can now learn new skills"
+msgstr "Duplicantes podem agora aprender novas habilidades"
 
 #. STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.STRESSMANAGEMENTMESSAGE.MESSAGEBODY"
@@ -48421,15 +48436,24 @@ msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.GEYSERS"
 msgid "<link=\"GEYSERS\">Geysers</link>"
 msgstr "<link=\"GEYSERS\">Gêiseres</link>"
 
+#. STRINGS.UI.CODEX.CATEGORYNAMES.INVESTIGATIONS
+#| msgctxt "STRINGS.RESEARCH.TECHS.INSULATION.NAME"
+#| msgid "<link=\"INSULATION\">Insulation</link>"
+msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.INVESTIGATIONS"
+msgid "<link=\"INVESTIGATIONS\">Investigations</link>"
+msgstr "<link=\"INVESTIGATIONS\">Investigações</link>"
+
 #. STRINGS.UI.CODEX.CATEGORYNAMES.JOURNALS
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.JOURNALS"
 msgid "<link=\"JOURNALS\">Journals</link>"
 msgstr "<link=\"JOURNALS\">Diários</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.MYLOG
+#| msgctxt "STRINGS.CREATURES.SPECIES.GLOM.NAME"
+#| msgid "<link=\"GLOM\">Morb</link>"
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MYLOG"
-msgid "<link=\"MYLOG\">My Investigations</link>"
-msgstr "<link=\"MYLOG\">Minhas Investigações</link>"
+msgid "<link=\"MYLOG\">My Log</link>"
+msgstr "<link=\"MYLOG\">Meu Diário</link>"
 
 #. STRINGS.UI.CODEX.CATEGORYNAMES.NOTICES
 msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.NOTICES"
@@ -48478,13 +48502,13 @@ msgstr "<link=\"TIPS\">Dicas e Informações</link>"
 
 #. STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.BODY
 msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.BODY"
-msgid "Codex Discovered: {codex}"
-msgstr "Registro Descoberto: {codex}"
+msgid "Database Update Discovered: {codex}\n"
+msgstr "Registro Descoberto: {codex}\n"
 
 #. STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.TITLE
 msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.TITLE"
-msgid "Codex Discovered"
-msgstr "Registro Descoberto"
+msgid "Database Update Discovered"
+msgstr "Atualização da Base de Dados Descoberta"
 
 #. STRINGS.UI.CODEX.DETAILS
 msgctxt "STRINGS.UI.CODEX.DETAILS"
@@ -50061,7 +50085,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (2.0.12-h): {0}"
+msgstr "VERSÃO (2.0.13): {0}"
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -61727,13 +61751,13 @@ msgstr "Quantidade de Criaturas"
 #. STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP"
 msgid ""
-"This sensor will send a <b><color=#57b95e>Green Signal</b></color> until the "
-"number of <link=\"CREATURES\">Critters</link> and <style=\"KKeyword\">Eggs</"
-"style> in the room reaches the specified amount"
+"Will send a <b><color=#57b95e>Green Signal</b></color> if there are more "
+"than <b>{0}</b> <style=\"KKeyword\">Critters</style> or <style=\"KKeyword"
+"\">Eggs</style> in the room"
 msgstr ""
-"Este sensor enviará um <b><color=#57b95e>Sinal Verde</b></color> até o "
-"número de <link=\"CREATURES\">Criaturas</link> e <style=\"KKeyword\">Ovos</"
-"style> na sala atingirem a quantidade especificada"
+"Enviará um <b><color=#57b95e>Sinal Verde</b></color> se existir mais do que "
+"<b>{0}</b> <style=\"KKeyword\">Criaturas</style> ou <style=\"KKeyword"
+"\">Ovos</style> na sala"
 
 #. STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT
 msgctxt "STRINGS.UI.UISIDESCREENS.DOOR_TOGGLE_SIDE_SCREEN.ACCESS_FORMAT"
@@ -62212,32 +62236,32 @@ msgstr "Vacilação Neural em andamento."
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_BUFFER_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_BUFFER_SIDE_SCREEN.TITLE"
-msgid "Green Buffer Time"
-msgstr "Tempo de Buffer Verde"
+msgid "Buffer Time"
+msgstr "Tempo de Buffer"
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_BUFFER_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_BUFFER_SIDE_SCREEN.TOOLTIP"
 msgid ""
-"This gate will continue to send a <b><color=#57b95e>Green Signal</b></color> "
-"for {0} seconds after receiving a <b><color=#f44a47>Red Signal</b></color>"
+"Will continue to send a <b><color=#57b95e>Green Signal</b></color> for "
+"<b>{0} seconds</b> after receiving a <b><color=#f44a47>Red Signal</b></color>"
 msgstr ""
-"Este portão continuará a enviar um <b><color=#57b95e>Sinal Verde</b></color> "
-"por {0} segundos após receber um <b><color=#f44a47>Sinal Vermelho</b></color>"
+"Continuará a enviar um <b><color=#57b95e>Sinal Verde</b></color> por {0} "
+"segundos após receber um <b><color=#f44a47>Sinal Vermelho</b></color>"
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_FILTER_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_FILTER_SIDE_SCREEN.TITLE"
-msgid "Green Filter Time"
-msgstr "Tempo de Filtro Verde"
+msgid "Filter Time"
+msgstr "Tempo de Filtro"
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_FILTER_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_FILTER_SIDE_SCREEN.TOOLTIP"
 msgid ""
-"This gate will continue to send a <b><color=#f44a47>Red Signal</b></color> "
-"for {0} seconds after receiving a <b><color=#57b95e>Green Signal</b></color>"
+"Will only send a <b><color=#57b95e>Green Signal</b></color> if it receives "
+"<b><color=#57b95e>Green</b></color> for longer than <b>{0} seconds</b>"
 msgstr ""
-"Este portão continuará a enviar um <b><color=#f44a47>Sinal Vermelho</b></"
-"color> por {0} segundos após receber um <b><color=#57b95e>Sinal Verde</b></"
-"color>"
+"Só enviará um <b><color=#57b95e>Sinal Verde</b></color> após receber "
+"<b><color=#57b95e>Verde</b></color> por um tempo maior que <b>{0} segundos</"
+"b>"
 
 #. STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS
 msgctxt "STRINGS.UI.UISIDESCREENS.LURE.ATTRACTS"
@@ -62274,6 +62298,33 @@ msgctxt "STRINGS.UI.UISIDESCREENS.LURE.TITLE"
 msgid "Select Bait"
 msgstr "Selecione Isca"
 
+#. STRINGS.UI.UISIDESCREENS.MANUALDELIVERYGENERATORSIDESCREEN.CURRENT_THRESHOLD
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.MANUALDELIVERYGENERATORSIDESCREEN.CURRENT_THRESHOLD"
+msgid "Current Threshold: {0}%"
+msgstr "Limite Atual: {0}%"
+
+#. STRINGS.UI.UISIDESCREENS.MANUALDELIVERYGENERATORSIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.MANUALDELIVERYGENERATORSIDESCREEN.TITLE"
+msgid "Fuel Request Threshold"
+msgstr "Limite de Pedido de Combustível"
+
+#. STRINGS.UI.UISIDESCREENS.MANUALDELIVERYGENERATORSIDESCREEN.TOOLTIP
+#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_PRODUCTION"
+#| msgid ""
+#| "While erupting, this geyser will produce <style=\"KKeyword\">{0}</style> "
+#| "at a rate of <style=\"produced\">{1}</style>, and at a <style=\"KKeyword"
+#| "\">Temperature</style> of <b>{2}</b>"
+msgctxt "STRINGS.UI.UISIDESCREENS.MANUALDELIVERYGENERATORSIDESCREEN.TOOLTIP"
+msgid ""
+"Duplicants will be requested to deliver <style=\"KKeyword\">{0}</style> when "
+"the total charge of the connected <style=\"KKeyword\">Batteries</style> "
+"falls below <b>{1}%</b>"
+msgstr ""
+"Duplicantes serão ordenados a entregar <style=\"KKeyword\">{0}</style> "
+"quando a carga total das <style=\"KKeyword\">Baterias</style> cair para "
+"abaixo de <b>{1}%</b>"
+
 #. STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.CURRENT_THRESHOLD
 msgctxt "STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.CURRENT_THRESHOLD"
 msgid "Current Threshold: {0}%"
@@ -62287,11 +62338,13 @@ msgstr "Limite de Recarga da Bateria"
 #. STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.TOOLTIP"
 msgid ""
-"Duplicants will operate this generator when battery charge falls below the "
-"selected percentage"
+"Duplicants will be requested to operate this generator when the total charge "
+"of the connected <style=\"KKeyword\">Batteries</style> falls below <b>{0}%</"
+"b>"
 msgstr ""
-"Duplicantes irão operar este gerador quando a carga da bateria cair abaixo "
-"da porcentagem selecionada"
+"Duplicantes serão ordenados a operar este gerador quando a carga total das "
+"<style=\"KKeyword\">Baterias</style> conectadas cair para abaixo de <b>{0}%</"
+"b>"
 
 #. STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TITLE"
@@ -62301,11 +62354,11 @@ msgstr "Requerimentos de Severidade"
 #. STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.MEDICALCOTSIDESCREEN.TOOLTIP"
 msgid ""
-"A Duplicant may not use this cot until their health falls below the selected "
-"percentage"
+"A Duplicant may not use this cot until their <style=\"KKeyword\">Health</"
+"style> falls below <b>{0}%</b>"
 msgstr ""
-"Um Duplicante não poderá usar esta maca enquanto sua saúde não cair abaixo "
-"da porcentagem selecionada"
+"Um Duplicante não usará esta maca enquanto sua <style=\"KKeyword\">Saúde</"
+"style> não cair abaixo de <b>{0}%</b>"
 
 #. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_GROUP_SEPARATOR
 msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.CHORE_GROUP_SEPARATOR"
@@ -62500,17 +62553,17 @@ msgstr "Grande Monumento"
 
 #. STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TITLE"
-msgid "Pressure Release Threshold"
+msgid "Backpressure Release Threshold"
 msgstr "Limite de Alívio de Pressão"
 
 #. STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TOOLTIP"
 msgid ""
-"Duplicants will release gas buildup in this well when it exceeds the "
-"selected percentage"
+"Duplicants will be requested to release backpressure buildup when it exceeds "
+"<b>{0}%</b>"
 msgstr ""
-"Duplicantes irão liberar a pressão de gás dessa fonte quando ela exceder a "
-"porcentagem selecionada"
+"Duplicantes serão ordenados a aliviar o aumento de pressão quando ela "
+"exceder <b>{0}%</b>"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.AWAITINGDELIVERY
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.AWAITINGDELIVERY"
@@ -63124,13 +63177,13 @@ msgstr "Sensor de Tempo"
 #. STRINGS.UI.UISIDESCREENS.TIME_OF_DAY_SIDE_SCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.TIME_OF_DAY_SIDE_SCREEN.TOOLTIP"
 msgid ""
-"This sensor will send a <b><color=#57b95e>Green Signal</b></color> after the "
-"selected Turn On time, and a <b><color=#f44a47>Red Signal</b></color> after "
-"the selected Turn Off time"
+"Will send a <b><color=#57b95e>Green Signal</b></color> after the selected "
+"Turn On time, and a <b><color=#f44a47>Red Signal</b></color> after the "
+"selected Turn Off time"
 msgstr ""
-"Este sensor enviará um sinal <b><color=#57b95e>Sinal Verde</b></color> "
-"quando passar do tempo de Ligar e um <b><color=#f44a47>Sinal Vermelho</b></"
-"color> depois que passar o tempo de Desligar"
+"Enviará um sinal <b><color=#57b95e>Sinal Verde</b></color> quando passar do "
+"tempo de Ligar e um <b><color=#f44a47>Sinal Vermelho</b></color> depois que "
+"passar o tempo de Desligar"
 
 #. STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.DURATION
 msgctxt "STRINGS.UI.UISIDESCREENS.TIME_RANGE_SIDE_SCREEN.DURATION"
@@ -65862,6 +65915,55 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.VOLCANIC.NAME"
 msgid "Volcanea"
 msgstr "Volcanea"
+
+#~ msgctxt ""
+#~ "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.IDLE_DUPLICANTS_DESCRIPTION"
+#~ msgid ""
+#~ "Go {0} cycles with Duplicants performing a single errand while still "
+#~ "maintaining {1} Morale."
+#~ msgstr ""
+#~ "Complete {0} ciclos com Duplicantes realizando uma única tarefa enquanto "
+#~ "mantém a Moral em {1}."
+
+#~ msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.MYLOG"
+#~ msgid "<link=\"MYLOG\">My Investigations</link>"
+#~ msgstr "<link=\"MYLOG\">Minhas Investigações</link>"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TOOLTIP"
+#~ msgid ""
+#~ "This sensor will send a <b><color=#57b95e>Green Signal</b></color> until "
+#~ "the number of <link=\"CREATURES\">Critters</link> and <style=\"KKeyword"
+#~ "\">Eggs</style> in the room reaches the specified amount"
+#~ msgstr ""
+#~ "Este sensor enviará um <b><color=#57b95e>Sinal Verde</b></color> até o "
+#~ "número de <link=\"CREATURES\">Criaturas</link> e <style=\"KKeyword"
+#~ "\">Ovos</style> na sala atingirem a quantidade especificada"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_FILTER_SIDE_SCREEN.TOOLTIP"
+#~ msgid ""
+#~ "This gate will continue to send a <b><color=#f44a47>Red Signal</b></"
+#~ "color> for {0} seconds after receiving a <b><color=#57b95e>Green Signal</"
+#~ "b></color>"
+#~ msgstr ""
+#~ "Este portão continuará a enviar um <b><color=#f44a47>Sinal Vermelho</b></"
+#~ "color> por {0} segundos após receber um <b><color=#57b95e>Sinal Verde</"
+#~ "b></color>"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.MANUALGENERATORSIDESCREEN.TOOLTIP"
+#~ msgid ""
+#~ "Duplicants will operate this generator when battery charge falls below "
+#~ "the selected percentage"
+#~ msgstr ""
+#~ "Duplicantes irão operar este gerador quando a carga da bateria cair "
+#~ "abaixo da porcentagem selecionada"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TOOLTIP"
+#~ msgid ""
+#~ "Duplicants will release gas buildup in this well when it exceeds the "
+#~ "selected percentage"
+#~ msgstr ""
+#~ "Duplicantes irão liberar a pressão de gás dessa fonte quando ela exceder "
+#~ "a porcentagem selecionada"
 
 #~ msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.GENERATOR_TUNEUP"
 #~ msgid "Tune Up For What?"
@@ -74513,10 +74615,6 @@ msgstr "Volcanea"
 #~ msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP"
 #~ msgid "Drag to mark pipes for emptying"
 #~ msgstr "Arraste para marcar canos para esvaziamento"
-
-#~ msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_CODEX"
-#~ msgid "Browse database entries"
-#~ msgstr "Navegar no banco de dados"
 
 #~ msgctxt "STRINGS.UI.TOOLTIPS.MOPBUTTON"
 #~ msgid "Drag to swab unwanted liquids"
