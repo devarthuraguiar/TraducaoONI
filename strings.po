@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.7.9\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.7.10\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -8242,7 +8242,7 @@ msgid ""
 "To: <b>Dr. Summers</b><alpha=#AA> <jsummers@gravitas.nova></color></smallcaps></size>\n"
 msgstr ""
 "<size=10><smallcaps><b>Re: cachorro do dr. holland</b>\n"
-"De: <b>Dr. Jones</b><alpha=#AA> <ejones@gravitas.nova></color>\n"
+"De: <b>Dr. Jones</b><alpha=#AA> <kjones@gravitas.nova></color>\n"
 "Para: <b>Dr. Summers</b><alpha=#AA> <jsummers@gravitas.nova></color></smallcaps></size>\n"
 
 #. STRINGS.CODEX.HOLLANDSDOG.BODY.CONTAINER2
@@ -9460,7 +9460,7 @@ msgid ""
 "To: <b>Dr. Summers</b><alpha=#AA> <jsummers@gravitas.nova></color></smallcaps></size>\n"
 msgstr ""
 "<size=10><smallcaps><b>Re: meudeus o zelador</b>\n"
-"De: <b>Dr. Jones</b><alpha=#AA> <ejones@gravitas.nova></color>\n"
+"De: <b>Dr. Jones</b><alpha=#AA> <kjones@gravitas.nova></color>\n"
 "Para: <b>Dr. Summers</b><alpha=#AA> <jsummers@gravitas.nova></color></smallcaps></size>\n"
 
 #. STRINGS.CODEX.THEJANITOR.BODY.CONTAINER2
@@ -24761,14 +24761,14 @@ msgid ""
 "The Gravitas Facility"
 msgstr ""
 "DE: JSTERN@INSTITUTOGRAVITAS.NOVA\n"
-"PARA: EJONES @INSTITUTOGRAVITAS.NOVA\n"
+"PARA: KJONES @INSTITUTOGRAVITAS.NOVA\n"
 "ASSUNTO: Cálculos Preliminares\n"
 "\n"
 "Diretora,\n"
 "\n"
 "Mesmo otimizando drasticamente, nós não conseguimos alcançar o volume de recursos necessários para sustentar uma colônia, mesmo que para uma pequena viagem interplanetária. Nós teremos que fazer mudanças sérias para que isso funcione.\n"
 "\n"
-"E Jones\n"
+"K Jones\n"
 "Departamento de Informação e Estatística\n"
 "O Instituto Gravitas"
 
@@ -29754,6 +29754,11 @@ msgctxt "STRINGS.ROOMS.DETAILS.SIZE.NAME"
 msgid "Room size: {0} Tiles"
 msgstr "Tamanho do quarto: {0} Blocos"
 
+#. STRINGS.ROOMS.EFFECTS.HEADER
+msgctxt "STRINGS.ROOMS.EFFECTS.HEADER"
+msgid "Room Effects"
+msgstr "Efeitos da Sala"
+
 #. STRINGS.ROOMS.TYPES.BARRACKS.EFFECT
 msgctxt "STRINGS.ROOMS.TYPES.BARRACKS.EFFECT"
 msgid "- Morale bonus"
@@ -30489,6 +30494,11 @@ msgctxt "STRINGS.UI.BUILDINGEFFECTS.PRODUCES_RESEARCH_POINTS"
 msgid "{0}"
 msgstr ""
 
+#. STRINGS.UI.BUILDINGEFFECTS.RECREATION
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.RECREATION"
+msgid "Recreation"
+msgstr "Recreação"
+
 #. STRINGS.UI.BUILDINGEFFECTS.REFILLOXYGENTANK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.REFILLOXYGENTANK"
 msgid "Refills ExosuitOxygen Tank"
@@ -30969,6 +30979,11 @@ msgstr "Esta estrutura processa materiais brutos em materiais refinados"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PRODUCES_RESEARCH_POINTS"
 msgid "Produces {0} research"
 msgstr "Produz {0} de pesquisa"
+
+#. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.RECREATION
+msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.RECREATION"
+msgid "Duplicants will use recreation buildings during Downtime, improving their Morale."
+msgstr "Duplicantes usarão estruturas de recreação durante o Intervalo, melhorando sua Moral."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFILLOXYGENTANK
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.REFILLOXYGENTANK"
@@ -32672,7 +32687,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.7.9)"
+"- Traduzido por Chastomber :P (1.7.10)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
