@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.11.3\n"
+"Project-Id-Version: Português foi Incluído! 1.11.4\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur <arthur.aguiar151@gmail.com>\n"
@@ -21334,18 +21334,19 @@ msgstr "Este Duplicante vai se isolar para manter sua doença longe da colônia"
 
 #. STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.NAME"
-msgid "Move to Safety"
-msgstr "Ir para Local Seguro"
+msgid "Find Somewhere Safer"
+msgstr "Encontrar algum Lugar mais Seguro"
 
 #. STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.STATUS
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.STATUS"
-msgid "Moving to safety"
-msgstr "Indo para local seguro"
+msgid "Finding Somewhere Safer"
+msgstr "Encontrando um Lugar mais Seguro"
 
 #. STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.TOOLTIP"
-msgid "This Duplicant's getting out of here!"
-msgstr "Este Duplicante está fugindo daí!"
+msgid "This Duplicant is idle and looking for somewhere safer to hang out"
+msgstr ""
+"Este Duplicante está ocioso e procurando um lugar mais seguro para passear"
 
 #. STRINGS.DUPLICANTS.CHORES.MUSH.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.MUSH.NAME"
@@ -37038,7 +37039,7 @@ msgstr "Abel"
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.BRYCE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.BRYCE"
 msgid "Bryce"
-msgstr ""
+msgstr "Bruno"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.CHARLIE
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.MALE.CHARLIE"
@@ -42768,7 +42769,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.11.3)"
+"- Traduzido por Chastomber :P (1.11.4)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -43056,7 +43057,6 @@ msgid "Added"
 msgstr "Adicionado"
 
 #. STRINGS.UI.ENDOFDAYREPORT.BASE_DETAILS_HEADER
-#, fuzzy
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.BASE_DETAILS_HEADER"
 msgid "Base Details:"
 msgstr "Detalhes da Base:"
@@ -43211,10 +43211,9 @@ msgid "My Duplicants are covered in {0}"
 msgstr "Meus Duplicantes estão cobertos em {0}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER
-#, fuzzy
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.DUPLICANT_DETAILS_HEADER"
 msgid "Duplicant Details:"
-msgstr "Detalhes de Duplicante:"
+msgstr "Detalhes de Duplicantes:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ENERGY_USAGE.NAME"
@@ -45967,8 +45966,12 @@ msgstr ""
 
 #. STRINGS.UI.JOBSSCREEN.ITEM_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.ITEM_TOOLTIP"
-msgid "The {Job} Errand Type is a {Priority} Priority for <b>{Name}</b>"
-msgstr "Tarefas do Tipo {Job} são da Prioridade {Priority} para <b>{Name}</b>"
+msgid ""
+"{Job} Errand Type for {Name}:\n"
+"<b>{Priority} Priority ({PriorityValue})</b>"
+msgstr ""
+"Tarefas do Tipo {Job} para {Name}:\n"
+"<b>{Priority} Prioridade ({PriorityValue})</b>"
 
 #. STRINGS.UI.JOBSSCREEN.MINION_SKILL_TOOLTIP
 msgctxt "STRINGS.UI.JOBSSCREEN.MINION_SKILL_TOOLTIP"
@@ -48302,6 +48305,16 @@ msgctxt "STRINGS.UI.OVERLAYS.TEMPERATURE.VERYHOT"
 msgid "Hot"
 msgstr "Quente"
 
+#. STRINGS.UI.OVERLAYS.TILEMODE.BUTTON
+msgctxt "STRINGS.UI.OVERLAYS.TILEMODE.BUTTON"
+msgid "Elements Overlay"
+msgstr "Painel Elementos"
+
+#. STRINGS.UI.OVERLAYS.TILEMODE.NAME
+msgctxt "STRINGS.UI.OVERLAYS.TILEMODE.NAME"
+msgid "ELEMENTS OVERLAY"
+msgstr "PAINEL ELEMENTOS"
+
 #. STRINGS.UI.OVERLAYSTITLE
 msgctxt "STRINGS.UI.OVERLAYSTITLE"
 msgid "OVERLAYS"
@@ -48358,7 +48371,15 @@ msgstr "PRIORIDADES DE TAREFAS ESPECÍFICAS"
 #. STRINGS.UI.PRIORITYSCREEN.EMERGENCY
 msgctxt "STRINGS.UI.PRIORITYSCREEN.EMERGENCY"
 msgid ""
+"Emergency Priority\n"
+"------------------\n"
+"This priority will override all other priorities and set the colony on Red "
+"Alert until the errand is completed."
 msgstr ""
+"Prioridade Emergencial\n"
+"------------------\n"
+"Esta prioridade irá sobrepor todas as outras prioridades e colocará a "
+"colônia em Alerta Vermelho até a tarefa ser concluída."
 
 #. STRINGS.UI.PRIORITYSCREEN.HIGH
 msgctxt "STRINGS.UI.PRIORITYSCREEN.HIGH"
@@ -49966,6 +49987,368 @@ msgctxt "STRINGS.UI.SCHEDULESCREEN.SETTINGS"
 msgid "Settings"
 msgstr "Configurações"
 
+#. STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.NAME"
+msgid "Wrist Watch"
+msgstr "Relógio de Pulso"
+
+#. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER_NONE
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER_NONE"
+msgid "Nothing"
+msgstr "Nada"
+
+#. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER0
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER0"
+msgid "Tier 0"
+msgstr "Nível 0"
+
+#. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER1
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER1"
+msgid "Tier 1"
+msgstr "Nível 1"
+
+#. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER2
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER2"
+msgid "Tier 2"
+msgstr "Nível 2"
+
+#. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER3
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER3"
+msgid "Tier 3"
+msgstr "Nível 3"
+
+#. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER4
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER4"
+msgid "Tier 4"
+msgstr "Nível 4"
+
+#. STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER5
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER5"
+msgid "Tier 5"
+msgstr "Nível 5"
+
+#. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.NAME"
+msgid "Bioluminescent Rock"
+msgstr "Rocha Bioluminescente"
+
+#. STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.BLENDER.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.BLENDER.NAME"
+msgid "Blender"
+msgstr "Liquidificador"
+
+#. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.NAME"
+msgid "Strange Brick"
+msgstr "Tijolo Estranho"
+
+#. STRINGS.UI.SPACEARTIFACTS.DNAMODEL.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.DNAMODEL.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.DNAMODEL.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.DNAMODEL.NAME"
+msgid "Double Helix Model"
+msgstr "Modelo Dupla Hélice"
+
+#. STRINGS.UI.SPACEARTIFACTS.EGGROCK.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.EGGROCK.DESCRIPTION"
+msgid ""
+"It's unclear whether this is its naturally occurring shape, or if its "
+"appearance as been sculpted."
+msgstr ""
+"É desconhecido se esta é uma forma que ocorreu naturalmente, ou se sua "
+"aparência foi esculpida."
+
+#. STRINGS.UI.SPACEARTIFACTS.EGGROCK.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.EGGROCK.NAME"
+msgid "Egg-Shaped Rock"
+msgstr "Rocha em Formato de Ovo"
+
+#. STRINGS.UI.SPACEARTIFACTS.HATCHFOSSIL.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.HATCHFOSSIL.DESCRIPTION"
+msgid "The preserved bones of an early species of Hatch."
+msgstr "Os ossos preservados de espécies anteriores da Mucura."
+
+#. STRINGS.UI.SPACEARTIFACTS.HATCHFOSSIL.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.HATCHFOSSIL.NAME"
+msgid "Pristine Fossil"
+msgstr "Fóssil Intocado"
+
+#. STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.DESCRIPTION"
+msgid "Sequel to \"Lava Lamp\"."
+msgstr "Continuação de \"Lâmpada de Lava\""
+
+#. STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.NAME"
+msgid "Magma Lamp"
+msgstr "Lâmpada de Magma"
+
+#. STRINGS.UI.SPACEARTIFACTS.MODERNART.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MODERNART.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.MODERNART.NAME
+#| msgctxt "STRINGS.MISC.STATUSITEMS.HEALTHSTATUS.INJURED.NAME"
+#| msgid "Moderate"
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MODERNART.NAME"
+msgid "Modern Art"
+msgstr "Arte Moderna"
+
+#. STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.NAME"
+msgid "Moldavite"
+msgstr "Moldavita"
+
+#. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION"
+msgid "A very, very small moon."
+msgstr "Uma lua bem pequena."
+
+#. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.NAME"
+msgid "Moonmoonmoon"
+msgstr "Lualualua"
+
+#. STRINGS.UI.SPACEARTIFACTS.OBELISK.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.OBELISK.DESCRIPTION"
+msgid ""
+"A rectangular stone piece.\n"
+"\n"
+"Its function is unclear."
+msgstr ""
+"Uma peça retangular de rocha.\n"
+"\n"
+"Sua função é desconhecida."
+
+#. STRINGS.UI.SPACEARTIFACTS.OBELISK.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.OBELISK.NAME"
+msgid "Small Obelisk"
+msgstr "Obelisco Pequeno"
+
+#. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.NAME
+#| msgctxt "STRINGS.CODEX.B2_ELLIESBIRTHDAY.TITLE"
+#| msgid "Office Cake"
+msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.NAME"
+msgid "Office Mug"
+msgstr "Xícara de Escritório"
+
+#. STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.OKAYXRAY.NAME"
+msgid "Old X-Ray"
+msgstr "Raio-X Antigo"
+
+#. STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.NAME"
+msgid "Pacu in a Percolator"
+msgstr "Pacu em um Percolador"
+
+#. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.NAME"
+msgid "Plasma Lamp"
+msgstr "Lâmpada de Plasma"
+
+#. STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.DESCRIPTION"
+msgid ""
+"It's unclear whether this is its naturally occurring shape, or if its "
+"appearance as been sculpted.\n"
+"\n"
+"This one is rainbow coloured."
+msgstr ""
+"É desconhecido se esta é uma forma que ocorreu naturalmente, ou se sua "
+"aparência foi esculpida.\n"
+"\n"
+"Esta aqui tem as cores do arco íris."
+
+#. STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.NAME"
+msgid "Egg-Shaped Rock"
+msgstr "Rocha em Formato de Ovo"
+
+#. STRINGS.UI.SPACEARTIFACTS.ROBOTARM.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ROBOTARM.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.ROBOTARM.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ROBOTARM.NAME"
+msgid "Robot Arm"
+msgstr "Braço de Robô"
+
+#. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.NAME
+#| msgctxt "STRINGS.UI.STARMAP.LAND_ROCKET"
+#| msgid "Land Rocket"
+msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.NAME"
+msgid "Tornado Rock"
+msgstr "Rocha Tornado"
+
+#. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.NAME"
+msgid "Rubik's Cube"
+msgstr "Cubo Mágico"
+
+#. STRINGS.UI.SPACEARTIFACTS.SANDSTONE.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SANDSTONE.DESCRIPTION"
+msgid "A beautiful rock composed of multiple layers of sediment."
+msgstr "Uma rocha bonita composta de múltiplas camadas de sedimentos."
+
+#. STRINGS.UI.SPACEARTIFACTS.SANDSTONE.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SANDSTONE.NAME"
+msgid "Sandstone"
+msgstr "Arenito"
+
+#. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.NAME"
+msgid "Mangled Saxophone"
+msgstr "Saxofone Quebrado"
+
+#. STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.DESCRIPTION"
+msgid ""
+"A mechanical prototype capable of producing a small section of shielding."
+msgstr "Um protótipo mecânico capaz de produzir uma pequena seção de escudos."
+
+#. STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SHIELDGENERATOR.NAME"
+msgid "Shield Generator"
+msgstr "Gerador de Escudo"
+
+#. STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.SINK.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.NAME"
+msgid "Sink"
+msgstr "Pia"
+
+#. STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.NAME"
+msgid "Self-Contained System"
+msgstr "Sistema Auto Contido"
+
+#. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.NAME"
+msgid "Stethoscope"
+msgstr "Estetoscópio"
+
+#. STRINGS.UI.SPACEARTIFACTS.TEAPOT.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.TEAPOT.DESCRIPTION"
+msgid ""
+"A teapot from the depths of space, coated in a thick layer of Neutronium."
+msgstr ""
+"Um bule vindo das profundezas do espaço, coberto de uma pequena camada de "
+"Neutrônio."
+
+#. STRINGS.UI.SPACEARTIFACTS.TEAPOT.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.TEAPOT.NAME"
+msgid "Encrusted Teapot"
+msgstr "Bule Incrustado"
+
+#. STRINGS.UI.SPACEARTIFACTS.VHS.DESCRIPTION
+#| msgid ""
+msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.DESCRIPTION"
+msgid ""
+msgstr ""
+
+#. STRINGS.UI.SPACEARTIFACTS.VHS.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.NAME"
+msgid "Archaic Tech"
+msgstr "Tecnologia Arcaica"
+
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.DESCRIPTION
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.DESCRIPTION"
@@ -51008,6 +51391,11 @@ msgctxt "STRINGS.UI.TOOLS.EMPTY_PIPE.TOOLTIP"
 msgid "Extract pipe contents {Hotkey}"
 msgstr "Extrai conteúdos de canos e tubos {Hotkey}"
 
+#. STRINGS.UI.TOOLS.FILTERLAYERS.AGRICULTURE
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.AGRICULTURE"
+msgid "Agriculture"
+msgstr "Agricultura"
+
 #. STRINGS.UI.TOOLS.FILTERLAYERS.ALL
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ALL"
 msgid "All"
@@ -51023,6 +51411,16 @@ msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BACKWALL"
 msgid "Background Buildings"
 msgstr "Estruturas de fundo"
 
+#. STRINGS.UI.TOOLS.FILTERLAYERS.BREATHABLE
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BREATHABLE"
+msgid "Breathable Gas"
+msgstr "Gás Respirável"
+
+#. STRINGS.UI.TOOLS.FILTERLAYERS.BUILDABLE
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BUILDABLE"
+msgid "Mineral"
+msgstr "Mineral"
+
 #. STRINGS.UI.TOOLS.FILTERLAYERS.BUILDINGS
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.BUILDINGS"
 msgid "Buildings"
@@ -51032,6 +51430,11 @@ msgstr "Estruturas"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.CLEANANDCLEAR"
 msgid "Sweep & Mop Orders"
 msgstr "Ordens de Coletar e Secar"
+
+#. STRINGS.UI.TOOLS.FILTERLAYERS.CONSUMABLEORE
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.CONSUMABLEORE"
+msgid "Consumable Ore"
+msgstr "Minério Consumível"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.DIGPLACER
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.DIGPLACER"
@@ -51043,6 +51446,21 @@ msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.DO_NOT_HARVEST"
 msgid "Disable Harvest"
 msgstr "Desativar Colheita"
 
+#. STRINGS.UI.TOOLS.FILTERLAYERS.FARMABLE
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.FARMABLE"
+msgid "Cultivable Soil"
+msgstr "Solo Cultivável"
+
+#. STRINGS.UI.TOOLS.FILTERLAYERS.FILTER
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.FILTER"
+msgid "Filtration Medium"
+msgstr "Meio de Filtração"
+
+#. STRINGS.UI.TOOLS.FILTERLAYERS.GAS
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.GAS"
+msgid "Gas"
+msgstr "Gás"
+
 #. STRINGS.UI.TOOLS.FILTERLAYERS.GASPIPES
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.GASPIPES"
 msgid "Gas Pipes"
@@ -51053,15 +51471,35 @@ msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.HARVEST_WHEN_READY"
 msgid "Enable Harvest"
 msgstr "Ativar Colheita"
 
+#. STRINGS.UI.TOOLS.FILTERLAYERS.LIQUID
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.LIQUID"
+msgid "Liquid"
+msgstr "Líquido"
+
 #. STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIDPIPES
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIDPIPES"
 msgid "Liquid Pipes"
 msgstr "Canos de Líquido"
 
+#. STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIFIABLE
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.LIQUIFIABLE"
+msgid "Liquefiable"
+msgstr "Liquidificável"
+
 #. STRINGS.UI.TOOLS.FILTERLAYERS.LOGIC
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.LOGIC"
 msgid "Automation"
 msgstr "Automação"
+
+#. STRINGS.UI.TOOLS.FILTERLAYERS.METAL
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.METAL"
+msgid "Metal"
+msgstr "Metal"
+
+#. STRINGS.UI.TOOLS.FILTERLAYERS.ORGANICS
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.ORGANICS"
+msgid "Organic"
+msgstr "Orgânico"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.SOLIDCONDUITS
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.SOLIDCONDUITS"
@@ -51072,6 +51510,11 @@ msgstr "Trilhos Transportadores"
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.TILES"
 msgid "Tiles"
 msgstr "Blocos"
+
+#. STRINGS.UI.TOOLS.FILTERLAYERS.UNBREATHABLE
+msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.UNBREATHABLE"
+msgid "Unbreathable Gas"
+msgstr "Gás Irrespirável"
 
 #. STRINGS.UI.TOOLS.FILTERLAYERS.WIRES
 msgctxt "STRINGS.UI.TOOLS.FILTERLAYERS.WIRES"
@@ -51643,13 +52086,13 @@ msgstr ""
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESEARCH
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_RESEARCH"
-msgid "View the Research Tree {Hotkey} {Hotkey}"
-msgstr "Visualize a Árvore Tecnológica {Hotkey} {Hotkey}"
+msgid "View the Research Tree {Hotkey}"
+msgstr "Visualize a Árvore Tecnológica {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_ROLES
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_ROLES"
-msgid "Manage Duplicants' job assignments {Hotkey} {Hotkey}"
-msgstr "Gerenciar as atribuições de trabalho dos Duplicantes {Hotkey} {Hotkey}"
+msgid "Manage Duplicants' job assignments {Hotkey}"
+msgstr "Gerenciar as atribuições de trabalho dos Duplicantes {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_SCHEDULE"
@@ -51658,8 +52101,8 @@ msgstr "Ajustar o uso do tempo da colônia {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_STARMAP"
-msgid "Manage astronaut rocket missions {Hotkey} {Hotkey}"
-msgstr "Gerencie missões dos astronautas {Hotkey} {Hotkey}"
+msgid "Manage astronaut rocket missions {Hotkey}"
+msgstr "Gerencie missões dos astronautas {Hotkey}"
 
 #. STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS
 msgctxt "STRINGS.UI.TOOLTIPS.MANAGEMENTMENU_VITALS"
@@ -52296,6 +52739,11 @@ msgstr "Chuvas de Meteoros"
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.DISABLED"
 msgid "Ineligible"
 msgstr "Inelegível"
+
+#. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER
+msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.HEADER"
+msgid "Sends automation signal when selected object is detected"
+msgstr "Envia um sinal automatizado quando o objeto selecionado é detectado"
 
 #. STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING
 msgctxt "STRINGS.UI.UISIDESCREENS.COMETDETECTORSIDESCREEN.NOTHING"
@@ -53076,6 +53524,11 @@ msgstr ""
 "Todas as Tarefas de {BestGroup}: {TypePriority}\n"
 "\n"
 "Prioridade Total: {TotalPriority}"
+
+#. STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TRUNCATED_CHORES
+msgctxt "STRINGS.UI.UISIDESCREENS.MINIONTODOSIDESCREEN.TRUNCATED_CHORES"
+msgid "{0} more"
+msgstr "e mais {0}"
 
 #. STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.OIL_WELL_CAP_SIDE_SCREEN.TITLE"
@@ -55710,6 +56163,18 @@ msgstr "Espalhando areia..."
 msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.NAME"
+#~ msgid "Move to Safety"
+#~ msgstr "Ir para Local Seguro"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.STATUS"
+#~ msgid "Moving to safety"
+#~ msgstr "Indo para local seguro"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.MOVETOSAFETY.TOOLTIP"
+#~ msgid "This Duplicant's getting out of here!"
+#~ msgstr "Este Duplicante está fugindo daí!"
 
 #~ msgctxt "STRINGS.DUPLICANTS.CHORES.IS_DEAD_TASK"
 #~ msgid "Uhh... \"Sleeping\""
@@ -61678,10 +62143,6 @@ msgstr "Espalhando areia..."
 #~ msgid "High Pressure Gas Vent"
 #~ msgstr "Saída de Gás de Alta Pressão"
 
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.GENERATOR.NAME"
-#~ msgid "Coal Generator"
-#~ msgstr "Gerador de Carvão"
-
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.NAME"
 #~ msgid "Omniprinter"
 #~ msgstr "Omni-impressora"
@@ -62057,10 +62518,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Wash Basin"
 #~ msgstr "Lavatório"
 
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.WASHSINK.NAME"
-#~ msgid "Sink"
-#~ msgstr "Pia"
-
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.WATERPURIFIER.NAME"
 #~ msgid "Water Sieve"
 #~ msgstr "Filtro de Água"
@@ -62395,10 +62852,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Miners have improved digging ability"
 #~ msgstr "Mineiros tem habilidade de cavar melhorada"
 
-#~ msgctxt "STRINGS.DUPLICANTS.ROLES.MINER.NAME"
-#~ msgid "Miner"
-#~ msgstr "Mineiro"
-
 #~ msgctxt "STRINGS.DUPLICANTS.ROLES.NO_ROLE.NAME"
 #~ msgid "Unemployed"
 #~ msgstr "Desempregado"
@@ -62644,10 +63097,6 @@ msgstr "Espalhando areia..."
 #~ msgid "Propane"
 #~ msgstr "Propano"
 
-#~ msgctxt "STRINGS.ELEMENTS.MAGMA.NAME"
-#~ msgid "Magma"
-#~ msgstr "Magma"
-
 #~ msgctxt "STRINGS.ELEMENTS.MERCURY.NAME"
 #~ msgid "Mercury"
 #~ msgstr "Mercúrio"
@@ -62739,10 +63188,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.ELEMENTS.RADIUM.NAME"
 #~ msgid "Radium"
 #~ msgstr "Rádio"
-
-#~ msgctxt "STRINGS.ELEMENTS.SANDSTONE.NAME"
-#~ msgid "Sandstone"
-#~ msgstr "Arenito"
 
 #~ msgctxt "STRINGS.ELEMENTS.SEDIMENTARYROCK.NAME"
 #~ msgid "Sedimentary Rock"
