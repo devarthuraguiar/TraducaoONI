@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.12.1\n"
+"Project-Id-Version: Português foi Incluído! 1.12.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur <arthur.aguiar151@gmail.com>\n"
@@ -4034,8 +4034,6 @@ msgid "Duplicant Stop/Go"
 msgstr "Sinal Pare/Siga de Duplicantes"
 
 #. STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_ACTIVE
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_ACTIVE"
-#| msgid "Duplicant may pass when Active signal recieved"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CHECKPOINT.LOGIC_PORT_ACTIVE"
 msgid ""
 "Allows Duplicant passage while an <link=\"LOGIC\">Active</link> signal is "
@@ -4178,15 +4176,11 @@ msgstr ""
 "\">Em Espera</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY
-#| msgctxt "STRINGS.UI.STARMAP.LISTTITLES.LAUNCHCHECKLIST"
-#| msgid "Launch Checklist"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY"
 msgid "Rocket Checklist"
 msgstr "Lista de Checagem de Lançamento"
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE"
-#| msgid "Active when launch checklist is complete"
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_READY_ACTIVE"
 msgid ""
 "Becomes <link=\"LOGIC\">Active</link> when its rocket launch checklist is "
@@ -5491,10 +5485,6 @@ msgstr ""
 "<link=\"HEAT\">Temperatura</link> do <link=\"ELEMENTSGAS\">Gás</link> Interno"
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE
-#| msgctxt ""
-#| "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE"
-#| msgid ""
-#| "Active when the contained gas's temperature matches its configuration."
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_ACTIVE"
 msgid ""
@@ -5505,11 +5495,6 @@ msgstr ""
 "contido é igual a sua configuração."
 
 #. STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE
-#| msgctxt ""
-#| "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE"
-#| msgid ""
-#| "Standby when the contained gas's temperature does not match its "
-#| "configuration."
 msgctxt ""
 "STRINGS.BUILDINGS.PREFABS.GASCONDUITTEMPERATURESENSOR.LOGIC_PORT_INACTIVE"
 msgid ""
@@ -5567,10 +5552,6 @@ msgstr ""
 "gerenciamento de um Duplicante."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASCONDUITELEMENTSENSOR.EFFECT"
-#| msgid ""
-#| "Becomes <link=\"LOGIC\">Active</link> when the chosen <link=\"ELEMENTSGAS"
-#| "\">Gas</link> is detected."
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.EFFECT"
 msgid ""
 "Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn "
@@ -7315,8 +7296,6 @@ msgid "<link=\"LOGICGATEBUFFER\">BUFFER Gate</link>"
 msgstr "<link=\"LOGICGATEBUFFER\">Portão BUFFER</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATEBUFFER.OUTPUT_ACTIVE
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEBUFFER.OUTPUT_ACTIVE"
-#| msgid "Active when the Input is Active, or while the timer is ticking down."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATEBUFFER.OUTPUT_ACTIVE"
 msgid ""
 "Becomes <link=\"LOGIC\">Active</link> when its Input is Active, or while its "
@@ -7426,8 +7405,6 @@ msgid "Becomes <link=\"LOGIC\">Active</link> when its Input is on Standby"
 msgstr "Fica <link=\"LOGIC\">Ativo</link> quando sua Entrada está Em Espera"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.OUTPUT_INACTIVE
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.OUTPUT_INACTIVE"
-#| msgid "Standby when the Input is Active."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICGATENOT.OUTPUT_INACTIVE"
 msgid "Goes on <link=\"LOGIC\">Standby</link> when its Input is Active"
 msgstr "Fica <link=\"LOGIC\">Em Espera</link> quando sua Entrada está Ativa"
@@ -7597,7 +7574,6 @@ msgstr ""
 "recebido"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.RESET_PORT_INACTIVE"
 msgid ""
 msgstr ""
@@ -7617,7 +7593,6 @@ msgstr ""
 "recebido"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_INACTIVE
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICMEMORY.SET_PORT_INACTIVE"
 msgid ""
 msgstr ""
@@ -7803,8 +7778,6 @@ msgstr ""
 "Precisa ser alternado manualmente por um Duplicante."
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.TOGGLE.NAME"
-#| msgid "Toggle"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT"
 msgid "Signal Toggle"
 msgstr "Alavanca de Sinal"
@@ -7815,8 +7788,6 @@ msgid "Sends an <link=\"LOGIC\">Active</link> signal while toggled on"
 msgstr "Envia um sinal <link=\"LOGIC\">Ativo</link> quando ativada"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_INACTIVE
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_INACTIVE"
-#| msgid "Send Standby signal when building is toggled Off"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICSWITCH.LOGIC_PORT_INACTIVE"
 msgid "Sends a <link=\"LOGIC\">Standby</link> signal while toggled off"
 msgstr "Envia um sinal <link=\"LOGIC\">Em Espera</link> quando desativada"
@@ -9988,9 +9959,11 @@ msgstr ""
 "\"SOLIDCONDUIT\">Trilho Transportador</link> para o chão."
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDVENT.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDVENT.NAME"
+#| msgid "<link=\"SOLIDVENT\">Conveyor Ore Dropper</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDVENT.NAME"
-msgid "<link=\"SOLIDVENT\">Conveyor Ore Dropper</link>"
-msgstr "<link=\"SOLIDVENT\">Descartador de Transporte</link>"
+msgid "<link=\"SOLIDVENT\">Conveyor Chute</link>"
+msgstr "<link=\"SOLIDVENT\">Saída de Transporte</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SPACEHEATER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEHEATER.DESC"
@@ -10117,8 +10090,6 @@ msgstr ""
 "Produz <link=\"WATER\">Água</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.STEAMTURBINE2.HEAT_SOURCE
-#| msgctxt "STRINGS.UI.FRONTEND.OPTIONS_SCREEN.WORLD_GEN"
-#| msgid "World Generation Key"
 msgctxt "STRINGS.BUILDINGS.PREFABS.STEAMTURBINE2.HEAT_SOURCE"
 msgid "Power Generation Waste"
 msgstr "Resíduo da Geração de Energia"
@@ -17387,7 +17358,7 @@ msgstr "<link=\"DRECKOPLASTIC\">Dreco Plástico</link>"
 #. STRINGS.CREATURES.SPECIES.EVILFLOWER.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.EVILFLOWER.DESC"
 msgid ""
-"This beautiful specemin is actually the host for a particularly nast strain "
+"This beautiful specemin is actually the host for a particularly nasty strain "
 "of brain fungus."
 msgstr ""
 "Este belo espécime é na realidade o hospedeiro de uma específica espécie de "
@@ -17408,8 +17379,6 @@ msgid "Growth Bonus"
 msgstr "Bônus de Crescimento"
 
 #. STRINGS.CREATURES.SPECIES.EVILFLOWER.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SHOWER.NAME"
-#| msgid "<link=\"SHOWER\">Shower</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.EVILFLOWER.NAME"
 msgid "<link=\"EVILFLOWER\">Sporechid</link>"
 msgstr "<link=\"EVILFLOWER\">Florosporo</link>"
@@ -18906,12 +18875,6 @@ msgid "<link=\"COLDWHEAT\">Sleet Wheat Grain</link>"
 msgstr "<link=\"COLDWHEAT\">Grão de Trigo das Neves</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.DESC
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.DESC"
-#| msgid ""
-#| "The <link=\"PLANTS\">Seed</link> of a <link=\"PRICKLEFLOWER\">Bristle "
-#| "Blossom</link>.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Blossom Seed."
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.DESC"
 msgid ""
 "The <link=\"PLANTS\">Seed</link> of a <link=\"EVILFLOWER\">Sporechid</"
@@ -18927,8 +18890,6 @@ msgstr ""
 "Florosporo</link>"
 
 #. STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.PRICKLEFLOWER.NAME"
-#| msgid "<link=\"PRICKLEFLOWER\">Blossom Seed</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SEEDS.EVILFLOWER.NAME"
 msgid "<link=\"EVILFLOWER\">Sporechid Seed</link>"
 msgstr "<link=\"EVILFLOWER\">Semente de Florosporo</link>"
@@ -21240,8 +21201,6 @@ msgstr ""
 "O quão rapidamente este Duplicante pode fazer um foguete ir lá e voltar."
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SPACENAVIGATION.NAME
-#| msgctxt "STRINGS.ROOMS.TYPES.MACHINE_SHOP.EFFECT"
-#| msgid "- Increased fabrication efficiency"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SPACENAVIGATION.NAME"
 msgid "Rocket Navigation Efficiency"
 msgstr "Eficiência de Navegação de Foguetes"
@@ -22394,8 +22353,6 @@ msgid "Dead"
 msgstr "Morto"
 
 #. STRINGS.DUPLICANTS.CHORES.LEARNSKILL.NAME
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.LEARNSKILL.NAME"
-#| msgid "Gain Skill"
 msgctxt "STRINGS.DUPLICANTS.CHORES.LEARNSKILL.NAME"
 msgid "Learn Skill"
 msgstr "Aprender Habilidade"
@@ -23667,8 +23624,6 @@ msgid "Irritants cause excessive sneezing fits"
 msgstr "Irritantes estão causando espirros excessivos"
 
 #. STRINGS.DUPLICANTS.DISEASES.ALLERGIES.NAME
-#| msgctxt "STRINGS.ELEMENTS.AEROGEL.NAME"
-#| msgid "<link=\"AEROGEL\">Aerogel</link>"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ALLERGIES.NAME"
 msgid "<link=\"ALLERGIES\">Allergic Reaction</link>"
 msgstr "<link=\"ALLERGIES\">Reação Alérgica</link>"
@@ -24138,15 +24093,11 @@ msgid "{0} contracted {1} {2}"
 msgstr "{0} contraiu {1} {2}"
 
 #. STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.LEGEND_HOVERTEXT
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SPORES.LEGEND_HOVERTEXT"
-#| msgid "Spores Germs Present\n"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.LEGEND_HOVERTEXT"
 msgid "Floral Scents Present\n"
 msgstr "Contém Aroma Floral\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.NAME
-#| msgctxt "STRINGS.UI.CODEX.CATEGORYNAMES.PLANTS"
-#| msgid "<link=\"PLANTS\">Plants</link>"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.POLLENGERMS.NAME"
 msgid "<link=\"POLLENGERMS\">Floral Scents</link>"
 msgstr "<link=\"POLLENGERMS\">Aroma Floral</link>"
@@ -24403,8 +24354,6 @@ msgid "Area Causes The Spores\n"
 msgstr "Área Causa Os Esporos\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.ZOMBIESICKNESS.NAME
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SPORES.NAME"
-#| msgid "<link=\"SPORES\">The Spores</link>"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ZOMBIESICKNESS.NAME"
 msgid "<link=\"ZOMBIESICKNESS\">The Spores</link>"
 msgstr "<link=\"ZOMBIESICKNESS\">Os Esporos</link>"
@@ -24415,8 +24364,6 @@ msgid "Zombie Spores Present\n"
 msgstr "Contém Esporos Zumbis\n"
 
 #. STRINGS.DUPLICANTS.DISEASES.ZOMBIESPORES.NAME
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.SPORES.NAME"
-#| msgid "<link=\"SPORES\">The Spores</link>"
 msgctxt "STRINGS.DUPLICANTS.DISEASES.ZOMBIESPORES.NAME"
 msgid "<link=\"ZOMBIESPORES\">Zombie Spores</link>"
 msgstr "<link=\"ZOMBIESPORES\">Esporos Zumbi</link>"
@@ -25370,12 +25317,12 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICBOOSTER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICBOOSTER.NAME"
-msgid "Basic Booster"
-msgstr "Impulsionador Básico"
+msgid "Vitamin Chews"
+msgstr "Pastilha Vitamínica"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICBOOSTER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICBOOSTER.TOOLTIP"
-msgid "Reduces the change of becoming sick."
+msgid "Minorly reduces the chance of becoming sick."
 msgstr "Reduz a chance de ficar doente."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_GENERICPILL.EFFECT_DESC
@@ -25400,28 +25347,16 @@ msgstr ""
 "Quanto menos você saber sobre ele, melhor funciona."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.NAME
+#| msgctxt "STRINGS.UI.VITALSSCREEN.IMMUNITY"
+#| msgid "Immune System"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.NAME"
-msgid "Intermediate Booster"
-msgstr "Impulsionador Intermediário"
+msgid "Immuno Booster"
+msgstr "Impulsionador Imunológico"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.TOOLTIP"
-msgid "Reduces the change of becoming sick."
-msgstr "Reduz a chance de ficar doente."
-
-#. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_VITAMINSUPPLEMENT.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_VITAMINSUPPLEMENT.NAME"
-msgid "Vitamin Supplement"
-msgstr "Suplemento Vitamínico"
-
-#. STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_VITAMINSUPPLEMENT.TOOLTIP
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_VITAMINSUPPLEMENT.TOOLTIP"
-msgid ""
-"A health Supplement for improving <link=\"DISEASE\">Immune System</link> "
-"strength."
-msgstr ""
-"Um suplemento médico para aumentar a força do <link=\"DISEASE\">Sistema "
-"Imune</link>."
+msgid "Significantly reduces the chance of becoming sick."
+msgstr "Reduz significativamente a chance de ficar doente."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.METABOLISM_CALORIE_MODIFIER.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.METABOLISM_CALORIE_MODIFIER.NAME"
@@ -25844,11 +25779,9 @@ msgid "Smelled Flowers"
 msgstr "Cheirou Flores"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SMELLEDFLOWERS.TOOLTIP
-#| msgctxt "STRINGS.CREATURES.STATS.MATURITY.TOOLTIP_STALLED"
-#| msgid "Poor conditions have halted this plant's growth"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SMELLEDFLOWERS.TOOLTIP"
-msgid "Pleasant floral scents have brightened this Duplicant's day"
-msgstr "Aromas florais agradáveis melhoraram o dia deste Duplicante"
+msgid "Pleasant floral scents have brightened this Duplicant's day."
+msgstr "Aromas florais agradáveis melhoraram o dia deste Duplicante."
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SMELLEDPUTRIDODOUR.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SMELLEDPUTRIDODOUR.NAME"
@@ -25907,8 +25840,6 @@ msgid "Soiled Suit"
 msgstr "Traje Sujo"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.FULLBLADDER.TOOLTIP"
-#| msgid "This Duplicant's bladder is full"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.SOILEDSUIT.TOOLTIP"
 msgid "This Duplicant's suit is full of waste"
 msgstr "O traje deste Duplicante está cheio de resíduos"
@@ -27006,8 +26937,6 @@ msgid "Improves the speed that space missions are completed"
 msgstr "Aumenta a velocidade na qual missões espaciais são concluídas"
 
 #. STRINGS.DUPLICANTS.ROLES.ASTRONAUT.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUTTRAINEE.NAME"
-#| msgid "<link=\"ASTRONAUTTRAINEE\">Rocket Piloting</link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.ASTRONAUT.NAME"
 msgid "<link=\"ASTRONAUT\">Rocket Navigation</link>"
 msgstr "<link=\"ASTRONAUT\">Navegação em Foguetes</link>"
@@ -27063,8 +26992,6 @@ msgstr ""
 "Moral em {1} ao aprender uma habilidade associada"
 
 #. STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.SPACEFARING"
-#| msgid "Spacefaring"
 msgctxt "STRINGS.DUPLICANTS.ROLES.GROUPS.SUITS"
 msgid "Suit Wearing"
 msgstr "Vestir Trajes"
@@ -27932,6 +27859,20 @@ msgstr "Equipando {Target}"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.TOOLTIP"
 msgid "This Duplicant is equipping a {Target}"
 msgstr "Este Duplicante está equipando um {Target}"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.NAME"
+msgid "Exposed to {Sickness} Germs"
+msgstr "Exposto a Germes de {Sickness}"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.TOOLTIP"
+msgid ""
+"This Duplicant has been exposed to a concentration of {Sickness} Germs and "
+"is at risk of waking up sick on their next shift."
+msgstr ""
+"Este Duplicante foi exposto a uma certa concentração de Germes de {Sickness} "
+"e corre o risco de acordar doente em seu próximo turno."
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.FABRICATEDELIVERSTATUS.NAME"
@@ -29542,8 +29483,6 @@ msgstr ""
 "outros irritantes"
 
 #. STRINGS.DUPLICANTS.TRAITS.ALLERGIES.NAME
-#| msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.GEORGIE"
-#| msgid "Georgie"
 msgctxt "STRINGS.DUPLICANTS.TRAITS.ALLERGIES.NAME"
 msgid "Allergies"
 msgstr "Alergias"
@@ -34459,8 +34398,8 @@ msgstr "Um médico administrou a cura para males severos."
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.NAME
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.NAME"
-msgid "Advanced Cure"
-msgstr "Cura Avançada"
+msgid "Medicine Vial"
+msgstr "Elixir Medicamentoso"
 
 #. STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.RECIPEDESC"
@@ -34469,12 +34408,10 @@ msgstr "Um médico administrou a cura para males severos."
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.DESC"
-msgid "Surpresses and prevents allergic reactions"
-msgstr "Suprime e previne reações alérgicas"
+msgid "Surpresses and prevents allergic reactions."
+msgstr "Suprime e previne reações alérgicas."
 
 #. STRINGS.ITEMS.PILLS.ANTIHISTAMINE.NAME
-#| msgctxt "STRINGS.UI.DEBUG_TOOLS.SAVE_BASE_TEMPLATE.CLEAR_SELECTION_BUTTON"
-#| msgid "Clear Selection"
 msgctxt "STRINGS.ITEMS.PILLS.ANTIHISTAMINE.NAME"
 msgid "Allergy Medication"
 msgstr "Medicação para Alergia"
@@ -34490,22 +34427,22 @@ msgstr ""
 
 #. STRINGS.ITEMS.PILLS.BASICBOOSTER.DESC
 msgctxt "STRINGS.ITEMS.PILLS.BASICBOOSTER.DESC"
-msgid "Reduces the change of becoming sick."
-msgstr "Reduz a chance de ficar doente."
+msgid "Minorly reduces the chance of becoming sick."
+msgstr "Reduz um pouco a chance de ficar doente."
 
 #. STRINGS.ITEMS.PILLS.BASICBOOSTER.NAME
 msgctxt "STRINGS.ITEMS.PILLS.BASICBOOSTER.NAME"
-msgid "Basic Booster"
-msgstr "Impulsionador Básico"
+msgid "Vitamin Chews"
+msgstr "Pastilha Vitamínica"
 
 #. STRINGS.ITEMS.PILLS.BASICBOOSTER.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.BASICBOOSTER.RECIPEDESC"
 msgid ""
-"Duplicants can take this daily suppliment to reduce the chance of "
-"contracting germ-based diseases."
+"A supplement that minorly reduces the chance of contracting a germ-based "
+"<link=\"DISEASE\">Disease</link> when taken daily."
 msgstr ""
-"Duplicantes podem tomar este suplemento diário para reduzir a chance de "
-"contrair doenças baseadas em germes."
+"Um suplemento que reduz a chance de contrair uma <link=\"DISEASE\">Doença</"
+"link> causada por germes quando tomada diariamente."
 
 #. STRINGS.ITEMS.PILLS.BASICCURE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.DESC"
@@ -34514,35 +34451,38 @@ msgstr "Um remédio simples para doenças de germes de severidade mínima."
 
 #. STRINGS.ITEMS.PILLS.BASICCURE.NAME
 msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.NAME"
-msgid "Basic Cure"
-msgstr "Cura Básica"
+msgid "Curative Tablet"
+msgstr "Cápsulas Curativas"
 
 #. STRINGS.ITEMS.PILLS.BASICCURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.RECIPEDESC"
 msgid ""
-"Duplicants can take this to cure themselves of minor germ-based diseases."
+"Duplicants can take this to cure themselves of minor germ-based <link="
+"\"DISEASE\">Diseases</link>."
 msgstr ""
-"Duplicantes podem tomar isso para se curarem de doenças relacionadas a "
-"germes de menor severidade."
+"Duplicantes podem tomar isso para se curarem de <link=\"DISEASE\">Doenças</"
+"link> relacionadas a germes de menor severidade."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.DESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.DESC"
-msgid "Reduces the change of becoming sick."
-msgstr "Reduz a chance de ficar doente."
+msgid "Significantly reduces the chance of becoming sick."
+msgstr "Reduz significativamente a chance de ficar doente."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME
+#| msgctxt "STRINGS.UI.VITALSSCREEN.IMMUNITY"
+#| msgid "Immune System"
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME"
-msgid "Intermediate Booster"
-msgstr "Impulsionador Intermediário"
+msgid "Immuno Booster"
+msgstr "Impulsionador Biológico"
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.RECIPEDESC"
 msgid ""
-"Duplicants can take this daily suppliment to reduce the chance of "
-"contracting germ-based diseases."
+"A powerful supplement that significantly reduces the chance of contracting a "
+"germ-based <link=\"DISEASE\">Disease</link> when taken daily."
 msgstr ""
-"Duplicantes podem tomar este suplemento diário para reduzir a chance de "
-"contrair doenças relacionadas a germes."
+"Um suplemento poderoso que reduz significativamente a chance de contrair uma "
+"<link=\"DISEASE\">Doença</link> causada por germes quando tomada diariamente."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.DESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.DESC"
@@ -34550,13 +34490,15 @@ msgid "A doctor administered cure for moderate ailments."
 msgstr "Um médico administrou a cura para males moderados."
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME
+#| msgctxt "STRINGS.MISC.TAGS.MEDICINE"
+#| msgid "Medicine"
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME"
-msgid "Intermediate Cure"
-msgstr "Cura Intermediária"
+msgid "Medicine Pack"
+msgstr "Pacote de Medicamentos"
 
 #. STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC
 msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC"
-msgid "A doctor administered cure for severe ailments."
+msgid "A doctor administered cure for moderate ailments."
 msgstr "Um médico administrou a cura para males moderados."
 
 #. STRINGS.ITEMS.PILLS.PLACEBO.DESC
@@ -34579,25 +34521,6 @@ msgstr "Placebo"
 msgctxt "STRINGS.ITEMS.PILLS.PLACEBO.RECIPEDESC"
 msgid "All-purpose <link=\"MEDICINE\">Medicine</link>."
 msgstr "<link=\"MEDICINE\">Remédio</link> pra tudo."
-
-#. STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.DESC
-msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.DESC"
-msgid ""
-"A health Supplement for improving <link=\"DISEASE\">Immune System</link> "
-"strength."
-msgstr ""
-"Um Suplemento médico para aumentar a força do <link=\"DISEASE\">Sistema "
-"Imune</link>."
-
-#. STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.NAME
-msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.NAME"
-msgid "Vitamin Chews"
-msgstr "Suplemento Vitamínico"
-
-#. STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.RECIPEDESC
-msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.RECIPEDESC"
-msgid "Improves <link=\"DISEASE\">Immune System</link> strength."
-msgstr "Aumenta a força do <link=\"DISEASE\">Sistema Imune</link>."
 
 #. STRINGS.LORE.BUILDINGS.Desk.ENTRY
 msgctxt "STRINGS.LORE.BUILDINGS.Desk.ENTRY"
@@ -35490,8 +35413,6 @@ msgstr ""
 "As seguintes estruturas não podem ser construídas nas áreas planejadas:\n"
 
 #. STRINGS.MISC.NOTIFICATIONS.LEVELUP.NAME
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.NAME"
-#| msgid "Skill increase"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.LEVELUP.NAME"
 msgid "Attribute increase"
 msgstr "Aumento de atributo"
@@ -43994,7 +43915,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.12.1)"
+"- Traduzido por Chastomber :P (1.12.2)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -44008,8 +43929,8 @@ msgstr "<b>Bem vindo à Oxygen Not Included!</b>"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.ANIMATION_HEADER
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.ANIMATION_HEADER"
-msgid "WATCH THE ANIMATED SHORT!"
-msgstr "ASSISTA O CURTA ANIMADO!"
+msgid "LAUNCH DATE ANNOUNCEMENT!"
+msgstr "ANÚNCIO DA DATA DE LANÇAMENTO!"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.BODY
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.BODY"
@@ -44986,8 +44907,8 @@ msgstr "Afeta o que pode ser impresso pela Duplicadora"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "COMPROMISED.ATTRIBUTE_MODIFIER_NAME"
-msgid "Vulnerable Immune System"
-msgstr "Sistema Imune Vulnerável"
+msgid "Very Low Germ Resistance"
+msgstr "Baixíssima Resistência a Germes"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.COMPROMISED.NAME
 msgctxt ""
@@ -45014,22 +44935,22 @@ msgstr "Regular"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "DEFAULT.TOOLTIP"
-msgid "Duplicants regain immunity normally"
-msgstr "Duplicantes ganham imunidade normalmente"
+msgid "Duplicants have normal germ resistance"
+msgstr "Duplicantes possuem resistência normal à germes"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.ATTRIBUTE_MODIFIER_NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "INVINCIBLE.ATTRIBUTE_MODIFIER_NAME"
-msgid "Impervious Immune System"
-msgstr "Sistema Imunológico Impenetrável"
+msgid "Total Germ Resistence"
+msgstr "Resistência Total a Germes"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "INVINCIBLE.NAME"
-msgid "None"
-msgstr "Nenhum"
+msgid "Perfect"
+msgstr "Perfeito"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.INVINCIBLE.TOOLTIP
 msgctxt ""
@@ -45042,8 +44963,8 @@ msgstr "Duplicantes nunca irão pegar doenças relacionadas a germes"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "STRONG.ATTRIBUTE_MODIFIER_NAME"
-msgid "Strong Immune System"
-msgstr "Sistema Imune Forte"
+msgid "High Germ Resistence"
+msgstr "Alta Resistência a Germes"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.STRONG.NAME
 msgctxt ""
@@ -45056,15 +44977,15 @@ msgstr "Forte"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "STRONG.TOOLTIP"
-msgid "Duplicants have increased immune recovery"
-msgstr "Duplicantes possuem uma recuperação de imunidade aumentada"
+msgid "Duplicants have increased germ resistance"
+msgstr "Duplicantes possuem uma resistência à germes aumentada"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.ATTRIBUTE_MODIFIER_NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "WEAK.ATTRIBUTE_MODIFIER_NAME"
-msgid "Weak Immune System"
-msgstr "Sistema Imune Fraco"
+msgid "Low Germ Resistance"
+msgstr "Baixa Resistência a Germes"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS.WEAK.NAME
 msgctxt ""
@@ -45077,14 +44998,14 @@ msgstr "Fraco"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
 "WEAK.TOOLTIP"
-msgid "Duplicants have reduced immune recovery"
-msgstr "Duplicantes possuem uma recuperação de imunidade reduzida"
+msgid "Duplicants have decreased germ resistance"
+msgstr "Duplicantes possuem uma resistência a germes diminuída"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.NAME"
-msgid "Immune Systems"
-msgstr "Sistema Imune"
+msgid "Germ Resistance"
+msgstr "Resistência a Germes"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.TOOLTIP
 msgctxt ""
@@ -45800,29 +45721,21 @@ msgstr ""
 "Jogo ficará instável até lá."
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.RESTART_LATER
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.CONTAGIOUS"
-#| msgid "Contagious"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.RESTART_LATER"
 msgid "Continue"
 msgstr "Continuar"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.RESTART_NOW
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RESTDUETODISEASE.NAME"
-#| msgid "Rest"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.RESTART_NOW"
 msgid "Restart"
 msgstr "Reiniciar"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.TITLE
-#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.TITLE"
-#| msgid "LOAD GAME"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.LOAD_FAILURE.TITLE"
 msgid "LOAD FAILURE"
 msgstr "FALHA NO CARREGAMENTO"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_CONTINUE
-#| msgctxt "STRINGS.UI.CRAFT_CONTINUOUS"
-#| msgid "CONTINUOUS"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.MOD_ERRORS_ON_BOOT.DEV_CONTINUE"
 msgid "CONTINUE"
 msgstr "CONTINUAR"
@@ -45890,8 +45803,6 @@ msgid "MODS CHANGED"
 msgstr "MUDANÇAS DE MOD"
 
 #. STRINGS.UI.FRONTEND.MOD_DIALOGS.RESTART.CANCEL
-#| msgctxt "STRINGS.UI.CRAFT_CONTINUOUS"
-#| msgid "CONTINUOUS"
 msgctxt "STRINGS.UI.FRONTEND.MOD_DIALOGS.RESTART.CANCEL"
 msgid "CONTINUE"
 msgstr "CONTINUAR"
@@ -46037,15 +45948,11 @@ msgid "This mod needs to be disabled"
 msgstr "Este mod precisa ser desativado"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.EXPECTED_ENABLED
-#| msgctxt "STRINGS.UI.UISIDESCREENS.ASSIGNABLESIDESCREEN.NEEDSREGION"
-#| msgid "This {0} needs to be inside a {1} region"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.EXPECTED_ENABLED"
 msgid "This mod needs to be enabled"
 msgstr "Este mod precisa ser ativado"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.INSTALL_FAILED
-#| msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.INSTALLED"
-#| msgid "Installed"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.INSTALL_FAILED"
 msgid "Installation failed"
 msgstr "Instalação mal sucedida"
@@ -46056,15 +45963,11 @@ msgid "Mod files are inaccessible"
 msgstr "Arquivos de mod estão inacessíveis"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.INSTALLED
-#| msgctxt "STRINGS.UI.STARMAP.DESTINATIONSELECTION.REACHABLE"
-#| msgid "Destination selected"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.INSTALLED"
 msgid "Installation succeeded"
 msgstr "Instalação bem sucedida"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.NOT_FOUND
-#| msgctxt "STRINGS.DUPLICANTS.GENDER.MALE.TOOLTIP"
-#| msgid "This Duplicant is male"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.NOT_FOUND"
 msgid "This mod isn't installed"
 msgstr "Este mod não está instalado"
@@ -46073,7 +45976,7 @@ msgstr "Este mod não está instalado"
 #, fuzzy
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.OUT_OF_ORDER"
 msgid "Active mod has changed order with respect to some other active mod"
-msgstr "Mod trocou de posição com outro mod ativado"
+msgstr "Mod Ativo trocou de posição devido a outro mod ativado"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.REQUIRED
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.REQUIRED"
@@ -46084,15 +45987,11 @@ msgstr ""
 "podem acontecer!"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.UNINSTALLED
-#| msgctxt "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.UNINSTALL"
-#| msgid "Uninstall"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.UNINSTALLED"
 msgid "Uninstalled"
 msgstr "Desinstalado"
 
 #. STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.VERSION_UPDATE
-#| msgctxt "STRINGS.UI.STARMAP.NO_ANALYZABLE_DESTINATION_SELECTED"
-#| msgid "No destination selected"
 msgctxt "STRINGS.UI.FRONTEND.MOD_EVENTS.TOOLTIPS.VERSION_UPDATE"
 msgid "New version detected"
 msgstr "Nova versão detectada"
@@ -46202,8 +46101,6 @@ msgid "Enabled"
 msgstr "Ativado"
 
 #. STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_LOCAL_MOD
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MANAGEDCOLONY.NAME"
-#| msgid "Managed Colony"
 msgctxt "STRINGS.UI.FRONTEND.MODS.TOOLTIPS.MANAGE_LOCAL_MOD"
 msgid "Manage Local Mod"
 msgstr "Gerenciar Mod Local"
@@ -46350,11 +46247,11 @@ msgstr "Chave de Geração do Mundo"
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.BODY"
 msgid ""
-"<b>Welcome to the Quality of Life Upgrade Mk II!!</b>\n"
+"<b>Welcome to the Quality of Life Upgrade Mk III!!</b>\n"
 "\n"
 "{0}"
 msgstr ""
-"<b>Bem-vindo a Atualização Qualidade de Vida Marco II!!</b>\n"
+"<b>Bem-vindo a Atualização Qualidade de Vida Marco III!!</b>\n"
 "\n"
 "{0}"
 
@@ -46368,9 +46265,10 @@ msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.PATCHNOTES"
 msgid ""
 "<b>Update Features:</b>\n"
 "\n"
-"• New UI tools for displaying and managing Duplicant priorities\n"
-"• New artifacts can be retrieved from Space expeditions\n"
-"• Printing Pod can now print objects other than Duplicants\n"
+"• Major disease rebalance focused on more regular and manageable sickness\n"
+"• Skills system replaces the Jobs system\n"
+"• New buildings, overlays, diseases, a new plant, and a Steam Turbine "
+"rebuild\n"
 "• Many, many bug fixes, optimizations, polish passes, updated animations and "
 "more!\n"
 "\n"
@@ -46378,10 +46276,11 @@ msgid ""
 msgstr ""
 "<b>Recursos da Atualização:</b>\n"
 "\n"
-"• Novas ferramentas de interface para mostrar e gerenciar prioridades dos "
-"Duplicantes\n"
-"• Novos artefatos podem ser recuperados por meio de expedições espaciais\n"
-"• A Duplicadora pode agora imprimir mais objetos do que Duplicantes\n"
+"• Mudanças no sistema de doenças com foco em doenças vai frequentes e "
+"controláveis\n"
+"• Sistema de Habilidades substitui o sistema de Trabalhos\n"
+"• Novos painéis, estruturas, doenças, uma nova planta e uma atualização na "
+"Turbina à Vapor\n"
 "• Muitas, muitas correções de erros, otimizações, animações atualizadas e "
 "mais!\n"
 "\n"
@@ -46389,8 +46288,8 @@ msgstr ""
 
 #. STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE
 msgctxt "STRINGS.UI.FRONTEND.PATCHNOTESSCREEN.TITLE"
-msgid "QUALITY OF LIFE UPGRADE MK II"
-msgstr "ATUALIZAÃO QUALIDADE DE VIDA MARCO II"
+msgid "QUALITY OF LIFE UPGRADE MK III"
+msgstr "ATUALIZAÇÃO QUALIDADE DE VIDA MARCO III"
 
 #. STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT
 msgctxt "STRINGS.UI.FRONTEND.PAUSE_SCREEN.DESKTOPQUIT"
@@ -47794,10 +47693,6 @@ msgid "The Input"
 msgstr "A Entrada"
 
 #. STRINGS.UI.LOGIC_PORTS.INPUT_PORT_TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SKINBORNE"
-#| msgid ""
-#| "Contracted via touch\n"
-#| "------------------"
 msgctxt "STRINGS.UI.LOGIC_PORTS.INPUT_PORT_TOOLTIP"
 msgid ""
 "Input Behaviour:\n"
@@ -47825,10 +47720,6 @@ msgstr ""
 "sinal é recebido"
 
 #. STRINGS.UI.LOGIC_PORTS.OUTPUT_PORT_TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.DESCRIPTORS.INFO.SKINBORNE"
-#| msgid ""
-#| "Contracted via touch\n"
-#| "------------------"
 msgctxt "STRINGS.UI.LOGIC_PORTS.OUTPUT_PORT_TOOLTIP"
 msgid ""
 "Output Behaviour:\n"
@@ -50734,8 +50625,6 @@ msgid "<link=\"ADVANCEDRESEARCHCENTER\">Super Computer</link> Usage"
 msgstr "Uso de <link=\"ADVANCEDRESEARCHCENTER\">Super Computador</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ATTRIBUTE_EFFECT_FMT
-#| msgctxt "STRINGS.UI.UISIDESCREENS.REFINERYSIDESCREEN.RECIPE_FROM_TO"
-#| msgid "{0} to {1}"
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ATTRIBUTE_EFFECT_FMT"
 msgid "{0} to {1}"
 msgstr "{0} para {1}"
@@ -51737,8 +51626,6 @@ msgid "<b>Morale expectation</b>"
 msgstr "<b>Expectativa de moral</b>"
 
 #. STRINGS.UI.SKILLS_SCREEN.NOT_AVAILABLE
-#| msgctxt "STRINGS.UI.ROLES_SCREEN.SLOTS.NOSLOTS"
-#| msgid "No slots available"
 msgctxt "STRINGS.UI.SKILLS_SCREEN.NOT_AVAILABLE"
 msgid "Not available"
 msgstr "Indisponível"
@@ -53188,8 +53075,6 @@ msgid "Extract pipe contents {Hotkey}"
 msgstr "Extrai conteúdos de canos e tubos {Hotkey}"
 
 #. STRINGS.UI.TOOLS.FILTER_HOVERCARD_HEADER
-#| msgctxt "STRINGS.UI.TOOLS.GENERIC.LOGIC_INPUT_HOVER_FMT"
-#| msgid "INPUT: {Port}    <style=\"hovercard_element\">({Name})</style>"
 msgctxt "STRINGS.UI.TOOLS.FILTER_HOVERCARD_HEADER"
 msgid "   <style=\"hovercard_element\">({0})</style>"
 msgstr ""
@@ -53991,8 +53876,6 @@ msgid "Population: {0}"
 msgstr "População: {0}"
 
 #. STRINGS.UI.TOOLTIPS.METERSCREEN_SICK_DUPES
-#| msgctxt "STRINGS.UI.SKILLS_SCREEN.SORT_BY_DUPLICANT"
-#| msgid "Duplicants"
 msgctxt "STRINGS.UI.TOOLTIPS.METERSCREEN_SICK_DUPES"
 msgid "Sick Duplicants: {0}"
 msgstr "Duplicantes Doentes: {0}"
@@ -57448,8 +57331,6 @@ msgid "Diseases"
 msgstr "Doenças"
 
 #. STRINGS.UI.VITALSSCREEN.SICKNESS_REMAINING
-#| msgctxt "STRINGS.UI.DETAILTABS.DETAILS.CONTENTS_TEMPERATURE"
-#| msgid "{0} at {1}"
 msgctxt "STRINGS.UI.VITALSSCREEN.SICKNESS_REMAINING"
 msgid "{0} ({1})"
 msgstr ""
@@ -58044,6 +57925,129 @@ msgctxt "STRINGS.UI.WORLDGEN.WORLDLAYOUT9"
 msgid "Sprinkling sand..."
 msgstr "Espalhando areia..."
 
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_BASICBOOSTER.NAME"
+#~ msgid "Basic Booster"
+#~ msgstr "Impulsionador Básico"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_INTERMEDIATEBOOSTER.NAME"
+#~ msgid "Intermediate Booster"
+#~ msgstr "Impulsionador Intermediário"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_VITAMINSUPPLEMENT.NAME"
+#~ msgid "Vitamin Supplement"
+#~ msgstr "Suplemento Vitamínico"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MEDICINE_VITAMINSUPPLEMENT.TOOLTIP"
+#~ msgid ""
+#~ "A health Supplement for improving <link=\"DISEASE\">Immune System</link> "
+#~ "strength."
+#~ msgstr ""
+#~ "Um suplemento médico para aumentar a força do <link=\"DISEASE\">Sistema "
+#~ "Imune</link>."
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.ADVANCEDCURE.NAME"
+#~ msgid "Advanced Cure"
+#~ msgstr "Cura Avançada"
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.BASICBOOSTER.NAME"
+#~ msgid "Basic Booster"
+#~ msgstr "Impulsionador Básico"
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.BASICBOOSTER.RECIPEDESC"
+#~ msgid ""
+#~ "Duplicants can take this daily suppliment to reduce the chance of "
+#~ "contracting germ-based diseases."
+#~ msgstr ""
+#~ "Duplicantes podem tomar este suplemento diário para reduzir a chance de "
+#~ "contrair doenças baseadas em germes."
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.BASICCURE.NAME"
+#~ msgid "Basic Cure"
+#~ msgstr "Cura Básica"
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.NAME"
+#~ msgid "Intermediate Booster"
+#~ msgstr "Impulsionador Intermediário"
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATEBOOSTER.RECIPEDESC"
+#~ msgid ""
+#~ "Duplicants can take this daily suppliment to reduce the chance of "
+#~ "contracting germ-based diseases."
+#~ msgstr ""
+#~ "Duplicantes podem tomar este suplemento diário para reduzir a chance de "
+#~ "contrair doenças relacionadas a germes."
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.NAME"
+#~ msgid "Intermediate Cure"
+#~ msgstr "Cura Intermediária"
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.INTERMEDIATECURE.RECIPEDESC"
+#~ msgid "A doctor administered cure for severe ailments."
+#~ msgstr "Um médico administrou a cura para males moderados."
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.DESC"
+#~ msgid ""
+#~ "A health Supplement for improving <link=\"DISEASE\">Immune System</link> "
+#~ "strength."
+#~ msgstr ""
+#~ "Um Suplemento médico para aumentar a força do <link=\"DISEASE\">Sistema "
+#~ "Imune</link>."
+
+#~ msgctxt "STRINGS.ITEMS.PILLS.VITAMINSUPPLEMENT.RECIPEDESC"
+#~ msgid "Improves <link=\"DISEASE\">Immune System</link> strength."
+#~ msgstr "Aumenta a força do <link=\"DISEASE\">Sistema Imune</link>."
+
+#~ msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.ANIMATION_HEADER"
+#~ msgid "WATCH THE ANIMATED SHORT!"
+#~ msgstr "ASSISTA O CURTA ANIMADO!"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#~ "COMPROMISED.ATTRIBUTE_MODIFIER_NAME"
+#~ msgid "Vulnerable Immune System"
+#~ msgstr "Sistema Imune Vulnerável"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#~ "DEFAULT.TOOLTIP"
+#~ msgid "Duplicants regain immunity normally"
+#~ msgstr "Duplicantes ganham imunidade normalmente"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#~ "INVINCIBLE.ATTRIBUTE_MODIFIER_NAME"
+#~ msgid "Impervious Immune System"
+#~ msgstr "Sistema Imunológico Impenetrável"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#~ "INVINCIBLE.NAME"
+#~ msgid "None"
+#~ msgstr "Nenhum"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#~ "STRONG.ATTRIBUTE_MODIFIER_NAME"
+#~ msgid "Strong Immune System"
+#~ msgstr "Sistema Imune Forte"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#~ "WEAK.ATTRIBUTE_MODIFIER_NAME"
+#~ msgid "Weak Immune System"
+#~ msgstr "Sistema Imune Fraco"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.LEVELS."
+#~ "WEAK.TOOLTIP"
+#~ msgid "Duplicants have reduced immune recovery"
+#~ msgstr "Duplicantes possuem uma recuperação de imunidade reduzida"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.IMMUNESYSTEM.NAME"
+#~ msgid "Immune Systems"
+#~ msgstr "Sistema Imune"
+
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYSMART.LOGIC_PORT"
 #~ msgid "Charge Above Threshold"
 #~ msgstr "Carga Acima do Limite"
@@ -58525,10 +58529,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TITLE"
 #~ msgid "Critter Sensor"
 #~ msgstr "Sensor de Criaturas"
-
-#~ msgctxt "STRINGS.UI.VITALSSCREEN.IMMUNITY"
-#~ msgid "Immune System"
-#~ msgstr "Sistema Imune"
 
 #~ msgctxt "STRINGS.UI.VITALSSCREEN_IMMUNITY"
 #~ msgid "Immune System"
