@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.6.0\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.6.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.0.8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Flags-xgettext: --add-comments\n"
 "X-Poedit-Basepath: .\n"
@@ -4836,10 +4836,6 @@ msgid "<link=\"INSULATIONWALL\">Insulation</link>"
 msgstr "<link=\"INSULATIONWALL\">Isolamento</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.KILN.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.HYDROGENGENERATOR.EFFECT"
-#| msgid ""
-#| "Converts <link=\"HYDROGEN\">Hydrogen</link> into electrical <link=\"POWER"
-#| "\">Power</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.KILN.DESC"
 msgid "Converts <link=\"CLAY\">Clay</link> to <link=\"CERAMIC\">Ceramic</link>"
 msgstr ""
@@ -9057,8 +9053,6 @@ msgid "Incubating"
 msgstr "Incubando"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATING.TOOLTIP
-#| msgctxt "STRINGS.MISC.STATUSITEMS.SPOUTEMITTING.TOOLTIP"
-#| msgid "This geyser is erupting"
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATING.TOOLTIP"
 msgid "This egg is incubating"
 msgstr "Este ovo está incubando"
@@ -9074,8 +9068,6 @@ msgid "Environmental conditions are keeping this egg from incubating"
 msgstr "Condições ambientais estão impedindo este ovo de incubar"
 
 #. STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.NAME
-#| msgctxt "STRINGS.NAMEGEN.COLONY.ADJECTIVE.SERENE"
-#| msgid "Serene"
 msgctxt "STRINGS.CREATURES.MODIFIERS.INCUBATOR_SONG.NAME"
 msgid "Serenaded"
 msgstr "Serenada"
@@ -9126,10 +9118,9 @@ msgid "This critter has recently been attended to by a Rancher"
 msgstr "Esta criatura foi recentemente cuidada por um Fazendeiro"
 
 #. STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME
-#, fuzzy
 msgctxt "STRINGS.CREATURES.MODIFIERS.SCALE_GROWTH_RATE.NAME"
 msgid "Scale Regrowth Rate"
-msgstr "Taxa de Crescimento de Escamas"
+msgstr "Taxa de Reposição de Escamas"
 
 #. STRINGS.CREATURES.MODIFIERS.TAME.NAME
 msgctxt "STRINGS.CREATURES.MODIFIERS.TAME.NAME"
@@ -11072,7 +11063,6 @@ msgid "Scale Growth"
 msgstr "Crescimento de Escamas"
 
 #. STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP"
 msgid ""
 "Scale Growth\n"
@@ -11081,7 +11071,7 @@ msgid ""
 msgstr ""
 "Crescimento de Escamas\n"
 "------------------\n"
-"O tempo restante para as escamas dessa criatura crescerem novamente"
+"A quantidade de tempo necessária para essa criatura refazer suas escamas"
 
 #. STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.NAME
 msgctxt "STRINGS.CREATURES.STATS.THERMALCONDUCTIVITYBARRIER.NAME"
@@ -11383,7 +11373,6 @@ msgid "Digesting"
 msgstr "Digerindo"
 
 #. STRINGS.CREATURES.STATUSITEMS.DIGESTING.TOOLTIP
-#, fuzzy
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DIGESTING.TOOLTIP"
 msgid "This critter is working off a big meal"
 msgstr "Esta criatura está fazendo sua digestão"
@@ -12048,7 +12037,6 @@ msgid "Microbe destroying conditions are preventing this food from decaying"
 msgstr "Condições antimicrobianas estão impedindo esta comida de estragar"
 
 #. STRINGS.CREATURES.STATUSITEMS.STRUGGLING.NAME
-#, fuzzy
 msgctxt "STRINGS.CREATURES.STATUSITEMS.STRUGGLING.NAME"
 msgid "Struggling"
 msgstr "Tentando libertar-se"
@@ -12831,20 +12819,11 @@ msgid "Scalding Threshold"
 msgstr "Temperatura de Queima"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.NAME"
-#| msgid "Scale Growth"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.NAME"
 msgid "Scale Growth"
 msgstr "Crescimento de Escamas"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP
-#, fuzzy
-#| msgctxt "STRINGS.CREATURES.STATS.SCALEGROWTH.TOOLTIP"
-#| msgid ""
-#| "Scale Growth\n"
-#| "------------------\n"
-#| "How long until this creatures scales will grow back."
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.SCALEGROWTHDELTA.TOOLTIP"
 msgid ""
 "Scale Growth\n"
@@ -14391,8 +14370,6 @@ msgid "Ho-hum."
 msgstr "Hm-hm."
 
 #. STRINGS.DUPLICANTS.CHORES.SINGTOEGG.NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
-#| msgid "Shine Nymph Egg"
 msgctxt "STRINGS.DUPLICANTS.CHORES.SINGTOEGG.NAME"
 msgid "Sing To Egg"
 msgstr "Cantar para Ovo"
@@ -17099,7 +17076,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.ABE.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ABE.NAME"
 msgid "Abe"
-msgstr "Abe"
+msgstr "André"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.ADA.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ADA.DESC"
@@ -17110,7 +17087,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.ADA.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ADA.NAME"
 msgid "Ada"
-msgstr "Ada"
+msgstr "Ana"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.ARI.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ARI.DESC"
@@ -17124,7 +17101,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.ARI.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ARI.NAME"
 msgid "Ari"
-msgstr "Ari"
+msgstr "Ariel"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.ASHKAN.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ASHKAN.DESC"
@@ -17135,7 +17112,7 @@ msgstr "{0}s têm o que pode ser descrito como uma \"risada contagiosa\"."
 #. STRINGS.DUPLICANTS.PERSONALITIES.ASHKAN.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ASHKAN.NAME"
 msgid "Ashkan"
-msgstr "Ashkan"
+msgstr "Átila"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BANHI.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BANHI.DESC"
@@ -17149,7 +17126,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.BANHI.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BANHI.NAME"
 msgid "Banhi"
-msgstr "Banhi"
+msgstr "Bela"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.DESC"
@@ -17163,7 +17140,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BUBBLES.NAME"
 msgid "Bubbles"
-msgstr "Bubbles"
+msgstr "Bárbara"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.BURT.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BURT.DESC"
@@ -17173,7 +17150,7 @@ msgstr "Todo {0} tem mãos suadas. Deve ser genético."
 #. STRINGS.DUPLICANTS.PERSONALITIES.BURT.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.BURT.NAME"
 msgid "Burt"
-msgstr "Burt"
+msgstr "Breno"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.CAMILLE.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.CAMILLE.DESC"
@@ -17187,7 +17164,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.CAMILLE.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.CAMILLE.NAME"
 msgid "Camille"
-msgstr "Camille"
+msgstr "Camile"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.CATALINA.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.CATALINA.DESC"
@@ -17201,7 +17178,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.CATALINA.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.CATALINA.NAME"
 msgid "Catalina"
-msgstr "Catalina"
+msgstr "Catarina"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.DEVON.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.DEVON.DESC"
@@ -17215,7 +17192,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.DEVON.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.DEVON.NAME"
 msgid "Devon"
-msgstr "Devon"
+msgstr "Darci"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.ELLIE.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ELLIE.DESC"
@@ -17242,7 +17219,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.FRANKIE.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.FRANKIE.NAME"
 msgid "Frankie"
-msgstr "Frankie"
+msgstr "Fênix"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.GOSSMANN.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.GOSSMANN.DESC"
@@ -17252,7 +17229,7 @@ msgstr "{0}s são os grandes palhaços que conseguem fazer qualquer um rir."
 #. STRINGS.DUPLICANTS.PERSONALITIES.GOSSMANN.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.GOSSMANN.NAME"
 msgid "Gossmann"
-msgstr "Gossmann"
+msgstr "Galadriel"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.DESC"
@@ -17262,7 +17239,7 @@ msgstr "Este {0} é totalmente consciente dos longos dedões do meio."
 #. STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.HAROLD.NAME"
 msgid "Harold"
-msgstr "Harold"
+msgstr "Haroldo"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.HASSAN.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.HASSAN.DESC"
@@ -17276,7 +17253,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.HASSAN.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.HASSAN.NAME"
 msgid "Hassan"
-msgstr "Hassan"
+msgstr "Hugo"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.JEAN.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.JEAN.DESC"
@@ -17304,7 +17281,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.JOSHUA.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.JOSHUA.NAME"
 msgid "Joshua"
-msgstr "Joshua"
+msgstr "Josué"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.LEIRA.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LEIRA.DESC"
@@ -17314,7 +17291,7 @@ msgstr "{0}s só querem que todo mundo seja feliz."
 #. STRINGS.DUPLICANTS.PERSONALITIES.LEIRA.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LEIRA.NAME"
 msgid "Leira"
-msgstr "Leira"
+msgstr "Lara"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.LIAM.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LIAM.DESC"
@@ -17324,7 +17301,7 @@ msgstr "Não importa o quanto este {0} tente, ele nunca vai sentir-se limpo."
 #. STRINGS.DUPLICANTS.PERSONALITIES.LIAM.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LIAM.NAME"
 msgid "Liam"
-msgstr "Liam"
+msgstr "Luan"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.DESC"
@@ -17338,7 +17315,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.LINDSAY.NAME"
 msgid "Lindsay"
-msgstr "Lindsay"
+msgstr "Larissa"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.MAE.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MAE.DESC"
@@ -17349,7 +17326,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.MAE.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MAE.NAME"
 msgid "Mae"
-msgstr "Mae"
+msgstr "Maya"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.MARIE.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MARIE.DESC"
@@ -17363,7 +17340,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.MARIE.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MARIE.NAME"
 msgid "Marie"
-msgstr "Marie"
+msgstr "Maria"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.MAX.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MAX.DESC"
@@ -17387,7 +17364,7 @@ msgstr "{0}s possuem um rosto que só uma Duplicadora poderia amar."
 #. STRINGS.DUPLICANTS.PERSONALITIES.MEEP.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MEEP.NAME"
 msgid "Meep"
-msgstr "Meep"
+msgstr "Niko"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.MIMA.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MIMA.DESC"
@@ -17397,7 +17374,7 @@ msgstr "Esta {0} odeia ter que olhar na altura do joelho dos outros."
 #. STRINGS.DUPLICANTS.PERSONALITIES.MIMA.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.MIMA.NAME"
 msgid "Mi-Ma"
-msgstr "Mi-Ma"
+msgstr "Jemima"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.NAILS.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.NAILS.DESC"
@@ -17426,7 +17403,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.NIKOLA.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.NIKOLA.NAME"
 msgid "Nikola"
-msgstr "Nikola"
+msgstr "Nicolas"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.NISBET.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.NISBET.DESC"
@@ -17440,7 +17417,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.NISBET.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.NISBET.NAME"
 msgid "Nisbet"
-msgstr "Nisbet"
+msgstr "Nayane"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.OTTO.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.OTTO.DESC"
@@ -17454,7 +17431,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.OTTO.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.OTTO.NAME"
 msgid "Otto"
-msgstr "Otto"
+msgstr "Otávio"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.REN.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.REN.DESC"
@@ -17468,7 +17445,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.REN.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.REN.NAME"
 msgid "Ren"
-msgstr "Ren"
+msgstr "Renan"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.ROWAN.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ROWAN.DESC"
@@ -17482,7 +17459,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.ROWAN.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.ROWAN.NAME"
 msgid "Rowan"
-msgstr "Rowan"
+msgstr "Ruacir"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.RUBY.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.RUBY.DESC"
@@ -17496,7 +17473,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.RUBY.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.RUBY.NAME"
 msgid "Ruby"
-msgstr "Ruby"
+msgstr "Rubi"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.STINKY.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.STINKY.DESC"
@@ -17510,7 +17487,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.STINKY.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.STINKY.NAME"
 msgid "Stinky"
-msgstr "Stinky"
+msgstr "Catinga"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.TRAVALDO.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TRAVALDO.DESC"
@@ -17524,7 +17501,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.TRAVALDO.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TRAVALDO.NAME"
 msgid "Travaldo"
-msgstr "Travaldo"
+msgstr "Tales"
 
 #. STRINGS.DUPLICANTS.PERSONALITIES.TURNER.DESC
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TURNER.DESC"
@@ -17538,7 +17515,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.PERSONALITIES.TURNER.NAME
 msgctxt "STRINGS.DUPLICANTS.PERSONALITIES.TURNER.NAME"
 msgid "Turner"
-msgstr "Turner"
+msgstr "Túlio"
 
 #. STRINGS.DUPLICANTS.RACE
 msgctxt "STRINGS.DUPLICANTS.RACE"
@@ -22142,8 +22119,6 @@ msgstr ""
 "É útil como um Meio de Filtração."
 
 #. STRINGS.ELEMENTS.REGOLITH.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.NAME"
-#| msgid "<link=\"HEALTH\">Health</link>"
 msgctxt "STRINGS.ELEMENTS.REGOLITH.NAME"
 msgid "<link=\"REGOLITH\">Regolith</link>"
 msgstr "<link=\"REGOLITH\">Regolito</link>"
@@ -26066,8 +26041,6 @@ msgid "TIP: Colony Management"
 msgstr "DICA: Administrando a colônia"
 
 #. STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.TOOLTIP
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.TOOLTIP"
-#| msgid "Learn how to get Duplicants to do your bidding"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WELCOMEMESSAGE.TOOLTIP"
 msgid "Notes on getting Duplicants to do my bidding"
 msgstr "Dicas para fazer os Duplicante me obedecerem"
@@ -26895,6 +26868,11 @@ msgctxt "STRINGS.MISC.TAGS.MACHINE_SHOP"
 msgid "Machine Shop"
 msgstr "Oficina Mecânica"
 
+#. STRINGS.MISC.TAGS.MANUFACTUREDMATERIAL
+msgctxt "STRINGS.MISC.TAGS.MANUFACTUREDMATERIAL"
+msgid "Manufactured Material"
+msgstr "Material Manufaturado"
+
 #. STRINGS.MISC.TAGS.MARKEDFORCOMPOST
 msgctxt "STRINGS.MISC.TAGS.MARKEDFORCOMPOST"
 msgid "Compost Edibles"
@@ -27024,6 +27002,11 @@ msgstr "Material Sólido"
 msgctxt "STRINGS.MISC.TAGS.SPECIAL"
 msgid "Special"
 msgstr "Especial"
+
+#. STRINGS.MISC.TAGS.STEEL
+msgctxt "STRINGS.MISC.TAGS.STEEL"
+msgid "Steel"
+msgstr "Aço"
 
 #. STRINGS.MISC.TAGS.SUIT
 msgctxt "STRINGS.MISC.TAGS.SUIT"
@@ -28471,8 +28454,6 @@ msgid "Scout"
 msgstr "Vigia"
 
 #. STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SCRUNGO
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CREATURE_TRAP.SPRUNG.NAME"
-#| msgid "Sprung"
 msgctxt "STRINGS.NAMEGEN.DUPLICANT.NAME.NB.SCRUNGO"
 msgid "Scrungo"
 msgstr "Sam"
@@ -29370,8 +29351,6 @@ msgid "Space: It's not quite as empty as you might think."
 msgstr "Espaço: Não é tão vazio quanto você imagina."
 
 #. STRINGS.RESEARCH.TECHS.SKYDETECTORS.NAME
-#| msgctxt "STRINGS.CODEX.DECOR.TITLE"
-#| msgid "<link=\"DECOR\">Decor</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.SKYDETECTORS.NAME"
 msgid "<link=\"SKYDETECTORS\">Celestial Detection</link>"
 msgstr "<link=\"SKYDETECTORS\">Detecção Celestial</link>"
@@ -30059,8 +30038,6 @@ msgid "An elevator"
 msgstr "Um elevador"
 
 #. STRINGS.SETITEMS.ELEVATOR.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.MEDICALBED.NAME"
-#| msgid "Rejuvenator"
 msgctxt "STRINGS.SETITEMS.ELEVATOR.NAME"
 msgid "Elevator"
 msgstr "Elevador"
@@ -30232,7 +30209,7 @@ msgstr "<link=\"BUILDCATEGORYAUTOMATION\">Automação</link>"
 #, fuzzy
 msgctxt "STRINGS.UI.BUILDCATEGORIES.AUTOMATION.TOOLTIP"
 msgid "Automate my base with logic circuits and sensors."
-msgstr "Automatizar minha base com sensores e circuitos lógicos."
+msgstr "Automatize minha base com sensores e circuitos lógicos."
 
 #. STRINGS.UI.BUILDCATEGORIES.BASE.NAME
 msgctxt "STRINGS.UI.BUILDCATEGORIES.BASE.NAME"
@@ -33030,7 +33007,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.6.0)"
+"- Traduzido por Chastomber :P (1.6.1)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -35031,8 +35008,6 @@ msgid "Micrometeorite Damage"
 msgstr "Dano de Micrometeorito"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.MINION_DESTRUCTION
-#| msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.CONDUIT_CONTENTS_BOILED"
-#| msgid "Heat Damage"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.DAMAGE_POPS.MINION_DESTRUCTION"
 msgid "Tantrum Damage"
 msgstr "Dano de Chilique"
@@ -35700,27 +35675,6 @@ msgid "Advanced"
 msgstr "Avançado"
 
 #. STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP
-#| msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP"
-#| msgid ""
-#| "<b>Normal Mode</b> (unchecked):\n"
-#| "\n"
-#| "Duplicants will first pick an errand based on their Priorities, and then "
-#| "by Sub-Priorities. If more than one available errand has the same "
-#| "priority, then they will pick based on a hidden priority which helps new "
-#| "bases run more smoothly.\n"
-#| "\n"
-#| "This mode is ideal for new players and for smaller bases.\n"
-#| "\n"
-#| "<b>Advanced Mode</b> (checked):\n"
-#| "\n"
-#| "Duplicants will still pick an errand based on their Priorities, and then "
-#| "by Sub-Priorities. The hidden priority gets disabled, so in case of a tie "
-#| "the Duplicant will pick the closest errand. This helps them to stay near "
-#| "the same area of the colony so long as all the work there is their "
-#| "highest priority.\n"
-#| "\n"
-#| "This mode is ideal for large bases and for players who have heavily "
-#| "customized Duplicant Priorities."
 msgctxt "STRINGS.UI.JOBSSCREEN.TOGGLE_ADVANCED_MODE_TOOLTIP"
 msgid ""
 "<b>Advanced Priority Settings</b>\n"
@@ -36531,22 +36485,16 @@ msgid "Bright"
 msgstr "Claro"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.LOW_LIGHT
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.DIG.NAME"
-#| msgid "Dig"
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.LOW_LIGHT"
 msgid "Dim"
 msgstr "Pouco Escuro"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.MAX_LIGHT
-#| msgctxt "STRINGS.INPUT_BINDINGS.BUILDING.NAME"
-#| msgid "Building"
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.MAX_LIGHT"
 msgid "Blinding"
 msgstr "Cegante"
 
 #. STRINGS.UI.OVERLAYS.LIGHTING.RANGES.MEDIUM_LIGHT
-#| msgctxt "STRINGS.DUPLICANTS.MODIFIERS.PEACEFULSLEEP.NAME"
-#| msgid "Well Rested"
 msgctxt "STRINGS.UI.OVERLAYS.LIGHTING.RANGES.MEDIUM_LIGHT"
 msgid "Well Lit"
 msgstr "Bem Iluminado"
@@ -38377,15 +38325,11 @@ msgid "Fill"
 msgstr "Encher"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP
-#| msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.BRUSH.TOOLTIP"
-#| msgid "Paint the world simulation with the brush tool"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FLOOD.TOOLTIP"
 msgid "Fill a section of the simulation with the chosen element"
 msgstr "Enche uma seção da simulação com o elemento escolhido"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.NAME
-#| msgctxt "STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.REVERTBUTTON"
-#| msgid "Revert"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.FOW.NAME"
 msgid "Reveal"
 msgstr "Revelar"
@@ -39053,8 +38997,6 @@ msgid "Fill"
 msgstr "Encher"
 
 #. STRINGS.UI.TOOLS.SANDBOX.FOW.NAME
-#| msgctxt "STRINGS.UI.FRONTEND.GRAPHICS_OPTIONS_SCREEN.REVERTBUTTON"
-#| msgid "Revert"
 msgctxt "STRINGS.UI.TOOLS.SANDBOX.FOW.NAME"
 msgid "Reveal"
 msgstr "Revelar"
@@ -41252,8 +41194,6 @@ msgid " ºF"
 msgstr " ºF"
 
 #. STRINGS.UI.UNITSUFFIXES.TEMPERATURE.KELVIN
-#| msgctxt "STRINGS.UI.UNITSUFFIXES.TEMPERATURE.CELSIUS"
-#| msgid " ºC"
 msgctxt "STRINGS.UI.UNITSUFFIXES.TEMPERATURE.KELVIN"
 msgid " ºK"
 msgstr " ºK"
@@ -45450,10 +45390,6 @@ msgstr "Espalhando areia..."
 #~ msgctxt "STRINGS.ELEMENTS.MOLTENIRON.NAME"
 #~ msgid "Iron"
 #~ msgstr "Ferro"
-
-#~ msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.NAME"
-#~ msgid "Steel"
-#~ msgstr "Aço"
 
 #~ msgctxt "STRINGS.ELEMENTS.MOLTENTUNGSTEN.NAME"
 #~ msgid "Tungsten"
