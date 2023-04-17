@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Tradução PT-BR ONI 1.5.2\n"
+"Project-Id-Version: Tradução PT-BR ONI 1.5.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -9441,7 +9441,7 @@ msgstr ""
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.EGG_NAME"
 msgid "<link=\"LIGHTBUGEGG\">Shine Nymph Egg</link>"
-msgstr "<link=\"LIGHTBUGEGG\">Ovo de Pupa de Vagalume</link>"
+msgstr "<link=\"LIGHTBUGEGG\">Ovo de Vagaluminho</link>"
 
 #. STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.LIGHTBUG.NAME"
@@ -30081,7 +30081,6 @@ msgid "This geyser will become dormant in {0}."
 msgstr "Este gêiser ficará dormente em {0}."
 
 #. STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD
-#, fuzzy
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.GEYSER_YEAR_PERIOD"
 msgid ""
 "This geyser will be active for {0} out of every {1}. It will be dormant the "
@@ -32080,7 +32079,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.5.2)"
+"- Traduzido por Chastomber :P (1.5.3)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -33874,6 +33873,12 @@ msgctxt ""
 "STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.KO_KLEI"
 msgid "Korean (Klei)"
 msgstr "Coreano (Klei)"
+
+#. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.RU_KLEI
+msgctxt ""
+"STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.RU_KLEI"
+msgid "Russian (Klei)"
+msgstr "Russo (Klei)"
 
 #. STRINGS.UI.FRONTEND.TRANSLATIONS_SCREEN.PREINSTALLED_LANGUAGES.ZH_KLEI
 msgctxt ""
@@ -37228,6 +37233,14 @@ msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.PLANTS"
 msgid "Plants"
 msgstr "Plantas"
 
+#. STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.SPECIAL
+#, fuzzy
+#| msgctxt "STRINGS.MISC.TAGS.SPECIAL"
+#| msgid "Special"
+msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.ENTITIES.SPECIAL"
+msgid "Special"
+msgstr "Especial"
+
 #. STRINGS.UI.SANDBOXTOOLS.FILTERS.GAS
 msgctxt "STRINGS.UI.SANDBOXTOOLS.FILTERS.GAS"
 msgid "Gasses"
@@ -37322,6 +37335,18 @@ msgstr "Arma de Calor"
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.HEATGUN.TOOLTIP"
 msgid "Inject thermal energy into the world simulation"
 msgstr "Injete energia térmica na simulação do mundo"
+
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME"
+msgid "Instant build mode"
+msgstr "Modo construção instantânea"
+
+#. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.TOOLTIP
+msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.TOOLTIP"
+msgid "Toggle between placing construction plans and fully built buildings"
+msgstr ""
+"Alternar entre colocar ordens de construção e estruturas completamente "
+"construídas"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.MASS.NAME"
