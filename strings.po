@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 1.9.3\n"
+"Project-Id-Version: Português foi Incluído! 1.9.4\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -1914,7 +1914,7 @@ msgstr ""
 "Existem obstruções sólidas na trajetória de lançamento deste foguete:\n"
 "    • {0}\n"
 "\n"
-"Este foguete precisa de caminho de voo livre para decolagem."
+"Este foguete precisa de caminho de voo livre para decolagem"
 
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.NAME"
@@ -4831,6 +4831,29 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.INSULATIONTILE.NAME"
 msgid "<link=\"INSULATIONTILE\">Insulated Tile</link>"
 msgstr "<link=\"INSULATIONTILE\">Bloco Adiabático</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.DESC"
+msgid "Show off your favourite things!"
+msgstr "Mostre suas coisas favoritas!"
+
+#. STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.DISPLAYED_ITEM_FMT
+#, fuzzy
+msgctxt "STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.DISPLAYED_ITEM_FMT"
+msgid "Displayed {0}"
+msgstr "Mostrando {0}"
+
+#. STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.EFFECT"
+msgid "Doubles the <link=\"DECOR\">Decor</link> of any item placed on it. Ugly items can be made somewhat attractive by placing them on the pedestal."
+msgstr "Duplica o <link=\"DECOR\">Decor</link> de qualquer item colocado nele. Itens feios podem ficar de alguma forma atraentes ao colocá-los no pedestal."
+
+#. STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.NAME
+#| msgctxt "STRINGS.ITEMS.FOOD.PICKLEDMEAL.NAME"
+#| msgid "<link=\"PICKLEDMEAL\">Pickled Meal</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.ITEMPEDESTAL.NAME"
+msgid "<link=\"ITEMPEDESTAL\">Display Pedestal</link>"
+msgstr "<link=\"ITEMPEDESTAL\">Pedestal</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.JETSUITLOCKER.DESC"
@@ -10726,25 +10749,31 @@ msgstr "Bolha Príncipe"
 #. STRINGS.CODEX.PROPFACILITYDISPLAY1.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY1.BODY.CONTAINER1"
 msgid ""
-"Introducing the latest in 3D printing technology, the Home Printing Pod!\n"
+"Introducing the latest in 3D printing technology:\n"
+"The Gravitas Home Printing Pod\n"
 "\n"
-"Innovative new systems developed right here in the Gravitas Facility bring you new, 3D printed bio organic material.\n"
+"We are proud to announce that printing advancements developed here in the Gravitas Facility will soon bring new, bio-organic production capabilities to your old home printers.\n"
 "\n"
 "What does that mean for the average household?\n"
 "\n"
-"Dinner frustrations are a thing of the past! Simply select any of the pod's 5398 pre-programmed recipes, and voila! Delicious pot roast ready in only .87 seconds.\n"
+"Dinner frustrations are a thing of the past. Simply select any of the pod's 5398 pre-programmed recipes, and voila! Delicious pot roast ready in only .87 seconds.\n"
 "\n"
-"Prefer your own cooking? Program your own custom recipes, or print fresh ingredients for your own homecooked meal. Trips to the grocery store are a thing of the past!"
+"Prefer the patented family recipe? Program your own custom meal template for an instant taste of home, or go old school and create fresh, delicious ingredients and prepare your own homecooked meal.\n"
+"\n"
+"Dinnertime has never been easier!"
 msgstr ""
-"Introduzindo a mais nova tecnologia em impressão 3D, a Duplicadora Doméstica!\n"
+"Introduzindo a mais nova tecnologia em impressão 3D:\n"
+"A Duplicadora Doméstica Gravitas!\n"
 "\n"
-"Sistemas inovadores feitos aqui no Instituto Gravitas trazem para você novos e impressos materiais bio orgânicos.\n"
+"Nós temos o orgulho em anunciar que os avanços em impressão feitos aqui no Instituto Gravitas logo trará nova capacidade de produção bio-orgânica para sua velha impressora doméstica.\n"
 "\n"
 "O que isso significa para uma família comum?\n"
 "\n"
-"Frustrações ao jantar são uma coisa do passado! Simplesmente escolha uma das 5398 receitas pré-programadas e voila! Comida deliciosa e quentinha pronta em apenas .87 segundos.\n"
+"Frustrações ao jantar são uma coisa do passado. Simplesmente escolha uma das 5398 receitas pré-programadas e voila! Comida deliciosa e quentinha pronta em apenas .87 segundos.\n"
 "\n"
-"Prefere a sua própria culinária? Programe suas receitas customizadas, ou imprima ingredientes fresquinhos para a sua própria refeição caseira. Viagens ao supermercado agora são uma coisa do passado!"
+"Prefere a receita patenteada da família? Programe suas receitas customizadas para um gostinho instantâneo de comida caseira, ou volte aos velhos tempos e imprima ingredientes fresquinhos para a sua própria refeição caseira.\n"
+"\n"
+"A hora do jantar nunca foi tão fácil!"
 
 #. STRINGS.CODEX.PROPFACILITYDISPLAY1.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY1.BODY.CONTAINER2"
@@ -10770,7 +10799,17 @@ msgstr "Anúncio da Duplicadora"
 #. STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER1"
 msgid ""
+"Bring your mining operations into the twenty-third century with new Gravitas personal excavators.\n"
+"\n"
+"Improved particle condensers reduce raw volume for more efficient product shipping - and that's good for your bottom line.\n"
+"\n"
+"Licensed for industrial use only, resale of Gravitas equipment may carry a fine of up to $200,000 under the Global Restoration Act."
 msgstr ""
+"Leve suas operações de mineração para o século vinte e três com os novos escavadores pessoais da Gravitas.\n"
+"\n"
+"Condensadores de partículas melhorados reduzem o volume bruto para empacotamento mais eficiente de produtos - e isso é o que realmente importa.\n"
+"\n"
+"Licenciado somente para uso industrial, revenda de equipamento Gravitas pode estar sujeito a uma multa de $200,000 de acordo com o Ato de Restauração Global."
 
 #. STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PROPFACILITYDISPLAY2.BODY.CONTAINER2"
@@ -12610,8 +12649,14 @@ msgstr "<link=\"MOLE\">Toupeira do Espaço Bebê</link>"
 
 #. STRINGS.CREATURES.SPECIES.MOLE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.DESC"
-msgid "Shove Voles are burrowing critters that eat the <link=\"REGOLITH\">Regolith</link> collected on terrestrial surfaces."
-msgstr "Toupeiras do Espaço são criaturas escavadoras que comem <link=\"REGOLITH\">Regolito</link> acumulado nas superfícies terrestres."
+msgid ""
+"Shove Voles are burrowing critters that eat the <link=\"REGOLITH\">Regolith</link> collected on terrestrial surfaces.\n"
+"\n"
+"They cannot burrow through <link=\"REFINEDMETAL\">Refined Metals</link>."
+msgstr ""
+"Toupeiras do Espaço são criaturas escavadoras que comem <link=\"REGOLITH\">Regolito</link> acumulado nas superfícies terrestres.\n"
+"\n"
+"Elas não conseguem atravessar <link=\"REFINEDMETAL\">Metais Refinados</link>."
 
 #. STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME
 msgctxt "STRINGS.CREATURES.SPECIES.MOLE.EGG_NAME"
@@ -27654,11 +27699,11 @@ msgstr "Dicas na gerência da contaminação de comida"
 #. STRINGS.MISC.NOTIFICATIONS.DTU.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.MESSAGEBODY"
 msgid ""
-"For historical reasons, Duplicants measure heat energy using Duplicant Thermal Units or DTU.\n"
+"My Duplicants measure heat energy in Duplicant Thermal Units or DTU.\n"
 "\n"
 "1 DTU = 1055.06 J"
 msgstr ""
-"Devido a razões históricas, Duplicantes medem energia térmica utilizando Unidades Térmicas de Duplicante ou UTD (DTU em inglês).\n"
+"Meus Duplicantes medem energia térmica utilizando Unidades Térmicas de Duplicante ou UTD (DTU em inglês).\n"
 "\n"
 "1 UTD = 1055.06 J"
 
@@ -27669,8 +27714,8 @@ msgstr "DICA: Unidades Térmicas de Duplicante"
 
 #. STRINGS.MISC.NOTIFICATIONS.DTU.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.TOOLTIP"
-msgid "How Duplicants measure heat energy."
-msgstr "Como os Duplicantes medem energia térmica."
+msgid "Notes on measuring heat energy"
+msgstr "Dicas sobre medição de energia térmica"
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY"
@@ -35331,7 +35376,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (1.9.3)"
+"- Traduzido por Chastomber :P (1.9.4)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -41994,7 +42039,7 @@ msgstr "Pequenas Quantidades"
 #. STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED
 msgctxt "STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED"
 msgid "?????????"
-msgstr ""
+msgstr "?????????"
 
 #. STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED_AMOUNT
 msgctxt "STRINGS.UI.STARMAP.COMPOSITION_UNDISCOVERED_AMOUNT"
@@ -43813,6 +43858,63 @@ msgstr "Permitir aos Duplicantes gerenciarem manualmente os materiais armazenado
 msgctxt "STRINGS.UI.UISIDESCREENS.AUTOMATABLE_SIDE_SCREEN.TITLE"
 msgid "Automatable Storage"
 msgstr "Armazenagem Automatizável"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGDELIVERY
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGDELIVERY"
+msgid "AWAITING DELIVERY: {0}"
+msgstr "AGUARDANDO ENTREGA: {0}"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGREMOVAL
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGREMOVAL"
+msgid "AWAITING REMOVAL: {0}"
+msgstr "AGUARDANDO REMOÇÃO: {0}"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGREQUEST
+#, fuzzy
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.AWAITINGREQUEST"
+msgid "FETCH: {0}"
+msgstr "PEGAR: {0}"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.CANCELDEPOSIT
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.CANCELDEPOSIT"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.CANCELREMOVAL
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.CANCELREMOVAL"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.DEPOSIT
+#, fuzzy
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.DEPOSIT"
+msgid "Fetch"
+msgstr "Pegar"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.ENTITYDEPOSITED
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.ENTITYDEPOSITED"
+msgid "HOLDING: {0}"
+msgstr "SEGURANDO: {0}"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.REMOVE
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.REMOVE"
+msgid "Remove"
+msgstr "Remover"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.SELECT_DESC
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.SELECT_DESC"
+msgid "Select an object to store here."
+msgstr "Selecione um objeto para armazenar aqui."
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.SELECT_TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.SELECT_TITLE"
+msgid "SELECT"
+msgstr "SELECIONAR"
+
+#. STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.BASICRECEPTACLE.TITLE"
+msgid "Held Object"
+msgstr "Objeto Em Mãos"
 
 #. STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL
 msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.MAX_LABEL"
