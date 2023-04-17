@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.0.7\n"
+"Project-Id-Version: Português foi Incluído! 2.0.8\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -18852,10 +18852,9 @@ msgstr "Uma Cama Um Banheiro"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS_DESCRIPTION
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_COMFORTS_DESCRIPTION"
-msgid ""
-"Have at least one bed and one bathroom for each Duplicant in the colony."
+msgid "Have at least one bed and one toilet for each Duplicant in the colony."
 msgstr ""
-"Tenha pelo menos uma cama e um banheiro para cada Duplicante na colônia."
+"Tenha pelo menos uma cama e uma privada para cada Duplicante na colônia."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING"
@@ -18865,8 +18864,8 @@ msgstr "Oxigênio Não Ocluído"
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION
 msgctxt ""
 "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BASIC_PUMPING_DESCRIPTION"
-msgid "Move 1000kg of Oxygen using pumps or vents."
-msgstr "Mova 1000kg de Oxigênio usando bombas ou saídas de ar."
+msgid "Distribute 1000kg of Oxygen using gas vents."
+msgstr "Distribua 1000kg de Oxigênio usando saídas de ar."
 
 #. STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_N_ROOM_TYPE
 msgctxt "STRINGS.COLONY_ACHIEVEMENTS.MISC_REQUIREMENTS.BUILD_N_ROOM_TYPE"
@@ -22140,8 +22139,6 @@ msgstr ""
 "link>."
 
 #. STRINGS.CREATURES.SPECIES.WOOD_TREE_BRANCH.NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.WOOD_TREE.NAME"
-#| msgid "<link=\"FORESTTREE\">Arbor Tree</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.WOOD_TREE_BRANCH.NAME"
 msgid "<link=\"FORESTTREE\">Arbor Tree Branch</link>"
 msgstr "<link=\"FORESTTREE\">Galho de Pinheiro</link>"
@@ -23408,7 +23405,7 @@ msgstr ""
 #. STRINGS.CREATURES.STATUSITEMS.SATURATED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SATURATED.NAME"
 msgid "Too Wet!"
-msgstr ""
+msgstr "Molhado Demais!"
 
 #. STRINGS.CREATURES.STATUSITEMS.SATURATED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SATURATED.TOOLTIP"
@@ -49837,7 +49834,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (2.0.7)"
+"- Traduzido por Chastomber :P (2.0.8)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -50133,6 +50130,11 @@ msgstr "O objeto selecionado vai evaporar em gás em {0}"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ADDED"
 msgid "Added"
 msgstr "Adicionado"
+
+#. STRINGS.UI.ENDOFDAYREPORT.AVERAGE_TIME_DETAILS_HEADER
+msgctxt "STRINGS.UI.ENDOFDAYREPORT.AVERAGE_TIME_DETAILS_HEADER"
+msgid "Average Time Details:"
+msgstr "Detalhes sobre Tempo Médio:"
 
 #. STRINGS.UI.ENDOFDAYREPORT.BASE_DETAILS_HEADER
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.BASE_DETAILS_HEADER"
@@ -56538,10 +56540,40 @@ msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.SKILL_LEVEL"
 msgid "Skill Level: {0}"
 msgstr "Nível de Habilidade: {0}"
 
+#. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_GERMS
+msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_GERMS"
+msgid "Average Germs"
+msgstr "Média de Germes"
+
+#. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_STRESS_CREATED
+msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_STRESS_CREATED"
+msgid "Average Stress Created"
+msgstr "Estresse Médio Criado"
+
+#. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_STRESS_REMOVED
+msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_STRESS_REMOVED"
+msgid "Average Stress Removed"
+msgstr "Estresse Médio Removido"
+
+#. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_TRAVEL_TIME
+msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_TRAVEL_TIME"
+msgid "Average Travel Time"
+msgstr "Tempo de Viagem Médio"
+
+#. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_WORK_TIME
+msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.AVERAGE_WORK_TIME"
+msgid "Average Work Time"
+msgstr "Tempo de Trabalho Médio"
+
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.CALORIES_CREATED
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.CALORIES_CREATED"
 msgid "Calorie Generation"
 msgstr "Geração de Calorias"
+
+#. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.LIVE_DUPLICANTS
+msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.LIVE_DUPLICANTS"
+msgid "Duplicants"
+msgstr "Duplicantes"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.OXYGEN_CREATED
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.OXYGEN_CREATED"
@@ -63044,6 +63076,11 @@ msgctxt "STRINGS.UI.UNITSUFFIXES.DISTANCE.METER"
 msgid " m"
 msgstr " m"
 
+#. STRINGS.UI.UNITSUFFIXES.DUPLICANTS
+msgctxt "STRINGS.UI.UNITSUFFIXES.DUPLICANTS"
+msgid "Duplicants"
+msgstr "Duplicantes"
+
 #. STRINGS.UI.UNITSUFFIXES.ELECTRICAL.JOULE
 msgctxt "STRINGS.UI.UNITSUFFIXES.ELECTRICAL.JOULE"
 msgid " J"
@@ -63068,6 +63105,11 @@ msgstr " MJ"
 msgctxt "STRINGS.UI.UNITSUFFIXES.ELECTRICAL.WATT"
 msgid " W"
 msgstr " W"
+
+#. STRINGS.UI.UNITSUFFIXES.GERMS
+msgctxt "STRINGS.UI.UNITSUFFIXES.GERMS"
+msgid "Germs"
+msgstr "Germes"
 
 #. STRINGS.UI.UNITSUFFIXES.GROWTH
 msgctxt "STRINGS.UI.UNITSUFFIXES.GROWTH"
@@ -63173,6 +63215,11 @@ msgstr "/s"
 msgctxt "STRINGS.UI.UNITSUFFIXES.SECOND"
 msgid " s"
 msgstr " s"
+
+#. STRINGS.UI.UNITSUFFIXES.SECONDS
+msgctxt "STRINGS.UI.UNITSUFFIXES.SECONDS"
+msgid "Seconds"
+msgstr "Segundos"
 
 #. STRINGS.UI.UNITSUFFIXES.TEMPERATURE.CELSIUS
 msgctxt "STRINGS.UI.UNITSUFFIXES.TEMPERATURE.CELSIUS"
