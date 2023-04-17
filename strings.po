@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.0.3\n"
+"Project-Id-Version: Português foi Incluído! 2.0.4\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
@@ -2251,12 +2251,12 @@ msgstr "Transferido para os canos"
 #. STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OPERATINGENERGY.TOOLTIP"
 msgid ""
-"This building is producing <b>{0}</b> DTU per second\n"
+"This building is producing <b>{0}</b> per second\n"
 "\n"
 "Sources:\n"
 "{1}"
 msgstr ""
-"Esta estrutura está produzindo <b>{0}</b> UTD por segundo\n"
+"Esta estrutura está produzindo <b>{0}</b> por segundo\n"
 "\n"
 "Fontes:\n"
 "{1}"
@@ -18833,8 +18833,6 @@ msgstr ""
 "Nabos de Floresta possuem muito mais calorias que os normais."
 
 #. STRINGS.CREATURES.SPECIES.FORESTFORAGEPLANTPLANTED.NAME
-#| msgctxt "STRINGS.CREATURES.SPECIES.BASICFORAGEPLANTPLANTED.NAME"
-#| msgid "<link=\"BASICFORAGEPLANTPLANTED\">Buried Muckroot</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.FORESTFORAGEPLANTPLANTED.NAME"
 msgid "<link=\"FORESTFORAGEPLANTPLANTED\">Forest Muckroot</link>"
 msgstr "<link=\"FORESTFORAGEPLANTPLANTED\">Nabo de Floresta</link>"
@@ -22020,6 +22018,20 @@ msgid "This critter is searching for tasty <style=\"KKeyword\">Seeds</style>"
 msgstr ""
 "Esta criatura está procurando <style=\"KKeyword\">Sementes</style> deliciosas"
 
+#. STRINGS.CREATURES.STATUSITEMS.SATURATED.NAME
+msgctxt "STRINGS.CREATURES.STATUSITEMS.SATURATED.NAME"
+msgid "Saturated"
+msgstr "Saturada"
+
+#. STRINGS.CREATURES.STATUSITEMS.SATURATED.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.SATURATED.TOOLTIP"
+msgid ""
+"This critter likes <style=\"KKeyword\">Liquid</style>, but not <i>THAT</i> "
+"much."
+msgstr ""
+"Esta criatura gosta de <style=\"KKeyword\">Líquido</style>, mas isso já é "
+"<i>DEMAIS</i>."
+
 #. STRINGS.CREATURES.STATUSITEMS.SCALDING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SCALDING.NAME"
 msgid "Scalding"
@@ -23319,9 +23331,10 @@ msgstr ""
 "colônia."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.ART.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.ART.NAME"
 msgid "Decorating"
-msgstr "Decorando"
+msgstr "Decorar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.BASEKEEPING.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BASEKEEPING.ARCHETYPE_NAME"
@@ -23334,9 +23347,10 @@ msgid "Sweep, mop, and disinfect objects within the colony."
 msgstr "Coletar, secar e desinfetar objetos na colônia."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.BASEKEEPING.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BASEKEEPING.NAME"
 msgid "Tidying"
-msgstr "Limpando"
+msgstr "Limpar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.ARCHETYPE_NAME"
@@ -23349,9 +23363,10 @@ msgid "Construct new buildings."
 msgstr "Construir novas estruturas."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.BUILD.NAME"
 msgid "Building"
-msgstr "Construindo"
+msgstr "Construir"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.COMBAT.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.COMBAT.ARCHETYPE_NAME"
@@ -23364,9 +23379,10 @@ msgid "Fight wild <style=\"KKeyword\">Critters</style>."
 msgstr "Lutar contra <style=\"KKeyword\">Criaturas</style> selvagens."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.COMBAT.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.COMBAT.NAME"
 msgid "Attacking"
-msgstr "Atacando"
+msgstr "Atacar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.COOK.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.COOK.ARCHETYPE_NAME"
@@ -23379,9 +23395,10 @@ msgid "Operate <style=\"KKeyword\">Food</style> preparation buildings."
 msgstr "Operar máquinas de preparação de <style=\"KKeyword\">Comida</style>."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.COOK.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.COOK.NAME"
 msgid "Cooking"
-msgstr "Cozinhando"
+msgstr "Cozinhar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.DIG.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.DIG.ARCHETYPE_NAME"
@@ -23394,9 +23411,10 @@ msgid "Mine raw resources."
 msgstr "Minerar recursos brutos."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.DIG.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.DIG.NAME"
 msgid "Digging"
-msgstr "Escavando"
+msgstr "Escavar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.FARMING.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.FARMING.ARCHETYPE_NAME"
@@ -23424,9 +23442,10 @@ msgid "Run resources to critical buildings and urgent storage."
 msgstr "Mover materiais para estruturas críticas e de armazenamento urgente."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.HAULING.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.HAULING.NAME"
 msgid "Supplying"
-msgstr "Suprindo"
+msgstr "Suprir"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.LIFESUPPORT.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.LIFESUPPORT.ARCHETYPE_NAME"
@@ -23461,9 +23480,10 @@ msgstr ""
 "Operando maquinário pesado para produção, fabricação e outras utilidades."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.MACHINEOPERATING.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.MACHINEOPERATING.NAME"
 msgid "Operating"
-msgstr "Operando"
+msgstr "Operar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.MASSAGE.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.MASSAGE.ARCHETYPE_NAME"
@@ -23476,9 +23496,10 @@ msgid "Take breaks for massages."
 msgstr "Pausas para massagens."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.MASSAGE.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.MASSAGE.NAME"
 msgid "Relaxing"
-msgstr "Relaxando"
+msgstr "Relaxar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.MEDICALAID.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.MEDICALAID.ARCHETYPE_NAME"
@@ -23498,7 +23519,7 @@ msgstr "Atenção Médica"
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.ARCHETYPE_NAME"
 msgid "Rancher"
-msgstr "Pecuarista"
+msgstr "Fazendeiro"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC"
@@ -23521,9 +23542,10 @@ msgid "Repair damaged buildings."
 msgstr "Reparar estruturas danificadas."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.REPAIR.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.REPAIR.NAME"
 msgid "Repairing"
-msgstr "Repararando"
+msgstr "Reparar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.ARCHETYPE_NAME"
@@ -23539,9 +23561,10 @@ msgstr ""
 "tecnologias."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RESEARCH.NAME"
 msgid "Researching"
-msgstr "Pesquisando"
+msgstr "Pesquisar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.ARCHETYPE_NAME"
@@ -23557,9 +23580,10 @@ msgstr ""
 "disponível."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.STORAGE.NAME"
 msgid "Storing"
-msgstr "Armazenando"
+msgstr "Armazenar"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.SUITS.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.SUITS.ARCHETYPE_NAME"
@@ -23581,9 +23605,10 @@ msgstr ""
 "estruturas."
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME
+#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.TOGGLE.NAME"
 msgid "Toggling"
-msgstr "Alternando"
+msgstr "Alternar"
 
 #. STRINGS.DUPLICANTS.CHORES.ART.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.ART.NAME"
@@ -36861,13 +36886,6 @@ msgid "Care Package"
 msgstr "Pacote de Suprimento"
 
 #. STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC
-#| msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC"
-#| msgid ""
-#| "A seedless fruit with an upsettingly bland aftertaste.\n"
-#| "\n"
-#| "It cannot be replanted.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Muckroot."
 msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC"
 msgid ""
 "A seedless fruit with an upsettingly bland aftertaste.\n"
@@ -36999,8 +37017,6 @@ msgid "<link=\"COOKEDEGG\">Omelette</link>"
 msgstr "<link=\"COOKEDEGG\">Omelete</link>"
 
 #. STRINGS.ITEMS.FOOD.COOKEDEGG.RECIPEDESC
-#| msgctxt "STRINGS.ITEMS.FOOD.COOKEDEGG.RECIPEDESC"
-#| msgid "Fluffed and folded egg innards."
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDEGG.RECIPEDESC"
 msgid "Fluffed and folded <style=\"KKeyword\">Egg</style> innards."
 msgstr "Entranhas macias e dobradas de um <style=\"KKeyword\">Ovo</style>."
@@ -37022,8 +37038,6 @@ msgid "<link=\"COOKEDMEAT\">Barbeque</link>"
 msgstr "<link=\"COOKEDMEAT\">Churrasco</link>"
 
 #. STRINGS.ITEMS.FOOD.COOKEDMEAT.RECIPEDESC
-#| msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.RANCHING.DESC"
-#| msgid "Tend to domesticated <style=\"KKeyword\">Critters</style>."
 msgctxt "STRINGS.ITEMS.FOOD.COOKEDMEAT.RECIPEDESC"
 msgid "The cooked meat of a defeated <style=\"KKeyword\">Critter</style>."
 msgstr "A carne cozida de uma <style=\"KKeyword\">Criatura</style> derrotada."
@@ -37074,13 +37088,6 @@ msgid "<link=\"FISHMEAT\">Pacu Fillet</link>"
 msgstr "<link=\"FISHMEAT\">Filé de Pacu</link>"
 
 #. STRINGS.ITEMS.FOOD.FORESTFORAGEPLANT.DESC
-#| msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC"
-#| msgid ""
-#| "A seedless fruit with an upsettingly bland aftertaste.\n"
-#| "\n"
-#| "It cannot be replanted.\n"
-#| "\n"
-#| "Digging up Buried Objects may uncover a Muckroot."
 msgctxt "STRINGS.ITEMS.FOOD.FORESTFORAGEPLANT.DESC"
 msgid ""
 "A seedless fruit with an upsettingly bland aftertaste.\n"
@@ -37096,8 +37103,6 @@ msgstr ""
 "Nabos da Floresta possuem muito mais calorias que os normais."
 
 #. STRINGS.ITEMS.FOOD.FORESTFORAGEPLANT.NAME
-#| msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.NAME"
-#| msgid "<link=\"BASICFORAGEPLANT\">Muckroot</link>"
 msgctxt "STRINGS.ITEMS.FOOD.FORESTFORAGEPLANT.NAME"
 msgid "<link=\"FORESTFORAGEPLANT\">Forest Muckroot</link>"
 msgstr "<link=\"FORESTFORAGEPLANT\">Nabo da Floresta</link>"
@@ -37597,8 +37602,6 @@ msgid "Plain bean curd."
 msgstr ""
 
 #. STRINGS.ITEMS.FOOD.TOFU.NAME
-#| msgctxt "STRINGS.ITEMS.FOOD.SPICYTOFU.NAME"
-#| msgid "<link=\"SPICYTOFU\">Spicy Tofu</link>"
 msgctxt "STRINGS.ITEMS.FOOD.TOFU.NAME"
 msgid "<link=\"TOFU\">Tofu</link>"
 msgstr "<link=\"TOFU\">Tofu</link>"
@@ -38453,10 +38456,6 @@ msgid "Duplicants have frozen"
 msgstr "Duplicantes congelaram"
 
 #. STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.TOOLTIP
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.TOOLTIP"
-#| msgid ""
-#| "These Duplicants died from extremely low <link=\"HEAT\">Temperatures</"
-#| "link>:"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.TOOLTIP"
 msgid ""
 "These Duplicants died from extremely low <style=\"KKeyword\">Temperatures</"
@@ -38836,8 +38835,6 @@ msgid "Genes Shuffled"
 msgstr "Genes Embaralhados"
 
 #. STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.SUFFIX
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM"
-#| msgid "Refining this material produces <style=\"KKeyword\">{0}</style>"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.SUFFIX"
 msgid " has developed <style=\"KKeyword\">{0}</style>"
 msgstr " desenvolveu <style=\"KKeyword\">{0}</style>"
@@ -38863,8 +38860,6 @@ msgid "New trait"
 msgstr "Novo traço"
 
 #. STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.SUFFIX
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.PROCESSEDITEM"
-#| msgid "Refining this material produces <style=\"KKeyword\">{0}</style>"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALINGTRAITGAIN.SUFFIX"
 msgid " has developed <style=\"KKeyword\">{0}</style>"
 msgstr " desenvolveu <style=\"KKeyword\">{0}</style>"
@@ -39296,10 +39291,6 @@ msgid "Output blocked"
 msgstr "Saída bloqueada"
 
 #. STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_OUTPUT.TOOLTIP"
-#| msgid ""
-#| "A blocked <style=\"KKeyword\">Output</style> has stopped this turbine "
-#| "from functioning"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP"
 msgid ""
 "Blocked <style=\"KKeyword\">Pipes</style> have stopped these systems from "
@@ -39720,10 +39711,6 @@ msgid "Vent overpressurized"
 msgstr "Saída em sobrepressão"
 
 #. STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.TOOLTIP
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.BATTERYCAPACITY"
-#| msgid ""
-#| "Can hold {0} of <style=\"KKeyword\">Power</style> when connected to a "
-#| "<style=\"KKeyword\">Generator</style>"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.VENTOVERPRESSURE.TOOLTIP"
 msgid ""
 "These <style=\"KKeyword\">Pipe</style> systems have exited the ideal <style="
@@ -45424,8 +45411,6 @@ msgid "{0}: {1}"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.ELEMENTEMITTED_MINORENTITYTEMP
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.SCHEDULE_CHANGED.NAME"
-#| msgid "{0}: {1}!"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ELEMENTEMITTED_MINORENTITYTEMP"
 msgid "{0}: {1}"
 msgstr ""
@@ -48146,8 +48131,6 @@ msgid "None"
 msgstr "Nenhum"
 
 #. STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.LEARNSKILL.TOOLTIP"
-#| msgid "This Duplicant is learning a new <style=\"KKeyword\">Skill</style>"
 msgctxt "STRINGS.UI.DETAILTABS.PERSONALITY.RESUME.NO_MASTERED_SKILLS.TOOLTIP"
 msgid "{0} has not learned any <style=\"KKeyword\">Skills</style> yet"
 msgstr "{0} ainda não aprendeu nenhuma <style=\"KKeyword\">Habilidade</style>"
@@ -48283,7 +48266,7 @@ msgstr ""
 "\n"
 "Divirtam-se no espaço!\n"
 "- Klei\n"
-"- Traduzido por Chastomber :P (2.0.3)"
+"- Traduzido por Chastomber :P (2.0.4)"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
@@ -59335,8 +59318,6 @@ msgid ""
 msgstr "<b>{mass}</b> de <style=\"KKeyword\">Líquido</style> disponível"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_PRESSURE
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.GASPIPEEMPTY.TOOLTIP"
-#| msgid "There is no <style=\"KKeyword\">Gas</style> in this pipe"
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_PRESSURE"
 msgid ""
 "The current <style=\"KKeyword\">Gas</style> pressure is <b>{pressure}</b>"
@@ -63335,10 +63316,6 @@ msgid "Frozen Core"
 msgstr "Núcleo Congelado"
 
 #. STRINGS.WORLD_TRAITS.GEOACTIVE.DESCRIPTION
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDEGG.TOOLTIP"
-#| msgid ""
-#| "Collect <style=\"KKeyword\">Eggs</style> from <style=\"KKeyword"
-#| "\">Critters</style> to incubate"
 msgctxt "STRINGS.WORLD_TRAITS.GEOACTIVE.DESCRIPTION"
 msgid ""
 "This world has more <style=\"KKeyword\">Geysers</style> and <style=\"KKeyword"
@@ -63367,10 +63344,6 @@ msgid "Geodes"
 msgstr "Geodos"
 
 #. STRINGS.WORLD_TRAITS.GEODORMANT.DESCRIPTION
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NEEDEGG.TOOLTIP"
-#| msgid ""
-#| "Collect <style=\"KKeyword\">Eggs</style> from <style=\"KKeyword"
-#| "\">Critters</style> to incubate"
 msgctxt "STRINGS.WORLD_TRAITS.GEODORMANT.DESCRIPTION"
 msgid ""
 "This world has fewer <style=\"KKeyword\">Geysers</style> and <style="
