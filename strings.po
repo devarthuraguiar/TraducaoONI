@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.7\n"
+"Project-Id-Version: Português foi Incluído! 3.7.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -22003,6 +22003,40 @@ msgctxt "STRINGS.CODEX.BALMLILY.TITLE"
 msgid "Balm Lily"
 msgstr "Lírio Milagroso"
 
+#. STRINGS.CODEX.BEETAS.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.BEETAS.BODY.CONTAINER1"
+msgid ""
+"Beetas are insectiod creatures that enjoy a symbiotic relationship with the "
+"radioactive environment they thrive in.\n"
+"\n"
+"Much like the honey bee gathers nectar and processes it to honey in a bee "
+"hive, the Beeta turns Uranium into Enriched Uranium through a complex "
+"process of isotope separation inside the Beeta Hive. When first observing "
+"the Beeta's enrichment process, many scientists noted with surprise just how "
+"much more efficient the cooperative combination of insect and hive was when "
+"compared to even the most advanced industrial processes."
+msgstr ""
+"As abetas são insetos que têm uma relação simbiótica com o ambiente "
+"radioativo em que se desenvolvem.\n"
+"\n"
+"Assim como a abelha coleta o néctar e o transforma em mel em uma colmeia, a "
+"Abeta transforma o Urânio em Urânio Enriquecido por meio de um processo "
+"complexo de separação de isótopos dentro do Ninho de Abeta. Ao observar pela "
+"primeira vez o processo de enriquecimento da Abeta, muitos cientistas "
+"ficaram surpresos com o quão mais eficiente a combinação cooperativa de "
+"inseto e colmeia era quando comparada até mesmo com os processos industriais "
+"mais avançados de enriquecimento."
+
+#. STRINGS.CODEX.BEETAS.SUBTITLE
+msgctxt "STRINGS.CODEX.BEETAS.SUBTITLE"
+msgid "Aggressive Critter"
+msgstr "Criatura Agressiva"
+
+#. STRINGS.CODEX.BEETAS.TITLE
+msgctxt "STRINGS.CODEX.BEETAS.TITLE"
+msgid "Beetas"
+msgstr "Abetas"
+
 #. STRINGS.CODEX.BLISSBURST.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BLISSBURST.BODY.CONTAINER1"
 msgid ""
@@ -24973,6 +25007,40 @@ msgstr "NÍVEL DE CRIPTOGRAFIA: TRÊS"
 msgctxt "STRINGS.CODEX.PLANETARYECHOES.TITLE"
 msgid "Planetary Echoes"
 msgstr "Ecos Planetários"
+
+#. STRINGS.CODEX.PLUGSLUGS.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.PLUGSLUGS.BODY.CONTAINER1"
+msgid ""
+"Plug Slugs are fuzzy gastropoda that are able to cling to walls and ceilings "
+"thanks to an extreme triboelectric effect caused by friction between their "
+"fur and various surfaces. This same phenomomen allows the Plug Slug to "
+"generate a significant amount of static electricity that can be converted "
+"into power.\n"
+"\n"
+"The increased amount of static electricity a Plug Slug can generate when "
+"domesticated is due to the internal vibration, or contented 'humming', they "
+"demonstrate when all their needs are met."
+msgstr ""
+"Lesmas Plugue são gastrópodes felpudos que podem se agarrar a paredes e "
+"tetos graças a um efeito triboelétrico extremo causado pelo atrito entre seu "
+"pelo e várias superfícies. Este mesmo fenômeno permite que a Lesma Plugue "
+"gere uma quantidade significativa de eletricidade estática que pode ser "
+"convertida em energia.\n"
+"\n"
+"O aumento da quantidade de eletricidade estática que uma Lesma Plugue pode "
+"gerar quando domesticada é devido à vibração interna, ou o 'zumbido' "
+"satisfeito, que elas demonstram quando todas as suas necessidades são "
+"atendidas."
+
+#. STRINGS.CODEX.PLUGSLUGS.SUBTITLE
+msgctxt "STRINGS.CODEX.PLUGSLUGS.SUBTITLE"
+msgid "Domesticatable Critter"
+msgstr "Criatura Domesticável"
+
+#. STRINGS.CODEX.PLUGSLUGS.TITLE
+msgctxt "STRINGS.CODEX.PLUGSLUGS.TITLE"
+msgid "Plug Slugs"
+msgstr "Lesmas Plugue"
 
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER1"
@@ -67479,7 +67547,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.7): {0}"
+msgstr "VERSÃO DE TESTE (3.7.1): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -67509,7 +67577,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.7): {0}"
+msgstr "VERSÃO (3.7.1): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
