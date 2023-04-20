@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.7.1\n"
+"Project-Id-Version: Português foi Incluído! 3.7.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -3700,8 +3700,8 @@ msgstr "Extraindo Recursos: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.TOOLTIP"
-msgid "Resources are being mined from this space POI"
-msgstr "Recursos estão sendo minerados a partir deste PDI espacial"
+msgid "Resources are being mined from this space debris"
+msgstr "Recursos estão sendo minerados destes destroços espaciais"
 
 #. STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.NAME"
@@ -3711,11 +3711,11 @@ msgstr "Impossível armazenar recursos: {0}"
 #. STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.TOOLTIP"
 msgid ""
-"Some resources being mined from this space POI cannot be stored in this "
+"Some resources being mined from this space debris cannot be stored in this "
 "rocket"
 msgstr ""
-"Algumas recursos sendo minerado neste PDI espacial não podem ser armazenados "
-"neste foguete"
+"Alguns recursos sendo minerados nestes destroços espaciais não podem ser "
+"armazenados neste foguete"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME"
@@ -8083,6 +8083,23 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.NAME"
 msgid "<link=\"GRAVE\">Tasteful Memorial</link>"
 msgstr "<link=\"GRAVE\">Memorial Elegante</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.EFFECT
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.EFFECT"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.NAME"
+msgid "Gravitas Door"
+msgstr "Porta Gravitas"
+
 #. STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.DESC"
 msgid ""
@@ -9060,7 +9077,7 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.EFFECT"
 msgid ""
 "Guides <link=\"RAILGUNPAYLOAD\">Interplanetary Payloads</link> and <link="
-"\"ORBITALCARGOMODULE\">Orbital Cargo Modules</link>to land nearby.\n"
+"\"ORBITALCARGOMODULE\">Orbital Cargo Modules</link> to land nearby.\n"
 "\n"
 "<link=\"RAILGUNPAYLOAD\">Interplanetary Payloads</link> must be launched "
 "from a <link=\"RAILGUN\">Interplanetary Launcher</link>."
@@ -13733,6 +13750,17 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.PROPFACILITYWALLDEGREE.NAME"
 msgid "Doctorate Degree"
 msgstr "Diploma de Doutorado"
 
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.NAME"
+msgid "Ceiling Robot"
+msgstr "Robô de Teto"
+
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDECORATIVEWINDOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDECORATIVEWINDOW.DESC"
 msgid "A tall, thin window."
@@ -13742,6 +13770,162 @@ msgstr "Uma janela alta e fina."
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDECORATIVEWINDOW.NAME"
 msgid "Window"
 msgstr "Janela"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDISPLAY4.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDISPLAY4.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDISPLAY4.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDISPLAY4.NAME"
+msgid "Electronic Display"
+msgstr "Tela Eletrônica"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.NAME"
+msgid "Floor Robot"
+msgstr "Robô de Piso"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.NAME"
+msgid "Hand Scanner"
+msgstr "Scanner de Mãos"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.NAME"
+msgid "Jar 1"
+msgstr "Jarro 1"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR2.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR2.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR2.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR2.NAME"
+msgid "Jar 2"
+msgstr "Jarro 2"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.NAME"
+msgid "Table"
+msgstr "Mesa"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.EFFECT
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.EFFECT"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.NAME"
+msgid "Lab Wall"
+msgstr "Parede do Lab"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.EFFECT
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.EFFECT"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.NAME"
+msgid "Lab Window"
+msgstr "Janela do Laboratório"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.EFFECT
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.EFFECT"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.NAME"
+msgid "Lab Window"
+msgstr "Janela do Laboratório"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.NAME"
+msgid "Table"
+msgstr "Mesa"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASSHELF.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASSHELF.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASSHELF.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASSHELF.NAME"
+msgid "Shelf"
+msgstr "Abrigo"
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.DESC
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.EFFECT
+#| msgid ""
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.EFFECT"
+msgid ""
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.NAME"
+msgid "Wall"
+msgstr "Parede"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPLADDER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPLADDER.DESC"
@@ -22003,39 +22187,42 @@ msgctxt "STRINGS.CODEX.BALMLILY.TITLE"
 msgid "Balm Lily"
 msgstr "Lírio Milagroso"
 
-#. STRINGS.CODEX.BEETAS.BODY.CONTAINER1
-msgctxt "STRINGS.CODEX.BEETAS.BODY.CONTAINER1"
+#. STRINGS.CODEX.BEETA.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.BEETA.BODY.CONTAINER1"
 msgid ""
 "Beetas are insectiod creatures that enjoy a symbiotic relationship with the "
 "radioactive environment they thrive in.\n"
 "\n"
-"Much like the honey bee gathers nectar and processes it to honey in a bee "
-"hive, the Beeta turns Uranium into Enriched Uranium through a complex "
-"process of isotope separation inside the Beeta Hive. When first observing "
-"the Beeta's enrichment process, many scientists noted with surprise just how "
-"much more efficient the cooperative combination of insect and hive was when "
-"compared to even the most advanced industrial processes."
+"Much like the honey bee gathers nectar and processes it to honey, the Beeta "
+"turns Uranium into Enriched Uranium through a complex process of isotope "
+"separation inside the Beeta Hive.\n"
+"\n"
+"When first observing the Beeta's enrichment process, many scientists note "
+"with surprise just how much more efficient the cooperative combination of "
+"insect and hive is when compared to even the most advanced industrial "
+"processes."
 msgstr ""
 "As abetas são insetos que têm uma relação simbiótica com o ambiente "
 "radioativo em que se desenvolvem.\n"
 "\n"
 "Assim como a abelha coleta o néctar e o transforma em mel em uma colmeia, a "
 "Abeta transforma o Urânio em Urânio Enriquecido por meio de um processo "
-"complexo de separação de isótopos dentro do Ninho de Abeta. Ao observar pela "
-"primeira vez o processo de enriquecimento da Abeta, muitos cientistas "
-"ficaram surpresos com o quão mais eficiente a combinação cooperativa de "
-"inseto e colmeia era quando comparada até mesmo com os processos industriais "
-"mais avançados de enriquecimento."
+"complexo de separação de isótopos dentro do Ninho de Abeta. \n"
+"\n"
+"Ao observar pela primeira vez o processo de enriquecimento da Abeta, muitos "
+"cientistas ficaram surpresos com o quão mais eficiente a combinação "
+"cooperativa de inseto e colmeia era quando comparada até mesmo com os "
+"processos industriais mais avançados de enriquecimento."
 
-#. STRINGS.CODEX.BEETAS.SUBTITLE
-msgctxt "STRINGS.CODEX.BEETAS.SUBTITLE"
+#. STRINGS.CODEX.BEETA.SUBTITLE
+msgctxt "STRINGS.CODEX.BEETA.SUBTITLE"
 msgid "Aggressive Critter"
 msgstr "Criatura Agressiva"
 
-#. STRINGS.CODEX.BEETAS.TITLE
-msgctxt "STRINGS.CODEX.BEETAS.TITLE"
-msgid "Beetas"
-msgstr "Abetas"
+#. STRINGS.CODEX.BEETA.TITLE
+msgctxt "STRINGS.CODEX.BEETA.TITLE"
+msgid "Beeta"
+msgstr "Abeta"
 
 #. STRINGS.CODEX.BLISSBURST.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BLISSBURST.BODY.CONTAINER1"
@@ -22579,6 +22766,37 @@ msgstr "Raça da Criatura"
 msgctxt "STRINGS.CODEX.DENSE.TITLE"
 msgid "Dense Puft"
 msgstr "Bolha Densa"
+
+#. STRINGS.CODEX.DIVERGENT.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.DIVERGENT.BODY.CONTAINER1"
+msgid ""
+"'Divergent' is the name given to the two different genders of one species, "
+"the Sweetle and the Grubgrub, both of which are able to reproduce asexually "
+"and tend to Grubfruit Plants.\n"
+"\n"
+"When tending to the Grubfruit Plant, both gender variants of the Divergent "
+"display the exact same behaviors, however the Grubgrub possesses slightly "
+"more tiny facial hair which helps in pollinating the plants and stimulates "
+"faster growth."
+msgstr ""
+"'Divergente' é o nome dado aos dois gêneros diferentes de uma espécie, o "
+"Dosouro e a Lagalarta, os quais são capazes de se reproduzir assexuadamente "
+"e cuidam dos Pés de Lagafruta.\n"
+"\n"
+"Ao cuidar do Pé de Lagafruta, ambas as variantes de gênero Divergente exibem "
+"exatamente os mesmos comportamentos, no entanto, a Lagalarta possui pelos "
+"faciais um pouco mais pequenos que ajudam na polinização das plantas e "
+"estimula o seu crescimento."
+
+#. STRINGS.CODEX.DIVERGENT.SUBTITLE
+msgctxt "STRINGS.CODEX.DIVERGENT.SUBTITLE"
+msgid "Domesticatable Critter"
+msgstr "Criatura Domesticável"
+
+#. STRINGS.CODEX.DIVERGENT.TITLE
+msgctxt "STRINGS.CODEX.DIVERGENT.TITLE"
+msgid "Divergent"
+msgstr "Divergente"
 
 #. STRINGS.CODEX.DRECKO.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DRECKO.BODY.CONTAINER1"
@@ -25008,8 +25226,8 @@ msgctxt "STRINGS.CODEX.PLANETARYECHOES.TITLE"
 msgid "Planetary Echoes"
 msgstr "Ecos Planetários"
 
-#. STRINGS.CODEX.PLUGSLUGS.BODY.CONTAINER1
-msgctxt "STRINGS.CODEX.PLUGSLUGS.BODY.CONTAINER1"
+#. STRINGS.CODEX.PLUGSLUG.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.PLUGSLUG.BODY.CONTAINER1"
 msgid ""
 "Plug Slugs are fuzzy gastropoda that are able to cling to walls and ceilings "
 "thanks to an extreme triboelectric effect caused by friction between their "
@@ -25028,19 +25246,19 @@ msgstr ""
 "convertida em energia.\n"
 "\n"
 "O aumento da quantidade de eletricidade estática que uma Lesma Plugue pode "
-"gerar quando domesticada é devido à vibração interna, ou o 'zumbido' "
+"gerar quando domesticada é devido à vibração interna, ou o 'cantarolar' "
 "satisfeito, que elas demonstram quando todas as suas necessidades são "
 "atendidas."
 
-#. STRINGS.CODEX.PLUGSLUGS.SUBTITLE
-msgctxt "STRINGS.CODEX.PLUGSLUGS.SUBTITLE"
+#. STRINGS.CODEX.PLUGSLUG.SUBTITLE
+msgctxt "STRINGS.CODEX.PLUGSLUG.SUBTITLE"
 msgid "Domesticatable Critter"
 msgstr "Criatura Domesticável"
 
-#. STRINGS.CODEX.PLUGSLUGS.TITLE
-msgctxt "STRINGS.CODEX.PLUGSLUGS.TITLE"
-msgid "Plug Slugs"
-msgstr "Lesmas Plugue"
+#. STRINGS.CODEX.PLUGSLUG.TITLE
+msgctxt "STRINGS.CODEX.PLUGSLUG.TITLE"
+msgid "Plug Slug"
+msgstr "Lesma Plugue"
 
 #. STRINGS.CODEX.POKESHELL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.POKESHELL.BODY.CONTAINER1"
@@ -25524,10 +25742,8 @@ msgid ""
 "danger.\n"
 "\n"
 "Rovers are programmed to be very pleasant and social when interacting with "
-"other beings.\n"
-"\n"
-"However, an unintended consequence of this programming is that the "
-"socialized robots tended to experience the same work slow-downs due to "
+"other beings. However, an unintended consequence of this programming is that "
+"the socialized robots tended to experience the same work slow-downs due to "
 "loneliness and low morale.\n"
 "\n"
 "To compensate for this, the Rover was programmed to have two distinct "
@@ -25535,18 +25751,16 @@ msgid ""
 "with itself during long stints alone."
 msgstr ""
 "O Rover é um robô explorador planetário programado para pousar e minerar "
-"Planetóides, quando enviar um Duplicante fosse um perigo desnecessário.\n"
+"Planetoides, quando enviar um Duplicante fosse um perigo desnecessário.\n"
 "\n"
 "Os rovers são programados para serem muito agradáveis e sociáveis ao "
-"interagir com outros seres.\n"
-"\n"
-"No entanto, uma consequência não intencional dessa programação é que os "
-"robôs socializados tendem a sofrer dos mesmos atrasos de trabalho devido à "
-"solidão e baixa moral.\n"
+"interagir com outros seres. No entanto, uma consequência não intencional "
+"dessa programação é que os robôs socializados tendem a sofrer dos mesmos "
+"atrasos de trabalho devido à solidão e baixa moral.\n"
 "\n"
 "Para compensar isso, o Rover foi programado para ter duas personalidades "
 "distintas e poder alternar entre elas para ter conversas profundas e "
-"agradáveis consigo mesmo durante longos períodos sozinho."
+"agradáveis consigo mesmo durante longos períodos em solidão."
 
 #. STRINGS.CODEX.ROVER.SUBTITLE
 msgctxt "STRINGS.CODEX.ROVER.SUBTITLE"
@@ -33007,7 +33221,7 @@ msgstr "Decoração"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.DESC"
-msgid "Change in Decor relative to the base crop"
+msgid "Change in Decor value relative to the base crop"
 msgstr "Alteração na Decor em relação a planta base"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.NAME
@@ -33255,9 +33469,8 @@ msgstr "Felicidade"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.DESC"
-msgid "Time it takes an unskilled Duplicant to harvest this plant's fruit"
-msgstr ""
-"Tempo necessário para um Duplicante inexperiente colher o fruto desta planta"
+msgid "Time it takes an unskilled Duplicant to harvest this plant"
+msgstr "Tempo necessário para um Duplicante inexperiente colher esta planta"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.NAME"
@@ -67547,7 +67760,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.7.1): {0}"
+msgstr "VERSÃO DE TESTE (3.7.2): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -67577,7 +67790,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.7.1): {0}"
+msgstr "VERSÃO (3.7.2): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -69582,9 +69795,8 @@ msgstr "Desativado"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS."
 "DISABLED.TOOLTIP"
-msgid "Unchecked: No Teleporters will be spawned during Worldgen"
-msgstr ""
-"Desmarcado: Nenhum Teleportador será invocado durante a geração do mundo"
+msgid "Unchecked: No Teleporters will spawn during Worldgen"
+msgstr "Desmarcado: Nenhum Teleportador será criado durante a geração do mundo"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS.ENABLED.NAME
 msgctxt ""
@@ -69597,9 +69809,9 @@ msgstr "Ativado"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS."
 "ENABLED.TOOLTIP"
-msgid "Checked: Teleporters will be spawned during Worldgen (Default)"
+msgid "Checked: Teleporters will spawn during Worldgen (Default)"
 msgstr ""
-"Marcado: Teleportadores serão invocados durante a geração de mundo (Padrão)"
+"Marcado: Teleportadores serão criados durante a geração de mundo (Padrão)"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.NAME
 msgctxt ""
@@ -71159,6 +71371,23 @@ msgctxt "STRINGS.UI.FRONTEND.MODESELECTSCREEN.SURVIVAL_TITLE"
 msgid "SURVIVAL"
 msgstr "SOBREVIVÊNCIA"
 
+#. STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.DISABLED_CONTENT
+msgctxt "STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.DISABLED_CONTENT"
+msgid " - <b>Not compatible with <i>{Content}</i></b>"
+msgstr " - <b>Incompatível com <i>{Content}</i></b>"
+
+#. STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.NO_CONTENT
+#| msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
+#| msgid " - <b>Not compatible with <i>{Content}</i></b>"
+msgctxt "STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.NO_CONTENT"
+msgid " - <b>No compatible mod found</b>"
+msgstr " - <b>Nenhum mod compatível encontrado</b>"
+
+#. STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.OLD_API
+msgctxt "STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.OLD_API"
+msgid " - <b>Mod out-of-date</b>"
+msgstr " - <b>Mod desatualizado</b>"
+
 #. STRINGS.UI.FRONTEND.MODS.DB_CORRUPT
 msgctxt "STRINGS.UI.FRONTEND.MODS.DB_CORRUPT"
 msgid ""
@@ -71210,11 +71439,6 @@ msgctxt "STRINGS.UI.FRONTEND.MODS.MANAGE_LOCAL"
 msgid "Browse"
 msgstr "Navegar"
 
-#. STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT
-msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
-msgid " - <b>Not compatible with <i>{Content}</i></b>"
-msgstr " - <i>Incompatível com <i>{Content}</i></i>"
-
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
 msgid "Mod changes require restart"
@@ -71252,8 +71476,8 @@ msgstr "OFICINA STEAM"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "MINE THE GAP UPDATE"
-msgstr "ATUALIZAÇÃO MINERE A FENDA"
+msgid "THE BIG MERGE"
+msgstr "A GRANDE FUSÃO"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -71272,36 +71496,44 @@ msgstr "ENTRE NA DISCUSSÃO"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"Welcome to the <b>Mine The Gap Update!</b>\n"
+"Welcome to the <b>UPDATE NAME</b>\n"
 "\n"
-"   •<indent=20px>New Space Points-of-Interest can be mined using the "
-"Drillcone for renewable resources.</indent>\n"
+"   •<indent=20px>Toggle between <i>Spaced Out!</i> and Base Game in the main "
+"menu without re-downloading the game.</indent>\n"
 "\n"
-"   •<indent=20px>Gravitas Artifacts have been added back in to the game.</"
-"indent>\n"
+"   •<indent=20px>Base Game now has all <i>Spaced Out!</i> bug fixes and "
+"quality-of-life improvements.</indent>\n"
 "\n"
-"   •<indent=20px>Tech Tree rebalance and updates.</indent>\n"
+"   •<indent=20px>Several buildings and items have been added to the Base "
+"Game, including Oxygen Masks, and Meter Valves.</indent>\n"
 "\n"
-"   •<indent=20px>New sound effects, Diagnostics panel improvements, bug "
-"fixes and new lore entries.</indent>\n"
+"   •<indent=20px>UI and Diagnostics improvements have been added to the Base "
+"Game.</indent>\n"
+"   \n"
+"   •<indent=20px>Significant updates to the Modding system, modders please "
+"see the forum for upgrade instructions.</indent>\n"
 "\n"
 "Check out the full patch notes for more details!"
 msgstr ""
-"Bem vindo a <b>Atualização Minere A Fenda!</b>\n"
+"Bem vindo <b>A GRANDE FUSÃO</b>\n"
 "\n"
-"   •<indent=20px>Novos Pontos-de-Interesse Espaciais podem ser minerados "
-"usando a Brocacone para obtenção de recursos renováveis.</indent>\n"
+"   •<indent=20px>Escolha entre <i>Spaced Out!</i> e o Jogo Base sem precisar "
+"baixar novamente o jogo.</indent>\n"
 "\n"
-"   •<indent=20px>Artefatos Gravitas foram adicionados de volta ao jogo.</"
-"indent>\n"
+"   •<indent=20px>O jogo base agora possui todas as correções de erros e "
+"melhorias de vida de <i>Spaced Out!</i>.</indent>\n"
 "\n"
-"   •<indent=20px>Rebalanceamento e atualizações da árvore tecnológica.</"
-"indent>\n"
+"   •<indent=20px>Várias estruturas e itens foram adicionados ao Jogo Base, "
+"incluindo as Máscaras de Oxigênio e Válvulas Medidoras.</indent>\n"
 "\n"
-"   •<indent=20px>Novos efeitos sonoros, melhorias no painel de Diagnóstico, "
-"correções de bugs e novos registros de história.</indent>\n"
+"   •<indent=20px>Melhorias de Interface e Diagnósticos foram adicionadas ao "
+"Jogo Base.</indent>\n"
+"   \n"
+"   •<indent=20px>Atualizações significativas ao sistemas de Mods, "
+"desenvolvedores. por favor vejam nosso fórum para instruções de atualização."
+"</indent>\n"
 "\n"
-"Verifique as notas de atualização completa para mais detalhes!"
+"Verifique as notas de atualização completas para mais detalhes!"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -79349,20 +79581,20 @@ msgstr "Campo de Asteroide Arenoso"
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.DESC"
 msgid ""
-"Antiquated space technology from a forgotten age.\n"
+"Space junk from a forgotten age.\n"
 "\n"
 "Harvesting resources requires a rocket equipped with a <link="
 "\"NOSECONEHARVEST\">Drillcone</link>."
 msgstr ""
-"Tecnologia espacial antiquada de uma época esquecida.\n"
+"Lixo espacial de uma era esquecida.\n"
 "\n"
 "Para colher recursos é necessário um foguete equipado com uma <link="
 "\"NOSECONEHARVEST\">Brocacone</link>."
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.NAME"
-msgid "Satellite Asteroid Field"
-msgstr "Campo de Asteroide Satélite"
+msgid "Space Debris"
+msgstr "Destroços Espaciais"
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SWAMPYOREFIELD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SWAMPYOREFIELD.DESC"
@@ -80807,14 +81039,8 @@ msgstr "A taxa ao qual este regenera seus recursos"
 
 #. STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION
 msgctxt "STRINGS.UI.STARMAP.RESEARCH_DESCRIPTION"
-msgid ""
-"Gather Interstellar Research Data using Research Modules.\n"
-"\n"
-"Research Modules Installed: {0}"
-msgstr ""
-"Colete Dados de Pesquisa Interestelar usando Módulos de Pesquisa.\n"
-"\n"
-"Módulos de Pesquisa Instalados: {0}."
+msgid "Gather Interstellar Research Data using Research Modules."
+msgstr "Colete Dados de Pesquisa Interestelar usando Módulos de Pesquisa."
 
 #. STRINGS.UI.STARMAP.ROCKET_COUNT
 msgctxt "STRINGS.UI.STARMAP.ROCKET_COUNT"
@@ -87166,7 +87392,7 @@ msgid ""
 "\n"
 "New Database Entry unlocked."
 msgstr ""
-"O computa está quebrado e precisa de uns reparos para funcionar. Mesmo "
+"O computador está quebrado e precisa de uns reparos para funcionar. Mesmo "
 "assim, consegui recuperar alguns arquivos interessantes.\n"
 "\n"
 "Novo Registro da Base de Dados desbloqueado."
@@ -87297,6 +87523,102 @@ msgstr ""
 "Eu movo a estranha mensagem para a minha base de dados.\n"
 "\n"
 "Novo Registro da Base de Dados descoberto."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_FAIL.SEARCH1
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_FAIL.SEARCH1"
+msgid "There's nothing of interest left in this old space junk."
+msgstr "Não existe nada de interessante sobrando neste lixo espacial antigo."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_FAIL.SEARCH2
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_FAIL.SEARCH2"
+msgid "I've salvaged everything I can from this vehicle."
+msgstr "Eu consegui recuperar tudo que eu pude deste veículo."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_FAIL.SEARCH3
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_FAIL.SEARCH3"
+msgid ""
+"Years of neglect and radioactive decay have destroyed all the useful data "
+"from this derelict spacecraft."
+msgstr ""
+"Anos de negligência e decaimento radioativo destruíram todos os dados úteis "
+"desta nave abandonada."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH1
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH1"
+msgid ""
+"A quick analysis of the hardware of this debris has uncovered some "
+"searchable files within.\n"
+"\n"
+"New Database Entry unlocked."
+msgstr ""
+"Uma rápida análise do hardware destes destroços revelaram alguns arquivos "
+"pesquisáveis.\n"
+"\n"
+"Novo Registro da Base de Dados desbloqueado."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH2
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH2"
+msgid ""
+"There's an archaic interface I can interact with on this device.\n"
+"\n"
+"New Database Entry unlocked."
+msgstr ""
+"Existe uma interface arcaica com a qual eu posso interagir com este "
+"dispositivo.\n"
+"\n"
+"Novo Registro da Base de Dados descoberto."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH3
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH3"
+msgid ""
+"While investigating the software of this wreckage, a compelling file comes "
+"to my attention.\n"
+"\n"
+"New Database Entry unlocked."
+msgstr ""
+"Ao investigar o software destes destroços, um arquivo interessante chama a "
+"minha atenção.\n"
+"\n"
+"Novo Registro da Base de Dados desbloqueado."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH4
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH4"
+msgid ""
+"Not much remains of the software that once ran this spacecraft except for "
+"one file that piques my interest.\n"
+"\n"
+"New Database Entry unlocked."
+msgstr ""
+"Não restou muito do software que uma vez rodou nesta espaçonave exceto por "
+"um dos arquivos que chama a minha atenção.\n"
+"\n"
+"Novo Registro da Base de Dados desbloqueado."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH5
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH5"
+msgid ""
+"I find some noteworthy data hidden amongst the system files of this space "
+"junk.\n"
+"\n"
+"New Database Entry unlocked."
+msgstr ""
+"Eu encontrei alguns dados relevantes escondidos entre os arquivos do sistema "
+"deste lixo espacial.\n"
+"\n"
+"Novo Registro da Base de Dados desbloqueado."
+
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH6
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_SPACEPOI_SUCCESS.SEARCH6"
+msgid ""
+"Despite being subjected to years of degradation, there are still recoverable "
+"files in this machinery.\n"
+"\n"
+"New Database Entry unlocked."
+msgstr ""
+"Apesar de ter sido sujeito a anos de degradação, ainda existem alguns "
+"arquivos recuperáveis neste maquinário.\n"
+"\n"
+"Novo Registro da Base de Dados desbloqueado."
 
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_STERNSDESK
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_STERNSDESK"
@@ -89401,6 +89723,47 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "Asteroide Água"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "MINE THE GAP UPDATE"
+#~ msgstr "ATUALIZAÇÃO MINERE A FENDA"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
+#~ msgid ""
+#~ "Welcome to the <b>Mine The Gap Update!</b>\n"
+#~ "\n"
+#~ "   •<indent=20px>New Space Points-of-Interest can be mined using the "
+#~ "Drillcone for renewable resources.</indent>\n"
+#~ "\n"
+#~ "   •<indent=20px>Gravitas Artifacts have been added back in to the game.</"
+#~ "indent>\n"
+#~ "\n"
+#~ "   •<indent=20px>Tech Tree rebalance and updates.</indent>\n"
+#~ "\n"
+#~ "   •<indent=20px>New sound effects, Diagnostics panel improvements, bug "
+#~ "fixes and new lore entries.</indent>\n"
+#~ "\n"
+#~ "Check out the full patch notes for more details!"
+#~ msgstr ""
+#~ "Bem vindo a <b>Atualização Minere A Fenda!</b>\n"
+#~ "\n"
+#~ "   •<indent=20px>Novos Pontos-de-Interesse Espaciais podem ser minerados "
+#~ "usando a Brocacone para obtenção de recursos renováveis.</indent>\n"
+#~ "\n"
+#~ "   •<indent=20px>Artefatos Gravitas foram adicionados de volta ao jogo.</"
+#~ "indent>\n"
+#~ "\n"
+#~ "   •<indent=20px>Rebalanceamento e atualizações da árvore tecnológica.</"
+#~ "indent>\n"
+#~ "\n"
+#~ "   •<indent=20px>Novos efeitos sonoros, melhorias no painel de "
+#~ "Diagnóstico, correções de bugs e novos registros de história.</indent>\n"
+#~ "\n"
+#~ "Verifique as notas de atualização completa para mais detalhes!"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.NAME"
+#~ msgid "Satellite Asteroid Field"
+#~ msgstr "Campo de Asteroide Satélite"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.EFFECT"
 #~ msgid "Crushes carbon into diamonds"
@@ -103591,10 +103954,6 @@ msgstr "Asteroide Água"
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.GENERICFABRICATOR.NAME"
 #~ msgid "Omniprinter"
 #~ msgstr "Omni-impressora"
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.HANDSANITIZER.NAME"
-#~ msgid "Hand Sanitizer"
-#~ msgstr "Higienizador de Mãos"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHWATTAGEWIRE.NAME"
 #~ msgid "Heavi-Watt Wire"
