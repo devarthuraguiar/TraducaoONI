@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.5\n"
+"Project-Id-Version: Português foi Incluído! 3.5.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -7453,12 +7453,12 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.EFFECT"
 msgid ""
 "Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn "
-"<link=\"ELEMENTSGAS\">Gas</link> off the flow when the specified amount "
+"<link=\"ELEMENTSGAS\">Gas</link> flow off when the specified amount has "
 "passed through it."
 msgstr ""
 "Conecta-se a um circuito <link=\"LOGIC\">Automatizado</link> para desligar o "
 "fluxo do <link=\"ELEMENTSGAS\">Gás</link> automaticamente quando a "
-"quantidade especificada passa por ela."
+"quantidade especificada tiver passado por ela."
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_OUTPUT
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_OUTPUT"
@@ -7471,8 +7471,6 @@ msgid "Reset Meter"
 msgstr "Redefinir Medidor"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME"
-#| msgid "<link=\"GASVALVE\">Gas Valve</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.NAME"
 msgid "<link=\"GASLIMITVALVE\">Gas Meter Valve</link>"
 msgstr "<link=\"GASLIMITVALVE\">Válvula Medidora de Gás</link>"
@@ -7493,7 +7491,7 @@ msgstr "Senão, envia um <b><style=\"logic_off\">Sinal Vermelho</b></style>"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_ACTIVE"
-msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the count"
+msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the amount"
 msgstr "<b><style=\"logic_on\">Sinal Verde</b></style>: Redefine contador"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_INACTIVE
@@ -9474,12 +9472,12 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.EFFECT"
 msgid ""
 "Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn "
-"<link=\"ELEMENTSLIQUID\">Liquid</link> off the flow when the specified "
-"amount passed through it."
+"<link=\"ELEMENTSLIQUID\">Liquid</link> flow off when the specified amount "
+"has passed through it."
 msgstr ""
 "Conecta-se a um circuito <link=\"LOGIC\">Automatizado</link> para ligar ou "
 "desligar o fluxo do <link=\"ELEMENTSLIQUID\">Líquido</link> automaticamente "
-"quando a quantidade especificada passa por ela."
+"quando a quantidade especificada tiver passado por ela."
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_OUTPUT
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_OUTPUT"
@@ -9512,7 +9510,7 @@ msgstr "Senão, envia um <b><style=\"logic_off\">Sinal Vermelho</b></style>"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_ACTIVE"
-msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the count"
+msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the amount"
 msgstr "<b><style=\"logic_on\">Sinal Verde</b></style>: Redefine contador"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE
@@ -15063,7 +15061,7 @@ msgstr "Filtrando: {0}"
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.DESC"
 msgid ""
-"Conveyor Limiters let an exact amount of materials pass through before "
+"Conveyor Meters let an exact amount of materials pass through before "
 "shutting off."
 msgstr ""
 "Limitadores de Transporte deixam uma quantidade exata de materiais passarem "
@@ -15090,10 +15088,8 @@ msgid "Reset Meter"
 msgstr "Redefinir Medidor"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.NAME"
-#| msgid "<link=\"SOLIDLOGICVALVE\">Conveyor Shutoff</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.NAME"
-msgid "<link=\"SOLIDLIMITVALVE\">Conveyor Limiter</link>"
+msgid "<link=\"SOLIDLIMITVALVE\">Conveyor Meter</link>"
 msgstr "<link=\"SOLIDLIMITVALVE\">Limitador de Transporte</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.OUTPUT_PORT_ACTIVE
@@ -15112,7 +15108,7 @@ msgstr "Senão, envia um <b><style=\"logic_off\">Sinal Vermelho</b></style>"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_ACTIVE"
-msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the count"
+msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the amount"
 msgstr "<b><style=\"logic_on\">Sinal Verde</b></style>: Redefine contador"
 
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_INACTIVE
@@ -31257,10 +31253,41 @@ msgstr "Refrigerado"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.REFRIGERATED.TOOLTIP"
 msgid ""
 "Ideal <style=\"KKeyword\">Temperature</style> storage is slowing this food's "
-"<style=\"KKeyword\">Decay Rate</style>"
+"<style=\"KKeyword\">Decay Rate</style>\n"
+"\n"
+"<style=\"KKeyword\">Temperatures</style> above <b>{RotTemperature}</b> spoil "
+"food more quickly\n"
+"\n"
+"Store food below {PreserveTemperature} to further reduce spoilage."
 msgstr ""
-"A <style=\"KKeyword\">Temperatura</style> de armazenamento ideal está "
-"desacelerando a <style=\"KKeyword\">Decomposição</style> da comida"
+"<style=\"KKeyword\">Temperatura</style> ideal de armazenamento está "
+"desacelerando a <style=\"KKeyword\">Taxa de Decaimento</style>deste "
+"alimento\n"
+"\n"
+"<style=\"KKeyword\">Temperaturas</style> acima de <b>{RotTemperature}</b> "
+"farão a comida estragar mais rapidamente\n"
+"\n"
+"Armazene a comida abaixo de {PreserveTemperature} para reduzir desperdícios."
+
+#. STRINGS.CREATURES.STATUSITEMS.REFRIGERATEDFROZEN.NAME
+msgctxt "STRINGS.CREATURES.STATUSITEMS.REFRIGERATEDFROZEN.NAME"
+msgid "Deep Freeze"
+msgstr "Bem Congelado"
+
+#. STRINGS.CREATURES.STATUSITEMS.REFRIGERATEDFROZEN.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.REFRIGERATEDFROZEN.TOOLTIP"
+msgid ""
+"<style=\"KKeyword\">Temperatures</style> below <b>{PreserveTemperature}</b> "
+"are greatly prolonging the shelf-life of this food\n"
+"\n"
+"<style=\"KKeyword\">Temperatures</style> above <b>{RotTemperature}</b> spoil "
+"food more quickly"
+msgstr ""
+"<style=\"KKeyword\">Temperaturas</style> abaixo de <b>{PreserveTemperature}</"
+"b> estão prolongando bastante a validade deste alimento\n"
+"\n"
+"<style=\"KKeyword\">Temperaturas</style> acima de <b>{RotTemperature}</b> "
+"farão a comida estragar mais rapidamente"
 
 #. STRINGS.CREATURES.STATUSITEMS.RUMMAGINGSEED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.RUMMAGINGSEED.NAME"
@@ -31490,9 +31517,13 @@ msgstr "Não Refrigerado"
 #. STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP
 msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.TOOLTIP"
 msgid ""
+"This food is warm\n"
+"\n"
 "<style=\"KKeyword\">Temperatures</style> above <b>{RotTemperature}</b> spoil "
 "food more quickly"
 msgstr ""
+"Esta comida é quente\n"
+"\n"
 "<style=\"KKeyword\">Temperaturas</style> acima de <b>{RotTemperature}</b> "
 "estragam a comida mais rapidamente"
 
@@ -38496,15 +38527,35 @@ msgstr ""
 "\n"
 "Uau, natureza com certeza é demais!"
 
-#. STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.NAME"
+#. STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.CONTAMINATED
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.CONTAMINATED"
 msgid "Contaminated Air"
 msgstr "Ar Contaminado"
 
-#. STRINGS.DUPLICANTS.MODIFIERS.ROTTEMPERATURE.NAME
-msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTTEMPERATURE.NAME"
+#. STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.NORMAL
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.NORMAL"
+msgid "Normal Atmosphere"
+msgstr "Atmosfera Normal"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.STERILE
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTATMOSPHERE.STERILE"
+msgid "Sterile Atmosphere"
+msgstr "Atmosfera Estéril"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROTTEMPERATURE.FROZEN
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTTEMPERATURE.FROZEN"
+msgid "Frozen"
+msgstr "Congelado"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROTTEMPERATURE.REFRIGERATED
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTTEMPERATURE.REFRIGERATED"
+msgid "Refrigerated"
+msgstr "Refrigerado"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.ROTTEMPERATURE.UNREFRIGERATED
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTTEMPERATURE.UNREFRIGERATED"
 msgid "Unrefrigerated"
-msgstr "Não refrigerado"
+msgstr "Não Refrigerado"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.ROTTING.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTTING.NAME"
@@ -41409,7 +41460,6 @@ msgstr ""
 "Este pobre Duplicante ficou com a cara cheia de um gás ou líquido irritante"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED
-#, fuzzy
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED"
 msgid "Current exposure to {element} is {rate} eye irritation"
 msgstr "Exposição atual à {element} é {rate} irritante aos olhos"
@@ -63475,11 +63525,13 @@ msgstr "Qualidade: {0}"
 #. STRINGS.UI.CODEX.FOOD.SPOILPROPERTIES
 msgctxt "STRINGS.UI.CODEX.FOOD.SPOILPROPERTIES"
 msgid ""
-"Preserve temperature: {0}\n"
-"Spoil time: {1}"
+"Refrigeration temperature: {0}\n"
+"Deep Freeze temperature: {1}\n"
+"Spoil time: {2}"
 msgstr ""
-"Temperatura de Conservação: {0}\n"
-"Apodrecimento: {1}"
+"Temperatura de refrigeração: {0}\n"
+"Temperatura de Congelamento: {1}\n"
+"Tempo para estragar: {2}"
 
 #. STRINGS.UI.CODEX.FORWARD_BUTTON_NO_HISTORY_TOOLTIP
 msgctxt "STRINGS.UI.CODEX.FORWARD_BUTTON_NO_HISTORY_TOOLTIP"
@@ -65970,7 +66022,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.5): {0}"
+msgstr "VERSÃO DE TESTE (3.5.1): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -66000,7 +66052,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.5): {0}"
+msgstr "VERSÃO (3.5.1): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -70663,6 +70715,11 @@ msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.LIGHT"
 msgid "Light"
 msgstr "Luz"
 
+#. STRINGS.UI.GAMEOBJECTEFFECTS.MUTANT_STERILE
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.MUTANT_STERILE"
+msgid "Doesn't Drop <link=\"PLANTS\">Seeds</link>"
+msgstr "Não Produz <link=\"PLANTS\">Sementes</link>"
+
 #. STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_DO_NOT_HARVEST
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.PLANT_DO_NOT_HARVEST"
 msgid "Autoharvest Disabled"
@@ -70863,6 +70920,26 @@ msgstr ""
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.INITIALGROWTHTIME"
 msgid "This plant takes <b>{0}</b> to mature again once replanted"
 msgstr "Esta planta leva <b>{0}</b> para maturar novamente uma vez replantada"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_SEED_TOOLTIP
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_SEED_TOOLTIP"
+msgid ""
+"\n"
+"\n"
+"Growing near its maximum radiation increases the chance of mutant seeds "
+"being produced"
+msgstr ""
+"\n"
+"\n"
+"Crescimento próximo de sua radiação máxima aumenta a chance de sementes "
+"mutantes serem produzidas"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_STERILE
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_STERILE"
+msgid "Changes to this plant's DNA mean it will never produce seeds of its own"
+msgstr ""
+"Mudanças no DNA desta planta significa que ela nunca produzirá sementes da "
+"sua espécie"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REGROWTHTIME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REGROWTHTIME"
@@ -80067,19 +80144,19 @@ msgstr "A pressão do <style=\"KKeyword\">Gás</style> atual é <b>{pressure}</b
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION"
 msgid ""
 "This plant is sitting in <b>{rads}</b> of ambient <style=\"KKeyword"
-"\">Radiation</style>. It needs at between {minRads} and {maxRads} to grow."
+"\">Radiation</style>. It needs at between {minRads} and {maxRads} to grow"
 msgstr ""
 "Esta planta está em <b>{rads}</b> de <style=\"KKeyword\">Radiação</style> "
-"ambiente. Precisa estar entre {minRads} e {maxRads} para crescer."
+"ambiente. Precisa estar entre {minRads} e {maxRads} para crescer"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION_NO_MIN
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION_NO_MIN"
 msgid ""
 "This plant is sitting in <b>{rads}</b> of ambient <style=\"KKeyword"
-"\">Radiation</style>. It needs less than {maxRads} to grow."
+"\">Radiation</style>. It needs less than {maxRads} to grow"
 msgstr ""
 "Esta planta está em <b>{rads}</b> de <style=\"KKeyword\">Radiação</style> "
-"ambiente. Precisa menos de {maxRads} para crescer."
+"ambiente. Precisa de menos de {maxRads} para crescer"
 
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL"
@@ -81380,27 +81457,21 @@ msgstr "O que está acontecendo aí?"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_E"
 msgid "E"
-msgstr ""
+msgstr "L"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_N
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.NODISEASES.NAME"
-#| msgid "NO"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_N"
 msgid "N"
 msgstr "N"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_NE
-#| msgctxt "STRINGS.UI.RESOURCESCREEN.NEW_TAG"
-#| msgid "NEW"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_NE"
 msgid "NE"
 msgstr "NE"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_NW
-#| msgctxt "STRINGS.UI.RESOURCESCREEN.NEW_TAG"
-#| msgid "NEW"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_NW"
 msgid "NW"
@@ -81410,27 +81481,21 @@ msgstr "NO"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_S"
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_SE
-#| msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.SAVE_OPTIONS"
-#| msgid "SAVE"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_SE"
 msgid "SE"
 msgstr "SE"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_SW
-#| msgctxt "STRINGS.UI.SPEED_SLOW"
-#| msgid "SLOW"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_SW"
 msgid "SW"
 msgstr "SO"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_W
-#| msgctxt "STRINGS.UI.UNITSUFFIXES.ELECTRICAL.WATT"
-#| msgid " W"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_W"
 msgid "W"
@@ -81638,7 +81703,7 @@ msgstr "Aguardando o pouso"
 
 #. STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.AMOUNT
 msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.AMOUNT"
-msgid "Count: {0}"
+msgid "Amount: {0}"
 msgstr "Contagem: {0}"
 
 #. STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.LIMIT
@@ -81648,8 +81713,13 @@ msgstr "Limite:"
 
 #. STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.RESET_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.RESET_BUTTON"
-msgid "Reset Count"
+msgid "Reset Amount"
 msgstr "Redefinir Contador"
+
+#. STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.SLIDER_TOOLTIP_UNITS
+msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.SLIDER_TOOLTIP_UNITS"
+msgid "This is the amount of Units or Mass passing through the sensor."
+msgstr "Esta é a quantidade de Unidades ou Massa passando pelo sensor."
 
 #. STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.TITLE"
@@ -86964,6 +87034,18 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "Asteroide Água"
+
+#~ msgctxt "STRINGS.CREATURES.STATUSITEMS.REFRIGERATED.TOOLTIP"
+#~ msgid ""
+#~ "Ideal <style=\"KKeyword\">Temperature</style> storage is slowing this "
+#~ "food's <style=\"KKeyword\">Decay Rate</style>"
+#~ msgstr ""
+#~ "A <style=\"KKeyword\">Temperatura</style> de armazenamento ideal está "
+#~ "desacelerando a <style=\"KKeyword\">Decomposição</style> da comida"
+
+#~ msgctxt "STRINGS.DUPLICANTS.MODIFIERS.ROTTEMPERATURE.NAME"
+#~ msgid "Unrefrigerated"
+#~ msgstr "Não refrigerado"
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_ACTIVE"
 #~ msgid ""
