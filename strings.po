@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.5.2\n"
+"Project-Id-Version: Português foi Incluído! 3.6\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -3041,6 +3041,18 @@ msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDECONSTRUCTION.TOOLTIP"
 msgid "Building will be deconstructed once a Duplicant is available"
 msgstr "A estrutura será desmontada assim que um Duplicante estiver disponível"
 
+#. STRINGS.BUILDING.STATUSITEMS.PENDINGDEMOLITION.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDEMOLITION.NAME"
+msgid "Demolition Errand"
+msgstr "Tarefa de Demolição"
+
+#. STRINGS.BUILDING.STATUSITEMS.PENDINGDEMOLITION.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGDEMOLITION.TOOLTIP"
+msgid "Object will be permanently demolished once a Duplicant is available"
+msgstr ""
+"O objeto será demolido permanentemente assim que um Duplicante estiver "
+"disponível"
+
 #. STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.PENDINGFISH.NAME"
 msgid "Fishing Errand"
@@ -3648,6 +3660,32 @@ msgstr "Espaçonaves concluíram suas missões"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACECRAFTREADYTOLAND.TOOLTIP"
 msgid "A spacecraft is ready to land"
 msgstr "Uma espaçonave está pronta para o pouso"
+
+#. STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.NAME
+#| msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_RESOURCES_HEADER"
+#| msgid "Launch Resources:"
+msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.NAME"
+msgid "Extracting Resources: {0}"
+msgstr "Extraindo Recursos: {0}"
+
+#. STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIHARVESTING.TOOLTIP"
+msgid "Resources are being mined from this space POI"
+msgstr "Recursos estão sendo minerados a partir deste PDI espacial"
+
+#. STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.NAME"
+msgid "Cannot store resources: {0}"
+msgstr "Impossível armazenar recursos: {0}"
+
+#. STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.TOOLTIP"
+msgid ""
+"Some portion of the resources being mined from this space POI cannot be "
+"stored in this rocket"
+msgstr ""
+"Algumas porções de recursos sendo minerado neste PDI espacial não podem ser "
+"armazenados neste foguete"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME"
@@ -4937,6 +4975,41 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARCADEMACHINE.NAME"
 msgid "<link=\"ARCADEMACHINE\">Arcade Cabinet</link>"
 msgstr "<link=\"ARCADEMACHINE\">Fliperama</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.DESC"
+msgid "Get the artifact juice"
+msgstr "Pega o sumo do artefato"
+
+#. STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.EFFECT"
+msgid "Get the artifact juice"
+msgstr "Pega o sumo do artefato"
+
+#. STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.GENETICANALYSISSTATION.NAME"
+#| msgid "<link=\"GENETICANALYSISSTATION\">Botanical Analyzer</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.NAME"
+msgid "<link=\"ARTIFACTANALYSISSTATION\">Artifact Analysis Station</link>"
+msgstr ""
+"<link=\"ARTIFACTANALYSISSTATION\">Estação de Análise de Artefatos</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.ARTIFACTCARGOBAY.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTCARGOBAY.DESC"
+msgid "Moves an artifact"
+msgstr "Move um artefato"
+
+#. STRINGS.BUILDINGS.PREFABS.ARTIFACTCARGOBAY.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTCARGOBAY.EFFECT"
+msgid "Moves an artifact"
+msgstr "Move um artefato"
+
+#. STRINGS.BUILDINGS.PREFABS.ARTIFACTCARGOBAY.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALCARGOMODULE.NAME"
+#| msgid "<link=\"ORBITALCARGOMODULE\">Orbital Cargo Module</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTCARGOBAY.NAME"
+msgid "<link=\"ARTIFACTCARGOBAY\">Artifact Transport Module</link>"
+msgstr "<link=\"ARTIFACTCARGOBAY\">Módulo de Transporte de Artefatos</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ASTRONAUTTRAININGCENTER.DESC"
@@ -7921,6 +7994,36 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVE.NAME"
 msgid "<link=\"GRAVE\">Tasteful Memorial</link>"
 msgstr "<link=\"GRAVE\">Memorial Elegante</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.DESC"
+msgid ""
+"Perception can be drastically changed by a bit of thoughtful presentation."
+msgstr ""
+"Percepção pode ser drasticamente mudada por uma apresentação bem pensada."
+
+#. STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.DISPLAYED_ITEM_FMT
+msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.DISPLAYED_ITEM_FMT"
+msgid "Displayed {0}"
+msgstr "Mostrando {0}"
+
+#. STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.EFFECT"
+msgid ""
+"Displays a single object, doubling its <link=\"DECOR\">Decor</link> value.\n"
+"\n"
+"Objects with negative Decor will gain some positive Decor when displayed."
+msgstr ""
+"Exibe qualquer objeto, duplicando seu valor de <link=\"DECOR\">Decor</"
+"link>.\n"
+"\n"
+"Objetos com Decor negativo ganharão um pouco de Decor positivo enquanto em "
+"exibição."
+
+#. STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASPEDESTAL.NAME"
+msgid "<link=\"ITEMPEDESTAL\">Pedestal</link>"
+msgstr "<link=\"ITEMPEDESTAL\">Pedestal</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HABITATMODULEMEDIUM.DESC"
 msgid ""
@@ -8139,8 +8242,9 @@ msgstr "<link=\"HIGHENERGYPARTICLEREDIRECTOR\">Refletor de Radioraios</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.DESC"
-msgid "Radbolts are necessary for producing atomic research."
-msgstr "Radioraios são necessários para produzir pesquisa atômica."
+msgid "Radbolts are necessary for producing Materials Science research."
+msgstr ""
+"Radioraios são necessários para produzir Pesquisa Científica de Materiais."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.EFFECT"
@@ -11942,8 +12046,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGAS.EFFECT"
 msgid ""
-"Allows <link=\"ELEMENTSGAS\">Gases</link> to be loaded from the storage of a "
-"linked rocket.\n"
+"Loads <link=\"ELEMENTSGAS\">Gases</link> to the storage of a linked rocket.\n"
 "\n"
 "Automatically links when built to the side of a <link=\"LAUNCHPLATFORM"
 "\">Rocket Platform</link> or another <link=\"MODULARLAUNCHPADPORTSOLID"
@@ -11951,8 +12054,8 @@ msgid ""
 "\n"
 "Uses the gas filters set on the rocket's cargo bays."
 msgstr ""
-"Permite que <link=\"ELEMENTSGAS\">Gases</link> sejam carregados para a "
-"armazenagem de um foguete conectado.\n"
+"Carrega <link=\"ELEMENTSGAS\">Gases</link> para a armazenagem de um foguete "
+"conectado.\n"
 "\n"
 "Conecta automaticamente quando construída ao lado de uma <link="
 "\"LAUNCHPLATFORM\">Plataforma de Foguetes</link> ou de outra <link="
@@ -11974,8 +12077,8 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGASUNLOADER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTGASUNLOADER.EFFECT"
 msgid ""
-"Allows <link=\"ELEMENTSGAS\">Gases</link> to be unloaded from the storage of "
-"a linked rocket.\n"
+"Unloads <link=\"ELEMENTSGAS\">Gases</link> from the storage of a linked "
+"rocket.\n"
 "\n"
 "Automatically links when built to the side of a <link=\"LAUNCHPLATFORM"
 "\">Rocket Platform</link> or another <link=\"MODULARLAUNCHPADPORTSOLID"
@@ -11983,8 +12086,8 @@ msgid ""
 "\n"
 "Uses the gas filters set on this unloader."
 msgstr ""
-"Permite que <link=\"ELEMENTSGAS\">Gases</link> sejam descarregados da "
-"armazenagem de um foguete conectado.\n"
+"Descarrega <link=\"ELEMENTSGAS\">Gases</link> da armazenagem de um foguete "
+"conectado.\n"
 "\n"
 "Conecta automaticamente quando construída ao lado de uma <link="
 "\"LAUNCHPLATFORM\">Plataforma de Foguetes</link> ou de outra <link="
@@ -12009,8 +12112,8 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUID.EFFECT"
 msgid ""
-"Allows <link=\"ELEMENTSLIQUID\">Liquids</link> to be loaded from the storage "
-"of a linked rocket.\n"
+"Loads <link=\"ELEMENTSLIQUID\">Liquids</link> to the storage of a linked "
+"rocket.\n"
 "\n"
 "Automatically links when built to the side of a <link=\"LAUNCHPLATFORM"
 "\">Rocket Platform</link> or another <link=\"MODULARLAUNCHPADPORTSOLID"
@@ -12018,8 +12121,8 @@ msgid ""
 "\n"
 "Uses the liquid filters set on the rocket's cargo bays."
 msgstr ""
-"Permite que <link=\"ELEMENTSLIQUID\">Líquidos</link> sejam carregados para a "
-"armazenagem de um foguete conectado.\n"
+"Carrega <link=\"ELEMENTSLIQUID\">Líquidos</link> para a armazenagem de um "
+"foguete conectado.\n"
 "\n"
 "Conecta automaticamente quando construída ao lado de uma <link="
 "\"LAUNCHPLATFORM\">Plataforma de Foguetes</link> ou de outra <link="
@@ -12042,8 +12145,8 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUIDUNLOADER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTLIQUIDUNLOADER.EFFECT"
 msgid ""
-"Allows <link=\"ELEMENTSLIQUID\">Liquids</link> to be unloaded from the "
-"storage of a linked rocket.\n"
+"Unloads <link=\"ELEMENTSLIQUID\">Liquids</link> from the storage of a linked "
+"rocket.\n"
 "\n"
 "Automatically links when built to the side of a <link=\"LAUNCHPLATFORM"
 "\">Rocket Platform</link> or another <link=\"MODULARLAUNCHPADPORTSOLID"
@@ -12051,8 +12154,8 @@ msgid ""
 "\n"
 "Uses the liquid filters set on this unloader."
 msgstr ""
-"Permite que <link=\"ELEMENTSLIQUID\">Líquidos</link> sejam descarregados da "
-"armazenagem de um foguete conectado.\n"
+"Descarrega <link=\"ELEMENTSLIQUID\">Líquidos</link> da armazenagem de um "
+"foguete conectado.\n"
 "\n"
 "Conecta automaticamente quando construída ao lado de uma <link="
 "\"LAUNCHPLATFORM\">Plataforma de Foguetes</link> ou de outra <link="
@@ -12078,8 +12181,8 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLID.EFFECT"
 msgid ""
-"Allows <link=\"ELEMENTSSOLID\">Solids</link> to be loaded from the storage "
-"of a linked rocket.\n"
+"Loads <link=\"ELEMENTSSOLID\">Solids</link> to the storage of a linked "
+"rocket.\n"
 "\n"
 "Automatically links when built to the side of a <link=\"LAUNCHPLATFORM"
 "\">Rocket Platform</link> or another <link=\"MODULARLAUNCHPADPORTSOLID"
@@ -12087,8 +12190,8 @@ msgid ""
 "\n"
 "Uses the solid material filters set on the rocket's cargo bays."
 msgstr ""
-"Permite que <link=\"ELEMENTSSOLID\">Sólidos</link> sejam carregados para a "
-"armazenagem de um foguete conectado.\n"
+"Carrega <link=\"ELEMENTSSOLID\">Sólidos</link> para a armazenagem de um "
+"foguete conectado.\n"
 "\n"
 "Conecta automaticamente quando construída ao lado de uma <link="
 "\"LAUNCHPLATFORM\">Plataforma de Foguetes</link> ou de outra <link="
@@ -12111,8 +12214,8 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLIDUNLOADER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.MODULARLAUNCHPADPORTSOLIDUNLOADER.EFFECT"
 msgid ""
-"Allows <link=\"ELEMENTSSOLID\">Solids</link> to be unloaded from the storage "
-"of a linked rocket.\n"
+"Unloads <link=\"ELEMENTSSOLID\">Solids</link> from the storage of a linked "
+"rocket.\n"
 "\n"
 "Automatically links when built to the side of a <link=\"LAUNCHPLATFORM"
 "\">Rocket Platform</link> or another <link=\"MODULARLAUNCHPADPORTSOLID"
@@ -12120,8 +12223,8 @@ msgid ""
 "\n"
 "Uses the solid material filters set on this unloader."
 msgstr ""
-"Permite que <link=\"ELEMENTSSOLID\">Sólidos</link> sejam descarregados da "
-"armazenagem de um foguete conectado.\n"
+"Descarrega <link=\"ELEMENTSSOLID\">Sólidos</link> da armazenagem de um "
+"foguete conectado.\n"
 "\n"
 "Conecta automaticamente quando construída ao lado de uma <link="
 "\"LAUNCHPLATFORM\">Plataforma de Foguetes</link> ou de outra <link="
@@ -12288,6 +12391,35 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.NAME"
 msgid "<link=\"NOSECONEBASIC\">Basic Nosecone</link>"
 msgstr "<link=\"NOSECONEBASIC\">Nariz Básico</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.NOSECONEHARVEST.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEHARVEST.DESC"
+msgid ""
+"There are a lot of resources in the stars if you've got the means to gather "
+"them.\n"
+" This drill will open a hole in the universe!"
+msgstr ""
+"Existem muitos recursos nas estrelas se você tiver os meios para coletá-"
+"los.\n"
+" Esta broca irá abrir um buraco no universo!"
+
+#. STRINGS.BUILDINGS.PREFABS.NOSECONEHARVEST.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEHARVEST.EFFECT"
+msgid ""
+"Enables a rocket to collect gasses from space.\n"
+"\n"
+"Must be built at the top of a rocket."
+msgstr ""
+"Permite que um foguete possa coletar gases do espaço.\n"
+"\n"
+"Precisa ser construído no topo de um foguete."
+
+#. STRINGS.BUILDINGS.PREFABS.NOSECONEHARVEST.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEBASIC.NAME"
+#| msgid "<link=\"NOSECONEBASIC\">Basic Nosecone</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.NOSECONEHARVEST.NAME"
+msgid "<link=\"NOSECONEHARVEST\">Drillcone</link>"
+msgstr "<link=\"NOSECONEHARVEST\">Brocacone</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.DESC"
 msgid ""
@@ -12337,26 +12469,26 @@ msgstr "Vem com alguns íons colocados, sem custo adicional."
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.EFFECT"
 msgid ""
-"Conducts <link=\"RESEARCH\">Atomic Research</link> to unlock new "
+"Conducts <link=\"RESEARCH\">Materials Science Research</link> to unlock new "
 "technologies.\n"
 "\n"
 "Consumes Radbolts.\n"
 "\n"
-"Assigned Duplicants must possess the <link=\"ATOMICRESEARCHER\">Atomic "
-"Research</link> skill."
+"Assigned Duplicants must possess the <link=\"ATOMICRESEARCHER\">Materials "
+"Science Research</link> skill."
 msgstr ""
-"Conduz <link=\"RESEARCH\">Pesquisa Atômica</link> para desbloquear novas "
-"tecnologias.\n"
+"Conduz <link=\"RESEARCH\">Pesquisa Científica de Materiais</link> para "
+"desbloquear novas tecnologias.\n"
 "\n"
 "Consome Radioraios.\n"
 "\n"
 "Duplicantes Designados precisam ter a habilidade <link=\"ATOMICRESEARCHER"
-"\">Pesquisa Atômica</link>."
+"\">Pesquisa Científica de Materiais</link>."
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARRESEARCHCENTER.NAME"
-msgid "<link=\"NUCLEARLABORATORY\">Atomic Collider</link>"
-msgstr "<link=\"NUCLEARLABORATORY\">Colisor Atômico</link>"
+msgid "<link=\"NUCLEARLABORATORY\">Material Study Terminal</link>"
+msgstr "<link=\"NUCLEARLABORATORY\">Computador de Estudo da Matéria</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OBJECTDISPENSER.DESC"
@@ -17075,6 +17207,136 @@ msgctxt "STRINGS.CODEX.A1_A046.TITLE"
 msgid "Personal Journal: A046"
 msgstr "Diário Pessoal: A046"
 
+#. STRINGS.CODEX.A1_CLONEDRABBITS.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.A1_CLONEDRABBITS.BODY.CONTAINER1"
+msgid ""
+"<smallcaps>[Voice Recognition Initialized]\n"
+"[Subject Identified: B111]</smallcaps>\n"
+"\n"
+"[LOG BEGINS]\n"
+"\n"
+"[A throat clears.]\n"
+"\n"
+"B111: We are now reliably printing healthy, living subjects, though all have "
+"exhibited unusual qualities as a result of the cloning process.\n"
+"\n"
+"[Chattering sounds can be heard.]\n"
+"\n"
+"B111: Odd communications, abnormal excrescenses, and vestigal limbs have "
+"been seen in all subjects thus far, to varying degrees of severity. It seems "
+"that bypassing or accelerating juvenility halts certain critical stages of "
+"development. Brain function, however, appears typical.\n"
+"\n"
+"[Chattering.]\n"
+"\n"
+"B111: T-They also seem quite happy.\n"
+"\n"
+"B111: Dr. Broussard, signing off.\n"
+"\n"
+"[LOG ENDS]"
+msgstr ""
+"<smallcaps>[Reconhecimento de Voz Inicializado]\n"
+"[Cobaia Identificada: B111]</smallcaps>\n"
+"\n"
+"[INÍCIO DO REGISTRO]\n"
+"\n"
+"[Uma garganta pigarreia.]\n"
+"\n"
+"B111: Nós estamos imprimindo cobaias vivas, saudáveis e confiáveis, apesar "
+"de todas elas apresentarem qualidades não usuais como resultado do processo "
+"de clonagem.\n"
+"\n"
+"[Grunhidos podem ser escutados.]\n"
+"\n"
+"B111: Vocalizações incomuns, grunhidos benignos e apêndices faltantes foram "
+"vistos em todas as cobaias até agora, variando em níveis de severidade. "
+"Parece que evitar ou acelerar a juvenilidade interrompe certos estágios "
+"críticos de desenvolvimento. Funcionamento cerebral, no entanto, aparenta "
+"estar normal.\n"
+"\n"
+"[Grunhidos.]\n"
+"\n"
+"B111: E-elas também parecem felizes.\n"
+"\n"
+"B111: Dra. Broussard, desligando.\"\n"
+"\n"
+"[FIM DO REGISTRO]"
+
+#. STRINGS.CODEX.A1_CLONEDRABBITS.SUBTITLE
+msgctxt "STRINGS.CODEX.A1_CLONEDRABBITS.SUBTITLE"
+msgid "ENCRYPTION LEVEL: TWO"
+msgstr "NÍVEL DE CRIPTOGRAFIA: DOIS"
+
+#. STRINGS.CODEX.A1_CLONEDRABBITS.TITLE
+msgctxt "STRINGS.CODEX.A1_CLONEDRABBITS.TITLE"
+msgid "Initial Success"
+msgstr "Sucesso Inicial"
+
+#. STRINGS.CODEX.A1_CLONEDRACCOONS.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.A1_CLONEDRACCOONS.BODY.CONTAINER1"
+msgid ""
+"<smallcaps>[Voice Recognition Initialized]\n"
+"[Subject Identified: B111]</smallcaps>\n"
+"\n"
+"[LOG BEGINS]\n"
+"\n"
+"[A throat clears.]\n"
+"\n"
+"B111: We are now reliably printing healthy, living subjects, though all have "
+"exhibited unusual qualities as a result of the cloning process.\n"
+"\n"
+"[Trilling sounds can be heard.]\n"
+"\n"
+"B111: Unusual mewings, benign neoplasms, and atavistic extremities have been "
+"seen in all subjects thus far, to varying degrees of severity. It seems that "
+"bypassing or accelerating juvenility halts certain critical stages of "
+"development. Brain function, however, appears typical.\n"
+"\n"
+"[Trilling.]\n"
+"\n"
+"B111: T-They also seem quite happy.\n"
+"\n"
+"B111: Dr. Broussard, signing off.\n"
+"\n"
+"[LOG ENDS]"
+msgstr ""
+"<smallcaps>[Reconhecimento de Voz Inicializado]\n"
+"[Cobaia Identificada: B111]</smallcaps>\n"
+"\n"
+"[INÍCIO DO REGISTRO]\n"
+"\n"
+"[Uma garganta pigarreia.]\n"
+"\n"
+"B111: Nós estamos imprimindo cobaias vivas, saudáveis e confiáveis, apesar "
+"de todas elas apresentarem qualidades não usuais como resultado do processo "
+"de clonagem.\n"
+"\n"
+"[Grunhidos podem ser escutados.]\n"
+"\n"
+"B111: Vocalizações incomuns, grunhidos benignos e apêndices faltantes foram "
+"vistos em todas as cobaias até agora, variando em níveis de severidade. "
+"Parece que evitar ou acelerar a juvenilidade interrompe certos estágios "
+"críticos de desenvolvimento. Funcionamento cerebral, no entanto, aparenta "
+"estar normal.\n"
+"\n"
+"[Grunhidos.]\n"
+"\n"
+"B111: E-elas também parecem felizes.\n"
+"\n"
+"B111: Dra. Broussard, desligando.\"\n"
+"\n"
+"[FIM DO REGISTRO]"
+
+#. STRINGS.CODEX.A1_CLONEDRACCOONS.SUBTITLE
+msgctxt "STRINGS.CODEX.A1_CLONEDRACCOONS.SUBTITLE"
+msgid "ENCRYPTION LEVEL: TWO"
+msgstr "NÍVEL DE CRIPTOGRAFIA: DOIS"
+
+#. STRINGS.CODEX.A1_CLONEDRACCOONS.TITLE
+msgctxt "STRINGS.CODEX.A1_CLONEDRACCOONS.TITLE"
+msgid "Initial Success"
+msgstr "Sucesso Inicial"
+
 #. STRINGS.CODEX.A1_CLONEDRATS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A1_CLONEDRATS.BODY.CONTAINER1"
 msgid ""
@@ -18768,6 +19030,110 @@ msgctxt "STRINGS.CODEX.A5_GENETICOOZE.TITLE"
 msgid "Biofluid"
 msgstr "Bioflúido"
 
+#. STRINGS.CODEX.A5_SHRIMP.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.A5_SHRIMP.BODY.CONTAINER1"
+msgid ""
+"<smallcaps>[Voice Recognition Initialized]\n"
+"[Subject Identified: B111]</smallcaps>\n"
+"\n"
+"[LOG BEGINS]\n"
+"\n"
+"\"A-and how are you clever little guys today?\n"
+"\n"
+"(trilling)\n"
+"\n"
+"Look! I brought some pink shrimp for you to eat. Your favorite! Are you "
+"hungry?\n"
+"\n"
+"(excited trilling)\n"
+"\n"
+"Oh, one moment, my keen eager pals. I left the recorder on --\n"
+"\n"
+"(rustling)\"\n"
+"\n"
+"[LOG ENDS]"
+msgstr ""
+"<smallcaps>[Reconhecimento de Voz Inicializado]\n"
+"[Cobaias Identificadas: B111]</smallcaps>\n"
+"\n"
+"[INÍCIO DO REGISTRO]\n"
+"\n"
+"\"E-e como estão meus amiguinhos espertinhos hoje?\n"
+"\n"
+"(grunhidos)\n"
+"\n"
+"Olhem! Eu trouxe um pouco de camarão rosa pra vocês. Seus favoritos! Estão "
+"com fome?\n"
+"\n"
+"(grunhidos empolgados)\n"
+"\n"
+"Ah, um momento, um momento, meus amiguinhos. Eu deixei o gravador liga--\n"
+"\n"
+"(rangidos)\"\n"
+"\n"
+"[FIM DO REGISTRO]"
+
+#. STRINGS.CODEX.A5_SHRIMP.SUBTITLE
+msgctxt "STRINGS.CODEX.A5_SHRIMP.SUBTITLE"
+msgid "ENCRYPTION LEVEL: ZERO"
+msgstr "NÍVEL DE CRIPTOGRAFIA: ZERO"
+
+#. STRINGS.CODEX.A5_SHRIMP.TITLE
+msgctxt "STRINGS.CODEX.A5_SHRIMP.TITLE"
+msgid "Shrimp"
+msgstr "Camarão"
+
+#. STRINGS.CODEX.A5_STRAWBERRIES.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.A5_STRAWBERRIES.BODY.CONTAINER1"
+msgid ""
+"<smallcaps>[Voice Recognition Initialized]\n"
+"[Subject Identified: B111]</smallcaps>\n"
+"\n"
+"[LOG BEGINS]\n"
+"\n"
+"\"A-and how are you bouncy little critters today?\n"
+"\n"
+"(chattering)\n"
+"\n"
+"Look! I brought strawberries. Your favorite! Are you hungry?\n"
+"\n"
+"(excited chattering)\n"
+"\n"
+"Oh, one moment, my precious, little pals. I left the recorder on --\n"
+"\n"
+"(rustling)\"\n"
+"\n"
+"[LOG ENDS]"
+msgstr ""
+"<smallcaps>[Reconhecimento de Voz Inicializado]\n"
+"[Cobaias Identificadas: B111]</smallcaps>\n"
+"\n"
+"[INÍCIO DO REGISTRO]\n"
+"\n"
+"\"E-e como estão meus amiguinhos saltitantes hoje?\n"
+"\n"
+"(grunhidos)\n"
+"\n"
+"Olhem! Eu trouxe morangos. Seus favoritos! Estão com fome?\n"
+"\n"
+"(grunhidos empolgados)\n"
+"\n"
+"Ah, um momento, um momento, meus amiguinhos. Eu deixei o gravador liga--\n"
+"\n"
+"(rangidos)\"\n"
+"\n"
+"[FIM DO REGISTRO]"
+
+#. STRINGS.CODEX.A5_STRAWBERRIES.SUBTITLE
+msgctxt "STRINGS.CODEX.A5_STRAWBERRIES.SUBTITLE"
+msgid "ENCRYPTION LEVEL: ZERO"
+msgstr "NÍVEL DE CRIPTOGRAFIA: ZERO"
+
+#. STRINGS.CODEX.A5_STRAWBERRIES.TITLE
+msgctxt "STRINGS.CODEX.A5_STRAWBERRIES.TITLE"
+msgid "Strawberries"
+msgstr "Morangos"
+
 #. STRINGS.CODEX.A5_SUNFLOWERSEEDS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.A5_SUNFLOWERSEEDS.BODY.CONTAINER1"
 msgid ""
@@ -20052,6 +20418,167 @@ msgstr "NÃO ENCRIPTADO"
 msgctxt "STRINGS.CODEX.B2_TEMPORALBOWUPDATE.TITLE"
 msgid "Spec Changes"
 msgstr "Mudanças de Configuração"
+
+#. STRINGS.CODEX.B3_MOVEDRABBITS.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.B3_MOVEDRABBITS.BODY.CONTAINER1"
+msgid ""
+"<smallcaps>[Voice Recognition Initialized]\n"
+"[Subjects Identified: A001, B111]</smallcaps>\n"
+"\n"
+"[LOG BEGINS]\n"
+"\n"
+"Broussard: Director, do you know where my rabbits have been moved to? I "
+"asked around the bioengineering division but I was referred back to you.\n"
+"\n"
+"Director: Hm? Oh, yes, they've been removed.\n"
+"\n"
+"Broussard: \"Removed\"?\n"
+"\n"
+"Director: Discarded. I'm sorry, did you still need them? The reports showed "
+"your experiments with them were completed.\n"
+"\n"
+"Broussard: No, I-I... I'd collected all the data I needed, I just --\n"
+"\n"
+"Director: -- Doctor. You weren't making pets out of test subjects, were "
+"you?\n"
+"\n"
+"Broussard: Don't be ridiculous, I --\n"
+"\n"
+"Director: -- Good.They were horrible to look at anyway. All those red eyes "
+"looking at me.\n"
+"\n"
+"Broussard: In the future, please do not mess with my things. It... disturbs "
+"me.\n"
+"\n"
+"Director: I will notify you beforehand next time, doctor.\n"
+"\n"
+"[LOG ENDS]"
+msgstr ""
+"<smallcaps>[Reconhecimento de Voz Inicializado]\n"
+"[Cobaias Identificadas: A001, B111]</smallcaps>\n"
+"\n"
+"[INÍCIO DO REGISTRO]\n"
+"\n"
+"Broussard: Diretora, você sabe para onde levaram os meus coelhos? Eu "
+"perguntei lá pela divisão de bioengenharia mas me referenciaram de volta pra "
+"você.\n"
+"\n"
+"Diretora: Hum? Ah, sim, eles foram removidos.\n"
+"\n"
+"Broussard: \"Removidos\"?\n"
+"\n"
+"Diretora: Descartados. Me desculpe, mas você ainda precisava deles? Os "
+"relatórios mostravam que seus experimentos com eles já tinham sido "
+"concluídos.\n"
+"\n"
+"Broussard: Não, E-eu... Eu tinha coletado todos os dados que eu precisava, "
+"mas eu --\n"
+"\n"
+"Diretora: -- Doutora. Você não tá fazendo das nossas cobaias de bichos de "
+"estimação, não é?\n"
+"\n"
+"Broussard: Não seja ridícula, Eu --\n"
+"\n"
+"Director: -- Ótimo. Eles eram terríveis de olhar. Todos aqueles olhos "
+"vermelhos me olhando de volta.\n"
+"\n"
+"Broussard: No futuro, por favor não mexa nas minhas coisas. Isso... me "
+"incomoda.\n"
+"\n"
+"Diretora: Eu vou lhe avisar com antecedência na próxima vez, doutora.\n"
+"\n"
+"[FIM DO REGISTRO]"
+
+#. STRINGS.CODEX.B3_MOVEDRABBITS.SUBTITLE
+msgctxt "STRINGS.CODEX.B3_MOVEDRABBITS.SUBTITLE"
+msgid "ENCRYPTION LEVEL: ONE"
+msgstr "NÍVEL DE CRIPTOGRAFIA: UM"
+
+#. STRINGS.CODEX.B3_MOVEDRABBITS.TITLE
+msgctxt "STRINGS.CODEX.B3_MOVEDRABBITS.TITLE"
+msgid "Moved Rabbits"
+msgstr "Coelhos Movidos"
+
+#. STRINGS.CODEX.B3_MOVEDRACCOONS.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.B3_MOVEDRACCOONS.BODY.CONTAINER1"
+msgid ""
+"<smallcaps>[Voice Recognition Initialized]\n"
+"[Subjects Identified: A001, B111]</smallcaps>\n"
+"\n"
+"[LOG BEGINS]\n"
+"\n"
+"Broussard: Director, do you know where my raccoons have been moved to? I "
+"asked around the bioengineering division but I was referred back to you.\n"
+"\n"
+"Director: Hm? Oh, yes, they've been removed.\n"
+"\n"
+"Broussard: \"Removed\"?\n"
+"\n"
+"Director: Discarded. I'm sorry, did you still need them? The reports showed "
+"your experiments with them were completed.\n"
+"\n"
+"Broussard: No, I-I... I'd collected all the data I needed, I just --\n"
+"\n"
+"Director: -- Doctor. You weren't making pets out of test subjects, were "
+"you?\n"
+"\n"
+"Broussard: Don't be ridiculous, I --\n"
+"\n"
+"Director: -- Good.They were horrible to look at anyway. All that mangy fur.\n"
+"\n"
+"Broussard: In the future, please do not mess with my things. It... disturbs "
+"me.\n"
+"\n"
+"Director: I will notify you beforehand next time, doctor.\n"
+"\n"
+"[LOG ENDS]"
+msgstr ""
+"<smallcaps>[Reconhecimento de Voz Inicializado]\n"
+"[Cobaias Identificadas: A001, B111]</smallcaps>\n"
+"\n"
+"[INÍCIO DO REGISTRO]\n"
+"\n"
+"Broussard: Diretora, você sabe para onde levaram os meus guaxinins? Eu "
+"perguntei lá pela divisão de bioengenharia mas me referenciaram de volta pra "
+"você.\n"
+"\n"
+"Diretora: Hum? Ah, sim, eles foram removidos.\n"
+"\n"
+"Broussard: \"Removidos\"?\n"
+"\n"
+"Diretora: Descartados. Me desculpe, mas você ainda precisava deles? Os "
+"relatórios mostravam que seus experimentos com eles já tinham sido "
+"concluídos.\n"
+"\n"
+"Broussard: Não, E-eu... Eu tinha coletado todos os dados que eu precisava, "
+"mas eu --\n"
+"\n"
+"Diretora: -- Doutora. Você não tá fazendo das nossas cobaias de bichos de "
+"estimação, não é?\n"
+"\n"
+"Broussard: Não seja ridícula, Eu --\n"
+"\n"
+"Director: -- Ótimo. Eles eram terríveis de olhar. Toda aquela pele "
+"sarnenta.\n"
+"\n"
+"Broussard: No futuro, por favor não mexa nas minhas coisas. Isso... me "
+"incomoda.\n"
+"\n"
+"Diretora: Eu vou lhe avisar com antecedência na próxima vez, doutora.\n"
+"\n"
+"[FIM DO REGISTRO]"
+
+#. STRINGS.CODEX.B3_MOVEDRACCOONS.SUBTITLE
+msgctxt "STRINGS.CODEX.B3_MOVEDRACCOONS.SUBTITLE"
+msgid "ENCRYPTION LEVEL: ONE"
+msgstr "NÍVEL DE CRIPTOGRAFIA: UM"
+
+#. STRINGS.CODEX.B3_MOVEDRACCOONS.TITLE
+#| msgctxt "STRINGS.CODEX.B3_MOVEDRATS.TITLE"
+#| msgid "Moved Rats"
+msgctxt "STRINGS.CODEX.B3_MOVEDRACCOONS.TITLE"
+msgid "Moved Raccoons"
+msgstr "Guaxinins Movidos"
 
 #. STRINGS.CODEX.B3_MOVEDRATS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.B3_MOVEDRATS.BODY.CONTAINER1"
@@ -23368,6 +23895,44 @@ msgctxt "STRINGS.CODEX.MYLOG.BODY.ONEDUPELEFT.TITLE"
 msgid "Only One Remains"
 msgstr "Somente Restou Um"
 
+#. STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.BODY
+msgctxt "STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.BODY"
+msgid ""
+"A closer analysis of some documents my Duplicants encountered while "
+"searching artifacts has uncovered some curious similarities between multiple "
+"entries. These similarities are too strong to be coincidences, yet just "
+"divergent enough to raise questions.\n"
+"\n"
+"The most logical conclusion is that these artifacts are coming from "
+"different dimensions. That is, separate universes that exists concurrently "
+"with one another but exhibit tiny disparities in their histories.\n"
+"\n"
+"The most likely explaination is the material and matter from multiple "
+"dimensions is leaking into our current timeline through the Temporal Tear. "
+"Further analysis is required."
+msgstr ""
+"Uma análise mais profunda de alguns documentos que meus Duplicantes "
+"encontraram enquanto procuravam por artefatos revelaram alguma similaridades "
+"curiosas entre múltiplos registros. Estas similaridades são fortes demais "
+"para serem coincidências, mas divergentes o suficiente para levantar "
+"dúvidas.\n"
+"\n"
+"A conclusão mais lógica é que estes artefatos estão vindo de dimensões "
+"diferentes. Isso significa que universos separados que existem "
+"simultaneamente um com o outro mas exibem pequenas diferenças em suas "
+"histórias.\n"
+"\n"
+"A explicação mais provável é que o material e a matéria de múltiplas "
+"dimensões estão escapando para a nossa linha do tempo atual pela Fenda "
+"Temporal. Mais análises serão necessárias."
+
+#. STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.TITLE
+#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.DIMENSION"
+#| msgid "Dimension"
+msgctxt "STRINGS.CODEX.MYLOG.BODY.OTHERDIMENSIONS.TITLE"
+msgid "Leaking Dimensions"
+msgstr "Escapando de Dimensões"
+
 #. STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.BODY
 msgctxt "STRINGS.CODEX.MYLOG.BODY.OUTSIDESTARTINGBIOME.BODY"
 msgid ""
@@ -24490,16 +25055,17 @@ msgid ""
 "Computer</link>\n"
 "Interstellar Research is performed at the <link=\"COSMICRESEARCHCENTER"
 "\">Virtual Planetarium</link>\n"
-"Atomic Research is performed at the <link=\"NUCLEARLABORATORY\">Atomic "
-"Collider</link>\n"
+"Materials Science Research is performed at the <link=\"NUCLEARLABORATORY"
+"\">Material Study Terminal</link>\n"
 "\n"
 msgstr ""
 "Tarefas de pesquisa avançada necessitam de estações de pesquisa avançada "
 "para gerar os pontos de pesquisa adequados. Estas estações de pesquisa "
 "consomem recursos mais avançados.\n"
 "\n"
-"Usando estações de pesquisa de nível maior também necessitam de Duplicantes "
-"que aprenderam <link=\"ROLES\">Habilidades</link> de pesquisa de alto nível\n"
+"Usar estações de pesquisa de nível maior também necessitam de Duplicantes "
+"que aprenderam <link=\"ROLES\">Habilidades</link> de pesquisa de nível mais "
+"alto\n"
 "\n"
 "Pesquisa Iniciante é realizada na <link=\"RESEARCHCENTER\">Estação de "
 "Pesquisa</link>\n"
@@ -24507,8 +25073,8 @@ msgstr ""
 "Computador</link>\n"
 "Pesquisa Interestelar é realizada no <link=\"COSMICRESEARCHCENTER"
 "\">Planetário Virtual</link>\n"
-"Pesquisa Atômica é realizada no <link=\"NUCLEARLABORATORY\">Colisor Atômico</"
-"link>\n"
+"Pesquisa Científica de Materiais é realizada no <link=\"NUCLEARLABORATORY"
+"\">Computador de Estudo da Matéria</link>\n"
 "\n"
 
 #. STRINGS.CODEX.RESEARCH.TITLE
@@ -33435,8 +34001,8 @@ msgstr "Indo desmontar"
 
 #. STRINGS.DUPLICANTS.CHORES.DECONSTRUCT.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.CHORES.DECONSTRUCT.TOOLTIP"
-msgid "This Duplicant is demolishing a building"
-msgstr "Este Duplicante está demolindo uma estrutura"
+msgid "This Duplicant is deconstructing a building"
+msgstr "Este Duplicante está desmontando uma estrutura"
 
 #. STRINGS.DUPLICANTS.CHORES.DELIVERFOOD.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DELIVERFOOD.NAME"
@@ -33452,6 +34018,21 @@ msgstr "Entregando comida"
 msgctxt "STRINGS.DUPLICANTS.CHORES.DELIVERFOOD.TOOLTIP"
 msgid "Under thirty minutes or it's free"
 msgstr "Entrega em 30 minutos ou seu dinheiro de volta"
+
+#. STRINGS.DUPLICANTS.CHORES.DEMOLISH.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.DEMOLISH.NAME"
+msgid "Demolish"
+msgstr "Demolir"
+
+#. STRINGS.DUPLICANTS.CHORES.DEMOLISH.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.DEMOLISH.STATUS"
+msgid "Demolishing object"
+msgstr "Demolindo objeto"
+
+#. STRINGS.DUPLICANTS.CHORES.DEMOLISH.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.CHORES.DEMOLISH.TOOLTIP"
+msgid "Demolishing an object removes it permanently"
+msgstr "Demolir um objeto o remove permanentemente"
 
 #. STRINGS.DUPLICANTS.CHORES.DEPRESSURIZE.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.DEPRESSURIZE.NAME"
@@ -40304,16 +40885,16 @@ msgstr "<link=\"NOROLE\">Desempregado</link>"
 #. STRINGS.DUPLICANTS.ROLES.NUCLEAR_RESEARCHER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.NUCLEAR_RESEARCHER.DESCRIPTION"
 msgid ""
-"Enables Duplicants to study sub-atomic particles using the <link="
-"\"NUCLEARLABORATORY\">Atomic Collider</link>"
+"Enables Duplicants to study matter using the <link=\"NUCLEARLABORATORY"
+"\">Material Study Terminal</link>"
 msgstr ""
-"Permite os Duplicantes estudarem partículas subatômicas usando o <link="
-"\"NUCLEARLABORATORY\">Colisor Atômico</link>"
+"Permite os Duplicantes estudarem a matéria usando o <link=\"NUCLEARLABORATORY"
+"\">Computador de Estudo da Matéria</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.NUCLEAR_RESEARCHER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.NUCLEAR_RESEARCHER.NAME"
-msgid "<link=\"NUCLEARRESEARCHER\">Atomic Research</link>"
-msgstr "<link=\"NUCLEARRESEARCHER\">Pesquisa Nuclear</link>"
+msgid "<link=\"NUCLEARRESEARCHER\">Materials Science Research</link>"
+msgstr "<link=\"NUCLEARRESEARCHER\">Pesquisa Científica de Materiais</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.OIL_TECHNICIAN.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.OIL_TECHNICIAN.DESCRIPTION"
@@ -40403,8 +40984,8 @@ msgstr "Aumenta ainda mais a velocidade de construção de um Duplicante"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_BUILDER.NAME"
-msgid "<link=\"SENIORBUILDER\">Improved Construction III</link>"
-msgstr "<link=\"SENIORBUILDER\">Construção Melhorada III</link>"
+msgid "<link=\"SENIORBUILDER\">Demolition</link>"
+msgstr "<link=\"SENIORBUILDER\">Demolição</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_FARMER.DESCRIPTION"
@@ -40842,6 +41423,16 @@ msgctxt "STRINGS.DUPLICANTS.STATS.TRUNKHEALTH.TOOLTIP"
 msgid "Tree branches will die if they do not have a healthy trunk to grow from"
 msgstr "Galhos da árvore morrerão se eles não tiverem um tronco saudável"
 
+#. STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGARTIFACT.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGARTIFACT.NAME"
+msgid "Analyzing Artifact"
+msgstr "Analisando Artefato"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGARTIFACT.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGARTIFACT.TOOLTIP"
+msgid "This duplicant is studying an artifact"
+msgstr "Este Duplicante está estudando artefato"
+
 #. STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGGENES.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGGENES.NAME"
 msgid "Analyzing Plant Genes"
@@ -41183,6 +41774,16 @@ msgstr "Descontruindo {Target}"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.DECONSTRUCTING.TOOLTIP
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DECONSTRUCTING.TOOLTIP"
+msgid "This Duplicant is deconstructing the <b>{Target}</b>"
+msgstr "Este Duplicante está desmontando <b>{Target}</b>"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.DEMOLISHING.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DEMOLISHING.NAME"
+msgid "Demolishing {Target}"
+msgstr "Desmontando {Target}"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.DEMOLISHING.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.DEMOLISHING.TOOLTIP"
 msgid "This Duplicant is demolishing the <b>{Target}</b>"
 msgstr "Este Duplicante está demolindo <b>{Target}</b>"
 
@@ -43803,8 +44404,8 @@ msgstr "Aumenta ainda mais a velocidade de construção de um Duplicante"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.NAME"
-msgid "Skilled: <link=\"SENIORBUILDER\">Improved Construction III</link>"
-msgstr "Habilidoso: <link=\"SENIORBUILDER\">Construção Melhorada III</link>"
+msgid "Skilled: <link=\"SENIORBUILDER\">Demolition</link>"
+msgstr "Habilidoso: <link=\"SENIORBUILDER\">Demolição</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_BUILDING3.SHORT_DESC"
@@ -44388,16 +44989,18 @@ msgstr ""
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.DESC"
 msgid ""
-"Enables Duplicants to study sub-atomic particles using the <link="
-"\"NUCLEARLABORATORY\">Atomic Collider</link>"
+"Enables Duplicants to study matter using the <link=\"NUCLEARLABORATORY"
+"\">Material Study Terminal</link>"
 msgstr ""
-"Permite os Duplicantes estudarem partículas subatômicas usando o <link="
-"\"NUCLEARLABORATORY\">Colisor Atômico</link>"
+"Permite os Duplicantes estudarem a matéria usando o <link=\"NUCLEARLABORATORY"
+"\">Computador de Estudo da Matéria</link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.NAME"
-msgid "Skilled: <link=\"NUCLEARRESEARCHER\">Atomic Research</link>"
-msgstr "Habilidoso: <link=\"NUCLEARRESEARCHER\">Pesquisa Atômica</link>"
+msgid "Skilled: <link=\"NUCLEARRESEARCHER\">Materials Science Research</link>"
+msgstr ""
+"Habilidoso: <link=\"NUCLEARRESEARCHER\">Pesquisa Científica de Materiais</"
+"link>"
 
 #. STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GRANTSKILL_RESEARCHING4.SHORT_DESC"
@@ -54681,6 +55284,11 @@ msgctxt "STRINGS.MISC.TAGS.BURNS"
 msgid "Flammable"
 msgstr "Inflamável"
 
+#. STRINGS.MISC.TAGS.CHARMEDARTIFACT
+msgctxt "STRINGS.MISC.TAGS.CHARMEDARTIFACT"
+msgid "Charmed Artifact"
+msgstr "Artefato Encantado"
+
 #. STRINGS.MISC.TAGS.CLINIC
 msgctxt "STRINGS.MISC.TAGS.CLINIC"
 msgid "Clinic"
@@ -58096,16 +58704,17 @@ msgstr "<b>Painel Transportador</b>"
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.DESC"
 msgid ""
-"Allows <style=\"KKeyword\">Atomic Research</style> points to be accumulated, "
-"unlocking higher technology tiers."
+"Allows <style=\"KKeyword\">Materials Science Research</style> points to be "
+"accumulated, unlocking higher technology tiers."
 msgstr ""
-"Permite que Pontos de <style=\"KKeyword\">Pesquisa Atômica</style> sejam "
-"acumulados, desbloqueando níveis tecnológicos mais altos."
+"Permite que pontos de <style=\"KKeyword\">Pesquisa Científica de Materiais</"
+"style> sejam acumulados, desbloqueando níveis tecnológicos mais altos."
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.NAME
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.NAME"
-msgid "<style=\"KKeyword\">Atomic Research</style> Capability"
-msgstr "Capacidade de <style=\"KKeyword\">Pesquisa Atômica</style>"
+msgid "<style=\"KKeyword\">Materials Science Research</style> Capability"
+msgstr ""
+"Capacidade de <style=\"KKeyword\">Pesquisa Científica de Materiais</style>"
 
 #. STRINGS.RESEARCH.OTHER_TECH_ITEMS.GAMMA_RESEARCH_POINT.DESC
 msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.GAMMA_RESEARCH_POINT.DESC"
@@ -58238,6 +58847,20 @@ msgstr ""
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME"
 msgid "<link=\"ADVANCEDRESEARCH\">Advanced Research</link>"
 msgstr "<link=\"ADVANCEDRESEARCH\">Pesquisa Avançada</link>"
+
+#. STRINGS.RESEARCH.TECHS.ADVANCEDRESOURCEEXTRACTION.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESOURCEEXTRACTION.DESC"
+msgid "Bring back souvieners from the stars."
+msgstr "Traga lembrancinhas das estrelas."
+
+#. STRINGS.RESEARCH.TECHS.ADVANCEDRESOURCEEXTRACTION.NAME
+#| msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME"
+#| msgid "<link=\"ADVANCEDRESEARCH\">Advanced Research</link>"
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESOURCEEXTRACTION.NAME"
+msgid ""
+"<link=\"ADVANCEDRESOURCEEXTRACTION\">Advanced Resource Extraction</link>"
+msgstr ""
+"<link=\"ADVANCEDRESOURCEEXTRACTION\">Extração Avançada de Recursos</link>"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.DESC"
@@ -58993,13 +59616,13 @@ msgstr "<link=\"NUCLEAR\">Refino de Radiação</link>"
 
 #. STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC"
-msgid "Research and harness sub-atomic particles."
-msgstr "Pesquise e colete partículas subatômicas."
+msgid "Harness sub-atomic particles to study the properties of matter."
+msgstr "Coleta partículas subatômicas para estudar as propriedades da matéria."
 
 #. STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME"
-msgid "<link=\"ATOMIC\">Atomic Research</link>"
-msgstr "<link=\"ATOMIC\">Pesquisa Atômica</link>"
+msgid "<link=\"ATOMIC\">Materials Science Research</link>"
+msgstr "<link=\"ATOMIC\">Pesquisa Científica de Materiais</link>"
 
 #. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC"
@@ -59446,18 +60069,20 @@ msgstr "Desbloqueia tecnologias melhores."
 #. STRINGS.RESEARCH.TYPES.DELTA.DESC
 msgctxt "STRINGS.RESEARCH.TYPES.DELTA.DESC"
 msgid ""
-"<link=\"RESEARCH\">Atomic Research</link> is required to unlock atomic "
-"technologies.\n"
-"It can be conducted at a <link=\"NUCLEARLABORATORY\">Atomic Collider</link>."
+"<link=\"RESEARCH\">Materials Science Research</link> is required to unlock "
+"materials science technologies.\n"
+"It can be conducted at a <link=\"NUCLEARLABORATORY\">Material Study "
+"Terminal</link>."
 msgstr ""
-"<link=\"RESEARCH\">Pesquisa Atômica</link> é necessária para desbloquear "
-"tecnologias básicas.\n"
-"Pode ser conduzida em um <link=\"NUCLEARLABORATORY\">Colisor Atômico</link>."
+"<link=\"RESEARCH\">Pesquisa Científica de Materiais</link> é necessária para "
+"desbloquear tecnologias básicas.\n"
+"Pode ser conduzida em um <link=\"NUCLEARLABORATORY\">Computador de Estudo da "
+"Matéria</link>."
 
 #. STRINGS.RESEARCH.TYPES.DELTA.NAME
 msgctxt "STRINGS.RESEARCH.TYPES.DELTA.NAME"
-msgid "Atomic Research"
-msgstr "Pesquisa Atômica"
+msgid "Materials Science Research"
+msgstr "Pesquisa Científica de Materiais"
 
 #. STRINGS.RESEARCH.TYPES.DELTA.RECIPEDESC
 msgctxt "STRINGS.RESEARCH.TYPES.DELTA.RECIPEDESC"
@@ -60549,7 +61174,11 @@ msgstr ""
 #. STRINGS.SUBWORLDS.AQUATIC.DESC
 msgctxt "STRINGS.SUBWORLDS.AQUATIC.DESC"
 msgid ""
+"The Aquatic Biome is flush with a huge deposit of precious <link=\"WATER"
+"\">Water</link>."
 msgstr ""
+"O Bioma Aquático é inundado com grandes depósitos de <link=\"WATER\">Água</"
+"link>."
 
 #. STRINGS.SUBWORLDS.AQUATIC.NAME
 msgctxt "STRINGS.SUBWORLDS.AQUATIC.NAME"
@@ -60559,7 +61188,30 @@ msgstr "Aquático"
 #. STRINGS.SUBWORLDS.AQUATIC.UTILITY
 msgctxt "STRINGS.SUBWORLDS.AQUATIC.UTILITY"
 msgid ""
+"Initially there is very little solid ground in this biome to establish a "
+"temporary base, but once a transportation network can be established to send "
+"the <link=\"WATER\">Water</link> of the Aquatic Biome to the rest of the "
+"colony, the other elements will be easier to reach.\n"
+"\n"
+"<link=\"SANDSTONE\">Sandstone</link>, <link=\"MAFICROCK\">Mafic Rock</link>, "
+"<link=\"SAND\">Sand</link> and <link=\"SEDIMENTARYROCK\">Sedimentary Rock</"
+"link> provide readily available construction materials for setting up "
+"elementary infrastructure. The presence of <link=\"OXYROCK\">Oxylite</link> "
+"provides invaluable <link=\"OXYGEN\">Oxygen</link> which, through careful "
+"planning, should be able to sustain any Duplicants working in the area for a "
+"limited amount of time."
 msgstr ""
+"Inicialmente existirá pouco espaço sólido neste bioma para criar uma base "
+"temporária, mas assim que uma rede de transporte for estabelecida para "
+"enviar a <link=\"WATER\">Água</link> do Bioma Aquático para o resto da "
+"colônia, os outros elementos ficarão mais fáceis de alcançar.\n"
+"\n"
+"<link=\"SANDSTONE\">Arenito</link>, <link=\"MAFICROCK\">Rocha Máfica</link>, "
+"<link=\"SAND\">Areia</link> e <link=\"SEDIMENTARYROCK\">Rocha Sedimentar</"
+"link> irão providenciar materiais de construção para a infraestrutura "
+"primária. A presença de <link=\"OXYROCK\">Oxilito</link> providencia <link="
+"\"OXYGEN\">Oxigênio</link> que, com planejamento adequado, será capaz de "
+"sustentar meus Duplicantes trabalhando na área por um tempo limitado."
 
 #. STRINGS.SUBWORLDS.BARREN.DESC
 msgctxt "STRINGS.SUBWORLDS.BARREN.DESC"
@@ -60925,7 +61577,11 @@ msgstr ""
 #. STRINGS.SUBWORLDS.MOO.DESC
 msgctxt "STRINGS.SUBWORLDS.MOO.DESC"
 msgid ""
+"The Moo Biome is the natural habitat of the charismatic <link=\"MOO\">Gassy "
+"Moo</link>, a great source of <link=\"METHANE\">Natural Gas</link>."
 msgstr ""
+"O Bioma Boi é o habitat natural do carismático <link=\"MOO\">Boi Gasoso</"
+"link>, uma ótima fonte de <link=\"METHANE\">Gás Natural</link>."
 
 #. STRINGS.SUBWORLDS.MOO.NAME
 msgctxt "STRINGS.SUBWORLDS.MOO.NAME"
@@ -60935,12 +61591,55 @@ msgstr "Boi"
 #. STRINGS.SUBWORLDS.MOO.UTILITY
 msgctxt "STRINGS.SUBWORLDS.MOO.UTILITY"
 msgid ""
+"In addition to <link=\"METHANE\">Natural Gas</link>, the highly toxic <link="
+"\"CHLORINEGAS\">Chlorine</link> is also present in gas form. In fact, "
+"Chlorine is present here in <link=\"ELEMENTSGAS\">gas</link>, <link="
+"\"ELEMENTSLIQUID\">liquid</link>, and <link=\"ELEMENTSSOLID\">solid</link> "
+"states, largely due to the presence of <link=\"BLEACHSTONE\">Bleach Stone</"
+"link>.\n"
+"\n"
+"<link=\"IGNEOUSROCK\">Igneous Rock</link> and its denser form, <link="
+"\"GRANITE\">Granite</link>, provide some useful construction materials, but "
+"the real star of this biome are the <link=\"MOO\">Gassy Moos</link> who "
+"consume <link=\"GASGRASS\">Gas Grass</link> and excrete <link=\"METHANE"
+"\">Natural Gas</link>. While Gassy Moos cannot be bred domestically, Gassy "
+"Mooteors regularly fall from space onto this biome, making it the best way "
+"to find a reliable source of these elusive creatures.\n"
+"\n"
+"With no breathable <link=\"OXYGEN\">Oxygen</link> in this biome my "
+"Duplicants will need to be properly prepared before they venture too far "
+"into its depths."
 msgstr ""
+"Junto com o <link=\"METHANE\">Gás Natural</link>, a alta toxicidade do <link="
+"\"CHLORINEGAS\">Cloro</link> também está presente na forma de gás. Na "
+"realidade, Cloro está presente aqui na forma de <link=\"ELEMENTSGAS\">gás</"
+"link>, <link=\"ELEMENTSLIQUID\">líquido</link>, e <link=\"ELEMENTSSOLID"
+"\">sólido</link>, principalmente devido a presença de <link=\"BLEACHSTONE"
+"\">Barrela</link>.\n"
+"\n"
+"<link=\"IGNEOUSROCK\">Rocha Ígnea</link> e sua forma mais densa, <link="
+"\"GRANITE\">Granito</link>, providenciam alguns materiais de construção "
+"úteis, mas a verdadeira estrela desse bioma são os <link=\"MOO\">Bois "
+"Gasosos</link> que consomem <link=\"GASGRASS\">Grama Gasosa</link> e "
+"excretam <link=\"METHANE\">Gás Natural</link>. Enquanto Bois Gasosos não se "
+"reproduzem domesticamente, Muuteoros Gasosos caem com frequência nesse "
+"bioma, fazendo dele a melhor forma de encontrar uma fonte confiável dessas "
+"criaturas únicas.\n"
+"\n"
+"With no breathable <link=\"OXYGEN\">Oxygen</link> in this biome my "
+"Duplicants will need to be properly prepared before they venture too far "
+"into its depths."
 
 #. STRINGS.SUBWORLDS.NIOBIUM.DESC
 msgctxt "STRINGS.SUBWORLDS.NIOBIUM.DESC"
 msgid ""
+"The Niobium Biome features only two resources yet, because <link=\"NIOBIUM"
+"\">Niobium</link> is an extremely rare and valuable element, it is worth "
+"making a special visit."
 msgstr ""
+"O Bioma Nióbio só possui dois recursos no momento, mas por causa do <link="
+"\"NIOBIUM\">Nióbio</link> ser um elemento extremamente raro e valioso, vale "
+"a pena fazer uma visita."
 
 #. STRINGS.SUBWORLDS.NIOBIUM.NAME
 msgctxt "STRINGS.SUBWORLDS.NIOBIUM.NAME"
@@ -60950,7 +61649,26 @@ msgstr "Nióbio"
 #. STRINGS.SUBWORLDS.NIOBIUM.UTILITY
 msgctxt "STRINGS.SUBWORLDS.NIOBIUM.UTILITY"
 msgid ""
+"By itself <link=\"NIOBIUM\">Niobium</link> is not a particularly useful "
+"resource, but if processed through a <link=\"METALREFINERY\">Metal Refinery</"
+"link> it produces the extremely thermal conductive <link=\"TEMPCONDUCTORSOLID"
+"\">Thermium</link> which goes a long way in solving many extreme temperature "
+"issues in a colony.\n"
+"\n"
+"The edges of this biome are filled with <link=\"OBSIDIAN\">Obsidian</link> "
+"so a Duplicant with the <link=\"SENIORMINER\">Super-Duperhard Digging</link> "
+"skill will be required before my colony can explore here."
 msgstr ""
+"O <link=\"NIOBIUM\">Nióbio</link> por si só não é um recursos "
+"particularmente útil, mas se processado em uma <link=\"METALREFINERY"
+"\">Refinaria de Metais</link> ele produzirá <link=\"TEMPCONDUCTORSOLID"
+"\">Termita</link>, um excelente condutor térmico, que pode resolver diversos "
+"problemas com temperaturas extremas em uma colônia de uma vez só.\n"
+"\n"
+"As bordas desse bioma estão cheias de <link=\"OBSIDIAN\">Obsidiana</link> "
+"então um Duplicante com a habilidade <link=\"SENIORMINER\">Escavação "
+"Superultradura</link> será necessário para minha colônia conseguir explorar "
+"aqui."
 
 #. STRINGS.SUBWORLDS.OCEAN.DESC
 msgctxt "STRINGS.SUBWORLDS.OCEAN.DESC"
@@ -61254,7 +61972,7 @@ msgstr ""
 #. STRINGS.SUBWORLDS.SWAMP.NAME
 msgctxt "STRINGS.SUBWORLDS.SWAMP.NAME"
 msgid "Swampy"
-msgstr "Pântanoso"
+msgstr "Pantanoso"
 
 #. STRINGS.SUBWORLDS.SWAMP.UTILITY
 msgctxt "STRINGS.SUBWORLDS.SWAMP.UTILITY"
@@ -61310,7 +62028,12 @@ msgstr ""
 #. STRINGS.SUBWORLDS.WASTELAND.DESC
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.DESC"
 msgid ""
+"While the Wasteland Biome does not look particularly interesting, a "
+"pragmatic colony can take advantage of its selection of construction "
+"resources."
 msgstr ""
+"Enquanto o Bioma Desértico não aparenta ser interessante, uma colônia pode "
+"se beneficiar da sua variedade de materiais de construção."
 
 #. STRINGS.SUBWORLDS.WASTELAND.NAME
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.NAME"
@@ -61320,7 +62043,45 @@ msgstr "Desértico"
 #. STRINGS.SUBWORLDS.WASTELAND.UTILITY
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.UTILITY"
 msgid ""
+"The prevalance of <link=\"COPPER\">Copper</link>, <link=\"SANDSTONE"
+"\">Sandstone</link>, <link=\"IGNEOUSROCK\">Igneous Rock</link> and its <link="
+"\"IRON\">Iron</link> rich counterpart <link=\"MAFICROCK\">Mafic Rock</link>, "
+"make this a fruitful biome to explore for construction material. <link=\"SAND"
+"\">Sand</link> is also in abundance here which is useful as a filtering "
+"material.\n"
+"\n"
+"While the wildlife is not in abundance in the Wasteland Biome, the <link="
+"\"DIVERGENTBEETLE\">Sweetle</link> and <link=\"DIVERGENTWORM\">Grubgrub</"
+"link> make interesting creatures to domesticate as they co-exist with the  "
+"<link=\"WORMPLANT\">Grubfruit Plants</link> to produce a much higher quality "
+"food than the <link=\"WORMPLANT\">Spindly Grubfruit Plant</link> found in "
+"the wild. Additionally, the <link=\"SULFUR\">Sulfur</link> found here works "
+"both as food for the GrubGrubs and fertilizer for the Grubfruit Plants.\n"
+"\n"
+"The abundance of <link=\"OXYGEN\">Oxygen</link> found in the Wasteland Biome "
+"makes for a low-risk area to send my Duplicants into to collect useful "
+"resources to continue with their construction projects."
 msgstr ""
+"A prevalência de <link=\"COPPER\">Cobre</link>, <link=\"SANDSTONE\">Arenito</"
+"link>, <link=\"IGNEOUSROCK\">Rocha Ígnea</link> e, sua variante rica em "
+"<link=\"IRON\">Ferro</link>, <link=\"MAFICROCK\">Rocha Máfica</link>, fazem "
+"dele um bioma frutífero para exploração de materiais de construção. <link="
+"\"SAND\">Areia</link> também está em abundância aqui, o que é útil como um "
+"material de filtragem.\n"
+"\n"
+"Enquanto a vida animal não é encontrada em abundância no Bioma Desértico, o "
+"<link=\"DIVERGENTBEETLE\">Dosouro</link> e a <link=\"DIVERGENTWORM"
+"\">Lagalarta</link> são criaturas interessantes para domesticar já que eles "
+"coexistem com os <link=\"WORMPLANT\">Pés de Lagafruta</link> para produzir "
+"uma comida de qualidade muito maior que o <link=\"WORMPLANT\">Pé de "
+"Lagafruta Seca</link> encontrado no bioma. Além disso, o <link=\"SULFUR"
+"\">Enxofre</link> encontrado aqui serve tanto como comida para as Lagalartas "
+"quanto fertilizante para os Pés de Lagafruta.\n"
+"\n"
+"A abundância de <link=\"OXYGEN\">Oxigênio</link> encontrado no Bioma "
+"Desértico faz desse bioma uma área de baixo risco para enviar meus "
+"Duplicantes na coleta de recursos úteis para continuar com seus projetos de "
+"construção."
 
 #. STRINGS.UI.ACTIONS
 msgctxt "STRINGS.UI.ACTIONS"
@@ -63186,6 +63947,16 @@ msgctxt "STRINGS.UI.CLUSTERMAP.PLANETOID_KEYWORD"
 msgid "Planetoid"
 msgstr "Planetoide"
 
+#. STRINGS.UI.CLUSTERMAP.POI.MASS_REMAINING
+msgctxt "STRINGS.UI.CLUSTERMAP.POI.MASS_REMAINING"
+msgid "Mass Remaining: {0}"
+msgstr "Massa Restante: {0}"
+
+#. STRINGS.UI.CLUSTERMAP.POI.TITLE
+msgctxt "STRINGS.UI.CLUSTERMAP.POI.TITLE"
+msgid "POINT OF INTEREST"
+msgstr "PONTO DE INTERESSE"
+
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_MODULE.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_MODULE.NAME"
 msgid "Module Burden: "
@@ -63322,6 +64093,31 @@ msgstr ""
 msgctxt "STRINGS.UI.CLUSTERMAP.SELECT_DESTINATION"
 msgid "Select a new destination on the map"
 msgstr "Selecione um novo destino do mapa"
+
+#. STRINGS.UI.CLUSTERMAP.STATUS.NORMAL
+msgctxt "STRINGS.UI.CLUSTERMAP.STATUS.NORMAL"
+msgid "Normal"
+msgstr "Normal"
+
+#. STRINGS.UI.CLUSTERMAP.STATUS.ROCKET.GROUNDED
+msgctxt "STRINGS.UI.CLUSTERMAP.STATUS.ROCKET.GROUNDED"
+msgid "Normal"
+msgstr "Normal"
+
+#. STRINGS.UI.CLUSTERMAP.STATUS.ROCKET.IDLE
+msgctxt "STRINGS.UI.CLUSTERMAP.STATUS.ROCKET.IDLE"
+msgid "Idle"
+msgstr "Ocioso"
+
+#. STRINGS.UI.CLUSTERMAP.STATUS.ROCKET.STRANDED
+msgctxt "STRINGS.UI.CLUSTERMAP.STATUS.ROCKET.STRANDED"
+msgid "Stranded"
+msgstr "A Deriva"
+
+#. STRINGS.UI.CLUSTERMAP.STATUS.ROCKET.TRAVELING
+msgctxt "STRINGS.UI.CLUSTERMAP.STATUS.ROCKET.TRAVELING"
+msgid "Traveling"
+msgstr "Viajando"
 
 #. STRINGS.UI.CLUSTERMAP.TILES
 msgctxt "STRINGS.UI.CLUSTERMAP.TILES"
@@ -64147,13 +64943,26 @@ msgstr "Nome de Critério Genérico"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME"
-msgid "Avg Power"
-msgstr "Energia Média"
+msgid "Power use"
+msgstr "Uso de Energia"
 
-#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CRITERIA.CHECKPOWER
-msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CRITERIA.CHECKPOWER"
-msgid "Check power"
-msgstr "Verificar energia"
+#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CIRCUIT_OVER_CAPACITY
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CIRCUIT_OVER_CAPACITY"
+msgid "Circuit overloaded {0}/{1}"
+msgstr "Circuito sobrecarregado {0}/{1}"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CRITERIA.CHECKOVERWATTAGE
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CRITERIA.CHECKOVERWATTAGE"
+msgid "Check circuit overloaded"
+msgstr "Verificar circuito sobrecarregado"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CRITERIA.CHECKPOWERUSECHANGE
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CRITERIA.CHECKPOWERUSECHANGE"
+msgid "Check power use change"
+msgstr "Verificar mudança no uso de energia"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL"
@@ -64165,15 +64974,30 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.OVERLOADED"
 msgid "    • One or more power grids are damaged"
 msgstr "    • Um ou mais circuitos elétricos estão danificados"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.SIGNIFICANT_POWER_CHANGE_DETECTED
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC."
+"SIGNIFICANT_POWER_CHANGE_DETECTED"
+msgid "Significant power use change detected. (Average:{0}, Current:{1})"
+msgstr ""
+"Mudança significativa no uso de energia detectada. (Média:{0}, Atual:{1})"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME
+#| msgctxt "STRINGS.UI.UISIDESCREENS.LOGICALARMSIDESCREEN.PAUSE"
+#| msgid "<b>Pause:</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME"
-msgid "<b>Avg Power</b>"
-msgstr "<b>Energia Média</b>"
+msgid "<b>Power use</b>"
+msgstr "<b>Uso de energia</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.ALL_NAME"
 msgid "Radiation"
 msgstr "Radiação"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.AVERAGE_RADS
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.AVERAGE_RADS"
+msgid "Avg. {0}"
+msgstr "Média: {0}"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA.CHECKEXPOSED
 msgctxt ""
@@ -65833,6 +66657,16 @@ msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_BIOMES"
 msgid "BIOMES"
 msgstr "BIOMAS"
 
+#. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_CARGOBAY
+msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_CARGOBAY"
+msgid "CARGO BAYS"
+msgstr "ALAS DE CARGA"
+
+#. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_CLUSTER_POI
+msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_CLUSTER_POI"
+msgid "POINT OF INTEREST"
+msgstr "PONTO DE INTERESSE"
+
 #. STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_CONDITION
 msgctxt "STRINGS.UI.DETAILTABS.SIMPLEINFO.GROUPNAME_CONDITION"
 msgid "CONDITION"
@@ -66090,7 +66924,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.5.2): {0}"
+msgstr "VERSÃO DE TESTE (3.6): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -66120,42 +66954,58 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.5.2): {0}"
+msgstr "VERSÃO (3.6): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
 msgid ""
-"\n"
-"------------------\n"
-"Click to subscribe to this diagnostic - <b>Visible On Alert Only</b>"
+"Click to subscribe to this diagnostic - Current State:  <b>Never "
+"Visible      </b>"
 msgstr ""
-"\n"
-"------------------\n"
-"Clique para se inscrever neste diagnóstico - <b>Visível Em Alertas Somente</"
-"b>"
+"Clique para se inscrever neste diagnóstico - Estado Atual:  <b>Nunca "
+"Visível      </b>"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALWAYS
+#| msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALWAYS"
+#| msgid ""
+#| "\n"
+#| "------------------\n"
+#| "Click to pin this diagnostic to the sidebar -  <b>Always Visible</b>"
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALWAYS"
 msgid ""
-"\n"
-"------------------\n"
-"Click to pin this diagnostic to the sidebar -  <b>Always Visible</b>"
+"Click to pin this diagnostic to the sidebar - Current State: <b>Visible On "
+"Alert Only</b>"
 msgstr ""
-"\n"
-"------------------\n"
-"Clique para fixar este diagnóstico na aba lateral -  <b>Sempre Visível</b>"
+"Clique para fixar este diagnóstico na aba lateral - Estado Atual: "
+"<b>Visibilidade Somente Em Alertas</b>"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.NEVER
+#| msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALWAYS"
+#| msgid ""
+#| "\n"
+#| "------------------\n"
+#| "Click to pin this diagnostic to the sidebar -  <b>Always Visible</b>"
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.NEVER"
 msgid ""
-"\n"
-"------------------\n"
-"Click to mute this diagnostic on the sidebar -  <b>Never Visible      </b>"
+"Click to mute this diagnostic on the sidebar -  Current State: <b>Always "
+"Visible</b>"
 msgstr ""
-"\n"
-"------------------\n"
-"Clique para silenciar este diagnóstico na barra lateral -  <b>Nunca "
-"Visível      </b>"
+"Clique para silenciar este diagnóstico na barra lateral -  Estado Atual: "
+"<b>Sempre Visível</b>"
+
+#. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.TUTORIAL_DISABLED
+msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.TUTORIAL_DISABLED"
+msgid ""
+"Click to enable this diagnostic -  Current State: <b>Tutorial Disabled</b>"
+msgstr ""
+"Clique para habilitar este diagnóstico -  Estado Atual: <b>Tutorial "
+"Desativado</b>"
+
+#. STRINGS.UI.DIAGNOSTICS_SCREEN.CRITERIA_TOOLTIP
+msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CRITERIA_TOOLTIP"
+msgid ""
+"Toggle the <b>{0}</b> diagnostics evaluation of the <b>{1}</b> criteria."
+msgstr "Alterne a avaliação do diagnóstico <b>{0}</b> do critério <b>{1}</b>."
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.DIAGNOSTIC
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.DIAGNOSTIC"
@@ -71013,10 +71863,10 @@ msgstr ""
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_STERILE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_STERILE"
-msgid "Due to changes to its DNA this plant will not produce seeds of its own"
+msgid "This plant will not produce seeds of its own due to changes to its DNA"
 msgstr ""
-"Devido a mudanças no seu DNA, esta planta não produzirá sementes da sua "
-"espécie"
+"Esta planta não produzirá sementes de sua espécie devido a mudanças no seu "
+"DNA"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REGROWTHTIME
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REGROWTHTIME"
@@ -75392,6 +76242,11 @@ msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_COMPOUND.DESCRIPTION"
 msgid "<link=\"APOTHECARY\">Apothecary</link> Usage"
 msgstr "Uso de <link=\"APOTHECARY\">Botica</link>"
 
+#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DEMOLISH.DESCRIPTION
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DEMOLISH.DESCRIPTION"
+msgid "Demolish Gravitas Buildings"
+msgstr "Demolir Estruturas Gravitas"
+
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_DIG_NEARLY_IMPENETRABLE.DESCRIPTION"
 msgid "<link=\"KATAIRITE\">Abyssalite</link> Mining"
@@ -75468,6 +76323,11 @@ msgid "<link=\"POWER\">Generator Tuning</link> usage and Microchip Crafting"
 msgstr ""
 "<link=\"POWER\">Atualização de Geradores</link> e fabricação de Microchips"
 
+#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_STUDY_ARTIFACTS.DESCRIPTION
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_STUDY_ARTIFACTS.DESCRIPTION"
+msgid "Artifact Analysis"
+msgstr "Análise de Artefato"
+
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_STUDY_WORLD_OBJECTS.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_STUDY_WORLD_OBJECTS.DESCRIPTION"
 msgid "Geographical Analysis"
@@ -75515,8 +76375,8 @@ msgstr "Este trabalho não precisa de treinamento"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.NUCLEAR_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.NUCLEAR_RESEARCH.DESCRIPTION"
-msgid "<link=\"NUCLEARLABORATORY\">Atomic Collider</link> Usage"
-msgstr "Uso de <link=\"NUCLEARREACTOR\">Reator Nuclear</link>"
+msgid "<link=\"NUCLEARLABORATORY\">Material Study Terminal</link> Usage"
+msgstr "Uso de <link=\"NUCLEARREACTOR\">Computador de Estudo da Matéria</link>"
 
 #. STRINGS.UI.ROLES_SCREEN.PERKS.ORBITAL_RESEARCH.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.ORBITAL_RESEARCH.DESCRIPTION"
@@ -76954,6 +77814,16 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.NAME"
 msgid "Archaic Tech"
 msgstr "Tecnologia Arcaica"
 
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION.NAME"
+msgid "Gravitas Spacejunk"
+msgstr "Lixão Espacial Gravitas"
+
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.DESCRIPTION
 msgctxt ""
 "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.DESCRIPTION"
@@ -77062,6 +77932,11 @@ msgstr "Cometa Rochoso"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.SATELLITE.NAME"
 msgid "Defunct Satellite"
 msgstr "Satélite Destruído"
+
+#. STRINGS.UI.SPACEDESTINATIONS.COMETS.URANIUMORECOMET.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.COMETS.URANIUMORECOMET.NAME"
+msgid "Unanium Comet"
+msgstr "Cometa de Urânio"
 
 #. STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.DEBRIS.SATELLITE.DESCRIPTION"
@@ -77184,6 +78059,271 @@ msgstr ""
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.GIANTS.ICEGIANT.NAME"
 msgid "Ice Giant"
 msgstr "Gigante Gelado"
+
+#. STRINGS.UI.SPACEDESTINATIONS.GRAVITAS_SPACE_POI.STATION
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.GRAVITAS_SPACE_POI.STATION"
+msgid "Destroyed Gravitas Space Station"
+msgstr "Estação Espacial Gravitas Destruída"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CARBONASTEROIDFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CARBONASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CARBONASTEROIDFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CARBONASTEROIDFIELD.NAME"
+msgid "Carbon Asteroid Field"
+msgstr "Campo de Asteroide de Carbono"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CHLORINECLOUD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CHLORINECLOUD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CHLORINECLOUD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CHLORINECLOUD.NAME"
+msgid "Chlorine Cloud"
+msgstr "Nuvem de Cloro"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.FORESTYOREFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.FORESTYOREFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.FORESTYOREFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.FORESTYOREFIELD.NAME"
+msgid "Forested Ore Field"
+msgstr "Campo de Minério Florestado"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.FROZENOREFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.FROZENOREFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.FROZENOREFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.FROZENOREFIELD.NAME"
+msgid "Frozen Ore Asteroid Field"
+msgstr "Campo de Asteroide de Minério Congelado"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GASGIANTCLOUD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GASGIANTCLOUD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GASGIANTCLOUD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GASGIANTCLOUD.NAME"
+msgid "Exploded Gas Giant"
+msgstr "Gigante Gasoso Explodido"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GILDEDASTEROIDFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GILDEDASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GILDEDASTEROIDFIELD.NAME
+#| msgctxt "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.GOLDASTEROID.NAME"
+#| msgid "Gilded Asteroid"
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GILDEDASTEROIDFIELD.NAME"
+msgid "Gilded Asteroid Field"
+msgstr "Campo de Asteroide Dourado"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GLIMMERINGASTEROIDFIELD.DESC
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GLIMMERINGASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GLIMMERINGASTEROIDFIELD.NAME
+#| msgctxt "STRINGS.UI.WORLDGEN.BUILDNOISESOURCE7"
+#| msgid "Tightening asteroid belts..."
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GLIMMERINGASTEROIDFIELD.NAME"
+msgid "Glimmering Asteroid Field"
+msgstr "Campo de Asteroide Cintilante"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.HELIUMCLOUD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.HELIUMCLOUD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.HELIUMCLOUD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.HELIUMCLOUD.NAME"
+msgid "Helium Cloud"
+msgstr "Nuvem de Hélio"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ICEASTEROIDFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ICEASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ICEASTEROIDFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ICEASTEROIDFIELD.NAME"
+msgid "Exploded Ice Giant"
+msgstr "Gigante Gelado Explodido"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLARICEFIELD.DESC
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLARICEFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLARICEFIELD.NAME
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLARICEFIELD.NAME"
+msgid "Ice Asteroid Field"
+msgstr "Campo de Asteroide de Gelo"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLAROCEAN.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLAROCEAN.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLAROCEAN.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.INTERSTELLAROCEAN.NAME"
+msgid "Interstellar Ocean"
+msgstr "Oceano Interestelar"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.METALLICASTEROIDFIELD.DESC
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.METALLICASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.METALLICASTEROIDFIELD.NAME
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.METALLICASTEROIDFIELD.NAME"
+msgid "Metallic Asteroid Field"
+msgstr "Campo de Asteroide Metálico"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OILYASTEROIDFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OILYASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OILYASTEROIDFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OILYASTEROIDFIELD.NAME"
+msgid "Oily Asteroid Field"
+msgstr "Campo de Asteroide Oleoso"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ORGANICMASSFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ORGANICMASSFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ORGANICMASSFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ORGANICMASSFIELD.NAME"
+msgid "Organic Mass Field"
+msgstr "Campo de Massa Orgânica"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXIDIZEDASTEROIDFIELD.DESC
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXIDIZEDASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXIDIZEDASTEROIDFIELD.NAME
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXIDIZEDASTEROIDFIELD.NAME"
+msgid "Oxidized Asteroid Field"
+msgstr "Campo de Asteroide Oxidado"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXYGENRICHASTEROIDFIELD.DESC
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXYGENRICHASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXYGENRICHASTEROIDFIELD.NAME
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.OXYGENRICHASTEROIDFIELD.NAME"
+msgid "Oxygen Rich Asteroid Field"
+msgstr "Campo de Asteroide Rico em Oxigênio"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.POI_PRODUCTION
+#| msgctxt "STRINGS.UI.FORMATSECONDS"
+#| msgid "{0}s"
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.POI_PRODUCTION"
+msgid "{0}"
+msgstr ""
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.POI_PRODUCTION_TOOLTIP
+#| msgctxt "STRINGS.UI.FORMATSECONDS"
+#| msgid "{0}s"
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.POI_PRODUCTION_TOOLTIP"
+msgid "{0}"
+msgstr ""
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEASTEROIDFIELD.DESC
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEASTEROIDFIELD.NAME
+msgctxt ""
+"STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEASTEROIDFIELD.NAME"
+msgid "Radioactive Asteroid Field"
+msgstr "Campo de Asteroide Radioativo"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEGASCLOUD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEGASCLOUD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEGASCLOUD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.RADIOACTIVEGASCLOUD.NAME"
+msgid "Radioactive Gas Cloud"
+msgstr "Nuvem de Gás Radioativo"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ROCKYASTEROIDFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ROCKYASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ROCKYASTEROIDFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.ROCKYASTEROIDFIELD.NAME"
+msgid "Rocky Asteroid Field"
+msgstr "Campo de Asteroide Rochoso"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.NAME"
+msgid "Salty Asteroid Field"
+msgstr "Campo de Asteroide Salgado"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SANDYOREFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SANDYOREFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SANDYOREFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SANDYOREFIELD.NAME"
+msgid "Sandy Ore Field"
+msgstr "Campo de Asteroide Arenoso"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.NAME"
+msgid "Satellite Asteroid Field"
+msgstr "Campo de Asteroide Satélite"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SWAMPYOREFIELD.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SWAMPYOREFIELD.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SWAMPYOREFIELD.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SWAMPYOREFIELD.NAME"
+msgid "Swampy Ore Field"
+msgstr "Campo de Minério Pantanoso"
 
 #. STRINGS.UI.SPACEDESTINATIONS.NONE.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.NONE.NAME"
@@ -81531,6 +82671,21 @@ msgctxt "STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.VIEW_BUTTON_TOOLTIP"
 msgid "What's goin' on in there?"
 msgstr "O que está acontecendo aí?"
 
+#. STRINGS.UI.UISIDESCREENS.HARVESTMODULESIDESCREEN.DISABLE
+msgctxt "STRINGS.UI.UISIDESCREENS.HARVESTMODULESIDESCREEN.DISABLE"
+msgid "Disable Drill"
+msgstr "Desativar Broca"
+
+#. STRINGS.UI.UISIDESCREENS.HARVESTMODULESIDESCREEN.ENABLE
+msgctxt "STRINGS.UI.UISIDESCREENS.HARVESTMODULESIDESCREEN.ENABLE"
+msgid "Enable Drill"
+msgstr "Ativar Broca"
+
+#. STRINGS.UI.UISIDESCREENS.HARVESTMODULESIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.HARVESTMODULESIDESCREEN.TITLE"
+msgid "Resource Gathering"
+msgstr "Coleta de Recursos"
+
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_E
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_E"
@@ -84387,25 +85542,45 @@ msgstr ""
 "Aplicar as configurações e prioridades desta estrutura para outras "
 "estruturas do mesmo tipo {Hotkey}"
 
-#. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME
-msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME"
+#. STRINGS.UI.USERMENUACTIONS.DECONSTRUCT.NAME
+msgctxt "STRINGS.UI.USERMENUACTIONS.DECONSTRUCT.NAME"
 msgid "Deconstruct"
 msgstr "Desmontar"
 
-#. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME_OFF
-msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME_OFF"
+#. STRINGS.UI.USERMENUACTIONS.DECONSTRUCT.NAME_OFF
+msgctxt "STRINGS.UI.USERMENUACTIONS.DECONSTRUCT.NAME_OFF"
 msgid "Cancel Deconstruct"
 msgstr "Cancelar Desmontagem"
 
+#. STRINGS.UI.USERMENUACTIONS.DECONSTRUCT.TOOLTIP
+msgctxt "STRINGS.UI.USERMENUACTIONS.DECONSTRUCT.TOOLTIP"
+msgid "Deconstruct this building and refund all resources"
+msgstr "Desmontar esta estrutura e recuperar todos os seus recursos"
+
+#. STRINGS.UI.USERMENUACTIONS.DECONSTRUCT.TOOLTIP_OFF
+msgctxt "STRINGS.UI.USERMENUACTIONS.DECONSTRUCT.TOOLTIP_OFF"
+msgid "Cancel this deconstruct order"
+msgstr "Cancelar esta ordem de desmontagem"
+
+#. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME
+msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME"
+msgid "Demolish"
+msgstr "Demolir"
+
+#. STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME_OFF
+msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME_OFF"
+msgid "Cancel Demolition"
+msgstr "Cancelar Demolição"
+
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP"
-msgid "Demolish this building and refund all resources"
-msgstr "Demolir esta estrutura e recuperar todos os seus recursos"
+msgid "Demolish this building"
+msgstr "Demolir esta estrutura"
 
 #. STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP_OFF
 msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.TOOLTIP_OFF"
-msgid "Cancel this deconstruct order"
-msgstr "Cancelar esta ordem de desmontagem"
+msgid "Cancel this demolition order"
+msgstr "Cancelar esta ordem de demolição"
 
 #. STRINGS.UI.USERMENUACTIONS.DIG.NAME
 msgctxt "STRINGS.UI.USERMENUACTIONS.DIG.NAME"
@@ -86740,6 +87915,23 @@ msgctxt "STRINGS.WORLDS.OILYMOONLET.NAME"
 msgid "Viscosia Asteroid"
 msgstr "Asteroide Viscoso"
 
+#. STRINGS.WORLDS.REGOLITHMOONLET.DESCRIPTION
+msgctxt "STRINGS.WORLDS.REGOLITHMOONLET.DESCRIPTION"
+msgid ""
+"A small, dusty world with plenty of craters.\n"
+"\n"
+"<smallcaps>Regolith Asteroids have frequent meteor showers</smallcaps>"
+msgstr ""
+"Um pequeno e empoeirado mundo cheio de crateras.\n"
+"\n"
+"<smallcaps>Asteroides de Regolito possuem chuvas de meteoros frequentes</"
+"smallcaps>"
+
+#. STRINGS.WORLDS.REGOLITHMOONLET.NAME
+msgctxt "STRINGS.WORLDS.REGOLITHMOONLET.NAME"
+msgid "Regolith Asteroid"
+msgstr "Asteroide de Regolito"
+
 #. STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SANDSTONE_DEFAULT.DESCRIPTION"
 msgid ""
@@ -86904,7 +88096,7 @@ msgstr ""
 #. STRINGS.WORLDS.SWAMPMOONLET.NAME
 msgctxt "STRINGS.WORLDS.SWAMPMOONLET.NAME"
 msgid "Swampy Asteroid"
-msgstr "Asteroide Pântanoso"
+msgstr "Asteroide Pantanoso"
 
 #. STRINGS.WORLDS.SWAMPYLANDINGSITE.DESCRIPTION
 msgctxt "STRINGS.WORLDS.SWAMPYLANDINGSITE.DESCRIPTION"
@@ -87112,6 +88304,60 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "Asteroide Água"
+
+#~ msgctxt "STRINGS.DUPLICANTS.CHORES.DECONSTRUCT.TOOLTIP"
+#~ msgid "This Duplicant is demolishing a building"
+#~ msgstr "Este Duplicante está demolindo uma estrutura"
+
+#~ msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.DESC"
+#~ msgid ""
+#~ "Allows <style=\"KKeyword\">Atomic Research</style> points to be "
+#~ "accumulated, unlocking higher technology tiers."
+#~ msgstr ""
+#~ "Permite que Pontos de <style=\"KKeyword\">Pesquisa Atômica</style> sejam "
+#~ "acumulados, desbloqueando níveis tecnológicos mais altos."
+
+#~ msgctxt "STRINGS.RESEARCH.OTHER_TECH_ITEMS.DELTA_RESEARCH_POINT.NAME"
+#~ msgid "<style=\"KKeyword\">Atomic Research</style> Capability"
+#~ msgstr "Capacidade de <style=\"KKeyword\">Pesquisa Atômica</style>"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC"
+#~ msgid "Research and harness sub-atomic particles."
+#~ msgstr "Pesquise e colete partículas subatômicas."
+
+#~ msgctxt "STRINGS.RESEARCH.TYPES.DELTA.NAME"
+#~ msgid "Atomic Research"
+#~ msgstr "Pesquisa Atômica"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME"
+#~ msgid "Avg Power"
+#~ msgstr "Energia Média"
+
+#~ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.TOOLTIP_NAME"
+#~ msgid "<b>Avg Power</b>"
+#~ msgstr "<b>Energia Média</b>"
+
+#~ msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
+#~ msgid ""
+#~ "\n"
+#~ "------------------\n"
+#~ "Click to subscribe to this diagnostic - <b>Visible On Alert Only</b>"
+#~ msgstr ""
+#~ "\n"
+#~ "------------------\n"
+#~ "Clique para se inscrever neste diagnóstico - <b>Visível Em Alertas "
+#~ "Somente</b>"
+
+#~ msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.MUTANT_STERILE"
+#~ msgid ""
+#~ "Due to changes to its DNA this plant will not produce seeds of its own"
+#~ msgstr ""
+#~ "Devido a mudanças no seu DNA, esta planta não produzirá sementes da sua "
+#~ "espécie"
+
+#~ msgctxt "STRINGS.UI.USERMENUACTIONS.DEMOLISH.NAME"
+#~ msgid "Deconstruct"
+#~ msgstr "Desmontar"
 
 #~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
 #~ msgid "BIGGER WORLDS"
@@ -101778,10 +103024,6 @@ msgstr "Asteroide Água"
 #~ msgid "Cement Mix"
 #~ msgstr "Mistura de Cimento"
 
-#~ msgctxt "STRINGS.ELEMENTS.CHLORINEGAS.NAME"
-#~ msgid "Chlorine"
-#~ msgstr "Cloro"
-
 #~ msgctxt "STRINGS.ELEMENTS.CLAY.NAME"
 #~ msgid "Clay"
 #~ msgstr "Argila"
@@ -101873,10 +103115,6 @@ msgstr "Asteroide Água"
 #~ msgctxt "STRINGS.ELEMENTS.LIQUIDCARBONDIOXIDE.NAME"
 #~ msgid "Carbon Dioxide"
 #~ msgstr "Dióxido de Carbono"
-
-#~ msgctxt "STRINGS.ELEMENTS.LIQUIDHELIUM.NAME"
-#~ msgid "Helium"
-#~ msgstr "Hélio"
 
 #~ msgctxt "STRINGS.ELEMENTS.LIQUIDHYDROGEN.NAME"
 #~ msgid "Hydrogen"
@@ -102242,10 +103480,6 @@ msgstr "Asteroide Água"
 #~ msgctxt "STRINGS.RESEARCH.TECHS.MEDBAY.NAME"
 #~ msgid "Healthcare"
 #~ msgstr "Serviços de Saúde"
-
-#~ msgctxt "STRINGS.RESEARCH.TECHS.MEDICALRESEARCH.NAME"
-#~ msgid "Medical Research"
-#~ msgstr "Pesquisa Médica"
 
 #~ msgctxt "STRINGS.RESEARCH.TECHS.METALREFINEMENT.NAME"
 #~ msgid "Metallurgy"
