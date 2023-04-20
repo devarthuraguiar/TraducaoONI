@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.2.3\n"
+"Project-Id-Version: Português foi Incluído! 3.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -471,8 +471,6 @@ msgid "Collecting Radbolts from ambient radiation"
 msgstr "Coletando Radioraios da radiação do ambiente"
 
 #. STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.LOCAL
-#| msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE"
-#| msgid "local"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.LOCAL"
 msgid "Local"
 msgstr "Local"
@@ -775,8 +773,6 @@ msgstr ""
 "Aberto: Esta porta continuará aberta"
 
 #. STRINGS.BUILDING.STATUSITEMS.DEADREACTORCOOLINGOFF.NAME
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.TOILET.NAME"
-#| msgid "{FlushesRemaining} \"Visits\" Remaining"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.DEADREACTORCOOLINGOFF.NAME"
 msgid "Cooling ({CyclesRemaining} cycles remaining)"
 msgstr "Esfriando ({CyclesRemaining} ciclos restantes)"
@@ -2128,8 +2124,6 @@ msgstr ""
 "No momento, ele não tá fazendo muita coisa"
 
 #. STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORPOWERED.NAME
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORPOWERED.NAME"
-#| msgid "Power From Thruster: {ActiveWattage}/{MaxWattage}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.MODULEGENERATORPOWERED.NAME"
 msgid "Thrust Generation: {ActiveWattage}/{MaxWattage}"
 msgstr "Geração do Propulsor: {ActiveWattage}/{MaxWattage}"
@@ -3241,6 +3235,18 @@ msgid ""
 msgstr ""
 "Este reator está derramando lixo radioativo perigoso e não pode ser parado"
 
+#. STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.NAME"
+msgid "Refuel Disabled"
+msgstr "Reabastecimento Desativado"
+
+#. STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.TOOLTIP"
+msgid ""
+"This building will not be refueled once its active fuel has been consumed."
+msgstr ""
+"Esta estrutura não será reabastecida até seu combustível ativo ser consumido."
+
 #. STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME"
 msgid "Releasing Pressure"
@@ -3351,10 +3357,6 @@ msgid "Loading Cargo"
 msgstr "Carregando Carga"
 
 #. STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKET_PORT_UNLOADING.TOOLTIP"
-#| msgid ""
-#| "This port is unloading resources from the <style=\"KKeyword\">Rocket "
-#| "Platform</style> to the connected pipe network"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.ROCKETCARGOFILLING.TOOLTIP"
 msgid ""
 "Cargo is being loaded onto the rocket from the <style=\"KKeyword\">Rocket "
@@ -4186,12 +4188,6 @@ msgid "Awaiting Radbolts"
 msgstr "Aguardando Radioraios"
 
 #. STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.TOOLTIP
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.COLONYLACKSREQUIREDSKILLPERK.TOOLTIP"
-#| msgid ""
-#| "{Skills} Skill required to operate\n"
-#| "------------------\n"
-#| "Open the <b>Skills Panel</b> <b><color=#F44A4A>[L]</b></color> to teach "
-#| "{Skills} to a Duplicant"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.WAITINGFORRADIATION.TOOLTIP"
 msgid ""
 "This building requires Radbolts to function\n"
@@ -5138,14 +5134,6 @@ msgid "<link=\"BED\">Cot</link>"
 msgstr "<link=\"BED\">Berço</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.DESC"
-#| msgid ""
-#| "A nest made by <link=\"BEE\">Beetas</link>.\n"
-#| "\n"
-#| "Converts <link=\"URANIUMORE\">Uranium</link> into <link=\"ENRICHEDURANIUM"
-#| "\">Enriched Uranium</link> when worked by a Beeta.\n"
-#| "\n"
-#| "Emits moderate <link=\"RADIATION\">Radiation</link>."
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.DESC"
 msgid ""
 "A moderately <link=\"RADIATION\">Radioactive</link> nest made by <link=\"BEE"
@@ -5754,13 +5742,13 @@ msgid ""
 "Contains passenger seating for Duplicant <link=\"ASTRONAUT\">Astronauts</"
 "link>.\n"
 "\n"
-"A Command Capsule must be the last module installed at the top of a rocket"
+"A Command Capsule must be the last module installed at the top of a rocket."
 msgstr ""
 "Contém assentos de passageiros para Duplicantes <link=\"ASTRONAUT"
 "\">Astronautas</link>.\n"
 "\n"
 "Uma Cápsula de Comando precisa ser o último módulo instalado no topo de um "
-"foguete"
+"foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH
 msgctxt "STRINGS.BUILDINGS.PREFABS.COMMANDMODULE.LOGIC_PORT_LAUNCH"
@@ -7950,11 +7938,11 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.EFFECT"
 msgid ""
 "Attracts nearby <link=\"RADIATION\">Radiation</link> to generate Radbolts.\n"
 "\n"
-"Emits generated bolts in the direction of your choosing."
+"Emits generated Radbolts in the direction of your choosing."
 msgstr ""
 "Atrai <link=\"RADIATION\">Radiação</link> próxima para gerar Radioraios.\n"
 "\n"
-"Emite os raios gerados na direção de sua escolha."
+"Emite os Radioraios gerados na direção de sua escolha."
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLESPAWNER.LOGIC_PORT"
@@ -10493,8 +10481,6 @@ msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
 msgstr "Senão, envia um <b><style=\"logic_off\">Sinal Vermelho</b></style>"
 
 #. STRINGS.BUILDINGS.PREFABS.LOGICRADIATIONSENSOR.NAME
-#| msgctxt "STRINGS.CODEX.RADIATION.TITLE"
-#| msgid "<link=\"RADIATION\">Radiation</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICRADIATIONSENSOR.NAME"
 msgid "<link=\"LOGICRADIATIONSENSOR\">Radiation Sensor</link>"
 msgstr "<link=\"LOGICRADIATIONSENSOR\">Sensor de Radiação</link>"
@@ -11845,9 +11831,22 @@ msgstr ""
 "\n"
 "Gera uma quantidade massiva de <link=\"HEAT\">Calor</link>."
 
+#. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_ACTIVE"
+msgid "Fuel Delivery Enabled"
+msgstr ""
+
+#. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_INACTIVE"
+msgid "Fuel Delivery Disabled"
+msgstr "Entrega de Combustível Desativada"
+
+#. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.LOGIC_PORT"
+msgid "Fuel Delivery Control"
+msgstr "Controle de Entrega de Combustível"
+
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.NAME"
-#| msgid "<link=\"NUCLEARREACTOR\">Nuclear Reactor</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.NAME"
 msgid "<link=\"NUCLEARREACTOR\">Research Reactor</link>"
 msgstr "<link=\"NUCLEARREACTOR\">Reator de Pesquisa</link>"
@@ -11999,14 +11998,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.COSMICRESEARCHCENTER.EFFECT"
-#| msgid ""
-#| "Conducts <link=\"RESEARCH\">Interstellar Research</link> using data from "
-#| "<link=\"TELESCOPE\">Telescopes</link> and <link=\"RESEARCHMODULE"
-#| "\">Research Modules</link>.\n"
-#| "\n"
-#| "Assigned Duplicants must possess the <link=\"SENIORRESEARCHER"
-#| "\">Astronomy</link> skill."
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT"
 msgid ""
 "Conducts <link=\"RESEARCH\">Interstellar Research</link> to unlock new "
@@ -25760,13 +25751,13 @@ msgstr "<link=\"BEANPLANT\">Broto Brocoso</link>"
 #. STRINGS.CREATURES.SPECIES.BEE.BABY.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.BABY.DESC"
 msgid ""
-"A squirmy little Beetiny.\n"
+"A harmless little Beetiny.\n"
 "\n"
-"In time, it will mature into an adult <link=\"BEE\">Beeta</link>."
+"In time, it will mature into a vicious adult <link=\"BEE\">Beeta</link>."
 msgstr ""
-"Uma pequena Abetinha.\n"
+"Uma pequena e inofensiva Abetinha.\n"
 "\n"
-"Com o tempo, ela vai formar uma <link=\"BEE\">Abeta</link> adulta."
+"Com o tempo, ela vai formar uma perigosa <link=\"BEE\">Abeta</link> adulta."
 
 #. STRINGS.CREATURES.SPECIES.BEE.BABY.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.BABY.NAME"
@@ -25776,11 +25767,19 @@ msgstr "<link=\"BEE\">Abetinha</link>"
 #. STRINGS.CREATURES.SPECIES.BEE.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.DESC"
 msgid ""
-"Beetas are busy critters who harvest and refine <link=\"METAL\">Metals</"
-"link> to use as building materials, and to feed their young."
+"Beetas are hostile critters that thrive in <link=\"RADIATION\">Radioactive</"
+"link> environments.\n"
+"\n"
+"They commonly gather <link=\"URANIUM\">Uranium</link> for their <link="
+"\"BEEHIVE\">Beeta Hives</link> to produce <link=\"ENRICHEDURANIUM\">Enriched "
+"Uranium</link>."
 msgstr ""
-"Abetas são criaturas ocupadas que colhem e refinam <link=\"METAL\">Metais</"
-"link> para usá-los como materiais de construção e alimentar suas larvas."
+"Abetas são criaturas hostis que sobrevivem em ambientes <link=\"RADIATION"
+"\">Radioativos</link>.\n"
+"\n"
+"Elas coletam <link=\"URANIUMORE\">Urânio</link> e levam para os seus <link="
+"\"BEEHIVE\">Ninhos de Abeta</link> para produzir <link=\"ENRICHEDURANIUM"
+"\">Urânio Enriquecido</link>."
 
 #. STRINGS.CREATURES.SPECIES.BEE.NAME
 msgctxt "STRINGS.CREATURES.SPECIES.BEE.NAME"
@@ -31013,6 +31012,26 @@ msgstr ""
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFEEXPECTATION.NAME"
 msgid "Morale Need"
 msgstr "Necessidade de Moral"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONBALANCEDELTA.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONBALANCEDELTA.NAME"
+msgid "Absorbed Radiation Dose"
+msgstr "Dose de Radiação Absorvida"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONBALANCEDELTA.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONBALANCEDELTA.TOOLTIP"
+msgid ""
+"Duplicants accumulate Rads in areas with <style=\"KKeyword\">Radiation</"
+"style> and recover at very slow rates\n"
+"\n"
+"Open the <b>Radiation Overlay</b> <b><color=#F44A4A>[L-SHIFT + F4]</b></"
+"color> to view current <style=\"KKeyword\">Rad</style> readings"
+msgstr ""
+"Duplicantes acumulam Rads em áreas com <style=\"KKeyword\">Radiação</style> "
+"e se recuperam bem lentamente\n"
+"\n"
+"Abra o <b>Painel Radiação</b> <b><color=#F44A4A>[SHIFT-ESQ + F4]</b></color> "
+"para ver as leituras atuais de <style=\"KKeyword\">Rad</style>"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRECOVERY.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.RADIATIONRECOVERY.DESC"
@@ -38746,10 +38765,6 @@ msgid "<link=\"NOROLE\">Unemployed</link>"
 msgstr "<link=\"NOROLE\">Desempregado</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.NUCLEAR_RESEARCHER.DESCRIPTION
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.SENIOR_RESEARCHER.DESCRIPTION"
-#| msgid ""
-#| "Enables Duplicants to study outer space using the <link="
-#| "\"COSMICRESEARCHCENTER\">Virtual Planetarium</link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.NUCLEAR_RESEARCHER.DESCRIPTION"
 msgid ""
 "Enables Duplicants to study sub-atomic particles using the <link="
@@ -38759,8 +38774,6 @@ msgstr ""
 "\"NUCLEARLABORATORY\">Colisor Atômico</link>"
 
 #. STRINGS.DUPLICANTS.ROLES.NUCLEAR_RESEARCHER.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.RESEARCHER.NAME"
-#| msgid "<link=\"RESEARCHER\">Field Research</link>"
 msgctxt "STRINGS.DUPLICANTS.ROLES.NUCLEAR_RESEARCHER.NAME"
 msgid "<link=\"NUCLEARRESEARCHER\">Atomic Research</link>"
 msgstr "<link=\"NUCLEARRESEARCHER\">Pesquisa Nuclear</link>"
@@ -39168,8 +39181,6 @@ msgid "Current Exposure: {0}/cycle"
 msgstr "Exposição Atual: {0}/ciclo"
 
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_REJUVENATION
-#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.QUALITYOFLIFE.TOOLTIP_EXPECTATION"
-#| msgid "Current Jobs expectations: {0}"
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.CURRENT_REJUVENATION"
 msgid "Current Rejuvenation: {0}/cycle"
 msgstr "Rejuvenescimento Atual: {0}/ciclo"
@@ -39180,43 +39191,31 @@ msgid "Absorbed Rad Dose"
 msgstr "Dose de Radiação absorvida"
 
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.TOOLTIP
-#| msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP"
-#| msgid ""
-#| "Duplicants become stressed in areas with <style=\"KKeyword\">Decor</"
-#| "style> lower than their expectations\n"
-#| "Open the <b>Decor Overlay</b> <b><color=#F44A4A>[F8]</b></color> to view "
-#| "current <style=\"KKeyword\">Decor</style> values"
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.TOOLTIP"
 msgid ""
 "Duplicants accumulate Rads in areas with <style=\"KKeyword\">Radiation</"
-"style> and recover at very slow rates\n"
+"style> and recover when using the toilet\n"
 "\n"
 "Open the <b>Radiation Overlay</b> <b><color=#F44A4A>[L-SHIFT + F4]</b></"
 "color> to view current <style=\"KKeyword\">Rad</style> readings"
 msgstr ""
 "Duplicantes acumulam Rads em áreas com <style=\"KKeyword\">Radiação</style> "
-"e se recuperam muito lentamente\n"
+"e se recuperam quando usam o banheiro\n"
 "\n"
 "Abra o <b>Painel Radiação</b> <b><color=#F44A4A>[SHIFT-ESQ + F4]</b></color> "
 "para ver as leituras atuais de <style=\"KKeyword\">Rad</style>"
 
 #. STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.TOOLTIP_CURRENT_BALANCE
-#| msgctxt "STRINGS.DUPLICANTS.STATS.DECOR.TOOLTIP"
-#| msgid ""
-#| "Duplicants become stressed in areas with <style=\"KKeyword\">Decor</"
-#| "style> lower than their expectations\n"
-#| "Open the <b>Decor Overlay</b> <b><color=#F44A4A>[F8]</b></color> to view "
-#| "current <style=\"KKeyword\">Decor</style> values"
 msgctxt "STRINGS.DUPLICANTS.STATS.RADIATIONBALANCE.TOOLTIP_CURRENT_BALANCE"
 msgid ""
 "Duplicants accumulate Rads in areas with <style=\"KKeyword\">Radiation</"
-"style> and recover at very slow rates\n"
+"style> and recover when using the toilet\n"
 "\n"
 "Open the <b>Radiation Overlay</b> <b><color=#F44A4A>[L-SHIFT + F4]</b></"
 "color> to view current <style=\"KKeyword\">Rad</style> readings"
 msgstr ""
 "Duplicantes acumulam Rads em áreas com <style=\"KKeyword\">Radiação</style> "
-"e se recuperam muito lentamente\n"
+"e se recuperam quando usam o banheiro\n"
 "\n"
 "Abra o <b>Painel Radiação</b> <b><color=#F44A4A>[SHIFT-ESQ + F4]</b></color> "
 "para ver as leituras atuais de <style=\"KKeyword\">Rad</style>"
@@ -39782,6 +39781,18 @@ msgstr "Equipando {Target}"
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EQUIPPING.TOOLTIP"
 msgid "This Duplicant is equipping a <b>{Target}</b>"
 msgstr "Este Duplicante está equipando um <b>{Target}</b>"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.EXPELLINGRADS.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPELLINGRADS.NAME"
+msgid "Cleansing Rads"
+msgstr "Limpando-se de Rads"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.EXPELLINGRADS.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPELLINGRADS.TOOLTIP"
+msgid ""
+"This Duplicant is, uh... \"expelling\" absorbed radiation from their system"
+msgstr ""
+"Este Duplicante está, é... \"expelindo\" radiação absorvida de seu organismo"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.EXPOSEDTOGERMS.NAME"
@@ -45876,6 +45887,21 @@ msgctxt "STRINGS.ELEMENTS.SOLIDNAPHTHA.NAME"
 msgid "<link=\"SOLIDNAPHTHA\">Naphtha</link>"
 msgstr "<link=\"SOLIDNAPHTHA\">Nafta</link>"
 
+#. STRINGS.ELEMENTS.SOLIDNUCLEARWASTE.DESC
+msgctxt "STRINGS.ELEMENTS.SOLIDNUCLEARWASTE.DESC"
+msgid ""
+"Highly toxic liquid full of <link=\"RADIATION\">Radioactive Contaminants</"
+"link>. Formed in an <link=\"MELTDOWN\">Nuclear Meltdown</link>."
+msgstr ""
+"Líquido altamente tóxico cheio de <link=\"RADIATION\">Contaminantes "
+"Radioativos</link>. Formado em um <link=\"MELTDOWN\">Derretimento Nuclear</"
+"link>."
+
+#. STRINGS.ELEMENTS.SOLIDNUCLEARWASTE.NAME
+msgctxt "STRINGS.ELEMENTS.SOLIDNUCLEARWASTE.NAME"
+msgid "<link=\"SOLIDNUCLEARWASTE\">Solid Nuclear Waste</link>"
+msgstr "<link=\"SOLIDNUCLEARWASTE\">Lixo Radioativo Sólido</link>"
+
 #. STRINGS.ELEMENTS.SOLIDOXYGEN.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDOXYGEN.DESC"
 msgid ""
@@ -51843,6 +51869,20 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.RADIATION.TOOLTIP"
 msgid "Notes on managing radiation"
 msgstr "Dicas no gerenciamento de radiação"
 
+#. STRINGS.MISC.NOTIFICATIONS.REACTORMELTDOWN.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.REACTORMELTDOWN.NAME"
+msgid "Reactor Meltdown"
+msgstr "Reator em Fusão"
+
+#. STRINGS.MISC.NOTIFICATIONS.REACTORMELTDOWN.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.REACTORMELTDOWN.TOOLTIP"
+msgid ""
+"A Research Reactor has overheated and is meltingdown! Extreme radiation is "
+"flooding the area around it."
+msgstr ""
+"Um Reator de Pesquisa sobreaqueceu e está em fusão! Radiação extrema está "
+"inundando a área ao redor."
+
 #. STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME"
 msgid "Red Alert"
@@ -56564,6 +56604,18 @@ msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME"
 msgid "<link=\"ADVANCEDRESEARCH\">Advanced Research</link>"
 msgstr "<link=\"ADVANCEDRESEARCH\">Pesquisa Avançada</link>"
 
+#. STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.DESC"
+msgid "Clean those dirty duplicants off."
+msgstr "Tire a sujeira desses Duplicantes sujos."
+
+#. STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.NAME
+#| msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.NAME"
+#| msgid "<link=\"ADVANCEDFILTRATION\">Filtration</link>"
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.NAME"
+msgid "<link=\"ADVANCEDSANITATION\">Advanced Sanitation</link>"
+msgstr "<link=\"ADVANCEDSANITATION\">Filtração Avançada</link>"
+
 #. STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.DESC"
 msgid "Computerized systems do the looking, so Duplicants don't have to."
@@ -59525,8 +59577,6 @@ msgstr ""
 "{Hotkey}"
 
 #. STRINGS.UI.BUILDCATEGORIES.HEP.NAME
-#| msgctxt "STRINGS.UI.BUILDCATEGORIES.HVAC.NAME"
-#| msgid "<link=\"BUILDCATEGORYHVAC\">Ventilation</link>"
 msgctxt "STRINGS.UI.BUILDCATEGORIES.HEP.NAME"
 msgid "<link=\"BUILDCATEGORYHEP\">Radiation</link>"
 msgstr "<link=\"BUILDCATEGORYHEP\">Radiação</link>"
@@ -59633,8 +59683,6 @@ msgid "Duplicant Access Permissions"
 msgstr "Permissões de Acesso do Duplicante"
 
 #. STRINGS.UI.BUILDINGEFFECTS.ACTIVE_PARTICLE_CONSUMPTION
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ROLE.NAME"
-#| msgid "Role: {Role}"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.ACTIVE_PARTICLE_CONSUMPTION"
 msgid "Radbolts: {Rate}"
 msgstr "Radioraios: {Rate}"
@@ -59900,8 +59948,6 @@ msgid "{0}"
 msgstr ""
 
 #. STRINGS.UI.BUILDINGEFFECTS.IN_ORBIT_REQUIRED
-#| msgctxt "STRINGS.UI.USERMENUACTIONS.ACTIVATEBUILDING.ACTIVATE"
-#| msgid "Activate"
 msgctxt "STRINGS.UI.BUILDINGEFFECTS.IN_ORBIT_REQUIRED"
 msgid "Active In Space"
 msgstr "Ativo no Espaço"
@@ -63879,7 +63925,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.2.3): {0}"
+msgstr "VERSÃO DE TESTE (3.3): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -63909,7 +63955,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.2.3): {0}"
+msgstr "VERSÃO (3.3): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -67487,8 +67533,8 @@ msgstr "OFICINA STEAM"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "NO EARTHLY RESIN UPDATE"
-msgstr "ATUALIZAÇÃO RESINA NADA TERRESTRE"
+msgid "A TOTALLY RAD UPDATE"
+msgstr "UMA ATUALIZAÇÃO TOTALMENTE RADICAL"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -67507,29 +67553,21 @@ msgstr "ENTRE NA DISCUSSÃO"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"<b>No Earthly Resin Update</b>\n"
+"<b>A Totally Rad Update</b>\n"
 "\n"
-"Added new conduit Fittings to connect interior rocket infrastructure to "
-"storage modules.\n"
-"\n"
-"Added new planetoids to the cluster, bearing late-game resources, along with "
-"new rocket modules to help reach them.\n"
-"\n"
-"Tons of bug fixes, balance changes and more.\n"
+"Added new Radiation system and Duplicant radiation sickness.\n"
+"Radbolts from the new Research Reactor or Beeta critter can power Nuclear "
+"Research at the Atomic Collider.\n"
 "\n"
 "Check out the full patch notes for more details!"
 msgstr ""
-"<b>Atualização Resina Nada Terrestre</b>\n"
+"<b>Uma Atualização Completamente RADical</b>\n"
 "\n"
-"Adicionado novos Adaptadores que conectam infraestrutura interior do foguete "
-"com módulos de armazenagem.\n"
+"Novo sistema de Radiação e doença da radiação adicionados.\n"
+"Radioraios a partir do novo Reator de Pesquisa ou a Abeta podem dar energia "
+"a Pesquisa Nuclear no Colisor Atômico.\n"
 "\n"
-"Adicionado novos planetoides ao aglomerado, com recursos de fim de jogo, "
-"junto com novos módulos de foguete para ajudar a consegui-los.\n"
-"\n"
-"Várias correções de bugs, balanceamentos e mais.\n"
-"\n"
-"Dê uma olhada nas notas de atualização para mais detalhes!"
+"Verifique as notas de atualização completas para mais detalhes!"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT"
@@ -71698,8 +71736,6 @@ msgid "Completely Safe"
 msgstr "Completamente Seguro"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.RANGES.OUTPUTPORT
-#| msgctxt "STRINGS.UI.OVERLAYS.LOGIC.RIBBON_OUTPUT"
-#| msgid "Ribbon Output Port"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.RANGES.OUTPUTPORT"
 msgid "Radbolt Output Port"
 msgstr "Porta de Saída de Radioraio"
@@ -78995,11 +79031,11 @@ msgstr "Limite de Radioraio"
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TOOLTIP
 msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TOOLTIP"
 msgid ""
-"Emits a <style=\"KKeyword\">Radbolt</style> when the stored bolts exceed "
+"Releases a <style=\"KKeyword\">Radbolt</style> when stored Radbolts exceed "
 "<b>{0}</b>"
 msgstr ""
-"Emite um <style=\"KKeyword\">Radioraio</style> quando os raios armazenados "
-"excederem <b>{0}</b>"
+"Emite um <style=\"KKeyword\">Radioraio</style> quando os Radioraios "
+"armazenados excederem <b>{0}</b>"
 
 #. STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.CANCEL_LAND_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.CANCEL_LAND_BUTTON"
@@ -80698,7 +80734,6 @@ msgstr ""
 "<style=\"KKeyword\">Germes</style> estiver abaixo <b>{0}</b>"
 
 #. STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.DISEASE_UNITS
-#| msgid ""
 msgctxt "STRINGS.UI.UISIDESCREENS.THRESHOLD_SWITCH_SIDESCREEN.DISEASE_UNITS"
 msgid ""
 msgstr ""
@@ -81238,13 +81273,13 @@ msgstr " kUTD/s"
 
 #. STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLE
 msgctxt "STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLE"
-msgid " bolt"
-msgstr " raio"
+msgid " Radbolt"
+msgstr " Radioraio"
 
 #. STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLES
 msgctxt "STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLES"
-msgid " bolts"
-msgstr " raios"
+msgid " Radbolts"
+msgstr " Radioraios"
 
 #. STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE"
@@ -84252,6 +84287,53 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Moonlet"
 msgstr "Lua de Água"
+
+#~ msgctxt "STRINGS.CREATURES.SPECIES.BEE.DESC"
+#~ msgid ""
+#~ "Beetas are busy critters who harvest and refine <link=\"METAL\">Metals</"
+#~ "link> to use as building materials, and to feed their young."
+#~ msgstr ""
+#~ "Abetas são criaturas ocupadas que colhem e refinam <link=\"METAL"
+#~ "\">Metais</link> para usá-los como materiais de construção e alimentar "
+#~ "suas larvas."
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "NO EARTHLY RESIN UPDATE"
+#~ msgstr "ATUALIZAÇÃO RESINA NADA TERRESTRE"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
+#~ msgid ""
+#~ "<b>No Earthly Resin Update</b>\n"
+#~ "\n"
+#~ "Added new conduit Fittings to connect interior rocket infrastructure to "
+#~ "storage modules.\n"
+#~ "\n"
+#~ "Added new planetoids to the cluster, bearing late-game resources, along "
+#~ "with new rocket modules to help reach them.\n"
+#~ "\n"
+#~ "Tons of bug fixes, balance changes and more.\n"
+#~ "\n"
+#~ "Check out the full patch notes for more details!"
+#~ msgstr ""
+#~ "<b>Atualização Resina Nada Terrestre</b>\n"
+#~ "\n"
+#~ "Adicionado novos Adaptadores que conectam infraestrutura interior do "
+#~ "foguete com módulos de armazenagem.\n"
+#~ "\n"
+#~ "Adicionado novos planetoides ao aglomerado, com recursos de fim de jogo, "
+#~ "junto com novos módulos de foguete para ajudar a consegui-los.\n"
+#~ "\n"
+#~ "Várias correções de bugs, balanceamentos e mais.\n"
+#~ "\n"
+#~ "Dê uma olhada nas notas de atualização para mais detalhes!"
+
+#~ msgctxt "STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLE"
+#~ msgid " bolt"
+#~ msgstr " raio"
+
+#~ msgctxt "STRINGS.UI.UNITSUFFIXES.HIGHENERGYPARTICLES.PARTRICLES"
+#~ msgid " bolts"
+#~ msgstr " raios"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.CONNECTED_ROCKET_WRONG_PORT.TOOLTIP"
 #~ msgid ""
