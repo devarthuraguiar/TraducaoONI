@@ -5014,10 +5014,11 @@ msgstr "Descubra os mistérios do passado."
 #. STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.EFFECT"
 msgid ""
-"Analyses and extracts <link=\"UNOBTANIUM\">Neutronium</link> from artifacts."
+"Analyses and extracts <link=\"UNOBTANIUM\">Neutronium</link> from artifacts "
+"of interest."
 msgstr ""
-"Analise artefatos e extraia o <link=\"UNOBTANIUM\">Neutrônio</link> de sua "
-"superfície."
+"Analise e extraia <link=\"UNOBTANIUM\">Neutrônio</link> de artefatos de seu "
+"interesse."
 
 #. STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.NAME"
@@ -6363,15 +6364,12 @@ msgid ""
 "<link=\"REFINEDCARBON\">Refined Carbon</link> into <link=\"DIAMOND"
 "\">Diamond</link>.\n"
 "\n"
-"\n"
-"\n"
 "Duplicants will not fabricate items unless recipes are queued and <link="
 "\"REFINEDCARBON\">Refined Carbon</link> has been discovered."
 msgstr ""
 "Usa <link=\"POWER\">Energia</link> e <link=\"HEP\">Radioraios</link> para "
 "esmagar <link=\"REFINEDCARBON\">Carbono Refinado</link> em <link=\"DIAMOND"
 "\">Diamante</link>.\n"
-"\n"
 "\n"
 "\n"
 "Duplicantes não irão fabricar enquanto receitas não forem colocadas na fila "
@@ -8084,13 +8082,11 @@ msgid "<link=\"GRAVE\">Tasteful Memorial</link>"
 msgstr "<link=\"GRAVE\">Memorial Elegante</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.DESC"
-msgid ""
-msgstr ""
+msgid "An office door to an office that no longer exists."
+msgstr "Uma porta de escritório para um escritório que não existe mais."
 
 #. STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.EFFECT
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.GRAVITASDOOR.EFFECT"
 msgid ""
 msgstr ""
@@ -13751,10 +13747,10 @@ msgid "Doctorate Degree"
 msgstr "Diploma de Doutorado"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.DESC"
-msgid ""
+msgid "Non-functioning robotic arms that once assisted lab technicians."
 msgstr ""
+"Braços robóticos quebrados que uma vez ajudaram os técnicos do laboratório."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASCEILINGROBOT.NAME"
@@ -13763,8 +13759,8 @@ msgstr "Robô de Teto"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDECORATIVEWINDOW.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDECORATIVEWINDOW.DESC"
-msgid "A tall, thin window."
-msgstr "Uma janela alta e fina."
+msgid "A tall, thin window which once pointed to a courtyard."
+msgstr "Uma janela, alta e fina que uma vez esteve de frente pra um pátio."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDECORATIVEWINDOW.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDECORATIVEWINDOW.NAME"
@@ -13772,10 +13768,15 @@ msgid "Window"
 msgstr "Janela"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDISPLAY4.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDISPLAY4.DESC"
 msgid ""
+"An electronic display projecting the blueprint of a robotic device.\n"
+"\n"
+"It looks like a ceiling robot."
 msgstr ""
+"Uma tela eletrônica projetando o diagrama de um dispositivo robótico.\n"
+"\n"
+"Parece com um robô de teto."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDISPLAY4.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDISPLAY4.NAME"
@@ -13783,21 +13784,28 @@ msgid "Electronic Display"
 msgstr "Tela Eletrônica"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.DESC"
-msgid ""
+msgid "The grasping robotic claw designed to assist technicians in a lab."
 msgstr ""
+"A garra robótica projetada para auxiliar os técnicos em um laboratório."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.NAME"
-msgid "Floor Robot"
-msgstr "Robô de Piso"
+msgid "Robotic Arm"
+msgstr "Braço Robótico"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.DESC"
 msgid ""
+"A sophisticated security device.\n"
+"\n"
+"It appears to use a method other than fingerprints to verify an individual's "
+"identity."
 msgstr ""
+"Um dispositivo sofisticado de segurança.\n"
+"\n"
+"Ela aparenta usar um método de verificação de identidade que não usa "
+"digitais."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASHANDSCANNER.NAME"
@@ -13805,46 +13813,53 @@ msgid "Hand Scanner"
 msgstr "Scanner de Mãos"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.DESC"
 msgid ""
+"An abnormally large brain floating in embalming liquid to prevent "
+"decomposition."
 msgstr ""
+"Um cérebro anormalmente grande flutuando em um líquido de embalsamamento "
+"para evitar a decomposição."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.NAME"
-msgid "Jar 1"
-msgstr "Jarro 1"
+msgid "Big Brain Jar"
+msgstr "Jarro Grande Cérebro"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR2.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR2.DESC"
-msgid ""
+msgid "The corpse of a proto-hatch creature meticulously preserved in a jar."
 msgstr ""
+"O corpo de uma criatura pré-mucura meticulosamente preservada em um jarro."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR2.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR2.NAME"
-msgid "Jar 2"
-msgstr "Jarro 2"
+msgid "Sample Jar"
+msgstr "Jarro de Amostra"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.DESC"
 msgid ""
+"The quaint research desk of a departed lab technician.\n"
+"\n"
+"Perhaps the computer stores something of interest."
 msgstr ""
+"A curiosa mesa de pesquisa de um técnico de laboratório que uma vez esteve "
+"aqui.\n"
+"\n"
+"Talvez o computador armazene algo de seu interesse."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.NAME"
-msgid "Table"
-msgstr "Mesa"
+msgid "Lab Desk"
+msgstr "Mesa de Laboratório"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.DESC"
-msgid ""
-msgstr ""
+msgid "A regular wall that once existed in a working lab."
+msgstr "Uma parede comum que uma vez existiu em um laboratório."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.EFFECT
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWALL.EFFECT"
 msgid ""
 msgstr ""
@@ -13855,13 +13870,12 @@ msgid "Lab Wall"
 msgstr "Parede do Lab"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.DESC"
-msgid ""
+msgid "A lab window. Formerly a portal to the outside world."
 msgstr ""
+"Uma janela de laboratório. Formalmente, um portal para o mundo exterior."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.EFFECT
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOW.EFFECT"
 msgid ""
 msgstr ""
@@ -13872,13 +13886,18 @@ msgid "Lab Window"
 msgstr "Janela do Laboratório"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.DESC"
 msgid ""
+"A lab window.\n"
+"\n"
+"Someone once stared out this contemplating the results of an experiment."
 msgstr ""
+"Uma janela de laboratório.\n"
+"\n"
+"Alguém uma vez já ficou observando por ela, contemplando os resultados de um "
+"experimento."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.EFFECT
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABWINDOWHORIZONTAL.EFFECT"
 msgid ""
 msgstr ""
@@ -13889,21 +13908,25 @@ msgid "Lab Window"
 msgstr "Janela do Laboratório"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.DESC"
 msgid ""
+"The work space of an extinct robotics technician who left behind some "
+"unfinished prototypes."
 msgstr ""
+"O espaço de trabalho de um técnico de robótica que deixou pra trás alguns "
+"protótipos não terminados."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.NAME"
-msgid "Table"
-msgstr "Mesa"
+msgid "Robitics Research Desk"
+msgstr "Mesa de Pesquisa Robótica"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASSHELF.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASSHELF.DESC"
-msgid ""
+msgid "A shelf holding jars just out of reach for a short person."
 msgstr ""
+"Uma prateleira com potes altos fora de alcance suficiente para uma pessoa "
+"baixa."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASSHELF.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASSHELF.NAME"
@@ -13911,13 +13934,12 @@ msgid "Shelf"
 msgstr "Abrigo"
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.DESC"
-msgid ""
+msgid "The granite wall of a once great scientific facility."
 msgstr ""
+"Uma parede de granito do que foi uma vez um grande instituto científico."
 
 #. STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.EFFECT
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASWALL.EFFECT"
 msgid ""
 msgstr ""
@@ -67760,7 +67782,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.7.2): {0}"
+msgstr "VERSÃO DE TESTE (3.7.3): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -67790,7 +67812,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.7.2): {0}"
+msgstr "VERSÃO (3.7.3): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -71377,8 +71399,6 @@ msgid " - <b>Not compatible with <i>{Content}</i></b>"
 msgstr " - <b>Incompatível com <i>{Content}</i></b>"
 
 #. STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.NO_CONTENT
-#| msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
-#| msgid " - <b>Not compatible with <i>{Content}</i></b>"
 msgctxt "STRINGS.UI.FRONTEND.MODS.CONTENT_FAILURE.NO_CONTENT"
 msgid " - <b>No compatible mod found</b>"
 msgstr " - <b>Nenhum mod compatível encontrado</b>"
@@ -89724,6 +89744,30 @@ msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "Asteroide Água"
 
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASDECORATIVEWINDOW.DESC"
+#~ msgid "A tall, thin window."
+#~ msgstr "Uma janela alta e fina."
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASFLOORROBOT.NAME"
+#~ msgid "Floor Robot"
+#~ msgstr "Robô de Piso"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR1.NAME"
+#~ msgid "Jar 1"
+#~ msgstr "Jarro 1"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASJAR2.NAME"
+#~ msgid "Jar 2"
+#~ msgstr "Jarro 2"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASLABTABLE.NAME"
+#~ msgid "Table"
+#~ msgstr "Mesa"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.PROPGRAVITASROBTICTABLE.NAME"
+#~ msgid "Table"
+#~ msgstr "Mesa"
+
 #~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
 #~ msgid "MINE THE GAP UPDATE"
 #~ msgstr "ATUALIZAÇÃO MINERE A FENDA"
@@ -102272,10 +102316,6 @@ msgstr "Asteroide Água"
 #~ msgctxt "STRINGS.SETITEMS.CHAIR.DESC"
 #~ msgid "A chair"
 #~ msgstr "Uma cadeira"
-
-#~ msgctxt "STRINGS.SETITEMS.DESK.NAME"
-#~ msgid "Desk"
-#~ msgstr "Mesa"
 
 #~ msgctxt "STRINGS.SETITEMS.ELEVATOR.DESC"
 #~ msgid "An elevator"
