@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.1.1\n"
+"Project-Id-Version: Português foi Incluído! 3.1.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -4894,8 +4894,6 @@ msgstr ""
 "Perde carga com o tempo."
 
 #. STRINGS.BUILDINGS.PREFABS.BATTERYMODULE.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERY.NAME"
-#| msgid "<link=\"BATTERY\">Battery</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.BATTERYMODULE.NAME"
 msgid "<link=\"BATTERYMODULE\">Battery Module</link>"
 msgstr "<link=\"BATTERYMODULE\">Módulo de Bateria</link>"
@@ -12007,9 +12005,8 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXIDIZERTANKLIQUIDCLUSTER.NAME"
-msgid "<link=\"LIQUIDOXIDIZERTANKCLUSTER\">Large Liquid Oxidizer Tank</link>"
-msgstr ""
-"<link=\"LIQUIDOXIDIZERTANKCLUSTER\">Tanque Grande de Oxidante Líquido</link>"
+msgid "<link=\"LIQUIDOXIDIZERTANKCLUSTER\">Liquid Oxidizer Tank</link>"
+msgstr "<link=\"LIQUIDOXIDIZERTANKCLUSTER\">Tanque de Oxidante Líquido</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.DESC"
@@ -13421,8 +13418,6 @@ msgstr ""
 "Precisa ser construído no interior de um Módulo de Foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.NAME
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESGASOUTPUT"
-#| msgid "<link=\"GASPIPING\">Gas Output Pipe</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.NAME"
 msgid "<link=\"ROCKETINTERIORGASOUTPUT\">Gas Output Fitting</link>"
 msgstr "<link=\"ROCKETINTERIORGASOUTPUT\">Adaptador de Saída de Gás</link>"
@@ -13450,8 +13445,6 @@ msgstr ""
 "Precisa ser construído no interior de um Módulo de Foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.NAME
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDINPUT"
-#| msgid "<link=\"LIQUIDPIPING\">Liquid Intake Pipe</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.NAME"
 msgid "<link=\"ROCKETINTERIORLIQUIDINPUT\">Liquid Intake Fitting</link>"
 msgstr ""
@@ -13480,8 +13473,6 @@ msgstr ""
 "Precisa ser construído no interior de um Módulo de Foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUT.NAME
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.REQUIRESLIQUIDOUTPUT"
-#| msgid "<link=\"LIQUIDPIPING\">Liquid Output Pipe</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUT.NAME"
 msgid "<link=\"ROCKETINTERIORLIQUIDOUTPUT\">Liquid Output Fitting</link>"
 msgstr ""
@@ -13514,8 +13505,6 @@ msgstr ""
 "Precisa ser construído no interior de um Módulo de Foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORPOWERPLUG.NAME
-#| msgctxt "STRINGS.UI.BUILDCATEGORIES.POWER.NAME"
-#| msgid "<link=\"BUILDCATEGORYPOWER\">Power</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORPOWERPLUG.NAME"
 msgid "<link=\"ROCKETINTERIORPOWERPLUG\">Power Outlet Fitting</link>"
 msgstr "<link=\"ROCKETINTERIORPOWERPLUG\">Adaptador de Tomada</link>"
@@ -13546,8 +13535,6 @@ msgstr ""
 "Precisa ser construído no interior de um Módulo de Foguete."
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDCONDUITOUTBOX.NAME"
-#| msgid "<link=\"SOLIDCONDUITOUTBOX\">Conveyor Receptacle</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORSOLIDINPUT.NAME"
 msgid "<link=\"ROCKETINTERIORSOLIDINPUT\">Conveyor Receptacle Fitting</link>"
 msgstr ""
@@ -44134,8 +44121,6 @@ msgstr ""
 "é importante."
 
 #. STRINGS.ELEMENTS.GRAPHITE.NAME
-#| msgctxt "STRINGS.ELEMENTS.GRANITE.NAME"
-#| msgid "<link=\"GRANITE\">Granite</link>"
 msgctxt "STRINGS.ELEMENTS.GRAPHITE.NAME"
 msgid "<link=\"GRAPHITE\">Graphite</link>"
 msgstr "<link=\"GRAPHITE\">Grafite</link>"
@@ -45278,6 +45263,20 @@ msgctxt "STRINGS.ELEMENTS.REGOLITH.NAME"
 msgid "<link=\"REGOLITH\">Regolith</link>"
 msgstr "<link=\"REGOLITH\">Regolito</link>"
 
+#. STRINGS.ELEMENTS.RESIN.DESC
+msgctxt "STRINGS.ELEMENTS.RESIN.DESC"
+msgid ""
+"Sticky tree goo. When the moisture is boiled from it, it will polymerize "
+"into Isoresin."
+msgstr ""
+"Gosma grudenta de árvore. Quando é fervida a partir dele, ela se polimeriza "
+"em Isoresina."
+
+#. STRINGS.ELEMENTS.RESIN.NAME
+msgctxt "STRINGS.ELEMENTS.RESIN.NAME"
+msgid "<link=\"RESIN\">Resin</link>"
+msgstr "<link=\"ISORESIN\">Resina</link>"
+
 #. STRINGS.ELEMENTS.ROCKGAS.DESC
 msgctxt "STRINGS.ELEMENTS.ROCKGAS.DESC"
 msgid ""
@@ -45636,6 +45635,16 @@ msgstr ""
 msgctxt "STRINGS.ELEMENTS.SOLIDPROPANE.NAME"
 msgid "<link=\"SOLIDPROPANE\">Propane</link>"
 msgstr "<link=\"SOLIDPROPANE\">Propano</link>"
+
+#. STRINGS.ELEMENTS.SOLIDRESIN.DESC
+msgctxt "STRINGS.ELEMENTS.SOLIDRESIN.DESC"
+msgid "Solid sticky tree goo."
+msgstr "Gosma sólida grudenta de árvore."
+
+#. STRINGS.ELEMENTS.SOLIDRESIN.NAME
+msgctxt "STRINGS.ELEMENTS.SOLIDRESIN.NAME"
+msgid "<link=\"SOLIDRESIN\">Resin</link>"
+msgstr "<link=\"ISORESIN\">Resina</link>"
 
 #. STRINGS.ELEMENTS.SOLIDSUPERCOOLANT.DESC
 msgctxt "STRINGS.ELEMENTS.SOLIDSUPERCOOLANT.DESC"
@@ -60742,10 +60751,8 @@ msgstr "Módulos Máximos: "
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.TOOLTIP
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MAX_MODULES.TOOLTIP"
-msgid "The {0} can support a maximum of {1} modules (including itself)"
-msgstr ""
-"Este {0} pode suportar uma quantidade máxima de {1} módulos (incluindo ele "
-"mesmo)"
+msgid "The {0} can support {1} rocket modules, plus itself"
+msgstr "Este {0} pode suportar {1} módulos de foguete, incluindo ele mesmo"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.MODULE_STATS.NAME"
@@ -63330,7 +63337,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.1.1): {0}"
+msgstr "VERSÃO DE TESTE (3.1.2): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -63360,7 +63367,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.1.1): {0}"
+msgstr "VERSÃO (3.1.2): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -64594,10 +64601,6 @@ msgid "Default suit durability"
 msgstr "Durabilidade do traje padrão"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DURABILITY.LEVELS.FLIMSY.ATTRIBUTE_MODIFIER_NAME
-#| msgctxt ""
-#| "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.CALORIE_BURN.LEVELS."
-#| "HARD.ATTRIBUTE_MODIFIER_NAME"
-#| msgid "Rumbly Tummies (Difficulty Up)"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DURABILITY.LEVELS."
 "FLIMSY.ATTRIBUTE_MODIFIER_NAME"
@@ -64682,10 +64685,10 @@ msgstr "Surrado"
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DURABILITY.LEVELS."
 "THREADBARE.TOOLTIP"
-msgid "These duplicants are no tailors - suits wear out much faster than usual"
+msgid "These Duplicants are no tailors - suits wear out much faster than usual"
 msgstr ""
-"Estes Duplicantes não são alfaiates - trajes desgastam-se mais rápido que o "
-"usual"
+"Estes Duplicantes não são alfaiates - trajes desgastam-se bem mais rápido "
+"que o usual"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DURABILITY.NAME
 msgctxt "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.DURABILITY.NAME"
@@ -66992,7 +66995,6 @@ msgid "LAUNCHED!"
 msgstr "LANÇADA!"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1
-#| msgid ""
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1"
 msgid ""
 msgstr ""
@@ -76499,8 +76501,8 @@ msgstr "Precisa ser construído em espaço não ocupado"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_ONROCKETENVELOPE
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_ONROCKETENVELOPE"
-msgid "Must be built against the shell of a rocket habitat"
-msgstr "Precisa ser construído contra o casco de uma habitat de foguete"
+msgid "Must be built on the floor of a rocket interior"
+msgstr "Precisa ser construído no piso do interior do foguete"
 
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OVERLAP
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_SOLIDPORTS_OVERLAP"
@@ -79332,8 +79334,8 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONCHANGEMODULE.DESC
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONCHANGEMODULE.DESC"
-msgid "Change this module to a different type"
-msgstr "Mude este módulo para um de tipo diferente"
+msgid "Swap this module for a different module"
+msgstr "Mude este módulo para um módulo diferente"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.BUTTONCHANGEMODULE.INVALID
 msgctxt ""
