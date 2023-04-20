@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Bookmarks: 2437,5040,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-Basepath: .\n"
@@ -5397,13 +5397,11 @@ msgid "<link=\"CLOTHINGFABRICATOR\">Textile Loom</link>"
 msgstr "<link=\"CLOTHINGFABRICATOR\">Fábrica Têxtil</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERCOMMANDMODULE.DESC
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERCOMMANDMODULE.DESC"
 msgid ""
 msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CLUSTERCOMMANDMODULE.EFFECT
-#| msgid ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERCOMMANDMODULE.EFFECT"
 msgid ""
 msgstr ""
@@ -24208,7 +24206,6 @@ msgid "Reproduction Rate"
 msgstr "Taxa de Reprodução"
 
 #. STRINGS.CREATURES.ATTRIBUTES.INCUBATIONDELTA.DESC
-#| msgid ""
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.INCUBATIONDELTA.DESC"
 msgid ""
 msgstr ""
@@ -24229,7 +24226,6 @@ msgid "Growth Speed"
 msgstr "Velocidade de Crescimento"
 
 #. STRINGS.CREATURES.ATTRIBUTES.POWERCHARGEDELTA.DESC
-#| msgid ""
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.POWERCHARGEDELTA.DESC"
 msgid ""
 msgstr ""
@@ -24254,7 +24250,6 @@ msgstr ""
 "levam para crescer."
 
 #. STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC
-#| msgid ""
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.VIABILITYDELTA.DESC"
 msgid ""
 msgstr ""
@@ -35778,8 +35773,6 @@ msgstr ""
 "trabalho"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.MODIFIER_FORMAT
-#| msgctxt "STRINGS.UI.CONSUMABLESSCREEN.FOOD_QUALITY"
-#| msgid "<style=\"KKeyword\">Morale</style>: {0}"
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.MODIFIER_FORMAT"
 msgid "<style=\"KKeyword\">{0}</style>: {1}"
 msgstr ""
@@ -39046,7 +39039,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED"
 msgid "Current exposure to {element} is {rate} eye irritation"
-msgstr ""
+msgstr "Exposição atual à {element} é {rate} irritante aos olhos"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSURE_LEVEL
 msgctxt ""
@@ -43340,8 +43333,6 @@ msgid "<link=\"ETHANOLGAS\">Ethanol</link>"
 msgstr "<link=\"ETHANOLGAS\">Etanol</link>"
 
 #. STRINGS.ELEMENTS.FALLOUT.DESC
-#| msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.TERABYTE"
-#| msgid "TB"
 msgctxt "STRINGS.ELEMENTS.FALLOUT.DESC"
 msgid "TBD"
 msgstr ""
@@ -57961,7 +57952,6 @@ msgstr ""
 "link> de alto nível."
 
 #. STRINGS.SUBWORLDS.METALLIC.DESC
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.METALLIC.DESC"
 msgid ""
 msgstr ""
@@ -57972,13 +57962,11 @@ msgid "Metallic"
 msgstr "Metálico"
 
 #. STRINGS.SUBWORLDS.METALLIC.UTILITY
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.METALLIC.UTILITY"
 msgid ""
 msgstr ""
 
 #. STRINGS.SUBWORLDS.NIOBIUM.DESC
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.NIOBIUM.DESC"
 msgid ""
 msgstr ""
@@ -57989,7 +57977,6 @@ msgid "Niobium"
 msgstr "Nióbio"
 
 #. STRINGS.SUBWORLDS.NIOBIUM.UTILITY
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.NIOBIUM.UTILITY"
 msgid ""
 msgstr ""
@@ -58057,7 +58044,6 @@ msgstr ""
 "<link=\"EQUIPMENT\">equipado</link>."
 
 #. STRINGS.SUBWORLDS.RADIOACTIVE.DESC
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.DESC"
 msgid ""
 msgstr ""
@@ -58068,7 +58054,6 @@ msgid "Radioactive"
 msgstr "Radioativo"
 
 #. STRINGS.SUBWORLDS.RADIOACTIVE.UTILITY
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.UTILITY"
 msgid ""
 msgstr ""
@@ -58165,7 +58150,6 @@ msgstr ""
 "infestar a colônia."
 
 #. STRINGS.SUBWORLDS.SWAMP.DESC
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.SWAMP.DESC"
 msgid ""
 msgstr ""
@@ -58176,13 +58160,11 @@ msgid "Swampy"
 msgstr "Pântanoso"
 
 #. STRINGS.SUBWORLDS.SWAMP.UTILITY
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.SWAMP.UTILITY"
 msgid ""
 msgstr ""
 
 #. STRINGS.SUBWORLDS.WASTELAND.DESC
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.DESC"
 msgid ""
 msgstr ""
@@ -58193,7 +58175,6 @@ msgid "Wasteland"
 msgstr "Desértico"
 
 #. STRINGS.SUBWORLDS.WASTELAND.UTILITY
-#| msgid ""
 msgctxt "STRINGS.SUBWORLDS.WASTELAND.UTILITY"
 msgid ""
 msgstr ""
@@ -58214,8 +58195,6 @@ msgid "Available"
 msgstr "Disponível"
 
 #. STRINGS.UI.ALLRESOURCESSCREEN.FIRST_FRAME_NO_DATA
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SPACEWALL.EFFECT"
-#| msgid "..."
 msgctxt "STRINGS.UI.ALLRESOURCESSCREEN.FIRST_FRAME_NO_DATA"
 msgid "..."
 msgstr ""
@@ -60576,14 +60555,12 @@ msgid "Battery"
 msgstr "Bateria"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.FAIL
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.FAIL"
 msgid ""
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.PASS
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.PASS"
 msgid ""
@@ -66222,7 +66199,6 @@ msgid "LAUNCHED!"
 msgstr "LANÇADA!"
 
 #. STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1
-#| msgid ""
 msgctxt "STRINGS.UI.FRONTEND.MOTD.UPDATE_TEXT_EXPANSION1"
 msgid ""
 msgstr ""
@@ -70337,9 +70313,6 @@ msgid "Radiation Overlay"
 msgstr "Painel Radiação"
 
 #. STRINGS.UI.OVERLAYS.RADIATION.DESC
-#| msgctxt ""
-#| "STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.METALLICASTEROID.DESCRIPTION"
-#| msgid "No Description"
 msgctxt "STRINGS.UI.OVERLAYS.RADIATION.DESC"
 msgid "{rads} ({description})"
 msgstr ""
@@ -73980,7 +73953,6 @@ msgid "Flight path clear"
 msgstr "Trajeto de voo livre"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING
-#| msgid ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.STATUS.WARNING"
 msgid ""
 msgstr ""
@@ -73996,7 +73968,6 @@ msgid "Nothing is blocking the path of the rocket"
 msgstr "Nada está bloqueando o trajeto de voo do foguete"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.WARNING
-#| msgid ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.WARNING"
 msgid ""
 msgstr ""
@@ -74156,7 +74127,6 @@ msgid "Landers Ready"
 msgstr "Aterrissadores Prontos"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS.WARNING
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.STATUS."
 "WARNING"
@@ -74178,7 +74148,6 @@ msgid "All requested landers are built and ready for deployment"
 msgstr "Todos os aterrissadores foram construídos e estão prontos para uso"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP.WARNING
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.INTERNAL_CONSTRUCTION_COMPLETE.TOOLTIP."
 "WARNING"
@@ -74186,7 +74155,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.FAILURE
-#| msgid ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.STATUS.FAILURE"
 msgid ""
 msgstr ""
@@ -74202,7 +74170,6 @@ msgid "Cargo Loading Incomplete"
 msgstr "Carregamento de Carga Incompleto"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.FAILURE
-#| msgid ""
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.LOADING_COMPLETE.TOOLTIP.FAILURE"
 msgid ""
 msgstr ""
@@ -78017,7 +77984,6 @@ msgid "{0} more"
 msgstr "e mais {0}"
 
 #. STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.DESCRIPTION
-#| msgid ""
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULAR_CONDUIT_PORT_SIDE_SCREEN.DESCRIPTION"
 msgid ""
 msgstr ""
@@ -78657,8 +78623,6 @@ msgid "    • Engine Power: {0} ({1})"
 msgstr "    • Força do Motor: {0} ({1})"
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.NEGATIVEDELTA
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_SLEEPING.REQUIREMENT_LUMINANCE"
-#| msgid "<b>{0}</b> Lux"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE."
 "NEGATIVEDELTA"
@@ -78666,8 +78630,6 @@ msgid "<b>{0}</b>"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE.POSITIVEDELTA
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_SLEEPING.REQUIREMENT_LUMINANCE"
-#| msgid "<b>{0}</b> Lux"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.ROCKETMODULESIDESCREEN.MODULESTATCHANGE."
 "POSITIVEDELTA"
@@ -78733,7 +78695,6 @@ msgid "Build"
 msgstr "Construir"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ENGINE_AT_BOTTOM.COMPLETE
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ENGINE_AT_BOTTOM."
 "COMPLETE"
@@ -78762,7 +78723,6 @@ msgid "Materials unavailable"
 msgstr "Materiais Indisponíveis"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.MAX_MODULES.COMPLETE
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.MAX_MODULES."
 "COMPLETE"
@@ -78777,7 +78737,6 @@ msgid "    • Max module limit of engine reached"
 msgstr "    • Limite máximo de módulos do motor atingido"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ONE_COMMAND_PER_ROCKET.COMPLETE
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
 "ONE_COMMAND_PER_ROCKET.COMPLETE"
@@ -78792,7 +78751,6 @@ msgid "    • Command module already installed"
 msgstr "    • Módulo de comando já instalado"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ONE_ENGINE_PER_ROCKET.COMPLETE
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
 "ONE_ENGINE_PER_ROCKET.COMPLETE"
@@ -78807,7 +78765,6 @@ msgid "    • Engine module already installed"
 msgstr "    • Módulo motor já instalado"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.PASSENGER_MODULE_AVAILABLE.COMPLETE
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
 "PASSENGER_MODULE_AVAILABLE.COMPLETE"
@@ -78835,7 +78792,6 @@ msgid "Research Incomplete"
 msgstr "Pesquisa Incompleta"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.SPACE_AVAILABLE.COMPLETE
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.SPACE_AVAILABLE."
 "COMPLETE"
@@ -78850,7 +78806,6 @@ msgid "    • Space above rocket blocked"
 msgstr "    • Espaço acima do foguete bloqueado"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.TOP_ONLY.COMPLETE
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.TOP_ONLY.COMPLETE"
 msgid ""
