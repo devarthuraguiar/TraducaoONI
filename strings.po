@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.4.2\n"
+"Project-Id-Version: Português foi Incluído! 3.5\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -6127,8 +6127,8 @@ msgstr ""
 
 #. STRINGS.BUILDINGS.PREFABS.CRYOTANK.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRYOTANK.NAME"
-msgid "<link=\"CRYOTANK\">Cryotank</link>"
-msgstr "<link=\"CRYOTANK\">Criotanque</link>"
+msgid "<link=\"CRYOTANK\">Cryotank 3000</link>"
+msgstr "<link=\"CRYOTANK\">Criotanque 3000</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DECONTAMINATIONSHOWER.DESC"
@@ -7440,6 +7440,66 @@ msgstr "<link=\"GASFILTER\">Filtro de Gás</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASFILTER.STATUS_ITEM"
 msgid "Filters: {0}"
 msgstr "Filtrando: {0}"
+
+#. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.DESC"
+msgid ""
+"Meter Valves let an exact amount of gas pass through before shutting off."
+msgstr ""
+"Válvulas Medidoras deixam passar uma quantidade exata de gás antes de se "
+"desligar."
+
+#. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.EFFECT"
+msgid ""
+"Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn "
+"<link=\"ELEMENTSGAS\">Gas</link> off the flow when the specified amount "
+"passed through it."
+msgstr ""
+"Conecta-se a um circuito <link=\"LOGIC\">Automatizado</link> para desligar o "
+"fluxo do <link=\"ELEMENTSGAS\">Gás</link> automaticamente quando a "
+"quantidade especificada passa por ela."
+
+#. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_OUTPUT
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_OUTPUT"
+msgid "Limit Reached"
+msgstr "Limite Atingido"
+
+#. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_RESET
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.LOGIC_PORT_RESET"
+msgid "Reset Meter"
+msgstr "Redefinir Medidor"
+
+#. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.GASVALVE.NAME"
+#| msgid "<link=\"GASVALVE\">Gas Valve</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.NAME"
+msgid "<link=\"GASLIMITVALVE\">Gas Meter Valve</link>"
+msgstr "<link=\"GASLIMITVALVE\">Válvula Medidora de Gás</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_ACTIVE"
+msgid ""
+"Sends a <b><style=\"logic_on\">Green Signal</style></b> if limit has been "
+"reached"
+msgstr ""
+"Envia um <b><style=\"logic_on\">Sinal Verde</b></style> se o limite for "
+"atingido"
+
+#. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.OUTPUT_PORT_INACTIVE"
+msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
+msgstr "Senão, envia um <b><style=\"logic_off\">Sinal Vermelho</b></style>"
+
+#. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_ACTIVE"
+msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the count"
+msgstr "<b><style=\"logic_on\">Sinal Verde</b></style>: Redefine contador"
+
+#. STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.GASLIMITVALVE.RESET_PORT_INACTIVE"
+msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
+msgstr "<b><style=\"logic_off\">Sinal Vermelho</b></style>: Sem Efeito"
 
 #. STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.GASLOGICVALVE.DESC"
@@ -9401,6 +9461,64 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDHEATER.NAME"
 msgid "<link=\"LIQUIDHEATER\">Liquid Tepidizer</link>"
 msgstr "<link=\"LIQUIDHEATER\">Aquecedor Aquático</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.DESC"
+msgid ""
+"Meter Valves let an exact amount of liquid pass through before shutting off."
+msgstr ""
+"Válvulas Medidoras deixam passar uma quantidade exata de líquido depois de "
+"se desligar."
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.EFFECT"
+msgid ""
+"Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn "
+"<link=\"ELEMENTSLIQUID\">Liquid</link> off the flow when the specified "
+"amount passed through it."
+msgstr ""
+"Conecta-se a um circuito <link=\"LOGIC\">Automatizado</link> para ligar ou "
+"desligar o fluxo do <link=\"ELEMENTSLIQUID\">Líquido</link> automaticamente "
+"quando a quantidade especificada passa por ela."
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_OUTPUT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_OUTPUT"
+msgid "Limit Reached"
+msgstr "Limite Atingido"
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_RESET
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.LOGIC_PORT_RESET"
+msgid "Reset Meter"
+msgstr "Redefinir Medidor"
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.NAME"
+msgid "<link=\"LIQUIDLIMITVALVE\">Liquid Meter Valve</link>"
+msgstr "<link=\"LIQUIDLIMITVALVE\">Válvula Medidora de Líquidos</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_ACTIVE"
+msgid ""
+"Sends a <b><style=\"logic_on\">Green Signal</style></b> if limit has been "
+"reached"
+msgstr ""
+"Envia um <b><style=\"logic_on\">Sinal Verde</b></style> se o limite for "
+"atingido"
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.OUTPUT_PORT_INACTIVE"
+msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
+msgstr "Senão, envia um <b><style=\"logic_off\">Sinal Vermelho</b></style>"
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_ACTIVE"
+msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the count"
+msgstr "<b><style=\"logic_on\">Sinal Verde</b></style>: Redefine contador"
+
+#. STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE"
+msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
+msgstr "<b><style=\"logic_off\">Sinal Vermelho</b></style>: Sem Efeito"
 
 #. STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLOGICVALVE.DESC"
@@ -14942,6 +15060,66 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDFILTER.STATUS_ITEM"
 msgid "Filters: {0}"
 msgstr "Filtrando: {0}"
 
+#. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.DESC"
+msgid ""
+"Conveyor Limiters let an exact amount of materials pass through before "
+"shutting off."
+msgstr ""
+"Limitadores de Transporte deixam uma quantidade exata de materiais passarem "
+"antes de se desligar."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.EFFECT"
+msgid ""
+"Connects to an <link=\"LOGIC\">Automation</link> grid to automatically turn "
+"material transfer off when the specified amount has passed through it."
+msgstr ""
+"Conecta-se a um circuito <link=\"LOGIC\">Automatizado</link> para desligar o "
+"fluxo de material automaticamente quando a quantidade especificada passa por "
+"ele."
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.LOGIC_PORT_OUTPUT
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.LOGIC_PORT_OUTPUT"
+msgid "Limit Reached"
+msgstr "Limite Atingido"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.LOGIC_PORT_RESET
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.LOGIC_PORT_RESET"
+msgid "Reset Meter"
+msgstr "Redefinir Medidor"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.NAME"
+#| msgid "<link=\"SOLIDLOGICVALVE\">Conveyor Shutoff</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.NAME"
+msgid "<link=\"SOLIDLIMITVALVE\">Conveyor Limiter</link>"
+msgstr "<link=\"SOLIDLIMITVALVE\">Limitador de Transporte</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.OUTPUT_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.OUTPUT_PORT_ACTIVE"
+msgid ""
+"Sends a <b><style=\"logic_on\">Green Signal</style></b> if limit has been "
+"reached"
+msgstr ""
+"Envia um <b><style=\"logic_on\">Sinal Verde</b></style> se o limite for "
+"atingido"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.OUTPUT_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.OUTPUT_PORT_INACTIVE"
+msgid "Otherwise, sends a <b><style=\"logic_off\">Red Signal</style></b>"
+msgstr "Senão, envia um <b><style=\"logic_off\">Sinal Vermelho</b></style>"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_ACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_ACTIVE"
+msgid "<b><style=\"logic_on\">Green Signal</style></b>: Reset the count"
+msgstr "<b><style=\"logic_on\">Sinal Verde</b></style>: Redefine contador"
+
+#. STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLIMITVALVE.RESET_PORT_INACTIVE"
+msgid "<b><style=\"logic_off\">Red Signal</style></b>: Nothing"
+msgstr "<b><style=\"logic_off\">Sinal Vermelho</b></style>: Sem Efeito"
+
 #. STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.SOLIDLOGICVALVE.DESC"
 msgid ""
@@ -19359,6 +19537,21 @@ msgctxt "STRINGS.CODEX.A9_PIPEDREAM.TITLE"
 msgid "Pipedream"
 msgstr "Fantasia"
 
+#. STRINGS.CODEX.ARBORTREE.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.ARBORTREE.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.ARBORTREE.SUBTITLE
+msgctxt "STRINGS.CODEX.ARBORTREE.SUBTITLE"
+msgid "Lumber Tree"
+msgstr "Árvore para Lenha"
+
+#. STRINGS.CODEX.ARBORTREE.TITLE
+msgctxt "STRINGS.CODEX.ARBORTREE.TITLE"
+msgid "Arbor Tree"
+msgstr "Pinheiro"
+
 #. STRINGS.CODEX.AUTOMATION.HEADER_1
 msgctxt "STRINGS.CODEX.AUTOMATION.HEADER_1"
 msgid "Automation"
@@ -21035,6 +21228,32 @@ msgctxt "STRINGS.CODEX.BALMLILY.TITLE"
 msgid "Balm Lily"
 msgstr "Lírio Milagroso"
 
+#. STRINGS.CODEX.BLISSBURST.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.BLISSBURST.BODY.CONTAINER1"
+msgid ""
+"The Bliss Burst is a succulent in the genus Haworthia and is a hardy plant "
+"well-suited for beginner gardeners.\n"
+"\n"
+"They require little in the way of upkeep, to the point that the most common "
+"cause of death for Bliss Bursts is overwatering from over-eager carers."
+msgstr ""
+"A Explosão de Êxtase é uma planta suculenta do gênero Haworthia e é uma "
+"planta resistente, perfeita para jardineiros iniciantes.\n"
+"\n"
+"Elas precisam de quase nada para serem cultivadas, ao ponto de que a causa "
+"mais comum de morte para as Explosões de Êxtase é afogamento por serem "
+"regadas demais por cuidadores muito ansiosos."
+
+#. STRINGS.CODEX.BLISSBURST.SUBTITLE
+msgctxt "STRINGS.CODEX.BLISSBURST.SUBTITLE"
+msgid "Decorative Plant"
+msgstr "Planta Decorativa"
+
+#. STRINGS.CODEX.BLISSBURST.TITLE
+msgctxt "STRINGS.CODEX.BLISSBURST.TITLE"
+msgid "Bliss Burst"
+msgstr "Explosão de Êxtase"
+
 #. STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BLUFFBRIAR.BODY.CONTAINER1"
 msgid ""
@@ -21079,6 +21298,21 @@ msgctxt "STRINGS.CODEX.BLUFFBRIAR.TITLE"
 msgid "Bluff Briar"
 msgstr "Urtiga"
 
+#. STRINGS.CODEX.BOGBUCKET.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.BOGBUCKET.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.BOGBUCKET.SUBTITLE
+msgctxt "STRINGS.CODEX.BOGBUCKET.SUBTITLE"
+msgid "Edible Plant"
+msgstr "Planta Comestível"
+
+#. STRINGS.CODEX.BOGBUCKET.TITLE
+msgctxt "STRINGS.CODEX.BOGBUCKET.TITLE"
+msgid "Bog Bucket"
+msgstr "Balde do Pântano"
+
 #. STRINGS.CODEX.BRISTLEBLOSSOM.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BRISTLEBLOSSOM.BODY.CONTAINER1"
 msgid ""
@@ -21115,7 +21349,13 @@ msgstr "Flor de Seda"
 #. STRINGS.CODEX.BUDDYBUD.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.BUDDYBUD.BODY.CONTAINER1"
 msgid ""
+"As a byproduct of photosynthesis, the Buddy Bud naturally secretes a "
+"compound that is chemically similar to the neuropeptide created in the human "
+"brain after receiving a hug."
 msgstr ""
+"Como um subproduto da fotossíntese, o Broto Companheiro secreta naturalmente "
+"um composto que é quimicamente similar a um neuropeptídio criado pelo "
+"cérebro humano depois de receber um abraço."
 
 #. STRINGS.CODEX.BUDDYBUD.SUBTITLE
 msgctxt "STRINGS.CODEX.BUDDYBUD.SUBTITLE"
@@ -21273,6 +21513,77 @@ msgctxt "STRINGS.CODEX.CREATURE_DESCRIPTORS.TEMPERATURE.NON_LETHAL_RANGE"
 msgid "Livable range: <b>{0}</b> to <b>{1}</b>"
 msgstr "Faixa tolerável: <b>{0}</b> a <b>{1}</b>"
 
+#. STRINGS.CODEX.CRYOTANKWARNINGS.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.CRYOTANKWARNINGS.BODY.CONTAINER1"
+msgid ""
+"    • Do not leave the contents of the Cryotank 3000 unattended unless an "
+"apocalyptic disaster has left you no choice.\n"
+"\n"
+"    • Ensure that the Cryotank 3000 has enough battery power to remain "
+"active for at least 6000 years.\n"
+"\n"
+"    • Do not attempt to defrost the contents of the Cryotank 3000 while it "
+"is submerged in molten hot lava.\n"
+"\n"
+"    • Use only a qualified Gravitas Cryotank repair facility to repair your "
+"Cryotank 3000. Attempting to service the device yourself will void the "
+"warranty.\n"
+"\n"
+"    • Do not put food in the Cryotank 3000. The Cryotank 3000 is not a "
+"refrigerator.\n"
+"\n"
+"    • Do not allow children to play in the Cryotank 3000. The Cryotank 3000 "
+"is not a toy.\n"
+"\n"
+"    • While the Cryotank 3000 is able to withstand a nuclear blast, Gravitas "
+"and its subsidiaries are not responsible for what may happen in the "
+"resulting nuclear fallout.\n"
+"\n"
+"    • Wait at least 5 minutes after being unfrozen from the Cryotank 3000 "
+"before operating heavy machinery.\n"
+"\n"
+"    • Each Cryotank 3000 is good for only one use.\n"
+"\n"
+msgstr ""
+"    • Não deixe os conteúdos do Criotanque 3000 não supervisionado, a não "
+"ser que um desastre apocalíptico não te dê escolha.\n"
+"\n"
+"    • Certifique-se de que o Criotanque 3000 possui bateria suficiente para "
+"permanecer ativo por pelo menos 6000 anos.\n"
+"\n"
+"    • Não tente descongelar os conteúdos do Criotanque 3000 enquanto ele "
+"estiver submerso em lava derretida.\n"
+"\n"
+"    • Use apenas uma oficina de reparos de Criotanques Gravitas para reparar "
+"seu Criotanque 3000. Tentar reparar seu dispositivo por conta própria irá "
+"violar a garantia.\n"
+"\n"
+"    • Não coloque comida no Criotanque 3000. O Criotanque 3000 não é uma "
+"geladeira.\n"
+"\n"
+"    • Não deixe crianças brincarem no Criotanque 3000. O Criotanque 3000 não "
+"é um brinquedo.\n"
+"\n"
+"    • Enquanto o Criotanque 3000 é capaz de suportar uma explosão nuclear, "
+"Gravitas e seus subsidiários não são responsáveis pelo que pode acontecer "
+"pela precipitação nuclear resultante.\n"
+"\n"
+"    • Aguarde pelo menos 5 minutos depois de ser descongelado do Criotanque "
+"3000 antes de operar maquinário pesado.\n"
+"\n"
+"    • Cada Criotanque 3000 é bom somente para um uso.\n"
+"\n"
+
+#. STRINGS.CODEX.CRYOTANKWARNINGS.SUBTITLE
+msgctxt "STRINGS.CODEX.CRYOTANKWARNINGS.SUBTITLE"
+msgid "IMPORTANT OPERATING INSTRUCTIONS FOR THE CRYOTANK 3000"
+msgstr "INSTRUÇÕES DE OPERAÇÃO IMPORTANTES PARA O CRIOTANQUE 3000"
+
+#. STRINGS.CODEX.CRYOTANKWARNINGS.TITLE
+msgctxt "STRINGS.CODEX.CRYOTANKWARNINGS.TITLE"
+msgid "CRYOTANK SAFETY"
+msgstr "SEGURANÇA DE CRIOTANQUE"
+
 #. STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.CRYSTAL.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Radiant\" Shine Bug variant</smallcaps>"
@@ -21287,6 +21598,33 @@ msgstr "Raça da Criatura"
 msgctxt "STRINGS.CODEX.CRYSTAL.TITLE"
 msgid "Radiant Bug"
 msgstr "Vagalume Radiante"
+
+#. STRINGS.CODEX.DASHASALTVINE.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.DASHASALTVINE.BODY.CONTAINER1"
+msgid ""
+"The Dasha Saltvine is a unique plant that needs large amounts of salt to "
+"balance the levels of water in its body.\n"
+"\n"
+"In order to keep a supply of salt on hand, the end of the vine is coated in "
+"microscopic formations which bind with sodium atoms, forming large crystals "
+"over time."
+msgstr ""
+"A Vinha Saleiro é uma planta única que precisa de grandes quantidades de sal "
+"para balancear os níveis de água no seu corpo.\n"
+"\n"
+"Para manter o suprimento de sal, o fim da vinha é coberta em formações "
+"microscópicas que se ligam com os átomos de sódio, formando grandes cristais "
+"ao longo do tempo."
+
+#. STRINGS.CODEX.DASHASALTVINE.SUBTITLE
+msgctxt "STRINGS.CODEX.DASHASALTVINE.SUBTITLE"
+msgid "Edible Spice Plant"
+msgstr "Planta de Especiaria Comestível"
+
+#. STRINGS.CODEX.DASHASALTVINE.TITLE
+msgctxt "STRINGS.CODEX.DASHASALTVINE.TITLE"
+msgid "Balm Lily"
+msgstr "Lírio Milagroso"
 
 #. STRINGS.CODEX.DECOR.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DECOR.BODY.CONTAINER1"
@@ -21656,8 +21994,8 @@ msgstr ""
 
 #. STRINGS.CODEX.GASGRASS.SUBTITLE
 msgctxt "STRINGS.CODEX.GASGRASS.SUBTITLE"
-msgid "Plant"
-msgstr "Planta"
+msgid "Critter Feed"
+msgstr "Comida de Criaturas"
 
 #. STRINGS.CODEX.GASGRASS.TITLE
 msgctxt "STRINGS.CODEX.GASGRASS.TITLE"
@@ -21779,6 +22117,21 @@ msgstr "Raça da Criatura"
 msgctxt "STRINGS.CODEX.GLOSSY.TITLE"
 msgid "Glossy Drecko"
 msgstr "Dreco Plástico"
+
+#. STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE
+msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.SUBTITLE"
+msgid "Edible Plant"
+msgstr "Planta Comestível"
+
+#. STRINGS.CODEX.GRUBFRUITPLANT.TITLE
+msgctxt "STRINGS.CODEX.GRUBFRUITPLANT.TITLE"
+msgid "Grubfruit Plant"
+msgstr "Pé de Lagafruta"
 
 #. STRINGS.CODEX.HATCH.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.HATCH.BODY.CONTAINER1"
@@ -22160,6 +22513,46 @@ msgctxt "STRINGS.CODEX.HEAT.TITLE"
 msgid "<link=\"HEAT\">Heat</link>"
 msgstr "<link=\"HEAT\">Calor</link>"
 
+#. STRINGS.CODEX.HEXALENT.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.HEXALENT.BODY.CONTAINER1"
+msgid ""
+"While most plants grow new sections and leaves according to the Fibonacci "
+"Sequence, the Hexalent forms new sections similar to how atoms form into "
+"crystal structures.\n"
+"\n"
+"The result is a geometric pattern that resembles a honeycomb."
+msgstr ""
+"Enquanto a maior parte das plantas criam novas seções e folhas de acordo com "
+"a sequência de Fibonacci, a Hexalente forma novas seções de forma semelhante "
+"aos átomos quando assumem estruturas de cristais.\n"
+"\n"
+"O resultado é um padrão geométrico que se assemelha a um favo de mel."
+
+#. STRINGS.CODEX.HEXALENT.SUBTITLE
+msgctxt "STRINGS.CODEX.HEXALENT.SUBTITLE"
+msgid "Decorative Plant"
+msgstr "Planta Decorativa"
+
+#. STRINGS.CODEX.HEXALENT.TITLE
+msgctxt "STRINGS.CODEX.HEXALENT.TITLE"
+msgid "Hexalent"
+msgstr "Hexalente"
+
+#. STRINGS.CODEX.HYDROCACTUS.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.HYDROCACTUS.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.HYDROCACTUS.SUBTITLE
+msgctxt "STRINGS.CODEX.HYDROCACTUS.SUBTITLE"
+msgid "Plant"
+msgstr "Planta"
+
+#. STRINGS.CODEX.HYDROCACTUS.TITLE
+msgctxt "STRINGS.CODEX.HYDROCACTUS.TITLE"
+msgid "Hydrocactus"
+msgstr "Hidrocacto"
+
 #. STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.JUMPINGJOYA.BODY.CONTAINER1"
 msgid ""
@@ -22267,6 +22660,31 @@ msgstr "Planta Comestível"
 msgctxt "STRINGS.CODEX.MEALWOOD.TITLE"
 msgid "Mealwood"
 msgstr "Rangárvore"
+
+#. STRINGS.CODEX.MELLOWMALLOW.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.MELLOWMALLOW.BODY.CONTAINER1"
+msgid ""
+"The Mellow Mallow is a type of fungus that is known for its ease of "
+"propagation when cut.\n"
+"\n"
+"It is deadly when consumed, however creatures that mistakenly eat it are "
+"said to experience a state of extreme calm before death."
+msgstr ""
+"O Malvavisco é um tipo de fungo que é conhecido por sua facilidade de "
+"propagação quando cortado.\n"
+"\n"
+"É mortal quando consumido, porém criaturas que o comem por engano passam por "
+"uma experiência de extrema calma antes da morte."
+
+#. STRINGS.CODEX.MELLOWMALLOW.SUBTITLE
+msgctxt "STRINGS.CODEX.MELLOWMALLOW.SUBTITLE"
+msgid "Decorative Plant"
+msgstr "Planta Decorativa"
+
+#. STRINGS.CODEX.MELLOWMALLOW.TITLE
+msgctxt "STRINGS.CODEX.MELLOWMALLOW.TITLE"
+msgid "Mellow Mallow"
+msgstr "Malvavisco"
 
 #. STRINGS.CODEX.MIRTHLEAF.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.MIRTHLEAF.BODY.CONTAINER1"
@@ -23242,6 +23660,48 @@ msgctxt "STRINGS.CODEX.NEGA.TITLE"
 msgid "Abyss Bug"
 msgstr "Vagalume Abissal"
 
+#. STRINGS.CODEX.NOSHBEAN.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.NOSHBEAN.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.NOSHBEAN.SUBTITLE
+msgctxt "STRINGS.CODEX.NOSHBEAN.SUBTITLE"
+msgid "Edible Plant"
+msgstr "Planta Comestível"
+
+#. STRINGS.CODEX.NOSHBEAN.TITLE
+msgctxt "STRINGS.CODEX.NOSHBEAN.TITLE"
+msgid "Nosh Bean Plant"
+msgstr "Feijão Brocoso"
+
+#. STRINGS.CODEX.OXYFERN.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.OXYFERN.BODY.CONTAINER1"
+msgid ""
+"Oxyferns have perhaps the highest metabolism in the plant kingdom, absorbing "
+"relatively large amounts of carbon dioxide and converting it into oxygen in "
+"quantities disproportionate to their small size.\n"
+"\n"
+"They subsequently thrive in areas with abundant animal wildlife or ambiently "
+"high carbon dioxide concentrations."
+msgstr ""
+"Oximambaias são provavelmente a planta com maior metabolismo do seu reino, "
+"absorvendo grandes quantidades de dióxido de carbono e convertendo-a em "
+"quantidades desproporcionais em relação ao seu tamanho pequeno.\n"
+"\n"
+"Elas prosperam em áreas com vida animal abundante ou em ambientes com "
+"concentrações altas de dióxido de carbono."
+
+#. STRINGS.CODEX.OXYFERN.SUBTITLE
+msgctxt "STRINGS.CODEX.OXYFERN.SUBTITLE"
+msgid "Plant"
+msgstr "Planta"
+
+#. STRINGS.CODEX.OXYFERN.TITLE
+msgctxt "STRINGS.CODEX.OXYFERN.TITLE"
+msgid "Oxyfern"
+msgstr "Oximambaia"
+
 #. STRINGS.CODEX.PACU.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.PACU.BODY.CONTAINER1"
 msgid ""
@@ -24090,6 +24550,21 @@ msgctxt "STRINGS.CODEX.SAGE.TITLE"
 msgid "Sage Hatch"
 msgstr "Mucura Anciã"
 
+#. STRINGS.CODEX.SATURNCRITTERTRAP.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.SATURNCRITTERTRAP.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.SATURNCRITTERTRAP.SUBTITLE
+msgctxt "STRINGS.CODEX.SATURNCRITTERTRAP.SUBTITLE"
+msgid "Carnivorous Plant"
+msgstr "Planta Carnívora"
+
+#. STRINGS.CODEX.SATURNCRITTERTRAP.TITLE
+msgctxt "STRINGS.CODEX.SATURNCRITTERTRAP.TITLE"
+msgid "Saturn Critter Trap"
+msgstr "Armadilha de Criatura Saturno"
+
 #. STRINGS.CODEX.SCHOOLNEWSPAPER.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SCHOOLNEWSPAPER.BODY.CONTAINER1"
 msgid "<b>Party Time for Local Students</b>"
@@ -24278,6 +24753,36 @@ msgctxt "STRINGS.CODEX.SMOOTH.TITLE"
 msgid "Smooth Hatch"
 msgstr "Mucura Suave"
 
+#. STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.SUBTITLE
+msgctxt "STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.SUBTITLE"
+msgid "Edible Plant"
+msgstr "Planta Comestível"
+
+#. STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.TITLE
+msgctxt "STRINGS.CODEX.SPINDLYGRUBFRUITPLANT.TITLE"
+msgid "Spindly Grubfruit Plant"
+msgstr "Pé de Lagafruta Seca"
+
+#. STRINGS.CODEX.SPORECHID.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.SPORECHID.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.SPORECHID.SUBTITLE
+msgctxt "STRINGS.CODEX.SPORECHID.SUBTITLE"
+msgid "Poisonous Plant"
+msgstr "Planta Venenosa"
+
+#. STRINGS.CODEX.SPORECHID.TITLE
+msgctxt "STRINGS.CODEX.SPORECHID.TITLE"
+msgid "Sporechid"
+msgstr "Florósporo"
+
 #. STRINGS.CODEX.SQUEAKY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SQUEAKY.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Squeaky\" Puft variant</smallcaps>"
@@ -24427,6 +24932,33 @@ msgctxt "STRINGS.CODEX.SUNNY.TITLE"
 msgid "Sun Bug"
 msgstr "Vagalume Solar"
 
+#. STRINGS.CODEX.SWAMPCHARD.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.SWAMPCHARD.BODY.CONTAINER1"
+msgid ""
+"Swamp Chard is a unique member of the Amaranthaceae family that has adapted "
+"to grow in humid environments, in or near pools of standing water.\n"
+"\n"
+"While the leaves are technically edible, the most nutritious and palatable "
+"part of the plant is the heart, which is rich in a number of essential "
+"vitamins."
+msgstr ""
+"Nabo do Pântano é um membro único da família Amaranthaceae que conseguiu se "
+"adaptar para crescer em ambientes úmidos, dentro ou perto de piscinas de "
+"água parada.\n"
+"\n"
+"Enquanto as folhas são tecnicamente comestíveis, a parte mais nutritiva e "
+"saborosa da planta é o bulbo, que é rico em vitaminas essenciais."
+
+#. STRINGS.CODEX.SWAMPCHARD.SUBTITLE
+msgctxt "STRINGS.CODEX.SWAMPCHARD.SUBTITLE"
+msgid "Edible Plant"
+msgstr "Planta Comestível"
+
+#. STRINGS.CODEX.SWAMPCHARD.TITLE
+msgctxt "STRINGS.CODEX.SWAMPCHARD.TITLE"
+msgid "Swamp Chard"
+msgstr "Nabo do Pântano"
+
 #. STRINGS.CODEX.SWEEPY.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SWEEPY.BODY.CONTAINER1"
 msgid ""
@@ -24542,6 +25074,21 @@ msgstr "Pedido de Férias Aprovado"
 msgctxt "STRINGS.CODEX.TIMEOFFAPPROVED.TITLE2"
 msgid "SUBJECT: Vacation Request Approved"
 msgstr "ASSUNTO: Pedido de Férias Aprovado"
+
+#. STRINGS.CODEX.TRANQUILTOES.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.TRANQUILTOES.BODY.CONTAINER1"
+msgid ""
+msgstr ""
+
+#. STRINGS.CODEX.TRANQUILTOES.SUBTITLE
+msgctxt "STRINGS.CODEX.TRANQUILTOES.SUBTITLE"
+msgid "Decorative Plant"
+msgstr "Planta Decorativa"
+
+#. STRINGS.CODEX.TRANQUILTOES.TITLE
+msgctxt "STRINGS.CODEX.TRANQUILTOES.TITLE"
+msgid "Tranquil Toes"
+msgstr "Dedinho-Tranquilo"
 
 #. STRINGS.CODEX.TROPICAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.TROPICAL.BODY.CONTAINER1"
@@ -48462,16 +49009,15 @@ msgstr "{friend} está descongelado!"
 msgctxt "STRINGS.GAMEPLAY_EVENTS.EVENT_TYPES.CRYOFRIEND.DESCRIPTION"
 msgid ""
 "{dupe} has made an amazing discovery! A barely working <link=\"CRYOTANK"
-"\">Cryotank</link> has been uncovered containing a {friend} inside in a "
+"\">Cryotank 3000</link> has been uncovered containing a {friend} inside in a "
 "frozen state.\n"
 "\n"
 "{dupe} was successful in thawing {friend} and this encounter has filled both "
 "Duplicants with a sense of hope, something they will desperately need to "
 "keep their <link=\"MORALE\">Morale</link> up when facing the dangers ahead."
 msgstr ""
-"{dupe} fez uma descoberta incrível! Um <link=\"CRYOTANK\">Criotanque</link> "
-"que mal funcionava foi descoberto contendo um {friend} em um estado "
-"congelado.\n"
+"{dupe} fez uma descoberta incrível! Um <link=\"CRYOTANK\">Criotanque 3000</"
+"link> foi descoberto contendo um {friend} em um estado congelado.\n"
 "\n"
 "{dupe} conseguiu descongelar {friend} e este encontro encheu ambos "
 "Duplicantes com um sentimento de esperança, algo que eles irão precisar "
@@ -53300,7 +53846,7 @@ msgstr "Dicas para fazer os Duplicante me obedecerem"
 #. STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.WORLDDETECTED.MESSAGEBODY"
 msgid ""
-"My Duplicants' astronomical efforts have uncovered a new Planetoids:\n"
+"My Duplicants' astronomical efforts have uncovered a new Planetoid:\n"
 "{0}"
 msgstr ""
 "Os esforços astronômicos dos meus Duplicantes revelaram um novo Planetoide:\n"
@@ -57291,6 +57837,11 @@ msgstr ""
 "Águ\n"
 "Hidr\n"
 
+#. STRINGS.NAMEGEN.WORLD.SPACECRAFT_PREFIX
+msgctxt "STRINGS.NAMEGEN.WORLD.SPACECRAFT_PREFIX"
+msgid "Spacecraft: "
+msgstr "Espaçonave: "
+
 #. STRINGS.NAMEGEN.WORLD.SUFFIXES.GENERICLIST
 msgctxt "STRINGS.NAMEGEN.WORLD.SUFFIXES.GENERICLIST"
 msgid ""
@@ -60387,7 +60938,11 @@ msgstr ""
 #. STRINGS.SUBWORLDS.RADIOACTIVE.DESC
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.DESC"
 msgid ""
+"A highly volatile environment containing a highly useful resource, this "
+"biome is invaluable when venturing into Nuclear technologies."
 msgstr ""
+"Um ambiente altamente volátil contendo um recurso muito útil, este bioma é "
+"indispensável quando se for se aventurar pelas tecnologias Nucleares."
 
 #. STRINGS.SUBWORLDS.RADIOACTIVE.NAME
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.NAME"
@@ -60397,7 +60952,36 @@ msgstr "Radioativo"
 #. STRINGS.SUBWORLDS.RADIOACTIVE.UTILITY
 msgctxt "STRINGS.SUBWORLDS.RADIOACTIVE.UTILITY"
 msgid ""
+"<link=\"LEADSUIT\">Lead Suits</link> are imperative if my Duplicants are "
+"going to start exploring this biome as <link=\"RADIATIONSICKNESS"
+"\">Radioactive Contaminants</link> is a constant danger here.\n"
+"\n"
+"<link=\"BEE\">Beetas</link> pose a double threat as they are both highly "
+"radioactive and very aggressive. If they can be domesticated, however, <link="
+"\"BEEHIVE\">Beeta Hives</link>, provide a great service turning <link="
+"\"URANIUMORE\">Uranium</link> into <link=\"ENRICHEDURANIUM\">Enriched "
+"Uranium</link>.\n"
+"\n"
+"While the Radioactive Biome, and the Beetas contained within it, should be "
+"avoided at all costs if my Duplicants do not have the correct protection, my "
+"colony will need to trek into this dangerous biome if we are going to build "
+"any higher tier nuclear technologies."
 msgstr ""
+"<link=\"LEADSUIT\">Trajes de Chumbo</link> são obrigatórios se meus "
+"Duplicantes forem começar a explorar este bioma pois <link="
+"\"RADIATIONSICKNESS\">Contaminantes Radioativos</link> são um constante "
+"perigo aqui.\n"
+"\n"
+"<link=\"BEE\">Abetas</link> se mostram como uma dupla ameaça tanto por serem "
+"altamente radioativas e muito agressivas. Se forem domesticadas, no entanto, "
+"<link=\"BEEHIVE\">Ninhos de Abetas</link>, fornecem um grande serviço em "
+"converter <link=\"URANIUMORE\">Urânio</link> em <link=\"ENRICHEDURANIUM"
+"\">Urânio Enriquecido</link>.\n"
+"\n"
+"O Bioma Radioativo, e as Abetas dentro dele devem ser evitados a todo custo "
+"se meus Duplicantes não tiverem a proteção correta, mas, minha colônia irá "
+"precisar dominar este perigoso bioma se nós formos construir qualquer "
+"tecnologia nuclear de alto nível."
 
 #. STRINGS.SUBWORLDS.RUST.DESC
 msgctxt "STRINGS.SUBWORLDS.RUST.DESC"
@@ -63037,6 +63621,17 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.ALL_NAME"
 msgid "Battery"
 msgstr "Bateria"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA.CHECKCAPACITY
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA.CHECKCAPACITY"
+msgid "Check capacity"
+msgstr "Verificar capacidade"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA.CHECKDEAD
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA.CHECKDEAD"
+msgid "Check dead"
+msgstr "Verificar mortas"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.FAIL
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.FAIL"
@@ -63079,6 +63674,11 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.ALL_NAME"
 msgid "Beds"
 msgstr "Camas"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.CRITERIA.CHECKENOUGHBEDS
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.CRITERIA.CHECKENOUGHBEDS"
+msgid "Check enough beds"
+msgstr "Verificar camas suficientes"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.MISSING_ASSIGNMENT
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BEDDIAGNOSTIC.MISSING_ASSIGNMENT"
 msgid "    • One or more Duplicants don't have an assigned bed"
@@ -63103,6 +63703,20 @@ msgstr "<b>Camas</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.ALL_NAME"
 msgid "Breathability"
 msgstr "Respirabilidade"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.CRITERIA.CHECKLOWBREATHABILITY
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.CRITERIA."
+"CHECKLOWBREATHABILITY"
+msgid "Check low breathability"
+msgstr "Verificar baixa respirabilidade"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.CRITERIA.CHECKSUFFOCATION
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.CRITERIA."
+"CHECKSUFFOCATION"
+msgid "Check suffocation"
+msgstr "Verificar se sufocando"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BREATHABILITYDIAGNOSTIC.NORMAL"
@@ -63134,6 +63748,11 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.ALL_NAME"
 msgid "Decor"
 msgstr "Decoração"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.CRITERIA.CHECKDECOR
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.CRITERIA.CHECKDECOR"
+msgid "Check decor"
+msgstr "Verificar decor"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.LOW
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.DECORDIAGNOSTIC.LOW"
 msgid "    • Decor levels are low"
@@ -63159,6 +63778,12 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.BUILDING_ENTOMBED"
 msgid "    • One or more buildings are entombed"
 msgstr "    • Uma ou mais estruturas estão soterradas"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.CRITERIA.CHECKENTOMBED
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.CRITERIA.CHECKENTOMBED"
+msgid "Check entombed"
+msgstr "Verificar se soterrado"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ENTOMBEDDIAGNOSTIC.NORMAL"
 msgid "    • No buildings are entombed"
@@ -63173,6 +63798,27 @@ msgstr "<b>Soterrado</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.ALL_NAME"
 msgid "Crops"
 msgstr "Plantas"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.CRITERIA.CHECKHASFARMS
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.CRITERIA.CHECKHASFARMS"
+msgid "Check colony has farms"
+msgstr "Verificar se colônia possui hortas"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.CRITERIA.CHECKOPERATIONAL
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.CRITERIA.CHECKOPERATIONAL"
+msgid "Check farm plots operational"
+msgstr "Verificar hortas operacionais"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.CRITERIA.CHECKPLANTED
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.CRITERIA.CHECKPLANTED"
+msgid "Check farms are planted"
+msgstr "Verificar se hortas estão plantadas"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.CRITERIA.CHECKWILTING
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.CRITERIA.CHECKWILTING"
+msgid "Check crops wilting"
+msgstr "Verificar se plantas secaram"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FARMDIAGNOSTIC.INOPERATIONAL"
@@ -63245,6 +63891,16 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.ALL_NAME"
 msgid "Food"
 msgstr "Comida"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA.CHECKENOUGHFOOD
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA.CHECKENOUGHFOOD"
+msgid "Check enough food"
+msgstr "Verificar comida suficiente"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA.CHECKSTARVATION
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA.CHECKSTARVATION"
+msgid "Check starvation"
+msgstr "Verificar se morrendo de fome"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA_HAS_FOOD.FAIL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA_HAS_FOOD.FAIL"
 msgid "    • Duplicants have no food"
@@ -63280,6 +63936,11 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.TOOLTIP_NAME"
 msgid "<b>Food</b>"
 msgstr "<b>Comida</b>"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA.CHECKWORLDHASMINIONS
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA.CHECKWORLDHASMINIONS"
+msgid "Check world has Duplicants"
+msgstr "Verificar se mundo possui Duplicantes"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA_FAIL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA_FAIL"
 msgid "Criteria not met"
@@ -63300,10 +63961,20 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.HEATDIAGNOSTIC.ALL_NAME"
 msgid "Battery"
 msgstr "Bateria"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.HEATDIAGNOSTIC.CRITERIA.CHECKHEAT
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.HEATDIAGNOSTIC.CRITERIA.CHECKHEAT"
+msgid "Check heat"
+msgstr "Verificar calor"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.ALL_NAME"
 msgid "Idleness"
 msgstr "Ociosidade"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.CRITERIA.CHECKIDLE
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.CRITERIA.CHECKIDLE"
+msgid "Check idle"
+msgstr "Verificar se ocioso"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.IDLEDIAGNOSTIC.IDLE"
@@ -63349,10 +64020,20 @@ msgid "    • Crew must be requested to update this diagnostic"
 msgstr ""
 "    • Tripulação precisa ser solicitada para atualizar este diagnóstico"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.PLACEHOLDER_CRITERIA_NAME
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.PLACEHOLDER_CRITERIA_NAME"
+msgid "Placeholder Criteria Name"
+msgstr "Nome de Critério Genérico"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.ALL_NAME"
 msgid "Avg Power"
 msgstr "Energia Média"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CRITERIA.CHECKPOWER
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.CRITERIA.CHECKPOWER"
+msgid "Check power"
+msgstr "Verificar energia"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.POWERUSEDIAGNOSTIC.NORMAL"
@@ -63373,6 +64054,17 @@ msgstr "<b>Energia Média</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.ALL_NAME"
 msgid "Radiation"
 msgstr "Radiação"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA.CHECKEXPOSED
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA.CHECKEXPOSED"
+msgid "Check exposed"
+msgstr "Verificar se exposto"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA.CHECKSICK
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA.CHECKSICK"
+msgid "Check sick"
+msgstr "Verificar se doente"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.CRITERIA_RADIATION_EXPOSURE.FAIL_CONCERN
 msgctxt ""
@@ -63426,6 +64118,23 @@ msgstr "<b>Radiação</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.ALL_NAME"
 msgid "<link=\"NUCLEARREACTOR\">Research Reactor</link>"
 msgstr "<link=\"NUCLEARREACTOR\">Reator de Pesquisa</link>"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.CRITERIA.CHECKCOOLANT
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.CRITERIA.CHECKCOOLANT"
+msgid "Check coolant"
+msgstr "Verificar resfriador"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.CRITERIA.CHECKTEMPERATURE
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.CRITERIA.CHECKTEMPERATURE"
+msgid "Check temperature"
+msgstr "Verificar temperatura"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.CRITERIA_COOLANT_WARNING
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.CRITERIA_COOLANT_WARNING"
+msgid "    • Coolant tank low"
+msgstr "    • Tanque de resfriador baixo"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.REACTORDIAGNOSTIC.CRITERIA_TEMPERATURE_WARNING
 msgctxt ""
@@ -63493,6 +64202,11 @@ msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.ALL_NAME"
 msgid "Max Stress"
 msgstr "Estresse Máximo"
 
+#. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.CRITERIA.CHECKSTRESSED
+msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.CRITERIA.CHECKSTRESSED"
+msgid "Check stressed"
+msgstr "Verificar se estressado"
+
 #. STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.STRESSDIAGNOSTIC.HIGH_STRESS"
 msgid "    • One or more Duplicants is suffering high stress"
@@ -63512,6 +64226,18 @@ msgstr "<b>Estresse Máximo</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.ALL_NAME"
 msgid "Toilets"
 msgstr "Privadas"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.CRITERIA.CHECKENOUGHTOILETS
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.CRITERIA.CHECKENOUGHTOILETS"
+msgid "Check enough toilets"
+msgstr "Verificar se banheiros suficientes"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.CRITERIA.CHECKHASANYTOILETS
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.CRITERIA.CHECKHASANYTOILETS"
+msgid "Check has any toilets"
+msgstr "Verificar se existe privadas"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.FEW_TOILETS
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TOILETDIAGNOSTIC.FEW_TOILETS"
@@ -63547,6 +64273,13 @@ msgstr "<b>Privadas</b>"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.ALL_NAME"
 msgid "Trapped"
 msgstr "Preso"
+
+#. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.CRITERIA.CHECKTRAPPED
+msgctxt ""
+"STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.CRITERIA."
+"CHECKTRAPPED"
+msgid "Check Trapped"
+msgstr "Verificar se preso"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.TRAPPEDDUPLICANTDIAGNOSTIC.NORMAL"
@@ -65237,7 +65970,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.4.2): {0}"
+msgstr "VERSÃO DE TESTE (3.5): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -65267,7 +66000,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.4.2): {0}"
+msgstr "VERSÃO (3.5): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -69759,6 +70492,21 @@ msgstr "Minúsculo"
 msgctxt "STRINGS.UI.FRONTEND.WORLDGENSCREEN.TITLE"
 msgid "NEW GAME"
 msgstr "NOVO JOGO"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_NO_MIN_RADIATION_FMT
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_NO_MIN_RADIATION_FMT"
+msgid "Less than {maxRads}"
+msgstr "Menos que {maxRads}"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_RADIATION
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_RADIATION"
+msgid "Ambient Radiation"
+msgstr "Radiação Ambiente"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_RADIATION_FMT
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.AMBIENT_RADIATION_FMT"
+msgid "{minRads} - {maxRads}"
+msgstr ""
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.CALORIES
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.CALORIES"
@@ -74545,6 +75293,15 @@ msgstr ""
 "<link=\"PLANTS\">Cuidado de Plantas</link> e confecção de Fertilizante de "
 "Micronutrientes"
 
+#. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_IDENTIFY_MUTANT_SEEDS.DESCRIPTION
+msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_IDENTIFY_MUTANT_SEEDS.DESCRIPTION"
+msgid ""
+"Can identify <style=\"KKeyword\">Mutant Seeds</style> at the <link="
+"\"GENETICANALYSISSTATION\">Botanical Analyzer</link>"
+msgstr ""
+"Consegue identificar <style=\"KKeyword\">Sementes Mutantes</style> no <link="
+"\"GENETICANALYSISSTATION\">Analisador Botânico</link>"
+
 #. STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PILOT_ROCKET.DESCRIPTION
 msgctxt "STRINGS.UI.ROLES_SCREEN.PERKS.CAN_PILOT_ROCKET.DESCRIPTION"
 msgid "<link=\"ROCKETCONTROLSTATION\">Rocket Control Station</link> Usage"
@@ -79306,6 +80063,24 @@ msgid ""
 "The current <style=\"KKeyword\">Gas</style> pressure is <b>{pressure}</b>"
 msgstr "A pressão do <style=\"KKeyword\">Gás</style> atual é <b>{pressure}</b>"
 
+#. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION
+msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION"
+msgid ""
+"This plant is sitting in <b>{rads}</b> of ambient <style=\"KKeyword"
+"\">Radiation</style>. It needs at between {minRads} and {maxRads} to grow."
+msgstr ""
+"Esta planta está em <b>{rads}</b> de <style=\"KKeyword\">Radiação</style> "
+"ambiente. Precisa estar entre {minRads} e {maxRads} para crescer."
+
+#. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION_NO_MIN
+msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RADIATION_NO_MIN"
+msgid ""
+"This plant is sitting in <b>{rads}</b> of ambient <style=\"KKeyword"
+"\">Radiation</style>. It needs less than {maxRads} to grow."
+msgstr ""
+"Esta planta está em <b>{rads}</b> de <style=\"KKeyword\">Radiação</style> "
+"ambiente. Precisa menos de {maxRads} para crescer."
+
 #. STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL
 msgctxt "STRINGS.UI.TOOLTIPS.VITALS_CHECKBOX_RECEPTACLE_INOPERATIONAL"
 msgid "This plant is not housed in an operational farm plot"
@@ -79803,7 +80578,7 @@ msgctxt ""
 "STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN."
 "DROPDOWN_TOOLTIP_SITE_OBSTRUCTED"
 msgid "Landing site obstructed"
-msgstr "Local de pouso obstruído"
+msgstr "Trajeto de pouso obstruído"
 
 #. STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.DROPDOWN_TOOLTIP_TOO_SHORT
 msgctxt ""
@@ -80556,40 +81331,30 @@ msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.UNDERWAY"
 msgid "Neural Vacillation in progress."
 msgstr "Vacilação Neural em andamento."
 
-#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CANCEL_SEED
-msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CANCEL_SEED"
-msgid "Clear Analysis Target"
-msgstr "Limpar Alvo da Análise"
-
-#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CURRENT_TARGET
-msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CURRENT_TARGET"
-msgid "Currently studying:"
-msgstr "Estudando no momento:"
-
 #. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.NONE_DISCOVERED
 msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.NONE_DISCOVERED"
 msgid "No mutant seeds have been found."
 msgstr "Nenhuma semente mutante foi encontrada."
 
-#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.PICK_TARGET
-msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.PICK_TARGET"
-msgid "Select a plant for study"
-msgstr "Selecione uma planta para estudo"
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_ALLOWED
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_ALLOWED"
+msgid "</i>Will analyze</i>"
+msgstr "</i>Vai analisar</i>"
 
-#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_COMPLETE
-msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_COMPLETE"
-msgid "<i>Complete</i>"
-msgstr "<i>Concluir</i>"
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_FORBIDDEN
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_FORBIDDEN"
+msgid "</i>Won't analyze</i>"
+msgstr "</i>Não vai analisar</i>"
 
-#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_PROGRESS_FMT
-msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_PROGRESS_FMT"
-msgid "{0}/{1} seeds"
-msgstr "{0}/{1} sementes"
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_NO_MUTANTS
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_NO_MUTANTS"
+msgid "</i>No mutants found</i>"
+msgstr "</i>Nenhum mutante encontrado</i>"
 
-#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEED
-msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEED"
-msgid "Select Analysis Target"
-msgstr "Selecionar Alvo da Análise"
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEEDS
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEEDS"
+msgid "Select which seed types to analyze:"
+msgstr "Selecione os tipos de semente para analisar:"
 
 #. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.TITLE"
@@ -80611,12 +81376,102 @@ msgctxt "STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.VIEW_BUTTON_TOOLTIP"
 msgid "What's goin' on in there?"
 msgstr "O que está acontecendo aí?"
 
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_E
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_E"
+msgid "E"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_N
+#| msgctxt "STRINGS.DUPLICANTS.DISEASES.NODISEASES.NAME"
+#| msgid "NO"
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_N"
+msgid "N"
+msgstr "N"
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_NE
+#| msgctxt "STRINGS.UI.RESOURCESCREEN.NEW_TAG"
+#| msgid "NEW"
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_NE"
+msgid "NE"
+msgstr "NE"
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_NW
+#| msgctxt "STRINGS.UI.RESOURCESCREEN.NEW_TAG"
+#| msgid "NEW"
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_NW"
+msgid "NW"
+msgstr "NO"
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_S
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_S"
+msgid "S"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_SE
+#| msgctxt "STRINGS.UI.FRONTEND.GAME_OPTIONS_SCREEN.SAVE_OPTIONS"
+#| msgid "SAVE"
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_SE"
+msgid "SE"
+msgstr "SE"
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_SW
+#| msgctxt "STRINGS.UI.SPEED_SLOW"
+#| msgid "SLOW"
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_SW"
+msgid "SW"
+msgstr "SO"
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_W
+#| msgctxt "STRINGS.UI.UNITSUFFIXES.ELECTRICAL.WATT"
+#| msgid " W"
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.DIRECTION_W"
+msgid "W"
+msgstr "O"
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.SELECTED_DIRECTION
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN."
+"SELECTED_DIRECTION"
+msgid "Selected direction: {0}"
+msgstr "Direção selecionada: {0}"
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLEDIRECTIONSIDESCREEN.TITLE"
+msgid "Emit Particle Direction"
+msgstr "Direção de Partícula Emitida"
+
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.CURRENT_THRESHOLD
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN."
 "CURRENT_THRESHOLD"
 msgid "Current Threshold: {0}%"
 msgstr "Limite Atual: {0}%"
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.PROGRESS_BAR_LABEL
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN."
+"PROGRESS_BAR_LABEL"
+msgid "Radbolt Generation"
+msgstr "Geração de Radioraios"
+
+#. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.PROGRESS_BAR_TOOLTIP
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN."
+"PROGRESS_BAR_TOOLTIP"
+msgid ""
+"The building will emit a <style=\"KKeyword\">Radbolt</style> in the chosen "
+"direction when fully charged"
+msgstr ""
+"Esta estrutura emitirá <style=\"KKeyword\">Radioraios</style> na direção "
+"escolhida quando completamente carregado"
 
 #. STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.HIGHENERGYPARTICLESPAWNERSIDESCREEN.TITLE"
@@ -80780,6 +81635,26 @@ msgstr "Plataforma de Foguetes"
 msgctxt "STRINGS.UI.UISIDESCREENS.LAUNCHPADSIDESCREEN.WAITING_TO_LAND_PANEL"
 msgid "Waiting to land"
 msgstr "Aguardando o pouso"
+
+#. STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.AMOUNT
+msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.AMOUNT"
+msgid "Count: {0}"
+msgstr "Contagem: {0}"
+
+#. STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.LIMIT
+msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.LIMIT"
+msgid "Limit:"
+msgstr "Limite:"
+
+#. STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.RESET_BUTTON
+msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.RESET_BUTTON"
+msgid "Reset Count"
+msgstr "Redefinir Contador"
+
+#. STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.TITLE"
+msgid "Meter Control"
+msgstr "Controle do Medidor"
 
 #. STRINGS.UI.UISIDESCREENS.LOGIC_BUFFER_SIDE_SCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.LOGIC_BUFFER_SIDE_SCREEN.TITLE"
@@ -83874,6 +84749,19 @@ msgstr ""
 "\n"
 "Novo Registro da Base de Dados desbloqueado."
 
+#. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_CRYO_TANK
+msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_CRYO_TANK"
+msgid ""
+"There are some safety instructions included in the operating instructions of "
+"this Cryotank. I add them to my database.\n"
+"\n"
+"New Database Entry discoverd."
+msgstr ""
+"Existem algumas instruções de segurança incluídas com as instruções de uso "
+"deste Criotanque. Eu as adiciono para a minha base de dados.\n"
+"\n"
+"Novo Registro da Base de Dados descoberto."
+
 #. STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY
 msgctxt "STRINGS.UI.USERMENUACTIONS.READLORE.SEARCH_DISPLAY"
 msgid ""
@@ -85454,12 +86342,13 @@ msgid ""
 "\n"
 "<smallcaps>Forest Moonlets have plenty of organic material but Duplicants "
 "will have to venture outside their starting biome quickly to find any metal."
+"</smallcaps>"
 msgstr ""
 "Uma pequena lua com um início de floresta.\n"
 "\n"
 "<smallcaps>Luas Florestais possuem uma variedade de matéria orgânica mas "
-"Duplicantes devem se aventurar fora do bioma inicial rapidamente para achar "
-"algum metal."
+"Duplicantes precisarão se aventurar fora do bioma inicial rapidamente para "
+"achar algum metal.</smallcaps>"
 
 #. STRINGS.WORLDS.FORESTMOONLET.NAME
 msgctxt "STRINGS.WORLDS.FORESTMOONLET.NAME"
@@ -85565,8 +86454,8 @@ msgctxt "STRINGS.WORLDS.MOOMOONLET.DESCRIPTION"
 msgid ""
 "A small world with unique local lifeforms.\n"
 "\n"
-"<smallcaps>Moo Moonlets are the natural breeding ground of Gassy Moos due to "
-"their abundance of Gas Grass and Methane.</smallcaps>"
+"<smallcaps>Moo Asteroids are the natural breeding ground of Gassy Moos due "
+"to their abundance of Gas Grass and Methane.</smallcaps>"
 msgstr ""
 "Um mundo pequeno com formas de vida única.\n"
 "\n"
@@ -85575,8 +86464,8 @@ msgstr ""
 
 #. STRINGS.WORLDS.MOOMOONLET.NAME
 msgctxt "STRINGS.WORLDS.MOOMOONLET.NAME"
-msgid "Moo Moonlet"
-msgstr "Lua Boi"
+msgid "Moo Asteroid"
+msgstr "Asteroide Boi"
 
 #. STRINGS.WORLDS.MOON_BARREN.DESCRIPTION
 msgctxt "STRINGS.WORLDS.MOON_BARREN.DESCRIPTION"
@@ -86059,7 +86948,7 @@ msgctxt "STRINGS.WORLDS.WATERMOONLET.DESCRIPTION"
 msgid ""
 "A small, water-submerged world.\n"
 "\n"
-"<smallcaps>Water Moonlets possess a variety of liquid resources and are a "
+"<smallcaps>Water Asteroids possess a variety of liquid resources and are a "
 "natural source of Graphite. However, its thin surface and sparse "
 "construction material means Duplicants should come prepared for a swim.</"
 "smallcaps>"
@@ -86073,8 +86962,61 @@ msgstr ""
 
 #. STRINGS.WORLDS.WATERMOONLET.NAME
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
-msgid "Water Moonlet"
-msgstr "Lua de Água"
+msgid "Water Asteroid"
+msgstr "Asteroide Água"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_ACTIVE"
+#~ msgid ""
+#~ "<b><style=\"logic_on\">Green Signal</style></b>: Reset the amount "
+#~ "processed"
+#~ msgstr ""
+#~ "<b><style=\"logic_on\">Sinal Verde</b></style>: Redefine quantidade "
+#~ "processada"
+
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.LIQUIDLIMITVALVE.RESET_PORT_INACTIVE"
+#~ msgid "<b><style=\"logic_off\">Red Signal</style></b>: No effect"
+#~ msgstr "<b><style=\"logic_off\">Sinal Vermelho</b></style>: Sem Efeito"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.LIMIT"
+#~ msgid "Amount Processed:"
+#~ msgstr "Quantidade Processada:"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.LIMIT_VALVE_SIDE_SCREEN.RESET_BUTTON"
+#~ msgid "Reset"
+#~ msgstr "Redefinir"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CANCEL_SEED"
+#~ msgid "Clear Analysis Target"
+#~ msgstr "Limpar Alvo da Análise"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CURRENT_TARGET"
+#~ msgid "Currently studying:"
+#~ msgstr "Estudando no momento:"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.PICK_TARGET"
+#~ msgid "Select a plant for study"
+#~ msgstr "Selecione uma planta para estudo"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_COMPLETE"
+#~ msgid "<i>Complete</i>"
+#~ msgstr "<i>Concluir</i>"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_PROGRESS_FMT"
+#~ msgid "{0}/{1} seeds"
+#~ msgstr "{0}/{1} sementes"
+
+#~ msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEED"
+#~ msgid "Select Analysis Target"
+#~ msgstr "Selecionar Alvo da Análise"
+
+#~ msgctxt "STRINGS.WORLDS.MOOMOONLET.NAME"
+#~ msgid "Moo Moonlet"
+#~ msgstr "Lua Boi"
+
+#~ msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
+#~ msgid "Water Moonlet"
+#~ msgstr "Lua de Água"
 
 #~ msgctxt "STRINGS.CODEX.B10_AI.TITLE"
 #~ msgid "Artificial Intelligence"
@@ -86834,14 +87776,6 @@ msgstr "Lua de Água"
 #~ msgctxt "STRINGS.WORLDS.MOOMOONLET.DESCRIPTION"
 #~ msgid "..."
 #~ msgstr "..."
-
-#~ msgctxt "STRINGS.WORLDS.MOOMOONLET.NAME"
-#~ msgid "Moo Asteroid"
-#~ msgstr "Asteroide Boi"
-
-#~ msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
-#~ msgid "Water Asteroid"
-#~ msgstr "Asteroide Água"
 
 #~ msgctxt "STRINGS.NAMEGEN.WORLD.ROOTS.MOO"
 #~ msgid ""
@@ -102011,10 +102945,6 @@ msgstr "Lua de Água"
 #~ msgid "No U-Turns!"
 #~ msgstr "Sem Curvas em U!"
 
-#~ msgctxt "STRINGS.UI.UISIDESCREENS.CAPACITY_CONTROL_SIDE_SCREEN.TITLE"
-#~ msgid "Capacity"
-#~ msgstr "Capacidade"
-
 #~ msgctxt "STRINGS.UI.UISIDESCREENS.ROLESTATION.TITLE"
 #~ msgid "Job Station"
 #~ msgstr "Estação de Trabalhos"
@@ -103360,10 +104290,6 @@ msgstr "Lua de Água"
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.THERMALBLOCK.NAME"
 #~ msgid "Temp Diffuser Plate"
 #~ msgstr "Temperado"
-
-#~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.COOKING.NAME"
-#~ msgid "Cooking food"
-#~ msgstr "Cozinhando"
 
 #~ msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.MUSHING.NAME"
 #~ msgid "Mushing microbes"
