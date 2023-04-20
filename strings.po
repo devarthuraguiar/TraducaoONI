@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.2.4\n"
+"Project-Id-Version: Português foi Incluído! 2.2.5\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
-"Language-Team: Arthur Aguiar <arthur.aguiar151@gmail.com>\n"
+"Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
+"Language-Team: Arthur Aguiar <chastomber@outlook.com.br>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -197,8 +197,6 @@ msgid "{0} Bait"
 msgstr "{0} Isca"
 
 #. STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP
-#| msgctxt "STRINGS.UI.TOOLTIPS.SELECTAMATERIAL"
-#| msgid "There are insufficient materials to construct this building"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.BAITED.TOOLTIP"
 msgid ""
 "This lure is baited with {0}\n"
@@ -19242,8 +19240,8 @@ msgid ""
 "Pips are a member of the Rodentia order with a strong caching instinct that "
 "causes them to find and bury small objects, most often seeds."
 msgstr ""
-"Pips são membros da ordem Rodentia com um grande instinto de esconder que os "
-"fazem encontrar e enterrar pequenos objetos, normalmente sementes."
+"Cutias são membros da ordem Rodentia com um grande instinto de esconder que "
+"os fazem encontrar e enterrar pequenos objetos, normalmente sementes."
 
 #. STRINGS.CODEX.PIP.BODY.CONTAINER2
 msgctxt "STRINGS.CODEX.PIP.BODY.CONTAINER2"
@@ -21562,7 +21560,7 @@ msgstr "<link=\"PUFTSPECIES\">Bolhas</link>"
 #. STRINGS.CREATURES.FAMILY_PLURAL.SQUIRRELSPECIES
 msgctxt "STRINGS.CREATURES.FAMILY_PLURAL.SQUIRRELSPECIES"
 msgid "<link=\"SQUIRRELSPECIES\">Pips</link>"
-msgstr "<link=\"SQUIRRELSPECIES\">Pips</link>"
+msgstr "<link=\"SQUIRRELSPECIES\">Cutias</link>"
 
 #. STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC
 msgctxt "STRINGS.CREATURES.FERTILITY_MODIFIERS.DIET.DESC"
@@ -36913,7 +36911,7 @@ msgstr ""
 #. STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.WEAKIMMUNESYSTEM.NAME"
 msgid "Biohazardous"
-msgstr "Sangue Ruim"
+msgstr "Imunossuprimido"
 
 #. STRINGS.ELEMENTS.AEROGEL.DESC
 msgctxt "STRINGS.ELEMENTS.AEROGEL.DESC"
@@ -37671,7 +37669,7 @@ msgstr "{0} (Duro)"
 #. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.FIRM
 msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.FIRM"
 msgid "Firm"
-msgstr ""
+msgstr "Duro"
 
 #. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.IMPENETRABLE
 msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.IMPENETRABLE"
@@ -37686,7 +37684,7 @@ msgstr "Quase Impenetrável"
 #. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.SOFT
 msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.SOFT"
 msgid "Soft"
-msgstr ""
+msgstr "Macio"
 
 #. STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYFIRM
 msgctxt "STRINGS.ELEMENTS.HARDNESS.HARDNESS_DESCRIPTOR.VERYFIRM"
@@ -52910,8 +52908,6 @@ msgstr ""
 "bug nos fóruns de bugs. Nós agradecemos!"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE_TITLE
-#| msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
-#| msgid "TESTING BUILD: {0}"
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_MESSAGE_TITLE"
 msgid "TESTING BUILD"
 msgstr "VERSÃO DE TESTE"
@@ -52965,7 +52961,19 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (2.2.4): {0}"
+msgstr "VERSÃO (2.2.5): {0}"
+
+#. STRINGS.UI.DLC1.NAME
+#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACE_HUT"
+#| msgid "Space Hut"
+msgctxt "STRINGS.UI.DLC1.NAME"
+msgid "Spaced Out!"
+msgstr ""
+
+#. STRINGS.UI.DLC1.NAME_ITAL
+msgctxt "STRINGS.UI.DLC1.NAME_ITAL"
+msgid "<i>Spaced Out!</i>"
+msgstr ""
 
 #. STRINGS.UI.DROPDOWN.NONE
 msgctxt "STRINGS.UI.DROPDOWN.NONE"
@@ -53456,8 +53464,6 @@ msgid "Next"
 msgstr "Próximo"
 
 #. STRINGS.UI.ENDOFDAYREPORT.NONE
-#| msgctxt "STRINGS.DUPLICANTS.CONGENITALTRAITS.NONE.NAME"
-#| msgid "None"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.NONE"
 msgid "None"
 msgstr "Nenhum"
@@ -53645,8 +53651,6 @@ msgid "{0} rockets are currently flying missions for {1}"
 msgstr "{0} foguetes estão em missões de vôo para {1}"
 
 #. STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP
-#| msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP"
-#| msgid "There are {0} Rockets currently flying missions"
 msgctxt "STRINGS.UI.ENDOFDAYREPORT.ROCKETS_IN_FLIGHT.POSITIVE_TOOLTIP"
 msgid "{0} rockets are currently flying missions for {1}"
 msgstr "{0} foguetes estão em missões de vôo para {1}"
@@ -55045,6 +55049,13 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_FILE_SIZE"
 msgid "Size: {0}"
 msgstr "Tamanho: {0}"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_INFO_FMT
+#| msgctxt "STRINGS.UI.STARMAP.STORAGESTATS.STORAGECAPACITY"
+#| msgid "{0} / {1}"
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_INFO_FMT"
+msgid "{0}: {1}"
+msgstr ""
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_TITLE
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_TITLE"
 msgid "Viewing colony '{0}'"
@@ -55229,17 +55240,11 @@ msgid "Duplicants Alive"
 msgstr "Duplicantes Vivos"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE
-#| msgctxt "STRINGS.DUPLICANTS.CHORES.RELOCATE.NAME"
-#| msgid "Relocate"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.LOCAL_SAVE"
 msgid "local"
 msgstr "local"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_COUNT
-#| msgctxt "STRINGS.WORLD_TRAITS.GEOACTIVE.DESCRIPTION"
-#| msgid ""
-#| "This world has more <style=\"KKeyword\">Geysers</style> and <style="
-#| "\"KKeyword\">Vents</style> than usual"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_COUNT"
 msgid ""
 "\n"
@@ -55276,10 +55281,6 @@ msgstr ""
 "armazenamento de arquivos de save."
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.TRANSFORMER_INPUT_WIRE"
-#| msgid ""
-#| "Connect a <style=\"KKeyword\">Wire</style> to the large <style=\"KKeyword"
-#| "\">Input</style> with any amount of <style=\"KKeyword\">Watts</style>."
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.MIGRATE_RESULT"
 msgid ""
 "<style=\"KKeyword\">SUCCESS!</style>\n"
@@ -55400,9 +55401,25 @@ msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.OPEN_SAVE_FOLDER"
 msgid "LOCAL SAVES"
 msgstr "SAVES LOCAIS"
 
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT"
+msgid ""
+"<b><color=#ff0000>This save is from <i>Spaced Out!</i> Activate the DLC to "
+"play it! (v{2}/v{4})</color></b>"
+msgstr ""
+"<b><color=#ff0000>Este save é da DLC <i>Spaced Out!</i> Ative a DLC para "
+"poder jogar! (v{2}/v{4})</color></b>"
+
+#. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP
+msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_FROM_SPACED_OUT_TOOLTIP"
+msgid ""
+"This save was created in the <i>Spaced Out!</i> DLC and can't be loaded in "
+"the base game."
+msgstr ""
+"Este save foi criado na DLC <i>Spaced Out!</i> e não pode ser carregado no "
+"jogo base."
+
 #. STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.CONVEYOR_CONTENTS.CONTENTS"
-#| msgid "{0} of {1} at {2}"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.SAVE_INFO"
 msgid "{0} saves  {1} autosaves  {2}"
 msgstr "{0} saves  {1} saves automáticos  {2}"
@@ -55484,6 +55501,33 @@ msgid ""
 msgstr ""
 "Eu devo mesmo sair?\n"
 "Todo progresso não salvo será perdido."
+
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1"
+msgid "ACTIVATE DLC"
+msgstr "ATIVAR DLC"
+
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC"
+msgid ""
+"The game will need to restart in order to download and install <i>Spaced Out!"
+"</i>"
+msgstr ""
+"O jogo precisará reiniciar para poder baixar e instalar <i>Spaced Out!</i>"
+
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
+msgid "DECTIVATE DLC"
+msgstr "DESATIVAR DLC"
+
+#. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC
+msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
+msgid ""
+"The game will need to restart in order to download and install the base "
+"version of the game."
+msgstr ""
+"O jogo precisará reiniciar para poder baixar e instalar a versão base do "
+"jogo."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.LOADGAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.LOADGAME"
@@ -60739,7 +60783,7 @@ msgstr "Duplicantes"
 msgctxt ""
 "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.NUMBER_DOMESTICATED_CRITTERS"
 msgid "Domesticated Critters"
-msgstr "Criatura Domesticadas"
+msgstr "Criaturas Domesticadas"
 
 #. STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.NUMBER_WILD_CRITTERS
 msgctxt "STRINGS.UI.RETIRED_COLONY_INFO_SCREEN.STATS.NUMBER_WILD_CRITTERS"
@@ -67787,8 +67831,6 @@ msgid " kDTU/s"
 msgstr " kUTD/s"
 
 #. STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE
-#| msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.GIGABYTE"
-#| msgid "GB"
 msgctxt "STRINGS.UI.UNITSUFFIXES.INFORMATION.BYTE"
 msgid "B"
 msgstr "B"
