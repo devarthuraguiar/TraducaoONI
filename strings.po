@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 2.2.5\n"
+"Project-Id-Version: Português foi Incluído! 2.2.6\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -52961,11 +52961,9 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (2.2.5): {0}"
+msgstr "VERSÃO (2.2.6): {0}"
 
 #. STRINGS.UI.DLC1.NAME
-#| msgctxt "STRINGS.NAMEGEN.COLONY.NOUN.SPACE_HUT"
-#| msgid "Space Hut"
 msgctxt "STRINGS.UI.DLC1.NAME"
 msgid "Spaced Out!"
 msgstr ""
@@ -55050,8 +55048,6 @@ msgid "Size: {0}"
 msgstr "Tamanho: {0}"
 
 #. STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_INFO_FMT
-#| msgctxt "STRINGS.UI.STARMAP.STORAGESTATS.STORAGECAPACITY"
-#| msgid "{0} / {1}"
 msgctxt "STRINGS.UI.FRONTEND.LOADSCREEN.COLONY_INFO_FMT"
 msgid "{0}: {1}"
 msgstr ""
@@ -56139,6 +56135,11 @@ msgstr "Inscrição"
 msgctxt "STRINGS.UI.FRONTEND.MODS.MANAGE_LOCAL"
 msgid "Browse"
 msgstr "Navegar"
+
+#. STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT
+msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
+msgid " - <i>Not compatible with {Content}</i>"
+msgstr " - <i>Incompatível com {Content}</i>"
 
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
@@ -68980,6 +68981,16 @@ msgid "Select to make Duplicants wash when passing by from left to right"
 msgstr ""
 "Selecione para fazer os Duplicantes lavarem as mãos quando passarem da "
 "esquerda para a direita"
+
+#. STRINGS.UI.VANILLA.NAME
+msgctxt "STRINGS.UI.VANILLA.NAME"
+msgid "base game"
+msgstr "jogo base"
+
+#. STRINGS.UI.VANILLA.NAME_ITAL
+msgctxt "STRINGS.UI.VANILLA.NAME_ITAL"
+msgid "<i>base game</i>"
+msgstr "<i>jogo base</i>"
 
 #. STRINGS.UI.VICTORYSCREEN.DESCRIPTION
 msgctxt "STRINGS.UI.VICTORYSCREEN.DESCRIPTION"
