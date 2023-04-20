@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.3\n"
+"Project-Id-Version: Português foi Incluído! 3.3.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -3193,6 +3193,21 @@ msgstr ""
 "\n"
 "Este lançador precisa de um caminho livre para lançar recursos"
 
+#. STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.NAME
+#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.CLEANING.NAME"
+#| msgid "Cleaning {Target}"
+msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.NAME"
+msgid "Cleaning Rails: {timeleft}"
+msgstr "Limpando Trilhos: {timeleft}"
+
+#. STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.TOOLTIP"
+msgid ""
+"This building automatically performs routine maintenance every {x} launches."
+msgstr ""
+"Esta estrutura realiza manutenção de rotina automaticamente a cada {x} "
+"lançamentos."
+
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME"
 msgid "Ready To Unpack"
@@ -5140,13 +5155,15 @@ msgid ""
 "\">Beetas</link>.\n"
 "\n"
 "Converts <link=\"URANIUMORE\">Uranium</link> into <link=\"ENRICHEDURANIUM"
-"\">Enriched Uranium</link> when worked by a Beeta."
+"\">Enriched Uranium</link> when worked by a Beeta.\n"
+"Will not function if ground below has been destroyed."
 msgstr ""
 "Um ninho moderadamente <link=\"RADIATION\">Radioativo</link> feito por <link="
 "\"BEE\">Abetas</link>.\n"
 "\n"
 "Converte <link=\"URANIUMORE\">Urânio</link> em <link=\"ENRICHEDURANIUM"
-"\">Urânio Enriquecido</link> quando trabalhado por uma Abeta."
+"\">Urânio Enriquecido</link> quando trabalhado por uma Abeta.\n"
+"Não irá funcionar se o solo abaixo for destruído."
 
 #. STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.BEEHIVE.EFFECT"
@@ -7886,6 +7903,34 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.HEATCOMPRESSOR.NAME"
 msgid "<link=\"HEATCOMPRESSOR\">Liquid Heatquilizer</link>"
 msgstr "<link=\"HEATCOMPRESSOR\">Aquecequilibrador de Líquidos</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.HEPENGINE.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPENGINE.DESC"
+msgid ""
+"Radbolt-fueled rockets support few modules, but travel exceptionally far."
+msgstr ""
+"Foguetes abastecidos com Radioraios suportam poucos módulos, mas conseguem "
+"viajar excepcionalmente mais longe."
+
+#. STRINGS.BUILDINGS.PREFABS.HEPENGINE.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPENGINE.EFFECT"
+msgid ""
+"Injects <link=\"HEP\">Radbolts</link> into a reaction chamber to propel "
+"rockets for space exploration.\n"
+"\n"
+"The engine of a rocket must be built first before more rocket modules can be "
+"added."
+msgstr ""
+"Injeta <link=\"HEP\">Radioraios</link> dentro de uma câmara de reação para "
+"impulsionar os foguete durante a exploração espacial.\n"
+"\n"
+"O motor de um foguete precisa ser construído antes dos demais módulos de "
+"foguete serem adicionados."
+
+#. STRINGS.BUILDINGS.PREFABS.HEPENGINE.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.HEPENGINE.NAME"
+msgid "<link=\"HEPENGINE\">Radbolt Engine</link>"
+msgstr "<link=\"HEPENGINE\">Motor à Radioraio</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.HIGHENERGYPARTICLEREDIRECTOR.DESC"
@@ -11834,7 +11879,7 @@ msgstr ""
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_ACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_ACTIVE"
 msgid "Fuel Delivery Enabled"
-msgstr ""
+msgstr "Entrega de Combustível Ativada"
 
 #. STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_INACTIVE
 msgctxt "STRINGS.BUILDINGS.PREFABS.NUCLEARREACTOR.INPUT_PORT_INACTIVE"
@@ -11994,8 +12039,9 @@ msgstr "<link=\"ORBITALCARGOMODULE\">Módulo de Carga Orbital</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.DESC"
-msgid ""
+msgid "Orbital Microlabs perform research from the orbit around a Planetoid."
 msgstr ""
+"Microlaboratórios orbitais realizam pesquisas na órbita de um Planetoide."
 
 #. STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ORBITALRESEARCHCENTER.EFFECT"
@@ -12003,8 +12049,8 @@ msgid ""
 "Conducts <link=\"RESEARCH\">Interstellar Research</link> to unlock new "
 "technologies.\n"
 "\n"
-"Consumes data from <link=\"TELESCOPE\">Telescopes</link> and <link="
-"\"RESEARCHMODULE\">Research Modules</link>.\n"
+"Consumes <link=\"POLYPROPYLENE\">Plastic</link> and <link=\"POWER\">Power</"
+"link>).\n"
 "\n"
 "Assigned Duplicants must possess the <link=\"SENIORRESEARCHER\">Astronomy</"
 "link> skill."
@@ -12012,8 +12058,8 @@ msgstr ""
 "Conduz <link=\"RESEARCH\">Pesquisa Interestelar</link> para desbloquear "
 "novas tecnologias.\n"
 "\n"
-"Consome dados de <link=\"TELESCOPE\">Telescópios</link> e <link="
-"\"RESEARCHMODULE\">Módulos de Pesquisa</link>.\n"
+"Consome <link=\"POLYPROPYLENE\">Plástico</link> e <link=\"POWER\">Energia</"
+"link>.\n"
 "\n"
 "Duplicantes Designados precisam ter a habilidade <link=\"SENIORRESEARCHER"
 "\">Astronomia</link>."
@@ -13202,6 +13248,11 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.NAME"
 msgid "<link=\"RAILGUN\">Interplanetary Launcher</link>"
 msgstr "<link=\"RAILGUN\">Lançador Interplanetário</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.RAILGUN.SIDESCREEN_HEP_REQUIRED
+msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.SIDESCREEN_HEP_REQUIRED"
+msgid "Launch cost: {current} / {required} radbolts"
+msgstr "Custo de lançamento: {current} / {required} radioraios"
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUNPAYLOADOPENER.DESC"
@@ -25030,6 +25081,16 @@ msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITYDELTA.NAME"
 msgid "Growth Speed"
 msgstr "Velocidade de Crescimento"
 
+#. STRINGS.CREATURES.ATTRIBUTES.MATURITYMAX.DESC
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITYMAX.DESC"
+msgid "The amount of time it takes this plant to grow."
+msgstr "A quantidade de tempo que esta planta precisa para crescer."
+
+#. STRINGS.CREATURES.ATTRIBUTES.MATURITYMAX.NAME
+msgctxt "STRINGS.CREATURES.ATTRIBUTES.MATURITYMAX.NAME"
+msgid "Life Cycle"
+msgstr "Ciclo de Vida"
+
 #. STRINGS.CREATURES.ATTRIBUTES.POWERCHARGEDELTA.DESC
 msgctxt "STRINGS.CREATURES.ATTRIBUTES.POWERCHARGEDELTA.DESC"
 msgid ""
@@ -25577,90 +25638,158 @@ msgctxt "STRINGS.CREATURES.MODIFIERS.WILD.TOOLTIP"
 msgid "This critter is wild"
 msgstr "Esta criatura é selvagem"
 
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_A.DESCRIPTION
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_A.DESCRIPTION"
-msgid "A plant with this mutation produces a higher yield of crop"
-msgstr "Uma planta com esta mutação produz uma colheita maior"
+#. STRINGS.CREATURES.PLANT_MUTATIONS.BLOOMS.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BLOOMS.DESCRIPTION"
+msgid ""
+"Vestigial flowers increase the beauty of this plant. Don't inhale the "
+"pollen, though!"
+msgstr "Flores vestigiais aumentam a beleza desta planta. Não inale o pólen!"
 
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_A.NAME
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_A.NAME"
-msgid "Plentiful"
+#. STRINGS.CREATURES.PLANT_MUTATIONS.BLOOMS.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BLOOMS.NAME"
+msgid "Blooming"
+msgstr "Florescente"
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.BONUS_CROP_FMT
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BONUS_CROP_FMT"
+msgid "Bonus Crop: +{Amount} {Crop}"
+msgstr "Colheita Bônus: +{Amount} {Crop}"
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.BONUSLICE.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BONUSLICE.DESCRIPTION"
+msgid "Something about this mutation causes Meal Lice to pupate on this plant."
+msgstr ""
+"Algo sobre esta mutação faz com que Rango Fruto comece a se formar nesta "
+"planta."
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.BONUSLICE.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BONUSLICE.NAME"
+msgid "Licey"
+msgstr "Rango Extra"
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.EXTREMELYTIGHT.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.EXTREMELYTIGHT.DESCRIPTION"
+msgid ""
+"Plants with this mutation are very difficult to keep alive, but produce a "
+"bounty."
+msgstr ""
+"Plantas com essa mutação são difíceis de manter vivas, mas produzem uma "
+"fortuna."
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.EXTREMELYTIGHT.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.EXTREMELYTIGHT.NAME"
+msgid "Superspecialized"
+msgstr "Super especializada"
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.HEAVYFRUIT.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.HEAVYFRUIT.DESCRIPTION"
+msgid ""
+"Extra water in these plump mutant veggies causes them to fall right off the "
+"plant! There's no extra nutritional value, though..."
+msgstr ""
+"Água extra nesses frutos mutantes suculentos faz com que eles caiam direto "
+"da planta! Infelizmente não tem nenhum valor nutricional extra..."
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.HEAVYFRUIT.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.HEAVYFRUIT.NAME"
+msgid "Juicy Fruits"
+msgstr "Frutos Suculentos"
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.LOADEDWITHFRUIT.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.LOADEDWITHFRUIT.DESCRIPTION"
+msgid ""
+"This mutation produces lots of extra produce, though it also takes a long "
+"time to pick it all!"
+msgstr ""
+"Esta mutação produz bastante colheita extra, mas também isso faz com leve "
+"mais tempo para colher tudo!"
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.LOADEDWITHFRUIT.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.LOADEDWITHFRUIT.NAME"
+msgid "Bountiful"
 msgstr "Abundante"
 
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_B.DESCRIPTION
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_B.DESCRIPTION"
+#. STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYLOOSE.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYLOOSE.DESCRIPTION"
 msgid ""
-"A plant with this mutation prefers an environment with higher temperatures"
+"Plants with this mutation are easier to take care of, but don't yield as "
+"much produce."
 msgstr ""
-"Uma planta com esta mutação prefere um ambiente com temperaturas mais altas"
+"Plantas com essa mutação são mais fáceis de cuidar, mas não produzem tanta "
+"colheita."
 
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_B.NAME
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_B.NAME"
-msgid "Tropical"
-msgstr "Tropical"
+#. STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYLOOSE.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYLOOSE.NAME"
+msgid "Easygoing"
+msgstr "Exigente"
 
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_C.DESCRIPTION
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_C.DESCRIPTION"
+#. STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYTIGHT.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYTIGHT.DESCRIPTION"
 msgid ""
-"A plant with this mutation requires more <link=\"FERTILIZER\">Fertilizer</"
-"link>"
+"Plants with this mutation are pickier about their conditions but yield more "
+"produce."
 msgstr ""
-"Uma planta com esta mutação requer mais <link=\"FERTILIZER\">Fertilizante</"
-"link>"
+"Plantas com esta mutação são mais exigentes quanto as suas condições mas "
+"produzem mais."
 
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_C.NAME
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_C.NAME"
-msgid "Gluttonous"
-msgstr "Gulosa"
-
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_D.DESCRIPTION
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_D.DESCRIPTION"
-msgid "A plant with this mutation requires more irrigation"
-msgstr "Uma planta com esta mutação requer mais irrigação"
-
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_D.NAME
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_D.NAME"
-msgid "Guzzling"
-msgstr "Bebedora"
-
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_E.DESCRIPTION
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_E.DESCRIPTION"
-msgid ""
-"A plant with this mutation requires less <link=\"FERTILIZER\">Fertilizer</"
-"link>"
-msgstr ""
-"Uma planta com esta mutação requer menos <link=\"FERTILIZER\">Fertilizante</"
-"link>"
-
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_E.NAME
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_E.NAME"
-msgid "Fasting"
-msgstr "Jejum"
-
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_F.DESCRIPTION
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_F.DESCRIPTION"
-msgid "A plant with this mutation requires less irrigation"
-msgstr "Uma planta com esta mutação requer menos irrigação"
-
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_F.NAME
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_F.NAME"
-msgid "Arid"
-msgstr "Árido"
-
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_G.DESCRIPTION
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_G.DESCRIPTION"
-msgid "A plant with this mutation requires less growing time"
-msgstr "Uma planta com esta mutação requer menor tempo de crescimento"
-
-#. STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_G.NAME
-msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_G.NAME"
-msgid "Precocious"
-msgstr "Precoce"
+#. STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYTIGHT.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.MODERATELYTIGHT.NAME"
+msgid "Specialized"
+msgstr "Especializado"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.NONE.NAME
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.NONE.NAME"
 msgid "Original"
 msgstr "Original"
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.PLANT_NAME_FMT
+#| msgctxt "STRINGS.CODEX.GENETICS.HEADER_1"
+#| msgid "Plant Mutations"
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.PLANT_NAME_FMT"
+msgid "{PlantName} ({MutationList})"
+msgstr ""
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.DESCRIPTION"
+msgid ""
+"Plants with this mutation grow extremely quickly, though the produce they "
+"make is sometimes questionable."
+msgstr ""
+"Plantas com essa mutação crescem rapidamente, porém a colheita que elas "
+"produzem chegar a ser questionável as vezes."
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.ROTTENHEAPS.NAME"
+msgid "Exuberant"
+msgstr "Exuberante"
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.SLOWBURN.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.SLOWBURN.DESCRIPTION"
+msgid ""
+"These plants grow almost as slow as their wild cousins, but also consume "
+"almost no fertilizer."
+msgstr ""
+"Estas plantas crescem tão lentamente quanto as suas primas selvagens, mas "
+"também consomem quase nada de fertilizante."
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.SLOWBURN.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.SLOWBURN.NAME"
+msgid "Wildish"
+msgstr "Selvagem"
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.SUNNYSPEED.DESCRIPTION
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.SUNNYSPEED.DESCRIPTION"
+msgid ""
+"This mutation provides the plant with sun-collecting leaves, allowing faster "
+"growth."
+msgstr ""
+"Esta mutação dá a planta folhas com a habilidade de coletar energia de luz "
+"solar, permitindo crescimento rápido."
+
+#. STRINGS.CREATURES.PLANT_MUTATIONS.SUNNYSPEED.NAME
+msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.SUNNYSPEED.NAME"
+msgid "Leafy"
+msgstr "Frondosa"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.UNIDENTIFIED
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.UNIDENTIFIED"
@@ -29201,6 +29330,36 @@ msgstr ""
 "Crescimento continuará quando os requisitos de <style=\"KKeyword"
 "\">Iluminação</style> forem atingidos"
 
+#. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_NONRADIATED.NAME
+msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_NONRADIATED.NAME"
+msgid "    • Low Radiation Levels"
+msgstr "    • Baixos Níveis de Radiação"
+
+#. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_NONRADIATED.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_NONRADIATED.TOOLTIP"
+msgid ""
+"Growth will resume when <style=\"KKeyword\">Radiation</style> requirements "
+"are met"
+msgstr ""
+"Crescimento continuará quando os requisitos de <style=\"KKeyword\">Radiação</"
+"style> forem supridos"
+
+#. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.NAME
+#| msgctxt "STRINGS.CREATURES.STATUSITEMS.CANTACCEPTIRRIGATION.NAME"
+#| msgid "    • Irrigation"
+msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.NAME"
+msgid "    • High Radiation Levels"
+msgstr "    • Altos Níveis de Radiação"
+
+#. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.TOOLTIP"
+msgid ""
+"Growth will resume when <style=\"KKeyword\">Radiation</style> requirements "
+"are met"
+msgstr ""
+"Crescimento continuará quando os requisitos de <style=\"KKeyword\">Radiação</"
+"style> forem supridos"
+
 #. STRINGS.CREATURES.STATUSITEMS.DEAD.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DEAD.NAME"
 msgid "Dead"
@@ -29230,6 +29389,16 @@ msgstr "Digerindo"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DIGESTING.TOOLTIP"
 msgid "This critter is working off a big meal"
 msgstr "Esta criatura está fazendo sua digestão"
+
+#. STRINGS.CREATURES.STATUSITEMS.DISABLED.NAME
+msgctxt "STRINGS.CREATURES.STATUSITEMS.DISABLED.NAME"
+msgid "Disabled"
+msgstr "Desativado"
+
+#. STRINGS.CREATURES.STATUSITEMS.DISABLED.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.DISABLED.TOOLTIP"
+msgid "Something is preventing this critter from functioning!"
+msgstr "Algo está impedindo esta criatura de funcionar!"
 
 #. STRINGS.CREATURES.STATUSITEMS.DIVERGENT_TENDING.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.DIVERGENT_TENDING.NAME"
@@ -29817,6 +29986,16 @@ msgstr ""
 "Esta criatura está envelhecendo e possui apenas <b>{TimeUntilDeath}</b> para "
 "viver"
 
+#. STRINGS.CREATURES.STATUSITEMS.ORIGINALPLANTMUTATION.NAME
+msgctxt "STRINGS.CREATURES.STATUSITEMS.ORIGINALPLANTMUTATION.NAME"
+msgid "Original Plant"
+msgstr "Planta Original"
+
+#. STRINGS.CREATURES.STATUSITEMS.ORIGINALPLANTMUTATION.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.ORIGINALPLANTMUTATION.TOOLTIP"
+msgid "This is the original, unmutated variant of this species."
+msgstr "Esta é espécie original, variante sem mutações."
+
 #. STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.PERFECTATMOSPHERICPRESSURE.NAME"
 msgid "Ideal Air Pressure"
@@ -30006,6 +30185,20 @@ msgctxt "STRINGS.CREATURES.STATUSITEMS.SLEEPING.TOOLTIP"
 msgid "This critter is replenishing its <style=\"KKeyword\">Stamina</style>"
 msgstr "Esta criatura está restaurando sua <style=\"KKeyword\">Energia</style>"
 
+#. STRINGS.CREATURES.STATUSITEMS.SPECIFICPLANTMUTATION.NAME
+#| msgctxt "STRINGS.CODEX.GENETICS.HEADER_1"
+#| msgid "Plant Mutations"
+msgctxt "STRINGS.CREATURES.STATUSITEMS.SPECIFICPLANTMUTATION.NAME"
+msgid "Mutant Plant: {MutationName}"
+msgstr "Planta Mutante: {MutationName}"
+
+#. STRINGS.CREATURES.STATUSITEMS.SPECIFICPLANTMUTATION.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.SPECIFICPLANTMUTATION.TOOLTIP"
+msgid "This plant is mutated with a genetic variant I call {MutationName}."
+msgstr ""
+"Esta planta possui uma mutação com o variante genético que eu chamo de "
+"{MutationName}."
+
 #. STRINGS.CREATURES.STATUSITEMS.SPOILED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SPOILED.NAME"
 msgid "Rotten"
@@ -30136,6 +30329,21 @@ msgstr "Capturada"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.TRAPPED.TOOLTIP"
 msgid "This critter has been contained and cannot escape"
 msgstr "Esta criatura foi contida e não consegue se mover"
+
+#. STRINGS.CREATURES.STATUSITEMS.UNKNOWNMUTATION.NAME
+msgctxt "STRINGS.CREATURES.STATUSITEMS.UNKNOWNMUTATION.NAME"
+msgid "Unknown Mutation"
+msgstr "Mutação Desconhecida"
+
+#. STRINGS.CREATURES.STATUSITEMS.UNKNOWNMUTATION.TOOLTIP
+msgctxt "STRINGS.CREATURES.STATUSITEMS.UNKNOWNMUTATION.TOOLTIP"
+msgid ""
+"This seed carries some unexpected genetic markers. Analyze it at the <link="
+"\"GENETICANALYSISSTATION\">Botanical Analyzer</link> to learn its secrets."
+msgstr ""
+"Esta semente carrega alguns marcadores genéticos inesperados. Analise-a no "
+"<link=\"GENETICANALYSISSTATION\">Analisador Botânico</link> para aprender "
+"seus segredos."
 
 #. STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.NAME
 msgctxt "STRINGS.CREATURES.STATUSITEMS.UNREFRIGERATED.NAME"
@@ -30507,6 +30715,16 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOR.NAME"
 msgid "Decor"
 msgstr "Decoração"
 
+#. STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.DESC"
+msgid "A change in Decor exhibited by this plant varaint"
+msgstr "Uma mudança na Decor exibida por esta variante de planta"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.NAME"
+msgid "Decor Bonus"
+msgstr "Bônus de Decor"
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECOREXPECTATION.DESC"
 msgid ""
@@ -30612,6 +30830,20 @@ msgstr ""
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FATALTEMPERATURE.NAME"
 msgid "Break Down Temperature"
 msgstr "Temperatura de Quebra"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.DESC"
+msgid ""
+"The amount of fertilizer and irrigation this plant will require relative to "
+"a non-mutant"
+msgstr ""
+"A quantidade de fertilizante e irrigação que esta planta precisa em relação "
+"a uma não mutante"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.NAME"
+msgid "Fertilizer Usage"
+msgstr "Uso de Fertilizante"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FOODEXPECTATION.DESC"
@@ -30730,6 +30962,20 @@ msgstr ""
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HAPPINESSDELTA.NAME"
 msgid "Happiness"
 msgstr "Felicidade"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.DESC"
+msgid ""
+"How long it will take an unskilled Duplicant to harvest the fruit of this "
+"plant"
+msgstr ""
+"Quanto tempo levará para um Duplicante inexperiente para colher o fruto "
+"desta planta"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.NAME"
+msgid "Harvest Duration"
+msgstr "Duração da Colheita"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HITPOINTSDELTA.DESC"
@@ -30880,6 +31126,17 @@ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MACHINERYSPEED.NAME"
 msgid "Machinery Speed"
 msgstr "Velocidade da Maquinaria"
 
+#. STRINGS.DUPLICANTS.ATTRIBUTES.MAXRADIATIONTHRESHOLD.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MAXRADIATIONTHRESHOLD.DESC"
+msgid "The largest amount of ambient Radiation this plant can tolerate"
+msgstr ""
+"A maior quantidade de Radiação ambiente que esta planta consegue tolerar"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.MAXRADIATIONTHRESHOLD.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MAXRADIATIONTHRESHOLD.NAME"
+msgid "Maximum Radiation"
+msgstr "Radiação Máxima"
+
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.DESC"
 msgid ""
@@ -30906,6 +31163,27 @@ msgstr ""
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.METABOLISM.NAME"
 msgid "Critter Metabolism"
 msgstr "Metabolismo de Criaturas"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.MINLIGHTLUX.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MINLIGHTLUX.DESC"
+msgid "The minimum lux this plant requires for growth"
+msgstr "O mínimo de lux que essa planta necessita para crescer"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.MINLIGHTLUX.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MINLIGHTLUX.NAME"
+msgid "Light"
+msgstr "Luz"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.MINRADIATIONTHRESHOLD.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MINRADIATIONTHRESHOLD.DESC"
+msgid ""
+"The smallest amount of ambient Radiation required for this plant to grow"
+msgstr "A quantidade de Radiação ambiente necessária para esta planta crescer"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.MINRADIATIONTHRESHOLD.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MINRADIATIONTHRESHOLD.NAME"
+msgid "Minimum Radiation"
+msgstr "Radiação Mínima"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MODIFIER_ENTRY
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MODIFIER_ENTRY"
@@ -31278,6 +31556,26 @@ msgstr "Comum"
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.VALUE"
 msgid "{0}: {1}"
 msgstr ""
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.WILTTEMPRANGEMOD.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.WILTTEMPRANGEMOD.DESC"
+msgid "The variance on growth temperature compared to the base crop"
+msgstr "A variação na temperatura de crescimento em relação a planta base"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.WILTTEMPRANGEMOD.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.WILTTEMPRANGEMOD.NAME"
+msgid "Viable Temperature Range"
+msgstr "Faixa de Temperatura Viável"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.YIELDAMOUNT.DESC
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.YIELDAMOUNT.DESC"
+msgid "How much this plant produces relative to the base crop"
+msgstr "O quanto esta planta produz em relação a planta base"
+
+#. STRINGS.DUPLICANTS.ATTRIBUTES.YIELDAMOUNT.NAME
+msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.YIELDAMOUNT.NAME"
+msgid "Yield Amount"
+msgstr "Quantidade da Colheita"
 
 #. STRINGS.DUPLICANTS.CHOREGROUPS.ART.ARCHETYPE_NAME
 msgctxt "STRINGS.DUPLICANTS.CHOREGROUPS.ART.ARCHETYPE_NAME"
@@ -39305,6 +39603,18 @@ msgctxt "STRINGS.DUPLICANTS.STATS.TRUNKHEALTH.TOOLTIP"
 msgid "Tree branches will die if they do not have a healthy trunk to grow from"
 msgstr "Galhos da árvore morrerão se eles não tiverem um tronco saudável"
 
+#. STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGGENES.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGGENES.NAME"
+msgid "Analyzing Plant Genes"
+msgstr "Analisando Genes da Planta"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGGENES.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ANALYZINGGENES.TOOLTIP"
+msgid "This duplicant is peering deep into the genetic code of an odd seed"
+msgstr ""
+"Este Duplicante está espiando profundamente o código genético de uma semente "
+"estranha"
+
 #. STRINGS.DUPLICANTS.STATUSITEMS.ARTING.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.ARTING.NAME"
 msgid "Decorating"
@@ -39949,7 +40259,7 @@ msgstr ""
 #, fuzzy
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSED"
 msgid "Current exposure to {element} is {rate} eye irritation"
-msgstr "Exposição atual à {element} é {rate} irritação ocular"
+msgstr "Exposição atual à {element} é {rate} irritante aos olhos"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.GASLIQUIDEXPOSURE.TOOLTIP_EXPOSURE_LEVEL
 msgctxt ""
@@ -51236,6 +51546,33 @@ msgctxt "STRINGS.MISC.NOTIFICATIONS.GENESHUFFLER.TOOLTIP"
 msgid "These Duplicants had their genetic makeup modified:"
 msgstr "Estes Duplicantes tiveram seu genoma modificado:"
 
+#. STRINGS.MISC.NOTIFICATIONS.GENETICANALYSISCOMPLETE.MESSAGEBODY
+msgctxt "STRINGS.MISC.NOTIFICATIONS.GENETICANALYSISCOMPLETE.MESSAGEBODY"
+msgid ""
+"Deeply probing the genes of the {Plant} plant have led to the discovery of a "
+"promising new cultivatable mutation:\n"
+"\n"
+"<b>{Subspecies}</b>\n"
+"\n"
+"{Info}"
+msgstr ""
+"Ao analisar profundamente os genes da {Plant} levaram a descoberta de uma "
+"nova e promissora mutação cultivável:\n"
+"\n"
+"<b>{Subspecies}</b>\n"
+"\n"
+"{Info}"
+
+#. STRINGS.MISC.NOTIFICATIONS.GENETICANALYSISCOMPLETE.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.GENETICANALYSISCOMPLETE.NAME"
+msgid "Seed Analysis Complete"
+msgstr "Análise de Semente Concluída"
+
+#. STRINGS.MISC.NOTIFICATIONS.GENETICANALYSISCOMPLETE.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.GENETICANALYSISCOMPLETE.TOOLTIP"
+msgid "{Plant} Analysis complete!"
+msgstr "Análise de {Plant} Concluída!"
+
 #. STRINGS.MISC.NOTIFICATIONS.HEALING.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.HEALING.NAME"
 msgid "Healing"
@@ -51645,6 +51982,20 @@ msgstr ""
 "Esta estrutura possui uma nova porta de automação e está conectada "
 "acidentalmente a um <link=\"LOGICWIRE\">Cabo Automatizado</link> já existente"
 
+#. STRINGS.MISC.NOTIFICATIONS.NEWMUTANTSEED.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWMUTANTSEED.NAME"
+msgid "New Mutant Seed Discovered"
+msgstr "Nova Semente Mutante Descoberta"
+
+#. STRINGS.MISC.NOTIFICATIONS.NEWMUTANTSEED.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWMUTANTSEED.TOOLTIP"
+msgid ""
+"A new mutant variety of the {Plant} has been found. Analyze it at the <link="
+"\"GENETICANALYSISSTATION\">Botanical Analyzer</link> to learn more!"
+msgstr ""
+"Uma nova variante mutante da {Plant} foi encontrada. Analise-a no <link="
+"\"GENETICANALYSISSTATION\">Analisador Botânico</link> para aprender mais!"
+
 #. STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.NEWTRAIT.NAME"
 msgid "{0} has developed a trait"
@@ -51877,11 +52228,11 @@ msgstr "Reator em Fusão"
 #. STRINGS.MISC.NOTIFICATIONS.REACTORMELTDOWN.TOOLTIP
 msgctxt "STRINGS.MISC.NOTIFICATIONS.REACTORMELTDOWN.TOOLTIP"
 msgid ""
-"A Research Reactor has overheated and is meltingdown! Extreme radiation is "
-"flooding the area around it."
+"A Research Reactor has overheated and is melting down! Extreme radiation is "
+"flooding the area"
 msgstr ""
 "Um Reator de Pesquisa sobreaqueceu e está em fusão! Radiação extrema está "
-"inundando a área ao redor."
+"inundando a área"
 
 #. STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME
 msgctxt "STRINGS.MISC.NOTIFICATIONS.REDALERT.NAME"
@@ -56610,8 +56961,6 @@ msgid "Clean those dirty duplicants off."
 msgstr "Tire a sujeira desses Duplicantes sujos."
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.NAME"
-#| msgid "<link=\"ADVANCEDFILTRATION\">Filtration</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.NAME"
 msgid "<link=\"ADVANCEDSANITATION\">Advanced Sanitation</link>"
 msgstr "<link=\"ADVANCEDSANITATION\">Filtração Avançada</link>"
@@ -56802,8 +57151,8 @@ msgstr "<link=\"CRASHPLAN\">Plano de Colisão</link>"
 
 #. STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.DESC"
-msgid "With this technology, the sky is your oyster. Go exploring!"
-msgstr "Com essa tecnologia, o céu não é mais o seu limite. Explore!"
+msgid "A semi-powerful engine to propel you further into the galaxy."
+msgstr "Um motor semi poderoso capaz de te levar ainda mais fundo na galáxia."
 
 #. STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.NAME"
@@ -57034,6 +57383,16 @@ msgstr ""
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHTEMPFORGING.NAME"
 msgid "<link=\"HIGHTEMPFORGING\">Superheated Forging</link>"
 msgstr "<link=\"HIGHTEMPFORGING\">Forja em Altas Temperaturas</link>"
+
+#. STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.DESC"
+msgid "W.I.P. Tech"
+msgstr "Tecnologia em Desenvolvimento"
+
+#. STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.NAME"
+msgid "High Velocity Transport"
+msgstr "Transporte de Alta Velocidade"
 
 #. STRINGS.RESEARCH.TECHS.HVAC.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.HVAC.DESC"
@@ -57318,6 +57677,16 @@ msgctxt "STRINGS.RESEARCH.TECHS.NOTIFICATIONSYSTEMS.NAME"
 msgid "<link=\"NOTIFICATIONSYSTEMS\">Notification Systems</link>"
 msgstr "<link=\"NOTIFICATIONSYSTEMS\">Sistemas de Notificação</link>"
 
+#. STRINGS.RESEARCH.TECHS.NUCLEARPROPULSION.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARPROPULSION.DESC"
+msgid "Radical technology to get you to the stars."
+msgstr "Tecnologia radical capaz de te levar as estrelas."
+
+#. STRINGS.RESEARCH.TECHS.NUCLEARPROPULSION.NAME
+msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARPROPULSION.NAME"
+msgid "<link=\"NUCLEARPROPULSION\">Radbolt Propulsion</link>"
+msgstr "<link=\"NUCLEARPROPULSION\">Propulsão com Radioraios</link>"
+
 #. STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARREFINEMENT.DESC"
 msgid "Refine uranium and generate radiation."
@@ -57329,14 +57698,18 @@ msgid "<link=\"NUCLEAR\">Radiation Refinement</link>"
 msgstr "<link=\"NUCLEAR\">Refino de Radiação</link>"
 
 #. STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC
+#| msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC"
+#| msgid "W.I.P. skill"
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC"
-msgid "W.I.P. skill"
-msgstr "Habilidade em Desenvolvimento"
+msgid "W.I.P. Tech"
+msgstr "Tecnologia em Desenvolvimento"
 
 #. STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME
+#| msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME"
+#| msgid "W.I.P. Skill"
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME"
-msgid "W.I.P. Skill"
-msgstr "Habilidade em Desenvolvimento"
+msgid "W.I.P. Tech"
+msgstr "Tecnologia em Desenvolvimento"
 
 #. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC"
@@ -57565,8 +57938,11 @@ msgstr "<link=\"SMELTING\">Fundição</link>"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDDISTRIBUTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDDISTRIBUTION.DESC"
-msgid "Internal rocket hookups for solid resources"
-msgstr "Conexões internas no foguete para recursos sólidos"
+msgid ""
+"Internal rocket hookups for <link=\"ELEMENTSSOLID\">Solid</link> resources."
+msgstr ""
+"Conexões internas no foguete para recursos <link=\"ELEMENTSSOLID\">Sólidos</"
+"link>."
 
 #. STRINGS.RESEARCH.TECHS.SOLIDDISTRIBUTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDDISTRIBUTION.NAME"
@@ -57583,6 +57959,20 @@ msgstr ""
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDMANAGEMENT.NAME"
 msgid "<link=\"SOLIDMANAGEMENT\">Solid Management</link>"
 msgstr "<link=\"SOLIDMANAGEMENT\">Gerenciamento de Sólidos</link>"
+
+#. STRINGS.RESEARCH.TECHS.SOLIDSPACE.DESC
+#| msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.NAME"
+#| msgid "W.I.P. Skill"
+msgctxt "STRINGS.RESEARCH.TECHS.SOLIDSPACE.DESC"
+msgid "W.I.P. Tech"
+msgstr "Tecnologia em Desenvolvimento"
+
+#. STRINGS.RESEARCH.TECHS.SOLIDSPACE.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.NAME"
+#| msgid "W.I.P. Skill"
+msgctxt "STRINGS.RESEARCH.TECHS.SOLIDSPACE.NAME"
+msgid "W.I.P. Tech"
+msgstr "Tecnologia em Desenvolvimento"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC"
@@ -59090,13 +59480,13 @@ msgstr ""
 #. STRINGS.SUBWORLDS.MAGMA.DESC
 msgctxt "STRINGS.SUBWORLDS.MAGMA.DESC"
 msgid ""
-"Bring on the heat! With temperatures that can reach upwards of 1526 degrees "
-"the Magma Biome is a colony hotspot, although you may want to think twice "
-"about sending your Duplicants there without protection."
+"Temperatures in the Magma Biome can reach upwards of 1526 degrees, making it "
+"a reliable source of extreme heat that can be exploited for the purposes of "
+"producing <link=\"POWER\">Power</link> and fuel."
 msgstr ""
-"Traga o calor! Com temperaturas que podem chegar nas alturas de 1526 graus, "
-"o Bioma Magma é o ponto mais quente de uma colônia, você provavelmente "
-"deveria pensar duas vezes antes de enviar seus Duplicante aqui sem proteção."
+"Temperaturas no Bioma Magma podem chegar a mais de 1526 graus, tornando-o "
+"uma fonte confiável de calor extremo que pode ser utilizado com o propósito "
+"de produzir <link=\"POWER\">Energia</link> e combustível."
 
 #. STRINGS.SUBWORLDS.MAGMA.NAME
 msgctxt "STRINGS.SUBWORLDS.MAGMA.NAME"
@@ -59109,24 +59499,41 @@ msgid ""
 "<link=\"MAGMA\">Magma</link> is source of extreme <link=\"HEAT\">Heat</link> "
 "which can be used to transform <link=\"WATER\">Water</link> in to <link="
 "\"STEAM\">Steam</link> or <link=\"CRUDEOIL\">Crude Oil</link> into <link="
-"\"PETROLEUM\">Petroleum</link>."
+"\"PETROLEUM\">Petroleum</link>. In order to prevent the extreme temperatures "
+"of this biome invading other parts of my base, suitable insulation must be "
+"constructed using materials with high melting points like  <link=\"CERAMIC"
+"\">Ceramic</link> or <link=\"OBSIDIAN\">Obsidian</link>.\n"
+"\n"
+"Though <link=\"EXOSUIT\">Exosuits</link> will provide some protection for my "
+"Duplicants, there is still a danger they will overheat if spending an "
+"extended amount of time in this Biome. I should ensure that suitable medical "
+"facilities have been constructed nearby to take care of any medical "
+"emergencies."
 msgstr ""
 "<link=\"MAGMA\">Magma</link> é uma fonte de <link=\"HEAT\">Calor</link> "
-"extrema que pode ser usada para transformar <link=\"WATER\">Água</link> em "
-"<link=\"STEAM\">Vapor</link> ou <link=\"CRUDEOIL\">Petróleo Bruto</link> em "
-"<link=\"PETROLEUM\">Petróleo</link>."
+"extremo que pode ser usado para transformar <link=\"WATER\">Água</link> em "
+"<link=\"STEAM\">Vapor</link> ou <link=\"CRUDEOIL\">Petróleo Bruto</link> e "
+"<link=\"PETROLEUM\">Petróleo</link>. Para impedir que as temperaturas "
+"extremas deste bioma invada outras partes da minha base, isolamento adequado "
+"deve ser construído usando materiais com pontos de fusão altos como <link="
+"\"CERAMIC\">Cerâmica</link> ou <link=\"OBSIDIAN\">Obsidiana</link>.\n"
+"\n"
+"<link=\"EXOSUIT\">Exotrajes</link> irão fornecer uma certa proteção para "
+"meus Duplicantes, ainda existe um perigo deles ficarem com insolação se "
+"passarem um tempo muito grande neste Bioma. Eu devo me certificar de que "
+"estrutura médicas foram construídas nas proximidades para tratar de qualquer "
+"emergência médica."
 
 #. STRINGS.SUBWORLDS.MARSH.DESC
 msgctxt "STRINGS.SUBWORLDS.MARSH.DESC"
 msgid ""
-"Visitors to the Marsh Biome will be treated to the soft soothing sounds of "
-"<link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> as it escapes the lush "
-"fields of <link=\"TOXICSAND\">Polluted Dirt</link> this biome is known for."
+"<link=\"CONTAMINATEDOXYGEN\">Polluted Oxygen</link> dominates the atmosphere "
+"of the Marsh Biome as it escapes from the <link=\"TOXICSAND\">Polluted Dirt</"
+"link> this biome is known for."
 msgstr ""
-"Visitantes do Bioma Mangue serão tratados com os sons tranquilizantes de "
-"<link=\"CONTAMINATEDOXYGEN\">Oxigênio Poluído</link> enquanto ele escapa dos "
-"campos de exuberantes de <link=\"TOXICSAND\">Terra Poluída</link>, "
-"característico deste bioma."
+"<link=\"CONTAMINATEDOXYGEN\">Oxigênio Poluído</link> domina a atmosfera do "
+"Bioma Mangue enquanto ele escapa dos campos da <link=\"TOXICSAND\">Terra "
+"Poluída</link>, característica deste bioma."
 
 #. STRINGS.SUBWORLDS.MARSH.NAME
 msgctxt "STRINGS.SUBWORLDS.MARSH.NAME"
@@ -59136,20 +59543,25 @@ msgstr "Mangue"
 #. STRINGS.SUBWORLDS.MARSH.UTILITY
 msgctxt "STRINGS.SUBWORLDS.MARSH.UTILITY"
 msgid ""
-"Be aware that Marsh Biomes frequently contain large amounts of <link="
-"\"SLIMEMOLD\">Slime</link> and should be contained so it doesn't infect your "
-"colony with <link=\"SLIMELUNG\">Slimelung</link>.\n"
+"Marsh Biomes contain large amounts of <link=\"SLIMEMOLD\">Slime</link> which "
+"can be converted into <link=\"ALGAE\">Algae</link> and provide a valuable "
+"resource for growing <link=\"MUSHROOMPLANT\">Dusk Caps</link> as well as "
+"feeding to <link=\"PACUSPECIES\">Pacus</link> for producing some higher tier "
+"<link=\"FOOD\">food</link>.\n"
 "\n"
-" <link=\"MUSHROOMPLANT\">Dusk Caps</link> and <link=\"PACUSPECIES\">Pacus</"
-"link> can provide some higher tier <link=\"FOOD\">food</link> ingredients."
+"Because of the high degree of probability that this biome will infect my "
+"Duplicants with <link=\"SLIMELUNG\">Slimelung</link>, it may be prudent to "
+"set up suitable containment for this area ."
 msgstr ""
-"Tenha cuidado que os biomas de Mangue frequentemente contém grandes "
-"quantidades de <link=\"SLIMEMOLD\">Limo</link> e devem ser contidos para que "
-"não infectem sua colônia com <link=\"SLIMELUNG\">Pulmão de Limo</link>.\n"
+"Biomas Mangue contém grandes quantidades de <link=\"SLIMEMOLD\">Limo</link> "
+"que podem ser convertidos em <link=\"ALGAE\">Alga</link> e que são um "
+"recurso valioso para o cultivo de <link=\"MUSHROOMPLANT\">Cogumelos Negro</"
+"link> assim como alimento para <link=\"PACUSPECIES\">Pacus</link> para "
+"produzir <link=\"FOOD\">Comida</link> de alta qualidade.\n"
 "\n"
-" <link=\"MUSHROOMPLANT\">Cogumelos Negros</link> e <link=\"PACUSPECIES"
-"\">Pacus</link> podem providenciar ingredientes <link=\"FOOD\">Alimentares</"
-"link> de alto nível."
+"Devido à alta probabilidade de infecção por <link=\"SLIMELUNG\">Pulmão de "
+"Limo</link> que este bioma trás, devo criar uma contenção adequada para esta "
+"área."
 
 #. STRINGS.SUBWORLDS.METALLIC.DESC
 msgctxt "STRINGS.SUBWORLDS.METALLIC.DESC"
@@ -59349,19 +59761,19 @@ msgstr "Espaço"
 #. STRINGS.SUBWORLDS.SPACE.UTILITY
 msgctxt "STRINGS.SUBWORLDS.SPACE.UTILITY"
 msgid ""
-"Setting up <link=\"SOLARPANELS\">Solar Panels</link> the surface will "
+"Setting up <link=\"SOLARPANELS\">Solar Panels</link> on the surface will "
 "provide a source of renewable energy. However, much care must be taken to "
 "ensure <link=\"ELEMENTSLIQUID\">Liquids</link> or <link=\"ELEMENTSGAS"
 "\">Gases</link> are not sucked out into the <link=\"VACUUM\">Vacuum</link> "
 "of space. <link=\"MOLE\">Shove Voles</link> are native to this biome, and "
 "need to be wrangled or contained or they will infest the colony."
 msgstr ""
-"Instalar <link=\"SOLARPANELS\">Painéis Solares</link> na superfície irão "
+"Instalar <link=\"SOLARPANELS\">Painéis Solares</link> na superfície irá "
 "providenciar uma fonte de energia renovável. No entanto, muito cuidado deve "
 "ser tomado para garantir que <link=\"ELEMENTSLIQUID\">Líquidos</link> ou "
-"<link=\"ELEMENTSGAS\">Gases</link> não são sugados para o <link=\"VACUUM"
+"<link=\"ELEMENTSGAS\">Gases</link> não sejam sugados para o <link=\"VACUUM"
 "\">Vácuo</link> do espaço. <link=\"MOLE\">Toupeiras Espaciais</link> são "
-"nativas deste bioma, e precisam ser capturas ou contidas se não elas irão "
+"nativas deste bioma, e precisam ser capturadas ou contidas se não elas irão "
 "infestar a colônia."
 
 #. STRINGS.SUBWORLDS.SWAMP.DESC
@@ -63925,7 +64337,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.3): {0}"
+msgstr "VERSÃO DE TESTE (3.3.1): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -63955,7 +64367,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.3): {0}"
+msgstr "VERSÃO (3.3.1): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -68583,13 +68995,25 @@ msgstr "<link=\"LIGHT\">Escuridão</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_LIGHT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_LIGHT"
-msgid "<link=\"LIGHT\">Light</link>"
-msgstr "<link=\"LIGHT\">Luz</link>"
+msgid "<link=\"LIGHT\">Light</link>: {Lux}"
+msgstr "<link=\"LIGHT\">Luz</link>: {Lux}"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_NO_MIN_RADIATION
+#| msgctxt "STRINGS.CODEX.RADIATION.TITLE"
+#| msgid "<link=\"RADIATION\">Radiation</link>"
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_NO_MIN_RADIATION"
+msgid "Maximum <link=\"RADIATION\">Radiation</link>: {MaxRads}"
+msgstr "<link=\"RADIATION\">Radiação</link> Máxima: {MaxRads}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_PRESSURE"
 msgid "<link=\"ATMOSPHERE\">Air</link> Pressure: {0} minimum"
 msgstr "Pressão do <link=\"ATMOSPHERE\">Ar</link>: No mínimo {0}"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_RADIATION
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_RADIATION"
+msgid "<link=\"RADIATION\">Radiation</link>: {MinRads} to {MaxRads}"
+msgstr "<link=\"RADIATION\">Radiação</link>: {MinRads} a {MaxRads}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_RECEPTACLE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_RECEPTACLE"
@@ -68764,8 +69188,21 @@ msgstr "Esta planta requer completa escuridão"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_LIGHT
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_LIGHT"
-msgid "This plant requires a <style=\"KKeyword\">Light</style> source"
-msgstr "Esta planta requer uma fonte de <style=\"KKeyword\">Luz</style>"
+msgid ""
+"This plant requires a <style=\"KKeyword\">Light</style> source bathing it in "
+"at least {Lux}"
+msgstr ""
+"Esta planta requer uma fonte de <style=\"KKeyword\">Luz</style> de pelo "
+"menos {Lux}"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_NO_MIN_RADIATION
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_NO_MIN_RADIATION"
+msgid ""
+"This plant will stop growing if exposed to more than {MaxRads} of <link="
+"\"RADIATION\">Radiation</link>"
+msgstr ""
+"Esta planta irá parar de crescer se for exposta a mais do que {MaxRads} de "
+"<link=\"RADIATION\">Radiação</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_PRESSURE"
@@ -68775,6 +69212,15 @@ msgid ""
 msgstr ""
 "<style=\"KKeyword\">Pressão Atmosférica</style> precisa estar em pelo menos "
 "<b>{0}</b> para crescimento básico"
+
+#. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RADIATION
+msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RADIATION"
+msgid ""
+"This plant will only grow if it has between {MinRads} and {MaxRads} of <link="
+"\"RADIATION\">Radiation</link>"
+msgstr ""
+"Esta planta só irá crescer se estiver entre {MinRads} e {MaxRads} de <link="
+"\"RADIATION\">Radiação</link>"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RECEPTACLE
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.TOOLTIPS.REQUIRES_RECEPTACLE"
@@ -79001,6 +79447,50 @@ msgctxt "STRINGS.UI.UISIDESCREENS.GENESHUFFLERSIDESREEN.UNDERWAY"
 msgid "Neural Vacillation in progress."
 msgstr "Vacilação Neural em andamento."
 
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CANCEL_SEED
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CANCEL_SEED"
+msgid "Clear Analysis Target"
+msgstr "Limpar Alvo da Análise"
+
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CURRENT_TARGET
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.CURRENT_TARGET"
+msgid "Currently studying:"
+msgstr "Estudando no momento:"
+
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.NONE_DISCOVERED
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.NONE_DISCOVERED"
+msgid "No mutant seeds have been found."
+msgstr "Nenhuma semente mutante foi encontrada."
+
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.PICK_TARGET
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.PICK_TARGET"
+msgid "Select a plant for study"
+msgstr "Selecione uma planta para estudo"
+
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_COMPLETE
+#| msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.COMPLETED"
+#| msgid "Completed"
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_COMPLETE"
+msgid "<i>Complete</i>"
+msgstr "<i>Concluir</i>"
+
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_PROGRESS_FMT
+#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TITLE"
+#| msgid "{0} Seeds"
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_PROGRESS_FMT"
+msgid "{0}/{1} seeds"
+msgstr "{0}/{1} sementes"
+
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEED
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEED"
+msgid "Select Analysis Target"
+msgstr "Selecionar Alvo da Análise"
+
+#. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.TITLE"
+msgid "Genetic Analysis"
+msgstr "Análise Genética"
+
 #. STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.HABITATMODULESIDESCREEN.TITLE"
 msgid "Spacefarer Module"
@@ -79824,6 +80314,11 @@ msgctxt "STRINGS.UI.UISIDESCREENS.PASSENGERMODULESIDESCREEN.UNASSIGNED"
 msgid "Unassigned"
 msgstr "Não atribuído"
 
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.AUTO_SELF_HARVEST
+msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.AUTO_SELF_HARVEST"
+msgid "Self-Harvest On Grown"
+msgstr "Auto-Colheita Ao Crescer"
+
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.AWAITINGDELIVERY
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.AWAITINGDELIVERY"
 msgid "AWAITING DELIVERY: {0}"
@@ -79858,6 +80353,23 @@ msgstr "Cancelar"
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DEPOSIT"
 msgid "Plant"
 msgstr "Plantar"
+
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_BURST
+msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_BURST"
+msgid "{Disease} Burst: {DiseaseAmount}"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_CONSTANT
+#| msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALDISEASE.TOOLTIP"
+#| msgid "Current disease: {Disease}"
+msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_CONSTANT"
+msgid "{Disease}: {DiseaseAmount}"
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_ON_HARVEST
+msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_ON_HARVEST"
+msgid "{Disease} on crop: {DiseaseAmount}"
+msgstr "{Disease} na colheita: {DiseaseAmount}"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ENTITYDEPOSITED
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.ENTITYDEPOSITED"
@@ -79929,11 +80441,44 @@ msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TITLE"
 msgid "{0} Seeds"
 msgstr "Sementes da {0}"
 
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.AUTO_SELF_HARVEST
+msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.AUTO_SELF_HARVEST"
+msgid ""
+"This plant will instantly drop its crop and begin regrowing when it is "
+"matured."
+msgstr ""
+"Esta planta quando amadurecer irá largar sua colheita no chão "
+"instantaneamente e começará a crescer novamente."
+
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.BONUS_SEEDS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.BONUS_SEEDS"
 msgid "This plant has a {0} chance to produce new seeds when harvested"
 msgstr ""
 "Esta planta tem {0} de chance de produzir novas sementes quando colhida"
+
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_DROPPER_BURST
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_DROPPER_BURST"
+msgid ""
+"At certain points in this plant's lifecycle, it will emit a burst of "
+"{DiseaseAmount} {Disease}."
+msgstr ""
+"Em certos pontos no ciclo de vida desta planta, ela irá emitir "
+"{DiseaseAmount} {Disease}."
+
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_DROPPER_CONSTANT
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_DROPPER_CONSTANT"
+msgid "This plant emits {DiseaseAmount} {Disease} while it is alive."
+msgstr "Esta planta emite {DiseaseAmount} {Disease} enquanto viva."
+
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_ON_HARVEST
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.DISEASE_ON_HARVEST"
+msgid ""
+"The {Crop} produced by this plant will have {DiseaseAmount} {Disease} on it."
+msgstr ""
+"A {Crop} produzida por esta planta terá {DiseaseAmount} {Disease} nela."
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.NUMBEROFHARVESTS
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.NUMBEROFHARVESTS"
@@ -79961,6 +80506,13 @@ msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD"
 msgid "<link=\"KCAL\">{2}</link> produced [<link=\"KCAL\">{1}</link> / unit]"
 msgstr ""
 "<link=\"KCAL\">{2}</link> produzido [<link=\"KCAL\">{1}</link> / unidade]"
+
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_NONFOOD
+#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELDPERHARVEST"
+#| msgid "{0} {1} per harvest"
+msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_NONFOOD"
+msgid "{0} produced per harvest"
+msgstr "{0} produzido por colheita"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_SEED
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_SEED"
@@ -79992,6 +80544,13 @@ msgstr "{0} [{1} / unidade]"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD"
+msgid "{0}: {1} "
+msgstr ""
+
+#. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_NONFOOD
+#| msgctxt "STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX"
+#| msgid "{0}: {1} Germs"
+msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_NONFOOD"
 msgid "{0}: {1} "
 msgstr ""
 
@@ -84288,6 +84847,119 @@ msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Moonlet"
 msgstr "Lua de Água"
 
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_A.NAME"
+#~ msgid "Plentiful"
+#~ msgstr "Abundante"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_B.DESCRIPTION"
+#~ msgid ""
+#~ "A plant with this mutation prefers an environment with higher temperatures"
+#~ msgstr ""
+#~ "Uma planta com esta mutação prefere um ambiente com temperaturas mais "
+#~ "altas"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_B.NAME"
+#~ msgid "Tropical"
+#~ msgstr "Tropical"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_C.DESCRIPTION"
+#~ msgid ""
+#~ "A plant with this mutation requires more <link=\"FERTILIZER\">Fertilizer</"
+#~ "link>"
+#~ msgstr ""
+#~ "Uma planta com esta mutação requer mais <link=\"FERTILIZER"
+#~ "\">Fertilizante</link>"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_C.NAME"
+#~ msgid "Gluttonous"
+#~ msgstr "Gulosa"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_D.DESCRIPTION"
+#~ msgid "A plant with this mutation requires more irrigation"
+#~ msgstr "Uma planta com esta mutação requer mais irrigação"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_D.NAME"
+#~ msgid "Guzzling"
+#~ msgstr "Bebedora"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_E.DESCRIPTION"
+#~ msgid ""
+#~ "A plant with this mutation requires less <link=\"FERTILIZER\">Fertilizer</"
+#~ "link>"
+#~ msgstr ""
+#~ "Uma planta com esta mutação requer menos <link=\"FERTILIZER"
+#~ "\">Fertilizante</link>"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_E.NAME"
+#~ msgid "Fasting"
+#~ msgstr "Jejum"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_F.DESCRIPTION"
+#~ msgid "A plant with this mutation requires less irrigation"
+#~ msgstr "Uma planta com esta mutação requer menos irrigação"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_F.NAME"
+#~ msgid "Arid"
+#~ msgstr "Árido"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_G.DESCRIPTION"
+#~ msgid "A plant with this mutation requires less growing time"
+#~ msgstr "Uma planta com esta mutação requer menor tempo de crescimento"
+
+#~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_G.NAME"
+#~ msgid "Precocious"
+#~ msgstr "Precoce"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.CRYOFUELPROPULSION.DESC"
+#~ msgid "With this technology, the sky is your oyster. Go exploring!"
+#~ msgstr "Com essa tecnologia, o céu não é mais o seu limite. Explore!"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARPROPULSION.DESC"
+#~ msgid "With this technology, the sky is your oyster. Go exploring!"
+#~ msgstr "Com essa tecnologia, o céu não é mais o seu limite. Explore!"
+
+#~ msgctxt "STRINGS.SUBWORLDS.MAGMA.DESC"
+#~ msgid ""
+#~ "Bring on the heat! With temperatures that can reach upwards of 1526 "
+#~ "degrees the Magma Biome is a colony hotspot, although you may want to "
+#~ "think twice about sending your Duplicants there without protection."
+#~ msgstr ""
+#~ "Traga o calor! Com temperaturas que podem chegar nas alturas de 1526 "
+#~ "graus, o Bioma Magma é o ponto mais quente de uma colônia, você "
+#~ "provavelmente deveria pensar duas vezes antes de enviar seus Duplicante "
+#~ "aqui sem proteção."
+
+#~ msgctxt "STRINGS.SUBWORLDS.MAGMA.UTILITY"
+#~ msgid ""
+#~ "<link=\"MAGMA\">Magma</link> is source of extreme <link=\"HEAT\">Heat</"
+#~ "link> which can be used to transform <link=\"WATER\">Water</link> in to "
+#~ "<link=\"STEAM\">Steam</link> or <link=\"CRUDEOIL\">Crude Oil</link> into "
+#~ "<link=\"PETROLEUM\">Petroleum</link>."
+#~ msgstr ""
+#~ "<link=\"MAGMA\">Magma</link> é uma fonte de <link=\"HEAT\">Calor</link> "
+#~ "extrema que pode ser usada para transformar <link=\"WATER\">Água</link> "
+#~ "em <link=\"STEAM\">Vapor</link> ou <link=\"CRUDEOIL\">Petróleo Bruto</"
+#~ "link> em <link=\"PETROLEUM\">Petróleo</link>."
+
+#~ msgctxt "STRINGS.SUBWORLDS.MARSH.UTILITY"
+#~ msgid ""
+#~ "Be aware that Marsh Biomes frequently contain large amounts of <link="
+#~ "\"SLIMEMOLD\">Slime</link> and should be contained so it doesn't infect "
+#~ "your colony with <link=\"SLIMELUNG\">Slimelung</link>.\n"
+#~ "\n"
+#~ " <link=\"MUSHROOMPLANT\">Dusk Caps</link> and <link=\"PACUSPECIES"
+#~ "\">Pacus</link> can provide some higher tier <link=\"FOOD\">food</link> "
+#~ "ingredients."
+#~ msgstr ""
+#~ "Tenha cuidado que os biomas de Mangue frequentemente contém grandes "
+#~ "quantidades de <link=\"SLIMEMOLD\">Limo</link> e devem ser contidos para "
+#~ "que não infectem sua colônia com <link=\"SLIMELUNG\">Pulmão de Limo</"
+#~ "link>.\n"
+#~ "\n"
+#~ " <link=\"MUSHROOMPLANT\">Cogumelos Negros</link> e <link=\"PACUSPECIES"
+#~ "\">Pacus</link> podem providenciar ingredientes <link=\"FOOD"
+#~ "\">Alimentares</link> de alto nível."
+
 #~ msgctxt "STRINGS.CREATURES.SPECIES.BEE.DESC"
 #~ msgid ""
 #~ "Beetas are busy critters who harvest and refine <link=\"METAL\">Metals</"
@@ -86881,10 +87553,6 @@ msgstr "Lua de Água"
 #~ msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.BODY"
 #~ msgid "Database Update Discovered: {codex}\n"
 #~ msgstr "Registro Descoberto: {codex}\n"
-
-#~ msgctxt "STRINGS.UI.CODEX.CODEX_DISCOVERED_MESSAGE.TITLE"
-#~ msgid "Database Update Discovered"
-#~ msgstr "Atualização da Base de Dados Descoberta"
 
 #~ msgctxt "STRINGS.UI.UISIDESCREENS.CRITTER_COUNT_SIDE_SCREEN.TITLE"
 #~ msgid "Critter Count"
@@ -90376,10 +91044,6 @@ msgstr "Lua de Água"
 #~ msgid "Rock Crusher"
 #~ msgstr "Esmaga Pedras"
 
-#~ msgctxt "STRINGS.DUPLICANTS.TRAITS.SIMPLETASTES.DESC"
-#~ msgid "This Duplicant finds pleasure in even the blandest of foods."
-#~ msgstr "Este Duplicante encontra prazer até mesmo na comida mais suave."
-
 #~ msgctxt "STRINGS.INPUT_BINDINGS.MANAGEMENT.MANAGECODEX"
 #~ msgid "ManageCodex"
 #~ msgstr "Gerenciar Códice"
@@ -91651,10 +92315,6 @@ msgstr "Lua de Água"
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.EMERGENCY_PRIORITY.NOTIFICATION_NAME"
 #~ msgid "Emergency Priority"
 #~ msgstr "Prioridade Emergencial"
-
-#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_BLOCKED_INPUT.TOOLTIP"
-#~ msgid "A blocked input has stopped this turbine from functioning"
-#~ msgstr "Uma entrada bloqueada está impedindo esta turbina de funcionar"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.TURBINE_INSUFFICIENT_MASS.NAME"
 #~ msgid "Underpressure"
@@ -94299,11 +94959,6 @@ msgstr "Lua de Água"
 #~ msgstr "Expectativa de Moral"
 
 #~ msgctxt ""
-#~ "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_HEADER"
-#~ msgid "Analysis Target"
-#~ msgstr "Alvo da Análise"
-
-#~ msgctxt ""
 #~ "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_SELECTED"
 #~ msgid "Analysis target selected"
 #~ msgstr "Alvo da análise selecionado"
@@ -94572,12 +95227,6 @@ msgstr "Lua de Água"
 #~ "DISABLED.TOOLTIP"
 #~ msgid "Duplicants aren't stressed by their expectations at all"
 #~ msgstr "Duplicantes não ficam estressados pelas suas expectativas"
-
-#~ msgctxt ""
-#~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY."
-#~ "NAME"
-#~ msgid "Easy"
-#~ msgstr "Fácil"
 
 #~ msgctxt ""
 #~ "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.MORALE.LEVELS.EASY."
@@ -95999,10 +96648,6 @@ msgstr "Lua de Água"
 #~ msgctxt "STRINGS.CODEX.EXAMPLECATEGORY.SUBTITLE"
 #~ msgid "Example Subtitle"
 #~ msgstr "Subtítulo Exemplo"
-
-#~ msgctxt "STRINGS.CODEX.HEADERS.COMFORTRANGE"
-#~ msgid "Temperature Range"
-#~ msgstr "Faixa de Temperatura"
 
 #~ msgctxt "STRINGS.CODEX.HEADERS.CONTENTLOCKED_SUBTITLE"
 #~ msgid "More exploration and research is necessary"
@@ -98827,10 +99472,6 @@ msgstr "Lua de Água"
 #~ msgctxt "STRINGS.INPUT_BINDINGS.DEBUG.DEBUGRELOADMODS"
 #~ msgid "DebugReloadMods"
 #~ msgstr "DebugRecarregarMods"
-
-#~ msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTBAR.NAME"
-#~ msgid "Liceloaf"
-#~ msgstr "Barra de Rango-Fruto"
 
 #~ msgctxt "STRINGS.ITEMS.FOOD.BASICPLANTFOOD.NAME"
 #~ msgid "Meal Lice"
