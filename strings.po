@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.3.1\n"
+"Project-Id-Version: Português foi Incluído! 3.3.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -2684,6 +2684,22 @@ msgstr ""
 "Estações devem ser colocadas ao lado de um <link=\"CHECKPOINT\">Ponto de "
 "Checagem </link>, oposto ao lado onde o ponto checa"
 
+#. STRINGS.BUILDING.STATUSITEMS.NOSURFACESIGHT.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSURFACESIGHT.NAME"
+msgid "No Line of Sight"
+msgstr "Sem Linha de Visão"
+
+#. STRINGS.BUILDING.STATUSITEMS.NOSURFACESIGHT.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.NOSURFACESIGHT.TOOLTIP"
+msgid ""
+"This building has no view of space\n"
+"\n"
+"Ensure an unblocked view of the sky."
+msgstr ""
+"Esta estrutura não possui visão do espaço\n"
+"\n"
+"Mantenha uma área desobstruída com visão para o céu."
+
 #. STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.NOTENOUGHPOWER.NAME"
 msgid "Insufficient Power"
@@ -3194,8 +3210,6 @@ msgstr ""
 "Este lançador precisa de um caminho livre para lançar recursos"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.NAME
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.CLEANING.NAME"
-#| msgid "Cleaning {Target}"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.NAME"
 msgid "Cleaning Rails: {timeleft}"
 msgstr "Limpando Trilhos: {timeleft}"
@@ -3203,10 +3217,10 @@ msgstr "Limpando Trilhos: {timeleft}"
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNCOOLDOWN.TOOLTIP"
 msgid ""
-"This building automatically performs routine maintenance every {x} launches."
+"This building automatically performs routine maintenance every {x} launches"
 msgstr ""
 "Esta estrutura realiza manutenção de rotina automaticamente a cada {x} "
-"lançamentos."
+"lançamentos"
 
 #. STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RAILGUNPAYLOADNEEDSEMPTYING.NAME"
@@ -3258,9 +3272,9 @@ msgstr "Reabastecimento Desativado"
 #. STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.REACTORREFUELDISABLED.TOOLTIP"
 msgid ""
-"This building will not be refueled once its active fuel has been consumed."
+"This building will not be refueled once its active fuel has been consumed"
 msgstr ""
-"Esta estrutura não será reabastecida até seu combustível ativo ser consumido."
+"Esta estrutura não será reabastecida até seu combustível ativo ser consumido"
 
 #. STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.RELEASING_PRESSURE.NAME"
@@ -3824,8 +3838,8 @@ msgstr "Linha de Visão: Obstruída"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_LOS.TOOLTIP"
-msgid "This device needs a clear view of space to operate."
-msgstr "Este dispositivo precisa de uma visão clara do espaço para funcionar."
+msgid "This device needs a clear view of space to operate"
+msgstr "Este dispositivo precisa de uma visão clara do espaço para funcionar"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_NO_TARGET.NAME"
@@ -3844,8 +3858,9 @@ msgstr "Progresso: {progress}"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_PROGRESS.TOOLTIP"
-msgid "Operation will commence once this meter fills all the way up."
-msgstr "Operação começará assim que este medidor preencher até o topo."
+msgid "Operation will commence once this device is fully charged"
+msgstr ""
+"Operação começará assim que este dispositivo estiver completamente carregado"
 
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION"
@@ -3855,8 +3870,8 @@ msgstr "Rompedor temporal completamente carregado"
 #. STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION_TOOLTIP
 msgctxt ""
 "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY.NOTIFICATION_TOOLTIP"
-msgid "All that's left is to push the big red button."
-msgstr "Tudo que resta é apertar o botão vermelho."
+msgid "Push the red button to activate"
+msgstr "Aperte o botão vermelho para ativar"
 
 #. STRINGS.BUILDING.STATUSITEMS.TINKERING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.TINKERING.NAME"
@@ -8645,6 +8660,33 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.LANDING_POD.NAME"
 msgid "Spacefarer Deploy Pod"
 msgstr "Câmara de Aterrissagem de Viajante"
 
+#. STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.DESC"
+msgid ""
+"Guides <link=\"RAILGUNPAYLOAD\">Interplanetary Payloads</link> to land "
+"nearby."
+msgstr ""
+"Guia <link=\"RAILGUNPAYLOAD\">Pacotes Interplanetários</link> para "
+"aterrissarem por perto."
+
+#. STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.EFFECT
+#| msgctxt "STRINGS.ITEMS.RAILGUNPAYLOAD.NAME"
+#| msgid "<link=\"RAILGUNPAYLOAD\">Interplanetary Payload</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.EFFECT"
+msgid ""
+"Guides <link=\"RAILGUNPAYLOAD\">Interplanetary Payloads</link> to land "
+"nearby."
+msgstr ""
+"Guia <link=\"RAILGUNPAYLOAD\">Pacotes Interplanetários</link> para "
+"aterrissarem por perto."
+
+#. STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.RATIONBOX.NAME"
+#| msgid "<link=\"RATIONBOX\">Ration Box</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.LANDINGBEACON.NAME"
+msgid "<link=\"LANDINGBEACON\">Targeting Beacon</link>"
+msgstr "<link=\"LANDINGBEACON\">Farol Alvo</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LAUNCHPAD.DESC"
 msgid ""
@@ -12050,7 +12092,7 @@ msgid ""
 "technologies.\n"
 "\n"
 "Consumes <link=\"POLYPROPYLENE\">Plastic</link> and <link=\"POWER\">Power</"
-"link>).\n"
+"link>.\n"
 "\n"
 "Assigned Duplicants must possess the <link=\"SENIORRESEARCHER\">Astronomy</"
 "link> skill."
@@ -13243,6 +13285,28 @@ msgstr ""
 "\"ELEMENTSLIQUID\">Líquidos</link>, e <link=\"ELEMENTSGAS\">Gases</link>.\n"
 "\n"
 "Não pode transportar Duplicantes."
+
+#. STRINGS.BUILDINGS.PREFABS.RAILGUN.LOGIC_PORT
+msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.LOGIC_PORT"
+msgid "Launch Toggle"
+msgstr "Disparador de Lançamento"
+
+#. STRINGS.BUILDINGS.PREFABS.RAILGUN.LOGIC_PORT_ACTIVE
+#| msgctxt "STRINGS.UI.LOGIC_PORTS.CONTROL_OPERATIONAL_ACTIVE"
+#| msgid "<b><style=\"logic_on\">Green Signal</style></b>: Enable building"
+msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.LOGIC_PORT_ACTIVE"
+msgid ""
+"<b><style=\"logic_on\">Green Signal</style></b>: Enable payload launching."
+msgstr ""
+"<b><style=\"logic_on\">Sinal Verde</b></style>: Ativa lançamento de pacotes."
+
+#. STRINGS.BUILDINGS.PREFABS.RAILGUN.LOGIC_PORT_INACTIVE
+msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.LOGIC_PORT_INACTIVE"
+msgid ""
+"<b><style=\"logic_off\">Red Signal</style></b>: Disable payload launching."
+msgstr ""
+"<b><style=\"logic_off\">Sinal Vermelho</b></style>: Desativa lançamento de "
+"pacotes."
 
 #. STRINGS.BUILDINGS.PREFABS.RAILGUN.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.RAILGUN.NAME"
@@ -25743,8 +25807,6 @@ msgid "Original"
 msgstr "Original"
 
 #. STRINGS.CREATURES.PLANT_MUTATIONS.PLANT_NAME_FMT
-#| msgctxt "STRINGS.CODEX.GENETICS.HEADER_1"
-#| msgid "Plant Mutations"
 msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.PLANT_NAME_FMT"
 msgid "{PlantName} ({MutationList})"
 msgstr ""
@@ -26100,17 +26162,17 @@ msgstr "<link=\"CRAB\">Cascudo</link>"
 #. STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.DESC
 msgctxt "STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.DESC"
 msgid ""
-"Critter Traps are carnivorous plants that snatch up unsuspecting critters "
-"and consume them, releasing <link=\"HYDROGEN\">Hydrogen</link> as waste."
+"Critter Traps are carnivorous plants that trap unsuspecting critters and "
+"consume them, releasing <link=\"HYDROGEN\">Hydrogen</link> as waste."
 msgstr ""
 "Armadilhas de Criatura são plantas carnívoras que capturam criaturas "
-"descuidadas e as consome, liberando <link=\"HYDROGEN\">Hidrogênio</link> "
+"descuidadas e as consomem, liberando <link=\"HYDROGEN\">Hidrogênio</link> "
 "como resíduo."
 
 #. STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.DOMESTICATEDDESC
 msgctxt "STRINGS.CREATURES.SPECIES.CRITTERTRAPPLANT.DOMESTICATEDDESC"
 msgid ""
-"This plant eat critters and produces <link=\"HYDROGEN\">Hydrogen</link>."
+"This plant eats critters and produces <link=\"HYDROGEN\">Hydrogen</link>."
 msgstr ""
 "Esta planta come criaturas e produz <link=\"HYDROGEN\">Hidrogênio</link>."
 
@@ -29345,8 +29407,6 @@ msgstr ""
 "style> forem supridos"
 
 #. STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.NAME
-#| msgctxt "STRINGS.CREATURES.STATUSITEMS.CANTACCEPTIRRIGATION.NAME"
-#| msgid "    • Irrigation"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.CROP_TOO_RADIATED.NAME"
 msgid "    • High Radiation Levels"
 msgstr "    • Altos Níveis de Radiação"
@@ -30186,8 +30246,6 @@ msgid "This critter is replenishing its <style=\"KKeyword\">Stamina</style>"
 msgstr "Esta criatura está restaurando sua <style=\"KKeyword\">Energia</style>"
 
 #. STRINGS.CREATURES.STATUSITEMS.SPECIFICPLANTMUTATION.NAME
-#| msgctxt "STRINGS.CODEX.GENETICS.HEADER_1"
-#| msgid "Plant Mutations"
 msgctxt "STRINGS.CREATURES.STATUSITEMS.SPECIFICPLANTMUTATION.NAME"
 msgid "Mutant Plant: {MutationName}"
 msgstr "Planta Mutante: {MutationName}"
@@ -30717,8 +30775,8 @@ msgstr "Decoração"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.DESC"
-msgid "A change in Decor exhibited by this plant varaint"
-msgstr "Uma mudança na Decor exibida por esta variante de planta"
+msgid "Change in Decor relative to the base crop"
+msgstr "Alteração na Decor em relação a planta base"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.NAME"
@@ -30834,11 +30892,11 @@ msgstr "Temperatura de Quebra"
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.DESC"
 msgid ""
-"The amount of fertilizer and irrigation this plant will require relative to "
-"a non-mutant"
+"Fertilizer and irrigation amounts this plant requires relative to the base "
+"crop"
 msgstr ""
-"A quantidade de fertilizante e irrigação que esta planta precisa em relação "
-"a uma não mutante"
+"Quantidade de fertilizante e irrigação que esta planta precisa em relação a "
+"planta base"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.FERTILIZERUSAGEMOD.NAME"
@@ -30965,12 +31023,9 @@ msgstr "Felicidade"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.DESC"
-msgid ""
-"How long it will take an unskilled Duplicant to harvest the fruit of this "
-"plant"
+msgid "Time it takes an unskilled Duplicant to harvest this plant's fruit"
 msgstr ""
-"Quanto tempo levará para um Duplicante inexperiente para colher o fruto "
-"desta planta"
+"Tempo necessário para um Duplicante inexperiente colher o fruto desta planta"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.HARVESTTIME.NAME"
@@ -31128,9 +31183,8 @@ msgstr "Velocidade da Maquinaria"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MAXRADIATIONTHRESHOLD.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MAXRADIATIONTHRESHOLD.DESC"
-msgid "The largest amount of ambient Radiation this plant can tolerate"
-msgstr ""
-"A maior quantidade de Radiação ambiente que esta planta consegue tolerar"
+msgid "Largest amount of ambient Radiation this plant can tolerate"
+msgstr "Maior quantidade de Radiação ambiente que esta planta consegue tolerar"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MAXRADIATIONTHRESHOLD.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MAXRADIATIONTHRESHOLD.NAME"
@@ -31166,8 +31220,8 @@ msgstr "Metabolismo de Criaturas"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MINLIGHTLUX.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MINLIGHTLUX.DESC"
-msgid "The minimum lux this plant requires for growth"
-msgstr "O mínimo de lux que essa planta necessita para crescer"
+msgid "Minimum lux this plant requires for growth"
+msgstr "Lux mínimo que esta planta necessita para crescer"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MINLIGHTLUX.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MINLIGHTLUX.NAME"
@@ -31176,9 +31230,9 @@ msgstr "Luz"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MINRADIATIONTHRESHOLD.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MINRADIATIONTHRESHOLD.DESC"
-msgid ""
-"The smallest amount of ambient Radiation required for this plant to grow"
-msgstr "A quantidade de Radiação ambiente necessária para esta planta crescer"
+msgid "Smallest amount of ambient Radiation required for this plant to grow"
+msgstr ""
+"Menor quantidade de Radiação ambiente necessária para esta planta crescer"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.MINRADIATIONTHRESHOLD.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MINRADIATIONTHRESHOLD.NAME"
@@ -31559,8 +31613,8 @@ msgstr ""
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.WILTTEMPRANGEMOD.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.WILTTEMPRANGEMOD.DESC"
-msgid "The variance on growth temperature compared to the base crop"
-msgstr "A variação na temperatura de crescimento em relação a planta base"
+msgid "Variance growth temperature relative to the base crop"
+msgstr "Variação na temperatura de crescimento em relação a planta base"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.WILTTEMPRANGEMOD.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.WILTTEMPRANGEMOD.NAME"
@@ -31569,8 +31623,8 @@ msgstr "Faixa de Temperatura Viável"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.YIELDAMOUNT.DESC
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.YIELDAMOUNT.DESC"
-msgid "How much this plant produces relative to the base crop"
-msgstr "O quanto esta planta produz em relação a planta base"
+msgid "Plant production relative to the base crop"
+msgstr "Produção da planta em relação a planta base"
 
 #. STRINGS.DUPLICANTS.ATTRIBUTES.YIELDAMOUNT.NAME
 msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.YIELDAMOUNT.NAME"
@@ -56957,8 +57011,8 @@ msgstr "<link=\"ADVANCEDRESEARCH\">Pesquisa Avançada</link>"
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.DESC"
-msgid "Clean those dirty duplicants off."
-msgstr "Tire a sujeira desses Duplicantes sujos."
+msgid "Clean up dirty Duplicants."
+msgstr "Limpe os Duplicantes sujos."
 
 #. STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSANITATION.NAME"
@@ -57141,8 +57195,8 @@ msgstr "<link=\"COMBUSTION\">Combustão Interna</link>"
 
 #. STRINGS.RESEARCH.TECHS.CRASHPLAN.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.CRASHPLAN.DESC"
-msgid "What goes up, must come down"
-msgstr "O que sobe, tem que descer"
+msgid "What goes up, must come down."
+msgstr "O que sobe, tem que descer."
 
 #. STRINGS.RESEARCH.TECHS.CRASHPLAN.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.CRASHPLAN.NAME"
@@ -57195,8 +57249,8 @@ msgstr "<link=\"DUPETRAFFICCONTROL\">Computação</link>"
 
 #. STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.DESC"
-msgid "Improved construction will allow extended missions into space."
-msgstr "Construção melhorada irá permitir missões mais longas no espaço."
+msgid "Improved devices for extended missions into space."
+msgstr "Dispositivos melhorados que permitirão missões estendidas no espaço."
 
 #. STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.DURABLELIFESUPPORT.NAME"
@@ -57330,8 +57384,8 @@ msgstr "<link=\"FOODREPURPOSING\">Redirecionamento de Comida</link>"
 
 #. STRINGS.RESEARCH.TECHS.GASDISTRIBUTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.GASDISTRIBUTION.DESC"
-msgid "Internal rocket hookups for gas resources"
-msgstr "Conexões internas no foguete para recursos gasosos"
+msgid "Internal rocket hookups for gas resources."
+msgstr "Conexões internas no foguete para recursos gasosos."
 
 #. STRINGS.RESEARCH.TECHS.GASDISTRIBUTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.GASDISTRIBUTION.NAME"
@@ -57386,13 +57440,13 @@ msgstr "<link=\"HIGHTEMPFORGING\">Forja em Altas Temperaturas</link>"
 
 #. STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.DESC"
-msgid "W.I.P. Tech"
-msgstr "Tecnologia em Desenvolvimento"
+msgid "Send things hurling through space."
+msgstr "Envie coisas voando pelo espaço."
 
 #. STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.NAME"
-msgid "High Velocity Transport"
-msgstr "Transporte de Alta Velocidade"
+msgid "<link=\"HIGHVELOCITY\">High Velocity Transport</link>"
+msgstr "<link=\"HIGHVELOCITY\">Transporte de Alta Velocidade</link>"
 
 #. STRINGS.RESEARCH.TECHS.HVAC.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.HVAC.DESC"
@@ -57410,8 +57464,8 @@ msgstr "<link=\"HVAC\">AVAC</link>"
 
 #. STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.DESC"
-msgid "Big rocket engines with smoke"
-msgstr "Motores grandes de foguete com fumaça"
+msgid "Mid-range rocket engines with lots of smoke."
+msgstr "Motores de foguetes de médio porte com muita fumaça."
 
 #. STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.NAME"
@@ -57523,8 +57577,8 @@ msgstr "<link=\"JOBS\">Emprego</link>"
 
 #. STRINGS.RESEARCH.TECHS.LIQUIDDISTRIBUTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDDISTRIBUTION.DESC"
-msgid "Internal rocket hookups for liquid resources"
-msgstr "Conexões internas no foguete para recursos líquidos"
+msgid "Internal rocket hookups for liquid resources."
+msgstr "Conexões internas no foguete para recursos líquidos."
 
 #. STRINGS.RESEARCH.TECHS.LIQUIDDISTRIBUTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDDISTRIBUTION.NAME"
@@ -57698,18 +57752,16 @@ msgid "<link=\"NUCLEAR\">Radiation Refinement</link>"
 msgstr "<link=\"NUCLEAR\">Refino de Radiação</link>"
 
 #. STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC
-#| msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC"
-#| msgid "W.I.P. skill"
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC"
-msgid "W.I.P. Tech"
-msgstr "Tecnologia em Desenvolvimento"
+msgid "Research and harness sub-atomic particles."
+msgstr "Pesquise e colete partículas subatômicas."
 
 #. STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME"
-#| msgid "W.I.P. Skill"
+#| msgctxt "STRINGS.CODEX.RESEARCH.TITLE"
+#| msgid "<link=\"RESEARCH\">Research</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME"
-msgid "W.I.P. Tech"
-msgstr "Tecnologia em Desenvolvimento"
+msgid "<link=\"ATOMIC\">Atomic Research</link>"
+msgstr "<link=\"ATOMIC\">Pesquisa Atômica</link>"
 
 #. STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.PARALLELAUTOMATION.DESC"
@@ -57961,18 +58013,22 @@ msgid "<link=\"SOLIDMANAGEMENT\">Solid Management</link>"
 msgstr "<link=\"SOLIDMANAGEMENT\">Gerenciamento de Sólidos</link>"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDSPACE.DESC
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.NAME"
-#| msgid "W.I.P. Skill"
+#| msgctxt "STRINGS.RESEARCH.TECHS.SOLIDDISTRIBUTION.DESC"
+#| msgid ""
+#| "Internal rocket hookups for <link=\"ELEMENTSSOLID\">Solid</link> "
+#| "resources."
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDSPACE.DESC"
-msgid "W.I.P. Tech"
-msgstr "Tecnologia em Desenvolvimento"
+msgid ""
+"Transport and sort <link=\"ELEMENTSSOLID\">Solid</link> resources... in "
+"space!"
+msgstr ""
+"Transporte e separe recursos <link=\"ELEMENTSSOLID\">Sólidos</link> ... no "
+"espaço!"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDSPACE.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.NAME"
-#| msgid "W.I.P. Skill"
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDSPACE.NAME"
-msgid "W.I.P. Tech"
-msgstr "Tecnologia em Desenvolvimento"
+msgid "<link=\"SOLIDSPACE\">Solid Space Transport</link>"
+msgstr "<link=\"SOLIDSPACE\">Transporte Espacial de Sólidos </link>"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC"
@@ -58000,12 +58056,8 @@ msgstr "<link=\"SPACEPOWER\">Energia Espacial</link>"
 
 #. STRINGS.RESEARCH.TECHS.SPACEPROGRAM.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEPROGRAM.DESC"
-msgid ""
-"Basic facilities for allowing the first Duplicant to reach space with "
-"minimal harm."
-msgstr ""
-"Serviços básicos para permitir o primeiro Duplicante chegar no espaço com o "
-"mínimo de risco."
+msgid "The first steps in getting a Duplicant to space."
+msgstr "Os primeiros passos para levar um Duplicante ao espaço."
 
 #. STRINGS.RESEARCH.TECHS.SPACEPROGRAM.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEPROGRAM.NAME"
@@ -64337,7 +64389,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.3.1): {0}"
+msgstr "VERSÃO DE TESTE (3.3.2): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -64367,7 +64419,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.3.1): {0}"
+msgstr "VERSÃO (3.3.2): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -67945,8 +67997,8 @@ msgstr "OFICINA STEAM"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "A TOTALLY RAD UPDATE"
-msgstr "UMA ATUALIZAÇÃO TOTALMENTE RADICAL"
+msgid "RADBOLT FROM THE BLUE"
+msgstr "RADIORAIO VINDO DO CÉU"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -67965,19 +68017,20 @@ msgstr "ENTRE NA DISCUSSÃO"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"<b>A Totally Rad Update</b>\n"
+"<b>A Radbolt From The Blue Update</b>\n"
 "\n"
-"Added new Radiation system and Duplicant radiation sickness.\n"
-"Radbolts from the new Research Reactor or Beeta critter can power Nuclear "
-"Research at the Atomic Collider.\n"
+"Added the Radbolt Engine for using nuclear energy to explore space\n"
+"Added Interplanetary Payload Launcher to improve multi-asteroid "
+"infrastrucutre\n"
 "\n"
 "Check out the full patch notes for more details!"
 msgstr ""
-"<b>Uma Atualização Completamente RADical</b>\n"
+"<b>Atualização Um Radioraio vindo do Céu</b>\n"
 "\n"
-"Novo sistema de Radiação e doença da radiação adicionados.\n"
-"Radioraios a partir do novo Reator de Pesquisa ou a Abeta podem dar energia "
-"a Pesquisa Nuclear no Colisor Atômico.\n"
+"Adicionado o Motor à Radioraios para uso da energia nuclear na exploração "
+"espacial\n"
+"Adicionado o Lançador de Pacotes Interplanetários para melhoria de "
+"infraestrutura multiasteroide\n"
 "\n"
 "Verifique as notas de atualização completas para mais detalhes!"
 
@@ -68999,8 +69052,6 @@ msgid "<link=\"LIGHT\">Light</link>: {Lux}"
 msgstr "<link=\"LIGHT\">Luz</link>: {Lux}"
 
 #. STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_NO_MIN_RADIATION
-#| msgctxt "STRINGS.CODEX.RADIATION.TITLE"
-#| msgid "<link=\"RADIATION\">Radiation</link>"
 msgctxt "STRINGS.UI.GAMEOBJECTEFFECTS.REQUIRES_NO_MIN_RADIATION"
 msgid "Maximum <link=\"RADIATION\">Radiation</link>: {MaxRads}"
 msgstr "<link=\"RADIATION\">Radiação</link> Máxima: {MaxRads}"
@@ -75897,6 +75948,43 @@ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.FLIGHT_PATH_CLEAR.TOOLTIP.WARNING"
 msgid ""
 msgstr ""
 
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.FAILURE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.FAILURE"
+msgid "Control Station"
+msgstr "Estação de Controle"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.READY"
+msgid "Control Station"
+msgstr "Estação de Controle"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.WARNING
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.STATUS.WARNING"
+msgid "Control Station"
+msgstr "Estação de Controle"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.TOOLTIP.FAILURE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.TOOLTIP.FAILURE"
+msgid ""
+"No Control Station\n"
+"------------------\n"
+"A new Rocket Control Station must be installed inside the rocket"
+msgstr ""
+"Sem Estação de Controle\n"
+"------------------\n"
+"Um nova Estação de Controle do Foguete precisa ser construída dentro do "
+"foguete"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.TOOLTIP.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.TOOLTIP.READY"
+msgid "The control station is installed and waiting for the pilot"
+msgstr "A estação de controle está instalada e aguardando pelo piloto"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.TOOLTIP.WARNING
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_CONTROLSTATION.TOOLTIP.WARNING"
+msgid "Control Station warning"
+msgstr "Alerta da Estação de Controle"
+
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_ENGINE.STATUS.FAILURE"
 msgid "Engine"
@@ -79468,15 +79556,11 @@ msgid "Select a plant for study"
 msgstr "Selecione uma planta para estudo"
 
 #. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_COMPLETE
-#| msgctxt "STRINGS.UI.RESEARCHSCREEN.FILTER_BUTTONS.COMPLETED"
-#| msgid "Completed"
 msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_COMPLETE"
 msgid "<i>Complete</i>"
 msgstr "<i>Concluir</i>"
 
 #. STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_PROGRESS_FMT
-#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TITLE"
-#| msgid "{0} Seeds"
 msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_PROGRESS_FMT"
 msgid "{0}/{1} seeds"
 msgstr "{0}/{1} sementes"
@@ -80360,8 +80444,6 @@ msgid "{Disease} Burst: {DiseaseAmount}"
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_CONSTANT
-#| msgctxt "STRINGS.MISC.STATUSITEMS.ELEMENTALDISEASE.TOOLTIP"
-#| msgid "Current disease: {Disease}"
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.DISEASE_DROPPER_CONSTANT"
 msgid "{Disease}: {DiseaseAmount}"
 msgstr ""
@@ -80508,8 +80590,6 @@ msgstr ""
 "<link=\"KCAL\">{2}</link> produzido [<link=\"KCAL\">{1}</link> / unidade]"
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_NONFOOD
-#| msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELDPERHARVEST"
-#| msgid "{0} {1} per harvest"
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.TOOLTIPS.YIELD_NONFOOD"
 msgid "{0} produced per harvest"
 msgstr "{0} produzido por colheita"
@@ -80548,8 +80628,6 @@ msgid "{0}: {1} "
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_NONFOOD
-#| msgctxt "STRINGS.DUPLICANTS.DISEASES.ADDED_POPFX"
-#| msgid "{0}: {1} Germs"
 msgctxt "STRINGS.UI.UISIDESCREENS.PLANTERSIDESCREEN.YIELD_NONFOOD"
 msgid "{0}: {1} "
 msgstr ""
@@ -80622,8 +80700,8 @@ msgstr "Lançar Recursos:"
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_TARGET_SELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.LAUNCH_TARGET_SELECTED"
-msgid "Launcher destination {0} set."
-msgstr "Destino do lançador {0} selecionado."
+msgid "Launcher destination {0} set"
+msgstr "Destino do lançador {0} selecionado"
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.MINIMUM_PAYLOAD_MASS
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.MINIMUM_PAYLOAD_MASS"
@@ -80633,11 +80711,11 @@ msgstr "Massa mínima de lançamento:"
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.NO_SELECTED_LAUNCH_TARGET
 msgctxt "STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.NO_SELECTED_LAUNCH_TARGET"
 msgid ""
-"No destination selected.\n"
-"Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to set a course."
+"No destination selected\n"
+"Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to set a course"
 msgstr ""
 "Nenhum destino selecionado.\n"
-"Abra o <b>Mapa Estelar</b> <b><color=#F44A4A>[Z]</b></color> para selecionar "
+"Abra o <b>Mapa Estelar</b> <b><color=#F44A4A>[Z]</b></color> para definir "
 "uma rota."
 
 #. STRINGS.UI.UISIDESCREENS.RAILGUNSIDESCREEN.OPENSTARMAPBUTTON
@@ -81180,23 +81258,22 @@ msgstr "Objeto de Análise"
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_SELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.ANALYSIS_TARGET_SELECTED"
 msgid ""
-"Object focus selected.\n"
-"Analysis underway."
+"Object focus selected\n"
+"Analysis underway"
 msgstr ""
-"Objeto de estudo selecionada.\n"
-"Análise em andamento."
+"Objeto de foco selecionado\n"
+"Análise em andamento"
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.NO_SELECTED_ANALYSIS_TARGET
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.NO_SELECTED_ANALYSIS_TARGET"
 msgid ""
-"No analysis focus selected.\n"
-"Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to selected a "
-"focus."
+"No analysis focus selected\n"
+"Open the <b>Starmap</b> <b><color=#F44A4A>[Z]</b></color> to selected a focus"
 msgstr ""
-"Nenhum foco de análise selecionado.\n"
+"Nenhum foco de análise selecionado\n"
 "Abra o <b>Mapa Estelar</b> <b><color=#F44A4A>[Z]</b></color> para selecionar "
-"um foco."
+"um foco"
 
 #. STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.OPENSTARMAPBUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.TELESCOPESIDESCREEN.OPENSTARMAPBUTTON"
@@ -84847,6 +84924,78 @@ msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Moonlet"
 msgstr "Lua de Água"
 
+#~ msgctxt ""
+#~ "STRINGS.BUILDING.STATUSITEMS.TEMPORAL_TEAR_OPENER_READY."
+#~ "NOTIFICATION_TOOLTIP"
+#~ msgid "All that's left is to push the big red button."
+#~ msgstr "Tudo que resta é apertar o botão vermelho."
+
+#~ msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.DECORBONUS.DESC"
+#~ msgid "A change in Decor exhibited by this plant varaint"
+#~ msgstr "Uma mudança na Decor exibida por esta variante de planta"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.DESC"
+#~ msgid "W.I.P. Tech"
+#~ msgstr "Tecnologia em Desenvolvimento"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.NAME"
+#~ msgid "High Velocity Transport"
+#~ msgstr "Transporte de Alta Velocidade"
+
+#~| msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC"
+#~| msgid "W.I.P. skill"
+#~ msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.DESC"
+#~ msgid "W.I.P. Tech"
+#~ msgstr "Tecnologia em Desenvolvimento"
+
+#~| msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME"
+#~| msgid "W.I.P. Skill"
+#~ msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME"
+#~ msgid "W.I.P. Tech"
+#~ msgstr "Tecnologia em Desenvolvimento"
+
+#~| msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.NAME"
+#~| msgid "W.I.P. Skill"
+#~ msgctxt "STRINGS.RESEARCH.TECHS.SOLIDSPACE.DESC"
+#~ msgid "W.I.P. Tech"
+#~ msgstr "Tecnologia em Desenvolvimento"
+
+#~| msgctxt "STRINGS.DUPLICANTS.ROLES.THERMAL_SUIT_WEARER.NAME"
+#~| msgid "W.I.P. Skill"
+#~ msgctxt "STRINGS.RESEARCH.TECHS.SOLIDSPACE.NAME"
+#~ msgid "W.I.P. Tech"
+#~ msgstr "Tecnologia em Desenvolvimento"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.SPACEPROGRAM.DESC"
+#~ msgid ""
+#~ "Basic facilities for allowing the first Duplicant to reach space with "
+#~ "minimal harm."
+#~ msgstr ""
+#~ "Serviços básicos para permitir o primeiro Duplicante chegar no espaço com "
+#~ "o mínimo de risco."
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "A TOTALLY RAD UPDATE"
+#~ msgstr "UMA ATUALIZAÇÃO TOTALMENTE RADICAL"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
+#~ msgid ""
+#~ "<b>A Totally Rad Update</b>\n"
+#~ "\n"
+#~ "Added new Radiation system and Duplicant radiation sickness.\n"
+#~ "Radbolts from the new Research Reactor or Beeta critter can power Nuclear "
+#~ "Research at the Atomic Collider.\n"
+#~ "\n"
+#~ "Check out the full patch notes for more details!"
+#~ msgstr ""
+#~ "<b>Uma Atualização Completamente RADical</b>\n"
+#~ "\n"
+#~ "Novo sistema de Radiação e doença da radiação adicionados.\n"
+#~ "Radioraios a partir do novo Reator de Pesquisa ou a Abeta podem dar "
+#~ "energia a Pesquisa Nuclear no Colisor Atômico.\n"
+#~ "\n"
+#~ "Verifique as notas de atualização completas para mais detalhes!"
+
 #~ msgctxt "STRINGS.CREATURES.PLANT_MUTATIONS.BASIC_MUTATION_A.NAME"
 #~ msgid "Plentiful"
 #~ msgstr "Abundante"
@@ -86353,13 +86502,6 @@ msgstr "Lua de Água"
 #~ msgctxt "STRINGS.ELEMENTS.DEPLETEDURANIUM.DESC"
 #~ msgid "TBD"
 #~ msgstr "TB"
-
-#, fuzzy
-#~| msgctxt "STRINGS.CODEX.RESEARCH.TITLE"
-#~| msgid "<link=\"RESEARCH\">Research</link>"
-#~ msgctxt "STRINGS.RESEARCH.TECHS.NUCLEARRESEARCH.NAME"
-#~ msgid "<link=\"NUCLEAR\">Atomic Research</link>"
-#~ msgstr "<link=\"RESEARCH\">Pesquisa</link>"
 
 #, fuzzy
 #~| msgid ""
