@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! DLC 1.0.2\n"
+"Project-Id-Version: Português foi Incluído! DLC 1.0.3\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -33009,6 +33009,16 @@ msgctxt "STRINGS.DUPLICANTS.DEATHS.COMBAT.NAME"
 msgid "Slain"
 msgstr "Assassinato"
 
+#. STRINGS.DUPLICANTS.DEATHS.DEADBATTERY.DESCRIPTION
+msgctxt "STRINGS.DUPLICANTS.DEATHS.DEADBATTERY.DESCRIPTION"
+msgid "{Target} had a limited battery and that battery has depleted."
+msgstr "{Target} tinha uma bateria limitada e aquela bateria descarregou."
+
+#. STRINGS.DUPLICANTS.DEATHS.DEADBATTERY.NAME
+msgctxt "STRINGS.DUPLICANTS.DEATHS.DEADBATTERY.NAME"
+msgid "Battery Ran Out"
+msgstr "Bateria Descarregou"
+
 #. STRINGS.DUPLICANTS.DEATHS.DROWNED.DESCRIPTION
 msgctxt "STRINGS.DUPLICANTS.DEATHS.DROWNED.DESCRIPTION"
 msgid "{Target} has drowned."
@@ -62340,6 +62350,34 @@ msgstr ""
 "- A Equipe na Klei\n"
 "- Traduzido por Chastomber :P"
 
+#. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS
+msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.BODY_NOLINKS"
+msgid ""
+"This DLC is currently in active development, which means you're likely to "
+"encounter strange, amusing, and occasionally just downright frustrating "
+"bugs.\n"
+"\n"
+" During this time Spaced Out! will be receiving regular updates to fix bugs, "
+"add features, and introduce additional content.\n"
+"\n"
+" We've got lots of content old and new to add to this DLC before it's ready, "
+"and we're happy to have you along with us. Enjoy your time in deep space!\n"
+"\n"
+" - The Team at Klei"
+msgstr ""
+"Esta DLC ainda está no estágios iniciais de desenvolvimento o que significa "
+"que você provavelmente irá encontrar erros estranhos, divertidos e as vezes "
+"muito frustrantes.\n"
+"\n"
+"Durante este tempo Spaced Out! irá receber atualizações regulares para "
+"consertar erros, adicionar ferramentas e conteúdo adicional.\n"
+"\n"
+"Nós temos muito conteúdo para adicionar esta DLC antes dela ficar pronta, e "
+"nós estamos prontos para levar vocês conosco. Divirta-se no espaço!\n"
+"\n"
+"- A Equipe na Klei\n"
+"- Traduzido por Chastomber :P"
+
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.CONTINUEBUTTON"
 msgid "Okay, thanks for the heads up!"
@@ -62353,7 +62391,7 @@ msgstr "Visitar Fóruns"
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.TITLE
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.LOADING.TITLE"
 msgid "<b>Welcome to <i>Spaced Out!</i></b>"
-msgstr ""
+msgstr "<b>Bem vindo à <i>Spaced Out!</i></b>"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.ALPHA.MESSAGES.FEEDBACK"
@@ -62457,7 +62495,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (DLC 1.0.2): {0}"
+msgstr "VERSÃO (DLC 1.0.3): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -65876,6 +65914,11 @@ msgstr "Inscrição"
 msgctxt "STRINGS.UI.FRONTEND.MODS.MANAGE_LOCAL"
 msgid "Browse"
 msgstr "Navegar"
+
+#. STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT
+msgctxt "STRINGS.UI.FRONTEND.MODS.MOD_DISABLED_CONTENT"
+msgid " - <i>Not compatible with {Content}</i>"
+msgstr " - <i>Incompatível com {Content}</i>"
 
 #. STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART
 msgctxt "STRINGS.UI.FRONTEND.MODS.REQUIRES_RESTART"
