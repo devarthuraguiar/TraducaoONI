@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.0.4\n"
+"Project-Id-Version: Português foi Incluído! 3.0.5\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -452,10 +452,6 @@ msgid "Area Complete"
 msgstr "Área Concluída"
 
 #. STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.TOOLTIP
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.OUTPUTBLOCKED.TOOLTIP"
-#| msgid ""
-#| "Blocked <style=\"KKeyword\">Pipes</style> have stopped these systems from "
-#| "functioning:"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.CLUSTERTELESCOPEALLWORKCOMPLETE.TOOLTIP"
 msgid ""
 "This <style=\"KKeyword\">Telescope</style> has analyzed all the space "
@@ -1798,11 +1794,11 @@ msgid ""
 "This <style=\"KKeyword\">Logic Wire</style> is taking damage\n"
 "\n"
 "Limit the output to one Bit, or replace it with <style=\"KKeyword\">Logic "
-"Wire</style> to prevent further damage"
+"Ribbon</style> to prevent further damage"
 msgstr ""
-"Este <style=\"KKeyword\">Cabo Automatizado</style> está sofrendo dano.\n"
+"Este <style=\"KKeyword\">Cabo Automatizado</style> está sofrendo dano\n"
 "\n"
-"Limite a saída para um Bit ou substitua com um <style=\"KKeyword\">Cabo "
+"Limite a saída para um Bit ou substitua com um <style=\"KKeyword\">Cinturão "
 "Automatizado</style> para impedir mais danos"
 
 #. STRINGS.BUILDING.STATUSITEMS.LOGICSENSORSTATUSACTIVE.NAME
@@ -5746,11 +5742,6 @@ msgstr ""
 "aparelhos usados na colônia."
 
 #. STRINGS.BUILDINGS.PREFABS.CRAFTINGTABLE.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT"
-#| msgid ""
-#| "Inefficiently produces refined materials from raw resources.\n"
-#| "\n"
-#| "Duplicants will not fabricate items unless recipes are queued."
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRAFTINGTABLE.EFFECT"
 msgid ""
 "Duplicants can use this Crafting Table to build various gadgets used in the "
@@ -5764,8 +5755,6 @@ msgstr ""
 "Duplicantes não irão fabricar enquanto receitas não estiverem na fila."
 
 #. STRINGS.BUILDINGS.PREFABS.CRAFTINGTABLE.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.DININGTABLE.NAME"
-#| msgid "<link=\"DININGTABLE\">Mess Table</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.CRAFTINGTABLE.NAME"
 msgid "<link=\"CRAFTINGTABLE\">Crafting Table</link>"
 msgstr "<link=\"CRAFTINGTABLE\">Mesa de Fabricação</link>"
@@ -11929,15 +11918,6 @@ msgstr ""
 "de Oxigênio quando não estiver em uso."
 
 #. STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.EFFECT
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LEADSUITLOCKER.EFFECT"
-#| msgid ""
-#| "Stores <link=\"LEADSUIT\">Lead Suits</link> and refuels them  with <link="
-#| "\"OXYGEN\">Oxygen</link>.\n"
-#| "\n"
-#| "Empties suits of <link=\"DIRTYWATER\">Polluted Water</link>.\n"
-#| "\n"
-#| "Build next to a <link=\"LEADSUITMARKER\">Lead Suit Checkpoint</link> to "
-#| "make Duplicants change into suits when passing by."
 msgctxt "STRINGS.BUILDINGS.PREFABS.OXYGENMASKLOCKER.EFFECT"
 msgid ""
 "Stores <link=\"OXYGENMASK\">Oxygen Masks</link> and refuels them with <link="
@@ -42384,7 +42364,7 @@ msgstr "Este Duplicante trata cada planta como um potencial amigo"
 #. STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME
 msgctxt "STRINGS.DUPLICANTS.TRAITS.GREENTHUMB.NAME"
 msgid "Green Thumb"
-msgstr "Polegar Verde"
+msgstr "Dedo Verde"
 
 #. STRINGS.DUPLICANTS.TRAITS.HEMOPHOBIA.DESC
 msgctxt "STRINGS.DUPLICANTS.TRAITS.HEMOPHOBIA.DESC"
@@ -51673,8 +51653,6 @@ msgid "This building is currently being cleaned"
 msgstr "Esta estrutura está sendo limpa no momento"
 
 #. STRINGS.MISC.STATUSITEMS.DURABILITY.NAME
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.DETECTORQUALITY.NAME"
-#| msgid "Scan Quality: {Quality}"
 msgctxt "STRINGS.MISC.STATUSITEMS.DURABILITY.NAME"
 msgid "Durability: {durability}"
 msgstr "Durabilidade: {durability}"
@@ -56245,8 +56223,6 @@ msgid "Big rocket engines with smoke"
 msgstr "Motores grandes de foguete com fumaça"
 
 #. STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.ENGINESII.NAME"
-#| msgid "<link=\"ENGINESII\">Hydrocarbon Combustion</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.NAME"
 msgid "<link=\"HYDROCARBONPROPULSION\">Hydrocarbon Propulsion</link>"
 msgstr "<link=\"HYDROCARBONPROPULSION\">Propulsão à Hidrocarbonetos</link>"
@@ -57621,8 +57597,6 @@ msgid "Two wild plants"
 msgstr "Duas plantas selvagens"
 
 #. STRINGS.ROOMS.CRITERIA.WILDPLANTS.DESCRIPTION
-#| msgctxt "STRINGS.ROOMS.CRITERIA.FLUSH_TOILET.DESCRIPTION"
-#| msgid "Requires one or more Lavatories"
 msgctxt "STRINGS.ROOMS.CRITERIA.WILDPLANTS.DESCRIPTION"
 msgid "Requires four or more wild plants"
 msgstr "Requer quatro ou mais plantas selvagens"
@@ -60906,14 +60880,12 @@ msgid "Battery"
 msgstr "Bateria"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.FAIL
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.FAIL"
 msgid ""
 msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.PASS
-#| msgid ""
 msgctxt ""
 "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.CRITERIA_CHECK_CAPACITY.PASS"
 msgid ""
@@ -60930,8 +60902,6 @@ msgid "    • Low battery capacity relative to power use"
 msgstr "    • Baixa capacidade da bateria em relação ao uso energético"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NONE
-#| msgctxt "STRINGS.BUILDING.STATUSITEMS.NOPOWERCONSUMERS.TOOLTIP"
-#| msgid "No buildings are connected to this power source"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.BATTERYDIAGNOSTIC.NONE"
 msgid "    • No batteries are connected to a power grid"
 msgstr "    • Nenhuma bateria está conectada a um circuito elétrico"
@@ -61123,8 +61093,6 @@ msgid "    • Duplicants have no food"
 msgstr "    • Duplicantes não tem comida"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA_HAS_FOOD.PASS
-#| msgctxt "STRINGS.MISC.NOTIFICATIONS.DEATH_FROZENSOLID.NAME"
-#| msgid "Duplicants have frozen"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.CRITERIA_HAS_FOOD.PASS"
 msgid "    • Duplicants have food"
 msgstr "    • Duplicantes tem comida"
@@ -61140,8 +61108,6 @@ msgid "    • Food-to-Duplicant ratio is low"
 msgstr "    • Razão Duplicante comida está baixa"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NO_FOOD
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NO_FOOD"
-#| msgid "    • This colony has no food"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FOODDIAGNOSTIC.NO_FOOD"
 msgid "    • Duplicants have no food"
 msgstr "    • Duplicantes não tem comida"
@@ -61162,8 +61128,6 @@ msgid "Criteria not met"
 msgstr "Critérios não atingidos"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA_PASS
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.LOGICCRITTERCOUNTSENSOR.LOGIC_PORT"
-#| msgid "Critter Count"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.GENERIC_CRITERIA_PASS"
 msgid "Criteria met"
 msgstr "Critérios atingidos"
@@ -61288,8 +61252,6 @@ msgid "<b>Rocket Oxidizer</b>"
 msgstr "<b>Oxidante de Foguete</b>"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING"
-#| msgid "    • Insufficient oxidizer"
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.ROCKETOXIDIZERDIAGNOSTIC.WARNING"
 msgid "    • This rocket has insufficient oxidizer"
 msgstr "    • Este foguete não tem oxidante suficiente"
@@ -63021,7 +62983,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.0.4): {0}"
+msgstr "VERSÃO DE TESTE (3.0.5): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -63051,7 +63013,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.0.4): {0}"
+msgstr "VERSÃO (3.0.5): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -74005,6 +73967,11 @@ msgctxt "STRINGS.UI.STARMAP.COMPONENT.FUEL_TANK"
 msgid "Fuel Tank"
 msgstr "Tanque de Combustível"
 
+#. STRINGS.UI.STARMAP.COMPONENT.OXIDIZER_TANK
+msgctxt "STRINGS.UI.STARMAP.COMPONENT.OXIDIZER_TANK"
+msgid "Oxidizer Tank"
+msgstr "Tanque de Oxidante"
+
 #. STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE
 msgctxt "STRINGS.UI.STARMAP.COMPONENT.ROCKET_ENGINE"
 msgid "Rocket Engine"
@@ -74269,8 +74236,8 @@ msgstr "Tripulação Qualificada a bordo"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE"
 msgid ""
-"Missing crew - at least one crew member must have the <link=\"PILOT\">Rocket "
-"Piloting</link> skill"
+"Missing crew - at least one crew member aboard the rocket must have the "
+"<link=\"PILOT\">Rocket Piloting</link> skill"
 msgstr ""
 "Falta tripulação - pelo menos um membro da tripulação precisa da habilidade "
 "<link=\"PILOT\">Pilotagem de Foguetes</link>"
@@ -74409,6 +74376,38 @@ msgstr "Foguete tem Nariz"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.WARNING"
 msgid "Nosecone warning"
 msgstr "Alerta de nariz"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.FAILURE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.FAILURE"
+msgid "Needs oxidizer tank"
+msgstr "Precisa de tanque de oxidante"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.READY"
+msgid "Oxidizer tank"
+msgstr "Tanque de oxidante abastecido"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.WARNING
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.STATUS.WARNING"
+msgid "Oxidizer tank warning"
+msgstr "Alerta de tanque de oxidante"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.FAILURE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.FAILURE"
+msgid "Rocket needs an Oxidizer tank"
+msgstr "Foguete precisa de um tanque de Oxidante"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.READY"
+msgid "Rocket has an Oxidizer tank"
+msgstr "Foguete tem um tanque de Oxidante"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.WARNING
+#| msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_FUEL_TANK.STATUS.WARNING"
+#| msgid "Fuel tank warning"
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_OXIDIZER_TANK.TOOLTIP.WARNING"
+msgid "Oxidizer tank warning"
+msgstr "Alerta de tanque de oxidante"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT"
@@ -74584,8 +74583,8 @@ msgstr "Alerta de tripulação"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.FAILURE"
-msgid "Insufficient Fuel"
-msgstr "Combustível Insuficiente"
+msgid "Insufficient fuel"
+msgstr "Combustível insuficiente"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.READY"
@@ -74594,43 +74593,41 @@ msgstr "Abastecido"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.STATUS.WARNING"
-msgid "Warning: Partially Fueled"
-msgstr "Perigo: Parcialmente Abastecido"
+msgid "Warning: partially fueled"
+msgstr "Perigo: parcialmente abastecido"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE"
 msgid ""
-"More fuel or oxidizer must be loaded before this rocket is ready for "
-"takeoff.\n"
+"More fuel must be loaded before this rocket is ready for takeoff.\n"
 "\n"
 "If the tanks are already full then this rocket can never reach that "
 "destination"
 msgstr ""
-"Mais combustível ou oxidante precisam ser carregados antes deste foguete "
-"decolar. \n"
+"Mais combustível precisa ser carregado antes deste foguete decolar. \n"
 "\n"
-"Se os tanques já estiverem cheios então este foguete nunca chegará no destino"
+"Se os tanques já estiverem cheios então este foguete nunca chegará ao destino"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY"
 msgid ""
-"This rocket has sufficient fuel and oxidizer a round trip to and from its "
+"This rocket has sufficient fuel to make a round trip to and from its "
 "selected destination (or fully fuelled if no destination selected)"
 msgstr ""
-"Este foguete tem combustível e oxidante suficientes para uma viagem de ida e "
-"volta ao destino selecionado (ou completamente abastecido se nenhum destino "
+"Este foguete tem combustível suficiente para uma viagem de ida e volta ao "
+"destino selecionado (ou completamente abastecido se nenhum destino "
 "selecionado)"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING"
 msgid ""
-"This rocket has enough fuel and oxidizer to make it to its destination, but "
-"not back again.\n"
+"This rocket has enough fuel to make it to its destination, but not back "
+"again.\n"
 "\n"
 "The rocket can still be launched if necessary"
 msgstr ""
-"Este foguete tem combustível e oxidante suficiente para ir ao destino, mas "
-"não para voltar.\n"
+"Este foguete tem combustível suficiente para ir ao destino, mas não para "
+"voltar.\n"
 "\n"
 "Este foguete ainda pode ser decolado se necessário"
 
@@ -74652,6 +74649,52 @@ msgid ""
 msgstr ""
 "{0} tem {1} recursos disponíveis. \n"
 "Foguete tem capacidade para {2}."
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.FAILURE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.FAILURE"
+msgid "Insufficient oxidizer"
+msgstr "Oxidante insuficiente"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.READY"
+msgid "Sufficient oxidizer"
+msgstr "Oxidante suficiente"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.WARNING
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.STATUS.WARNING"
+msgid "Warning: limited oxidizer"
+msgstr "Cuidado: oxidante limitado"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.FAILURE
+msgctxt ""
+"STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.FAILURE"
+msgid "More oxidizer must be loaded before this rocket is ready for takeoff."
+msgstr ""
+"Mais oxidante precisa ser carregados antes deste foguete estiver pronto para "
+"decolar."
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.READY"
+msgid ""
+"This rocket has sufficient oxidizer for a round trip to and from its "
+"selected destination"
+msgstr ""
+"Este foguete tem oxidante suficiente para uma viagem de ida e volta ao "
+"destino selecionado"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.WARNING
+msgctxt ""
+"STRINGS.UI.STARMAP.LAUNCHCHECKLIST.SUFFICIENT_OXIDIZER.TOOLTIP.WARNING"
+msgid ""
+"This rocket has enough oxidizer to make it to its destination, but not back "
+"again.\n"
+"\n"
+"The rocket can still be launched if necessary"
+msgstr ""
+"Este foguete tem oxidante suficiente para ir ao destino, mas não para "
+"voltar.\n"
+"\n"
+"Este foguete ainda pode ser decolado se necessário"
 
 #. STRINGS.UI.STARMAP.LISTTITLES.ANALYSIS
 msgctxt "STRINGS.UI.STARMAP.LISTTITLES.ANALYSIS"
@@ -78971,10 +79014,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ENGINE_AT_BOTTOM.FAILED
-#| msgctxt ""
-#| "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
-#| "ENGINE_AT_BOTTOM.FAILED"
-#| msgid "Must install engine module at bottom of rocket"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ENGINE_AT_BOTTOM."
 "FAILED"
@@ -79031,10 +79070,6 @@ msgid ""
 msgstr ""
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.ONE_ENGINE_PER_ROCKET.FAILED
-#| msgctxt ""
-#| "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
-#| "ONE_ENGINE_PER_ROCKET.FAILED"
-#| msgid "Engine module already installed"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS."
 "ONE_ENGINE_PER_ROCKET.FAILED"
