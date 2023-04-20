@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.2\n"
+"Project-Id-Version: Português foi Incluído! 3.2.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -27626,8 +27626,6 @@ msgstr ""
 "Está firmemente enraizada, e aparenta estar por aqui a um bom tempo."
 
 #. STRINGS.CREATURES.SPECIES.SAPTREE.NAME
-#| msgctxt "STRINGS.ELEMENTS.CEMENT.NAME"
-#| msgid "<link=\"CEMENT\">Cement</link>"
 msgctxt "STRINGS.CREATURES.SPECIES.SAPTREE.NAME"
 msgid "<link=\"SAPTREE\">Experiment 52B</link>"
 msgstr "<link=\"SAPTREE\">Experimento 52B</link>"
@@ -56246,6 +56244,20 @@ msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDRESEARCH.NAME"
 msgid "<link=\"ADVANCEDRESEARCH\">Advanced Research</link>"
 msgstr "<link=\"ADVANCEDRESEARCH\">Pesquisa Avançada</link>"
 
+#. STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.DESC
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.DESC"
+msgid "Computerized systems do the looking, so Duplicants don't have to."
+msgstr ""
+"Sistemas computadorizados fazem a busca, para que os Duplicantes não tenham "
+"que fazer."
+
+#. STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.NAME
+#| msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDFILTRATION.NAME"
+#| msgid "<link=\"ADVANCEDFILTRATION\">Filtration</link>"
+msgctxt "STRINGS.RESEARCH.TECHS.ADVANCEDSCANNERS.NAME"
+msgid "<link=\"ADVANCEDSCANNERS\">Sensitive Microimaging</link>"
+msgstr "<link=\"ADVANCEDSCANNERS\">Imageamento Sensível</link>"
+
 #. STRINGS.RESEARCH.TECHS.AGRICULTURE.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.AGRICULTURE.DESC"
 msgid "Master the agricultural art of crop raising."
@@ -58460,6 +58472,23 @@ msgstr ""
 "Intervalo aumentará a Moral dos Duplicantes que estiverem visitando uma Sala "
 "de Recreação."
 
+#. STRINGS.SUBWORLDS.AQUATIC.DESC
+#| msgid ""
+msgctxt "STRINGS.SUBWORLDS.AQUATIC.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.SUBWORLDS.AQUATIC.NAME
+msgctxt "STRINGS.SUBWORLDS.AQUATIC.NAME"
+msgid "Aquatic"
+msgstr "Aquático"
+
+#. STRINGS.SUBWORLDS.AQUATIC.UTILITY
+#| msgid ""
+msgctxt "STRINGS.SUBWORLDS.AQUATIC.UTILITY"
+msgid ""
+msgstr ""
+
 #. STRINGS.SUBWORLDS.BARREN.DESC
 msgctxt "STRINGS.SUBWORLDS.BARREN.DESC"
 msgid ""
@@ -58761,6 +58790,23 @@ msgstr "Metálico"
 
 #. STRINGS.SUBWORLDS.METALLIC.UTILITY
 msgctxt "STRINGS.SUBWORLDS.METALLIC.UTILITY"
+msgid ""
+msgstr ""
+
+#. STRINGS.SUBWORLDS.MOO.DESC
+#| msgid ""
+msgctxt "STRINGS.SUBWORLDS.MOO.DESC"
+msgid ""
+msgstr ""
+
+#. STRINGS.SUBWORLDS.MOO.NAME
+msgctxt "STRINGS.SUBWORLDS.MOO.NAME"
+msgid "Moo"
+msgstr "Boi"
+
+#. STRINGS.SUBWORLDS.MOO.UTILITY
+#| msgid ""
+msgctxt "STRINGS.SUBWORLDS.MOO.UTILITY"
 msgid ""
 msgstr ""
 
@@ -63496,7 +63542,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.2): {0}"
+msgstr "VERSÃO DE TESTE (3.2.1): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -63526,7 +63572,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.2): {0}"
+msgstr "VERSÃO (3.2.1): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -74885,28 +74931,53 @@ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.FAILURE"
 msgid ""
 "No crew members have boarded this rocket\n"
 "\n"
-"Make sure Duplicants have been assigned to this rocket's crew, and that they "
-"have access to the rocket's hatch"
+"Duplicants must be assigned to the rocket crew and have access to the "
+"module's hatch to board\n"
+"------------------\n"
+"    • {0}/{1} Boarded"
 msgstr ""
 "Nenhum tripulante embarcou neste foguete\n"
 "\n"
-"Certifique-se de que Duplicantes foram designados como tripulantes deste "
-"foguete, e que eles possuem acesso a escotilha do foguete"
+"Duplicantes precisam ser designados como tripulantes deste foguete e ter "
+"acesso a escotilha do foguete para embarcar\n"
+"------------------\n"
+"    • {0}/{1} Embarcados"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.NONE
+#| msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING"
+#| msgid "Some Duplicants assigned to this rocket's crew have not yet boarded"
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.NONE"
+msgid ""
+"There are no Duplicants assigned to this rocket crew\n"
+"------------------\n"
+"    • {0}/{1} Boarded"
+msgstr ""
+"Nenhum Duplicante foi designado para a tripulação deste foguete\n"
+"------------------\n"
+"    • {0}/{1} Embarcados"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.READY"
 msgid ""
-"All Duplicants assigned to this rocket crew are on board and ready for launch"
+"All Duplicants assigned to the rocket crew are boarded and ready for launch\n"
+"------------------\n"
+"    • {0}/{1} Boarded"
 msgstr ""
-"Todos os Duplicantes designados como tripulantes deste foguete estão a bordo "
-"e pronto para decolagem"
+"Todos os Duplicantes designados como tripulantes estão a bordo e pronto para "
+"decolagem\n"
+"------------------\n"
+"    • {0}/{1} Embarcados"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.TOOLTIP.WARNING"
-msgid "Some Duplicants assigned to this rocket's crew have not yet boarded"
+msgid ""
+"Some Duplicants assigned to this rocket crew have not yet boarded\n"
+"------------------\n"
+"    • {0}/{1} Boarded"
 msgstr ""
-"Alguns Duplicantes designados como tripulantes deste foguete ainda não estão "
-"a bordo"
+"Alguns Duplicantes designados como tripulantes ainda não embarcaram\n"
+"------------------\n"
+"    • {0}/{1} Embarcados"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.CREW_BOARDED.WARNING"
@@ -75272,14 +75343,14 @@ msgid ""
 "At least one crew member aboard the rocket must possess the <link=\"PILOT"
 "\">Rocket Piloting</link> skill to launch\n"
 "\n"
-"Make sure a qualified Duplicant is assigned to this rocket's crew, and that "
-"they have access to the rocket's hatch"
+"A qualified Duplicant must be assigned to this rocket's crew, and have "
+"access to the module's hatch"
 msgstr ""
 "Pelo menos um membro da tripulação a bordo do foguete deve possuir a "
 "habilidade <link=\"PILOT\">Pilotagem de Foguetes</link> para decolar\n"
 "\n"
-"Certifique-se de que um Duplicante qualificado está atribuído à tripulação "
-"deste foguete, e que ele possui acesso a escotilha do foguete"
+"Um Duplicante qualificado deve ser designado como tripulante deste foguete, "
+"e ter acesso a escotilha do foguete"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PILOT_BOARDED.TOOLTIP.READY"
@@ -75318,37 +75389,42 @@ msgstr "Abastecido"
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE"
 msgid ""
-"More fuel must be loaded before this rocket is ready for takeoff.\n"
+"This rocket does not have enough fuel to reach its destination\n"
 "\n"
-"If the tanks are already full then this rocket can never reach that "
-"destination"
+"If the tanks are full, a different Fuel Tank Module may be required"
 msgstr ""
-"Mais combustível precisa ser carregado antes deste foguete decolar. \n"
+"Este foguete não possui combustível suficiente para chegar ao seu destino\n"
 "\n"
-"Se os tanques já estiverem cheios então este foguete nunca chegará ao destino"
+"Se os tanques estiverem cheios, um diferente Módulo de Tanque de Combustível "
+"será necessário"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY"
 msgid ""
-"This rocket has sufficient fuel to make a round trip to and from its "
-"selected destination (or fully fuelled if no destination selected)"
+"The rocket is sufficiently fueled for a roundtrip to its destination and back"
 msgstr ""
-"Este foguete tem combustível suficiente para uma viagem de ida e volta ao "
-"destino selecionado (ou completamente abastecido se nenhum destino "
-"selecionado)"
+"Este foguete está suficientemente abastecido para uma viagem de ida e volta "
+"ao destino"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY_NO_DESTINATION
+msgctxt ""
+"STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP."
+"READY_NO_DESTINATION"
+msgid ""
+"This rocket's fuel tanks have been filled to capacity, but it has no "
+"destination"
+msgstr ""
+"Os tanques de combustível deste foguete foram completamente abastecidos, mas "
+"não possui destino"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.WARNING"
 msgid ""
-"This rocket has enough fuel to make it to its destination, but not back "
-"again.\n"
-"\n"
-"The rocket can still be launched if necessary"
+"The rocket has enough fuel for a one-way trip to its destination, but will "
+"not be able to make it back"
 msgstr ""
-"Este foguete tem combustível suficiente para ir ao destino, mas não para "
-"voltar.\n"
-"\n"
-"Este foguete ainda pode ser decolado se necessário"
+"Este foguete tem combustível suficiente para ir ao destino, mas não irá "
+"conseguir voltar"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.REQUIRED"
@@ -79165,8 +79241,8 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.SELECT_DUPLICANT"
-msgid "Select Duplicant..."
-msgstr "Selecione Duplicante..."
+msgid "Select Duplicant"
+msgstr "Selecione Duplicante"
 
 #. STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE
 msgctxt "STRINGS.UI.UISIDESCREENS.MODULEFLIGHTUTILITYSIDESCREEN.TITLE"
@@ -83679,6 +83755,27 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "Asteroide Água"
+
+#~ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.FAILURE"
+#~ msgid ""
+#~ "More fuel must be loaded before this rocket is ready for takeoff.\n"
+#~ "\n"
+#~ "If the tanks are already full then this rocket can never reach that "
+#~ "destination"
+#~ msgstr ""
+#~ "Mais combustível precisa ser carregado antes deste foguete decolar. \n"
+#~ "\n"
+#~ "Se os tanques já estiverem cheios então este foguete nunca chegará ao "
+#~ "destino"
+
+#~ msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.PROPERLY_FUELED.TOOLTIP.READY"
+#~ msgid ""
+#~ "This rocket has sufficient fuel to make a round trip to and from its "
+#~ "selected destination (or fully fuelled if no destination selected)"
+#~ msgstr ""
+#~ "Este foguete tem combustível suficiente para uma viagem de ida e volta ao "
+#~ "destino selecionado (ou completamente abastecido se nenhum destino "
+#~ "selecionado)"
 
 #~ msgctxt "STRINGS.CREATURES.SPECIES.SAPTREE.DESC"
 #~ msgid ""
