@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.10\n"
+"Project-Id-Version: Português foi Incluído! 3.10.1\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -1276,7 +1276,7 @@ msgstr "Estruturas não conseguem funcionar na saturação atual"
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME"
 msgid "{toilet} Ready"
-msgstr ""
+msgstr "{toilet} Pronta"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP"
@@ -6837,11 +6837,9 @@ msgstr ""
 "Entrega um Duplicante de um foguete a deriva para o asteroide mais próximo."
 
 #. STRINGS.BUILDINGS.PREFABS.ESCAPEPOD.NAME
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.NAME"
-#| msgid "<link=\"TELESCOPE\">Telescope</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESCAPEPOD.NAME"
-msgid "<link=\"ESCAPEPOD\">Escape Pod</link>"
-msgstr "<link=\"ESCAPEPOD\">Cápsula de Fuga</link>"
+msgid "Escape Pod"
+msgstr "Cápsula de Fuga"
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC"
@@ -9191,6 +9189,33 @@ msgstr "Permite mobilidade vertical para os Duplicantes."
 msgctxt "STRINGS.BUILDINGS.PREFABS.LADDER.NAME"
 msgid "<link=\"LADDER\">Ladder</link>"
 msgstr "<link=\"LADDER\">Escada</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.LADDERBED.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.LADDERBED.DESC"
+msgid ""
+"Duplicants can be interrupted if another duplicant uses the ladder while "
+"sleeping."
+msgstr ""
+"Duplicantes pode ser interrompidos se outro duplicante usar a escada "
+"enquanto estiver dormindo."
+
+#. STRINGS.BUILDINGS.PREFABS.LADDERBED.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.LADDERBED.EFFECT"
+msgid ""
+"Provides a sleeping area for one Duplicant and also functions as a ladder.\n"
+"\n"
+"Duplicants will automatically sleep in their assigned beds at night."
+msgstr ""
+"Dá a um Duplicante um local para descansar e também funciona como escada.\n"
+"\n"
+"Duplicantes irão automaticamente dormir nas camas quando for de noite."
+
+#. STRINGS.BUILDINGS.PREFABS.LADDERBED.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.LADDER.NAME"
+#| msgid "<link=\"LADDER\">Ladder</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.LADDERBED.NAME"
+msgid "<link=\"LADDERBED\">Ladder Bed</link>"
+msgstr "<link=\"LADDERBED\">Beliche</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.LADDERFAST.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.LADDERFAST.DESC"
@@ -14722,6 +14747,26 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUT.NAME"
 msgid "<link=\"ROCKETINTERIORGASINPUT\">Gas Intake Fitting</link>"
 msgstr "<link=\"ROCKETINTERIORGASINPUT\">Adaptador de Entrada de Gás</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUTPORT.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUTPORT.DESC"
+msgid "A direct attachment to the output port on the exterior of the rocket."
+msgstr "Uma conexão direta com a porta de saída no exterior do foguete."
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUTPORT.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUTPORT.EFFECT"
+msgid ""
+"Allows a direct conduit connection out of the habitat module of the rocket.\n"
+"Can be used to vent Gasses to space during flight."
+msgstr ""
+"Permite uma conexão de condutor direta para fora do módulo de habitat do "
+"foguete.\n"
+"Pode ser usado para eliminar Gases no espaço durante o voo."
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUTPORT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASINPUTPORT.NAME"
+msgid "<link=\"ROCKETINTERIORGASINPUTPORT\">Gas Input Port</link>"
+msgstr "<link=\"ROCKETINTERIORGASINPUTPORT\">Porta de Entrada de Gás</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.DESC"
 msgid "Refreshing breezes, on-demand."
@@ -14748,6 +14793,24 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUT.NAME"
 msgid "<link=\"ROCKETINTERIORGASOUTPUT\">Gas Output Fitting</link>"
 msgstr "<link=\"ROCKETINTERIORGASOUTPUT\">Adaptador de Saída de Gás</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUTPORT.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUTPORT.DESC"
+msgid "A direct attachment to the input port on the exterior of the rocket."
+msgstr "Uma conexão direta com a porta de entrada no exterior do foguete."
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUTPORT.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUTPORT.EFFECT"
+msgid ""
+"Allows a direct conduit connection into the habitat module of the rocket."
+msgstr ""
+"Permite uma conexão de condutor direta para dentro do módulo de habitat do "
+"foguete."
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUTPORT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORGASOUTPUTPORT.NAME"
+msgid "<link=\"ROCKETINTERIORGASOUTPUTPORT\">Gas Output Port</link>"
+msgstr "<link=\"ROCKETINTERIORGASOUTPUTPORT\">Porta de Saída de Gás</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUT.DESC"
@@ -14777,6 +14840,27 @@ msgid "<link=\"ROCKETINTERIORLIQUIDINPUT\">Liquid Intake Fitting</link>"
 msgstr ""
 "<link=\"ROCKETINTERIORLIQUIDINPUT\">Adaptador de Entrada de Líquido</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUTPORT.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUTPORT.DESC"
+msgid "A direct attachment to the output port on the exterior of the rocket."
+msgstr "Uma conexão direta com a porta de saída no exterior do foguete."
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUTPORT.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUTPORT.EFFECT"
+msgid ""
+"Allows a direct conduit connection out of the habitat module of the rocket.\n"
+"Can be used to vent Liquids to space during flight."
+msgstr ""
+"Permite uma conexão de condutor direta para fora do módulo de habitat do "
+"foguete.\n"
+"Pode ser usada para eliminar Líquidos no espaço durante o voo."
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUTPORT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDINPUTPORT.NAME"
+msgid "<link=\"ROCKETINTERIORLIQUIDINPUTPORT\">Liquid Input Port</link>"
+msgstr ""
+"<link=\"ROCKETINTERIORLIQUIDINPUTPORT\">Porta de Entrada de Líquido</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUT.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUT.DESC"
 msgid "Now if only we had some water balloons..."
@@ -14804,6 +14888,24 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUT.NAME"
 msgid "<link=\"ROCKETINTERIORLIQUIDOUTPUT\">Liquid Output Fitting</link>"
 msgstr ""
 "<link=\"ROCKETINTERIORLIQUIDOUTPUT\">Adaptador de Saída de Líquido</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUTPORT.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUTPORT.DESC"
+msgid "A direct attachment to the input port on the exterior of the rocket."
+msgstr "Uma conexão direta com a porta de entrada no exterior do foguete."
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUTPORT.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUTPORT.EFFECT"
+msgid ""
+"Allows a direct conduit connection into the habitat module of the rocket."
+msgstr ""
+"Permite uma conexão de condutor direta para dentro do módulo do foguete."
+
+#. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUTPORT.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORLIQUIDOUTPUTPORT.NAME"
+msgid "<link=\"ROCKETINTERIORLIQUIDOUTPUTPORT\">Liquid Output Port</link>"
+msgstr ""
+"<link=\"ROCKETINTERIORLIQUIDOUTPUTPORT\">Porta de Saída de Líquido</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORPOWERPLUG.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKETINTERIORPOWERPLUG.DESC"
@@ -23237,8 +23339,8 @@ msgstr "Planta de Especiaria Comestível"
 
 #. STRINGS.CODEX.DASHASALTVINE.TITLE
 msgctxt "STRINGS.CODEX.DASHASALTVINE.TITLE"
-msgid "Balm Lily"
-msgstr "Lírio Milagroso"
+msgid "Dasha Salt Vine"
+msgstr "Vinha Saleiro"
 
 #. STRINGS.CODEX.DECOR.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.DECOR.BODY.CONTAINER1"
@@ -36830,6 +36932,11 @@ msgctxt ""
 msgid "Not preferred assignment"
 msgstr "Não designado a sua preferência"
 
+#. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ROCKET_TRAVELLING
+msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_ROCKET_TRAVELLING"
+msgid "Rocket must be travelling"
+msgstr "Foguete precisa estar voando"
+
 #. STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_SCHEDULED_TIME
 msgctxt "STRINGS.DUPLICANTS.CHORES.PRECONDITIONS.IS_SCHEDULED_TIME"
 msgid "Not allowed by schedule"
@@ -38800,6 +38907,22 @@ msgid ""
 msgstr ""
 "Este Duplicante não conseguiu dormir muito porque ele estava muito ansioso "
 "pela falta de <style=\"KKeyword\">Luzes</style>"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPMOVEMENT.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ATTRIBUTES.MAXUNDERWATERTRAVELCOST.NAME"
+#| msgid "Underwater Movement"
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPMOVEMENT.NAME"
+msgid "Unrested: Movement"
+msgstr "Cansado: Movimentação"
+
+#. STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPMOVEMENT.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BADSLEEPMOVEMENT.TOOLTIP"
+msgid ""
+"This Duplicant didn't get much sleep because they were interrupted by "
+"movement"
+msgstr ""
+"Este Duplicante não conseguiu dormir muito porque ele foi interrompido pela "
+"movimentação"
 
 #. STRINGS.DUPLICANTS.MODIFIERS.BARRACKSSTAMINA.NAME
 msgctxt "STRINGS.DUPLICANTS.MODIFIERS.BARRACKSSTAMINA.NAME"
@@ -44748,6 +44871,17 @@ msgid ""
 msgstr ""
 "Este Duplicante não consegue dormir porque as <style=\"KKeyword\">Luzes</"
 "style> ainda estão acesas"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYMOVEMENT.NAME
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYMOVEMENT.NAME"
+msgid "Interrupted Sleep: Movement"
+msgstr "Sono Interrompido: Movimento"
+
+#. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYMOVEMENT.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYMOVEMENT.TOOLTIP"
+msgid "This Duplicant is having trouble sleeping because their bed moved"
+msgstr ""
+"Este Duplicante está tendo problemas para dormir devido a sua cama ter movido"
 
 #. STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYNOISE.NAME
 msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.SLEEPINGINTERRUPTEDBYNOISE.NAME"
@@ -52592,11 +52726,9 @@ msgstr ""
 "cair."
 
 #. STRINGS.ITEMS.DEBRISPAYLOAD.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.NAME"
-#| msgid "<link=\"PILOT\">Rocket Piloting</link>"
 msgctxt "STRINGS.ITEMS.DEBRISPAYLOAD.NAME"
-msgid "<link=\"DEBRISPAYLOAD\">Rocket Debris</link>"
-msgstr "<link=\"DEBRISPAYLOAD\">Restos de Foguete</link>"
+msgid "Rocket Debris"
+msgstr "Destroços de Foguete"
 
 #. STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC"
@@ -61323,12 +61455,10 @@ msgstr "<link=\"LIQUIDDISTRIBUTION\">Distribuição de Líquidos</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.DESC"
 msgid ""
 "Use pumped liquids to remove <link=\"SALT\">Salt</link> from <link=\"BRINE"
-"\">Brine</link> or pull <link=\"CARBONDIOXIDE\">Carbon Dioxide</link> from "
-"the air."
+"\">Brine</link>."
 msgstr ""
-"Usa líquidos bombeados para remover o <link=\"SALT\">Sal</link> da <link="
-"\"BRINE\">Salmoura</link> ou para puxar <link=\"CARBONDIOXIDE\">Dióxido de "
-"Carbono</link> do ar."
+"Use líquidos bombeados para remover o <link=\"SALT\">Sal</link> da <link="
+"\"BRINE\">Salmoura</link>."
 
 #. STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.LIQUIDFILTERING.NAME"
@@ -66128,6 +66258,16 @@ msgctxt "STRINGS.UI.CLUSTERMAP.TITLE"
 msgid "STARMAP"
 msgstr "MAPA ESTELAR"
 
+#. STRINGS.UI.CLUSTERMAP.TOOLTIP_EMPTY_HEX
+msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_EMPTY_HEX"
+msgid "EMPTY SPACE"
+msgstr "ESPAÇO VAZIO"
+
+#. STRINGS.UI.CLUSTERMAP.TOOLTIP_HIDDEN_HEX
+msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_HIDDEN_HEX"
+msgid "???"
+msgstr "???"
+
 #. STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_FOG_OF_WAR
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_FOG_OF_WAR"
 msgid ""
@@ -66176,6 +66316,11 @@ msgstr ""
 msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_INVALID_DESTINATION_REQUIRE_ASTEROID"
 msgid "Must select a Planetoid destination"
 msgstr "Precisa selecionar um destino que seja Planetoide"
+
+#. STRINGS.UI.CLUSTERMAP.TOOLTIP_PEEKED_HEX_WITH_OBJECT
+msgctxt "STRINGS.UI.CLUSTERMAP.TOOLTIP_PEEKED_HEX_WITH_OBJECT"
+msgid "UNKNOWN OBJECT DETECTED!"
+msgstr "OBJETO DESCONHECIDO DETECTADO!"
 
 #. STRINGS.UI.CLUSTERMAP.UNKNOWN_DESTINATION
 msgctxt "STRINGS.UI.CLUSTERMAP.UNKNOWN_DESTINATION"
@@ -66781,7 +66926,7 @@ msgstr ""
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_UTILITY
 msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.NORMAL_UTILITY"
-msgid "    • This rocket is performing a utility at its destination"
+msgid "    • This rocket is performing a task at its destination"
 msgstr "    • Este foguete está realizando uma tarefa no seu destino"
 
 #. STRINGS.UI.COLONY_DIAGNOSTICS.FLOATINGROCKETDIAGNOSTIC.TOOLTIP_NAME
@@ -68921,7 +69066,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.10): {0}"
+msgstr "VERSÃO DE TESTE (3.10.1): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -68951,7 +69096,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.10): {0}"
+msgstr "VERSÃO (3.10.1): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -72653,8 +72798,8 @@ msgstr "OFICINA STEAM"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "SOLAR SWAMPED UPDATE"
-msgstr "ATUALIZAÇÃO PÂNTANO ENSOLARADO"
+msgid "ROCKETRY RENOVATION"
+msgstr "REFORMA FOGUETISTA"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -72673,38 +72818,29 @@ msgstr "ENTRE NA DISCUSSÃO"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"Welcome to the <b>SOLAR SWAMPED UPDATE</b>:\n"
+"Welcome to the <b>ROCKETRY RENOVATION UPDATE</b>\n"
 "\n"
 "<b><i>Spaced Out!</i></b>\n"
-"•<indent=20px>Added a third Classic Cluster: play on the Swamp Start to try "
-"the new biomes in a larger world</indent>\n"
-"•<indent=20px>Variable sunlight intensity per-world, changing the "
-"progression of solar panels</indent>\n"
-"•<indent=20px>New Location Sensor and usage restrictions on the Rocket "
-"Control Station to keep rockets prepped for their mission</indent>\n"
-"<b>Base Game</b>\n"
-"•<indent=20px>Numerous worldgen fixes to bugs introduced in the last update "
-"(Only affects newly generated worlds)</indent>\n"
-"•<indent=20px>Other bug fixes, including resolving several issues with Space "
-"Scanners</indent>\n"
+"•<indent=20px>Duplicants can escape stranded rockets in an escape pod via "
+"the \"Abandon Ship\" button.</indent>\n"
+"•<indent=20px>Added liquid and gas ports to Spacefarer Modules to allow for "
+"easier fluid supplying and venting.</indent>\n"
+"•<indent=20px>New buildings, including a Wall Toilet that vents waste "
+"directly into the world behind it.</indent>\n"
+"•<indent=20px>Bug fixes and QOL improvements.</indent>\n"
 "\n"
 "   Check out the full patch notes for more details!"
 msgstr ""
-"Bem vindo a <b>ATUALIZAÇÃO PÂNTANO ENSOLARADO</b>:\n"
+"Bem vindo a <b>ATUALIZAÇÃO REFORMA FOGUETISTA</b>\n"
 "\n"
 "<b><i>Spaced Out!</i></b>\n"
-"•<indent=20px>Adição de um terceiro Aglomerado Clássico: jogue no Início "
-"Pântano para experimentar novos biomas em um mundo maior</indent>\n"
-"•<indent=20px>Intensidade solar variada por mundo, mudando a progressão de "
-"painéis solares</indent>\n"
-"•<indent=20px>Novo Sensor de Localização e restrições de uso na Estação de "
-"Controle do Foguete para manter os foguetes preparados para sua missão</"
-"indent>\n"
-"<b>Jogo Base</b>\n"
-"•<indent=20px>Várias correções de bugs de geração de mundo introduzidas na "
-"atualização anterior (Afeta somente novos mundos gerados)</indent>\n"
-"•<indent=20px>Outras correções de erros, incluindo diversos problemas com os "
-"Detectores Espaciais</indent>\n"
+"•<indent=20px>Duplicantes podem escapar de foguetes encalhados em uma "
+"cápsula de fuga por meio do botão \"Abandonar Navio\"</indent>\n"
+"•<indent=20px>Adicionadas portas de líquido e gás aos Módulos Viajante para "
+"permitir um fornecimento e saída de fluidos mais facilmente.</indent>\n"
+"•<indent=20px>Novas estruturas, incluindo uma privada de parede que libera "
+"resíduos diretamente para o mundo atrás dela.</indent>\n"
+"•<indent=20px>Correções de bugs e melhorias de qualidade de vida.</indent>\n"
 "\n"
 "   Verifique as notas de atualização completas para mais detalhes!"
 
@@ -78941,7 +79077,7 @@ msgstr "Injete energia térmica na simulação {Hotkey}"
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.NAME"
 msgid "Instant build mode ON"
-msgstr "Modo construção instantânea LIGADA"
+msgstr "Modo construção instantânea LIGADO"
 
 #. STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.TOOLTIP
 msgctxt "STRINGS.UI.SANDBOXTOOLS.SETTINGS.INSTANT_BUILD.TOOLTIP"
@@ -79620,7 +79756,20 @@ msgstr "Pontos de Habilidade"
 #. STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.ARTIFACT"
 msgid ""
+"This watch once belonged to pioneering aviator Amelia Earhart and travelled "
+"to space via astronaut Dr. Shannon Walker.\n"
+"\n"
+"How it came to be floating in space is a matter of speculation, but perhaps "
+"the adventurous spirit of its original stewards became infused within the "
+"fabric of this timepiece and compelled the universe to launch it into the "
+"great unknown."
 msgstr ""
+"Este relógio pertenceu à aviadora pioneira Amelia Earhart e viajou para o "
+"espaço por meio da astronauta Dra. Shannon Walker.\n"
+"\n"
+"Como ele passou a flutuar no espaço é objeto de especulação, mas talvez o "
+"espírito aventureiro de seus donos tenha se infundido na estrutura deste "
+"relógio e compelido o universo a lançá-lo no grande desconhecido."
 
 #. STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.AMELIASWATCH.DESCRIPTION"
@@ -79669,8 +79818,8 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.ARTIFACTTIERS.TIER5"
 msgid "Rarity 5"
 msgstr "Raridade 5"
 
-#. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.ARTIFACT
-msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.ARTIFACT"
+#. STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.ARTIFACT
+msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.ARTIFACT"
 msgid ""
 "The microscopic organisms within this rock are of a unique variety whose "
 "genetic code shows many tell-tale signs of being genetically engineered "
@@ -79686,8 +79835,8 @@ msgstr ""
 "Uma análise mais aprofundada revela que eles compartilham 99,999% de seu "
 "código genético com Vagalumes."
 
-#. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.DESCRIPTION
-msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.DESCRIPTION"
+#. STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.DESCRIPTION"
 msgid ""
 "A thriving colony of tiny, microscopic organisms is responsible for giving "
 "it its bluish glow."
@@ -79695,8 +79844,8 @@ msgstr ""
 "Uma próspera colônia de organismos microscópicos é responsável por dar o seu "
 "brilho azulado."
 
-#. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.NAME
-msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.NAME"
+#. STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMINESCENTROCK.NAME"
 msgid "Bioluminescent Rock"
 msgstr "Rocha Bioluminescente"
 
@@ -79733,8 +79882,8 @@ msgstr "Liquidificador"
 #. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.ARTIFACT"
 msgid ""
-"This cordless phone has a curious direct line to an unknown location in "
-"which strange distant voices can be heard but not understood, nor interacted "
+"This cordless phone once held a direct line to an unknown location in which "
+"strange distant voices can be heard but not understood, nor interacted "
 "with.\n"
 "\n"
 "Though Gravitas spent a lot of money and years of study dedicated to "
@@ -79803,18 +79952,29 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.EGGROCK.NAME"
 msgid "Egg-Shaped Rock"
 msgstr "Rocha em Formato de Ovo"
 
-#. STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.ARTIFACT
-msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.ARTIFACT"
+#. STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.ARTIFACT
+msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.ARTIFACT"
 msgid ""
+"It's very likely this statue was placed in a hidden, secluded place in the "
+"Gravitas laboratory since the creation of Grubgrubs was a closely held "
+"secret that the general public was not privy to.\n"
+"\n"
+"This is a shame since the artistic quality of this statue is really quite "
+"accomplished."
 msgstr ""
+"É muito provável que esta estátua tenha sido colocada em um lugar escondido "
+"e isolado no laboratório Gravitas, já que a criação de Lagalartas era um "
+"segredo bem guardado que o público em geral não conhecia.\n"
+"\n"
+"Uma pena, pois a qualidade artística desta estátua é realmente perfeita."
 
-#. STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.DESCRIPTION
-msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.DESCRIPTION"
+#. STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.DESCRIPTION"
 msgid "A moving tribute to a tiny plant hugger."
 msgstr "Um tributo comovente a um pequeno criador de plantas."
 
-#. STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.NAME
-msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.NAME"
+#. STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUBSTATUE.NAME"
 msgid "Grubgrub Statue"
 msgstr "Estátua Lagalarta"
 
@@ -79843,14 +80003,14 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.HATCHFOSSIL.NAME"
 msgid "Pristine Fossil"
 msgstr "Fóssil Intocado"
 
-#. STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.ARTIFACT
-msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.ARTIFACT"
+#. STRINGS.UI.SPACEARTIFACTS.HONEYJAR.ARTIFACT
+msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEYJAR.ARTIFACT"
 msgid ""
 "Records from the Genetics and Biology Lab of the Gravitas facility show that "
 "several early iterations of a radioactive Bee would continue to produce "
 "honey and that this honey was once accidentally stored in the employee "
 "kitchen which resulted in several incidents of minor radiation poisoning "
-"when it was accidentally used as a sweetener for tea.\n"
+"when it was erroneously labled as a sweetener for tea.\n"
 "\n"
 "Employees who used this product reported that it was the \"sweetest honey "
 "they'd ever tasted\" and expressed no regret at the mix-up."
@@ -79864,13 +80024,13 @@ msgstr ""
 "Os funcionários que usaram este produto relataram que era \"o mel mais doce "
 "que já experimentaram\" e não expressaram arrependimento pela confusão."
 
-#. STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.DESCRIPTION
-msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.DESCRIPTION"
+#. STRINGS.UI.SPACEARTIFACTS.HONEYJAR.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEYJAR.DESCRIPTION"
 msgid "Sweet golden liquid with just a touch of uranium."
 msgstr "Um doce líquido dourado com um toque de urânio."
 
-#. STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.NAME
-msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.NAME"
+#. STRINGS.UI.SPACEARTIFACTS.HONEYJAR.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEYJAR.NAME"
 msgid "Honey Jar"
 msgstr "Pote de Mel"
 
@@ -79905,7 +80065,7 @@ msgid ""
 "A sculpture of the Neoplastism movement of Modern Art.\n"
 "\n"
 "Gravitas records show that this piece was once used in a presentation called "
-"'Form and Function and the Corporate Aesthetic'."
+"'Form and Function in Corporate Aesthetic'."
 msgstr ""
 "Uma escultura do movimento neoplastista de Arte Moderna.\n"
 "\n"
@@ -79947,18 +80107,30 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.NAME"
 msgid "Moldavite"
 msgstr "Moldavita"
 
-#. STRINGS.UI.SPACEARTIFACTS.MOOD_RING.ARTIFACT
-msgctxt "STRINGS.UI.SPACEARTIFACTS.MOOD_RING.ARTIFACT"
+#. STRINGS.UI.SPACEARTIFACTS.MOODRING.ARTIFACT
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MOODRING.ARTIFACT"
 msgid ""
+"A wholly unique ring not found anywhere outside of the Gravitas Laboratory.\n"
+"\n"
+"Though it can't be determined for sure who worked on this extraordinary "
+"curiousity it's worth noting that, for his Ph.D. thesis, Dr. Travaldo Jones "
+"wrote a paper entitled \"Novelty Uses for Radiochromatic Dyes\"."
 msgstr ""
+"Um anel totalmente único encontrado em nenhum lugar fora do Laboratório "
+"Gravitas.\n"
+"\n"
+"Embora seja impossível determinar ao certo quem trabalhou neste objeto "
+"extraordinário, é importante notar que, para sua tese de Ph.D, o Dr. Tales "
+"Jones escreveu um artigo intitulado \"Novos Usos para Corantes "
+"Radiocromáticos\"."
 
-#. STRINGS.UI.SPACEARTIFACTS.MOOD_RING.DESCRIPTION
-msgctxt "STRINGS.UI.SPACEARTIFACTS.MOOD_RING.DESCRIPTION"
+#. STRINGS.UI.SPACEARTIFACTS.MOODRING.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MOODRING.DESCRIPTION"
 msgid "How radioactive are you feeling?"
 msgstr "O quão radioativo você está se sentindo?"
 
-#. STRINGS.UI.SPACEARTIFACTS.MOOD_RING.NAME
-msgctxt "STRINGS.UI.SPACEARTIFACTS.MOOD_RING.NAME"
+#. STRINGS.UI.SPACEARTIFACTS.MOODRING.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.MOODRING.NAME"
 msgid "Radiation Mood Ring"
 msgstr "Anel de Humor Radioativo"
 
@@ -80023,8 +80195,8 @@ msgstr "Obelisco Pequeno"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.ARTIFACT"
 msgid ""
 "An office mug with the Gravitas logo on it. Though their office mugs were "
-"all emblazoned with the same logo, Gravitas made the mugs colored "
-"differently for different departments.\n"
+"all emblazoned with the same logo, Gravitas colored their mugs differently "
+"to distinguish between their various departments.\n"
 "\n"
 "This one is from the AI department."
 msgstr ""
@@ -80052,8 +80224,8 @@ msgid ""
 "The description on this X-ray indicates that it was taken in the Gravitas "
 "Medical Facility.\n"
 "\n"
-"Most likely this X-ray was performed to investigate an injury that occurred "
-"within the facility."
+"Most likely this X-ray was performed while investigating an injury that "
+"occurred within the facility."
 msgstr ""
 "A descrição neste raio-X indica que ele foi tirado no Centro Médico "
 "Gravitas.\n"
@@ -80074,8 +80246,8 @@ msgstr "Raio-X Antigo"
 #. STRINGS.UI.SPACEARTIFACTS.ORACLE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ORACLE.ARTIFACT"
 msgid ""
-"The pieces for this contraption are all recycled from projects in the "
-"robotics department.\n"
+"The pieces for this contraption are all recycled from projects abandoned by "
+"the Robotics department.\n"
 "\n"
 "The design is very close to one published in an amateur DIY magazine that "
 "once sat in the lobby of the 'Employees Only' area of Gravitas' facilities."
@@ -80097,8 +80269,8 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.ORACLE.NAME"
 msgid "Useless Machine"
 msgstr "Máquina Inútil"
 
-#. STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.ARTIFACT
-msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.ARTIFACT"
+#. STRINGS.UI.SPACEARTIFACTS.PACUPERCOLATOR.ARTIFACT
+msgctxt "STRINGS.UI.SPACEARTIFACTS.PACUPERCOLATOR.ARTIFACT"
 msgid ""
 "A coffee percolator with the reminants of a blend of coffee that was a "
 "personal favorite of Dr. Hassan Aydem.\n"
@@ -80106,21 +80278,21 @@ msgid ""
 "He would specifically reserve the consumption of this particular blend for "
 "when he was reviewing research papers on Sunday afternoons."
 msgstr ""
-"Um coador de café com os resquícios de uma mistura de café que era uma das "
+"Uma cafeteira com os resquícios de uma mistura de café que era uma das "
 "favoritas do Dr. Hugo Aydem.\n"
 "\n"
 "Ele reservaria especificamente o consumo dessa mistura específica para "
 "quando estivesse lendo artigos de pesquisa nas tardes de domingo."
 
-#. STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.DESCRIPTION
-msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.DESCRIPTION"
+#. STRINGS.UI.SPACEARTIFACTS.PACUPERCOLATOR.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.PACUPERCOLATOR.DESCRIPTION"
 msgid "Don't drink from it! There was a pacu... IN the percolator!"
-msgstr "Não beba isso! Tinha um pacu... DENTRO da chaleira!"
+msgstr "Não beba isso! Tinha um pacu... DENTRO da cafeteira!"
 
-#. STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.NAME
-msgctxt "STRINGS.UI.SPACEARTIFACTS.PERCOLATOR.NAME"
+#. STRINGS.UI.SPACEARTIFACTS.PACUPERCOLATOR.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.PACUPERCOLATOR.NAME"
 msgid "Percolator"
-msgstr "Chaleira"
+msgstr "Cafeteira"
 
 #. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.ARTIFACT"
@@ -80180,20 +80352,33 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.RAINBOWEGGROCK.NAME"
 msgid "Egg-Shaped Rock"
 msgstr "Rocha em Formato de Ovo"
 
-#. STRINGS.UI.SPACEARTIFACTS.REACTOR_MODEL.ARTIFACT
-msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTOR_MODEL.ARTIFACT"
+#. STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.ARTIFACT
+msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.ARTIFACT"
 msgid ""
+"Though this Nuclear Power Plant was never built, this model exists as an "
+"artifact to a time early in the life of Gravitas when it was researching all "
+"alternatives to solving the global energy problem.\n"
+"\n"
+"Ultimately, the idea of building a Nuclear Power Plant was abandoned in "
+"favor of the \"much safer\" alternative of developing the Temporal Bow."
 msgstr ""
+"Embora esta Usina Nuclear nunca tenha sido construída, este modelo existe "
+"como um artefato para uma época no início da vida do Gravitas, quando estava "
+"pesquisando todas as alternativas para resolver o problema global de "
+"energia.\n"
+"\n"
+"No final das contas, a ideia de construir uma Usina Nuclear foi abandonada "
+"em favor da alternativa \"muito mais segura\" do Arco Temporal."
 
-#. STRINGS.UI.SPACEARTIFACTS.REACTOR_MODEL.DESCRIPTION
-msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTOR_MODEL.DESCRIPTION"
+#. STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.DESCRIPTION
+msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.DESCRIPTION"
 msgid "It's pronounced nu-clear."
-msgstr "A pronúncia é nuclear."
+msgstr "A pronúncia é nu-clear."
 
-#. STRINGS.UI.SPACEARTIFACTS.REACTOR_MODEL.NAME
-msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTOR_MODEL.NAME"
+#. STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.NAME
+msgctxt "STRINGS.UI.SPACEARTIFACTS.REACTORMODEL.NAME"
 msgid "Model Nuclear Power Plant"
-msgstr "Usina Nuclear Modelo"
+msgstr "Projeto de Usina Nuclear"
 
 #. STRINGS.UI.SPACEARTIFACTS.ROBOTARM.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROBOTARM.ARTIFACT"
@@ -80222,11 +80407,12 @@ msgstr "Braço de Robô"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.ARTIFACT"
 msgid ""
 "Speculations about the origin of this rock include a paper written by one "
-"Harold P. Moreson, Ph.D. in which he speculated it could be a rare form of "
+"Harold P. Moreson, Ph.D. in which he theorized it could be a rare form of "
 "hollow geode which failed to form any crystals inside.\n"
 "\n"
-"This paper appears in the Gravitas archives, and appears to be one of the "
-"factors in the hiring of Moreson into the geology department of the company."
+"This paper appears in the Gravitas archives, and in all probability, was one "
+"of the factors in the hiring of Moreson into the Geology department of the "
+"company."
 msgstr ""
 "Especulações sobre a origem desta rocha incluem um artigo escrito por um tal "
 "de Haroldo P. Moreson, Ph.D. no qual ele especulou que poderia ser uma forma "
@@ -80250,11 +80436,13 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.ARTIFACT"
 msgid ""
 "A well-used, competition-compliant version of the popular puzzle cube.\n"
 "\n"
-"It's worth noting that "
+"It's worth noting that Dr. Dylan 'Nails' Winslow was once a regional Rubik's "
+"Cube champion."
 msgstr ""
 "Uma versão para competições, e bem usada, do popular cubo mágico.\n"
 "\n"
-"É importante notar que "
+"É importante notar que o Dr. Dylan 'Trator' Winslow foi uma vez um campeão "
+"regional do Cubo Mágico."
 
 #. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION"
@@ -80272,7 +80460,7 @@ msgid ""
 "This sample of sandstone appears to have been processed by the Gravitas "
 "Mining Gun that was made available to the general public.\n"
 "\n"
-"Note: Gravitas public Mining Gun model is different than ones used by "
+"Note: The Gravitas public Mining Gun model is different than ones used by "
 "Duplicants in its larger size, and extra precautionary features added in "
 "order to be compliant with national safety standards."
 msgstr ""
@@ -80296,7 +80484,21 @@ msgstr "Arenito"
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.ARTIFACT"
 msgid ""
+"Though it is often remarked that \"in space, no one can hear you scream\", "
+"Thomas Pesquet proved the same cannot be said for the smooth jazzy sounds of "
+"a saxophone.\n"
+"\n"
+"Although this instrument once belonged to the eminent French Astronaut its "
+"current bumped and bent shape suggests it has seen many adventures beyond "
+"that of just being used to perform an out-of-this-world saxophone solo."
 msgstr ""
+"Embora seja frequentemente falado que \"no espaço, ninguém pode ouvir você "
+"gritar\", Thomas Pesquet provou que o mesmo não pode ser dito para os sons "
+"suaves de jazz de um saxofone.\n"
+"\n"
+"Embora este instrumento já tenha pertencido ao eminente Astronauta Francês, "
+"sua forma atual saliente e curvada sugere que ele já viu muitas aventuras, "
+"além de ser usado para executar um solo de saxofone de outro mundo."
 
 #. STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SAXOPHONE.DESCRIPTION"
@@ -80315,7 +80517,8 @@ msgid ""
 "light behaviors which are wave-like and focuses instead on its particle "
 "behaviors.\n"
 "\n"
-"This appears to be possible when light is slowed down until it stops."
+"This seemingly paradoxical state is possible when light is slowed down to "
+"the point at which it stops entirely."
 msgstr ""
 "O campo de energia produzido por este gerador de escudo ignora completamente "
 "os comportamentos de luz que são como ondas e se concentra em seus "
@@ -80391,14 +80594,12 @@ msgstr "Sistema Auto Contido"
 msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.ARTIFACT"
 msgid ""
 "The size and shape of this stethescope suggests it was not intended to be "
-"used by neither a human-sized nor a Duplicant-sized being but something half-"
-"way in between the two beings.\n"
-"\n"
+"used by neither a human-sized nor a Duplicant-sized person but something "
+"half-way in between the two beings."
 msgstr ""
 "O tamanho e a forma deste estetoscópio sugere que ele não se destina a ser "
 "usado nem por um ser de tamanho humano nem de Duplicante, mas algo entre os "
-"dois seres.\n"
-"\n"
+"dois seres."
 
 #. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION"
@@ -80414,7 +80615,28 @@ msgstr "Estetoscópio"
 #. STRINGS.UI.SPACEARTIFACTS.TEAPOT.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.TEAPOT.ARTIFACT"
 msgid ""
+"The amount of Neutronium present in this teapot suggests that it has crossed "
+"the threshold of the spacetime continuum on countless occasions, floating "
+"through many multiple universes over a plethora of times and spaces.\n"
+"\n"
+"Though there are, theoretically, an infinite amount of outcomes to any one "
+"event over many multi-verses, the homogeneity of the still relatively young "
+"multiverse suggests that this is then not the only teapot which has crossed "
+"into multiple universes. Despite the infinite possible outcomes of infinite "
+"multiverses it appears one high probability constant is that there is, or "
+"once was, a teapot floating somewhere in space within every universe."
 msgstr ""
+"A quantidade de Neutrônio presente neste bule sugere que ele cruzou o limiar "
+"do espaço-tempo contínuo em inúmeras ocasiões, flutuando através de muitos "
+"universos múltiplos em uma infinidade de tempos e espaços.\n"
+"\n"
+"Embora haja, teoricamente, uma quantidade infinita de resultados para "
+"qualquer evento ao longo de muitos multiversos, a homogeneidade do "
+"multiverso ainda relativamente jovem sugere que este não é então o único "
+"bule de chá que cruzou vários universos. Apesar dos resultados infinitos "
+"possíveis de multiversos infinitos, parece que uma constante de alta "
+"probabilidade é que existe, ou existiu, um bule de chá flutuando em algum "
+"lugar do espaço dentro de cada universo."
 
 #. STRINGS.UI.SPACEARTIFACTS.TEAPOT.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.TEAPOT.DESCRIPTION"
@@ -91764,6 +91986,63 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "Asteroide Água"
+
+#~| msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.NAME"
+#~| msgid "<link=\"TELESCOPE\">Telescope</link>"
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ESCAPEPOD.NAME"
+#~ msgid "<link=\"ESCAPEPOD\">Escape Pod</link>"
+#~ msgstr "<link=\"ESCAPEPOD\">Cápsula de Fuga</link>"
+
+#~ msgctxt "STRINGS.CODEX.DASHASALTVINE.TITLE"
+#~ msgid "Balm Lily"
+#~ msgstr "Lírio Milagroso"
+
+#~| msgctxt "STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.NAME"
+#~| msgid "<link=\"PILOT\">Rocket Piloting</link>"
+#~ msgctxt "STRINGS.ITEMS.DEBRISPAYLOAD.NAME"
+#~ msgid "<link=\"DEBRISPAYLOAD\">Rocket Debris</link>"
+#~ msgstr "<link=\"DEBRISPAYLOAD\">Restos de Foguete</link>"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "SOLAR SWAMPED UPDATE"
+#~ msgstr "ATUALIZAÇÃO PÂNTANO ENSOLARADO"
+
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
+#~ msgid ""
+#~ "Welcome to the <b>SOLAR SWAMPED UPDATE</b>:\n"
+#~ "\n"
+#~ "<b><i>Spaced Out!</i></b>\n"
+#~ "•<indent=20px>Added a third Classic Cluster: play on the Swamp Start to "
+#~ "try the new biomes in a larger world</indent>\n"
+#~ "•<indent=20px>Variable sunlight intensity per-world, changing the "
+#~ "progression of solar panels</indent>\n"
+#~ "•<indent=20px>New Location Sensor and usage restrictions on the Rocket "
+#~ "Control Station to keep rockets prepped for their mission</indent>\n"
+#~ "<b>Base Game</b>\n"
+#~ "•<indent=20px>Numerous worldgen fixes to bugs introduced in the last "
+#~ "update (Only affects newly generated worlds)</indent>\n"
+#~ "•<indent=20px>Other bug fixes, including resolving several issues with "
+#~ "Space Scanners</indent>\n"
+#~ "\n"
+#~ "   Check out the full patch notes for more details!"
+#~ msgstr ""
+#~ "Bem vindo a <b>ATUALIZAÇÃO PÂNTANO ENSOLARADO</b>:\n"
+#~ "\n"
+#~ "<b><i>Spaced Out!</i></b>\n"
+#~ "•<indent=20px>Adição de um terceiro Aglomerado Clássico: jogue no Início "
+#~ "Pântano para experimentar novos biomas em um mundo maior</indent>\n"
+#~ "•<indent=20px>Intensidade solar variada por mundo, mudando a progressão "
+#~ "de painéis solares</indent>\n"
+#~ "•<indent=20px>Novo Sensor de Localização e restrições de uso na Estação "
+#~ "de Controle do Foguete para manter os foguetes preparados para sua "
+#~ "missão</indent>\n"
+#~ "<b>Jogo Base</b>\n"
+#~ "•<indent=20px>Várias correções de bugs de geração de mundo introduzidas "
+#~ "na atualização anterior (Afeta somente novos mundos gerados)</indent>\n"
+#~ "•<indent=20px>Outras correções de erros, incluindo diversos problemas com "
+#~ "os Detectores Espaciais</indent>\n"
+#~ "\n"
+#~ "   Verifique as notas de atualização completas para mais detalhes!"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME"
 #~ msgid "Lavatory Ready"
@@ -109661,18 +109940,6 @@ msgstr "Asteroide Água"
 #~ "Se a remoção estiver como vago, Duplicantes que passarem por esta seta "
 #~ "usando trajes irão remover seus trajes somente se tiver espaço disponível "
 #~ "nos armários."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.BED.EFFECT"
-#~ msgid ""
-#~ "Provides a sleeping area for one Duplicant and restores <style=\"misc"
-#~ "\">Stamina</style>.\n"
-#~ "\n"
-#~ "Duplicants will automatically sleep in their assigned cots at night."
-#~ msgstr ""
-#~ "Dá a um Duplicante um local para descansar e recuperar <style=\"misc"
-#~ "\">Energia</style>.\n"
-#~ "\n"
-#~ "Duplicantes irão automaticamente dormir nas camas quando for de noite."
 
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.FLOORSWITCH.EFFECT"
 #~ msgid ""
