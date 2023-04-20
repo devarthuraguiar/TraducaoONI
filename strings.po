@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.6.1\n"
+"Project-Id-Version: Português foi Incluído! 3.6.2\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Application: Oxygen Not IncludedPOT Version: 2.0\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Bookmarks: 2437,5040,-1,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-Basepath: .\n"
@@ -1242,8 +1242,6 @@ msgid "Cargo capacity remaining {0}"
 msgstr "Capacidade de carga restante: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLIGHTCARGOREMAINING.TOOLTIP
-#| msgctxt "STRINGS.UI.BUILDINGEFFECTS.TOOLTIPS.STORAGECAPACITY"
-#| msgid "Holds up to <b>{0}</b> of material"
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLIGHTCARGOREMAINING.TOOLTIP"
 msgid "Rocket can store up to {0} more materials"
 msgstr "Foguete pode armazenar mais {0} materiais"
@@ -6350,8 +6348,6 @@ msgid "Generates on-demand radiation to keep you cosy."
 msgstr "Gera radiação sob demanda para te manter confortável."
 
 #. STRINGS.BUILDINGS.PREFABS.DEVRADIATIONGENERATOR.NAME
-#| msgctxt "STRINGS.DUPLICANTS.STATUSITEMS.RADIATIONVOMITING.NAME"
-#| msgid "Radiation vomiting"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DEVRADIATIONGENERATOR.NAME"
 msgid "Dev Radiation Emitter"
 msgstr "Emissor de Radiação Dev"
@@ -6367,8 +6363,6 @@ msgid "Crushes carbon into diamonds"
 msgstr "Esmaga carbono em diamantes"
 
 #. STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.NAME
-#| msgctxt "STRINGS.ELEMENTS.DIAMOND.NAME"
-#| msgid "<link=\"DIAMOND\">Diamond</link>"
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.NAME"
 msgid "<link=\"DIAMONDPRESS\">Diamond Press</link>"
 msgstr "<link=\"DIAMONDPRESS\">Prensa de Diamante</link>"
@@ -24554,7 +24548,26 @@ msgstr "Vagalume Abissal"
 #. STRINGS.CODEX.NOSHBEAN.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.NOSHBEAN.BODY.CONTAINER1"
 msgid ""
+"The Nosh Bean Plant produces a nutritious bean that can function as a "
+"delicious meat substitute provided it is properly processed.\n"
+"\n"
+"Though the bean is a food source, it also functions as the seed for the Nosh "
+"Bean plant.\n"
+"\n"
+"While using the Nosh Bean for nourishment would seem like the more practical "
+"application, doing so would deprive individuals of the immense gratification "
+"experienced by planting this bean and watching it flourish into maturity."
 msgstr ""
+"O Pé de Feijão Brocoso produz um feijão nutritivo que pode ser usado como um "
+"delicioso substituto para a carne, desde que devidamente processado.\n"
+"\n"
+"Apesar do feijão ser uma fonte de alimento, ele também é uma semente do Pé "
+"de Feijão Brocoso.\n"
+"\n"
+"Embora o uso do Feijão Brocoso para nutrição pareça ser a aplicação mais "
+"prática, fazê-la privaria os indivíduos da imensa gratificação que é "
+"experimentada por quem planta este feijão e o observa florescer até a "
+"maturidade."
 
 #. STRINGS.CODEX.NOSHBEAN.SUBTITLE
 msgctxt "STRINGS.CODEX.NOSHBEAN.SUBTITLE"
@@ -25445,7 +25458,27 @@ msgstr "Mucura Anciã"
 #. STRINGS.CODEX.SATURNCRITTERTRAP.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SATURNCRITTERTRAP.BODY.CONTAINER1"
 msgid ""
+"The Saturn Critter Trap plant is a carnivorous plant that lays in wait for "
+"unsuspecting critters to happen by, then traps them in its mouth for "
+"consumption.\n"
+"\n"
+"The Saturn Trap Plant's predatory mechanism is reflective of the harsh "
+"radioactive habitat it resides in.\n"
+"\n"
+"Once trapped in the deadly maw of the plant, creatures are gently "
+"asphyxiated then digested through powerful acidic enzymes which coat the "
+"inner sides of the Saturn Trap Plant's leaves."
 msgstr ""
+"A planta Armadilha de Criatura Saturno é uma planta carnívora que fica na "
+"espreita por criaturas desavisadas, e então as captura em sua boca para "
+"consumo.\n"
+"\n"
+"O mecanismo predatório da Armadilha Saturno reflete o severo habitat "
+"radioativo em que reside.\n"
+"\n"
+"Uma vez presas na mandíbula mortal da planta, as criaturas são suavemente "
+"asfixiadas e então digeridas através de poderosas enzimas ácidas que "
+"revestem as faces internas das folhas da Armadilha de Criaturas Saturno."
 
 #. STRINGS.CODEX.SATURNCRITTERTRAP.SUBTITLE
 msgctxt "STRINGS.CODEX.SATURNCRITTERTRAP.SUBTITLE"
@@ -59265,8 +59298,6 @@ msgid "Mid-range rocket engines with lots of smoke."
 msgstr "Motores de foguetes de médio porte com muita fumaça."
 
 #. STRINGS.RESEARCH.TECHS.BETTERHYDROCARBONPROPULSION.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.HYDROCARBONPROPULSION.NAME"
-#| msgid "<link=\"HYDROCARBONPROPULSION\">Hydrocarbon Propulsion</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.BETTERHYDROCARBONPROPULSION.NAME"
 msgid ""
 "<link=\"BETTERHYDROCARBONPROPULSION\">Improved Hydrocarbon Propulsion</link>"
@@ -59280,8 +59311,6 @@ msgid "Description"
 msgstr "Descrição"
 
 #. STRINGS.RESEARCH.TECHS.BIOENGINEERING.NAME
-#| msgctxt "STRINGS.DUPLICANTS.ROLES.OIL_TECHNICIAN.NAME"
-#| msgid "<link=\"OILTECHNICIAN\">Oil Engineering</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.BIOENGINEERING.NAME"
 msgid "<link=\"BIOENGINEERING\">Bioengineering</link>"
 msgstr "<link=\"BIOENGINEERING\">Bioengenharia</link>"
@@ -59603,8 +59632,6 @@ msgid "High pressure environment for diamond forging"
 msgstr "Ambiente de alta pressão para forja de diamantes"
 
 #. STRINGS.RESEARCH.TECHS.HIGHPRESSUREFORGING.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.HIGHTEMPFORGING.NAME"
-#| msgid "<link=\"HIGHTEMPFORGING\">Superheated Forging</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHPRESSUREFORGING.NAME"
 msgid "<link=\"HIGHPRESSUREFORGING\">Pressurized Forging</link>"
 msgstr "<link=\"HIGHPRESSUREFORGING\">Forja Pressurizada</link>"
@@ -59628,8 +59655,6 @@ msgid "Description"
 msgstr "Descrição"
 
 #. STRINGS.RESEARCH.TECHS.HIGHVELOCITYDESTRUCTION.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYTRANSPORT.NAME"
-#| msgid "<link=\"HIGHVELOCITY\">High Velocity Transport</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYDESTRUCTION.NAME"
 msgid "<link=\"HIGHVELOCITYDESTRUCTION\">High Velocity Destruction</link>"
 msgstr "<link=\"HIGHVELOCITYDESTRUCTION\">Destruição em Alta Velocidade</link>"
@@ -60250,8 +60275,6 @@ msgid "Description"
 msgstr "Descrição"
 
 #. STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.NAME
-#| msgctxt "STRINGS.RESEARCH.TECHS.COMBUSTION.NAME"
-#| msgid "<link=\"COMBUSTION\">Internal Combustion</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.NAME"
 msgid "<link=\"SPACECOMBUSTION\">Advanced Combustion</link>"
 msgstr "<link=\"SPACECOMBUSTION\">Combustão Avançada</link>"
@@ -60262,8 +60285,6 @@ msgid "Description"
 msgstr "Descrição"
 
 #. STRINGS.RESEARCH.TECHS.SPACEGAS.NAME
-#| msgctxt "STRINGS.ELEMENTS.LEADGAS.NAME"
-#| msgid "<link=\"LEADGAS\">Lead Gas</link>"
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEGAS.NAME"
 msgid "<link=\"SPACEGAS\">Advanced Gas Flow</link>"
 msgstr "<link=\"SPACEGAS\">Fluxo Avançado de Gás</link>"
@@ -64315,16 +64336,27 @@ msgctxt "STRINGS.UI.CLUSTERMAP.PLANETOID_KEYWORD"
 msgid "Planetoid"
 msgstr "Planetoide"
 
+#. STRINGS.UI.CLUSTERMAP.POI.ARTIFACTS
+msgctxt "STRINGS.UI.CLUSTERMAP.POI.ARTIFACTS"
+msgid "Artifact"
+msgstr "Artefato"
+
+#. STRINGS.UI.CLUSTERMAP.POI.ARTIFACTS_AVAILABLE
+msgctxt "STRINGS.UI.CLUSTERMAP.POI.ARTIFACTS_AVAILABLE"
+msgid "Available"
+msgstr "Disponível"
+
+#. STRINGS.UI.CLUSTERMAP.POI.ARTIFACTS_DEPLETED
+msgctxt "STRINGS.UI.CLUSTERMAP.POI.ARTIFACTS_DEPLETED"
+msgid "Collected"
+msgstr "Coletado"
+
 #. STRINGS.UI.CLUSTERMAP.POI.MASS_REMAINING
-#| msgctxt "STRINGS.UI.CLUSTERMAP.POI.MASS_REMAINING"
-#| msgid "Mass Remaining: {0}"
 msgctxt "STRINGS.UI.CLUSTERMAP.POI.MASS_REMAINING"
 msgid "<b>Total Mass Remaining</b>"
 msgstr "<b>Massa Total Restante</b>"
 
 #. STRINGS.UI.CLUSTERMAP.POI.ROCKETS_AT_THIS_LOCATION
-#| msgctxt "STRINGS.UI.COLONY_DIAGNOSTICS.RADIATIONDIAGNOSTIC.TOOLTIP_NAME"
-#| msgid "<b>Radiation</b>"
 msgctxt "STRINGS.UI.CLUSTERMAP.POI.ROCKETS_AT_THIS_LOCATION"
 msgid "<b>Rockets at this location</b>"
 msgstr "<b>Foguetes nesta localização</b>"
@@ -64333,6 +64365,11 @@ msgstr "<b>Foguetes nesta localização</b>"
 msgctxt "STRINGS.UI.CLUSTERMAP.POI.TITLE"
 msgid "POINT OF INTEREST"
 msgstr "PONTO DE INTERESSE"
+
+#. STRINGS.UI.CLUSTERMAP.ROCKETS.ARTIFACT_MODULE.EMPTY
+msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.ARTIFACT_MODULE.EMPTY"
+msgid "Empty"
+msgstr "Vazio"
 
 #. STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_MODULE.NAME
 msgctxt "STRINGS.UI.CLUSTERMAP.ROCKETS.BURDEN_MODULE.NAME"
@@ -67299,7 +67336,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.6.1): {0}"
+msgstr "VERSÃO DE TESTE (3.6.2): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -67329,7 +67366,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.6.1): {0}"
+msgstr "VERSÃO (3.6.2): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -69323,6 +69360,48 @@ msgid ""
 msgstr ""
 "Determina se os Duplicantes irão agir ou não quando atingirem estresse máximo"
 
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS.DISABLED.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS."
+"DISABLED.NAME"
+msgid "Disabled"
+msgstr "Desativado"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS.DISABLED.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS."
+"DISABLED.TOOLTIP"
+msgid "Unchecked: No Teleporters will be spawned during Worldgen"
+msgstr ""
+"Desmarcado: Nenhum Teleportador será invocado durante a geração do mundo"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS.ENABLED.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS."
+"ENABLED.NAME"
+msgid "Enabled"
+msgstr "Ativado"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS.ENABLED.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.LEVELS."
+"ENABLED.TOOLTIP"
+msgid "Checked: Teleporters will be spawned during Worldgen (Default)"
+msgstr ""
+"Marcado: Teleportadores serão invocados durante a geração de mundo (Padrão)"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.NAME
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.NAME"
+msgid "Teleporters"
+msgstr "Teleportadores"
+
+#. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.TOOLTIP
+msgctxt ""
+"STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.TOOLTIP"
+msgid "Affects whether teleporters are spawned during Worldgen."
+msgstr "Afeta se Teleportadores serão invocados durante a geração do mundo."
+
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.NAME
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.NAME"
@@ -70965,8 +71044,8 @@ msgstr "OFICINA STEAM"
 
 #. STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER
 msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
-msgid "PECULIAR PLANTS UPDATE"
-msgstr "ATUALIZAÇÃO PLANTAS PECULIARES"
+msgid "MINE THE GAP UPDATE"
+msgstr "ATUALIZAÇÃO MINERE A FENDA"
 
 #. STRINGS.UI.FRONTEND.MOTD.NEWS_BODY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.NEWS_BODY"
@@ -70985,33 +71064,34 @@ msgstr "ENTRE NA DISCUSSÃO"
 #. STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY
 msgctxt "STRINGS.UI.FRONTEND.MOTD.PATCH_NOTES_SUMMARY"
 msgid ""
-"Welcome to the <b>Peculiar Plants Update!</b>\n"
+"Welcome to the <b>Mine The Gap Update!</b>\n"
 "\n"
-"   •<indent=20px>Crop plants now drop <b>Mutant Seeds</b> when exposed to "
-"radiation.</indent>\n"
+"   •<indent=20px>New Space Points-of-Interest can be mined using the "
+"Drillcone for renewable resources.</indent>\n"
 "\n"
-"   •<indent=20px>Food spoilage and refrigeration have been rebalanced.</"
+"   •<indent=20px>Gravitas Artifacts have been added back in to the game.</"
 "indent>\n"
 "\n"
-"   •<indent=20px>New <b>Meter Valves</b> allow precise plumbing deliveries.</"
-"indent>\n"
+"   •<indent=20px>Tech Tree rebalance and updates.</indent>\n"
 "\n"
-"   •<indent=20px>Bug fixes, animation updates, and more.</indent>\n"
+"   •<indent=20px>New sound effects, Diagnostics panel improvements, bug "
+"fixes and new lore entries.</indent>\n"
 "\n"
 "Check out the full patch notes for more details!"
 msgstr ""
-"Bem vindo a <b>Atualização Plantas Peculiares!</b>\n"
+"Bem vindo a <b>Atualização Minere A Fenda!</b>\n"
 "\n"
-"   •<indent=20px>Plantas podem agora gerar <b>Sementes Mutantes</b> quando "
-"expostas a radiação.</indent>\n"
+"   •<indent=20px>Novos Pontos-de-Interesse Espaciais podem ser minerados "
+"usando a Brocacone para obtenção de recursos renováveis.</indent>\n"
 "\n"
-"   •<indent=20px>Deterioração de comida e refrigeração foram rebalanceados.</"
+"   •<indent=20px>Artefatos Gravitas foram adicionados de volta ao jogo.</"
 "indent>\n"
 "\n"
-"   •<indent=20px>Novas <b>Válvulas Métricas</b> permitem entregas encanadas "
-"mais precisas.</indent>\n"
+"   •<indent=20px>Rebalanceamento e atualizações da árvore tecnológica.</"
+"indent>\n"
 "\n"
-"   •<indent=20px>Correções de bugs, novas animações e mais.</indent>\n"
+"   •<indent=20px>Novos efeitos sonoros, melhorias no painel de Diagnóstico, "
+"correções de bugs e novos registros de história.</indent>\n"
 "\n"
 "Verifique as notas de atualização completa para mais detalhes!"
 
@@ -78189,15 +78269,95 @@ msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.NAME"
 msgid "Archaic Tech"
 msgstr "Tecnologia Arcaica"
 
-#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION.DESC
-msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION.DESC"
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.DESC"
 msgid "Default Description!"
 msgstr "Descrição Padrão!"
 
-#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION.NAME
-msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION.NAME"
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.NAME"
 msgid "Gravitas Spacejunk"
-msgstr "Lixão Espacial Gravitas"
+msgstr "Lixo Espacial Gravitas"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.NAME"
+msgid "Gravitas Spacejunk"
+msgstr "Lixo Espacial Gravitas"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.NAME"
+msgid "Gravitas Spacejunk"
+msgstr "Lixo Espacial Gravitas"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.NAME"
+msgid "Gravitas Spacejunk"
+msgstr "Lixo Espacial Gravitas"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.NAME"
+msgid "Gravitas Spacejunk"
+msgstr "Lixo Espacial Gravitas"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.NAME"
+msgid "Gravitas Spacejunk"
+msgstr "Lixo Espacial Gravitas"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.NAME"
+msgid "Gravitas Spacejunk"
+msgstr "Lixo Espacial Gravitas"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.NAME"
+msgid "Gravitas Spacejunk"
+msgstr "Lixo Espacial Gravitas"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.DESC
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.DESC"
+msgid "Default Description!"
+msgstr "Descrição Padrão!"
+
+#. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.NAME
+msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.NAME"
+msgid "Russell's Teapot"
+msgstr "Bule de chá de Russell"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ASTEROIDS.CARBONACEOUSASTEROID.DESCRIPTION
 msgctxt ""
@@ -78443,14 +78603,14 @@ msgstr "Estação Espacial Gravitas Destruída"
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CARBONASTEROIDFIELD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.CARBONASTEROIDFIELD.DESC"
 msgid ""
-"An asteroid containing <link=\"REFINEDCARBON\">Refined Carbon</link>, <link="
-"\"CARBON\">Coal</link> and <link=\"DIAMOND\">Diamond</link>.\n"
+"An asteroid containing <link=\"REFINEDCARBON\">Refined Carbon</link> and "
+"<link=\"CARBON\">Coal</link>.\n"
 "\n"
 "Harvesting resources requires a rocket equipped with a <link="
 "\"NOSECONEHARVEST\">Drillcone</link>."
 msgstr ""
-"Um asteroide contendo <link=\"REFINEDCARBON\">Carbono Refinado</link>, <link="
-"\"CARBON\">Carvão</link> e <link=\"DIAMOND\">Diamante</link>.\n"
+"Um asteroide contendo <link=\"REFINEDCARBON\">Carbono Refinado</link> e "
+"<link=\"CARBON\">Carvão</link>.\n"
 "\n"
 "Para colher recursos é necessário um foguete equipado com uma <link="
 "\"NOSECONEHARVEST\">Brocacone</link>."
@@ -78528,15 +78688,17 @@ msgstr "Campo de Asteroide de Minério Congelado"
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.GASGIANTCLOUD.DESC"
 msgid ""
 "The harvestable remains of a planet containing <link=\"HYDROGEN\">Hydrogen</"
-"link> and <link=\"SOLIDMETHANE\">Methane</link> in their <link=\"ELEMENTSGAS"
+"link> in <link=\"ELEMENTSGAS\">gas</link> and <link=\"ELEMENTSSOLID\">solid</"
+"link> form, and <link=\"SOLIDMETHANE\">Methane</link> in <link=\"ELEMENTSGAS"
 "\">gas</link>, <link=\"ELEMENTSSOLID\">solid</link> and <link="
-"\"ELEMENTSLIQUID\">liquid</link> forms.\n"
+"\"ELEMENTSLIQUID\">liquid</link> form.\n"
 "\n"
 "Harvesting resources requires a rocket equipped with a <link="
 "\"NOSECONEHARVEST\">Drillcone</link>."
 msgstr ""
 "O restos coletáveis de um planeta contendo <link=\"HYDROGEN\">Hidrogênio</"
-"link> e <link=\"SOLIDMETHANE\">Metano</link> nas formas de <link="
+"link> nas formas de <link=\"ELEMENTSGAS\">gás</link> e <link=\"ELEMENTSSOLID"
+"\">sólido</link>, e <link=\"SOLIDMETHANE\">Metano</link> nas formas de <link="
 "\"ELEMENTSGAS\">gás</link>, <link=\"ELEMENTSSOLID\">sólido</link> e <link="
 "\"ELEMENTSLIQUID\">líquido</link> .\n"
 "\n"
@@ -78868,12 +79030,6 @@ msgid "Rocky Asteroid Field"
 msgstr "Campo de Asteroide Rochoso"
 
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.DESC
-#| msgctxt "STRINGS.BUILDINGS.PREFABS.SODAFOUNTAIN.EFFECT"
-#| msgid ""
-#| "Creates soda from <link=\"WATER\">Water</link> and <link=\"CARBONDIOXIDE"
-#| "\">Carbon Dioxide</link>.\n"
-#| "\n"
-#| "Consuming soda water increases Duplicant <link=\"MORALE\">Morale</link>."
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SALTYASTEROIDFIELD.DESC"
 msgid ""
 "A field of harvestable resources containing <link=\"SALTWATER\">Salt Water</"
@@ -79717,6 +79873,36 @@ msgstr "Um nariz adequado foi instalado"
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_NOSECONE.TOOLTIP.WARNING"
 msgid "Nosecone warning"
 msgstr "Alerta de nariz"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.STATUS.FAILURE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.STATUS.FAILURE"
+msgid "{0} missing {1}"
+msgstr "Falta {0} em {1}"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.STATUS.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.STATUS.READY"
+msgid "{0} {1} supplied"
+msgstr "{0} {1} suprido"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.STATUS.WARNING
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.STATUS.WARNING"
+msgid "{0} missing {1}"
+msgstr "Falta {0} em {1}"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.TOOLTIP.FAILURE
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.TOOLTIP.FAILURE"
+msgid "{0} has less than {1} {2}"
+msgstr "{0} tem menos que {1} {2}"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.TOOLTIP.READY
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.TOOLTIP.READY"
+msgid "{0} {1} supplied"
+msgstr "{0} {1} suprido"
+
+#. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.TOOLTIP.WARNING
+msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HAS_RESOURCE.TOOLTIP.WARNING"
+msgid "{0} has less than {1} {2}"
+msgstr "{0} tem menos que {1} {2}"
 
 #. STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT
 msgctxt "STRINGS.UI.STARMAP.LAUNCHCHECKLIST.HASASTRONAUT"
@@ -88943,6 +89129,10 @@ msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "Asteroide Água"
 
+#~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
+#~ msgid "PECULIAR PLANTS UPDATE"
+#~ msgstr "ATUALIZAÇÃO PLANTAS PECULIARES"
+
 #~ msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.DESC"
 #~ msgid "Get the artifact juice"
 #~ msgstr "Pega o sumo do artefato"
@@ -89235,11 +89425,6 @@ msgstr "Asteroide Água"
 #~ msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_COMPLETE"
 #~ msgid "<i>Complete</i>"
 #~ msgstr "<i>Concluir</i>"
-
-#~ msgctxt ""
-#~ "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SEED_PROGRESS_FMT"
-#~ msgid "{0}/{1} seeds"
-#~ msgstr "{0}/{1} sementes"
 
 #~ msgctxt "STRINGS.UI.UISIDESCREENS.GENETICANALYSISSIDESCREEN.SELECT_SEED"
 #~ msgid "Select Analysis Target"
