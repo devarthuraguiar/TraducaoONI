@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.6.2\n"
+"Project-Id-Version: Português foi Incluído! 3.7\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -1228,17 +1228,17 @@ msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.FLIGHTALLCARGOFULL.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLIGHTALLCARGOFULL.NAME"
-msgid "All cargo bays full to capacity"
+msgid "All cargo bays are full"
 msgstr "Todas as alas de carga estão cheias"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLIGHTALLCARGOFULL.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLIGHTALLCARGOFULL.TOOLTIP"
-msgid "Rocket cannot store anymore materials"
+msgid "Rocket cannot store any more materials"
 msgstr "Foguete não consegue armazenar mais nenhum material"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLIGHTCARGOREMAINING.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLIGHTCARGOREMAINING.NAME"
-msgid "Cargo capacity remaining {0}"
+msgid "Cargo capacity remaining: {0}"
 msgstr "Capacidade de carga restante: {0}"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLIGHTCARGOREMAINING.TOOLTIP
@@ -3711,11 +3711,11 @@ msgstr "Impossível armazenar recursos: {0}"
 #. STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.SPACEPOIWASTING.TOOLTIP"
 msgid ""
-"Some portion of the resources being mined from this space POI cannot be "
-"stored in this rocket"
+"Some resources being mined from this space POI cannot be stored in this "
+"rocket"
 msgstr ""
-"Algumas porções de recursos sendo minerado neste PDI espacial não podem ser "
-"armazenados neste foguete"
+"Algumas recursos sendo minerado neste PDI espacial não podem ser armazenados "
+"neste foguete"
 
 #. STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.STORAGELOCKER.NAME"
@@ -5014,8 +5014,7 @@ msgstr "Descubra os mistérios do passado."
 #. STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.ARTIFACTANALYSISSTATION.EFFECT"
 msgid ""
-"Analysis artifacts and extracts the <link=\"UNOBTANIUM\">Neutronium</link> "
-"from their shell."
+"Analyses and extracts <link=\"UNOBTANIUM\">Neutronium</link> from artifacts."
 msgstr ""
 "Analise artefatos e extraia o <link=\"UNOBTANIUM\">Neutrônio</link> de sua "
 "superfície."
@@ -6354,13 +6353,29 @@ msgstr "Emissor de Radiação Dev"
 
 #. STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.DESC"
-msgid "Crushes carbon into diamonds"
-msgstr "Esmaga carbono em diamantes"
+msgid "Crushes refined carbon into diamond."
+msgstr "Esmaga carbono refinado em diamante."
 
 #. STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.EFFECT
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.EFFECT"
-msgid "Crushes carbon into diamonds"
-msgstr "Esmaga carbono em diamantes"
+msgid ""
+"Uses <link=\"POWER\">Power</link> and <link=\"HEP\">Radbolts</link> to crush "
+"<link=\"REFINEDCARBON\">Refined Carbon</link> into <link=\"DIAMOND"
+"\">Diamond</link>.\n"
+"\n"
+"\n"
+"\n"
+"Duplicants will not fabricate items unless recipes are queued and <link="
+"\"REFINEDCARBON\">Refined Carbon</link> has been discovered."
+msgstr ""
+"Usa <link=\"POWER\">Energia</link> e <link=\"HEP\">Radioraios</link> para "
+"esmagar <link=\"REFINEDCARBON\">Carbono Refinado</link> em <link=\"DIAMOND"
+"\">Diamante</link>.\n"
+"\n"
+"\n"
+"\n"
+"Duplicantes não irão fabricar enquanto receitas não forem colocadas na fila "
+"e se o <link=\"REFINEDCARBON\">Carbono Refinado</link> for descoberto."
 
 #. STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.NAME
 msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.NAME"
@@ -22738,6 +22753,39 @@ msgctxt "STRINGS.CODEX.EXOBASES.TITLE"
 msgid "<link=\"EXOBASES\">Space Travel</link>"
 msgstr "<link=\"EXOBASES\">Viagem Espacial</link>"
 
+#. STRINGS.CODEX.EXPERIMENT52B.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.EXPERIMENT52B.BODY.CONTAINER1"
+msgid ""
+"Experiment 52B is an aggressive, yet sessile creature that consumes calories "
+"and discharges resin.\n"
+"\n"
+"While this creature may look like a tree, its taxonomy more closely "
+"resembles a giant land-based coral with cybernetic implants.\n"
+"\n"
+"Although normally lab-grown creatures would be given a better name than "
+"Experiment 52B, in this particular case the experimenting scientists weren't "
+"sure that they were done."
+msgstr ""
+"O experimento 52B é uma criatura agressiva, porém imóvel, que consome "
+"calorias e libera resina.\n"
+"\n"
+"Embora essa criatura possa se parecer com uma árvore, sua taxonomia se "
+"assemelha mais a um coral terrestre gigante com implantes cibernéticos.\n"
+"\n"
+"Apesar de criaturas normalmente criadas em laboratório recebessem um nome "
+"melhor do que o Experimento 52B, neste caso particular os cientistas não "
+"tinham certeza se tinham terminado o estudo."
+
+#. STRINGS.CODEX.EXPERIMENT52B.SUBTITLE
+msgctxt "STRINGS.CODEX.EXPERIMENT52B.SUBTITLE"
+msgid "Plant?"
+msgstr "Planta?"
+
+#. STRINGS.CODEX.EXPERIMENT52B.TITLE
+msgctxt "STRINGS.CODEX.EXPERIMENT52B.TITLE"
+msgid "Experiment 52B"
+msgstr "Experimento 52B"
+
 #. STRINGS.CODEX.GASGRASS.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.GASGRASS.BODY.CONTAINER1"
 msgid ""
@@ -25400,6 +25448,48 @@ msgctxt "STRINGS.CODEX.ROBOT_DESCRIPTORS.STORAGE.CAPACITY"
 msgid "Internal storage: <b>{0} Kg</b>"
 msgstr "Armazenamento interno: <b>{0} Kg</b>"
 
+#. STRINGS.CODEX.ROVER.BODY.CONTAINER1
+msgctxt "STRINGS.CODEX.ROVER.BODY.CONTAINER1"
+msgid ""
+"The Rover is a planetary scout robot programmed to land on and mine "
+"Planetoids where sending a Duplicant would put them unneccessarily in "
+"danger.\n"
+"\n"
+"Rovers are programmed to be very pleasant and social when interacting with "
+"other beings.\n"
+"\n"
+"However, an unintended consequence of this programming is that the "
+"socialized robots tended to experience the same work slow-downs due to "
+"loneliness and low morale.\n"
+"\n"
+"To compensate for this, the Rover was programmed to have two distinct "
+"personalities it can switch between to have pleasant in-depth conversations "
+"with itself during long stints alone."
+msgstr ""
+"O Rover é um robô explorador planetário programado para pousar e minerar "
+"Planetóides, quando enviar um Duplicante fosse um perigo desnecessário.\n"
+"\n"
+"Os rovers são programados para serem muito agradáveis e sociáveis ao "
+"interagir com outros seres.\n"
+"\n"
+"No entanto, uma consequência não intencional dessa programação é que os "
+"robôs socializados tendem a sofrer dos mesmos atrasos de trabalho devido à "
+"solidão e baixa moral.\n"
+"\n"
+"Para compensar isso, o Rover foi programado para ter duas personalidades "
+"distintas e poder alternar entre elas para ter conversas profundas e "
+"agradáveis consigo mesmo durante longos períodos sozinho."
+
+#. STRINGS.CODEX.ROVER.SUBTITLE
+msgctxt "STRINGS.CODEX.ROVER.SUBTITLE"
+msgid "Scouting Robot"
+msgstr "Robô de Limpeza"
+
+#. STRINGS.CODEX.ROVER.TITLE
+msgctxt "STRINGS.CODEX.ROVER.TITLE"
+msgid "Rover"
+msgstr "Rover"
+
 #. STRINGS.CODEX.ROYAL.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.ROYAL.BODY.CONTAINER1"
 msgid "<smallcaps>Pictured: \"Royal\" Shine Bug variant</smallcaps>"
@@ -25696,7 +25786,23 @@ msgstr "Pé de Lagafruta Seca"
 #. STRINGS.CODEX.SPORECHID.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.SPORECHID.BODY.CONTAINER1"
 msgid ""
+"Sporechids take advantage of their flower's attractiveness to lure "
+"unsuspecting victims into clouds of parsitic Zombie Spores.\n"
+"\n"
+"They are a rare form of holoparasitic plant which finds mammalian hosts to "
+"infect rather than the usual plant species.\n"
+"\n"
+"The Zombie Spore was originally designed for medicinal purposes but its "
+"seditative properties were never refined to the point of usefulness."
 msgstr ""
+"Florósporos aproveitam a atratividade de suas flores para atrair vítimas "
+"inocentes para as nuvens de Esporos Zumbi.\n"
+"\n"
+"Eles são uma forma rara de planta holoparasita que encontra hospedeiros "
+"mamíferos para infectar, em vez das espécies de plantas usuais.\n"
+"\n"
+"O Esporo Zumbi foi originalmente projetado para fins medicinais, mas suas "
+"propriedades sedativas nunca foram refinadas ao ponto da utilidade."
 
 #. STRINGS.CODEX.SPORECHID.SUBTITLE
 msgctxt "STRINGS.CODEX.SPORECHID.SUBTITLE"
@@ -26003,7 +26109,26 @@ msgstr "ASSUNTO: Pedido de Férias Aprovado"
 #. STRINGS.CODEX.TRANQUILTOES.BODY.CONTAINER1
 msgctxt "STRINGS.CODEX.TRANQUILTOES.BODY.CONTAINER1"
 msgid ""
+"Tranquil Toes are a decorative succulent that flourish in a radioactive "
+"environment.\n"
+"\n"
+"Though most of the flora and fauna that thrive a harsh radioactive biome "
+"tends to be aggressive, Tranquil Toes provide a rare exception to this "
+"rule.\n"
+"\n"
+"It is a generally believed that the morale boosting abilities of this plant "
+"come from its resemblence to a funny hat one might wear at a party."
 msgstr ""
+"Dedinho-Tranquilo é uma planta decorativa suculenta que floresce em um "
+"ambiente radioativo.\n"
+"\n"
+"Embora a maior parte da flora e da fauna que se desenvolve em um bioma "
+"radioativo severo tenda a ser agressiva, as dedinho-tranquilo são uma rara "
+"exceção a essa regra.\n"
+"\n"
+"Geralmente acredita-se que as habilidades de aumento de moral desta planta "
+"vêm de sua semelhança com um chapéu engraçado que alguém pode usar em uma "
+"festa."
 
 #. STRINGS.CODEX.TRANQUILTOES.SUBTITLE
 msgctxt "STRINGS.CODEX.TRANQUILTOES.SUBTITLE"
@@ -34588,6 +34713,26 @@ msgstr "Movendo-se p/equipar"
 msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIP.TOOLTIP"
 msgid "This Duplicant is putting on a piece of equipment"
 msgstr "Este Duplicante está vestindo uma peça de equipamento"
+
+#. STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.NAME"
+msgid "Store Equipment"
+msgstr "Armazenar Equipamento"
+
+#. STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.REPORT_NAME
+msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.REPORT_NAME"
+msgid "Store {0}"
+msgstr "Armazenar {0}"
+
+#. STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.STATUS
+msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.STATUS"
+msgid "Storing equipment"
+msgstr "Armazenando equipamento"
+
+#. STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.TOOLTIP
+msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPMENTFETCH.TOOLTIP"
+msgid "This Duplicant is transporting equipment for storage"
+msgstr "Este Duplicante está transportando equipamentos para a armazenagem"
 
 #. STRINGS.DUPLICANTS.CHORES.EQUIPPINGSUIT.NAME
 msgctxt "STRINGS.DUPLICANTS.CHORES.EQUIPPINGSUIT.NAME"
@@ -59307,8 +59452,8 @@ msgstr ""
 
 #. STRINGS.RESEARCH.TECHS.BIOENGINEERING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.BIOENGINEERING.DESC"
-msgid "Description"
-msgstr "Descrição"
+msgid "Mutation station."
+msgstr "Estação de mutação."
 
 #. STRINGS.RESEARCH.TECHS.BIOENGINEERING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.BIOENGINEERING.NAME"
@@ -59628,8 +59773,8 @@ msgstr "<link=\"GLASSFURNISHINGS\">Vidro Soprado</link>"
 
 #. STRINGS.RESEARCH.TECHS.HIGHPRESSUREFORGING.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHPRESSUREFORGING.DESC"
-msgid "High pressure environment for diamond forging"
-msgstr "Ambiente de alta pressão para forja de diamantes"
+msgid "High pressure diamond forging."
+msgstr "Forja de diamantes em alta pressão."
 
 #. STRINGS.RESEARCH.TECHS.HIGHPRESSUREFORGING.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHPRESSUREFORGING.NAME"
@@ -59651,8 +59796,8 @@ msgstr "<link=\"HIGHTEMPFORGING\">Forja em Altas Temperaturas</link>"
 
 #. STRINGS.RESEARCH.TECHS.HIGHVELOCITYDESTRUCTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYDESTRUCTION.DESC"
-msgid "Description"
-msgstr "Descrição"
+msgid "Mine the skies."
+msgstr "Minere os céus."
 
 #. STRINGS.RESEARCH.TECHS.HIGHVELOCITYDESTRUCTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYDESTRUCTION.NAME"
@@ -60243,17 +60388,13 @@ msgstr "<link=\"SOLIDMANAGEMENT\">Gerenciamento de Sólidos</link>"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDSPACE.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDSPACE.DESC"
-msgid ""
-"Transport and sort <link=\"ELEMENTSSOLID\">Solid</link> resources... in "
-"space!"
-msgstr ""
-"Transporte e separe recursos <link=\"ELEMENTSSOLID\">Sólidos</link> ... no "
-"espaço!"
+msgid "Transport and sort <link=\"ELEMENTSSOLID\">Solid</link> resources."
+msgstr "Transporte e separe recursos <link=\"ELEMENTSSOLID\">Sólidos</link>."
 
 #. STRINGS.RESEARCH.TECHS.SOLIDSPACE.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDSPACE.NAME"
-msgid "<link=\"SOLIDSPACE\">Solid Space Transport</link>"
-msgstr "<link=\"SOLIDSPACE\">Transporte Espacial de Sólidos </link>"
+msgid "<link=\"SOLIDSPACE\">Solid Control</link>"
+msgstr "<link=\"SOLIDSPACE\">Controle de Sólidos </link>"
 
 #. STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SOLIDTRANSPORT.DESC"
@@ -60271,8 +60412,8 @@ msgstr "<link=\"SOLIDTRANSPORT\">Transporte de Sólidos</link>"
 
 #. STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.DESC"
-msgid "Description"
-msgstr "Descrição"
+msgid "Sweet advancements in rocket engines."
+msgstr "Deliciosos avanços em motores de foguete."
 
 #. STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.NAME"
@@ -60281,8 +60422,10 @@ msgstr "<link=\"SPACECOMBUSTION\">Combustão Avançada</link>"
 
 #. STRINGS.RESEARCH.TECHS.SPACEGAS.DESC
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEGAS.DESC"
-msgid "Description"
-msgstr "Descrição"
+msgid ""
+"<link=\"ELEMENTSGASSES\">Gas</link> engines and transportation for rockets."
+msgstr ""
+"Motores e transporte de <link=\"ELEMENTSGAS\">Gás</link> para foguetes."
 
 #. STRINGS.RESEARCH.TECHS.SPACEGAS.NAME
 msgctxt "STRINGS.RESEARCH.TECHS.SPACEGAS.NAME"
@@ -67336,7 +67479,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.6.2): {0}"
+msgstr "VERSÃO DE TESTE (3.7): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -67366,7 +67509,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.6.2): {0}"
+msgstr "VERSÃO (3.7): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -69399,8 +69542,8 @@ msgstr "Teleportadores"
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.TOOLTIP
 msgctxt ""
 "STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.TELEPORTERS.TOOLTIP"
-msgid "Affects whether teleporters are spawned during Worldgen."
-msgstr "Afeta se Teleportadores serão invocados durante a geração do mundo."
+msgid "Determines whether teleporters will be spawned during Worldgen"
+msgstr "Afeta se Teleportadores serão criados durante a geração do mundo"
 
 #. STRINGS.UI.FRONTEND.CUSTOMGAMESETTINGSSCREEN.SETTINGS.WORLD_CHOICE.NAME
 msgctxt ""
@@ -70343,11 +70486,8 @@ msgstr "ATIVAR DLC"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.ACTIVATE_EXPANSION1_DESC"
-msgid ""
-"The game will need to restart in order to download and install <i>Spaced Out!"
-"</i>"
-msgstr ""
-"O jogo precisará reiniciar para poder baixar e instalar <i>Spaced Out!</i>"
+msgid "The game will need to restart in order to activate <i>Spaced Out!</i>"
+msgstr "O jogo precisará reiniciar para poder ativar <i>Spaced Out!</i>"
 
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1"
@@ -70357,11 +70497,11 @@ msgstr "DESATIVAR DLC"
 #. STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.DLC.DEACTIVATE_EXPANSION1_DESC"
 msgid ""
-"The game will need to restart in order to download and install the <i>Oxygen "
-"Not Included</i> base game."
+"The game will need to restart in order to activate the <i>Oxygen Not "
+"Included</i> base game."
 msgstr ""
-"O jogo precisará reiniciar para poder baixar e instalar o jogo base "
-"<i>Oxygen Not Included</i>."
+"O jogo precisará reiniciar para poder ativar o jogo base <i>Oxygen Not "
+"Included</i>."
 
 #. STRINGS.UI.FRONTEND.MAINMENU.LOADGAME
 msgctxt "STRINGS.UI.FRONTEND.MAINMENU.LOADGAME"
@@ -78271,88 +78411,153 @@ msgstr "Tecnologia Arcaica"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.DESC"
-msgid "Default Description!"
-msgstr "Descrição Padrão!"
+msgid ""
+"The remnants of a bygone era, lost in time.\n"
+"\n"
+"Harvesting space junk requires a rocket equipped with a <link="
+"\"NOSECONEHARVEST\">Drillcone</link>."
+msgstr ""
+"Os resquícios de uma era passada, perdida no tempo.\n"
+"\n"
+"Para colher recursos é necessário um foguete equipado com uma <link="
+"\"NOSECONEHARVEST\">Brocacone</link>."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.NAME"
-msgid "Gravitas Spacejunk"
-msgstr "Lixo Espacial Gravitas"
+msgid "Destroyed Satellite"
+msgstr "Satélite Destruído"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.DESC"
-msgid "Default Description!"
-msgstr "Descrição Padrão!"
+msgid ""
+"A defunct rocket from a corporation that vanished long ago.\n"
+"\n"
+"Harvesting space junk requires a rocket equipped with a <link="
+"\"NOSECONEHARVEST\">Drillcone</link>."
+msgstr ""
+"Um foguete extinto de uma corporação que desapareceu a muito tempo.\n"
+"\n"
+"Para colher recursos é necessário um foguete equipado com uma <link="
+"\"NOSECONEHARVEST\">Brocacone</link>."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.NAME"
-msgid "Gravitas Spacejunk"
-msgstr "Lixo Espacial Gravitas"
+msgid "Demolished Rocket"
+msgstr "Foguete Demolido"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.DESC"
-msgid "Default Description!"
-msgstr "Descrição Padrão!"
+msgid ""
+"The ruins of a rocket that stopped functioning ages ago.\n"
+"\n"
+"Harvesting space junk requires a rocket equipped with a <link="
+"\"NOSECONEHARVEST\">Drillcone</link>."
+msgstr ""
+"AS ruínas de um foguete que parou de funcionar a muito tempo atrás.\n"
+"\n"
+"Para colher recursos é necessário um foguete equipado com uma <link="
+"\"NOSECONEHARVEST\">Brocacone</link>."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.NAME"
-msgid "Gravitas Spacejunk"
-msgstr "Lixo Espacial Gravitas"
+msgid "Ruined Rocket"
+msgstr "Foguete em ruínas"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.DESC"
-msgid "Default Description!"
-msgstr "Descrição Padrão!"
+msgid ""
+"A rocket part from a society that has been wiped out.\n"
+"\n"
+"Harvesting space junk requires a rocket equipped with a <link="
+"\"NOSECONEHARVEST\">Drillcone</link>."
+msgstr ""
+"Um pedaço de foguete de uma sociedade que foi extinta.\n"
+"\n"
+"Para colher recursos é necessário um foguete equipado com uma <link="
+"\"NOSECONEHARVEST\">Brocacone</link>."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.NAME"
-msgid "Gravitas Spacejunk"
-msgstr "Lixo Espacial Gravitas"
+msgid "Retired Planetary Excursion Module"
+msgstr "Módulo de Excursão Planetário Abandonado"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.DESC"
-msgid "Default Description!"
-msgstr "Descrição Padrão!"
+msgid ""
+"A destroyed Gravitas satellite.\n"
+"\n"
+"Harvesting space junk requires a rocket equipped with a <link="
+"\"NOSECONEHARVEST\">Drillcone</link>."
+msgstr ""
+"Um satélite Gravitas destruído.\n"
+"\n"
+"Para colher recursos é necessário um foguete equipado com uma <link="
+"\"NOSECONEHARVEST\">Brocacone</link>."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.NAME"
-msgid "Gravitas Spacejunk"
-msgstr "Lixo Espacial Gravitas"
+msgid "Destroyed Satellite"
+msgstr "Satélite Destruído"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.DESC"
-msgid "Default Description!"
-msgstr "Descrição Padrão!"
+msgid ""
+"The remains of a satellite made some time in the past.\n"
+"\n"
+"Harvesting space junk requires a rocket equipped with a <link="
+"\"NOSECONEHARVEST\">Drillcone</link>."
+msgstr ""
+"Os resquícios de um satélite feito em algum tempo no passado.\n"
+"\n"
+"Para colher recursos é necessário um foguete equipado com uma <link="
+"\"NOSECONEHARVEST\">Brocacone</link>."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.NAME"
-msgid "Gravitas Spacejunk"
-msgstr "Lixo Espacial Gravitas"
+msgid "Annihilated Satellite"
+msgstr "Satélite Aniquilado"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.DESC"
-msgid "Default Description!"
-msgstr "Descrição Padrão!"
+msgid ""
+"A defunct space shuttle that floats through space unattended.\n"
+"\n"
+"Harvesting space junk requires a rocket equipped with a <link="
+"\"NOSECONEHARVEST\">Drillcone</link>."
+msgstr ""
+"Um ônibus espacial extinto que flutua pelo espaço sem rumo.\n"
+"\n"
+"Para colher recursos é necessário um foguete equipado com uma <link="
+"\"NOSECONEHARVEST\">Brocacone</link>."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.NAME"
-msgid "Gravitas Spacejunk"
-msgstr "Lixo Espacial Gravitas"
+msgid "Wrecked Space Shuttle"
+msgstr "Ônibus Espacial Quebrado"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.DESC"
-msgid "Default Description!"
-msgstr "Descrição Padrão!"
+msgid ""
+"The module from a space station that ceased to exist ages ago.\n"
+"\n"
+"Harvesting space junk requires a rocket equipped with a <link="
+"\"NOSECONEHARVEST\">Drillcone</link>."
+msgstr ""
+"Um módulo de uma estação espacial que deixou de existir a muito tempo "
+"atrás.\n"
+"\n"
+"Para colher recursos é necessário um foguete equipado com uma <link="
+"\"NOSECONEHARVEST\">Brocacone</link>."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.NAME"
-msgid "Gravitas Spacejunk"
-msgstr "Lixo Espacial Gravitas"
+msgid "Obsolete Space Station Module"
+msgstr "Módulo de Estação Espacial Obsoleto"
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.DESC"
-msgid "Default Description!"
-msgstr "Descrição Padrão!"
+msgid "Has never been disproven to not exist."
+msgstr "Sua inexistência nunca foi contestada."
 
 #. STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.NAME
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.NAME"
@@ -79076,12 +79281,12 @@ msgstr "Campo de Asteroide Arenoso"
 #. STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.DESC
 msgctxt "STRINGS.UI.SPACEDESTINATIONS.HARVESTABLE_POI.SATELLITEFIELD.DESC"
 msgid ""
-"\n"
+"Antiquated space technology from a forgotten age.\n"
 "\n"
 "Harvesting resources requires a rocket equipped with a <link="
 "\"NOSECONEHARVEST\">Drillcone</link>."
 msgstr ""
-"\n"
+"Tecnologia espacial antiquada de uma época esquecida.\n"
 "\n"
 "Para colher recursos é necessário um foguete equipado com uma <link="
 "\"NOSECONEHARVEST\">Brocacone</link>."
@@ -82687,8 +82892,8 @@ msgstr "Trajeto de pouso obstruído"
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN."
 "DROPDOWN_TOOLTIP_SITE_OBSTRUCTED"
-msgid "Landing site obstructed"
-msgstr "Trajeto de pouso obstruído"
+msgid "Landing position on the platform is obstructed"
+msgstr "Posição de pouso na plataforma está obstruída"
 
 #. STRINGS.UI.UISIDESCREENS.CLUSTERDESTINATIONSIDESCREEN.DROPDOWN_TOOLTIP_TOO_SHORT
 msgctxt ""
@@ -89129,6 +89334,110 @@ msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "Asteroide Água"
 
+#~ msgctxt "STRINGS.BUILDINGS.PREFABS.DIAMONDPRESS.EFFECT"
+#~ msgid "Crushes carbon into diamonds"
+#~ msgstr "Esmaga carbono em diamantes"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.BIOENGINEERING.DESC"
+#~ msgid "Description"
+#~ msgstr "Descrição"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.HIGHVELOCITYDESTRUCTION.DESC"
+#~ msgid "Description"
+#~ msgstr "Descrição"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.SPACECOMBUSTION.DESC"
+#~ msgid "Description"
+#~ msgstr "Descrição"
+
+#~ msgctxt "STRINGS.RESEARCH.TECHS.SPACEGAS.DESC"
+#~ msgid "Description"
+#~ msgstr "Descrição"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.DESC"
+#~ msgid "Default Description!"
+#~ msgstr "Descrição Padrão!"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION1.NAME"
+#~ msgid "Gravitas Spacejunk"
+#~ msgstr "Lixo Espacial Gravitas"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.DESC"
+#~ msgid "Default Description!"
+#~ msgstr "Descrição Padrão!"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION2.NAME"
+#~ msgid "Gravitas Spacejunk"
+#~ msgstr "Lixo Espacial Gravitas"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.DESC"
+#~ msgid "Default Description!"
+#~ msgstr "Descrição Padrão!"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION3.NAME"
+#~ msgid "Gravitas Spacejunk"
+#~ msgstr "Lixo Espacial Gravitas"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.DESC"
+#~ msgid "Default Description!"
+#~ msgstr "Descrição Padrão!"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION4.NAME"
+#~ msgid "Gravitas Spacejunk"
+#~ msgstr "Lixo Espacial Gravitas"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.DESC"
+#~ msgid "Default Description!"
+#~ msgstr "Descrição Padrão!"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION5.NAME"
+#~ msgid "Gravitas Spacejunk"
+#~ msgstr "Lixo Espacial Gravitas"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.DESC"
+#~ msgid "Default Description!"
+#~ msgstr "Descrição Padrão!"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION6.NAME"
+#~ msgid "Gravitas Spacejunk"
+#~ msgstr "Lixo Espacial Gravitas"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.DESC"
+#~ msgid "Default Description!"
+#~ msgstr "Descrição Padrão!"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION7.NAME"
+#~ msgid "Gravitas Spacejunk"
+#~ msgstr "Lixo Espacial Gravitas"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.DESC"
+#~ msgid "Default Description!"
+#~ msgstr "Descrição Padrão!"
+
+#~ msgctxt ""
+#~ "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.GRAVITASSPACESTATION8.NAME"
+#~ msgid "Gravitas Spacejunk"
+#~ msgstr "Lixo Espacial Gravitas"
+
+#~ msgctxt "STRINGS.UI.SPACEDESTINATIONS.ARTIFACT_POI.RUSSELLSTEAPOT.DESC"
+#~ msgid "Default Description!"
+#~ msgstr "Descrição Padrão!"
+
 #~ msgctxt "STRINGS.UI.FRONTEND.MOTD.IMAGE_HEADER"
 #~ msgid "PECULIAR PLANTS UPDATE"
 #~ msgstr "ATUALIZAÇÃO PLANTAS PECULIARES"
@@ -92963,25 +93272,6 @@ msgstr "Asteroide Água"
 #~ msgid "Sand is used in an array of liquid and air filtering processes."
 #~ msgstr ""
 #~ "Areia é usada em uma variedade de processos de filtragem de líquidos e ar."
-
-#~ msgctxt "STRINGS.BUILDINGS.PREFABS.ROCKCRUSHER.EFFECT"
-#~ msgid ""
-#~ "Produces <link=\"SAND\">Sand</link> from <link=\"RAWMINERAL\">Raw "
-#~ "Mineral</link>.\n"
-#~ "\n"
-#~ "Inefficiently produces <link=\"REFINEDMETAL\">Refined Metals</link> from "
-#~ "raw <link=\"RAWMETAL\">Metal Ore</link>.\n"
-#~ "\n"
-#~ "Duplicants will not fabricate items unless recipes are queued."
-#~ msgstr ""
-#~ "Produz <link=\"SAND\">Areia</link> a partir de <link=\"RAWMINERAL"
-#~ "\">Minerais Brutos</link>.\n"
-#~ "\n"
-#~ "Produz ineficientemente <link=\"REFINEDMETAL\">Metal Refinado</link> a "
-#~ "partir de <link=\"RAWMETAL\">Minério de Metal</link> bruto.\n"
-#~ "\n"
-#~ "Duplicantes não irão fabricar enquanto receitas não forem colocadas na "
-#~ "fila."
 
 #~ msgctxt "STRINGS.CODEX.A4_ATOMICONRECRUITMENT.BODY.SIGNATURE1"
 #~ msgid ""
@@ -104520,10 +104810,6 @@ msgstr "Asteroide Água"
 #~ msgctxt "STRINGS.UI.DETAILTABS.POSSESSIONS.NAME"
 #~ msgid "Assigned"
 #~ msgstr "Atribuições"
-
-#~ msgctxt "STRINGS.UI.DETAILTABS.POSSESSIONS.NOEQUIPMENT"
-#~ msgid "No equipment"
-#~ msgstr "Sem equipamento"
 
 #~ msgctxt "STRINGS.UI.DETAILTABS.POSSESSIONS.NOEQUIPMENT_TOOLTIP"
 #~ msgid "This Duplicant has not been equipped with a tool"
