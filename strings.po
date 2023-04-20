@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Português foi Incluído! 3.9\n"
+"Project-Id-Version: Português foi Incluído! 3.10\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
 "Last-Translator: Arthur Aguiar <chastomber@outlook.com.br>\n"
@@ -1275,8 +1275,8 @@ msgstr "Estruturas não conseguem funcionar na saturação atual"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME"
-msgid "Lavatory Ready"
-msgstr "Vaso Sanitário Pronto"
+msgid "{toilet} Ready"
+msgstr ""
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.TOOLTIP"
@@ -1285,8 +1285,8 @@ msgstr "Este banheiro está pronto para receber visitantes"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.NAME"
-msgid "Lavatory In Use"
-msgstr "Vaso Sanitário Em Uso"
+msgid "{toilet} In Use"
+msgstr "{toilet} Em Uso"
 
 #. STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.TOOLTIP
 msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILETINUSE.TOOLTIP"
@@ -3056,6 +3056,16 @@ msgid ""
 msgstr ""
 "Impossível descarregar conteúdo, <style=\"KKeyword\">Cano</style> de saída "
 "está bloqueado"
+
+#. STRINGS.BUILDING.STATUSITEMS.OUTPUTTILEBLOCKED.NAME
+msgctxt "STRINGS.BUILDING.STATUSITEMS.OUTPUTTILEBLOCKED.NAME"
+msgid "Output Blocked"
+msgstr "Saída Bloqueada"
+
+#. STRINGS.BUILDING.STATUSITEMS.OUTPUTTILEBLOCKED.TOOLTIP
+msgctxt "STRINGS.BUILDING.STATUSITEMS.OUTPUTTILEBLOCKED.TOOLTIP"
+msgid "Output is blocked"
+msgstr "Saída está bloqueada"
 
 #. STRINGS.BUILDING.STATUSITEMS.OVERHEATED.NAME
 msgctxt "STRINGS.BUILDING.STATUSITEMS.OVERHEATED.NAME"
@@ -6819,6 +6829,19 @@ msgstr ""
 msgctxt "STRINGS.BUILDINGS.PREFABS.ELECTROLYZER.NAME"
 msgid "<link=\"ELECTROLYZER\">Electrolyzer</link>"
 msgstr "<link=\"ELECTROLYZER\">Célula Eletrolítica</link>"
+
+#. STRINGS.BUILDINGS.PREFABS.ESCAPEPOD.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.ESCAPEPOD.DESC"
+msgid "Delivers a Duplicant from a stranded rocket to the nearest asteroid."
+msgstr ""
+"Entrega um Duplicante de um foguete a deriva para o asteroide mais próximo."
+
+#. STRINGS.BUILDINGS.PREFABS.ESCAPEPOD.NAME
+#| msgctxt "STRINGS.BUILDINGS.PREFABS.CLUSTERTELESCOPE.NAME"
+#| msgid "<link=\"TELESCOPE\">Telescope</link>"
+msgctxt "STRINGS.BUILDINGS.PREFABS.ESCAPEPOD.NAME"
+msgid "<link=\"ESCAPEPOD\">Escape Pod</link>"
+msgstr "<link=\"ESCAPEPOD\">Cápsula de Fuga</link>"
 
 #. STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.ESPRESSOMACHINE.DESC"
@@ -16910,6 +16933,33 @@ msgctxt "STRINGS.BUILDINGS.PREFABS.VERTICALWINDTUNNEL.NAME"
 msgid "<link=\"VERTICALWINDTUNNEL\">Vertical Wind Tunnel</link>"
 msgstr "<link=\"VERTICALWINDTUNNEL\">Túnel de Vento Vertical</link>"
 
+#. STRINGS.BUILDINGS.PREFABS.WALLTOILET.DESC
+msgctxt "STRINGS.BUILDINGS.PREFABS.WALLTOILET.DESC"
+msgid ""
+"Wall Toilets transmit fewer germs to Duplicants' skin and require no "
+"emptying."
+msgstr ""
+"Privadas de Parede transmitem menos germes para a pele dos Duplicantes e não "
+"requerem esvaziamento."
+
+#. STRINGS.BUILDINGS.PREFABS.WALLTOILET.EFFECT
+msgctxt "STRINGS.BUILDINGS.PREFABS.WALLTOILET.EFFECT"
+msgid ""
+"Gives Duplicants a place to relieve themselves. Empties directly on the "
+"other side of the wall.\n"
+"\n"
+"Spreads very few <link=\"DISEASE\">Germs</link>."
+msgstr ""
+"Dá aos Duplicantes um local para se aliviarem. Esvazia diretamente para o "
+"outro lado da parede\n"
+"\n"
+"Espalha pouquíssimos <link=\"DISEASE\">Germes</link>."
+
+#. STRINGS.BUILDINGS.PREFABS.WALLTOILET.NAME
+msgctxt "STRINGS.BUILDINGS.PREFABS.WALLTOILET.NAME"
+msgid "<link=\"WALLTOILET\">Wall Toilet</link>"
+msgstr "<link=\"WALLTOILET\">Privada de Parede</link>"
+
 #. STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.DESC
 msgctxt "STRINGS.BUILDINGS.PREFABS.WARPCONDUITRECEIVER.DESC"
 msgid "The tubes at the back disappear into nowhere."
@@ -20798,7 +20848,7 @@ msgid ""
 "the characteristics of what he called \"a puppy that was lost in a "
 "teleportation experiment weeks ago\".\n"
 "\n"
-"This unbelivable! Jackie has been hiding the nature of the teleportation "
+"This is unbelivable! Jackie has been hiding the nature of the teleportation "
 "experiments from me. What's worse is I know from previous conversations that "
 "she knows I would never approve of pursuing this line of experimentation. "
 "The societal benefits of teleportaion aside, you <i>cannot</i> kill a living "
@@ -20845,7 +20895,7 @@ msgstr ""
 "<i>não pode</i> matar um ser vivo toda vez que você quiser enviar eles pra "
 "sala ao lado. As implicações morais e éticas disso são horrendas.\n"
 "\n"
-"Eu sabia que ela esteva escondendo de mim essa informação. Quando eu "
+"Eu sabia que ela estava escondendo de mim essa informação. Quando eu "
 "pesquisei pelo banco de dados Gravitas eu encontrei nada sobre esses "
 "experimentos de teleporte. Foi somente por causa desta referência no artigo "
 "de IA do Dr. Ali que eu fui capaz de descobrir o que aconteceu.\n"
@@ -52532,6 +52582,22 @@ msgctxt "STRINGS.ITEMS.CARGO_CAPSULE.NAME"
 msgid "Care Package"
 msgstr "Pacote de Suprimento"
 
+#. STRINGS.ITEMS.DEBRISPAYLOAD.DESC
+msgctxt "STRINGS.ITEMS.DEBRISPAYLOAD.DESC"
+msgid ""
+"Whatever is left over from a Rocket Self-Destruct can be recovered once it "
+"has crash-landed."
+msgstr ""
+"O que restar de um Foguete Autodestruído pode ser recuperado uma vez que ele "
+"cair."
+
+#. STRINGS.ITEMS.DEBRISPAYLOAD.NAME
+#| msgctxt "STRINGS.DUPLICANTS.ROLES.ROCKETPILOT.NAME"
+#| msgid "<link=\"PILOT\">Rocket Piloting</link>"
+msgctxt "STRINGS.ITEMS.DEBRISPAYLOAD.NAME"
+msgid "<link=\"DEBRISPAYLOAD\">Rocket Debris</link>"
+msgstr "<link=\"DEBRISPAYLOAD\">Restos de Foguete</link>"
+
 #. STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC
 msgctxt "STRINGS.ITEMS.FOOD.BASICFORAGEPLANT.DESC"
 msgid ""
@@ -54823,6 +54889,20 @@ msgstr "Tutorial: O que é UTD?"
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DTU.TOOLTIP"
 msgid "Notes on measuring heat energy"
 msgstr "Dicas sobre medição de energia térmica"
+
+#. STRINGS.MISC.NOTIFICATIONS.DUPLICANT_CRASH_LANDED.NAME
+msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANT_CRASH_LANDED.NAME"
+msgid "Duplicant Crash Landed!"
+msgstr "Duplicante Aterrissou!"
+
+#. STRINGS.MISC.NOTIFICATIONS.DUPLICANT_CRASH_LANDED.TOOLTIP
+msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANT_CRASH_LANDED.TOOLTIP"
+msgid ""
+"A Duplicant in an escape pod has made it to the surface of the nearest "
+"asteroid."
+msgstr ""
+"Um Duplicante em uma cápsula de fuga conseguiu chegar a superfície do "
+"asteroide mais próximo."
 
 #. STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY
 msgctxt "STRINGS.MISC.NOTIFICATIONS.DUPLICANTABSORBED.MESSAGEBODY"
@@ -68841,7 +68921,7 @@ msgstr ""
 #. STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.TESTING_WATERMARK"
 msgid "TESTING BUILD: {0}"
-msgstr "VERSÃO DE TESTE (3.9): {0}"
+msgstr "VERSÃO DE TESTE (3.10): {0}"
 
 #. STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.UPDATES.BIGGER_TIMES"
@@ -68871,7 +68951,7 @@ msgstr "PRÓXIMA ATUALIZAÇÃO EM"
 #. STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK
 msgctxt "STRINGS.UI.DEVELOPMENTBUILDS.WATERMARK"
 msgid "BUILD: {0}"
-msgstr "VERSÃO (3.9): {0}"
+msgstr "VERSÃO (3.10): {0}"
 
 #. STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY
 msgctxt "STRINGS.UI.DIAGNOSTICS_SCREEN.CLICK_TOGGLE_MESSAGE.ALERT_ONLY"
@@ -79592,7 +79672,19 @@ msgstr "Raridade 5"
 #. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.ARTIFACT"
 msgid ""
+"The microscopic organisms within this rock are of a unique variety whose "
+"genetic code shows many tell-tale signs of being genetically engineered "
+"within a lab.\n"
+"\n"
+"Further analysis reveals they share 99.999% of their genetic code with Shine "
+"Bugs."
 msgstr ""
+"Os organismos microscópicos dentro desta rocha são de uma variedade única, "
+"cujo código genético mostra muitos sinais reveladores de ter sido "
+"geneticamente modificado em um laboratório.\n"
+"\n"
+"Uma análise mais aprofundada revela que eles compartilham 99,999% de seu "
+"código genético com Vagalumes."
 
 #. STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BIOLUMROCK.DESCRIPTION"
@@ -79611,7 +79703,18 @@ msgstr "Rocha Bioluminescente"
 #. STRINGS.UI.SPACEARTIFACTS.BLENDER.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BLENDER.ARTIFACT"
 msgid ""
+"Trace amounts of edible foodstuffs present in this blender indicate that it "
+"was probably used to emulsify the ingredients of a mush bar.\n"
+"\n"
+"It is also very likely that it was employed at least once in the production "
+"of a peanut butter and banana smoothie."
 msgstr ""
+"Vestígios de alimentos presentes neste liquidificador indicam que "
+"provavelmente foi usado para emulsionar os ingredientes de uma barra de "
+"lama.\n"
+"\n"
+"Também é muito provável que tenha sido empregado pelo menos uma vez na "
+"produção de manteiga de amendoim e vitamina de banana."
 
 #. STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BLENDER.DESCRIPTION"
@@ -79630,7 +79733,19 @@ msgstr "Liquidificador"
 #. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.ARTIFACT"
 msgid ""
+"This cordless phone has a curious direct line to an unknown location in "
+"which strange distant voices can be heard but not understood, nor interacted "
+"with.\n"
+"\n"
+"Though Gravitas spent a lot of money and years of study dedicated to "
+"discovering its secret, the mystery was never solved."
 msgstr ""
+"Este telefone sem fio tem uma curiosa linha direta para um local "
+"desconhecido, no qual vozes distantes estranhas podem ser ouvidas, mas não "
+"compreendidas, nem interagidas.\n"
+"\n"
+"Embora Gravitas tenha gasto muito dinheiro e anos de estudo dedicados a "
+"descobrir seu segredo, o mistério nunca foi resolvido."
 
 #. STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.BRICKPHONE.DESCRIPTION"
@@ -79695,8 +79810,8 @@ msgstr ""
 
 #. STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.DESCRIPTION"
-msgid "Grub Grub"
-msgstr "Lagalarta"
+msgid "A moving tribute to a tiny plant hugger."
+msgstr "Um tributo comovente a um pequeno criador de plantas."
 
 #. STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.NAME"
@@ -79731,12 +79846,28 @@ msgstr "Fóssil Intocado"
 #. STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.ARTIFACT"
 msgid ""
+"Records from the Genetics and Biology Lab of the Gravitas facility show that "
+"several early iterations of a radioactive Bee would continue to produce "
+"honey and that this honey was once accidentally stored in the employee "
+"kitchen which resulted in several incidents of minor radiation poisoning "
+"when it was accidentally used as a sweetener for tea.\n"
+"\n"
+"Employees who used this product reported that it was the \"sweetest honey "
+"they'd ever tasted\" and expressed no regret at the mix-up."
 msgstr ""
+"Registros do Laboratório de Genética e Biologia do Instituto Gravitas "
+"mostram que várias iterações iniciais de uma abelha radioativa continuariam "
+"a produzir mel e que este mel foi acidentalmente armazenado na cozinha dos "
+"funcionários, o que resultou em vários incidentes de envenenamento leve por "
+"radiação quando foi acidentalmente usado como adoçante para chá.\n"
+"\n"
+"Os funcionários que usaram este produto relataram que era \"o mel mais doce "
+"que já experimentaram\" e não expressaram arrependimento pela confusão."
 
 #. STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.DESCRIPTION"
-msgid "This doesn't taste like uranium"
-msgstr "Isso não tem gosto de urânio"
+msgid "Sweet golden liquid with just a touch of uranium."
+msgstr "Um doce líquido dourado com um toque de urânio."
 
 #. STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.NAME
 msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.NAME"
@@ -79746,7 +79877,17 @@ msgstr "Pote de Mel"
 #. STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.ARTIFACT"
 msgid ""
+"Molten lava and obsidian combined in a way that allows the lava to maintain "
+"just enough heat to remain in liquid form.\n"
+"\n"
+"Plans of this lamp found in the Gravitas archives have been attributed to "
+"one Robin Nisbet, PhD."
 msgstr ""
+"Lava e obsidiana derretidas e combinadas de uma forma que permite que a lava "
+"mantenha o calor suficiente para permanecer na forma líquida.\n"
+"\n"
+"O esquema desta lâmpada encontrado nos arquivos Gravitas foram atribuídos a "
+"Robin Nayane, PhD."
 
 #. STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MAGMALAMP.DESCRIPTION"
@@ -79784,7 +79925,17 @@ msgstr "Arte Moderna"
 #. STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.ARTIFACT"
 msgid ""
+"This extremely rare, museum grade moldavite once sat on the desk of Dr. Ren "
+"Sato, but it was stolen by some unknown person.\n"
+"\n"
+"Dr. Sato suspected the perpetrator was none other than Director Stern, but "
+"was never able to confirm this theory."
 msgstr ""
+"Esta moldavita extremamente rara, nível de museu, uma vez esteve na mesa do "
+"Dr. Renan Sato, mas foi roubada por uma pessoa desconhecida.\n"
+"\n"
+"O Dr. Sato suspeitou que o autor era ninguém menos que a Diretora Stern, mas "
+"nunca foi capaz de confirmar essa teoria."
 
 #. STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOLDAVITE.DESCRIPTION"
@@ -79814,7 +79965,20 @@ msgstr "Anel de Humor Radioativo"
 #. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.ARTIFACT"
 msgid ""
+"In contrast to most moons, this object's glowing properties do not come from "
+"reflecting an external source of light, but rather from an internal glow of "
+"mysterious origin.\n"
+"\n"
+"The glow of this object also grants an extraordinary amount of Decor bonus "
+"to nearby Duplicants, almost as if it was designed that way."
 msgstr ""
+"Em contraste com a maioria das luas, as propriedades de brilho desse objeto "
+"não vêm do reflexo de uma fonte externa de luz, mas sim de um brilho interno "
+"de origem misteriosa.\n"
+"\n"
+"O brilho deste objeto também concede uma quantidade extraordinária de bônus "
+"de Decor para os Duplicantes próximos, quase como se tivesse sido projetado "
+"dessa forma."
 
 #. STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.MOONMOONMOON.DESCRIPTION"
@@ -79829,7 +79993,15 @@ msgstr "Lualualua"
 #. STRINGS.UI.SPACEARTIFACTS.OBELISK.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OBELISK.ARTIFACT"
 msgid ""
+"On close inspection this rectangle is actually a stone box built with a "
+"covert, almost seamless, lid, housing a tiny key.\n"
+"\n"
+"It is still unclear what the key unlocks."
 msgstr ""
+"Olhando de perto, este retângulo é na verdade uma caixa de pedra construída "
+"com uma tampa oculta, quase imperceptível, abrigando uma pequena chave.\n"
+"\n"
+"Ainda não está claro o que a chave desbloqueia."
 
 #. STRINGS.UI.SPACEARTIFACTS.OBELISK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OBELISK.DESCRIPTION"
@@ -79850,7 +80022,17 @@ msgstr "Obelisco Pequeno"
 #. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.ARTIFACT"
 msgid ""
+"An office mug with the Gravitas logo on it. Though their office mugs were "
+"all emblazoned with the same logo, Gravitas made the mugs colored "
+"differently for different departments.\n"
+"\n"
+"This one is from the AI department."
 msgstr ""
+"Uma caneca de escritório com o logotipo do Gravitas. Embora suas canecas de "
+"escritório fossem todas estampadas com o mesmo logotipo, Gravitas fez as "
+"canecas com cores diferentes para departamentos diferentes.\n"
+"\n"
+"Este é do departamento de IA."
 
 #. STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.OFFICEMUG.DESCRIPTION"
@@ -79892,7 +80074,18 @@ msgstr "Raio-X Antigo"
 #. STRINGS.UI.SPACEARTIFACTS.ORACLE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ORACLE.ARTIFACT"
 msgid ""
+"The pieces for this contraption are all recycled from projects in the "
+"robotics department.\n"
+"\n"
+"The design is very close to one published in an amateur DIY magazine that "
+"once sat in the lobby of the 'Employees Only' area of Gravitas' facilities."
 msgstr ""
+"As peças dessa engenhoca são todas recicladas de projetos da área de "
+"robótica.\n"
+"\n"
+"O design está muito próximo de um publicado numa revista amadora de DIY que "
+"outrora estava no salão da zona 'Apenas para Funcionários' das instalações "
+"Gravitas."
 
 #. STRINGS.UI.SPACEARTIFACTS.ORACLE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ORACLE.DESCRIPTION"
@@ -79932,7 +80125,20 @@ msgstr "Chaleira"
 #. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.ARTIFACT"
 msgid ""
+"The bottom of this lamp contains the words 'Property of the Atmospheric "
+"Sciences Department'.\n"
+"\n"
+"It's worth noting that the Gravitas Atmospheric Sciences Department once "
+"simulated an experiment testing the feasability of survival in an "
+"environment filled with noble gasses, similar to the ones contained within "
+"this device."
 msgstr ""
+"A parte inferior desta lâmpada contém as palavras 'Propriedade do "
+"Departamento de Ciências Atmosféricas'.\n"
+"\n"
+"Vale destacar que o Departamento de Ciências Atmosféricas do Gravitas certa "
+"vez simulou um experimento testando a viabilidade de sobrevivência em um "
+"ambiente repleto de gases nobres, semelhantes aos contidos neste dispositivo."
 
 #. STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.PLASMALAMP.DESCRIPTION"
@@ -80015,7 +80221,19 @@ msgstr "Braço de Robô"
 #. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.ARTIFACT"
 msgid ""
+"Speculations about the origin of this rock include a paper written by one "
+"Harold P. Moreson, Ph.D. in which he speculated it could be a rare form of "
+"hollow geode which failed to form any crystals inside.\n"
+"\n"
+"This paper appears in the Gravitas archives, and appears to be one of the "
+"factors in the hiring of Moreson into the geology department of the company."
 msgstr ""
+"Especulações sobre a origem desta rocha incluem um artigo escrito por um tal "
+"de Haroldo P. Moreson, Ph.D. no qual ele especulou que poderia ser uma forma "
+"rara de geodo oco que não conseguiu formar nenhum cristal em seu interior.\n"
+"\n"
+"Este artigo consta nos arquivos da Gravitas e parece ser um dos fatores da "
+"contratação de Moreson para o departamento de geologia da empresa."
 
 #. STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.ROCKTORNADO.DESCRIPTION"
@@ -80030,7 +80248,13 @@ msgstr "Rocha Tornado"
 #. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.ARTIFACT"
 msgid ""
+"A well-used, competition-compliant version of the popular puzzle cube.\n"
+"\n"
+"It's worth noting that "
 msgstr ""
+"Uma versão para competições, e bem usada, do popular cubo mágico.\n"
+"\n"
+"É importante notar que "
 
 #. STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.RUBIKSCUBE.DESCRIPTION"
@@ -80113,7 +80337,18 @@ msgstr "Gerador de Escudo"
 #. STRINGS.UI.SPACEARTIFACTS.SINK.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.ARTIFACT"
 msgid ""
+"A small trace of encrusted soap on this sink strongly suggests it was "
+"installed in a personal bathroom, rather than a public one which would have "
+"used a soap dispenser.\n"
+"\n"
+"The soap sliver is light blue and contains a manufactured blueberry "
+"fragrance."
 msgstr ""
+"Um pequeno vestígio de sabonete incrustado nesta pia sugere fortemente que "
+"ela foi instalada em um banheiro pessoal, em vez de um banheiro público onde "
+"teria usado um dispensador de sabão.\n"
+"\n"
+"A fita de sabão é azul claro e contém uma fragrância de mirtilo artificial."
 
 #. STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SINK.DESCRIPTION"
@@ -80128,7 +80363,17 @@ msgstr "Pia"
 #. STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.ARTIFACT"
 msgid ""
+"This marvel of a device was built using parts from an old Tornado-in-a-Box "
+"science fair project.\n"
+"\n"
+"Very faint, faded letters are still visible on the display bottom that read "
+"'Camille P. Grade 5'."
 msgstr ""
+"Este dispositivo maravilhoso foi construído com peças de um antigo projeto "
+"de feira de ciências chamado Tornado em uma caixa.\n"
+"\n"
+"Letras muito fracas e desbotadas ainda são visíveis na parte inferior da "
+"tela que dizem 'Camile P. Grau 5'."
 
 #. STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.SOLARSYSTEM.DESCRIPTION"
@@ -80145,7 +80390,15 @@ msgstr "Sistema Auto Contido"
 #. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.ARTIFACT"
 msgid ""
+"The size and shape of this stethescope suggests it was not intended to be "
+"used by neither a human-sized nor a Duplicant-sized being but something half-"
+"way in between the two beings.\n"
+"\n"
 msgstr ""
+"O tamanho e a forma deste estetoscópio sugere que ele não se destina a ser "
+"usado nem por um ser de tamanho humano nem de Duplicante, mas algo entre os "
+"dois seres.\n"
+"\n"
 
 #. STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.STETHOSCOPE.DESCRIPTION"
@@ -80179,7 +80432,16 @@ msgstr "Bule Incrustado"
 #. STRINGS.UI.SPACEARTIFACTS.VHS.ARTIFACT
 msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.ARTIFACT"
 msgid ""
+"The label on this VHS tape reads \"Jackie and Olivia's House Warming Party"
+"\".\n"
+"\n"
+"Unfortunately, a device with which to play this recording no longer exists "
+"in this universe."
 msgstr ""
+"A etiqueta nesta fita VHS diz \"Festa de Boas vindas da Jaque e Olivia\".\n"
+"\n"
+"Infelizmente, um dispositivo para reproduzir esta gravação não existe mais "
+"neste universo."
 
 #. STRINGS.UI.SPACEARTIFACTS.VHS.DESCRIPTION
 msgctxt "STRINGS.UI.SPACEARTIFACTS.VHS.DESCRIPTION"
@@ -83573,6 +83835,11 @@ msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CORNER"
 msgid "Must be built in a corner"
 msgstr "Precisa ser construído em um canto"
 
+#. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CORNER_FLOOR
+msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_CORNER_FLOOR"
+msgid "Must be built in a corner on the ground"
+msgstr "Precisa ser construído em um canto adjacente ao chão"
+
 #. STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR
 msgctxt "STRINGS.UI.TOOLTIPS.HELP_BUILDLOCATION_FLOOR"
 msgid "Must be built on solid ground"
@@ -85230,8 +85497,11 @@ msgstr "Nenhuma receita descoberta"
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPEDISCOVERED_BODY"
-msgid "Discover new ingredients in the world to unlock some recipes."
-msgstr "Descubra novos ingredientes no mundo para desbloquear receitas."
+msgid ""
+"Discover new ingredients or research new technology to unlock some recipes."
+msgstr ""
+"Descubra novos ingredientes ou pesquise novas tecnologias para desbloquear "
+"receitas."
 
 #. STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPESELECTED
 msgctxt "STRINGS.UI.UISIDESCREENS.FABRICATORSIDESCREEN.NORECIPESELECTED"
@@ -87151,8 +87421,8 @@ msgstr ""
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.MAX_HEIGHT.FAILED
 msgctxt ""
 "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.MAX_HEIGHT.FAILED"
-msgid "    • Engine's height limit reached"
-msgstr "    • Limite de altura do motor atingido"
+msgid "    • Engine's height limit reached or exceeded"
+msgstr "    • Limite de altura do motor atingido ou ultrapassado"
 
 #. STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.CONSTRAINTS.MAX_MODULES.COMPLETE
 msgctxt ""
@@ -87253,6 +87523,61 @@ msgstr "    • Precisa ser instalado no topo do foguete"
 msgctxt "STRINGS.UI.UISIDESCREENS.SELECTMODULESIDESCREEN.TITLE"
 msgid "Select Module"
 msgstr "Selecione Módulo"
+
+#. STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TEXT
+msgctxt "STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TEXT"
+msgid "ABANDON SHIP!"
+msgstr "ABANDONAR O NAVIO!"
+
+#. STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TEXT_CONFIRM
+msgctxt "STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TEXT_CONFIRM"
+msgid "CONFIRM ABANDON SHIP"
+msgstr "CONFIRMAR ABANDONAR NAVIO"
+
+#. STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TOOLTIP
+msgctxt "STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TOOLTIP"
+msgid ""
+"This rocket is equipped with an emergency escape system.\n"
+"\n"
+"The rocket's self-destruct sequence can be triggered to destroy it and "
+"propel fragments of the ship towards the nearest planetoid.\n"
+"\n"
+"Any Duplicants on board will be safely delivered in escape pods."
+msgstr ""
+"Este foguete está equipado com um sistema de escape de emergência.\n"
+"\n"
+"A sequência de autodestruição do foguete pode ser acionada para destruí-lo e "
+"impulsionar fragmentos da nave em direção ao planetoide mais próximo.\n"
+"\n"
+"Qualquer Duplicante a bordo será entregue com segurança em cápsulas de fuga."
+
+#. STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TOOLTIP_CONFIRM
+msgctxt ""
+"STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.BUTTON_TOOLTIP_CONFIRM"
+msgid ""
+"<b>This will eject any passengers and destroy the rocket.<b>\n"
+"\n"
+"The rocket's self-destruct sequence can be triggered to destroy it and "
+"propel fragments of the ship towards the nearest planetoid.\n"
+"\n"
+"Any Duplicants on board will be safely delivered in escape pods."
+msgstr ""
+"<b>Isso irá ejetar qualquer passageiro e destruir o foguete.<b>\n"
+"\n"
+"A sequência de autodestruição do foguete pode ser acionada para destruí-lo e "
+"impulsionar fragmentos da nave em direção ao planetoide mais próximo.\n"
+"\n"
+"Qualquer Duplicante a bordo será entregue com segurança em cápsulas de fuga."
+
+#. STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.MESSAGE_TEXT
+msgctxt "STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.MESSAGE_TEXT"
+msgid "EMERGENCY PROCEDURES"
+msgstr "PROCEDIMENTOS DE EMERGÊNCIA"
+
+#. STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.TITLE
+msgctxt "STRINGS.UI.UISIDESCREENS.SELFDESTRUCTSIDESCREEN.TITLE"
+msgid "Self Destruct"
+msgstr "Autodestruir"
 
 #. STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.PENDING_BUTTON
 msgctxt "STRINGS.UI.UISIDESCREENS.STUDYABLE_SIDE_SCREEN.PENDING_BUTTON"
@@ -91439,6 +91764,18 @@ msgstr ""
 msgctxt "STRINGS.WORLDS.WATERMOONLET.NAME"
 msgid "Water Asteroid"
 msgstr "Asteroide Água"
+
+#~ msgctxt "STRINGS.BUILDING.STATUSITEMS.FLUSHTOILET.NAME"
+#~ msgid "Lavatory Ready"
+#~ msgstr "Vaso Sanitário Pronto"
+
+#~ msgctxt "STRINGS.UI.SPACEARTIFACTS.GRUB_STATUE.DESCRIPTION"
+#~ msgid "Grub Grub"
+#~ msgstr "Lagalarta"
+
+#~ msgctxt "STRINGS.UI.SPACEARTIFACTS.HONEY_JAR.DESCRIPTION"
+#~ msgid "This doesn't taste like uranium"
+#~ msgstr "Isso não tem gosto de urânio"
 
 #~ msgctxt "STRINGS.BUILDING.STATUSITEMS.FRIDGECOOLING.TOOLTIP"
 #~ msgid "The contents of this food storage are still being cooled down."
